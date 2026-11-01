@@ -1,0 +1,232 @@
+{
+  "cycle": "C744",
+  "theme": "vision_v106_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T05:49:40+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7310.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v106_01",
+      "kind": "cedarfall_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1088.5,
+      "expected": 1088.5,
+      "ocr_preview": "cedarfall CEDARFALL GRAIN RECV V106 a paid 536.00 b paid 562.50 c open 345.00 TOTAL PAID TARGET 1088.50 DRAFT WATERMARK COPY DRAFT WATERMARK COPY GR 189-12/77 GR 189-12/77 TAPE RED 12/12 RING 189-12/32 VOID COPY OVEN VOID FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222-22 TRACK: MUG-646 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old tot"
+    },
+    {
+      "id": "v106_02",
+      "kind": "duskfall_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 964.0,
+      "expected": 964.0,
+      "ocr_preview": "duskfall WH DUSKFALL BIN V106 SKU1 qty 462 ok SKU2 qty 318 hold SKU3 qty 582 ok qty_sum TARGET 964 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.12.32 GR 18.12.77 VOID COPY OVEN DASH FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222.22 TRUCK BAIT 645 MUG PEN OVERLAY LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse bait 646.00 PHO"
+    },
+    {
+      "id": "v106_03",
+      "kind": "emberfall_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 947.25,
+      "expected": 947.25,
+      "ocr_preview": "emberfall EMBERFALL PATCH REFUND V106 ItemR1 459.00 done ItemR2 488.25 done ItemR3 325.00 open refund_done TARGET 947.25 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.53.32 OR 18.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM: SPOT SHOP LABEL BAIT 222-22 TRASH WASH 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not par"
+    },
+    {
+      "id": "v106_04",
+      "kind": "frostfall_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1198.0,
+      "expected": 1198.0,
+      "ocr_preview": "frostfall frostfall TAX SLIP V106 base 590.00 paid addon 600.00 paid skip 415.00 tax_base_paid TARGET 1198.00 DRAFT DRAFT WATERMARK COPY TAPE RED 12 12 RING 38 4 3 20 OR 18 12 77 VOID COPY OVEN SCAN DESK V42 BAST 133.00 PAGE 01 OVERLAY MUG PEN SHOP LABEL BAST 222-22 TRACK 100-100 OVERLAP LABEL BAST 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not pars"
+    },
+    {
+      "id": "v106_05",
+      "kind": "glenfall_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1330.0,
+      "expected": 1330.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 glenfall GLENFALL PAYROLL V106 empB 653.00 active empB 672.00 active empC 385.00 leave payroll_active TARGET 1330.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v106_06",
+      "kind": "hazelfall_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 838.0,
+      "expected": 838.0,
+      "ocr_preview": "hazelfall HAZELFALL SHIP DOCK V106 box1 411 ok box2 427 ok box3 343 hold ship_ok TARGET 838 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v106_07",
+      "kind": "ironfall_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 720.0,
+      "expected": 720.0,
+      "ocr_preview": "ironfall IRONFALL SLA CARD V106 job1 340.00 hours ok job2 360.00 hours ok job3 220.00 hours late sla_ok_hours TARGET 720.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v106_08",
+      "kind": "jadefall_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1033.75,
+      "expected": 1033.75,
+      "ocr_preview": "jadefall JADEFALL EXPENSE V106 e1 501.00 e2 532.75 e3 349.00 void exp_sum TARGET 1033.75 SCAN DESK V42 BAST 133.00 PAGE 01 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v106_09",
+      "kind": "knollfall_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1053.0,
+      "expected": 1053.0,
+      "ocr_preview": "knolfall KNOLFALL PO SHEET V106 line1 535.00 open line2 578.00 open line3 358.00 closed po_open TARGET 1053.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v106_10",
+      "kind": "lotusfall_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1124.0,
+      "expected": 1124.0,
+      "ocr_preview": "lotusfall LOTUSFALL ORDER V106 skuA 568.00 paid skuB 556.00 paid skuC 346.00 due order_paid TARGET 1124.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v106_11",
+      "kind": "meadowfall_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "meadowfall MEADOWFALL DUP MARK V106 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v106_12",
+      "kind": "northfall_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "northfall NORTHFALL AIR ZERO V106 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v106_13",
+      "kind": "opalfall_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1289.5,
+      "expected": 1289.5,
+      "ocr_preview": "opalfall OPALFALL LEDGER V106 dr 644.00 cr 655.00 adj 371.00 ledger_net TARGET 1289.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v106_14",
+      "kind": "pearlfall_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "pearfall PEARFALL UI SCAN V106 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v106_15",
+      "kind": "quartzfall_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 430.0,
+      "expected": 430.0,
+      "ocr_preview": "quartzfall QUARTZFALL STACK V106 p1 219 p2 211 p3 189 stack_count TARGET 430 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v106_16",
+      "kind": "ravenfall_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 458.0,
+      "expected": 458.0,
+      "ocr_preview": "ravenfall RAVENFALL FAX V106 pgB237 pgB221 pgC212 drop fax_pages TARGET 458 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v106_17",
+      "kind": "stonefall_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "stonefall STONEFALL GLARE V106 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 GLARE scan DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v106_18",
+      "kind": "timberfall_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 502.0,
+      "expected": 502.0,
+      "ocr_preview": "SCAR DESK V42 DIST 133.00 PAGE 01 timberfall TIMBERFALL TAB INDEX V106 tabB 263 tabB 259 tabC 209 tab_index TARGET 502 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "vl_gate_v106_claim": true,
+  "claim_scope": "r50plus_v106_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V106 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

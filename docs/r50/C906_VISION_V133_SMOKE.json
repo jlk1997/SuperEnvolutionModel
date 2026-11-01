@@ -1,0 +1,232 @@
+{
+  "cycle": "C906",
+  "theme": "vision_v133_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T10:42:40+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7315.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v133_01",
+      "kind": "ashhaven_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1561.5,
+      "expected": 1561.5,
+      "ocr_preview": "ashhaven ASHHAVEN GRAIN RECEV V133 a paid 772.00 b paid 789.50 c open 582.00 TOTAL PAID TARGET 1561.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v133_02",
+      "kind": "cedarhaven_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1480.0,
+      "expected": 1480.0,
+      "ocr_preview": "cedarhaven WH CEDARHAVEN BIN V133 SKU1 qty 730 ok SKU2 qty 570 hold SKU3 qty 750 ok qty_sum TARGET 1480 DRAFT WATERMARK COPY TAPE RED 12 12 RING 38 32 32 GR 18 12 77 VOID COPY OVEN DO NOT SCAN FAX HEADER BAIT 88 88 FROM: SPOT SHOP LABEL BAIT 222-22 TRACK 100-600 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646"
+    },
+    {
+      "id": "v133_03",
+      "kind": "dawnhaven_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1419.25,
+      "expected": 1419.25,
+      "ocr_preview": "SCAR DESK V42 BAST 133.00 PAGE 01 dawnhaven DAWNHAVEN PATCH REFUND V133 ItemR1 695.00 done ItemR2 724.25 done ItemR3 562.00 open refund_done TARGET 1419.25 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.12.32 GR 38.12.77 VOID COPY OVEN DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK C"
+    },
+    {
+      "id": "v133_04",
+      "kind": "elmhaven_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1673.0,
+      "expected": 1673.0,
+      "ocr_preview": "elmhaven ELMHAVEN TAX SLIP V133 base 828.00 paid addon 845.00 paid skip 652.00 tax_base_paid TARGET 1673.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v133_05",
+      "kind": "fernhaven_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1804.0,
+      "expected": 1804.0,
+      "ocr_preview": "fernhaven FERNHAVEN PAYROLL V133 empB 890.00 active empB 914.00 active empC 622.00 leave payroll_active TARGET 1804.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v133_06",
+      "kind": "glenhaven_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1312.0,
+      "expected": 1312.0,
+      "ocr_preview": "glenhaven GLENHAVEN SHIP DOCK V133 box1 648 ok box2 604 ok box3 580 hold ship_ok TARGET 1312 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v133_07",
+      "kind": "hazehaven_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 800.0,
+      "expected": 800.0,
+      "ocr_preview": "hazehaven HAZEHAVEN SLA CARD V133 job1 380.00 hours ok job2 420.00 hours ok job3 260.00 hours late sla_ok_hours TARGET 800.00 SHAPE tape red 12 12 tape red 12 12 tape red 12 12 tape red 12 12 tape red 12 12 tape red 12 12 tape red 12 12 tape red 12 12 tape red 12 12 tape red 12 12 tape red 12 12 tape red 12 12 tape red 12 12 tape red 12 12 tape red 12 1"
+    },
+    {
+      "id": "v133_08",
+      "kind": "inkhaven_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1507.75,
+      "expected": 1507.75,
+      "ocr_preview": "inkhaven INKHAVEN EXPENSE V133 e1 748.00 e2 2769.75 e3 586.00 void exp_sum TARGET 1507.75 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v133_09",
+      "kind": "jadehaven_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadehaven JADEHAVEN PO SHEET V133 line1 780.00 open line2 780.00 open line3 590.00 closed po_open TARGET 1520.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v133_10",
+      "kind": "knothaven_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1598.0,
+      "expected": 1598.0,
+      "ocr_preview": "knothaven KNOTHAVEN ORDER V133 skuA 805.00 paid skuB 798.00 paid skuC 583.00 due order_paid TARGET 1598.00 DRAFT WATERMARK COPY TAPE RED 12 12 RING 38 43 35 GR 18 12 77 VOID COPY OVEN FAX HEADER BAIT 88 88 FROM: SPOOF SHOP LABEL BAIT 222-22 TRADE WITH 646 MUG PEN OVERLAY LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHO"
+    },
+    {
+      "id": "v133_11",
+      "kind": "lakehaven_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakehaven LAKEHAVEN DUP MARK V133 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT DRAFT WATERMARK COPY GR 184-12/27 GR 184-12/27 TAPE R23 bait 12/12 VOID OVEN COPY MUG PEN FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 Trade mark: G405 OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 303.0"
+    },
+    {
+      "id": "v133_12",
+      "kind": "mosshaven_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "moshaven MOSSHAVEN AIR ZERO V133 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v133_13",
+      "kind": "netherhaven_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1763.5,
+      "expected": 1763.5,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 netherhaven NETHERHAVEN LEDGER V133 dr 891.00 cr 802.00 adj 608.00 ledger_net TARGET 1763.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v133_14",
+      "kind": "oakhaven_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakhaven OAKHAVEN UI SCAN V133 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v133_15",
+      "kind": "pinehaven_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 832.0,
+      "expected": 832.0,
+      "ocr_preview": "pinehaven pinehaven STACK V133 p1 420 p2 412 p3 390 stack_count TARGET 832 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v133_16",
+      "kind": "quillhaven_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 860.0,
+      "expected": 860.0,
+      "ocr_preview": "quillhaven QUILLHAVEN FAX V133 pg438 pgB 422 pgC 413 drip fax_pages TARGET 860 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v133_17",
+      "kind": "reedhaven_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedhaven REEDHAVEN GLARE V133 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 GLARE scan TAPE R23 bait 12.12 DRAFT DRAFT WATERMARK COPY RING 38.4.3.20 GR 18.12.77 VOID COPY OVEN BARCODE bait 123.40 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 TRASH BAIT 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse bait "
+    },
+    {
+      "id": "v133_18",
+      "kind": "stonehaven_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 904.0,
+      "expected": 904.0,
+      "ocr_preview": "stonehaven STONEHAVEN TAB INDEX V133 tabC 464 tabB 480 tabC 410 tab_index TARGET 904 CLEAR scan DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    }
+  ],
+  "vl_gate_v133_claim": true,
+  "claim_scope": "r50plus_v133_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V133 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

@@ -1,0 +1,232 @@
+{
+  "cycle": "C1254",
+  "theme": "vision_v191_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-22T09:15:20+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7316.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v191_01",
+      "kind": "ashcroft_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2641.5,
+      "expected": 2641.5,
+      "ocr_preview": "ashcroft ASHCROFT GRAIN RECV V191 a paid 1312.00 b paid 1829.50 c open 1122.00 TOTAL PAID TARGET 2641.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v191_02",
+      "kind": "cedarcroft_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "cedarcroft WH CEDARCROFT BIN V191 SKU1 qty 840 ok SKU2 qty 820 hold SKU3 qty 760 ok qty_sum TARGET 1600 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v191_03",
+      "kind": "dawncroft_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2499.25,
+      "expected": 2499.25,
+      "ocr_preview": "dawncroft DAWNCROFT PATCH REFUND V191 ItemR1 1235.00 done ItemR2 1264.25 done ItemR3 1105.00 open refund_done TARGET 2489.25 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.53.32.30 OR 88.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM:SPOTF SHOP LABEL BAIT 222.22 TRASH BAIT 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do "
+    },
+    {
+      "id": "v191_04",
+      "kind": "elmcroft_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2753.0,
+      "expected": 2753.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 elmcroft ELMCROFT TAX SLIP V191 base 1368.00 paid addon 1835.00 paid skip 1192.08 tax_base_paid TARGET 2753.00 BAST 133.00 DRAFT WATERMARK COPY TAPE REDS bait 12.12 GR 184.12.77 VOID COPY OVEN MUG PEN OVERLAP LABEL bait 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 503.00 FAX 123"
+    },
+    {
+      "id": "v191_05",
+      "kind": "ferncroft_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2884.0,
+      "expected": 2884.0,
+      "ocr_preview": "SCAR DESK V42 DIST 133.00 PAGE 01 ferncroft FERNCROFT PAYROLL V191 empA 1430.00 active empB 1454.00 active empC 1162.00 leave payroll_active TARGET 2884.00 DRAFT WATERMARK COPY TAPE RED 12 12 GR 18 12 77 VOID OVEN COPY MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOD WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 503.00 FAX HEADER BAIT "
+    },
+    {
+      "id": "v191_06",
+      "kind": "glencroft_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2392.0,
+      "expected": 2392.0,
+      "ocr_preview": "glencroft GLENcroft SHIP DOCK V191 box1 1188 ok box2 1204 ok box3 1120 fold ship_ok TARGET 2392 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v191_07",
+      "kind": "hazecroft_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1000.0,
+      "expected": 1000.0,
+      "ocr_preview": "hazcroft HAZCROFT SLA CARD V191 job1 480.00 hours ok job2 520.00 hours ok job3 710.00 hours late sla_ok_hours TARGET 1000.00 DRAFT WATERMARK COPY DRAFT DRAFT TAPE RED 333 333 RING 38 33 33 GR 33 33 33 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM: SPOTF SHOP LABEL BAIT 222-22 TRASH: MUG-C605 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VXO WIN IGNORE old total 999"
+    },
+    {
+      "id": "v191_08",
+      "kind": "inkcroft_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2587.75,
+      "expected": 2587.75,
+      "ocr_preview": "SCAN DESK V42 DIST 133.00 PAGE 01 inkcroft INKCROFT EXPENSE V191 e1 1278.00 e2 1309.25 e3 1126.00 void exp_sum TARGET 2587.75 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v191_09",
+      "kind": "jadecroft_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "jadcroft JADECROFT PO SHEET V191 line1 840.00 open line2 700.00 open line3 820.00 closed po_open TARGET 1600.00 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 Trade with: MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 505.00 FAX HEADER BAIT 1717 BARCODE bait 123 40 C1233 clarity "
+    },
+    {
+      "id": "v191_10",
+      "kind": "knotcroft_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2678.0,
+      "expected": 2678.0,
+      "ocr_preview": "knotcroft knotcroft ORDER V191 skuA 1345.00 paid skuB 1383.00 paid skuC 1123.00 due order_paid TARGET 2678.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v191_11",
+      "kind": "lakecroft_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakecroft LAKECROFT DUP MARK V191 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v191_12",
+      "kind": "mosscroft_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mosscroft MOSSCROFT AIR ZERO V191 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v191_13",
+      "kind": "nethercroft_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2843.5,
+      "expected": 2843.5,
+      "ocr_preview": "nethercroft NETHERCROFT LEDGER V191 dr 1431.00 cr 1432.00 adj 1148.00 ledger_net TARGET 2843.50 FAX HEADER BAIT 88.88 FROM: SPOTF SHOP LABEL BAIT 222.22 TRACK: WASH 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOD WIN IGNORE old total 999.00 do not parse baits 646.00 PHONE SHADOW baits 203.00 FAX HEADER BAIT 123.40 BARCODE bait 123.40 C123 clarity fax_pag_"
+    },
+    {
+      "id": "v191_14",
+      "kind": "oakcroft_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakcroft OAKCROFT UI SCAN V191 brk1 brSkip0 brBad0 ui_ek TARGET-1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v191_15",
+      "kind": "pinecroft_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1912.0,
+      "expected": 1912.0,
+      "ocr_preview": "pinecroft RINECROFT STACK V191 p1 950 p2 952 p3 930 stack_count TARGET 1912 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v191_16",
+      "kind": "quillcroft_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1940.0,
+      "expected": 1940.0,
+      "ocr_preview": "quillcroft QUILLCROFT FAX V191 pgB 978 pgB 902 pgC 748 drop fax_pages TARGET 1940 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v191_17",
+      "kind": "reedcroft_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedcroft REEDCROFT GLARE V191 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v191_18",
+      "kind": "stonecroft_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1984.0,
+      "expected": 1984.0,
+      "ocr_preview": "stonecroft STONECROFT TAB INDEX V191 tabB 1004 tabB 950 tabC 950 tab_index TARGET 1984 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    }
+  ],
+  "vl_gate_v191_claim": true,
+  "claim_scope": "r50plus_v191_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V191 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

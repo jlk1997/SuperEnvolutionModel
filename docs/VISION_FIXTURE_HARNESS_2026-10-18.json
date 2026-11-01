@@ -1,0 +1,48 @@
+{
+  "kind": "vision_fixture_harness",
+  "product": "蚁算-视",
+  "version": "0.2.5",
+  "gate": "0.6",
+  "timestamp": "2026-10-18T19:58:51+08:00",
+  "weights_local": false,
+  "vl_gate_claim": false,
+  "method": "schema_validate_only",
+  "schema": "docs/schemas/vision_use_log_event.json",
+  "fixture": "evo/office/fixtures/vision_use_log_fixture.jsonl",
+  "registry": "evo/office/fixtures/vision_atom_registry.json",
+  "n_events": 4,
+  "per_event": [
+    {
+      "index": 0,
+      "task_id": "viz-fix-001",
+      "modality": "image",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "index": 1,
+      "task_id": "viz-fix-001",
+      "modality": "image+text",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "index": 2,
+      "task_id": "viz-ui-001",
+      "modality": "text",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "index": 3,
+      "task_id": "viz-doc-001",
+      "modality": "image",
+      "ok": true,
+      "errors": []
+    }
+  ],
+  "all_events_valid": true,
+  "fake_scores": false,
+  "pass": true,
+  "notes": "Harness runs without VL weights. Validates schema + registry stubs only."
+}

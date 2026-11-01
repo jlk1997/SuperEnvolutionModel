@@ -1,0 +1,237 @@
+{
+  "cycle": "C979",
+  "theme": "vision_v145_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T17:26:16+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7867.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v145h_01",
+      "kind": "ashmere_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1536.75,
+      "expected": 1536.75,
+      "ocr_preview": "ashmere ASHMERE GRAIN RECV V145H a paid 762.00 b paid 774.75 c open 655.00 TOTAL PAID TARGET 1536.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC VOID COPY"
+    },
+    {
+      "id": "v145h_02",
+      "kind": "cedarmere_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "cedarmere WH CEDARMERE BIN V145H SKU1 qty 840 ok SKU2 qty 650 hold SKU3 qty 760 ok qty_sum TARGET 1600 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v145h_03",
+      "kind": "dawnmere_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1453.5,
+      "expected": 1453.5,
+      "ocr_preview": "dawnmere DAWNMERE PATCH REFUND V145H itemR1 720.00 done itemR2 733.50 done itemR3 643.00 open refund_done TARGET 1453.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID DONE COPY V145H C879 cavity floor prog_012 phone2 headset"
+    },
+    {
+      "id": "v145h_04",
+      "kind": "elmmere_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1686.0,
+      "expected": 1686.0,
+      "ocr_preview": "elmmere ELMMERE TAX SLIP V145H base 835.00 paid addon 851.00 paid skip 684.00 tax_base_paid TARGET 1686.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 88.00 IGNORE TAX COPY"
+    },
+    {
+      "id": "v145h_05",
+      "kind": "fernmere_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1768.0,
+      "expected": 1768.0,
+      "ocr_preview": "SCAN DESK V43H bast 222.00 PAGE 01 fernmere FERNMERE PAYROLL V145H empA 876.00 active empB 892.00 active empC 679.00 leave payroll_active TARGET 1768.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v145h_06",
+      "kind": "glenmere_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1354.0,
+      "expected": 1354.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 glenmere GLENMERE SHIP DOCK V145H box1 670 ok box2 684 ok box3 648 hold ship_ok TARGET 1354 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP VOID COPY V145Hx C879 cavity floor preg_0f2 phone2 handset"
+    },
+    {
+      "id": "v145h_07",
+      "kind": "hazemere_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 840.0,
+      "expected": 840.0,
+      "ocr_preview": "SCAN DESK V42H PART 222-00 PAGE 01 hazemere HAZEMERE SLA CARD V145H job1 400.00 hours ok job2 440.00 hours ok job3 340.00 hours late sla_ok_hours TARGET 840.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v145h_08",
+      "kind": "inkmere_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1513.75,
+      "expected": 1513.75,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 inkmere INKMERE EXPENSE V149H e1 746.00 e2 767.75 e3 655.00 void exp_sum TARGET 1513.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88."
+    },
+    {
+      "id": "v145h_09",
+      "kind": "jademere_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "jademere JADEMERE PO SHEET V145H line1 840.00 open line2 760.00 open line3 652.00 closed po_open TARGET 1600.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO COPY"
+    },
+    {
+      "id": "v145h_10",
+      "kind": "knotmere_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1572.0,
+      "expected": 1572.0,
+      "ocr_preview": "knotmere KNOTMERE ORDER V145H skuA 793.00 paid skuB 779.00 paid skuC 650.00 due order_paid TARGET 1572.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v145h_11",
+      "kind": "lakemere_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakemere LAKEMERE DUP MARK V145H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v145h_12",
+      "kind": "mossmere_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossmere MOSSMERE AIR ZERO V145H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v145h_13",
+      "kind": "nethermere_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1671.5,
+      "expected": 1671.5,
+      "ocr_preview": "nethermere NETHERMERE LEDGER V145H dr 828.00 cr 843.50 adj 665.00 ledger_net TARGET 1671.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE LED COPY V145h C879 cavity floor prog_012 photo2 netout"
+    },
+    {
+      "id": "v145h_14",
+      "kind": "oakmere_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakmere OAKMERE UI SCAN V145H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY V145H C879 cavity floor prog_012 phone2 handset"
+    },
+    {
+      "id": "v145h_15",
+      "kind": "pinemere_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1029.0,
+      "expected": 1029.0,
+      "ocr_preview": "pinemere PINEMERE STACK V145H p1 516 p2 513 p3 508 stack_count TARGET 1029 OKP bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID STK COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V145h C879 cavity floor prog_012 phone2 headset"
+    },
+    {
+      "id": "v145h_16",
+      "kind": "quillmere_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1058.0,
+      "expected": 1058.0,
+      "ocr_preview": "quillmere QUILLMERE FAX V145H pgA 532 pgB 526 pgC 514 drop fax_pages TARGET 1058 DRAFT DRAFT DRAFT DRAFT STICKY fax 99.99 IGNORE VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse fax 555.00 SCAN DESK V42H BAST 222.00 PAGE 01 V145H C879 cavity floor pag_q0 phone2 headset"
+    },
+    {
+      "id": "v145h_17",
+      "kind": "reedmere_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedmere REEDMERE GLARE V145H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v145h_18",
+      "kind": "stonemere_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1078.0,
+      "expected": 1078.0,
+      "ocr_preview": "stonomere STONEMERE TAB INDEX V145H tabA 542 tabB 536 tabC 515 tab_index TARGET 1078 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v145_heldout_claim": true,
+  "claim_scope": "r50plus_v145_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

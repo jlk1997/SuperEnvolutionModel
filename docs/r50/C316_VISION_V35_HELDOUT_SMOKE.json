@@ -1,0 +1,237 @@
+{
+  "cycle": "C316",
+  "theme": "vision_v35_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T19:19:23+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7836.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v35h_01",
+      "kind": "jade_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 69.5,
+      "expected": 69.5,
+      "ocr_preview": "SCAN DESK V35H BAST 222.00 PAGE 01 玉纹收款单H JADE GRAIN RECV V35 a paid 33.00 b paid 36.50 c open 13.00 TOTAL PAID TARGET 69.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE REC VOID COPY bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 b"
+    },
+    {
+      "id": "v35h_02",
+      "kind": "granite_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 58.0,
+      "expected": 58.0,
+      "ocr_preview": "SCAN DESK V35H BAST 222.00 PAGE 01 花周岩仓位单H WH GRANITE TILE V35 SKU1 qty 26 ok SKU2 qty 13 hold SKU3 qty 32 ok qty_sum TARGET 58 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v35h_03",
+      "kind": "suede_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 38.5,
+      "expected": 38.5,
+      "ocr_preview": "SCAN DESK V35H BAST 222.00 PAGE 01 橡皮补丁退款单H SUEDE PATCH REFUND V35 itemR1 18.00 done itemR2 20.50 done itemR3 8.00 open refund_done TARGET 38.50 VOID bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE DONE COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V35H C318 clarity floor peg_c0 photo2 textout"
+    },
+    {
+      "id": "v35h_04",
+      "kind": "bronze_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 99.0,
+      "expected": 99.0,
+      "ocr_preview": "青铜税基单H BRONZE TAX SLIP V35 base 48.00 paid addon 51.00 paid skip 22.00 tax_base_paid TARGET 99.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 98.00 IGNORE TAX VOID COPY V35H C310 clarity floor page_010 photo2 textout"
+    },
+    {
+      "id": "v35h_05",
+      "kind": "opal_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 130.0,
+      "expected": 130.0,
+      "ocr_preview": "SCAN DESK V35H BAST 222.00 PAGE 01 蛋白石工资单H OPAL PAYROLL V35 empA 64.00 active empB 66.00 active empC 18.00 leave payroll_active TARGET 130.00 VOID WIN IGNORE old total 888.00 do not parse balt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY balt 90.00 IGNORE PAY VOID COPY V35H C318 clarity floor pag_c00 photo2 textout"
+    },
+    {
+      "id": "v35h_06",
+      "kind": "hinge_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 31.0,
+      "expected": 31.0,
+      "ocr_preview": "SCAN DESK V35H BAST 222.00 PAGE 01 铰链发运单H HINGE SHIP DOCK V35 box1 16 ok box2 8 ok box3 12 hold ship_ok TARGET 31 VOID WIN IGNORE old total 888.00 do not parse balt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY balt 90.00 IGNORE SHIP VOID COPY V35H C318 clarity floor pag_c00 photo2 textout"
+    },
+    {
+      "id": "v35h_07",
+      "kind": "citrine_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 41.0,
+      "expected": 41.0,
+      "ocr_preview": "SCAN DESK V35H BAST 222.00 PAGE 01 黄水晶SLA卡H CITRINE SLA CARD V35 job1 22.00h ok job2 19.00h ok job3 10.00h late sla_ok_hours TARGET 41.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE SLA COPY V35H C310 clearly four page (20 photo2 textout"
+    },
+    {
+      "id": "v35h_08",
+      "kind": "basalt_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 52.25,
+      "expected": 52.25,
+      "ocr_preview": "SCAN DESK V35H BASLT 222.00 PAGE 01 玄武岩费用单H BASALT EXPENSE V35 e1 24.00 e2 28.25 e3 12.00 void exp_sum TARGET 52.25 VOID WIN IGNORE old total 888.00 do not parse balt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY balt 55.00 IGNORE EXP VOID COPY V35H C318 clarity floor pag_c010 photo2 textout"
+    },
+    {
+      "id": "v35h_09",
+      "kind": "pewter_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 60.0,
+      "expected": 60.0,
+      "ocr_preview": "SCAN DESK V35H BAST 222.00 PAGE 01 白锺采购单H PEWTER PO SHEET V35 line1 32.00 open line2 28.00 open line3 14.00 closed po_open TARGET 60.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v35h_10",
+      "kind": "vellum_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 74.5,
+      "expected": 74.5,
+      "ocr_preview": "羊皮纸订单H VELLUM ORDER V35 skuA 40.00 paid skuB 34.50 paid skuC 11.00 due order_paid TARGET 74.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE ORD VOID COPY V35H C318 clarity floor peg_010 photo2 testout"
+    },
+    {
+      "id": "v35h_11",
+      "kind": "fleece_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "城市重复标记H FLEECE DUP MARK V35 markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE DUP VOID COPY V35H C318 clarity floor peg_010 photo2 testout"
+    },
+    {
+      "id": "v35h_12",
+      "kind": "null_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "空值归零单H NULL VOID ZERO V35 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE ZERO VOID COPY"
+    },
+    {
+      "id": "v35h_13",
+      "kind": "burlap_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 115.0,
+      "expected": 115.0,
+      "ocr_preview": "麻袋账本H BURLAP LEDGER V35 dr 55.00 cr 60.00 adj 18.00 ledger_net TARGET 115.00 VOID WIN IGNORE old total 888.00 do not parse balt 555.00 STICKY balt 90.00 IGNORE DRAFT DRAFT DRAFT DRAFT LED VOID COPY V35H C318 clarity floor peg_c.jpg (photo2 netout"
+    },
+    {
+      "id": "v35h_14",
+      "kind": "porcelain_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "PORCELAIN UI SCAN V35 btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v35h_15",
+      "kind": "twine_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 5.0,
+      "expected": 5.0,
+      "ocr_preview": "SCAN DESK V35H PART 222.00 PAGE 01 麻绳堆清单H TWINE STACK V35 p1 2 p2 2 p3 1 stack_count TARGET 5 OLD bait 00.00 STICKY bait 00.00 IGNORE. DRAFT DRAFT DRAFT DRAFT VOID STK COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V35H C310 clarity floor pag.p010 photol2 textout"
+    },
+    {
+      "id": "v35h_16",
+      "kind": "mulberry_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 8.0,
+      "expected": 8.0,
+      "ocr_preview": "SCAN DESK V35H BAST 222.00 PAGE 01 墨皮传真单H MULBERRY FAX V35 pgA 4 pgB 4 pgC 2 drop fax_pages TARGET 8 VOID fax 00.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v35h_17",
+      "kind": "nickel_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V35H PART 222.00 PAGE 01 背面欧光单H NICKEL GLARE V35 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID COPY STICKY bait 99.00 IGNORE DRAFT DRAFT DRAFT DRAFT OLD bait 99.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V35H C310 clarity floor peg_p_g0 photo2 textout"
+    },
+    {
+      "id": "v35h_18",
+      "kind": "folio_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 10.0,
+      "expected": 10.0,
+      "ocr_preview": "对开页索引引H FOLIO TAB INDEX V35 tabA 6 tabB 4 tabC 1 tab_index TARGET 10 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE TAB VOID COPY V35H C310 clarity floor page_010 photo2 textout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v35_heldout_claim": true,
+  "claim_scope": "r50plus_v35_heldout_hlx_magclip_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 58,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

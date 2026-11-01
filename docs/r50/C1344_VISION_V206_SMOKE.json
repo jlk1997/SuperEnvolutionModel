@@ -1,0 +1,232 @@
+{
+  "cycle": "C1344",
+  "theme": "vision_v206_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-22T11:42:48+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7323.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v206_01",
+      "kind": "ashbrook_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2911.5,
+      "expected": 2911.5,
+      "ocr_preview": "ashbrook ASHBROOK GRAIN RECV V206 a paid 1447.00 b paid 1464.50 c open 1257.00 TOTAL PAID TARGET 2911.50 SHARE DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v206_02",
+      "kind": "cedarbrook_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "cedarbrook WH CEDARBROOK BIN V206 SKU1 qty 740 ok SKU2 qty 820 hold SKU3 qty 780 ok qty_sum TARGET 1820 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v206_03",
+      "kind": "dawnbrook_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2769.25,
+      "expected": 2769.25,
+      "ocr_preview": "dawnbrook DAWNBROOK PATCH REFUND V206 ItemR1 1370.00 done ItemR2 1299.25 done ItemR3 1237.00 open refund_done TARGET 2769.25 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.53.32 GR 38.12.77 VOID OVEN COPY MUG PEN OVERLAY LABEL bait 37 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 505.00 FAX HEADER BAIT 88.88 FROM: "
+    },
+    {
+      "id": "v206_04",
+      "kind": "elmbrook_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3023.0,
+      "expected": 3023.0,
+      "ocr_preview": "elmbrook ELMBROOK TAX SLIP V206 base 1503.00 paid addon 1620.00 paid skip 1327.00 tax_base_paid TARGET 3023.00 DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK CO"
+    },
+    {
+      "id": "v206_05",
+      "kind": "fernbrook_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3154.0,
+      "expected": 3154.0,
+      "ocr_preview": "fembrook fembrook PAYROLL V206 empB 1565.00 active empB 1569.00 active empC 1297.00 leave payroll_active TARGET 3154.00 DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 GR 189.12.77 GR 189.12.77 VOID COPY OVEN VOID FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222.22 TRADE MARK BAIT 222 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999"
+    },
+    {
+      "id": "v206_06",
+      "kind": "glenbrook_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2662.0,
+      "expected": 2662.0,
+      "ocr_preview": "glenbrook GLENBROOK SHIP DOCK V206 box1 1323 ok box2 1389 ok box3 1255 hold ship_ok TARGET 2662 DRAFT WATERMARK COPY TAPE R23 bait 12:12 RING 38433.35 GR 18122.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM: SPOTIFY SHIP LABEL BAIT 222-22 TRACK WITH: 6495 MUG PEN OVERLAY LABEL BAIT 327 DO NOT SCAN VODK WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE"
+    },
+    {
+      "id": "v206_07",
+      "kind": "hazebrook_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1000.0,
+      "expected": 1000.0,
+      "ocr_preview": "hazebrook HAZEBROOK SLA CARD V206 job1 480.00 hours ok job2 520.00 hours ok job3 730.00 hours late sla_ok_hours TARGET 1000.00 TAPE R03 bait 12.12 RING 38.4.3.20 GR 18.12.77 VOID OVEN COPY DRAFT WATERMARK COPY DR FAX HEADER BAIT 88.88 FROM:SPOTF SHOP LABEL BAIT 222.22 TRADE MARK: EAGLE MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999."
+    },
+    {
+      "id": "v206_08",
+      "kind": "inkbrook_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2857.75,
+      "expected": 2857.75,
+      "ocr_preview": "inkbrook INKBROOK EXPENSE V206 e1 1413.00 e2 1448.75 e3 1261.00 void exp_sum TARGET 2857.75 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v206_09",
+      "kind": "jadebrook_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadebrook JADEBROOK PO SHEET V206 line1 780.00 open line2 780.00 open line3 820.00 closed po_open TARGET 1520.00 SCAN DESK V42 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v206_10",
+      "kind": "knotbrook_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2948.0,
+      "expected": 2948.0,
+      "ocr_preview": "knotbrook KNOTBROOK ORDER V206 skuA 1480.00 paid skuB 1368.00 paid skuC 1258.00 due order_paid TARGET 2948.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v206_11",
+      "kind": "lakebrook_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakebrook lakebrook DUP MARK V206 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATER"
+    },
+    {
+      "id": "v206_12",
+      "kind": "mossbrook_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossbrook MOSSBROOK AIR ZERO V206 z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v206_13",
+      "kind": "netherbrook_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3113.5,
+      "expected": 3113.5,
+      "ocr_preview": "SCAN DESK V42 BEST 133.00 PAGE 01 netherbrook NETHERBROOK LEDGER V206 dr 1646.00 cr 1567.50 adj 1283.00 ledger_net TARGET 3113.50 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.3.30 GR 18.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 TRASH BAIT 646 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999."
+    },
+    {
+      "id": "v206_14",
+      "kind": "oakbrook_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakbrook OAKBROOK UI SCAN V206 brack 1 brSkip 0 brBad 0 ui_ok TARGET-1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v206_15",
+      "kind": "pinebrook_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2182.0,
+      "expected": 2182.0,
+      "ocr_preview": "pinebrook RINEBROOK STACK V206 p1 1095 p2 1087 p3 1065 stack_count TARGET 2182 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v206_16",
+      "kind": "quillbrook_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2210.0,
+      "expected": 2210.0,
+      "ocr_preview": "quillbrook QUILLBROOK FAX V206 pgB 1113 pgB 1007 pgC 748 drop fax_pages TARGET 2210 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v206_17",
+      "kind": "reedbrook_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedbrook REEDBROOK GLARE V206 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v206_18",
+      "kind": "stonebrook_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2254.0,
+      "expected": 2254.0,
+      "ocr_preview": "stonebrook STONEBROOK TAB INDEX V206 tabC 1139 tabB 1116 tabC 1085 tab_index TARGET 2254 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "vl_gate_v206_claim": true,
+  "claim_scope": "r50plus_v206_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V206 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

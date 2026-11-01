@@ -1,0 +1,232 @@
+{
+  "cycle": "C1062",
+  "theme": "vision_v159_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T22:14:23+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7551.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v159_01",
+      "kind": "ashhurst_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2065.5,
+      "expected": 2065.5,
+      "ocr_preview": "ashhurst ASHHURST GRAIN RECV V159 a paid 1024.00 b paid 1041.50 c open 834.00 TOTAL PAID TARGET 2065.50 DRAFT WATERMARK COPY GR 18912.77 GR 18912.77 TAPE R23 bait 12.12 VOID COPY OVEN VOID FAX HEADER BAIT 88.88 FROM: SPOTF SHOP LABEL BAIT 222.22 Trade mark: G405 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646"
+    },
+    {
+      "id": "v159_02",
+      "kind": "cedarhurst_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "SCAN DESK V42 DIST 133.00 PAGE 01 cedarhurst WH CEDARHURST BIN V159 SKU1 qty 840 ok SKU2 qty 690 hold SKU3 qty 760 ok qty_sum TARGET 1600 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v159_03",
+      "kind": "dawnhurst_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1923.25,
+      "expected": 1923.25,
+      "ocr_preview": "dawnhurst DAWNHURST PATCH REFUND V159 ItemR1 947.00 done ItemR2 976.25 done ItemR3 814.00 open refund_done TARGET 1923.25 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.53.25 OR 38.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222.22 TRACK WITH: MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse "
+    },
+    {
+      "id": "v159_04",
+      "kind": "elmhurst_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2177.0,
+      "expected": 2177.0,
+      "ocr_preview": "elmhurst ELMHURST TAX SLIP V159 base 1080.00 paid addon 1097.00 paid skip 904.00 tax_base_paid TARGET 2177.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v159_05",
+      "kind": "fernhurst_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2308.0,
+      "expected": 2308.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 fernhurst FERN@HURST PAYROLL V159 empB 1142.00 active empB 1166.00 active empC 874.00 leave payroll_active TARGET 2308.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v159_06",
+      "kind": "glenhurst_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1816.0,
+      "expected": 1816.0,
+      "ocr_preview": "glenhurst GLENHURST SHIP DOCK V159 box1 900 ok box2 976 ok box3 832 hold ship_ok TARGET 1816 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v159_07",
+      "kind": "hazehurst_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 960.0,
+      "expected": 960.0,
+      "ocr_preview": "hazehurst HAZEHURST SLA CARD V159 job1 460.00 hours ok job2 500.00 hours ok job3 380.00 hours late sla_ok_hours TARGET 960.00 DRAFT DRAFT WATERMARK COPY TAPE RED 12 12 RING 18 12 22 GR 18 12 77 VOID OVEN COPY PHONE SHADOW BARCODE 123 40 FAX HEADER BAIT 88.88 FROM: SPOTF SHOP LABEL BAIT 222-22 TRACK WITH: 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WI"
+    },
+    {
+      "id": "v159_08",
+      "kind": "inkhurst_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2011.75,
+      "expected": 2011.75,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 inkhurst INKHURST EXPENSE V159 e1 990.00 e2 1021.75 e3 838.00 void exp_sum TARGET 2011.75 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v159_09",
+      "kind": "jadehurst_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "jadehurst JADEHURST PO SHEET V159 line1 840.00 open line2 700.00 open line3 720.00 closed po_open TARGET 1600.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v159_10",
+      "kind": "knothurst_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2102.0,
+      "expected": 2102.0,
+      "ocr_preview": "knothurst KNOTHURST ORDER V159 skuA 1057.00 paid skuB 1045.00 paid skuC 835.00 due order_paid TARGET 2102.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v159_11",
+      "kind": "lakehurst_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakehurst LAKEHURST DUP MARK V159 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v159_12",
+      "kind": "mosshurst_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mosshurst MOSSHURST AIR ZERO V159 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v159_13",
+      "kind": "netherhurst_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2267.5,
+      "expected": 2267.5,
+      "ocr_preview": "SCAR DESK V42 BAST 133.00 PAGE 01 netherhurst NETHERHURST LEDGER V159 dr 1123.00 cr 1144.50 adj 860.00 ledger_net TARGET 2267.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v159_14",
+      "kind": "oakhurst_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakhurst OAKHURST UI SCAN V159 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v159_15",
+      "kind": "pinehurst_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1336.0,
+      "expected": 1336.0,
+      "ocr_preview": "pinehurst RINEHURST STACK V159 p1 672 p2 664 p3 642 stack_count TARGET 1336 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v159_16",
+      "kind": "quillhurst_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1364.0,
+      "expected": 1364.0,
+      "ocr_preview": "quillhurst QUILLHURST FAX V159 pg690 pgB 674 pgC 665 drip fax_pages TARGET 1364 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v159_17",
+      "kind": "reedhurst_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedhurst SEEDHURST GLARE V159 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v159_18",
+      "kind": "stonehurst_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1408.0,
+      "expected": 1408.0,
+      "ocr_preview": "stonehurst STONEHURST TAB INDEX V159 tabC 716 tabB 692 tabC 662 tab_index TARGET 1408 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    }
+  ],
+  "vl_gate_v159_claim": true,
+  "claim_scope": "r50plus_v159_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V159 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

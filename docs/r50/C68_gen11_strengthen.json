@@ -1,0 +1,68 @@
+{
+  "kind": "r50plus_c68_gen11_strengthen",
+  "timestamp": "2026-10-18T23:04:32+08:00",
+  "seal_opened": false,
+  "ready_to_open": false,
+  "go_open_seal": false,
+  "prep_complete": true,
+  "near_ceiling": 0.99,
+  "signals": [
+    {
+      "src": "c62",
+      "metric": "replace_agent_score",
+      "value": 1.0,
+      "near_ceiling": true
+    },
+    {
+      "src": "c67",
+      "metric": "replace_agent_score",
+      "value": 1.0,
+      "near_ceiling": true
+    },
+    {
+      "src": "c67",
+      "metric": "stress_rate",
+      "value": 1.0,
+      "near_ceiling": true
+    },
+    {
+      "src": "c63",
+      "metric": "v2_smoke_rate",
+      "value": 1.0,
+      "near_ceiling": true
+    },
+    {
+      "src": "c65b",
+      "metric": "v2_heldout_rate",
+      "value": 1.0,
+      "near_ceiling": true
+    },
+    {
+      "src": "gen11_fresh",
+      "metric": "fresh_rate",
+      "value": null,
+      "near_ceiling": false,
+      "note": "seal closed; no fresh measured"
+    }
+  ],
+  "checklist": {
+    "rule_preregistered": true,
+    "packs_code_present": true,
+    "seal_loader_present": true,
+    "config_present": true,
+    "open_heldout_false": true,
+    "seal_file_absent": true,
+    "near_ceiling_threshold": 0.99,
+    "fresh_measured": false,
+    "fresh_near_ceiling": false,
+    "valuable_now": false,
+    "go_open_seal": false,
+    "permission_error_when_closed": true
+  },
+  "closed_error_sample": "the gen11 held-out packs are sealed",
+  "decision": "HOLD",
+  "reason": "Branch B heritability requires measured fresh>=0.99 on sealed gen11 packs. Other boards near-ceiling=True but fresh unmeasured → seal stays closed.",
+  "innovation": "Strengthen gen11 prep with explicit burn HOLD + unlock criteria; no seal burn",
+  "gate2_3_untouched": true,
+  "rule": "gate3_gen11_heritability_rule"
+}

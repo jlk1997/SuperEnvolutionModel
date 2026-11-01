@@ -1,0 +1,232 @@
+{
+  "cycle": "C1314",
+  "theme": "vision_v201_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-22T11:03:17+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7308.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v201_01",
+      "kind": "ashwick_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2821.5,
+      "expected": 2821.5,
+      "ocr_preview": "ashwick ASHWICK GRAIN RECV V201 a paid 1402.00 b paid 1419.50 c open 1212.00 TOTAL PAID TARGET 2821.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v201_02",
+      "kind": "cedarwick_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "cedarwick WH CEDARWICK BIN V201 SKU1 qty 840 ok SKU2 qty 820 hold SKU3 qty 760 ok qty_sum TARGET 1600 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT TAPE R23 bait 12 12 RING 38 43 35 OR 18 12 77 VOID COPY OVEN FAX HEADER BAIT 88 88 FROM: SPOTF SHOP LABEL BAIT 222-22 TRACK 100 100 MUG PEN OVERLAY LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not pars"
+    },
+    {
+      "id": "v201_03",
+      "kind": "dawnwick_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2679.25,
+      "expected": 2679.25,
+      "ocr_preview": "dawnwick DAWNWICK PATCH REFUND V201 ItemR1 1325.00 done ItemR2 1354.25 done ItemR3 1159.00 open refund_done TARGET 2679.25 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v201_04",
+      "kind": "elmwick_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2933.0,
+      "expected": 2933.0,
+      "ocr_preview": "elmwick ELM Wick TAX SLIP V201 base 1458.00 paid addon 1475.00 paid skip 1282.00 tax_base_paid TARGET 2933.00 DRAFT WATERMARK COPY TAPE R23 bait 12:12 RING 38:12:30 OR 18:12:77 VOID COPY OVEN FAX HEADER BAIT 88:88 FROM: SPOTIFY SHIP LABEL BAIT 222:22 Trade with: GOLF MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse bai"
+    },
+    {
+      "id": "v201_05",
+      "kind": "fernwick_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3064.0,
+      "expected": 3064.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 fernwick FERNWICK PAYROLL V201 empB 1520.00 active empB 1544.00 active empC 1252.00 leave payroll_active TARGET 3064.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v201_06",
+      "kind": "glenwick_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2572.0,
+      "expected": 2572.0,
+      "ocr_preview": "SCAN DESK V42 BEST 133.00 PAGE 01 glenwick GLENWICK SHIP DOCK V201 box1 1278 ok box2 1284 ok box3 1210 hold ship_ok TARGET 2572 DRAFT WATERMARK COPY TAPE RED 3 bait 12 12 RING 38 32 32 GR 38 32 77 VOID COPY OVEN FAX HEADER BAIT 88 88 FROM: SPOT SHIP LABEL BAIT 222-22 TRACK 38 32 32 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 d"
+    },
+    {
+      "id": "v201_07",
+      "kind": "hazewick_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1000.0,
+      "expected": 1000.0,
+      "ocr_preview": "hazewick HAZEWICK SLA CARD V201 job1 480.00 hours ok job2 520.00 hours ok job3 720.00 hours late sla_ok_hours TARGET 1000.00 SHAPE scan DRAFT DRAFT WATERMARK COPY TAPE RED 12 12 RING 38 43 35 GR 18 12 77 VOID COPY OVEN FAX HEADER BAIT 88 88 FROM: SPOK SHOP LABEL BAIT 222-22 TRUCK WASH 646 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 9"
+    },
+    {
+      "id": "v201_08",
+      "kind": "inkwick_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2767.75,
+      "expected": 2767.75,
+      "ocr_preview": "inkwick INKWICK EXPENSE V201 e1 1068.00 e2 1399.25 e3 1216.00 void exp_sum TARGET 2767.75 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v201_09",
+      "kind": "jadewick_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "SCAN DESK V42 BEST 133.00 PAGE 01 jadewick JADEWICK PO SHEET V201 line1 840.00 open line2 700.00 open line3 820.00 closed po_open TARGET 1600.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v201_10",
+      "kind": "knotwick_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2858.0,
+      "expected": 2858.0,
+      "ocr_preview": "knotwick NOTWICK ORDER V201 skuA 1435.00 paid skuB 1893.00 paid skuC 1213.00 due order_paid TARGET 2858.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v201_11",
+      "kind": "lakewick_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakewick LAKEWICK DUP MARK V201 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v201_12",
+      "kind": "mosswick_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mosswick MOSSWICK AIR ZERO V201 z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN GRAN"
+    },
+    {
+      "id": "v201_13",
+      "kind": "netherwick_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3023.5,
+      "expected": 3023.5,
+      "ocr_preview": "netherwick NETHERWICK LEDGER V201 dr 1001.00 cr 1522.50 adj 1238.00 ledger_net TARGET 3023.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v201_14",
+      "kind": "oakwick_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakwick OAKWICK UI SCAN V201 brick 1 brSkip 0 brBad 0 ui_ok TARGET-1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v201_15",
+      "kind": "pinewick_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2092.0,
+      "expected": 2092.0,
+      "ocr_preview": "pinewick RINEWICK STACK V201 p1 1050 p2 1042 p3 1020 stack_count TARGET 2092 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v201_16",
+      "kind": "quillwick_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2120.0,
+      "expected": 2120.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 quillwick QUILLWICK FAX V201 pgB 1068 pgB 1062 pgC 748 drip fax_pages TARGET 2120 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v201_17",
+      "kind": "reedwick_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedwick REEDWICK GLARE V201 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v201_18",
+      "kind": "stonewick_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2164.0,
+      "expected": 2164.0,
+      "ocr_preview": "SCAR DESK V42 DIST 133.00 PAGE 01 stonewick STONEWICK TAB INDEX V201 tabB 1094 tabB 1070 tabC 1040 tab_index TARGET 2164 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    }
+  ],
+  "vl_gate_v201_claim": true,
+  "claim_scope": "r50plus_v201_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V201 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

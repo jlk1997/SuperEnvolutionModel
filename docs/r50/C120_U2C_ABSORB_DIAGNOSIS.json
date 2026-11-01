@@ -1,0 +1,141 @@
+{
+  "cycle": "C120",
+  "theme": "diagnose_u2c_trained_0p33_to_0",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T03:04:01+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "timeline": [
+    {
+      "id": "C108",
+      "n_train": 9,
+      "n_eval": 3,
+      "trained_rate": 0.3333,
+      "note": "tiny eval, partial format+luck"
+    },
+    {
+      "id": "C114",
+      "n_train": 73,
+      "n_eval": 9,
+      "trained_rate": 0.0,
+      "note": "large_float_amounts mix"
+    },
+    {
+      "id": "C114b",
+      "n_train": 59,
+      "n_eval": 9,
+      "trained_rate": 0.0,
+      "note": "c103_scale retry still 0"
+    }
+  ],
+  "root_causes": [
+    {
+      "id": "data_mix",
+      "severity": "high",
+      "detail": "C114 large-float CSV filter-sum domain; harder OOD vs C108 tiny set. Scaling pairs without tool supervision amplified wrong arithmetic."
+    },
+    {
+      "id": "model_ceiling",
+      "severity": "high",
+      "detail": "1.5B LoRA learns output schema (key=value) but not reliable status-filter arithmetic. format_ok≈9/9, arith still wrong."
+    },
+    {
+      "id": "grader",
+      "severity": "medium",
+      "detail": "Exact gold match; near-miss sums count as 0. Not a soft-numeric money grader. Explains cliff but not wrong magnitude (e.g. 130→2986)."
+    },
+    {
+      "id": "adapter_load",
+      "severity": "low",
+      "detail": "Adapters on disk; trained preds differ from bare (format improved, numbers still wrong) → adapter DID load. Not a silent bare-fallback.",
+      "adapter_status": {
+        "c108": {
+          "exists": true,
+          "files": [
+            "README.md",
+            "memory",
+            "policy",
+            "scratch",
+            "u2c_office_table_c108"
+          ]
+        },
+        "c114": {
+          "exists": true,
+          "files": [
+            "README.md",
+            "memory",
+            "policy",
+            "scratch",
+            "u2c_office_table_c114"
+          ]
+        },
+        "c114b": {
+          "exists": true,
+          "files": [
+            "README.md",
+            "memory",
+            "policy",
+            "scratch",
+            "u2c_office_table_c114b"
+          ]
+        }
+      }
+    }
+  ],
+  "evidence_samples": {
+    "bare_pred_examples": [
+      {
+        "gold": "paid_total=130.84",
+        "pred": "paid_total=90.84"
+      },
+      {
+        "gold": "refund_done=74.03",
+        "pred": "refund_done=4"
+      },
+      {
+        "gold": "qty_sum=137.00",
+        "pred": "qty_sum=87.0"
+      }
+    ],
+    "trained_pred_examples": [
+      {
+        "gold": "paid_total=130.84",
+        "pred": "paid_total=2986.41"
+      },
+      {
+        "gold": "refund_done=74.03",
+        "pred": "refund_done=41.34"
+      },
+      {
+        "gold": "qty_sum=137.00",
+        "pred": "qty_sum=1223.00"
+      }
+    ],
+    "format_ok_count": 9,
+    "arith_wrong_count": 9
+  },
+  "grader": {
+    "style": "exact_or_float_key_value",
+    "tolerance_observed": "none_or_tight_on_gold_string",
+    "note": "preds often correct KEY= format but wrong numeric sum → all fail grader"
+  },
+  "recommendation": {
+    "product": "tool_backed_sum_for_money_math",
+    "absorb_claim": false,
+    "keep": "crystal/reuse path rate 1.0; dense prefers bare",
+    "do_not": "fake absorb gate; reopen Gate2/3; open gen11"
+  },
+  "ceiling_ref": {
+    "documented": true,
+    "trained_rate": 0.0,
+    "gate": 0.6,
+    "c108_prior": 0.3333,
+    "c114_large_float_rate": 0.0,
+    "c114b_small_scale_rate": 0.0,
+    "reason": "1.5B LoRA on status-filter CSV arithmetic remains below 0.6 on heldout despite more pairs/epochs; large-float variant collapsed to 0",
+    "recommendation": "keep crystal/reuse path (rate 1.0); adapter optional for text U2C; do not claim absorb gate; prefer tool-backed sum for production money math"
+  },
+  "pass": true,
+  "claim": false,
+  "note": "Diagnosis only. Confirms 0.33→0.0 is domain+ceiling, not missing adapter. No new absorb claim."
+}

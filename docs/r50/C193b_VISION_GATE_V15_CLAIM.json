@@ -1,0 +1,14 @@
+{
+  "kind": "vision_gate_v15_claim",
+  "timestamp": "2026-10-19T06:59:27+08:00",
+  "vl_gate_v15_claim": true,
+  "rate": 1.0,
+  "n": 18,
+  "n_ok": 18,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v13_crumple_highlight_sticky_fold_coffee_bleed_cyan_fax_n>=16_c162_parse_qwen35_2b_c183",
+  "gate2_3_untouched": true,
+  "v0_v14_untouched": true,
+  "gen11": "HOLD",
+  "cycle": "C193"
+}

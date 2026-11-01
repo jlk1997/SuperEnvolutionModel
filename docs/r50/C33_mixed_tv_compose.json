@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "chain": [
+    "vision_table_ocr",
+    "office_table_uselog",
+    "office_report_uselog"
+  ],
+  "agent_graph": false,
+  "timestamp": "2026-10-18T22:31:06+08:00",
+  "innovation": "Mixed text+vision compose"
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "r50plus_c90_docs_checkpoint",
+  "timestamp": "2026-10-19T01:12:09+08:00",
+  "batch": "C83-C90",
+  "ocr_weak_bare_rate": 0.0,
+  "ocr_weak_lora_rate": 0.0,
+  "ocr_weak_delta": 0.0,
+  "lora_decision": "LORA_NEUTRAL_WEAK_OCR_PREFER_BARE",
+  "product_default": "bare",
+  "e2e_pass": true,
+  "shadow_u2c_pass": true,
+  "gen11_decision": "HOLD",
+  "tesseract_feasible": false,
+  "ocr_recommended": "vl",
+  "gate": 0.6,
+  "gate2_3_untouched": true
+}

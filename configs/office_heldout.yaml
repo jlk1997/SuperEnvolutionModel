@@ -1,0 +1,21 @@
+# Opens the sealed packs. actor model is the transfer measurement; reference only burns the seal.
+run_name: office_heldout
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 0
+actor: model
+open_heldout: true
+reason: milestone gate 3, first unsealing of grades and roster
+heldout_items: 2
+dev_items: 2
+difficulty: 1
+write_gate: true
+seal_path: runs/heldout_seal.json
+max_steps: 4
+exec_timeout: 12
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: full
+max_seq_len: 1024
+max_new_code: 120
+outer_lr: 0.0005

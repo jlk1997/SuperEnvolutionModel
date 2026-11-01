@@ -1,0 +1,168 @@
+{
+  "cycle": "C194",
+  "theme": "capture_office_regression",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T06:59:40+08:00",
+  "readme_ok": true,
+  "readme_mentions_cli": true,
+  "cli_ok": true,
+  "cli_detail": {
+    "returncode": 0,
+    "paid_got": 16.5,
+    "paid_ok": true,
+    "match_paid": true,
+    "stdout_tail": "{\"ok\": true, \"paid_got\": 16.5, \"errors\": [], \"pass\": true}\n",
+    "stderr_tail": ""
+  },
+  "money_ok": true,
+  "csv_ok": true,
+  "parse_ok": true,
+  "pointer_ok": 23,
+  "pointer_n": 23,
+  "pointer_rate": 1.0,
+  "pointer_rows": [
+    {
+      "name": "V4",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C101_VISION_V4_MULTIHOP.json"
+    },
+    {
+      "name": "V4_heldout",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C107_VISION_V4_HELDOUT.json"
+    },
+    {
+      "name": "V5",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C121_VISION_V5_SMOKE.json"
+    },
+    {
+      "name": "V5_heldout",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C126_VISION_V5_HELDOUT_SMOKE.json"
+    },
+    {
+      "name": "V6",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C132_VISION_V6_SMOKE.json"
+    },
+    {
+      "name": "V6_heldout",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C138_VISION_V6_HELDOUT_SMOKE.json"
+    },
+    {
+      "name": "V7",
+      "ok": true,
+      "rate": 0.75,
+      "path": "docs/r50/C144_VISION_V7_SMOKE.json"
+    },
+    {
+      "name": "V7_heldout",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C150_VISION_V7_HELDOUT_SMOKE.json"
+    },
+    {
+      "name": "V8",
+      "ok": true,
+      "rate": 0.7222,
+      "path": "docs/r50/C155_VISION_V8_SMOKE.json"
+    },
+    {
+      "name": "V8_heldout_refresh",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C162_V8H02_UNGLUE_REPARSE.json"
+    },
+    {
+      "name": "V9",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C163_VISION_V9_SMOKE.json"
+    },
+    {
+      "name": "V9_heldout",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C164_VISION_V9_HELDOUT_SMOKE.json"
+    },
+    {
+      "name": "V10",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C167_VISION_V10_SMOKE.json"
+    },
+    {
+      "name": "V10_heldout",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C171_VISION_V10_HELDOUT_SMOKE.json"
+    },
+    {
+      "name": "V11",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C173_VISION_V11_SMOKE.json"
+    },
+    {
+      "name": "V11_heldout",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C175_VISION_V11_HELDOUT_SMOKE.json"
+    },
+    {
+      "name": "V12",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C180_V12_FAIL_FIX_RETEST.json"
+    },
+    {
+      "name": "V12_heldout",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C181_VISION_V12_HELDOUT_SMOKE.json"
+    },
+    {
+      "name": "V13",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C183_VISION_V13_SMOKE.json"
+    },
+    {
+      "name": "V13_heldout",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C186_VISION_V13_HELDOUT_SMOKE.json"
+    },
+    {
+      "name": "V14",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C188_VISION_V14_SMOKE.json"
+    },
+    {
+      "name": "V14_heldout",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C191_VISION_V14_HELDOUT_SMOKE.json"
+    },
+    {
+      "name": "V15",
+      "ok": true,
+      "rate": 1.0,
+      "path": "docs/r50/C193_VISION_V15_SMOKE.json"
+    }
+  ],
+  "pass": true,
+  "claim": false,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "note": "Capture README regression + V4-V15 pointer sweep; no new VL claim"
+}

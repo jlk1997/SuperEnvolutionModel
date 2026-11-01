@@ -1,0 +1,50 @@
+{
+  "kind": "vl_weights_inventory",
+  "product": "蚁算-视",
+  "timestamp": "2026-10-18T20:37:44+08:00",
+  "gate": "0.6",
+  "vl_weights_found": true,
+  "hits": [
+    {
+      "path": "E:/envolution/models/Qwen3.5-2B",
+      "name": "Qwen3.5-2B",
+      "pipeline_tag": "image-text-to-text",
+      "processor_class": "Qwen3VLProcessor",
+      "architectures": [
+        "Qwen3_5ForConditionalGeneration"
+      ],
+      "has_safetensors": true,
+      "has_preprocessor": true,
+      "has_video_preprocessor": true,
+      "has_vision_config": true,
+      "weights_complete": true,
+      "size_bytes": 4548221488,
+      "office_vl_candidate": true,
+      "notes": "Previous inventory misclassified as text-only. README pipeline_tag=image-text-to-text; Unified Vision-Language Foundation."
+    }
+  ],
+  "incomplete_or_non_vl": [
+    {
+      "path": "E:/envolution/models/Qwen3.5-0.8B",
+      "reason": "missing model.safetensors (incomplete download)"
+    },
+    {
+      "path": "E:/envolution/models/Qwen2.5-1.5B-Instruct",
+      "reason": "text-only Instruct"
+    },
+    {
+      "path": "E:/envolution/models/Qwen2.5-0.5B-Instruct",
+      "reason": "text-only Instruct"
+    },
+    {
+      "path": "E:/models/lingbot-world-v2",
+      "reason": "world model, not office VL"
+    }
+  ],
+  "weights_local": true,
+  "vl_gate_claim": false,
+  "epoch_d_train_unlocked": true,
+  "recommended_weights": "E:/envolution/models/Qwen3.5-2B",
+  "pass": true,
+  "notes": "UNLOCK: Qwen3.5-2B is local office-capable VL. vl_gate_claim stays false until honest V0 smoke + gate>=0.6."
+}

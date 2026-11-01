@@ -1,0 +1,232 @@
+{
+  "cycle": "C1086",
+  "theme": "vision_v163_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T22:59:26+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7550.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v163_01",
+      "kind": "ashdale_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2137.5,
+      "expected": 2137.5,
+      "ocr_preview": "ashdale ASHDALE GRAIN RECV V163 a paid 1060.00 b paid 1077.50 c open 870.00 TOTAL PAID TARGET 2137.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v163_02",
+      "kind": "cedardale_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "cedardale WH CEDARDALE BIN V163 SKU01 qty 840 ok SKU2 qty 730 hold SKU3 qty 760 ok qty_sum TARGET 1600 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v163_03",
+      "kind": "dawndale_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1995.25,
+      "expected": 1995.25,
+      "ocr_preview": "dawndale DAWNDALE PATCH REFUND V163 ItemR1 983.00 done ItemR2 1012.25 done ItemR3 850.00 open refund_done TARGET 1995.25 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v163_04",
+      "kind": "elmdale_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2249.0,
+      "expected": 2249.0,
+      "ocr_preview": "elmdale ELMDALE TAX SLIP V163 base 1116.00 paid addon 1433.00 paid skip 940.00 tax_base_paid TARGET 2249.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v163_05",
+      "kind": "ferndale_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2380.0,
+      "expected": 2380.0,
+      "ocr_preview": "ferndale FERNDALE PAYROLL V163 empB 1178.00 active empB 1602.00 active empC 910.00 leave payroll_active TARGET 2380.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v163_06",
+      "kind": "glendale_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1888.0,
+      "expected": 1888.0,
+      "ocr_preview": "glendale GLENDALE SHIP DOCK V163 box1 936 ok box2 958 ok box3 868 hold ship_ok TARGET 1888 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v163_07",
+      "kind": "hazedale_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 960.0,
+      "expected": 960.0,
+      "ocr_preview": "hazedale HAZEDALE SLA CARD V163 job1 460.00 hours ok job2 500.00 hours ok job3 420.00 hours late sla_ok_hours TARGET 960.00 SHAPE scan DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v163_08",
+      "kind": "inkdale_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2083.75,
+      "expected": 2083.75,
+      "ocr_preview": "SCAN DESK V42 DIST 133.00 PAGE 01 inkdale INKDALE EXPENSE V163 e1 1026.00 e2 1057.25 e3 874.00 void exp_sum TARGET 2083.75 DRAFT WATERMARK COPY TAPE RED 335 12 12 RING 384 12 32 GR 384 12 77 VOID COPY OVEN OVERLAY LABEL bait 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 503.00 FAX HEADER bait 88.88 FROM: SP"
+    },
+    {
+      "id": "v163_09",
+      "kind": "jadedale_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "jadedale JADEDALE PO SHEET V163 line1 840.00 open line2 700.00 open line3 700.00 closed po_open TARGET 1600.00 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 TRACK WITH: MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse baft 666.00 PHONE SHADOW baft 303.00 FAX BAIT 123.45 BARCODE bait 123.45 DRAFT WATERMARK COPY"
+    },
+    {
+      "id": "v163_10",
+      "kind": "knotdale_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2174.0,
+      "expected": 2174.0,
+      "ocr_preview": "knotdale KNOTDALE ORDER V163 skuA 1093.00 paid skuB 1081.00 paid skuC 871.00 due order_paid TARGET 2174.00 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.43.32 GR 38.12.77 VOID COPY OVEN DO NOT SCAN VOD WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 303.00 FAX 123.17 BARCODE bait 123.40 SCAN DESK V42 BEST 233.00 PAGE 01"
+    },
+    {
+      "id": "v163_11",
+      "kind": "lakedale_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 lakedale LAKEDALE DUP MARK V163 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v163_12",
+      "kind": "mossdale_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossdale MOSSDALE AIR ZERO V163 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v163_13",
+      "kind": "netherdale_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2339.5,
+      "expected": 2339.5,
+      "ocr_preview": "netherdale NETHERDALE LEDGER V163 dr 1159.00 cr 1180.50 adj 896.00 ledger_net TARGET 2339.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v163_14",
+      "kind": "oakdale_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakdale OAKDALE UI SCAN V163 brack 1 brSkip 0 brBad 0 ui_ok TARGET-1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v163_15",
+      "kind": "pinedale_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1408.0,
+      "expected": 1408.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 pinedale PINEDALE STACK V163 p1 708 p2 700 p3 678 stack_count TARGET 1408 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v163_16",
+      "kind": "quilldale_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1436.0,
+      "expected": 1436.0,
+      "ocr_preview": "quilldale QUILDLALE FAX V163 pgB26 pgB 710 pgC 701 drop fax_pages TARGET 1436 SCAN DESK V42 DIST 333.00 PAGE 01 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v163_17",
+      "kind": "reeddale_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reeddale REEDDALE GLARE V163 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v163_18",
+      "kind": "stonedale_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1480.0,
+      "expected": 1480.0,
+      "ocr_preview": "stonedale STONEDALE TAB INDEX V163 tabB 752 tabB 728 tabC 698 tab_index TARGET 1480 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    }
+  ],
+  "vl_gate_v163_claim": true,
+  "claim_scope": "r50plus_v163_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V163 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

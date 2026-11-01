@@ -1,0 +1,30 @@
+﻿# Evolve the trainer on real Qwen2.5-1.5B lives.
+# Each generation shares one set of training rules. Held-out rules are never trained or scored during evolution.
+# After the last generation: hand trainer, evolved trainer from birth (Baldwin), evolved trainer from the
+# best training life's weights (Lamarck), all on the held-out rules.
+run_name: evoplast_evolve
+stage: evolve
+seed: 0
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: attn_mlp
+max_seq_len: 256
+max_new_code: 128
+birth_new: 256
+icl_new: 256
+skill_mode: shown
+birth_rule: unmastered
+life_primer: add6
+life_target: 0.9
+life_cap: 72
+check_every: 1
+max_slots: 2
+es_kind: openai
+es_pairs: 2
+es_gens: 3
+es_sigma: 0.6
+es_lr: 1.0
+evolve_k: 2
+write: true

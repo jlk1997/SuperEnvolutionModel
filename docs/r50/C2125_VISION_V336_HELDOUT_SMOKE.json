@@ -1,0 +1,237 @@
+{
+  "cycle": "C2125",
+  "theme": "vision_v336_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-29T14:26:23+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 3096.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v336h_01",
+      "kind": "ashwick_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4280.75,
+      "expected": 4280.75,
+      "ocr_preview": "ashwick ASHWICK GRAIN RECV V336H a paid 2134.00 b paid 2146.75 c open 1995.00 TOTAL PAID TARGET 4280.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY bait 88.00 bait 88.00 V336H C21:25 early from prog_00C prog02 testout SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v336h_02",
+      "kind": "cedarwick_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1300.0,
+      "expected": 1300.0,
+      "ocr_preview": "cedarwick WH CEDARWICK BIN V336H SKU1 qty 640 ok SKU2 qty 820 hold SKU3 qty 660 ok qty_sum TARGET 1300 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v336h_03",
+      "kind": "dawnwick_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4168.5,
+      "expected": 4168.5,
+      "ocr_preview": "dawnwick DAWNWICK PATCH REFUND V336H itemR1 2077.00 done itemR2 2091.50 done itemR3 1970.00 open refund_done TARGET 4168.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DONE VOID COPY V336H C21:25 clarity from prog_30C photoC testout"
+    },
+    {
+      "id": "v336h_04",
+      "kind": "elmwick_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4430.0,
+      "expected": 4430.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 elmwick ELMWICK TAX SLIP V336H base 2207.00 paid addon 2223.00 paid skip 2026.00 tax_base_paid TARGET 4430.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v336h_05",
+      "kind": "fernwick_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4497.0,
+      "expected": 4497.0,
+      "ocr_preview": "SCAN DESK V43H BASC 222.00 PAGE 01 fernwick FERNWICK PAYROLL V336H empA 2243.00 active empB 2254.00 active empC 2019.00 leave payroll_active TARGET 4497.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v336h_06",
+      "kind": "glenwick_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4072.0,
+      "expected": 4072.0,
+      "ocr_preview": "glenwick GLENWICK SHIP DOCK V336H box1 2030 ok box2 2042 ok box3 1992 hold ship_ok TARGET 4072 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP COPY V336H C21:25 clarity from prog_20C photoC2 twistoc"
+    },
+    {
+      "id": "v336h_07",
+      "kind": "hazewick_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 880.0,
+      "expected": 880.0,
+      "ocr_preview": "hazewick HAZEWICK SLA CARD V336H job1 420.00 hours ok job2 460.00 hours ok job3 740.00 hours late sla_ok_hours TARGET 880.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 VOID COPY bait 88.00 bait 555.00 V336H C21:25 early from preg_00C photoC twistout"
+    },
+    {
+      "id": "v336h_08",
+      "kind": "inkwick_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4257.75,
+      "expected": 4257.75,
+      "ocr_preview": "inkwick #KWICK EXPENSE V336H e1 2118.00 e2 2139.75 e3 1995.00 void exp_sum TARGET 4257.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v336h_09",
+      "kind": "jadewick_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadewick JADEWICK PO SHEET V336H line1 740.00 open line2 780.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO VOID COPY V336H C21:25 clarity from prog_00C photoC twistout"
+    },
+    {
+      "id": "v336h_10",
+      "kind": "knotwick_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4316.0,
+      "expected": 4316.0,
+      "ocr_preview": "knotwick KNOTWICK ORDER V336H skuA 2165.00 paid skuB 2151.00 paid skuC 1992.00 due order_paid TARGET 4316.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD bait 88.00 VOID COPY V336H C21:25 early from preg_00C photoC knotwick SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v336h_11",
+      "kind": "lakewick_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakewick LAKEWICK DUP MARK V336H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait $555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v336h_12",
+      "kind": "mosswick_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mosswick MOSSWICK AIR ZERO V336H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v336h_13",
+      "kind": "netherwick_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4415.5,
+      "expected": 4415.5,
+      "ocr_preview": "netherwick NETHERWICK LEDGER V336H dr 2200.00 cr 2215.50 adj 2005.00 ledger_net TARGET 4415.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY V336H C21:25 clarity from prog_00C prog02 testout"
+    },
+    {
+      "id": "v336h_14",
+      "kind": "oakwick_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakwick OAKWICK UI SCAN V336H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY V336H C21:25 early from prog_00C progC testout"
+    },
+    {
+      "id": "v336h_15",
+      "kind": "pinewick_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2355.0,
+      "expected": 2355.0,
+      "ocr_preview": "pinewick PINEWICK STACK V336H p1 1180 p2 1175 p3 1168 stack_count TARGET 2355 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V336H C2:25 early from prog_0C prog_0C testout"
+    },
+    {
+      "id": "v336h_16",
+      "kind": "quillwick_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2374.0,
+      "expected": 2374.0,
+      "ocr_preview": "SCAN DESK V40H BAST 222.00 PAGE 01 quillwick QUILLWICK FAX V336H pgA 1190 pgB 1184 pgC 1172 drop fax_pages TARGET 2374 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v336h_17",
+      "kind": "reedwick_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedwick REEDWICK GLARE V336H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY V336H C21:25 clarity from preg_glare photoC testout"
+    },
+    {
+      "id": "v336h_18",
+      "kind": "stonewick_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2346.0,
+      "expected": 2346.0,
+      "ocr_preview": "stonewick STONEWICK TAB INDEX V336H tabA 1176 tabB 1170 tabC 1149 tab_index TARGET 2346 VOID WIN IGNORE old total 888.00 do not parse bait $55.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v336_heldout_claim": true,
+  "claim_scope": "r50plus_v336_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

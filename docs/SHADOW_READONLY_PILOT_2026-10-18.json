@@ -1,0 +1,46 @@
+{
+  "kind": "shadow_readonly_pilot",
+  "product": "蚁算模型",
+  "gate": "0.6",
+  "actor": "scripted",
+  "gpu": false,
+  "vl": false,
+  "root": "E:\\envolution\\runs\\shadow_readonly_pilot",
+  "sandbox": "E:\\envolution\\runs\\shadow_readonly_pilot\\sandbox",
+  "outside": "E:\\envolution\\runs\\shadow_readonly_pilot\\outside",
+  "timestamp": "2026-10-18T19:47:31+08:00",
+  "seed_files": [
+    "book.csv",
+    "notes.txt",
+    "meta.json"
+  ],
+  "seed_digests": {
+    "book.csv": "5c6e32bd9fe357f3de2997e74379045ca7f767581dcc6b704f6ccafd9849166a",
+    "notes.txt": "b27b49ff406a74b33bbbf519fa09b8aeeac17dd3e471b2cc1af9d0253b5a76e3",
+    "meta.json": "a735d8f48f1b9c53718b3e0f7c218f7a07e71e660e0652bffff49d007541a7b5"
+  },
+  "contracts": {
+    "multi_file_inventory_read": true,
+    "seed_digests_intact": true,
+    "shadow_no_durable_write": true,
+    "escape_refused": true,
+    "audit_present": true,
+    "beyond_smoke": true,
+    "read_only_pilot": true
+  },
+  "inventory": {
+    "ok": true,
+    "read_events": 3,
+    "read_paths": []
+  },
+  "shadow": {
+    "ok_check": false,
+    "probe_exists": false,
+    "write_events": 1
+  },
+  "escape": {
+    "outside_escape_exists": false
+  },
+  "pass": true,
+  "notes": "Beyond SHADOW_SMOKE: multi-file read inventory on designated folder; shadow write blocked; escape refused; no VL."
+}

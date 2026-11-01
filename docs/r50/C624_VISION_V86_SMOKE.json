@@ -1,0 +1,232 @@
+{
+  "cycle": "C624",
+  "theme": "vision_v86_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T00:27:23+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7375.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v86_01",
+      "kind": "mapletide_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 826.5,
+      "expected": 826.5,
+      "ocr_preview": "mapletide MAPLETIDE GRAIN RECV V86 a paid 406.00 b paid 400.50 c open 217.00 TOTAL PAID TARGET 826.50 FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222-22 TRACK WITH: 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 503.00 FAX header 123.17 BARCODE bait 123.40 DRAFT WATERMARK COPY "
+    },
+    {
+      "id": "v86_02",
+      "kind": "nutmetide_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 734.0,
+      "expected": 734.0,
+      "ocr_preview": "nutmetide WH NUTMETIDE BIN V86 SKU1 qty 353 ok SKU2 qty 237 hold SKU3 qty 381 ok qty_sum TARGET 734 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v86_03",
+      "kind": "olivetide_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 687.25,
+      "expected": 687.25,
+      "ocr_preview": "olivetide OLIVETIDE PATCH REFUND V86 Item1 329.00 done ItemR2 558.25 done ItemR3 199.00 open refund_done TARGET 687.25 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v86_04",
+      "kind": "pinotide_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 938.0,
+      "expected": 938.0,
+      "ocr_preview": "pinotide PINOTIDE TAX SLIP V86 base 460.00 paid addon 428.00 paid skip 265.00 tax_base_paid TARGET 938.00 DRAFT WATERMARK COPY TAPE RE3 bait 12.12 RING 38.4.3.20 GR 18.12.77 VOID COPY OVEN DO NOT SCAN VOD WIN IGNORE old total 999.00 do not parse bait 646.00 FAX HEADER BAIT 88.88 FROM: SPOK SHOP LABEL BAIT 222.22 TRACK 100.00 MUG PEN OVERLAP LABEL BAIT 327 PH"
+    },
+    {
+      "id": "v86_05",
+      "kind": "quartztide_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1070.0,
+      "expected": 1070.0,
+      "ocr_preview": "quartztide QUARTZTIDE PAYROLL V86 empB 523.00 active empB 547.00 active empC 255.00 leave payroll_active TARGET 1070.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v86_06",
+      "kind": "raventide_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 578.0,
+      "expected": 578.0,
+      "ocr_preview": "raventide RAVENTIDE SHIP DOCK V86 box1 281 ok box2 297 ok box3 213 hold ship_ok TARGET 578 DRAFT WATERMARK COPY TAPE R23 bait 12 12 RING 38 4 12 32 GR 18 12 77 VOID COPY OVEN DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 FAX HEADER BAIT 88 88 FROM: SPOT SHIP LABEL BAIT 222-22 TRUCK BAIT 646 MUG PEN OVERLAP LABEL BAIT 327 PHONE SHADOW "
+    },
+    {
+      "id": "v86_07",
+      "kind": "silvertide_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 707.5,
+      "expected": 707.5,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 silvertide SILVERTIDE SLA CARD V86 job1 359.00 hours ok job2 349.50 hours ok job3 200.00 hours late sla_ok_hours TARGET 707.50 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.3.20 GR 18.12.77 VOID COPY OVEN DO NOT SCAN FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222.22 TRUCK BAIT 645 MUG PEN OVERLAY LABEL BAIT 327 VCH"
+    },
+    {
+      "id": "v86_08",
+      "kind": "thorntide_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 773.75,
+      "expected": 773.75,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 thorntide THORNTIDE EXPENSE V86 e1 371.00 e2 402.75 e3 219.00 void exp_sum TARGET 773.75 GLUE scan DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v86_09",
+      "kind": "umbertideb_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 793.0,
+      "expected": 793.0,
+      "ocr_preview": "umbertideb umbertideb PO SHEET V86 line1 405.00 open line2 308.00 open line3 228.00 closed po_open TARGET 793.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v86_10",
+      "kind": "vinetide_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 864.0,
+      "expected": 864.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 vinetide VINETIDE ORDER V86 skuA 438.00 paid skuB 426.00 paid skuC 216.00 due order_paid TARGET 864.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v86_11",
+      "kind": "wavetide_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "wavetide WAVETIDE DUP MARK V86 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v86_12",
+      "kind": "xenotide_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 xenotide XENOTIDE AIR ZERO V86 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v86_13",
+      "kind": "yewtide_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1029.5,
+      "expected": 1029.5,
+      "ocr_preview": "yewtide yewtide LEDGER V86 dr 504.00 cr 525.00 adj 241.00 ledger_net TARGET 1029.50 DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRA"
+    },
+    {
+      "id": "v86_14",
+      "kind": "zirctide_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "zirctide ZIRCTIDE UI SCAN V86 brack 1 bnSkip 0 bnBad 0 ui_ok TARGET-1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v86_15",
+      "kind": "aldertide_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 210.0,
+      "expected": 210.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 aldertide ALDERTIDE STACK V86 p1 109 p2 101 p3 79 stack_count TARGET 210 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v86_16",
+      "kind": "birchtide_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 238.0,
+      "expected": 238.0,
+      "ocr_preview": "birchtide BIRCHTIDE FAX V86 pg427 pgB 117 pgC 102 drop fax_pages TARGET 238 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v86_17",
+      "kind": "cedartide_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "cedartide CEDARTIDE GLARE V86 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v86_18",
+      "kind": "dusktide_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 282.0,
+      "expected": 282.0,
+      "ocr_preview": "dusktide DUSKTIDE TAB INDEX V86 tabB 153 tabB 128 tabC 99 tab_index TARGET 282 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    }
+  ],
+  "vl_gate_v86_claim": true,
+  "claim_scope": "r50plus_v86_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V86 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

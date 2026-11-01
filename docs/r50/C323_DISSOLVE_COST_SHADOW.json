@@ -1,0 +1,67 @@
+{
+  "cycle": "C323",
+  "theme": "dissolve_cost_shadow_strengthen",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T00:53:13+08:00",
+  "dissolve": {
+    "pass": true,
+    "families": {
+      "table": {
+        "bare": 1.0,
+        "D": 0.0,
+        "internalized": true,
+        "bare_clears_gate": true
+      },
+      "report": {
+        "bare": 1.0,
+        "D": 0.0,
+        "internalized": true,
+        "bare_clears_gate": true
+      },
+      "file": {
+        "bare": 1.0,
+        "D": 0.0,
+        "internalized": true,
+        "bare_clears_gate": true
+      },
+      "shell": {
+        "bare": 1.0,
+        "D": 0.0,
+        "internalized": true,
+        "bare_clears_gate": true
+      }
+    },
+    "summary": {
+      "n_families": 4,
+      "all_found": true,
+      "all_bare_clears_gate": true,
+      "all_dissolution_le_005": true,
+      "pass": true
+    }
+  },
+  "cost_ledger": {
+    "dual_steps_mean": 9.125,
+    "agent_steps_mean": 5.625,
+    "dual_fail_mean": 0.28125,
+    "agent_fail_mean": 0.875,
+    "replace_mean_ratio": 0.6164,
+    "step_delta_agent_minus_dual": -3.5
+  },
+  "cost_pass": true,
+  "replace_stress": {
+    "mean_ratio": 4.1625,
+    "bare_rate": 1.0,
+    "agent_rate": 0.875,
+    "rate": 1.0,
+    "pass": true
+  },
+  "shadow": {
+    "pass": true,
+    "attempted": true
+  },
+  "pass": true,
+  "claim": false,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "note": "Non-vision strengthen; does not mint Gate2/3 or VL claims"
+}

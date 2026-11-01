@@ -1,0 +1,237 @@
+{
+  "cycle": "C1621",
+  "theme": "vision_v252_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-25T04:05:46+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7540.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v252h_01",
+      "kind": "ashdale_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3908.75,
+      "expected": 3908.75,
+      "ocr_preview": "ashdale ASHDALE GRAIN RECV V252H a paid 1948.00 b paid 1960.75 c open 1809.00 TOTAL PAID TARGET 3908.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY V252H C-1821 clearly from preg_25C programC testout"
+    },
+    {
+      "id": "v252h_02",
+      "kind": "cedardale_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "cedardale WH CEDARDALE BIN V252H SKU1 qty 740 ok SKU2 qty 820 hold SKU3 qty 780 ok qty_sum TARGET 1520 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V252H C-1821 clearly from preg_2EC photoC testout"
+    },
+    {
+      "id": "v252h_03",
+      "kind": "dawndale_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3796.5,
+      "expected": 3796.5,
+      "ocr_preview": "dawndale DAWNDALE PATCH REFUND V252H itemR1 1891.00 done itemR2 1905.50 done itemR3 1784.00 open refund_done TARGET 3796.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DONE VOID COPY V252H C-1821 clarity from preg_32C prologue2 testout SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v252h_04",
+      "kind": "elmdale_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4058.0,
+      "expected": 4058.0,
+      "ocr_preview": "elmdale ELMDALE TAX SLIP V252H base 2021.00 paid addon 2037.00 paid skip 1840.00 tax_base_paid TARGET 4058.00 OKP tax 00.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 00.00 IGNORE VOID TAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V252H C-1821 clarity from preg_25C photoC testout"
+    },
+    {
+      "id": "v252h_05",
+      "kind": "ferndale_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4140.0,
+      "expected": 4140.0,
+      "ocr_preview": "SCAN DESK V43H b22:00 PAGE 01 ferndale FERNDALE PAYROLL V252H empA 2062.00 active empB 2078.00 active empC 1833.00 leave payroll_active TARGET 4140.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v252h_06",
+      "kind": "glendale_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3700.0,
+      "expected": 3700.0,
+      "ocr_preview": "glendale GLENDALE SHIP DOCK V252H box1 1844 ok box2 1856 ok box3 1802 holds ship_ok TARGET 3700 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP COPY V252H C-1821 clarity from preg_32C progC testout"
+    },
+    {
+      "id": "v252h_07",
+      "kind": "hazedale_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222-00 PAGE 01 hazedale HAZEDALE SLA CARD V252H job1 360.00 hours ok job2 400.00 hours ok job3 730.00 hours late sla_ok_hours TARGET 760.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE COPY"
+    },
+    {
+      "id": "v252h_08",
+      "kind": "inkdale_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3885.75,
+      "expected": 3885.75,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 inkdale INKDALE EXPENSE V252H e1 1932.00 e2 1953.75 e3 1809.00 void exp_sum TARGET 3885.75 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID EXP COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V252H C-1821 clarity from preg_25C progC testout"
+    },
+    {
+      "id": "v252h_09",
+      "kind": "jadedale_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadedale JADEDALE PO SHEET V252H line1 780.00 open line2 740.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO VOID COPY V252H C-1821 clearly from preg_30C photoC testout"
+    },
+    {
+      "id": "v252h_10",
+      "kind": "knotdale_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3944.0,
+      "expected": 3944.0,
+      "ocr_preview": "knotdale KNOTDALE ORDER V252H skuA 1979.00 paid skuB 1965.00 paid skuC 1804.00 due order_paid TARGET 3944.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY SCAN DESK V43H bait 222.00 PAGE 01 V252H C-1821 clearly from preg_25C prodC testout"
+    },
+    {
+      "id": "v252h_11",
+      "kind": "lakedale_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakedale LAKEDALE DUP MARK V252H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 886.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v252h_12",
+      "kind": "mossdale_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossdale MOSSDALE AIR ZERO V252H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID ZERO COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V252H C-1821 clearly from preg_25C photoC testout"
+    },
+    {
+      "id": "v252h_13",
+      "kind": "netherdale_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4043.5,
+      "expected": 4043.5,
+      "ocr_preview": "netherdale NETHERDALE LEDGER V252H dr 2014.00 cr 2029.50 adj 1819.00 ledger_net TARGET 4043.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v252h_14",
+      "kind": "oakdale_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakdale OAKDALE UI SCAN V252H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY V252H C-1021 clarity from preg_32C prologueC testout"
+    },
+    {
+      "id": "v252h_15",
+      "kind": "pinedale_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2355.0,
+      "expected": 2355.0,
+      "ocr_preview": "pinedale PINEDALE STACK V252H p1 1180 p2 1175 p3 1168 stack_count TARGET 2355 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V252H C-1821 clarity from preg_32C pinedale2 testout"
+    },
+    {
+      "id": "v252h_16",
+      "kind": "quilldale_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2374.0,
+      "expected": 2374.0,
+      "ocr_preview": "quilldale QUILDLALE FAX V252H pgA 1190 pgB 1184 pgC 1172 drop fax_pages TARGET 2374 DRAFT DRAFT DRAFT DRAFT VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V252H C-1821 clarity from pgC photoC testout"
+    },
+    {
+      "id": "v252h_17",
+      "kind": "reeddale_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reeddale REEDDALE GLARE V252H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse belt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY belt 88.00 IGNORE GLR VOID COPY belt 88.00 V252H C-1021 clarify from preg_25C programC testout"
+    },
+    {
+      "id": "v252h_18",
+      "kind": "stonedale_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2346.0,
+      "expected": 2346.0,
+      "ocr_preview": "stonedale STONEDALE TAB INDEX V252H tabA 1176 tabB 1170 tabC 1149 tab_index TARGET 2346 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v252_heldout_claim": true,
+  "claim_scope": "r50plus_v252_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

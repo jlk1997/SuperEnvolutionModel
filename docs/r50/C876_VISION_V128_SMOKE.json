@@ -1,0 +1,232 @@
+{
+  "cycle": "C876",
+  "theme": "vision_v128_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T09:43:56+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v128_01",
+      "kind": "ashmoor_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1467.5,
+      "expected": 1467.5,
+      "ocr_preview": "ashmoor ASHMOOR GRAIN RECV V128 a paid 725.00 b paid 742.50 c open 535.00 TOTAL PAID TARGET 1467.50 DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WA"
+    },
+    {
+      "id": "v128_02",
+      "kind": "cedarmoor_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1380.0,
+      "expected": 1380.0,
+      "ocr_preview": "cedarmoor WH CEDARMOOR BIN V128 SKU01 qty 680 ok SKU2 qty 520 hold SKU3 qty 700 ok qty_sum TARGET 1380 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v128_03",
+      "kind": "dawnmoor_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1325.25,
+      "expected": 1325.25,
+      "ocr_preview": "dawnmoor DAWNMOOR PATCH REFUND V128 ItemR1 648.00 done ItemR2 677.25 done ItemR3 515.00 open refund_done TARGET 1325.25 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.53.25 GR 18.12.77 VOID COPY OVEN VOID FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 TRACK WITH: MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not par"
+    },
+    {
+      "id": "v128_04",
+      "kind": "elmmoor_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1579.0,
+      "expected": 1579.0,
+      "ocr_preview": "elmmoor ELMMOOR TAX SLIP V128 base 781.00 paid addon 780.00 paid skip 605.00 tax_base_paid TARGET 1579.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v128_05",
+      "kind": "fernmoor_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1710.0,
+      "expected": 1710.0,
+      "ocr_preview": "fernmoor fernmoor PAYROLL V128 empB 843.00 active empB 867.00 active empC 575.00 leave payroll_active TARGET 1710.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v128_06",
+      "kind": "glenmoor_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1218.0,
+      "expected": 1218.0,
+      "ocr_preview": "glenmoor GLENMOOR SHIP DOCK V128 box1 601 ok box2 617 ok box3 533 hold ship_ok TARGET 1218 SCAN DESK V42 BAST 133.00 PAGE 01 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v128_07",
+      "kind": "hazemoor_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 720.0,
+      "expected": 720.0,
+      "ocr_preview": "hazemoor HAZEMOOR SLA CARD V128 job1 340.00 hours ok job2 360.00 hours ok job3 220.00 hours late sla_ok_hours TARGET 720.00 DRAFT DRAFT WATERMARK COPY TAPE RED3 bait 12.12 RING 38.4.12.30 GR 18.12.77 VOID COPY OVEN SLA FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 TRACK WITH: 0000 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old tota"
+    },
+    {
+      "id": "v128_08",
+      "kind": "inkmoor_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1413.75,
+      "expected": 1413.75,
+      "ocr_preview": "inkmoor INKMOOR EXPENSE V128 e1 601.00 e2 722.75 e3 539.00 void exp_sum TARGET 1413.75 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v128_09",
+      "kind": "jademoor_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1433.0,
+      "expected": 1433.0,
+      "ocr_preview": "jademoor JADEMOOR PO SHEET V128 line1 725.00 open line2 708.00 open line3 548.00 closed po_open TARGET 1433.00 DRAFT WATERMARK COPY TAPE REDS bait 12 12 GR 188 12 77 VOID COPY OVEN PHONE SHADOW BARCODE bait 123 40 SCAN DESK V42 BEST 133.00 PAGE 01 FAX HEADER BAIT 88 88 FROM: SPOOF SHOP LABEL BAIT 222-22 TRAP: MUG-600 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCA"
+    },
+    {
+      "id": "v128_10",
+      "kind": "knotmoor_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1504.0,
+      "expected": 1504.0,
+      "ocr_preview": "knotmoor knotmoor ORDER V128 skuA 758.00 paid skuB 756.00 paid skuC 536.00 due order_paid TARGET 1504.00 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.3.25 GR 18.22.77 VOID COPY OVEN DO NOT SCAN FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 Trace: WHT 640 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse"
+    },
+    {
+      "id": "v128_11",
+      "kind": "lakemoor_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakemoor LAKEMOOR DUP MARK V128 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v128_12",
+      "kind": "mossmoor_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossmoor MOSSMOOR AIR ZERO V128 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v128_13",
+      "kind": "nethermoor_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1669.5,
+      "expected": 1669.5,
+      "ocr_preview": "nethermoor NETHERMOOR LEDGER V128 dr 845.00 cr 845.00 adj 561.00 ledger_net TARGET 1669.50 DRAFT WATERMARK COPY TAPE RED 12.12 RING 38.4.12.30 GR 12.12.77 VOID COPY OVEN DRAFT FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 Trade: MUG 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse baits 666.00 PHONE SHAD"
+    },
+    {
+      "id": "v128_14",
+      "kind": "oakmoor_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakmoor OAKMOOR UI SCAN V128 brack 1 brnSkip 0 brnBad 0 ui_ek TARGET-1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v128_15",
+      "kind": "pinemoor_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 738.0,
+      "expected": 738.0,
+      "ocr_preview": "pinemoor RINEMOOR STACK V128 p1 343 p2 365 p3 343 stack_count TARGET 738 DRAFT WATERMARK COPY TAPE RED 12 12 RING 38 4 12 32 GR 18 12 77 VOID COPY OVEN FAX HEADER BAIT 88 88 FROM: SPOT SHOP LABEL BAIT 222-22 TRASH: MUG, PEN MUG OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse baits 646.00 PHONE SHADOW baits 505.00 FAX HEADER B"
+    },
+    {
+      "id": "v128_16",
+      "kind": "quillmoor_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 766.0,
+      "expected": 766.0,
+      "ocr_preview": "quillmoor QUILLMOOR FAX V128 pgB 391 pgB 375 pgC 366 drip fax_pages TARGET 766 SHARE scan DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v128_17",
+      "kind": "reedmoor_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedmoor REEDMOOR GLARE V128 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK.COM TAPE R23 bait 12.12 RING 38.4.3.20 GR 18.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222.22 Trade with 6495 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 503.00 FAX 123"
+    },
+    {
+      "id": "v128_18",
+      "kind": "stonemoor_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 810.0,
+      "expected": 810.0,
+      "ocr_preview": "stonemoor STONEMOOR TAB INDEX V128 tabC 417 tabB 394 tabC 363 tab_index TARGET 810 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "vl_gate_v128_claim": true,
+  "claim_scope": "r50plus_v128_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V128 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

@@ -1,0 +1,128 @@
+{
+  "kind": "external_local_model_score",
+  "gate": "0.6",
+  "model": "E:\\envolution\\models\\Qwen2.5-1.5B-Instruct",
+  "timestamp": "2026-10-18T18:48:07+08:00",
+  "benches": {
+    "serve_learn": {
+      "ok": true,
+      "bench_id": "serve_learn",
+      "local_path": "E:\\envolution\\data\\external_fixtures\\serve_learn_local.json",
+      "n_eval": 4,
+      "rate": 0.5,
+      "pass_gate": false,
+      "upstream_claim": false,
+      "rows": [
+        {
+          "id": "sl5",
+          "task": "Book says 20, API ok sum is 17. Absolute gap to POST /v1/reconcile?",
+          "gold": "3",
+          "pred": "3",
+          "em": 1.0
+        },
+        {
+          "id": "sl6",
+          "task": "Auth missing returns 401. Correct Authorization header value for token abc?",
+          "gold": "Bearer abc",
+          "pred": "Authorization: Bearer abc",
+          "em": 1.0
+        },
+        {
+          "id": "sl7",
+          "task": "Date style dmy. Order date 05/03/2024 means which ISO day-month order tip: day first?",
+          "gold": "2024-03-05",
+          "pred": "dd/MM/YYYY",
+          "em": 0.0
+        },
+        {
+          "id": "sl8",
+          "task": "POST /v1/reconcile body must be JSON with key total. Minimal body for total 42?",
+          "gold": "{\"total\": 42}",
+          "pred": "```json",
+          "em": 0.0
+        }
+      ]
+    },
+    "evo_arena": {
+      "ok": true,
+      "bench_id": "evo_arena",
+      "local_path": "E:\\envolution\\data\\external_fixtures\\evo_arena_local.json",
+      "n_eval": 4,
+      "rate": 0.25,
+      "pass_gate": false,
+      "upstream_claim": false,
+      "rows": [
+        {
+          "id": "ea5",
+          "task": "Arena: 3*3. A=6 B=9. Winner letter?",
+          "gold": "B",
+          "pred": "X",
+          "em": 0.0
+        },
+        {
+          "id": "ea6",
+          "task": "Arena: water freezes C. A=0 B=100. Winner letter?",
+          "gold": "A",
+          "pred": "C",
+          "em": 0.0
+        },
+        {
+          "id": "ea7",
+          "task": "Arena: len(hello). A=5 B=4. Winner letter?",
+          "gold": "A",
+          "pred": "C",
+          "em": 0.0
+        },
+        {
+          "id": "ea8",
+          "task": "Arena: odd among 2,4,7. A=7 B=4. Winner letter?",
+          "gold": "A",
+          "pred": "A",
+          "em": 1.0
+        }
+      ]
+    },
+    "path_bench": {
+      "ok": true,
+      "bench_id": "path_bench",
+      "local_path": "E:\\envolution\\data\\external_fixtures\\path_bench_local.json",
+      "n_eval": 4,
+      "rate": 0.5,
+      "pass_gate": false,
+      "upstream_claim": false,
+      "rows": [
+        {
+          "id": "pb5",
+          "task": "File path steps: /work -> reports -> 2024 -> q1.txt. Basename?",
+          "gold": "q1.txt",
+          "pred": "q1.txt",
+          "em": 1.0
+        },
+        {
+          "id": "pb6",
+          "task": "Maze: left, left, right from gate reaches vault. Direction count?",
+          "gold": "3",
+          "pred": "4",
+          "em": 0.0
+        },
+        {
+          "id": "pb7",
+          "task": "Route codes: R1 then R2 then R9. Concatenate with dash?",
+          "gold": "R1-R2-R9",
+          "pred": "R1-R2-R9-",
+          "em": 1.0
+        },
+        {
+          "id": "pb8",
+          "task": "City path: North Gate to Market to Pier. How many stops including start?",
+          "gold": "3",
+          "pred": "5",
+          "em": 0.0
+        }
+      ]
+    }
+  },
+  "all_pass_gate": false,
+  "upstream_claim": false,
+  "notes": "Bare 1.5B scores on serve_learn/evo_arena/path_bench local toys. Not upstream ServeLearnBench / EvoArena / PATH-Bench."
+}

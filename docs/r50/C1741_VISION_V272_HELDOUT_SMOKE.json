@@ -1,0 +1,238 @@
+{
+  "cycle": "C1741",
+  "theme": "vision_v272_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-27T18:18:04+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7627.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v272h_01",
+      "kind": "ashfen_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3990.75,
+      "expected": 3990.75,
+      "ocr_preview": "ashfen ASHFEN GRAIN RECV V272H a paid 1989.00 b paid 2001.75 c open 1850.00 TOTAL PAID TARGET 3990.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY V272H C-0141 clarity from preg_32C photo2 testout"
+    },
+    {
+      "id": "v272h_02",
+      "kind": "cedarfen_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1300.0,
+      "expected": 1300.0,
+      "ocr_preview": "cedarfen WH CEDARFEN BIN V272H SKU1 qty 640 ok SKU2 qty 820 hold SKU3 qty 660 ok qty_sum TARGET 1300 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V272H C-0141 clearly from preg_200 photo2 testout"
+    },
+    {
+      "id": "v272h_03",
+      "kind": "dawnfen_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3878.5,
+      "expected": 3878.5,
+      "ocr_preview": "dawnfen DAWNFEN PATCH REFUND V272H itemR1 1932.00 done itemR2 1946.50 done itemR3 1825.00 open refund_done TARGET 3878.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE DONE VOID COPY V272H C-0141 clarity from preg_32C progC testout"
+    },
+    {
+      "id": "v272h_04",
+      "kind": "elmfen_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4140.0,
+      "expected": 4140.0,
+      "ocr_preview": "elmfen ELMFEN TAX SLIP V272H base 2062.00 paid addon 2078.00 paid skip 1881.00 tax_base_paid TARGET 4140.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 00.00 IGNORE TAX VOID COPY V272H C:0141 clarity from prog_000 photo2 testout"
+    },
+    {
+      "id": "v272h_05",
+      "kind": "fernfen_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4222.0,
+      "expected": 4222.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 fernfen FERN@EN PAYROLL V272H empA 2103.00 active empB 2119.00 active empC 1874.00 leave payroll_active TARGET 4222.00 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID COPY payroll VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V272H C-0141 clarity from preg_320 photoC testout"
+    },
+    {
+      "id": "v272h_06",
+      "kind": "glenfen_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3782.0,
+      "expected": 3782.0,
+      "ocr_preview": "glenfen GLENFEN SHIP DOCK V272H box1 1885 ok box2 1897 ok box3 1845 hold ship_ok TARGET 3782 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY V272h C1741 early from prog_20C photo2 retoul"
+    },
+    {
+      "id": "v272h_07",
+      "kind": "hazefen_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 780.0,
+      "expected": 780.0,
+      "ocr_preview": "SCAN DESK V40H BAST 222.00 PAGE 01 hazefen HAZEFEN SLA CARD V272H job1 370.00 hours ok job2 410.00 hours ok job3 740.00 hours late sla_ok_hours TARGET 780.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE COPY"
+    },
+    {
+      "id": "v272h_08",
+      "kind": "inkfen_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3967.75,
+      "expected": 3967.75,
+      "ocr_preview": "inkfen INKFEN EXPENSE V272H e1 1973.00 e2 1994.75 e3 1850.00 void exp_sum TARGET 3967.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v272h_09",
+      "kind": "jadefen_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadefen JADEFEN PO SHEET V272H line1 740.00 open line2 780.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO COPY V272H C-1741 early from prog_2020 testout"
+    },
+    {
+      "id": "v272h_10",
+      "kind": "knotfen_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4026.0,
+      "expected": 4026.0,
+      "ocr_preview": "knotfen KNOTFEN ORDER V272H skuA 2020.00 paid skuB 2006.00 paid skuC 1847.00 due order_paid TARGET 4026.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY V272H C-0741 clarity from preg_30C progC testout"
+    },
+    {
+      "id": "v272h_11",
+      "kind": "lakefen_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakefen LAKEFEN DUP MARK V272H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v272h_12",
+      "kind": "mossfen_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossfen MOSSFEN AIR ZERO V272H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID ZERO COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V272h C-0141 clearly from preg_00C progC testout SCAN DESK V43H BAST 222.00 PAGE 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "id": "v272h_13",
+      "kind": "netherfen_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4125.5,
+      "expected": 4125.5,
+      "ocr_preview": "netherfen NETHERFEN LEDGER V272H dr 2055.00 cr 2070.50 adj 1860.00 ledger_net TARGET 4125.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v272h_14",
+      "kind": "oakfen_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakfen OAKFEN UI SCAN V272H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY V272h C:0141 clarity from prog_30C prog02 testout"
+    },
+    {
+      "id": "v272h_15",
+      "kind": "pinefen_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2355.0,
+      "expected": 2355.0,
+      "ocr_preview": "pinefen PINEFEN STACK V272H p1 1180 p2 1175 p3 1168 stack_count TARGET 2355 OKP bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID STK COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V272H C-0141 clarity from prog_20C progC testout"
+    },
+    {
+      "id": "v272h_16",
+      "kind": "quillfen_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2374.0,
+      "expected": 2374.0,
+      "ocr_preview": "quillfen QUILLFEN FAX V272H pgA 1190 pgB 1184 pgC 1172 drop fax_pages TARGET 2374 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v272h_17",
+      "kind": "reedfen_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedfen REEDFEN GLARE V272H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse balt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY balt 88.00 IGNORE GLR COPY V272H C-0141 clarity from preg_382 photo2 testout"
+    },
+    {
+      "id": "v272h_18",
+      "kind": "stonefen_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2346.0,
+      "expected": 2346.0,
+      "ocr_preview": "stonefen STONEFEN TAB INDEX V272H tabA 1176 tabB 1170 tabC 1149 tab_index TARGET 2346 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY V272H C-0141 clarity from preg_30C progC testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0,
+    1520.0
+  ],
+  "vl_gate_v272_heldout_claim": true,
+  "claim_scope": "r50plus_v272_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

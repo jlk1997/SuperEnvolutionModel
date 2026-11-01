@@ -1,0 +1,96 @@
+{
+  "cycle": "C108",
+  "theme": "u2c_absorb_lora_honest_bare_vs_adapter",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T02:07:48+08:00",
+  "gate2_3_untouched": true,
+  "dense_route": {
+    "dense_mode": "bare",
+    "dense_use_adapter": false,
+    "dense_prefers_bare": true,
+    "policy": "dense_table_bare__lora_only_weak_domains"
+  },
+  "pairs_path": "runs/u2c_grow_c103/sft_pairs.jsonl",
+  "n_pairs_total": 12,
+  "n_train": 9,
+  "n_eval": 3,
+  "absorb": {
+    "ok": true,
+    "adapter_name": "u2c_office_table_c108",
+    "adapter_dir": "runs/capabilities/u2c_office_table_lora_c108",
+    "n_train": 9,
+    "n_eval": 3,
+    "train_stats": {
+      "steps": 72,
+      "loss": 0.16638359905730088,
+      "pairs": 9,
+      "sites": []
+    }
+  },
+  "bare": {
+    "n": 3,
+    "n_ok": 0,
+    "rate": 0.0,
+    "rows": [
+      {
+        "i": 0,
+        "atom": "office_table_u2c_refund_done",
+        "gold": "refund_done=4.50",
+        "pred": "status=done",
+        "ok": false
+      },
+      {
+        "i": 1,
+        "atom": "office_table_u2c_tax_base_paid",
+        "gold": "tax_base_paid=32.50",
+        "pred": "tax_base_paid=20.5",
+        "ok": false
+      },
+      {
+        "i": 2,
+        "atom": "office_table_u2c_payroll_active",
+        "gold": "payroll_active=1570.00",
+        "pred": "status=active",
+        "ok": false
+      }
+    ]
+  },
+  "trained": {
+    "n": 3,
+    "n_ok": 1,
+    "rate": 0.3333,
+    "rows": [
+      {
+        "i": 0,
+        "atom": "office_table_u2c_refund_done",
+        "gold": "refund_done=4.50",
+        "pred": "refund_done=8.00",
+        "ok": false
+      },
+      {
+        "i": 1,
+        "atom": "office_table_u2c_tax_base_paid",
+        "gold": "tax_base_paid=32.50",
+        "pred": "tax_base_paid=32.50",
+        "ok": true
+      },
+      {
+        "i": 2,
+        "atom": "office_table_u2c_payroll_active",
+        "gold": "payroll_active=1570.00",
+        "pred": "payroll_active=1280.00",
+        "ok": false
+      }
+    ]
+  },
+  "delta_trained_minus_bare": 0.3333,
+  "policy": {
+    "dense_prefer_bare": true,
+    "enforced": true,
+    "recommendation": "adapter_ok_for_text_u2c"
+  },
+  "pass": true,
+  "claim": false,
+  "note": "Honest bare vs adapter. Absorb ran. Dense vision remains bare. rate_gate_pass separate (trained 0.333<0.6). No Gate2/3 mint.",
+  "rate_gate_pass": false
+}

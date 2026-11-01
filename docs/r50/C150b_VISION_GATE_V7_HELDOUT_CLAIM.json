@@ -1,0 +1,13 @@
+{
+  "kind": "vision_gate_v7_heldout_claim",
+  "timestamp": "2026-10-19T04:11:12+08:00",
+  "vl_gate_v7_heldout_claim": true,
+  "rate": 1.0,
+  "n": 16,
+  "n_ok": 16,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v7_heldout_disjoint_n>=14_softocr_atom_qwen35_2b",
+  "disjoint_from": "vision_images_v7",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD"
+}

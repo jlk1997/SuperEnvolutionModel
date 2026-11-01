@@ -1,0 +1,237 @@
+{
+  "cycle": "C1771",
+  "theme": "vision_v277_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-27T20:14:11+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7554.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v277h_01",
+      "kind": "ashmere_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4020.75,
+      "expected": 4020.75,
+      "ocr_preview": "ashmere ASHMERE GRAIN RECV V277H a paid 2004.00 b paid 2016.75 c open 1865.00 TOTAL PAID TARGET 4020.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY V277H C-177: clarity from preg_32C photoC test"
+    },
+    {
+      "id": "v277h_02",
+      "kind": "cedarmere_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1300.0,
+      "expected": 1300.0,
+      "ocr_preview": "cedarmere WH CEDARMERE BIN V277H SKU1 qty 640 ok SKU2 qty 820 hold SKU3 qty 660 ok qty_sum TARGET 1300 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v277h_03",
+      "kind": "dawnmere_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3908.5,
+      "expected": 3908.5,
+      "ocr_preview": "dawnmere DAWNMERE PATCH REFUND V27H itemR1 1947.00 done itemR2 1961.50 done itemR3 1840.00 open refund_done TARGET 3908.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 VOID DONE COPY V27H C:177: clarity from prog_35C prog_2 testout"
+    },
+    {
+      "id": "v277h_04",
+      "kind": "elmmere_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4170.0,
+      "expected": 4170.0,
+      "ocr_preview": "elmmere ELMMERE TAX SLIP V277H base 2077.00 paid addon 2093.00 paid skip 1896.00 tax_base_paid TARGET 4170.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT OKP tax 00.00 STICKY tax 00.00 IGNORE VOID TAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v277h_05",
+      "kind": "fernmere_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4252.0,
+      "expected": 4252.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222-00 PAGE 01 fernmere FERNMERE PAYROLL V277H empA 2118.00 active empB 2134.00 active empC 1889.00 leave payroll_active TARGET 4252.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v277h_06",
+      "kind": "glenmere_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3812.0,
+      "expected": 3812.0,
+      "ocr_preview": "glenmere GLENMERE SHIP DOCK V277H box1 1900 ok box2 1912 ok box3 1860 hold ship_ok TARGET 3812 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY V277H C-1771 clarity from preg_30C photo2 testout SCAN DESK V43H BAS 222.00 PAGE 01"
+    },
+    {
+      "id": "v277h_07",
+      "kind": "hazemere_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 880.0,
+      "expected": 880.0,
+      "ocr_preview": "hazemere HAZEMERE SLA CARD V277H job1 420.00 hours ok job2 460.00 hours ok job3 740.00 hours late sla_ok_hours TARGET 880.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 VOID COPY V277H C-177: clearly from preg_32C progC testout"
+    },
+    {
+      "id": "v277h_08",
+      "kind": "inkmere_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3997.75,
+      "expected": 3997.75,
+      "ocr_preview": "SCAN DESK V40H BAST 222.00 PAGE 01 inkmere INKMERE EXPENSE V27H e1 1988.00 e2 2009.75 e3 1865.00 void exp_sum TARGET 3997.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP COPY V27H C-17H clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v277h_09",
+      "kind": "jademere_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jademere JADEMERE PO SHEET V27H line1 740.00 open line2 780.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO VOID COPY V27H C-1771 clearly from preg_20C photoC testout"
+    },
+    {
+      "id": "v277h_10",
+      "kind": "knotmere_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4056.0,
+      "expected": 4056.0,
+      "ocr_preview": "knotmere KNOTMERE ORDER V27H skuA 2035.00 paid skuB 2021.00 paid skuC 1862.00 due order_paid TARGET 4056.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY V27H C-17H: clarity from preg_20C photoC testout"
+    },
+    {
+      "id": "v277h_11",
+      "kind": "lakemere_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakemere LAKEMERE DUP MARK V27H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v277h_12",
+      "kind": "mossmere_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossmere MOSSMERE AIR ZERO V277H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v277h_13",
+      "kind": "nethermere_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4155.5,
+      "expected": 4155.5,
+      "ocr_preview": "nethermere NETHERMERE LEDGER V277H dr 2070.00 cr 2085.50 adj 1875.00 ledger_net TARGET 4155.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY V277H C-1771 clarity from preg_32C photoC nethermere"
+    },
+    {
+      "id": "v277h_14",
+      "kind": "oakmere_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakmere OAKMERE UI SCAN V27H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY V27H C:ST71: clarity from prog_200 photo2_testout"
+    },
+    {
+      "id": "v277h_15",
+      "kind": "pinemere_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2355.0,
+      "expected": 2355.0,
+      "ocr_preview": "pinemere PINEMERE STACK V277H p1 1180 p2 1175 p3 1168 stack_count TARGET 2355 OKP bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID STK COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V277H C-177: early from prog_00C progC testout"
+    },
+    {
+      "id": "v277h_16",
+      "kind": "quillmere_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2374.0,
+      "expected": 2374.0,
+      "ocr_preview": "quillmere QUILLMERE FAX V277H pgA 1190 pgB 1184 pgC 1172 drop fax_pages TARGET 2374 DRAFT DRAFT DRAFT DRAFT VOID VOID FAX COPY FAX VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V277H C-177H clearly from pgC photoC testout"
+    },
+    {
+      "id": "v277h_17",
+      "kind": "reedmere_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedmere REEDMERE GLARE V27H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY V27H C-1771 clearly from preg_32C photo2 testout"
+    },
+    {
+      "id": "v277h_18",
+      "kind": "stonemere_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2346.0,
+      "expected": 2346.0,
+      "ocr_preview": "stonomere STONEMERE TAB INDEX V277H tabA 1176 tabB 1170 tabC 1149 tab_index TARGET 2346 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v277_heldout_claim": true,
+  "claim_scope": "r50plus_v277_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

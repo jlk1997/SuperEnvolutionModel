@@ -1,0 +1,232 @@
+{
+  "cycle": "C366",
+  "theme": "vision_v43_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T05:17:41+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7733.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v43_01",
+      "kind": "marble_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 175.5,
+      "expected": 175.5,
+      "ocr_preview": "大理石收款单 MARBLE GRAIN RECEV V43 a paid 84.00 b paid 94.50 c open 32.00 TOTAL PAID TARGET 175.50 FAX HEADER BAIT 88.88 FROM: SPOTF SHOP LABEL BAIT 222.22 TRASH BAIT 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 503.00 FAX BAIT 123.40 BARCODE bait 123.40 DRAFT WATERMARK COPY DRAFT WATER"
+    },
+    {
+      "id": "v43_02",
+      "kind": "linen_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 133.0,
+      "expected": 133.0,
+      "ocr_preview": "亚麻仓位单 WH LINEN BIN V43 SKU1 qty 54 ok SKU2 qty 44 hold SKU3 qty 59 ok qty_sum TARGET 133 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v43_03",
+      "kind": "crimson_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 108.5,
+      "expected": 108.5,
+      "ocr_preview": "SCAN DESK V43 BAST 133.00 PAGE 01 钟红退款单 CRIMSON PATCH REFUND V43 ItemR1 52.00 done ItemR2 56.50 done ItemR3 23.00 open refund_done TARGET 108.50 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.43.35 OR 38.12.77 VOID COPY OVEN DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v43_04",
+      "kind": "cobalt_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 259.0,
+      "expected": 259.0,
+      "ocr_preview": "COBALT TAX SLIP V43 base 126.00 paid addon 183.00 paid skip 58.00 tax_base_paid TARGET 259.00 FAX HEADER BAIT 88.88 FROM: SPOOF SHIP LABEL BAIT 222.22 TRADE MARK: GENE MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 503.00 FAX HEADER BAIT 123.17 BARCODE bait 123.40 DRAW WATERMARK COPY DRA"
+    },
+    {
+      "id": "v43_05",
+      "kind": "emerald_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 337.0,
+      "expected": 337.0,
+      "ocr_preview": "SCAN DESK V43 BAST 133.00 PAGE 01 翠绿工资单 EMERALD PAYROLL V43 empA 165.00 active empB 172.00 active empC 51.00 leave payroll_active TARGET 337.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v43_06",
+      "kind": "topaz_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 91.0,
+      "expected": 91.0,
+      "ocr_preview": "SCAN DESK V43 BEST 133.00 PAGE 01 黄玉出库单 TOPAZ SHIP DOCK V43 box1 43 ok box2 20 ok box3 31 hole ship_ok TARGET 91 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v43_07",
+      "kind": "chrome_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 117.25,
+      "expected": 117.25,
+      "ocr_preview": "SCAN DESK V43 BAST 133.00 PAGE 01 信片SLA卡 CHROME SLA CARD V43 job1 62.00 hours ok job2 55.95 hours ok job3 30.00 hours late sla_ok_hours TARGET 117.25 SLAPE scan DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.43.35 GR 18.12.77 VOID COPY OVEN DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 503.00 FAX 123.17 BARCO"
+    },
+    {
+      "id": "v43_08",
+      "kind": "fern_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 151.75,
+      "expected": 151.75,
+      "ocr_preview": "SCAN DESK V43 BAST 133.00 PAGE 01 费叶费用单 TERN EXPENSE V43 e1 72.00 e2 79.75 e3 34.00 vda exp_sum TARGET 151.75 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v43_09",
+      "kind": "spruce_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 169.0,
+      "expected": 169.0,
+      "ocr_preview": "云杉采购单 SPRUCE PO SHEET V43 line1 90.00 open line2 79.00 open line3 40.00 closed po_open TARGET 169.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v43_10",
+      "kind": "pearl_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 205.5,
+      "expected": 205.5,
+      "ocr_preview": "SCAN DESK V43 BEST 133.00 PAGE 01 珍珠订单 PEARL ORDER V43 skuB 109.00 paid skuB 90.50 paid skuC 31.00 due order_paid TARGET 205.50 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v43_11",
+      "kind": "shale_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "页岩重复标 SHALE DUP MARK V43 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v43_12",
+      "kind": "vacuum_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "真空零值校验 VACUUM AIR ZERO V43 Z1 0.00 Z2 0.00 Z3 0.00 zero_check TARGET 0.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v43_13",
+      "kind": "cypress_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 302.25,
+      "expected": 302.25,
+      "ocr_preview": "柏木账本 CYPRESS LEDGER V43 dr 147.00 cr 155.26 adj 50.00 ledger_net TARGET 302.25 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v43_14",
+      "kind": "glaze_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V43 DIST 133.00 PAGE 01 軸面界面扫描 GLAZE UI SCAN V43 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v43_15",
+      "kind": "epoxy_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 19.0,
+      "expected": 19.0,
+      "ocr_preview": "环凯堆清单 EPOXY STACK V43 p1 9 p2 7 p3 3 stack_count TARGET 19 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v43_16",
+      "kind": "mint_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 26.0,
+      "expected": 26.0,
+      "ocr_preview": "薄荷传真单 MINT FAX V43 pgB 14 pgB 12 pgC 7 drop fax_pages TARGET 26 FAX HEADER BAIT 88.88 FROM: SPOT SHOP LABEL BAIT 222-22 TRADE MARK: GOLF MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse baite 666.00 PHONE SHADOW baite 503.00 FAX HEADER BAIT 1217 BARCODE bait 123.40 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v43_17",
+      "kind": "clay_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V43 BAST 133.00 PAGE 01 陶土胶光单 CLAY GLARE V43 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 GLARE scan DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v43_18",
+      "kind": "cork_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 36.0,
+      "expected": 36.0,
+      "ocr_preview": "软木页签索引 CORK TAB INDEX V43 tabB 20 tabB 10 tabC 6 tab_index TARGET 36 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    }
+  ],
+  "vl_gate_v43_claim": true,
+  "claim_scope": "r50plus_v43_teak_onyx_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V43 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

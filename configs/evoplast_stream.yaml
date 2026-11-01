@@ -1,0 +1,24 @@
+# Office jobs from the development packs, graded in the sandbox.
+# frozen: base model. notes: base model plus the last verified success of that kind in the prompt.
+# evolve: policy adapter trained on its own verified successes, kept only if the gate set does not get worse.
+# The fresh exam is new instances of every kind, greedy, for every arm.
+run_name: evoplast_stream
+stage: stream
+seed: 0
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: attn_mlp
+max_seq_len: 1024
+stream_steps: 21
+stream_new: 256
+samples: 4
+variants: 1
+temperature: 0.8
+learn_every: 4
+stream_lr: 0.0001
+stream_batch: 4
+stream_passes: 2
+exam_copies: 2
+write: true

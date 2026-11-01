@@ -1,0 +1,232 @@
+{
+  "cycle": "C1068",
+  "theme": "vision_v160_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T22:28:28+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7541.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v160_01",
+      "kind": "ashmoor_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2083.5,
+      "expected": 2083.5,
+      "ocr_preview": "ashmoor ASHMOOR GRAIN RECEV V160 a paid 1033.00 b paid 1650.50 c open 843.50 TOTAL PAID TARGET 2083.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v160_02",
+      "kind": "cedarmoor_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "cedarmoor WH CEDARMOOR BIN V160 SKU1 qty 740 ok SKU2 qty 700 hold SKU3 qty 780 ok qty_sum TARGET 1820 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v160_03",
+      "kind": "dawnmoor_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1941.25,
+      "expected": 1941.25,
+      "ocr_preview": "SCAR DESK V42 BAST 133.00 PAGE 01 dawnmoor DAWNMOOR PATCH REFUND V160 ItemR1 956.00 done ItemR2 885.25 done ItemR3 823.00 open refund_done TARGET 1941.25 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v160_04",
+      "kind": "elmmoor_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2195.0,
+      "expected": 2195.0,
+      "ocr_preview": "elmmoor ELMMOOR TAX SLIP V160 base 1089.00 paid addon 1406.00 paid skip 913.00 tax_base_paid TARGET 2195.00 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.43.32 OR 18.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM: SPOOF SHIP LABEL BAIT 222.22 TRASH WITH: GONE MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOD WIN IGNORE old total 999.00 do not parse bait 646"
+    },
+    {
+      "id": "v160_05",
+      "kind": "fernmoor_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2326.0,
+      "expected": 2326.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 fernmoor FERNMOOR PAYROLL V160 empB 1151.00 active empB 1175.00 active empC 883.00 leave payroll_active TARGET 2326.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v160_06",
+      "kind": "glenmoor_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1834.0,
+      "expected": 1834.0,
+      "ocr_preview": "glenmoor GLENMOOR SHIP DOCK V160 box1 909 ok box2 926 ok box3 841 hold ship_ok TARGET 1834 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v160_07",
+      "kind": "hazemoor_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1000.0,
+      "expected": 1000.0,
+      "ocr_preview": "hazemoor HAZEMOOR SLA CARD V160 job1 480.00 hours ok job2 520.00 hours ok job3 390.00 hours late sla_ok_hours TARGET 1000.00 SHAPE scan DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v160_08",
+      "kind": "inkmoor_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2029.75,
+      "expected": 2029.75,
+      "ocr_preview": "inkmoor INKMOOR EXPENSE V160 e1 999.00 e2 1030.75 e3 847.00 void exp_sum TARGET 2029.75 SCAN DESK V42 BAST 133.00 PAGE 01 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v160_09",
+      "kind": "jademoor_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 jademoor JADEMOOR PO SHEET V160 line1 780.00 open line2 780.00 open line3 700.00 closed po_open TARGET 1520.00 CLIPPE scan DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v160_10",
+      "kind": "knotmoor_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2120.0,
+      "expected": 2120.0,
+      "ocr_preview": "SCAN DESK V42 DUST 133.00 PAGE 01 knotmoor KNOTMOOR ORDER V160 skuA 1066.00 paid skuB 1064.00 paid skuC 844.00 due order_paid TARGET 2120.00 DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WAT"
+    },
+    {
+      "id": "v160_11",
+      "kind": "lakemoor_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakemoor AKEMOOR DUP MARK V160 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY TAPE RED 12 12 RING 38 32 32 GR 18 12 77 VOID COPY OVEN FAX HEADER BAIT 88 88 FROM: SPOTF SHOP LABEL BAIT 222-22 TRACK WITH: MUG PEN OVERLAY LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 503.00 FAX HEADER BAIT"
+    },
+    {
+      "id": "v160_12",
+      "kind": "mossmoor_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossmoor MOSSMOOR AIR ZERO V160 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v160_13",
+      "kind": "nethermoor_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2285.5,
+      "expected": 2285.5,
+      "ocr_preview": "nethermoor NETHERMOOR LEDGER V160 dr 1132.00 cr 1153.50 adj 669.00 ledger_net TARGET 2285.50 DRAFT WATERMARK COPY DRAFT DRAFT DR 12/27 TAPE R23 bait 12/12 RING 12/32.35 VOID COPY OVEN VOID FAX HEADER BAIT 88.88 FROM: SPOTF SHOP LABEL BAIT 222-22 Trade with: MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHD WIN IGNORE old total 999.00 do not parse bait 646.00 P"
+    },
+    {
+      "id": "v160_14",
+      "kind": "oakmoor_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakmoor OAKMOOR UI SCAN V160 brick 1 bnSkip 0 bnBad 0 ui_ek TARGET-1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v160_15",
+      "kind": "pinemoor_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1354.0,
+      "expected": 1354.0,
+      "ocr_preview": "pinemoor RINEMOOR STACK V160 p1 661 p2 673 p3 651 stack_count TARGET 1354 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v160_16",
+      "kind": "quillmoor_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1382.0,
+      "expected": 1382.0,
+      "ocr_preview": "quillmoor QUILLMOOR FAX V160 pg 699 pgB 685 pgC 674 ddp fax_pages TARGET 1382 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v160_17",
+      "kind": "reedmoor_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedmoor REEDMOOR GLARE V160 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v160_18",
+      "kind": "stonemoor_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1426.0,
+      "expected": 1426.0,
+      "ocr_preview": "stonemoor STONEMOOR TAB INDEX V160 tabB 725 tabB 704 tabC 671 tab_index TARGET 1426 DRAFT WATERMARK.COM DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "vl_gate_v160_claim": true,
+  "claim_scope": "r50plus_v160_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V160 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

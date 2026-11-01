@@ -1,0 +1,26 @@
+{
+  "kind": "r50plus_c88_user_sandbox_shadow_u2c",
+  "timestamp": "2026-10-19T00:56:12+08:00",
+  "gate": 0.6,
+  "user_sandbox": "runs/user_sandbox_office",
+  "write_guard_pilot": {
+    "pass": true,
+    "checks": null,
+    "write_allowlist": [
+      "exports/summary.txt",
+      "out.txt"
+    ]
+  },
+  "u2c": {
+    "crystal_ok": true,
+    "paid_total": 32.5,
+    "atom": "office_table_uselog_u2c_user_sandbox",
+    "use_log": "runs/user_sandbox_office/u2c_use_log.jsonl",
+    "atom_path": "runs/user_sandbox_office/atom_crystal.json"
+  },
+  "secret_absent": true,
+  "pass": true,
+  "innovation": "User-like folder layout + write-guarded pilot + U2C crystal from real CSV",
+  "gate2_3_untouched": true,
+  "no_fake_vl": true
+}

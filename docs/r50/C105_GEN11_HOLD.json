@@ -1,0 +1,18 @@
+{
+  "cycle": "C105",
+  "theme": "gen11_hold",
+  "decision": "HOLD",
+  "seal_opened": false,
+  "fresh": null,
+  "threshold": 0.99,
+  "gate": 0.6,
+  "pass": true,
+  "rule_exists": true,
+  "prior_artifacts": [
+    "docs/GATE3_GEN11_HERITABILITY_RULE_2026-10-18.json",
+    "docs/r50/C95_GEN11_HOLD.json",
+    "docs/r50/C89_gen11_hold.json"
+  ],
+  "timestamp": "2026-10-19T01:38:29+08:00",
+  "note": "gen11 remains HOLD. Gate2/3 untouched. Seal not opened."
+}

@@ -1,0 +1,20 @@
+{
+  "cycle": "C133",
+  "theme": "capture_office_product_demo_oneshot",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T03:27:37+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "money_tool": true,
+  "oneshot_ok": true,
+  "paid_got": 16.5,
+  "paid_expected": 16.5,
+  "schema_errors": [],
+  "demo_doc": "docs/蚁算_CAPTURE_OFFICE_DEMO.md",
+  "oneshot_doc": "docs/蚁算_CAPTURE_ONESHOT.md",
+  "evidence": "docs/r50/C133_CAPTURE_ONESHOT_EVIDENCE.json",
+  "rate": 1.0,
+  "pass": true,
+  "claim": false,
+  "note": "Product packaging + honest dry one-shot. VL optional at CLI."
+}

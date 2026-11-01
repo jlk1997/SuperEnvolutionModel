@@ -1,0 +1,109 @@
+{
+  "cycle": "C91",
+  "theme": "e2e_multihop_vision_office",
+  "n": 4,
+  "ocr_rate": 1.0,
+  "atom_rate": 1.0,
+  "dissolve_D": 0.0,
+  "gate": 0.6,
+  "pass": true,
+  "tesseract_feasible": false,
+  "vl_weights": "models/Qwen3.5-2B",
+  "rows": [
+    {
+      "id": "mh_invoice_paid_sum",
+      "ocr_ok": true,
+      "ocr_text": "INVOICE PAID INVOICE #8821 item A paid 12.50 item B open 8.00 item C paid 20.00 item D paid 5.50 TOTAL PAID TARGET 38.00",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "hops_ok": {
+        "ocr": true,
+        "parse_paid": true,
+        "write_csv": true,
+        "write_report": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "mh_bay_qty_report",
+      "ocr_ok": true,
+      "ocr_text": "WAREHOUSE BAY BAY 4 STOCK BOLT-M6 qty 40 NUT-M6 qty 40 WASHER qty 100 SUM QTY 180",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "hops_ok": {
+        "ocr": true,
+        "parse_qty": true,
+        "write_csv": true,
+        "write_report": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "mh_shell_confirm_log",
+      "ocr_ok": true,
+      "ocr_text": "SHELL LOG cmd: copy report.md deliver/ status: OK files: 1 agent_graph: none",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "hops_ok": {
+        "ocr": true,
+        "parse_status": true,
+        "write_marker": true,
+        "dissolve": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "mh_tax_table",
+      "ocr_ok": true,
+      "ocr_text": "TAX TABLE id,amount,tax,status 1,12.50,1.25,paid 2,8.00,0.80,open 3,20.00,2.00,paid",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "dense_table",
+        "task": "table_cells",
+        "reason": "dense/table domain: LoRA historically regresses (C66/C72); use bare",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "hops_ok": {
+        "ocr": true,
+        "filter_paid": true,
+        "sum_tax": true,
+        "write_csv": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    }
+  ],
+  "timestamp": "2026-10-19T01:30:45+08:00",
+  "claim": false,
+  "note": "Hard multi-hop stress; does not mint Vision V4. Honest OCR+atom rates."
+}

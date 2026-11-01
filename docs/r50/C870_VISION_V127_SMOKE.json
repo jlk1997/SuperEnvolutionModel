@@ -1,0 +1,232 @@
+{
+  "cycle": "C870",
+  "theme": "vision_v127_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T09:33:58+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v127_01",
+      "kind": "ashpeak_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1453.5,
+      "expected": 1453.5,
+      "ocr_preview": "ashpeak ASHPEAK GRAIN RECEV V127 a paid 718.00 b paid 785.50 c open 528.00 TOTAL PAID TARGET 1453.50 DRAFT WATERMARK COPY GR 189.12.77 GR 189.12.77 TAPE R23 bait 12.12 VOID COPY OVEN VOID FAX HEADER BAIT 88.88 FROM: SPOT SHOP LABEL BAIT 222.22 TRUCK BAIT 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHD WIN IGNORE old total 999.00 do not parse bait 666.00 "
+    },
+    {
+      "id": "v127_02",
+      "kind": "cedarpeak_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1360.0,
+      "expected": 1360.0,
+      "ocr_preview": "cedarpeak WH CEDARPEAK BIN V127 SKU1 qty 670 ok SKU2 qty 510 hold SKU3 qty 650 ok qty_sum TARGET 1360 DR DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.12.20 GR 18.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222.22 TRACK: MUG-646 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse bait 646.00 "
+    },
+    {
+      "id": "v127_03",
+      "kind": "dawnpeak_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1311.25,
+      "expected": 1311.25,
+      "ocr_preview": "dawnpeak DAWNPEAK PATCH REFUND V127 ItemR1 641.00 done ItemR2 670.25 done ItemR3 506.00 open refund_done TARGET 1311.25 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.12.25 OR 18.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222.22 TRACK BAIT 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOKD WIN IGNORE old total 999.00 do not parse"
+    },
+    {
+      "id": "v127_04",
+      "kind": "elmpeak_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1565.0,
+      "expected": 1565.0,
+      "ocr_preview": "elmpeak ELMPEAK TAX SLIP V127 base 774.00 paid addon 781.00 paid skip 598.00 tax_base_paid TARGET 1565.00 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 Tape 999-999 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 505.00 FAX HEADER BAIT 1217 BARCODE bait 123.40 SCAN DES V42 BAIT 3"
+    },
+    {
+      "id": "v127_05",
+      "kind": "fernpeak_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1696.0,
+      "expected": 1696.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 fernpeak FERNPEAK PAYROLL V127 empB 836.00 active empB 850.00 active empC 568.00 leave payroll_active TARGET 1696.00 DRAFT WATERMARK COPY TAPE RED 12 12 GR 189 12 77 COPY OVEN VOID PHONE SHADOW FAX 123 12 12 BARCODE 123 40 FAX HEADER BAIT 88 88 FROM: SPOT SHOP LABEL BAIT 222-22 TRADE MARK: EAGLE MUG PEN OVERLAP LABEL BAIT 32"
+    },
+    {
+      "id": "v127_06",
+      "kind": "glenpeak_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1204.0,
+      "expected": 1204.0,
+      "ocr_preview": "SCAN DESK V42 DIST 133.00 PAGE 01 glenpeak GLENPEAK SHIP DOCK V127 box1 594 ok box2 610 ok box3 526 hold ship_ok TARGET 1204 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v127_07",
+      "kind": "hazepeak_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 720.0,
+      "expected": 720.0,
+      "ocr_preview": "SCAN DESK V42 BAST 333.00 PAGE 01 hazepeak HAZEPEAK SLA CARD V127 job1 340.00 hours ok job2 380.00 hours ok job3 220.00 hours late sla_ok_hours TARGET 720.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v127_08",
+      "kind": "inkpeak_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1399.75,
+      "expected": 1399.75,
+      "ocr_preview": "inkpeak INKPEAK EXPENSE V127 e1 664.00 e2 215.75 e3 532.00 void exp_sum TARGET 1399.75 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT TAPE R23 bait 12.12 RING 38.4.3.35 GR 38.12.77 VOID COPY OVEN VOID FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 TRACK 38.4.3.35 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse bait"
+    },
+    {
+      "id": "v127_09",
+      "kind": "jadepeak_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1419.0,
+      "expected": 1419.0,
+      "ocr_preview": "jadepeak JADEPEAK PO SHEET V127 line1 718.00 open line2 704.00 open line3 541.00 closed po_open TARGET 1419.00 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 TRUCK MAIL 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 503.00 FAX HEADER BAIT 123-17 BARCODE bait 123-40 DRAFT WATE"
+    },
+    {
+      "id": "v127_10",
+      "kind": "knotpeak_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1490.0,
+      "expected": 1490.0,
+      "ocr_preview": "SCAR DESK V42 BAST 133.00 PAGE 01 knotpeak NOTPEAK ORDER V127 skuA 751.00 paid skuB 738.00 paid skuC 529.00 due order_paid TARGET 1490.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v127_11",
+      "kind": "lakepeak_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakepeak LAKEPEAK DUP MARK V127 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v127_12",
+      "kind": "mosspeak_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mosspeak MOSSPEAK AIR ZERO V127 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v127_13",
+      "kind": "netherpeak_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1655.5,
+      "expected": 1655.5,
+      "ocr_preview": "SCAR DESK V42 BAST 133.00 PAGE 01 netherpeak NETHERPEAK LEDGER V127 dr 847.00 cr 838.50 adj 554.00 ledger_net TARGET 1655.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v127_14",
+      "kind": "oakpeak_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakpeak OAKPEAK UI SCAN V127 brack 1 brnSkip 0 brnBad 0 ui_ek TARGET-1 FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222-22 TRACK: WASH 646 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 503.00 FAX HEADER BAIT 123.40 BARCODE bait 123.40 DRAW WATERMARK COPY GR Bait 12.77 TAPE RE3 bait"
+    },
+    {
+      "id": "v127_15",
+      "kind": "pinepeak_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 724.0,
+      "expected": 724.0,
+      "ocr_preview": "pinepeak pinepeak STACK V127 p1 356 p2 358 p3 336 stack_count TARGET 724 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v127_16",
+      "kind": "quillpeak_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 752.0,
+      "expected": 752.0,
+      "ocr_preview": "quillpeak QUILLPEAK FAX V127 pgB 884 pgB 368 pgC 359 drop fax_pages TARGET 752 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v127_17",
+      "kind": "reedpeak_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedpeak REEDPEAK GLARE V127 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v127_18",
+      "kind": "stonepeak_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 796.0,
+      "expected": 796.0,
+      "ocr_preview": "stonepeak STONEPEAK TAB INDEX V127 tabA 410 tabB 356 tabC 356 tab_index TARGET 796 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "vl_gate_v127_claim": true,
+  "claim_scope": "r50plus_v127_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V127 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

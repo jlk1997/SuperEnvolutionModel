@@ -1,0 +1,237 @@
+{
+  "cycle": "C2149",
+  "theme": "vision_v340_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-29T15:33:12+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7674.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v340h_01",
+      "kind": "ashdale_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4296.75,
+      "expected": 4296.75,
+      "ocr_preview": "ashdale ASHDALE GRAIN RECV V340H a paid 2142.00 b paid 2154.75 c open 2003.00 TOTAL PAID TARGET 4296.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY V340x C2146 clarity from preg_30C photoC twistout SCAN DESK V43H BAST 222.00 PAGE 01 bait 88.00"
+    },
+    {
+      "id": "v340h_02",
+      "kind": "cedardale_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1300.0,
+      "expected": 1300.0,
+      "ocr_preview": "cedardale WH CEDARDALE BIN V340H SKU1 qty 640 ok SKU2 qty 820 hold SKU3 qty 660 ok qty_sum TARGET 1300 VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v340h_03",
+      "kind": "dawndale_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4184.5,
+      "expected": 4184.5,
+      "ocr_preview": "dawndale DAWNDALE PATCH REFUND V340H itemR1 2085.00 done itemR2 2099.50 done itemR3 1978.00 open refund_done TARGET 4184.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DONE VOID COPY V340h C2146 clarity from preg_30C photoC twistout"
+    },
+    {
+      "id": "v340h_04",
+      "kind": "elmdale_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4446.0,
+      "expected": 4446.0,
+      "ocr_preview": "elmdale ELMDALE TAX SLIP V340H base 2215.00 paid addon 2231.00 paid skip 2034.00 tax_base_paid TARGET 4446.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 98.00 IGNORE TAX VOID COPY V340x C2146 clarity from preg_30C photoC twistout"
+    },
+    {
+      "id": "v340h_05",
+      "kind": "ferndale_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4487.0,
+      "expected": 4487.0,
+      "ocr_preview": "ferndale FERNDALE PAYROLL V340H empA 2238.00 active empB 2249.00 active empC 2027.00 leave payroll_active TARGET 4487.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v340h_06",
+      "kind": "glendale_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4088.0,
+      "expected": 4088.0,
+      "ocr_preview": "glendale GLENDALE SHIP DOCK V340H box1 2038 ok box2 2050 ok box3 2000 hold ship_ok TARGET 4088 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY"
+    },
+    {
+      "id": "v340h_07",
+      "kind": "hazedale_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 880.0,
+      "expected": 880.0,
+      "ocr_preview": "hazedale HAZEDALE SLA CARD V340H job1 420.00 hours ok job2 460.00 hours ok job3 740.00 hours late sla_ok_hours TARGET 880.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE COPY"
+    },
+    {
+      "id": "v340h_08",
+      "kind": "inkdale_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4273.75,
+      "expected": 4273.75,
+      "ocr_preview": "SCAN DESK V40H BAST 222.00 PAGE 01 inkdale @INKDALE EXPENSE V340H e1 2126.00 e2 2147.75 e3 2003.00 void exp_sum TARGET 4273.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY V340H C2146 clarity from preg_30C prologC testout"
+    },
+    {
+      "id": "v340h_09",
+      "kind": "jadedale_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadedale JADEDALE PO SHEET V340H line1 740.00 open line2 780.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE. PO VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 8"
+    },
+    {
+      "id": "v340h_10",
+      "kind": "knotdale_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4332.0,
+      "expected": 4332.0,
+      "ocr_preview": "knotdale KNOTDALE ORDER V340H skuA 2173.00 paid skuB 2159.00 paid skuC 2000.00 due order_paid TARGET 4332.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD bait 88.00 VOID COPY V340x C2140 clarity from preg_30C photoC twisout"
+    },
+    {
+      "id": "v340h_11",
+      "kind": "lakedale_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakedale LAKEDALE DUP MARK V340H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP VOID COPY V340h C2146 clarity from preg_C photoC twistout"
+    },
+    {
+      "id": "v340h_12",
+      "kind": "mossdale_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossdale MOSSDALE AIR ZERO V340H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v340h_13",
+      "kind": "netherdale_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4431.5,
+      "expected": 4431.5,
+      "ocr_preview": "netherdale NETHERDALE LEDGER V340H dr 2208.00 cr 2223.50 adj 2013.00 ledger_net TARGET 4431.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v340h_14",
+      "kind": "oakdale_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakdale OAKDALE UI SCAN V340H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88"
+    },
+    {
+      "id": "v340h_15",
+      "kind": "pinedale_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2355.0,
+      "expected": 2355.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 pinedale PINEDALE STACK V340H p1 1180 p2 1175 p3 1168 stack_count TARGET 2355 OKP bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID STK COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V340h C2140 clarity from preg_30C progC twistout"
+    },
+    {
+      "id": "v340h_16",
+      "kind": "quilldale_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2374.0,
+      "expected": 2374.0,
+      "ocr_preview": "quilldale QUILDLADEX V340H pgA 1190 pgB 1184 pgC 1172 drop fax_pages TARGET 2374 OKP fax 00.00 DRAFT DRAFT DRAFT DRAFT STICKY fax 00.00 IGNORE VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse fax 555.00 V340x C2140 clarity from pgC photoC testout"
+    },
+    {
+      "id": "v340h_17",
+      "kind": "reeddale_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reeddale REEDDALE GLARE V340H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY V340x C2140 clarity from preg_340 photoC twitout"
+    },
+    {
+      "id": "v340h_18",
+      "kind": "stonedale_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2346.0,
+      "expected": 2346.0,
+      "ocr_preview": "stondale STONEDALE TAB INDEX V340H tabA 1176 tabB 1170 tabC 1149 tab_index TARGET 2346 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v340_heldout_claim": true,
+  "claim_scope": "r50plus_v340_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

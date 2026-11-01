@@ -1,0 +1,44 @@
+﻿# CI scale: 3 seeds × 4 exam pairs. dual atoms vs agent demos. Gate 0.6. 1.5B.
+# required_arms narrowed → can green present/forget for this smoke; NOT Gate2 claim.
+run_name: office_bx6_ci_seeds
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 0
+seeds: [0, 1, 2]
+actor: model
+prefer_atoms: true
+prefer_atoms_by_arm:
+  dual: true
+  agent: false
+agent_demo_notes: true
+required_arms: [dual, agent]
+family_skill_map:
+  table: table
+  report: report
+  file: file
+steps: 8
+difficulty: 1
+day_after: 99
+day_ticks: 0
+day_budget: 0
+revisit_every: 4
+drift_at: 99
+families: [table, report, file]
+arms: [dual, agent]
+write_gate: false
+max_steps: 6
+exec_timeout: 12
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: full
+max_seq_len: 512
+max_new_code: 220
+outer_lr: 0.0005
+temperature: 0.0
+tool_call_primer: true
+train_tokens_each: 0
+absorb_train_tokens: 0
+practice_bootstrap: false
+exam_prep_sft: false
+use_log: false
+model_turn_log: runs/logs/office_model_turns_bx6_ci_seeds.log

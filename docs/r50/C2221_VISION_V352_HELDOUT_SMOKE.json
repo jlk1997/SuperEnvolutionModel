@@ -1,0 +1,237 @@
+{
+  "cycle": "C2221",
+  "theme": "vision_v352_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-29T17:22:46+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7641.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v352h_01",
+      "kind": "ashford_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4344.75,
+      "expected": 4344.75,
+      "ocr_preview": "ashford ASHFORD GRAIN RECV V352H a paid 2166.00 b paid 2178.75 c open 2027.00 TOTAL PAID TARGET 4344.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v352h_02",
+      "kind": "cedarford_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1300.0,
+      "expected": 1300.0,
+      "ocr_preview": "cedarford WH CEDARFORD BIN V352H SKU1 qty 640 ok SKU2 qty 820 hold SKU3 qty 660 ok qty_sum TARGET 1300 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V352H C2221 clarity from preg_30C photoC twistout"
+    },
+    {
+      "id": "v352h_03",
+      "kind": "dawnford_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4232.5,
+      "expected": 4232.5,
+      "ocr_preview": "dawnford DAWNFORD PATCH REFUND V352H itemR1 2109.00 done itemR2 2123.50 done itemR3 2002.00 open refund_done TARGET 4232.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID DONE COPY V352H C2221 clearly from preg_30C programC testout"
+    },
+    {
+      "id": "v352h_04",
+      "kind": "elmford_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4494.0,
+      "expected": 4494.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 elmford ELMFORD TAX SLIP V352H base 2239.00 paid addon 2255.00 paid skip 2058.00 tax_base_paid TARGET 4494.00 OKP tax 00.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 00.00 IGNORE VOID TAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V352H C2221 clarity from prog_00C photoC testout"
+    },
+    {
+      "id": "v352h_05",
+      "kind": "fernford_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4497.0,
+      "expected": 4497.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 fernford FERNFORD PAYROLL V352H empA 2243.00 active empB 2254.00 active empC 2051.00 leave payroll_active TARGET 4497.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v352h_06",
+      "kind": "glenford_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4136.0,
+      "expected": 4136.0,
+      "ocr_preview": "glenford GLENFORD SHIP DOCK V352H box1 2062 ok box2 2074 ok box3 2024 holds ship_ok TARGET 4136 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY V352H C2221 clarity from preg_30C photoC testout"
+    },
+    {
+      "id": "v352h_07",
+      "kind": "hazeford_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 880.0,
+      "expected": 880.0,
+      "ocr_preview": "hazford HAZEFORD SLA CARD V352H job1 420.00 hours ok job2 460.00 hours ok job3 740.00 hours late sla_ok_hours TARGET 880.00 VOID WIN IGNORE old total 888.00. do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 555.00 VOID COPY"
+    },
+    {
+      "id": "v352h_08",
+      "kind": "inkford_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4321.75,
+      "expected": 4321.75,
+      "ocr_preview": "inkford #INKFORD EXPENSE V352H e1 2150.00 e2 2171.75 e3 2027.00 void exp_sum TARGET 4321.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY bait 88.00 bait 88.00 V352H C2221 early from prog_30C photoC testout SCAN DESK V43H bait 222.00 PAGE 01"
+    },
+    {
+      "id": "v352h_09",
+      "kind": "jadeford_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadeford JADEFORD PO SHEET V352H line1 740.00 open line2 780.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO COPY V352H C2221 early from prog_300 photo2 testout"
+    },
+    {
+      "id": "v352h_10",
+      "kind": "knotford_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4380.0,
+      "expected": 4380.0,
+      "ocr_preview": "knotford KNOTFORD ORDER V352H skuA 2197.00 paid skuB 2183.00 paid skuC 2024.00 due order_paid TARGET 4380.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY V352H C2221 clarity from preg_30C photoC testout"
+    },
+    {
+      "id": "v352h_11",
+      "kind": "lakeford_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakeford LAKEFORD DUP MARK V352H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v352h_12",
+      "kind": "mossford_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossford MOSSFORD AIR ZERO V352H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY V352H C2221 early from prog_00C photoC testout"
+    },
+    {
+      "id": "v352h_13",
+      "kind": "netherford_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4468.5,
+      "expected": 4468.5,
+      "ocr_preview": "netherford NETHERFORD LEDGER V352H dr 2227.00 cr 2241.50 adj 2031.00 ledger_net TARGET 4468.50 OKP bal 00.00 VOID WIN IGNORE old total 888.00 do not parse bal 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bal 00.00 IGNORE LED COPY V352H C2221 clarity from preg_30C photoC testout"
+    },
+    {
+      "id": "v352h_14",
+      "kind": "oakford_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakford OAKFORD UI SCAN V352H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY V352H C2221 clearly from preg_30C programC textout"
+    },
+    {
+      "id": "v352h_15",
+      "kind": "pineford_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2355.0,
+      "expected": 2355.0,
+      "ocr_preview": "pineford PINEFORD STACK V352H p1 1180 p2 1175 p3 1168 stack_count TARGET 2355 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V352H C2221 clarity from preg_30C progC testout"
+    },
+    {
+      "id": "v352h_16",
+      "kind": "quillford_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2374.0,
+      "expected": 2374.0,
+      "ocr_preview": "quillford QUILLFORD FAX V352H pgA 1190 pgB 1184 pgC 1172 drop fax_pages TARGET 2374 DRAFT DRAFT DRAFT DRAFT DRAFT VOID VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V352H C2221 clearly fax pgC photoC textout"
+    },
+    {
+      "id": "v352h_17",
+      "kind": "reedford_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedford REEDFORD GLARE V352H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY V352H C2221 clarity from preg_glare photo2 testout"
+    },
+    {
+      "id": "v352h_18",
+      "kind": "stoneford_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2346.0,
+      "expected": 2346.0,
+      "ocr_preview": "stoneford STONEFORD TAB INDEX V352H tabA 1176 tabB 1170 tabC 1149 tab_index TARGET 2346 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY V352H C2221 clarity from preg_C photoC testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v352_heldout_claim": true,
+  "claim_scope": "r50plus_v352_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

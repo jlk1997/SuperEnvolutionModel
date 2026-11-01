@@ -1,0 +1,53 @@
+{
+  "cycle": "C134",
+  "theme": "text_vision_unified_replace_agent_board",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T03:27:37+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "board": {
+    "text": {
+      "bare": {
+        "ok": true,
+        "bare_steps": 5,
+        "paid_total": 54.0,
+        "modality": "text",
+        "money_tool": true
+      },
+      "agent": {
+        "ok": true,
+        "agent_steps": 13,
+        "paid_total": 54.0,
+        "modality": "text",
+        "fail": false
+      },
+      "step_ratio_agent_over_bare": 2.6,
+      "replace_ok": true
+    },
+    "vision": {
+      "bare": {
+        "ok": true,
+        "bare_steps": 4,
+        "paid_total": 25.5,
+        "modality": "vision_panel",
+        "money_tool": true,
+        "panel": "runs/unified_replace_c134/vision_bare/panel/ledger.png"
+      },
+      "agent": {
+        "ok": true,
+        "agent_steps": 17,
+        "paid_total": 25.5,
+        "modality": "vision_panel",
+        "fail": false
+      },
+      "step_ratio_agent_over_bare": 4.25,
+      "replace_ok": true
+    },
+    "both_replace_ok": true,
+    "mean_step_ratio": 3.425
+  },
+  "rate": 1.0,
+  "pass": true,
+  "claim": false,
+  "note": "Unified board: bare atoms+money_tool vs agent graph on text CSV and vision panel. No Gate2 mint."
+}

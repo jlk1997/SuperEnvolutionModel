@@ -1,0 +1,169 @@
+{
+  "cycle": "C227",
+  "theme": "multi_metric_capture_deepen",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T08:14:01+08:00",
+  "n": 8,
+  "n_ok": 8,
+  "rate": 1.0,
+  "rows": [
+    {
+      "id": "mm_paid",
+      "metric": "paid_total",
+      "expected": 93.5,
+      "tool": 93.5,
+      "gated_value": 93.5,
+      "gated_decision": "force_tool",
+      "agree_decision": "trust_model",
+      "ok": true
+    },
+    {
+      "id": "mm_qty",
+      "metric": "qty_sum",
+      "expected": 78.0,
+      "tool": 78.0,
+      "gated_value": 78.0,
+      "gated_decision": "force_tool",
+      "agree_decision": "trust_model",
+      "ok": true
+    },
+    {
+      "id": "mm_refund",
+      "metric": "refund_done",
+      "expected": 44.75,
+      "tool": 44.75,
+      "gated_value": 44.75,
+      "gated_decision": "force_tool",
+      "agree_decision": "trust_model",
+      "ok": true
+    },
+    {
+      "id": "mm_tax",
+      "metric": "tax_base_paid",
+      "expected": 147.0,
+      "tool": 147.0,
+      "gated_value": 147.0,
+      "gated_decision": "force_tool",
+      "agree_decision": "trust_model",
+      "ok": true
+    },
+    {
+      "id": "mm_pay",
+      "metric": "payroll_active",
+      "expected": 2480.0,
+      "tool": 2480.0,
+      "gated_value": 2480.0,
+      "gated_decision": "force_tool",
+      "agree_decision": "trust_model",
+      "ok": true
+    },
+    {
+      "id": "mm_ship",
+      "metric": "ship_ok_qty",
+      "expected": 63.0,
+      "tool": 63.0,
+      "gated_value": 63.0,
+      "gated_decision": "force_tool",
+      "agree_decision": "trust_model",
+      "ok": true
+    },
+    {
+      "id": "mm_sla",
+      "metric": "open_pri_sum",
+      "expected": 55.0,
+      "tool": 55.0,
+      "gated_value": 55.0,
+      "gated_decision": "force_tool",
+      "agree_decision": "trust_model",
+      "ok": true
+    },
+    {
+      "id": "mm_zero",
+      "metric": "paid_total",
+      "expected": 0.0,
+      "tool": 0.0,
+      "gated_value": 0.0,
+      "gated_decision": "force_tool",
+      "agree_decision": "trust_model",
+      "ok": true
+    }
+  ],
+  "cli_rows": [
+    {
+      "id": "mm_paid",
+      "metric": "paid_total",
+      "cli_ok": true,
+      "payload": {
+        "ok": true,
+        "paid_got": 93.5,
+        "metric": "paid_total",
+        "metric_got": 93.5,
+        "errors": [],
+        "pass": true
+      },
+      "returncode": 0
+    },
+    {
+      "id": "mm_qty",
+      "metric": "qty_sum",
+      "cli_ok": true,
+      "payload": {
+        "ok": true,
+        "paid_got": 78.0,
+        "metric": "qty_sum",
+        "metric_got": 78.0,
+        "errors": [],
+        "pass": true
+      },
+      "returncode": 0
+    },
+    {
+      "id": "mm_refund",
+      "metric": "refund_done",
+      "cli_ok": true,
+      "payload": {
+        "ok": true,
+        "paid_got": 44.75,
+        "metric": "refund_done",
+        "metric_got": 44.75,
+        "errors": [],
+        "pass": true
+      },
+      "returncode": 0
+    },
+    {
+      "id": "mm_tax",
+      "metric": "tax_base_paid",
+      "cli_ok": true,
+      "payload": {
+        "ok": true,
+        "paid_got": 147.0,
+        "metric": "tax_base_paid",
+        "metric_got": 147.0,
+        "errors": [],
+        "pass": true
+      },
+      "returncode": 0
+    }
+  ],
+  "cli_pass": true,
+  "patch": {
+    "patched": true,
+    "reason": "c227_multi_metric_cli"
+  },
+  "supported_metrics": [
+    "paid_total",
+    "qty_sum",
+    "refund_done",
+    "tax_base_paid",
+    "payroll_active",
+    "ship_ok_qty",
+    "open_pri_sum"
+  ],
+  "board": "docs/蚁算_MULTI_METRIC_CAPTURE.md",
+  "pass": true,
+  "claim": false,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "note": "C227 product deepen multi-metric CLI+docs+demo; no VL claim"
+}

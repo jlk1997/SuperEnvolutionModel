@@ -1,0 +1,237 @@
+{
+  "cycle": "C1423",
+  "theme": "vision_v219_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-22T14:11:01+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7316.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v219h_01",
+      "kind": "ashvale_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2992.75,
+      "expected": 2992.75,
+      "ocr_preview": "ashvale ASHVALE GRAIN RECV V219H a paid 1490.00 b paid 1502.75 c open 1367.00 TOTAL PAID TARGET 2992.75 VOID WIN IGNORE old total 888.00 do not parse balt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY balt 55.00 IGNORE REC VOID COPY"
+    },
+    {
+      "id": "v219h_02",
+      "kind": "cedarvale_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "cedarvale WH CEDARVALE BIN V219H SKU1 qty 740 ok SKU2 qty 820 hold SKU3 qty 780 ok qty_sum TARGET 1520 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY"
+    },
+    {
+      "id": "v219h_03",
+      "kind": "dawnvale_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2909.5,
+      "expected": 2909.5,
+      "ocr_preview": "dawnvale DAWNVALE PATCH REFUND V219H itemR1 1448.00 done itemR2 1461.50 done itemR3 1355.00 open refund_done TARGET 2909.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DONE VOID COPY bait 88.00 bait 88.00 bait 555.00 V219H C 1423 clarity from jpeg_00C photoC testout SCAN DESK V43H bask 222.00 PAG"
+    },
+    {
+      "id": "v219h_04",
+      "kind": "elmvale_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3142.0,
+      "expected": 3142.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 elmvale ELMVALE TAX SLIP V219H base 1563.00 paid addon 1579.00 paid skip 1396.00 tax_base_paid TARGET 3142.00 OKP tax 00.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 00.00 IGNORE VOID TAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 v219H C 1423 clearly from preg_30C photoC testout"
+    },
+    {
+      "id": "v219h_05",
+      "kind": "fernvale_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3224.0,
+      "expected": 3224.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 fernvale FERNVALE PAYROLL V219H empA 1604.00 active empB 1620.00 active empC 1391.00 leave payroll_active TARGET 3224.00 OIP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE PAY VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V219H C 1423 clarity from preg_30C photoC testout"
+    },
+    {
+      "id": "v219h_06",
+      "kind": "glenvale_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2810.0,
+      "expected": 2810.0,
+      "ocr_preview": "glenvale GLENVALE SHIP DOCK V219H box1 1398 ok box2 1412 ok box3 1360 hold ship_ok TARGET 2810 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY V219H C 1423 clarity from preg_3D photoC testout"
+    },
+    {
+      "id": "v219h_07",
+      "kind": "hazevale_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "hazevale HAZEVALE SLA CARD V219H job1 360.00 hours ok job2 400.00 hours ok job3 730.00 hours late sla_ok_hours TARGET 760.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE COPY OKP bait 88.00 V219H C 1423 clearly from preg_30C photoC testout"
+    },
+    {
+      "id": "v219h_08",
+      "kind": "inkvale_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2969.75,
+      "expected": 2969.75,
+      "ocr_preview": "INKVALE EXPENSE V219H e1 1474.00 e2 1495.75 e3 1367.00 void exp_sum TARGET 2969.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY V219H C 1423 clarity from preg_32C photoC twistout"
+    },
+    {
+      "id": "v219h_09",
+      "kind": "jadevale_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadewale JADEVALE PO SHEET V219H line1 780.00 open line2 740.00 open line3 820.00 closed po_open TARGET 1520.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID PO COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 SCAN DESK V43H BAST 222.00 PAGE 01 V219H C 1423 clearly from preg_30C photoC testout"
+    },
+    {
+      "id": "v219h_10",
+      "kind": "knotvale_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3028.0,
+      "expected": 3028.0,
+      "ocr_preview": "knotvale KNOTVALE ORDER V219H skuA 1521.00 paid skuB 1507.00 paid skuC 1362.00 due order_paid TARGET 3028.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v219h_11",
+      "kind": "lakevale_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakevale LAKEVALE DUP MARK V219H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v219h_12",
+      "kind": "mossvale_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossvale MOSSVALE AIR ZERO V219H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v219h_13",
+      "kind": "nethervale_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3127.5,
+      "expected": 3127.5,
+      "ocr_preview": "netherville NETHERVALE LEDGER V219H dr 1556.00 cr 1571.50 adj 1377.00 ledger_net TARGET 3127.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v219h_14",
+      "kind": "oakvale_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakvale OAKVALE UI SCAN V219H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v219h_15",
+      "kind": "pinevale_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2325.0,
+      "expected": 2325.0,
+      "ocr_preview": "pinevale PINEVALE STACK V219H p1 1165 p2 1160 p3 1155 stack_count TARGET 2325 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY"
+    },
+    {
+      "id": "v219h_16",
+      "kind": "quillvale_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2482.0,
+      "expected": 2482.0,
+      "ocr_preview": "quillvale QUILLVALE FAX V219H pgA 1244 pgB 1238 pgC 1226 drop fax_pages TARGET 2482 DRAFT DRAFT DRAFT DRAFT VOID VOID FAX COPY STICKY fax 99.99 IGNORE fax 99.99 VOID WIN IGNORE old total 888.00 do not parse fax 555.00 V219H C 1423 clearly from pgC photoC testout"
+    },
+    {
+      "id": "v219h_17",
+      "kind": "reedvale_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedvale REEDVALE GLARE V219H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY V219H C 1423 clarity from preg_20C photoC testout"
+    },
+    {
+      "id": "v219h_18",
+      "kind": "stonevale_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2502.0,
+      "expected": 2502.0,
+      "ocr_preview": "stonevale STONEVALE TAB INDEX V219H tabA 1254 tabB 1248 tabC 1227 tab_index TARGET 2502 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY V219H C 1423 clearly from preg_30C photoC testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v219_heldout_claim": true,
+  "claim_scope": "r50plus_v219_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

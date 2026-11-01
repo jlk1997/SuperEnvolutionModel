@@ -1,0 +1,17 @@
+{
+  "cycle": "C285b",
+  "theme": "vision_gate_v30_claim",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T12:36:32+08:00",
+  "vl_gate_v30_claim": true,
+  "rate": 1.0,
+  "n": 18,
+  "n_ok": 18,
+  "fail_ids": [],
+  "pass": true,
+  "claim": true,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "source": "C285_VISION_V30_SMOKE.json",
+  "note": "claim after C285a v30_15 repair"
+}

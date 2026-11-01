@@ -1,0 +1,16 @@
+{
+  "cycle": "C112",
+  "theme": "docs_stage_checkpoint",
+  "gate": 0.6,
+  "pointers": [
+    "C107",
+    "C108",
+    "C109",
+    "C110",
+    "C111"
+  ],
+  "v4_heldout_claim": true,
+  "v4_claim_prior": true,
+  "timestamp": "2026-10-19T02:10:11+08:00",
+  "pass": true
+}

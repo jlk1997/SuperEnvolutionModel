@@ -1,0 +1,42 @@
+.venv/
+refs/
+runs/**
+!runs/.gitkeep
+.cache/
+tmp/
+models/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+data/squad_cache.json
+
+# Large local artifacts (keep on disk; never commit)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+adapter_model.safetensors
+# Adapter dumps under runs are already covered by runs/**; belt-and-suspenders:
+runs/**/adapter_model.*
+runs/**/optimizer.*
+runs/**/*.safetensors
+# HF / trainer leftovers
+wandb/
+lightning_logs/
+outputs/
+*.log
+# Local agent / editor
+.cursor/
+*.swp
+Thumbs.db
+desktop.ini
+# Studio media dumps / local organism state (junk for git)
+data/studio/
+
+# omitted from GitHub push (too large)
+evo/office/fixtures/vision_images*/
+**/vision_images*/
+

@@ -1,0 +1,237 @@
+{
+  "cycle": "C859",
+  "theme": "vision_v125_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T09:18:34+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v125h_01",
+      "kind": "ashcove_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1160.75,
+      "expected": 1160.75,
+      "ocr_preview": "ashcove ASHCOVE GRAIN RECV V125H a paid 574.00 b paid 586.75 c open 467.00 TOTAL PAID TARGET 1160.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC VOID COPY bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.0"
+    },
+    {
+      "id": "v125h_02",
+      "kind": "briarcove_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1080.0,
+      "expected": 1080.0,
+      "ocr_preview": "briarcove WH BRIARCOVE BIN V125H SKU1 qty 530 ok SKU2 qty 450 hold SKU3 qty 550 ok qty_sum TARGET 1080 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC COPY V125H C850 cavity floor preg_qf2 phone2 handset"
+    },
+    {
+      "id": "v125h_03",
+      "kind": "cedarcove_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1077.5,
+      "expected": 1077.5,
+      "ocr_preview": "cedarcove CEDARCOVE PATCH REFUND V125H itemR1 532.00 done itemR2 545.50 done itemR3 455.00 open refund_done TARGET 1077.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v125h_04",
+      "kind": "dawncove_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1310.0,
+      "expected": 1310.0,
+      "ocr_preview": "dawncove DAWNCOVE TAX SLIP V125H base 647.00 paid addon 663.00 paid skip 496.00 tax_base_paid TARGET 1310.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 99.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v125h_05",
+      "kind": "embercove_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1392.0,
+      "expected": 1392.0,
+      "ocr_preview": "embercove EMBERCOVE PAYROLL V125H empA 688.00 active empB 704.00 active empC 491.00 leave payroll_active TARGET 1392.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v125h_06",
+      "kind": "ferncove_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 978.0,
+      "expected": 978.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 ferncove FERNCOVE SHIP DOCK V125H box1 482 ok box2 496 ok box3 460 hold ship_ok TARGET 978 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE SHIP COPY"
+    },
+    {
+      "id": "v125h_07",
+      "kind": "glencove_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "glencove GLENCOVE SLA CARD V125H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID COPY"
+    },
+    {
+      "id": "v125h_08",
+      "kind": "hazecove_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1137.75,
+      "expected": 1137.75,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 hazecove HAZECOVE EXPENSE V125H e1 558.00 e2 579.75 e3 467.00 void exp_sum TARGET 1137.75 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v125h_09",
+      "kind": "inkcove_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1160.0,
+      "expected": 1160.0,
+      "ocr_preview": "inkcove INKCOVE PO SHEET V125H line1 617.00 open line2 543.00 open line3 464.00 closed po_open TARGET 1160.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID PO COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v125h_10",
+      "kind": "jadecove_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1196.0,
+      "expected": 1196.0,
+      "ocr_preview": "jadecove JADECOVE ORDER V125H skuA 605.00 paid skuB 591.00 paid skuC 462.00 due order_paid TARGET 1196.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v125h_11",
+      "kind": "kelpcove_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "kelpcove KELPCOVE DUP MARK V125H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP bait 88.00 COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait"
+    },
+    {
+      "id": "v125h_12",
+      "kind": "loamcove_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "loamcove LOAMCOVE AIR ZERO V125H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v125h_13",
+      "kind": "mistcove_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1295.5,
+      "expected": 1295.5,
+      "ocr_preview": "mistcove MISTCOVE LEDGER V125H dr 640.00 cr 655.50 adj 477.00 ledger_net TARGET 1295.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v125h_14",
+      "kind": "nethercove_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "nethercove NETHERCOVE UI SCAN V125H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v125h_15",
+      "kind": "oakcove_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 653.0,
+      "expected": 653.0,
+      "ocr_preview": "oakcove OAKCOVE STACK V125H p1 328 p2 325 p3 320 stack_count TARGET 653 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V125H C800 cavity floor prog_qf2 photo2 helixout"
+    },
+    {
+      "id": "v125h_16",
+      "kind": "pinecove_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 682.0,
+      "expected": 682.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222-00 PAGE 01 pinecove PINECOVE FAX V125H pgA 344 pgB 338 pgC 326 drop fax_pages TARGET 682 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v125h_17",
+      "kind": "quillcove_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "quillcove QUILLCOVE GLARE V125H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 b"
+    },
+    {
+      "id": "v125h_18",
+      "kind": "reedcove_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 702.0,
+      "expected": 702.0,
+      "ocr_preview": "reedcove REEDCOVE TAB INDEX V125H tabA 354 tabB 348 tabC 327 tab_index TARGET 702 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 8"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v125_heldout_claim": true,
+  "claim_scope": "r50plus_v125_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

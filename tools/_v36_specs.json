@@ -1,0 +1,546 @@
+{
+  "train": [
+    {
+      "id": "v36_01",
+      "kind": "teak_recv",
+      "metric": "paid_total",
+      "expected": 134.25,
+      "lines": [
+        "TEAK GRAIN RECV V36",
+        "a paid 64.00",
+        "b paid 70.25",
+        "c open 19.00",
+        "TOTAL PAID TARGET 134.25"
+      ],
+      "cn": "柚木收款单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v36_02",
+      "kind": "marble_wh",
+      "metric": "qty_sum",
+      "expected": 97.0,
+      "lines": [
+        "WH MARBLE TILE V36",
+        "SKU1 qty 41 ok",
+        "SKU2 qty 28 hold",
+        "SKU3 qty 47 ok",
+        "qty_sum TARGET 97"
+      ],
+      "cn": "大理石仓位单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v36_03",
+      "kind": "canvas_refund",
+      "metric": "refund_done",
+      "expected": 71.5,
+      "lines": [
+        "CANVAS PATCH REFUND V36",
+        "itemR1 34.00 done",
+        "itemR2 37.50 done",
+        "itemR3 15.00 open",
+        "refund_done TARGET 71.50"
+      ],
+      "cn": "帆布补丁退款单",
+      "stamp": "DONE"
+    },
+    {
+      "id": "v36_04",
+      "kind": "cobalt_tax",
+      "metric": "tax_base_paid",
+      "expected": 201.0,
+      "lines": [
+        "COBALT TAX SLIP V36",
+        "base 96.00 paid",
+        "addon 105.00 paid",
+        "skip 42.00",
+        "tax_base_paid TARGET 201.00"
+      ],
+      "cn": "钴蓝税基单",
+      "stamp": "TAX"
+    },
+    {
+      "id": "v36_05",
+      "kind": "mica_pay",
+      "metric": "payroll_active",
+      "expected": 268.0,
+      "lines": [
+        "MICA PAYROLL V36",
+        "empA 130.00 active",
+        "empB 138.00 active",
+        "empC 35.00 leave",
+        "payroll_active TARGET 268.00"
+      ],
+      "cn": "云母工资单",
+      "stamp": "PAY"
+    },
+    {
+      "id": "v36_06",
+      "kind": "clasp_ship",
+      "metric": "ship_ok",
+      "expected": 63.0,
+      "lines": [
+        "CLASP SHIP DOCK V36",
+        "box1 31 ok",
+        "box2 17 ok",
+        "box3 22 hold",
+        "ship_ok TARGET 63"
+      ],
+      "cn": "搭扣出货单",
+      "stamp": "SHIP"
+    },
+    {
+      "id": "v36_07",
+      "kind": "garnet_sla",
+      "metric": "sla_ok_hours",
+      "expected": 81.25,
+      "lines": [
+        "GARNET SLA CARD V36",
+        "job1 44.00h ok",
+        "job2 37.25h ok",
+        "job3 20.00h late",
+        "sla_ok_hours TARGET 81.25"
+      ],
+      "cn": "石榴石SLA卡",
+      "stamp": "SLA"
+    },
+    {
+      "id": "v36_08",
+      "kind": "flint_exp",
+      "metric": "exp_sum",
+      "expected": 108.5,
+      "lines": [
+        "FLINT EXPENSE V36",
+        "e1 52.00",
+        "e2 56.50",
+        "e3 24.00 void",
+        "exp_sum TARGET 108.50"
+      ],
+      "cn": "燧石费用单",
+      "stamp": "EXP"
+    },
+    {
+      "id": "v36_09",
+      "kind": "steel_po",
+      "metric": "po_open",
+      "expected": 122.0,
+      "lines": [
+        "STEEL PO SHEET V36",
+        "line1 66.00 open",
+        "line2 56.00 open",
+        "line3 28.00 closed",
+        "po_open TARGET 122.00"
+      ],
+      "cn": "钢材采购单",
+      "stamp": "PO"
+    },
+    {
+      "id": "v36_10",
+      "kind": "kraft_order",
+      "metric": "order_paid",
+      "expected": 147.75,
+      "lines": [
+        "KRAFT ORDER V36",
+        "skuA 78.00 paid",
+        "skuB 69.75 paid",
+        "skuC 21.00 due",
+        "order_paid TARGET 147.75"
+      ],
+      "cn": "牛皮纸订单",
+      "stamp": "ORD"
+    },
+    {
+      "id": "v36_11",
+      "kind": "flannel_dup",
+      "metric": "dup_mark",
+      "expected": 2.0,
+      "lines": [
+        "FLANNEL DUP MARK V36",
+        "markA 1",
+        "markB 1",
+        "markC 0",
+        "dup_mark TARGET 2"
+      ],
+      "cn": "法兰绒重复标记",
+      "stamp": "DUP"
+    },
+    {
+      "id": "v36_12",
+      "kind": "empty_zero",
+      "metric": "zero_check",
+      "expected": 0.0,
+      "lines": [
+        "EMPTY VOID ZERO V36",
+        "z1 0.00",
+        "z2 0.00",
+        "z3 0.00",
+        "zero_check TARGET 0.00"
+      ],
+      "cn": "空值清零单",
+      "stamp": "ZERO"
+    },
+    {
+      "id": "v36_13",
+      "kind": "jute_ledger",
+      "metric": "ledger_net",
+      "expected": 231.5,
+      "lines": [
+        "JUTE LEDGER V36",
+        "dr 112.00",
+        "cr 119.50",
+        "adj 36.00",
+        "ledger_net TARGET 231.50"
+      ],
+      "cn": "黄麻账本",
+      "stamp": "LED"
+    },
+    {
+      "id": "v36_14",
+      "kind": "glaze_ui",
+      "metric": "ui_ok",
+      "expected": 1.0,
+      "lines": [
+        "GLAZE UI SCAN V36",
+        "btnOK 1",
+        "btnSkip 0",
+        "btnBad 0",
+        "ui_ok TARGET 1"
+      ],
+      "cn": "釉面界面扫描",
+      "stamp": "UI"
+    },
+    {
+      "id": "v36_15",
+      "kind": "sisal_stack",
+      "metric": "stack_count",
+      "expected": 11.0,
+      "lines": [
+        "SISAL STACK V36",
+        "p1 5",
+        "p2 4",
+        "p3 2",
+        "stack_count TARGET 11"
+      ],
+      "cn": "剑麻堆叠单",
+      "stamp": "STK"
+    },
+    {
+      "id": "v36_16",
+      "kind": "aubergine_fax",
+      "metric": "fax_pages",
+      "expected": 16.0,
+      "lines": [
+        "AUBERGINE FAX V36",
+        "pgA 8",
+        "pgB 8",
+        "pgC 3 drop",
+        "fax_pages TARGET 16"
+      ],
+      "cn": "茄紫传真单",
+      "stamp": "FAX"
+    },
+    {
+      "id": "v36_17",
+      "kind": "titanium_glare",
+      "metric": "glare_ok",
+      "expected": 1.0,
+      "lines": [
+        "TITANIUM GLARE V36",
+        "zone1 1 ok",
+        "zone2 0",
+        "zone3 0",
+        "glare_ok TARGET 1"
+      ],
+      "cn": "钛光眩光单",
+      "stamp": "GLR"
+    },
+    {
+      "id": "v36_18",
+      "kind": "dossier_tab",
+      "metric": "tab_index",
+      "expected": 21.0,
+      "lines": [
+        "DOSSIER TAB INDEX V36",
+        "tabA 12",
+        "tabB 9",
+        "tabC 2",
+        "tab_index TARGET 21"
+      ],
+      "cn": "档案页签索引",
+      "stamp": "TAB"
+    }
+  ],
+  "held": [
+    {
+      "id": "v36h_01",
+      "kind": "teak_recv",
+      "metric": "paid_total",
+      "expected": 76.5,
+      "lines": [
+        "TEAK GRAIN RECV V36",
+        "a paid 36.00",
+        "b paid 40.50",
+        "c open 14.00",
+        "TOTAL PAID TARGET 76.50"
+      ],
+      "cn": "柚木收款单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v36h_02",
+      "kind": "marble_wh",
+      "metric": "qty_sum",
+      "expected": 54.0,
+      "lines": [
+        "WH MARBLE TILE V36",
+        "SKU1 qty 24 ok",
+        "SKU2 qty 12 hold",
+        "SKU3 qty 30 ok",
+        "qty_sum TARGET 54"
+      ],
+      "cn": "大理石仓位单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v36h_03",
+      "kind": "canvas_refund",
+      "metric": "refund_done",
+      "expected": 42.25,
+      "lines": [
+        "CANVAS PATCH REFUND V36",
+        "itemR1 20.00 done",
+        "itemR2 22.25 done",
+        "itemR3 9.00 open",
+        "refund_done TARGET 42.25"
+      ],
+      "cn": "帆布补丁退款单H",
+      "stamp": "DONE"
+    },
+    {
+      "id": "v36h_04",
+      "kind": "cobalt_tax",
+      "metric": "tax_base_paid",
+      "expected": 108.0,
+      "lines": [
+        "COBALT TAX SLIP V36",
+        "base 52.00 paid",
+        "addon 56.00 paid",
+        "skip 24.00",
+        "tax_base_paid TARGET 108.00"
+      ],
+      "cn": "钴蓝税基单H",
+      "stamp": "TAX"
+    },
+    {
+      "id": "v36h_05",
+      "kind": "mica_pay",
+      "metric": "payroll_active",
+      "expected": 142.0,
+      "lines": [
+        "MICA PAYROLL V36",
+        "empA 70.00 active",
+        "empB 72.00 active",
+        "empC 20.00 leave",
+        "payroll_active TARGET 142.00"
+      ],
+      "cn": "云母工资单H",
+      "stamp": "PAY"
+    },
+    {
+      "id": "v36h_06",
+      "kind": "clasp_ship",
+      "metric": "ship_ok",
+      "expected": 35.0,
+      "lines": [
+        "CLASP SHIP DOCK V36",
+        "box1 18 ok",
+        "box2 9 ok",
+        "box3 14 hold",
+        "ship_ok TARGET 35"
+      ],
+      "cn": "搭扣出货单H",
+      "stamp": "SHIP"
+    },
+    {
+      "id": "v36h_07",
+      "kind": "garnet_sla",
+      "metric": "sla_ok_hours",
+      "expected": 46.5,
+      "lines": [
+        "GARNET SLA CARD V36",
+        "job1 25.00h ok",
+        "job2 21.50h ok",
+        "job3 11.00h late",
+        "sla_ok_hours TARGET 46.50"
+      ],
+      "cn": "石榴石SLA卡H",
+      "stamp": "SLA"
+    },
+    {
+      "id": "v36h_08",
+      "kind": "flint_exp",
+      "metric": "exp_sum",
+      "expected": 58.75,
+      "lines": [
+        "FLINT EXPENSE V36",
+        "e1 27.00",
+        "e2 31.75",
+        "e3 13.00 void",
+        "exp_sum TARGET 58.75"
+      ],
+      "cn": "燧石费用单H",
+      "stamp": "EXP"
+    },
+    {
+      "id": "v36h_09",
+      "kind": "steel_po",
+      "metric": "po_open",
+      "expected": 67.0,
+      "lines": [
+        "STEEL PO SHEET V36",
+        "line1 36.00 open",
+        "line2 31.00 open",
+        "line3 15.00 closed",
+        "po_open TARGET 67.00"
+      ],
+      "cn": "钢材采购单H",
+      "stamp": "PO"
+    },
+    {
+      "id": "v36h_10",
+      "kind": "kraft_order",
+      "metric": "order_paid",
+      "expected": 82.25,
+      "lines": [
+        "KRAFT ORDER V36",
+        "skuA 44.00 paid",
+        "skuB 38.25 paid",
+        "skuC 12.00 due",
+        "order_paid TARGET 82.25"
+      ],
+      "cn": "牛皮纸订单H",
+      "stamp": "ORD"
+    },
+    {
+      "id": "v36h_11",
+      "kind": "flannel_dup",
+      "metric": "dup_mark",
+      "expected": 2.0,
+      "lines": [
+        "FLANNEL DUP MARK V36",
+        "markA 1",
+        "markB 1",
+        "markC 0",
+        "dup_mark TARGET 2"
+      ],
+      "cn": "法兰绒重复标记H",
+      "stamp": "DUP"
+    },
+    {
+      "id": "v36h_12",
+      "kind": "empty_zero",
+      "metric": "zero_check",
+      "expected": 0.0,
+      "lines": [
+        "EMPTY VOID ZERO V36",
+        "z1 0.00",
+        "z2 0.00",
+        "z3 0.00",
+        "zero_check TARGET 0.00"
+      ],
+      "cn": "空值清零单H",
+      "stamp": "ZERO"
+    },
+    {
+      "id": "v36h_13",
+      "kind": "jute_ledger",
+      "metric": "ledger_net",
+      "expected": 126.5,
+      "lines": [
+        "JUTE LEDGER V36",
+        "dr 60.00",
+        "cr 66.50",
+        "adj 20.00",
+        "ledger_net TARGET 126.50"
+      ],
+      "cn": "黄麻账本H",
+      "stamp": "LED"
+    },
+    {
+      "id": "v36h_14",
+      "kind": "glaze_ui",
+      "metric": "ui_ok",
+      "expected": 1.0,
+      "lines": [
+        "GLAZE UI SCAN V36",
+        "btnOK 1",
+        "btnSkip 0",
+        "btnBad 0",
+        "ui_ok TARGET 1"
+      ],
+      "cn": "釉面界面扫描H",
+      "stamp": "UI"
+    },
+    {
+      "id": "v36h_15",
+      "kind": "sisal_stack",
+      "metric": "stack_count",
+      "expected": 6.0,
+      "lines": [
+        "SISAL STACK V36",
+        "p1 3",
+        "p2 2",
+        "p3 1",
+        "stack_count TARGET 6"
+      ],
+      "cn": "剑麻堆叠单H",
+      "stamp": "STK"
+    },
+    {
+      "id": "v36h_16",
+      "kind": "aubergine_fax",
+      "metric": "fax_pages",
+      "expected": 9.0,
+      "lines": [
+        "AUBERGINE FAX V36",
+        "pgA 5",
+        "pgB 4",
+        "pgC 2 drop",
+        "fax_pages TARGET 9"
+      ],
+      "cn": "茄紫传真单H",
+      "stamp": "FAX"
+    },
+    {
+      "id": "v36h_17",
+      "kind": "titanium_glare",
+      "metric": "glare_ok",
+      "expected": 1.0,
+      "lines": [
+        "TITANIUM GLARE V36",
+        "zone1 1 ok",
+        "zone2 0",
+        "zone3 0",
+        "glare_ok TARGET 1"
+      ],
+      "cn": "钛光眩光单H",
+      "stamp": "GLR"
+    },
+    {
+      "id": "v36h_18",
+      "kind": "dossier_tab",
+      "metric": "tab_index",
+      "expected": 12.0,
+      "lines": [
+        "DOSSIER TAB INDEX V36",
+        "tabA 7",
+        "tabB 5",
+        "tabC 1",
+        "tab_index TARGET 12"
+      ],
+      "cn": "档案页签索引H",
+      "stamp": "TAB"
+    }
+  ]
+}

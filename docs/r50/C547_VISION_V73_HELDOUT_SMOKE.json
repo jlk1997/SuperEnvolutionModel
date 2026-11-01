@@ -1,0 +1,237 @@
+{
+  "cycle": "C547",
+  "theme": "vision_v73_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T20:50:49+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7423.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v73h_01",
+      "kind": "maplehaven_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 420.5,
+      "expected": 420.5,
+      "ocr_preview": "maplehaven MAPLEHAVEN GRAIN RECV V73H a paid 203.00 b paid 217.50 c open 110.00 TOTAL PAID TARGET 420.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID REC COPY V73H CS47 clarity four peg_0152 photo2 testout"
+    },
+    {
+      "id": "v73h_02",
+      "kind": "nimbuscliff_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 358.0,
+      "expected": 358.0,
+      "ocr_preview": "nimbuscliff WH NIMBUSCLIFF BIN V73H SKU1 qty 165 ok SKU2 qty 117 hold SKU3 qty 193 ok qty_sum TARGET 358 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC COPY V73H CS47 clarity four peg_052 photo2 testout"
+    },
+    {
+      "id": "v73h_03",
+      "kind": "oakridgepass_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 337.25,
+      "expected": 337.25,
+      "ocr_preview": "oakridgepass OAKRIDGEPASS PATCH REFUND V73H itemR1 161.00 done itemR2 176.25 done itemR3 98.00 open refund_done TARGET 337.25 VOID WIN IGNORE old total 888.00 do not parse bait $55.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 98.00 IGNORE DONE VOID COPY V73H CS47 clarity four pag_052 photod2 testout"
+    },
+    {
+      "id": "v73h_04",
+      "kind": "prairiecrest_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 540.0,
+      "expected": 540.0,
+      "ocr_preview": "prairiecrest PRAIRIECREST TAX SLIP V73H base 262.00 paid addon 278.00 paid skip 139.00 tax_base_paid TARGET 540.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE TAX VOID COPY V73H CS47 clarity four page 152 photo2 testout"
+    },
+    {
+      "id": "v73h_05",
+      "kind": "quarryhaven_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 622.0,
+      "expected": 622.0,
+      "ocr_preview": "quarryhaven QUARRYHAVEN PAYROLL V73H empA 303.00 active empB 319.00 active empC 134.00 leave payroll_active TARGET 622.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v73h_06",
+      "kind": "riverhaven_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 264.0,
+      "expected": 264.0,
+      "ocr_preview": "riverhaven RIVERHAVEN SHIP DOCK V73H box1 125 ok box2 139 ok box3 103 hold ship_ok TARGET 264 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT DRAFT VOID SHIP COPY V73H CS47 clarity four peg_0152 photo2 testout"
+    },
+    {
+      "id": "v73h_07",
+      "kind": "sagecliff_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 334.25,
+      "expected": 334.25,
+      "ocr_preview": "sagecliff SAGECLIFF SLA CARD V73H job1 169.00 hours ok job2 165.25 hours ok job3 104.00 hours late sla_ok_hours TARGET 334.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 VOID COPY V73H CS47 clarity four peg_0152 photo2 testout"
+    },
+    {
+      "id": "v73h_08",
+      "kind": "tidehaven_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 394.0,
+      "expected": 394.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 tidehaven TIDEHAVEN EXPENSE V73H e1 187.00 e2 207.00 e3 110.00 void exp_sum TARGET 394.00 OKP bait 00.00 GRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE EXP COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V73H CS47 clarity four peg_0152 photo2 testout"
+    },
+    {
+      "id": "v73h_09",
+      "kind": "umbrahollow_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 402.0,
+      "expected": 402.0,
+      "ocr_preview": "umbrahollow UMBRAHOLLOW PO SHEET V73H line1 207.00 open line2 195.00 open line3 113.00 closed po_open TARGET 402.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID PO COPY VOID WIN IGNORE old total 888.00 do not parse. bait 555.00 SCAN DESK V43H BAST 222.00 PAGE 01 V73H CS47 clarity four peg_peg2 photo2 testout"
+    },
+    {
+      "id": "v73h_10",
+      "kind": "violetpass_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 455.75,
+      "expected": 455.75,
+      "ocr_preview": "violetpass VIOLETPASS ORDER V73H skuA 234.00 paid skuB 221.75 paid skuC 105.00 due order_paid TARGET 455.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait"
+    },
+    {
+      "id": "v73h_11",
+      "kind": "willowhaven_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "willowhaven WILLOWHAVEN DUP MARK V73H markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v73h_12",
+      "kind": "xenonridge_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "xenonridge XENONRIDGE AIR ZERO V73H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 V73H CS47 clarity four peg_012 photo2 testout SCAN DESK V43H bust-222.00 PAGE 01"
+    },
+    {
+      "id": "v73h_13",
+      "kind": "yarrowhaven_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 555.25,
+      "expected": 555.25,
+      "ocr_preview": "yarrowhaven YARROWHAVEN LEDGER V73H dr 269.00 cr 286.25 adj 120.00 ledger_net TARGET 555.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v73h_14",
+      "kind": "zephyrhaven_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "zephyrhaven ZEPHYRHAVEN UI SCAN V73H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 DRAFT DRAFT DRAFT DRAFT STICKY bait 88. 88 IGNORE VOID ui COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 SCAN DESK V43h bait 222.00 PAGE 01 V73H CS47 clarity four peg_0152 photo2 textout OKP bait 88. 88"
+    },
+    {
+      "id": "v73h_15",
+      "kind": "aldercrest_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 79.0,
+      "expected": 79.0,
+      "ocr_preview": "aldercrest ALDERCREST STACK V73H p1 41 p2 38 p3 33 stack_count TARGET 79 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT STK VOID COPY V73H CS47 clarity four peg_peg2 photol testout"
+    },
+    {
+      "id": "v73h_16",
+      "kind": "birchhaven_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 108.0,
+      "expected": 108.0,
+      "ocr_preview": "birchhaven BIRCHHAVEN FAX V73H pgA 57 pgB 51 pgC 39 drop fax_pages TARGET 108 OKP fax 00 00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY fax 00 00 IGNORE VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse fax 555.00 V73H CS47 clarity four pag_052 photol testout"
+    },
+    {
+      "id": "v73h_17",
+      "kind": "cinderhaven_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "cinderhaven CINDERHAVEN GLARE V73H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY"
+    },
+    {
+      "id": "v73h_18",
+      "kind": "dewstonepass_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 128.0,
+      "expected": 128.0,
+      "ocr_preview": "dewstonepass DEWSTONEPASS TAB INDEX V73H tabA 67 tabB 61 tabC 40 tab_index TARGET 128 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY V73H CS47 clarity four peg_0502 photo2 testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v73_heldout_claim": true,
+  "claim_scope": "r50plus_v73_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

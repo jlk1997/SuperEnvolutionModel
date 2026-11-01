@@ -1,0 +1,237 @@
+{
+  "cycle": "C1105",
+  "theme": "vision_v166_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T23:40:41+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7551.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v166h_01",
+      "kind": "ashholm_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1926.75,
+      "expected": 1926.75,
+      "ocr_preview": "ashholm ASHHOLM GRAIN RECV V166H a paid 957.00 b paid 969.75 c open 850.00 TOTAL PAID TARGET 1926.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE REC VOID COPY bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.0"
+    },
+    {
+      "id": "v166h_02",
+      "kind": "cedarholm_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "cedarholm WH CEDARHOLM BIN V168H SKU1 qty 840 ok SKU2 qty 810 hold SKU3 qty 760 ok qty_sum TARGET 1600 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY"
+    },
+    {
+      "id": "v166h_03",
+      "kind": "dawnholm_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1843.5,
+      "expected": 1843.5,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 dawnholm DAWNHOLM PATCH REFUND V166H itemR1 915.00 done itemR2 928.50 done itemR3 838.00 open refund_done TARGET 1843.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v166h_04",
+      "kind": "elmholm_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2076.0,
+      "expected": 2076.0,
+      "ocr_preview": "elmholm ELMHOLM TAX SLIP V166H base 1030.00 paid addon 1046.00 paid skip 879.00 tax_base_paid TARGET 2076.00 DRAFT DRAFT DRAFT DRAFT DRAFT VOID TAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v166h_05",
+      "kind": "fernholm_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2158.0,
+      "expected": 2158.0,
+      "ocr_preview": "SCAN DESK V43H BASC 222.00 PAGE 01 fernholm FERNHOLM PAYROLL V166H empA 1071.00 active empB 1087.00 active empC 874.00 leave payroll_active TARGET 2158.00 OIP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 COPY C 1125 clarity from pag_052 photo/2 retinal"
+    },
+    {
+      "id": "v166h_06",
+      "kind": "glenholm_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1744.0,
+      "expected": 1744.0,
+      "ocr_preview": "glenholm GLENHOLM SHIP DOCK V166H box1 865 ok box2 879 ok box3 843 hold ship_ok TARGET 1744 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT SHIP VOID COPY"
+    },
+    {
+      "id": "v166h_07",
+      "kind": "hazeholm_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "hazeholm HAZEHOLM SLA CARD V166H job1 360.00 hours ok job2 400.00 hours ok job3 430.00 hours late sla_ok_hours TARGET 760.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88."
+    },
+    {
+      "id": "v166h_08",
+      "kind": "inkholm_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1903.75,
+      "expected": 1903.75,
+      "ocr_preview": "SCAN DESK V40H BAST 222.00 PAGE 01 inkholm INKHOLM EXPENSE V160H e1 941.00 e2 962.75 e3 850.00 void exp_sum TARGET 1903.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88."
+    },
+    {
+      "id": "v166h_09",
+      "kind": "jadeholm_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "jadeholm JADEHOLM PO SHEET V166H line1 840.00 open line2 760.00 open line3 680.00 closed po_open TARGET 1600.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO bait 88.00 COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88."
+    },
+    {
+      "id": "v166h_10",
+      "kind": "knotholm_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1962.0,
+      "expected": 1962.0,
+      "ocr_preview": "knotholm KNOTHOLM ORDER V166H skuA 988.00 paid skuB 974.00 paid skuC 845.00 due order_paid TARGET 1962.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v166h_11",
+      "kind": "lakeholm_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakeholm LAKEHOLM DUP MARK V166H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v166h_12",
+      "kind": "mossholm_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossholm MOSSHOLM AIR ZERO V166H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 b"
+    },
+    {
+      "id": "v166h_13",
+      "kind": "netherholm_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2061.5,
+      "expected": 2061.5,
+      "ocr_preview": "netherholm NETHERHOLM LEDGER V166H dr 1023.00 cr 1038.50 adj 860.00 ledger_net TARGET 2061.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v166h_14",
+      "kind": "oakholm_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakholm OAKHOLM UI SCAN V168H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v166h_15",
+      "kind": "pineholm_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1419.0,
+      "expected": 1419.0,
+      "ocr_preview": "pineholm PINEHOLM STACK V166H p1 711 p2 708 p3 703 stack_count TARGET 1419 OKP bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID STK COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v166h_16",
+      "kind": "quillholm_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1448.0,
+      "expected": 1448.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 quillholm QUILLHOLM FAX V166H pgA 727 pgB 721 pgC 709 drop fax_pages TARGET 1448 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v166h_17",
+      "kind": "reedholm_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedholm REEDHOLM GLARE V166H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v166h_18",
+      "kind": "stoneholm_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1468.0,
+      "expected": 1468.0,
+      "ocr_preview": "stoneholm STONEHOLM TAB INDEX V166H tabA 737 tabB 731 tabC 710 tab_index TARGET 1468 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE tab 00.00 tab 00.00 tab 00.00 tab 00.00 tab 00.00 tab 00.00 tab 00.00 tab 00.00 tab 00.00 tab 00.00 tab 00.00 tab 00.00 tab 00"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v166_heldout_claim": true,
+  "claim_scope": "r50plus_v166_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

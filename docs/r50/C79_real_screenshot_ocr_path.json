@@ -1,0 +1,82 @@
+{
+  "kind": "r50plus_c79_real_screenshot_ocr_path",
+  "timestamp": "2026-10-19T00:09:00+08:00",
+  "gate": 0.6,
+  "tesseract_probe": {
+    "tesseract_exe": null,
+    "pytesseract": false,
+    "version": null,
+    "feasible": false
+  },
+  "tesseract_eval": null,
+  "vl_ocr_eval": {
+    "n": 6,
+    "n_ok": 6,
+    "rate": 1.0,
+    "items": [
+      {
+        "id": "office-hard-mixed-001",
+        "gold": "Ship to: 88 Ant Rd Deadline: 2026-11-01",
+        "pred_head": "Ship to: 88 Ant Rd Deadline: 2026-11-01",
+        "ok": true,
+        "error": null
+      },
+      {
+        "id": "office-hard-ocr-001",
+        "gold": "Invoice# INV-7781 Subtotal 990.00 Tax 89.10 Total 1079.10",
+        "pred_head": "Invoice# INV-7781 Subtotal 990.00 Tax 89.10 Total 1079.10",
+        "ok": true,
+        "error": null
+      },
+      {
+        "id": "office-ocr-001",
+        "gold": "INVOICE-7781 TOTAL 128.50 Paid",
+        "pred_head": "INVOICE-7781 TOTAL 128.50 Paid",
+        "ok": true,
+        "error": null
+      },
+      {
+        "id": "office-ocr-002",
+        "gold": "TOTAL DUE 128.50",
+        "pred_head": "TOTAL DUE 128.50",
+        "ok": true,
+        "error": null
+      },
+      {
+        "id": "office-ocr-003",
+        "gold": "PO-2026-441",
+        "pred_head": "po-2026-441",
+        "ok": true,
+        "error": null
+      },
+      {
+        "id": "office-pdfpage-001",
+        "gold": "Page 1 Contract Terms Clause 1.1 Payment due net 30",
+        "pred_head": "Page 1 Contract Terms Clause 1.1 Payment due net 30",
+        "ok": true,
+        "error": null
+      }
+    ],
+    "error": null,
+    "fixture_dir": "evo/office/fixtures/vision_images_real",
+    "ids": [
+      "office-hard-mixed-001",
+      "office-hard-ocr-001",
+      "office-ocr-001",
+      "office-ocr-002",
+      "office-ocr-003",
+      "office-pdfpage-001"
+    ]
+  },
+  "path_landed": {
+    "module": "evo/office/vision_ocr.py",
+    "tesseract_feasible": false,
+    "vl_ocr_feasible": true,
+    "recommended": "vl"
+  },
+  "claim_ocr_classic": false,
+  "honest_note": "Tesseract not installed on jlk → classic OCR not feasible. Product OCR path = RealVlBackend on real screenshots when weights present.",
+  "innovation": "Honest dual-path OCR module; prefer VL when tesseract absent",
+  "gate2_3_untouched": true,
+  "no_fake_vl": true
+}

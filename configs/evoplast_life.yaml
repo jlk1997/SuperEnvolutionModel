@@ -1,0 +1,27 @@
+﻿# One loaded Qwen2.5-1.5B learns rules one after another.
+# Birth test gives the base 256 tokens to derive, with and without three worked examples.
+# Every shown rule was solved at least half the time, so the filter here is `unmastered`:
+# a rule the base already gets right 90% of the time is dropped. The gain on offer is
+# accuracy with a short answer, compared against the base thinking at length.
+# add6 is trained first to teach the answer format and is left out of the acceleration numbers.
+run_name: evoplast_life
+stage: life
+seed: 0
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: attn_mlp
+max_seq_len: 256
+max_new_code: 128
+birth_new: 256
+icl_new: 256
+skill_mode: shown
+birth_rule: unmastered
+life_primer: add6
+life_n: 4
+life_target: 0.9
+life_cap: 144
+check_every: 1
+max_slots: 3
+write: true

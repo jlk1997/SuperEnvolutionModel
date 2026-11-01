@@ -1,0 +1,74 @@
+{
+  "kind": "r50plus_c70_vision_v2h_style_train_fixtures",
+  "timestamp": "2026-10-18T23:23:52+08:00",
+  "gate": 0.6,
+  "n": 10,
+  "fixtures": [
+    {
+      "id": "v2t-table-wh-001",
+      "png_bytes": 12989,
+      "task": "table_cells",
+      "gold": "slot,part,qty,hold,free\nS1,SCREW-M4,320,30,290\nS2,RIVET-8,210,10,200\nT4,TAPE-K,88,8,80\nU9,OIL-Z,44,4,40"
+    },
+    {
+      "id": "v2t-table-qc-001",
+      "png_bytes": 10747,
+      "task": "table_cells",
+      "gold": "lot,line,pass,fail,rate\nL11,A,90,2,97%\nL12,B,80,5,94%\nL13,C,70,1,98%"
+    },
+    {
+      "id": "v2t-ocr-debit-001",
+      "png_bytes": 22926,
+      "task": "ocr",
+      "gold": "DEBIT NOTE DN-440 Fee 2.00 DEBIT TOTAL 70.00 Issued 2026-10-19"
+    },
+    {
+      "id": "v2t-ocr-ship-001",
+      "png_bytes": 17779,
+      "task": "ocr",
+      "gold": "SHIP LABEL TO East Gate Bay 7 PALLET 2 of 3 TRACKING TRK-99001 HEAVY THIS SIDE UP"
+    },
+    {
+      "id": "v2t-ocr-so-001",
+      "png_bytes": 20552,
+      "task": "ocr",
+      "gold": "SALES ORDER SO-7711 ORDER TOTAL USD 162.00 Ship by 2026-11-05"
+    },
+    {
+      "id": "v2t-caption-line-001",
+      "png_bytes": 17653,
+      "task": "caption",
+      "gold": "LINE DASHBOARD Jobs 64 Scrap 3 OEE 88% Alert Line B feeder jam"
+    },
+    {
+      "id": "v2t-caption-desk-001",
+      "png_bytes": 6772,
+      "task": "caption",
+      "gold": "assembly desk green panel blue can wrench"
+    },
+    {
+      "id": "v2t-ui-backup-001",
+      "png_bytes": 12554,
+      "task": "caption",
+      "gold": "Backup Policy Auto backup ON Cloud sync OFF"
+    },
+    {
+      "id": "v2t-ui-purge-001",
+      "png_bytes": 14039,
+      "task": "caption",
+      "gold": "Purge temp cache? frees 12 GB [Cancel] [Purge]"
+    },
+    {
+      "id": "v2t-table-day-001",
+      "png_bytes": 10657,
+      "task": "table_cells",
+      "gold": "role,name,bay,radio\nLead,Kai,1,R4\nPicker,Ann,3,R5\nQA,Bo,2,R6"
+    }
+  ],
+  "dir": "evo/office/fixtures/vision_images_v2h_style_train",
+  "disjoint_from": "evo/office/fixtures/vision_images_v2_heldout",
+  "overlap_ids": [],
+  "innovation": "Heldout-style train set for LoRA re-absorb; never equals heldout test",
+  "gate2_3_untouched": true,
+  "v1_v2_claims_untouched": true
+}

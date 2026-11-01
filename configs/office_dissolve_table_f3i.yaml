@@ -1,0 +1,8 @@
+# C4/C5 GPU dissolve from F3i use-log. Gate 0.6. No Gate2.
+run_name: office_dissolve_table_f3i
+use_log_dir: runs/use_log/office_use_log_dual_f3i_s0
+family: table
+epochs: 2
+heldout_n: 4
+criterion: 0.6
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct

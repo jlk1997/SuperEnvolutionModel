@@ -1,0 +1,51 @@
+# Gate2 mid-n POWER scale (informational). dual atoms vs agent demos.
+# Pooled exam n ≈ 80 (steps=80 × seeds=2 × exam half). Design target n≈160 (Δ≈0.20).
+# Does NOT reopen Gate3 sealed packs. Does NOT mint a new Gate2 claim (narrowed required_arms + write_gate false).
+# Gate 0.6. 1.5B. No VL. See docs/POWER_ANALYSIS.md.
+run_name: office_gate2_mid_n_dual
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 0
+seeds: [0, 1]
+actor: model
+prefer_atoms: false
+prefer_atoms_by_arm:
+  dual: true
+agent_demo_notes: true
+required_arms: [dual, agent]
+family_skill_map:
+  table: table
+  report: report
+  file: file
+steps: 16
+difficulty: 1
+day_after: 99
+day_ticks: 0
+day_budget: 0
+revisit_every: 8
+drift_at: 99
+families: [table, report, file]
+arms: [dual, agent]
+write_gate: false
+max_steps: 6
+exec_timeout: 12
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: full
+max_seq_len: 512
+max_new_code: 220
+outer_lr: 0.0005
+temperature: 0.0
+tool_call_primer: true
+train_tokens_each: 0
+absorb_train_tokens: 0
+practice_bootstrap: false
+bootstrap_sft_immediate: false
+exam_prep_sft: false
+use_log: false
+power_target: 0.8
+power_p_new: 0.65
+power_p_base: 0.45
+power_min_n: 24
+power_required_n: 160
+model_turn_log: runs/logs/office_model_turns_gate2_mid_n_dual.log

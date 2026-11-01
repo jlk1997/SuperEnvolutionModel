@@ -1,0 +1,237 @@
+{
+  "cycle": "C1819",
+  "theme": "vision_v285_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-27T23:44:36+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7513.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v285h_01",
+      "kind": "ashdale_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4068.75,
+      "expected": 4068.75,
+      "ocr_preview": "ashdale ASHDALE GRAIN RECV V285H a paid 2028.00 b paid 2040.75 c open 1869.00 TOTAL PAID TARGET 4068.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY V285H C-1015 clarity from preg_28C photoC testout"
+    },
+    {
+      "id": "v285h_02",
+      "kind": "cedardale_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1300.0,
+      "expected": 1300.0,
+      "ocr_preview": "cedardale WH CEDARDALE BIN V285H SKU1 qty 640 ok SKU2 qty 820 hold SKU3 qty 660 ok qty_sum TARGET 1300 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC bait 88.00 COPY V285H C-1015 clearly from preg_2EC photoC testout"
+    },
+    {
+      "id": "v285h_03",
+      "kind": "dawndale_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3956.5,
+      "expected": 3956.5,
+      "ocr_preview": "dawndale DAWNDALE PATCH REFUND V285H itemR1 1971.00 done itemR2 1985.50 done itemR3 1864.00 open refund_done TARGET 3956.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID DONE COPY V285h C-1015 clearly from preg_282 photoC testout"
+    },
+    {
+      "id": "v285h_04",
+      "kind": "elmdale_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4218.0,
+      "expected": 4218.0,
+      "ocr_preview": "elmdale ELMDALE TAX SLIP V285H base 2101.00 paid addon 2117.00 paid skip 1920.00 tax_base_paid TARGET 4218.00 OKP tax 00.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 00.00 IGNORE VOID TAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v285h_05",
+      "kind": "ferndale_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4300.0,
+      "expected": 4300.0,
+      "ocr_preview": "ferndale FERNDALE PAYROLL V285H empA 2142.00 active empB 2158.00 active empC 1913.00 leave payroll_active TARGET 4300.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v285h_06",
+      "kind": "glendale_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3860.0,
+      "expected": 3860.0,
+      "ocr_preview": "glendale GLENDALE SHIP DOCK V285H box1 1924 ok box2 1936 ok box3 1884 hold ship_ok TARGET 3860 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP COPY V285H C-1015 clearly from preg_20C photoC testout"
+    },
+    {
+      "id": "v285h_07",
+      "kind": "hazedale_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 880.0,
+      "expected": 880.0,
+      "ocr_preview": "hazedale HAZEDALE SLA CARD V285H job1 420.00 hours ok job2 460.00 hours ok job3 740.00 hours late sla_ok_hours TARGET 880.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 555.00"
+    },
+    {
+      "id": "v285h_08",
+      "kind": "inkdale_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4045.75,
+      "expected": 4045.75,
+      "ocr_preview": "SCAN DESK V40H BAST 222.00 PAGE 01 inkdale @INKDALE EXPENSE V285H e1 2012.00 e2 2033.75 e3 1889.00 void exp_sum TARGET 4045.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY V285h C-1015 clarity from preg_20C photoC testout"
+    },
+    {
+      "id": "v285h_09",
+      "kind": "jadedale_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadedale JADEDALE PO SHEET V285H line1 740.00 open line2 780.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO bait 88.00 COPY V285h C-1015 clarity from preg_C photoC testout SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v285h_10",
+      "kind": "knotdale_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4104.0,
+      "expected": 4104.0,
+      "ocr_preview": "knotdale KNOTDALE ORDER V285H skuA 2059.00 paid skuB 2045.00 paid skuC 1886.00 due order_paid TARGET 4104.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY V285h C-1015 clarity from preg_22C photoC testout"
+    },
+    {
+      "id": "v285h_11",
+      "kind": "lakedale_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakedale LAKEDALE DUP MARK V285H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v285h_12",
+      "kind": "mossdale_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossdale MOSSDALE AIR ZERO V285H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO bait 00.00 COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v285h_13",
+      "kind": "netherdale_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4203.5,
+      "expected": 4203.5,
+      "ocr_preview": "netherdale NETHERDALE LEDGER V285H dr 2094.00 cr 2109.50 adj 1899.00 ledger_net TARGET 4203.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE LED COPY V285H C-1015 clearly from preg_285C photoC testout"
+    },
+    {
+      "id": "v285h_14",
+      "kind": "oakdale_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakdale OAKDALE UI SCAN V285H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY V285h C-1015 clearly from preg_28C programC testout"
+    },
+    {
+      "id": "v285h_15",
+      "kind": "pinedale_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2355.0,
+      "expected": 2355.0,
+      "ocr_preview": "pinedale PINEDALE STACK V285H p1 1180 p2 1175 p3 1168 stack_count TARGET 2355 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK bait 88.00 COPY V285H C-1015 clearly from preg_32C photoC testuit"
+    },
+    {
+      "id": "v285h_16",
+      "kind": "quilldale_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2374.0,
+      "expected": 2374.0,
+      "ocr_preview": "quilldale QUILDLADEX V285H pgA 1190 pgB 1184 pgC 1172 drop fax_pages TARGET 2374 DRAFT DRAFT DRAFT DRAFT VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v285h_17",
+      "kind": "reeddale_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reeddale REEDALE GLARE V285H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY"
+    },
+    {
+      "id": "v285h_18",
+      "kind": "stonedale_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2346.0,
+      "expected": 2346.0,
+      "ocr_preview": "stonedale STONEDALE TAB INDEX V285H tabA 1176 tabB 1170 tabC 1149 tab_index TARGET 2346 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v285_heldout_claim": true,
+  "claim_scope": "r50plus_v285_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

@@ -1,0 +1,43 @@
+{
+  "cycle": "C233",
+  "theme": "clarity_floor_product_pin",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T08:40:33+08:00",
+  "floor_doc": "docs/蚁算_CLARITY_FLOOR.md",
+  "floor_doc_ok": true,
+  "readme_pin": {
+    "ok": true,
+    "patched": true
+  },
+  "readme_mentions": true,
+  "clarity_floor": {
+    "jpeg_q_min": 58,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 jpeg_q22+photo/3 crushed digits; V20/V21 enforces floor"
+  },
+  "cli_ok": true,
+  "cli_detail": {
+    "ok": true,
+    "paid_got": 18.5,
+    "metric": "paid_total",
+    "metric_got": 18.5,
+    "errors": [],
+    "pass": true
+  },
+  "parse_ok": true,
+  "parse_metric_ok": true,
+  "rate": 1.0,
+  "pass": true,
+  "claim": false,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "note": "C233 product pin clarity floor; no VL claim"
+}

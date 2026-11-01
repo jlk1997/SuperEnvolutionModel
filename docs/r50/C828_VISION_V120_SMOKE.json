@@ -1,0 +1,232 @@
+{
+  "cycle": "C828",
+  "theme": "vision_v120_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T08:20:45+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v120_01",
+      "kind": "argentglen_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1355.5,
+      "expected": 1355.5,
+      "ocr_preview": "argentglen ARGENTGLEN GRAIN RECV V120 a paid 669.00 b paid 666.50 c open 479.00 TOTAL PAID TARGET 1355.50 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.52.32 GR 18.12.77 VOID COPY OVEN DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 505.00 FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 TRACK BAIT 646 MUG P"
+    },
+    {
+      "id": "v120_02",
+      "kind": "brookglen_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1233.0,
+      "expected": 1233.0,
+      "ocr_preview": "brookglen WH BROOKGLEN BIN V120 SKU1 qty 596 ok SKU2 qty 451 hold SKU3 qty 657 ok qty_sum TARGET 1233 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.3.20 GR 18.12.77 VOID COPY OVEN DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 503.00 BARCODE bait 123.40 FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 TRA"
+    },
+    {
+      "id": "v120_03",
+      "kind": "cinderglen_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1213.25,
+      "expected": 1213.25,
+      "ocr_preview": "cinderglen CINDERGLEN PATCH REFUND V120 ItemR1 592.00 done ItemR2 521.25 done ItemR3 459.00 open refund_done TARGET 1213.25 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v120_04",
+      "kind": "dewglen_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1467.0,
+      "expected": 1467.0,
+      "ocr_preview": "dewglen DEWGLN TAX SLIP V120 base 725.00 paid addon 742.00 paid skip 549.00 tax_base_paid TARGET 1467.00 DRAFT WATERMARK COPY TAPE RED 333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333"
+    },
+    {
+      "id": "v120_05",
+      "kind": "elderglen_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1598.0,
+      "expected": 1598.0,
+      "ocr_preview": "elderglen ELDERGLEN PAYROLL V120 empB 787.00 active empB 811.00 active empC 519.00 leave payroll_active TARGET 1598.00 DRAFT WATERMARK.COM TAPE R23 bait 12.12 GR 123.27 GR 123.27 VOID OVEN COPY MUG PEN DO NOT SCAN VOD WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 503.00 FAX HEADER BAIT 82.88 FROM: SPOOF SHOP LABEL BAIT 222.22 TRASH B"
+    },
+    {
+      "id": "v120_06",
+      "kind": "fogglen_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1106.0,
+      "expected": 1106.0,
+      "ocr_preview": "fogglen FOGGLEN SHIP DOCK V120 box1 545 ok box2 504 ok box3 477 hold ship_ok TARGET 1106 DRAFT WATERMARK COPY TAPE R23 bait 12:12 RING 38:12:32 OR 38:12:77 VOID COPY OVEN FAX HEADER BAIT 88:88 FROM:SPOTF SHIP LABEL BAIT 222:22 TRACK 200:200 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait "
+    },
+    {
+      "id": "v120_07",
+      "kind": "garnetglen_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 720.0,
+      "expected": 720.0,
+      "ocr_preview": "garnetglen GARNETGLEN SLA CARD V120 job1 340.00 hours ok job2 360.00 hours ok job3 220.00 hours late sla_ok_hours TARGET 720.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v120_08",
+      "kind": "hazelglen_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1301.75,
+      "expected": 1301.75,
+      "ocr_preview": "hazelglen HAZELGLEN EXPENSE V120 e1 665.00 e2 666.75 e3 483.00 void exp_sum TARGET 1301.75 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.43.35 GR 18.12.77 VOID COPY OVEN DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v120_09",
+      "kind": "ivoryglen_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1321.0,
+      "expected": 1321.0,
+      "ocr_preview": "IVORYGLEN PO SHEET V120 line1 669.00 open line2 659.00 open line3 492.00 closed po_open TARGET 1321.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v120_10",
+      "kind": "juniperglen_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1392.0,
+      "expected": 1392.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 juniperglen JUNIPERGLN ORDER V120 skuB 702.00 paid skuB 690.00 paid skuC 480.00 due order_paid TARGET 1392.00 DRAFT WATERMARK COPY TAPE REDS bait 12.12 RING 38.4.3.20 GR 18.12.77 VOID COPY OVEN DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222.22 TRACK 9"
+    },
+    {
+      "id": "v120_11",
+      "kind": "knotglen_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "knotglen SHOTGLEN DUP MARK V120 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v120_12",
+      "kind": "loamglen_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "loamglen LOAMGLEN AIR ZERO V120 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v120_13",
+      "kind": "mossglen_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1557.5,
+      "expected": 1557.5,
+      "ocr_preview": "mossglen MOSSGLEN LEDGER V120 dr 708.00 cr 789.00 adj 505.00 ledger_net TARGET 1557.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v120_14",
+      "kind": "nectarglen_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "nectarglen RECTARGLEN UI SCAN V120 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v120_15",
+      "kind": "opalglen_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 626.0,
+      "expected": 626.0,
+      "ocr_preview": "SCAN DESK V42 DUST 333.00 PAGE 01 opalglen OPALGLEN STACK V120 p1 347 p2 309 p3 287 stack_count TARGET 626 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v120_16",
+      "kind": "pearlglen_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 654.0,
+      "expected": 654.0,
+      "ocr_preview": "pearlglen BEARLGLEN FAX V120 pgB 335 pgB 319 pgC 310 drip fax_pages TARGET 654 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v120_17",
+      "kind": "quartzglen_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "quartzglen QUARTZGLEN GLARE V120 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v120_18",
+      "kind": "ridgeglen_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 698.0,
+      "expected": 698.0,
+      "ocr_preview": "ridgeglen RIDGEGLEN TAB INDEX V120 tabC 361 tabB 357 tabC 307 tab_index TARGET 698 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "vl_gate_v120_claim": true,
+  "claim_scope": "r50plus_v120_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V120 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

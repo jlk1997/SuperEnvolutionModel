@@ -1,0 +1,237 @@
+{
+  "cycle": "C367",
+  "theme": "vision_v43_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T05:29:48+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7733.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v43h_01",
+      "kind": "marble_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 97.25,
+      "expected": 97.25,
+      "ocr_preview": "大理石收款单 MARBLE GRAIN RECEV V43H a paid 46.00 b paid 51.25 c open 18.00 TOTAL PAID TARGET 97.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 99.99 IGNORE GRAFT DRAFT DRAFT DRAFT GRAFT DRAFT DRAFT VOID REC COPY bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99"
+    },
+    {
+      "id": "v43h_02",
+      "kind": "linen_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 76.0,
+      "expected": 76.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 亚麻仓位单 WH LINEN BIN V43H SKU1 qty 31 ok SKU2 qty 20 hold SKU3 qty 36 ok qty_sum TARGET 76 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v43h_03",
+      "kind": "crimson_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 60.5,
+      "expected": 60.5,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 绯红退款单 CRIMSON PATCH REFUND V43H itemR1 29.00 done itemR2 31.50 done itemR3 13.00 open refund_done TARGET 60.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v43h_04",
+      "kind": "cobalt_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 141.0,
+      "expected": 141.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 钴蓝税基单 COBALT TAX SLIP V43H base 68.00 paid addon 73.00 paid skip 32.00 tax_base_paid TARGET 141.00 VOID tax 00.00 tax 00.00 STICKY tax 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT TAX VOID COPY VOID WIN IGNORE old total 888.00 do not parse balt 555.00"
+    },
+    {
+      "id": "v43h_05",
+      "kind": "emerald_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 179.0,
+      "expected": 179.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 翠绿工资单 EMERALD PAYROLL V43H empA 88.00 active empB 91.00 active empC 28.00 leave payroll_active TARGET 179.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PAY VOID COPY"
+    },
+    {
+      "id": "v43h_06",
+      "kind": "topaz_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 51.0,
+      "expected": 51.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222-00 PAGE 01 黄玉出库单 TOPAZ SHIP DOCK V43H box1 25 ok box2 14 ok box3 17 hold ship_ok TARGET 51 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP VOID COPY TOPAZ SHIP DOCK V43H bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 b"
+    },
+    {
+      "id": "v43h_07",
+      "kind": "chrome_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 65.75,
+      "expected": 65.75,
+      "ocr_preview": "SCAN DESK V43H BAS 222-00 PAGE 01 倍片SLA卡 CHROME SLA CARD V43H job1 35.00 hours ok job2 30.75 hours ok job3 16.00 hours late sla_ok_hours TARGET 65.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SLA COPY"
+    },
+    {
+      "id": "v43h_08",
+      "kind": "fern_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 83.25,
+      "expected": 83.25,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 落叶费用单 FERN EXPENSE V43H e1 39.00 e2 44.25 e3 19.00 void exp_sum TARGET 83.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 8"
+    },
+    {
+      "id": "v43h_09",
+      "kind": "spruce_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 93.0,
+      "expected": 93.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 云杉采购单 SPRUCE PO SHEET V43H line1 49.00 open line2 44.00 open line3 22.00 closed po_open TARGET 93.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 98.00 IGNORE PO COPY"
+    },
+    {
+      "id": "v43h_10",
+      "kind": "pearl_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 112.5,
+      "expected": 112.5,
+      "ocr_preview": "PEARL ORDER V43H skuA 60.00 paid skuB 52.50 paid skuC 17.00 due order_paid TARGET 112.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v43h_11",
+      "kind": "shale_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "页岩重复标 SHALE DUP MARK V43H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v43h_12",
+      "kind": "vacuum_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "真空零值校验 VACUUM AIR ZERO V43H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v43h_13",
+      "kind": "cypress_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 163.5,
+      "expected": 163.5,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 柏木账本 CYPRESS LEDGER V43H dr 79.00 cr 84.50 adj 27.00 ledger_net TARGET 163.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v43h_14",
+      "kind": "glaze_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V43H PART 222.00 PAGE 01 GLAZE UI SCAN V43H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v43h_15",
+      "kind": "epoxy_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 11.0,
+      "expected": 11.0,
+      "ocr_preview": "SCAN DESK V43H PAST 222.00 PAGE 01 环氯堆清单 EPOXY STACK V43H p1 5 p2 4 p3 2 stack_count TARGET 11 VOID bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID STK COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v43h_16",
+      "kind": "mint_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 14.0,
+      "expected": 14.0,
+      "ocr_preview": "薄荷传真单 MINT FAX V43H pgA 8 pgB 6 pgC 3 drop fax_pages TARGET 14 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY bait 88.00 bait 555.00 SCAN DESK V43H BAIT 222.00 PAGE 01 C387 clarity four pag_012 photol testout"
+    },
+    {
+      "id": "v43h_17",
+      "kind": "clay_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 陶土鼓光单 CLAY GLARE V43H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v43h_18",
+      "kind": "cork_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 21.0,
+      "expected": 21.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 软木页索引 CORK TAB INDEX V43H tabA 12 tabB 9 tabC 3 tab_index TARGET 21 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE TAB VOID COPY C387 clarity four pag_0102 photod testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v43_heldout_claim": true,
+  "claim_scope": "r50plus_v43_heldout_teak_onyx_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

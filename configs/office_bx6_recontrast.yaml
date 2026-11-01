@@ -1,0 +1,43 @@
+﻿# B-X6 recontrast: dual atoms vs agent weak demos (no atoms). Gate 0.6. 1.5B.
+# Target: dual_exam > agent_exam > 0. No Gate2 auto-claim.
+run_name: office_bx6_recontrast
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 0
+seeds: [0]
+actor: model
+prefer_atoms: true
+prefer_atoms_by_arm:
+  dual: true
+  agent: false
+agent_demo_notes: true
+family_skill_map:
+  table: table
+  report: report
+  file: file
+steps: 8
+difficulty: 1
+day_after: 99
+day_ticks: 0
+day_budget: 0
+revisit_every: 4
+drift_at: 99
+families: [table, report, file]
+arms: [dual, agent]
+write_gate: false
+max_steps: 6
+exec_timeout: 12
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: full
+max_seq_len: 512
+max_new_code: 220
+outer_lr: 0.0005
+temperature: 0.0
+tool_call_primer: true
+train_tokens_each: 0
+absorb_train_tokens: 0
+practice_bootstrap: false
+exam_prep_sft: false
+use_log: false
+model_turn_log: runs/logs/office_model_turns_bx6_recontrast.log

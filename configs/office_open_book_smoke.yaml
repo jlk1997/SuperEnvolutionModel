@@ -1,0 +1,33 @@
+﻿# F1 smoke: reference_gate notes_open_book. Expect dual>agent mean>0. NOT a Gate2 LM claim.
+run_name: office_open_book_smoke
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 0
+seeds: [0]
+actor: reference
+reference_gate: notes_open_book
+prefer_atoms: true
+family_skill_map: {}
+steps: 32
+difficulty: 1
+day_after: 2
+day_ticks: 16
+day_budget: 32
+revisit_every: 8
+drift_at: 8
+families: [table, file, report, shell]
+arms: [agent, oracle, shift, continual, dual, dual_agent, continual_sft]
+write_gate: false
+max_steps: 6
+exec_timeout: 8
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: full
+max_seq_len: 512
+max_new_code: 160
+outer_lr: 0.0005
+power_target: 0.8
+power_p_new: 0.65
+power_p_base: 0.45
+power_min_n: 24
+power_required_n: 160

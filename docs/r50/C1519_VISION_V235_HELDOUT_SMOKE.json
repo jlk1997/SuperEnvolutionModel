@@ -1,0 +1,237 @@
+{
+  "cycle": "C1519",
+  "theme": "vision_v235_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-25T01:04:56+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7496.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v235h_01",
+      "kind": "ashcroft_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3504.75,
+      "expected": 3504.75,
+      "ocr_preview": "ashcroft ASHCROFT GRAIN RECV V235H a paid 1746.00 b paid 1758.75 c open 1607.00 TOTAL PAID TARGET 3504.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 55.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID REC COPY V235H C-1016 clarity from preg_20C photoC testout"
+    },
+    {
+      "id": "v235h_02",
+      "kind": "cedarcroft_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "cedarcroft WH CEDARCROFT BIN V235H SKU1 qty 740 ok SKU2 qty 820 hold SKU3 qty 780 ok qty_sum TARGET 1520 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v235h_03",
+      "kind": "dawncroft_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3391.5,
+      "expected": 3391.5,
+      "ocr_preview": "dawncroft DAWNCROFT PATCH REFUND V235H itemR1 1689.00 done itemR2 1702.50 done itemR3 1582.00 open refund_done TARGET 3391.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DONE VOID COPY V235H C-1016 clarity from preg_32C prologC testout SCAN DESK V43H BAST 222.00 PAGE 01 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v235h_04",
+      "kind": "elmcroft_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3654.0,
+      "expected": 3654.0,
+      "ocr_preview": "elmcroft ELMCROFT TAX SLIP V235H base 1819.00 paid addon 1835.00 paid skip 1636.00 tax_base_paid TARGET 3654.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 00.00 IGNORE TAX VOID COPY V220h C-1016 clarity from preg_20C photoC testout SCAN DESK V43H BAS 222.00 PAGE 01"
+    },
+    {
+      "id": "v235h_05",
+      "kind": "ferncroft_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3736.0,
+      "expected": 3736.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 ferncroft FERNCROFT PAYROLL V235H empA 1860.00 active empB 1876.00 active empC 1631.00 leave payroll_active TARGET 3736.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v235h_06",
+      "kind": "glencroft_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3322.0,
+      "expected": 3322.0,
+      "ocr_preview": "glencroft GLENCROFT SHIP DOCK V235H box1 1654 ok box2 1668 ok box3 1600 hold ship_ok TARGET 3322 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY V220x C-1016 clarity from preg_20C photoC testout"
+    },
+    {
+      "id": "v235h_07",
+      "kind": "hazecroft_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 hazecroft HAZECROFT SLA CARD V235H job1 360.00 hours ok job2 400.00 hours ok job3 730.00 hours late sla_ok_hours TARGET 760.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v235h_08",
+      "kind": "inkcroft_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3481.75,
+      "expected": 3481.75,
+      "ocr_preview": "INKCROFT EXPENSE V235H e1 1730.00 e2 1751.75 e3 1607.00 void exp_sum TARGET 3481.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY V223h C-1016 clarity from preg_20C progC testout"
+    },
+    {
+      "id": "v235h_09",
+      "kind": "jadecroft_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadecroft JADECROFT PO SHEET V235H line1 780.00 open line2 740.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO COPY V235H C 1016 clarity from preg_C photoC testout"
+    },
+    {
+      "id": "v235h_10",
+      "kind": "knotcroft_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3540.0,
+      "expected": 3540.0,
+      "ocr_preview": "knotcroft KNOTCROFT ORDER V235H skuA 1777.00 paid skuB 1763.00 paid skuC 1602.00 due order_paid TARGET 3540.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY V235H C-1016 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v235h_11",
+      "kind": "lakecroft_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakecroft LAKECROFT DUP MARK V235H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v235h_12",
+      "kind": "mosscroft_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mosscroft MOSSCROFT AIR ZERO V235H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY V235H C-1016 clarity from preg_32C photoG testout"
+    },
+    {
+      "id": "v235h_13",
+      "kind": "nethercroft_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3639.5,
+      "expected": 3639.5,
+      "ocr_preview": "nethercroft NETHERCROFT LEDGER V235H dr 1812.00 cr 1827.50 adj 1617.00 ledger_net TARGET 3639.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v235h_14",
+      "kind": "oakcroft_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakcroft OAKCROFT UI SCAN V235H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 GRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY V220h C-1016 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v235h_15",
+      "kind": "pinecroft_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2347.0,
+      "expected": 2347.0,
+      "ocr_preview": "pinecroft PINECROFT STACK V235H p1 1176 p2 1171 p3 1164 stack_count TARGET 2347 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK bait 88.00 COPY V220h C-1016 clarity from prog_20C progC testout"
+    },
+    {
+      "id": "v235h_16",
+      "kind": "quillcroft_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2374.0,
+      "expected": 2374.0,
+      "ocr_preview": "quillcroft QUILLCROFT FAX V235H pgA 1190 pgB 1184 pgC 1172 drop fax_pages TARGET 2374 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v235h_17",
+      "kind": "reedcroft_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedcroft REEDCROFT GLARE V235H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY V220h C-1016 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v235h_18",
+      "kind": "stonecroft_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2394.0,
+      "expected": 2394.0,
+      "ocr_preview": "stonecroft STONECROFT TAB INDEX V235H tabA 1200 tabB 1194 tabC 1173 tab_index TARGET 2394 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 VOID tab 88.00 COPY V220x C-1016 clarity from preg_32C photoC testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v235_heldout_claim": true,
+  "claim_scope": "r50plus_v235_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

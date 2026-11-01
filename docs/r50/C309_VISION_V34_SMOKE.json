@@ -1,0 +1,232 @@
+{
+  "cycle": "C309",
+  "theme": "vision_v34_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T18:11:46+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 3018.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v34_01",
+      "kind": "bamboo_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 121.5,
+      "expected": 121.5,
+      "ocr_preview": "竹纹收款单 BAMBOO GRAIN RECEV V34 a paid 58.00 b paid 68.50 c open 17.00 TOTAL PAID TARGET 121.50 OLARE wash DRAFT DRAFT WATERMARK COPY GR 100 12.77 TAPE RES bit 12.12 VOID OVER COPY PHONE SHADOW BARCODE bit 123.45 FAX HEADER DAIT 88.88 FROM:SPUCF SHOP LABEL DAIT 222.22 TRACK 1003 640 MUG PEN OVERLAP LABEL DAIT 321 DO NOT SCAN VOID WIN IGNORE old total 999.00 do "
+    },
+    {
+      "id": "v34_02",
+      "kind": "slate_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 103.0,
+      "expected": 103.0,
+      "ocr_preview": "SCAN DESK V34 Bait 133.00 PAGE 01 WH SLATE TILE V34 SKU1 qty 48 ok SKU2 qty 22 hold SKU3 qty 55 ok qty_sum TARGET 103 OLAPLE scan DRAFT DRAFT WATERMARK COPY DRAFT GR 100 12.77 TAPE 100 12.12 VOID OVER COPY MUG PEN OVERLAP LABEL bait 327 DO NOT SCAN VXCD WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW BARCODE bait 123.45 FAX HEADER BAIT 88.8"
+    },
+    {
+      "id": "v34_03",
+      "kind": "denim_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 67.25,
+      "expected": 67.25,
+      "ocr_preview": "牛仔补丁退款单 DENIM PATCH REFUND V34 ItemR1 31.00 done ItemR2 36.25 done ItemR3 14.00 open refund_done TARGET 67.25 OLAPRE wash DRAFT DRAFT WATERMARK COPY GR 39412.77 TAPE RES bit 12.12 VOID OVER COPY MUG PEN OVERLAP LABEL bait 327 DO NOT SCAN VVOID WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 200.00 FAX HEADER BAIT 88.88 FROM:SPUCF BARCO"
+    },
+    {
+      "id": "v34_04",
+      "kind": "brass_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 188.0,
+      "expected": 188.0,
+      "ocr_preview": "黄钢发票和基单 TAX BRASS FASTENER V34 T1 102.00 paid T2 41.00 open T3 86.00 paid tax_base_paid TARGET 188.00 OLXAE scan TAPES RE3 bit 12.12 DRAFT DRAFT WATERMARK COPY GR 10012.77 MUG PEN OVERLAP LABEL bait 32 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 200.00 BARCODE bait 123.45 V34 C334 clarity flow peg_06 photo2 Parchme"
+    },
+    {
+      "id": "v34_05",
+      "kind": "prism_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3340.0,
+      "expected": 3340.0,
+      "ocr_preview": "SCAN DESK V34 Bait 333.00 PAGE 01 极镇工资单 PAYROLL PRISM SEAL V34 A 1660 active B 330 active C 1660 active payroll_active TARGET 3340 OLAPRE wash DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v34_06",
+      "kind": "latch_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 91.0,
+      "expected": 91.0,
+      "ocr_preview": "SCAN DESK V34 belt 133.00 PAGE 01 拖扣发运单 SHIP LATCH BOX V34 P1 34 ok P2 21 filled P3 47 ok ship_ok_qty TARGET 91 GLARE wash TAPE RES bit 12.12 DRAW DRAFT WATERMARK COPY DRAW VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VO"
+    },
+    {
+      "id": "v34_07",
+      "kind": "amber_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 86.0,
+      "expected": 86.0,
+      "ocr_preview": "SCAN DESK V34 Bait 133.00 PAGE 01 SLA AMBER RESIN V34 S1 pri 36 open S2 pri 38 closed S3 pri 50 open open_pri_sum TARGET 86 OLAPRE wash DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v34_08",
+      "kind": "quarry_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 152.75,
+      "expected": 152.75,
+      "ocr_preview": "EXP QUARRY STONE V34 e1 paid 74.00 e2 paid 78.75 e3 open 23.00 TOTAL PAID TARGET 152.75 EXP QUARRY STONE V34 e1 paid 74.00 e2 paid 78.75 e3 open 23.00 TOTAL PAID TARGET 152.75 EXP QUARRY STONE V34 e1 paid 74.00 e2 paid 78.75 e3 open 23.00 TOTAL PAID TARGET 152.75 EXP QUARRY STONE V34 e1 paid 74.00 e2 paid 78.75 e3 open 23.00 TOTAL PAID TARGET 152"
+    },
+    {
+      "id": "v34_09",
+      "kind": "tin_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 126.5,
+      "expected": 126.5,
+      "ocr_preview": "SCAN DESK V34 belt 133.00 PAGE 01 锡板采购单 DO TIN PLATE V34 lineA paid 60.00 lineB paid 66.50 lineC open 50.00 TOTAL PAID TARGET 126.50 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v34_10",
+      "kind": "mylar_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 113.0,
+      "expected": 113.0,
+      "ocr_preview": "麦拉版订单 ORDER MYLAR FILM V34 o1 paid 52.00 o2 paid 61.00 o3 open 16.00 TOTAL PAID TARGET 113.00 OLAPLE scan DRAFT DRAFT WATERMARK COPY GR 59412.77 TAPE RES bit 12:12 VOID OVER COPY PHONE SHADOW BARCODE bit 123.45 FAX HEADER DAIT 88.88 FROM:SPUCF SHOP LABEL bait 222.22 TRACK 903.58 MUG PEN OVERLAP LABEL bait 321 DO NOT SCAN VXCD WIN IGNORE old total 999.00 do n"
+    },
+    {
+      "id": "v34_11",
+      "kind": "felt_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 156.0,
+      "expected": 156.0,
+      "ocr_preview": "毛毡垫副本 DUP FELT PAD V34 d1 paid 72.00 d2 paid 64.00 d3 open 26.00 TOTAL PAID TARGET 156.00 OLPHE wash DRAFT DRAFT WATERMARK COPY GR 104 12.77 GR 104 12.77 TAPE RES bit 12 12 VOID OVER COPY PHONE SHADOW BARCODE bit 123 45 V34 C334 clarity floor peg_q6 photo2 Parchment(Corn/Canvas/Flue/Note/Zip/Flame/Honey/Madde/Copper/Aurakite/Pearl/Fluoride/Magnet/Chrome/Sati"
+    },
+    {
+      "id": "v34_12",
+      "kind": "void_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "SCAN DESK V34 bait 133.00 PAGE 01 未付空单 OPEN ONLY V34 X 80.00 open Y 91.00 open paid_total TARGET 0.00 OLAPRE wash DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v34_13",
+      "kind": "stitch_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 94.5,
+      "expected": 94.5,
+      "ocr_preview": "EDGER STITCH EDGE V34 L1 paid 43.00 L2 paid 61.50 L3 open 17.00 TOTAL PAID TARGET 94.50 OLAPLE wash DRAFT WATERMARK COPY GR 5912.77 TAPE RES bit 12.12 VOID OVER COPY MUG PEN OVERLAP LABEL bait 327 DO NOT SCAN VCHD WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 205.00 BARCODE bait 123.45 SCAN DESK V34 bait 133.00 PAGE 01 FAX HEADER BAI"
+    },
+    {
+      "id": "v34_14",
+      "kind": "enamel_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 105.75,
+      "expected": 105.75,
+      "ocr_preview": "SCAN DESK V34 Bait 133.00 PAGE 01. 法琅钉界面 U ENAMEL PIN V34 u1 paid 49.00 u2 paid 56.75 u3 open 18.00 TOTAL PAID TARGET 105.75 OLAPRE wash DRAFT DRAFT WATERMARK COPY DRAFT TAPES RBS bait 12.12 GR 100 12.77 PEN MUG PEN OVERLAP LABEL bait 327 DO NOT SCAN VXCD WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 200.00 BARCODE bait 123.45 V34"
+    },
+    {
+      "id": "v34_15",
+      "kind": "cord_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 142.0,
+      "expected": 142.0,
+      "ocr_preview": "SCAN DESK V34 Bait 133.00 PAGE 01 结结品单 STACK CORD BIND V34 m1 paid 67.00 m2 paid 75.00 m3 open 22.00 TOTAL PAID TARGET 142.00 OLAPSE scan DRAFT DRAFT WATERMARK COPY GR 10012.77 TAPE RBS bait 12.12 VOID OVER COPY GR 10012.77 BARCODE bait 123.45 BARCODE PHONE SHADOW bait 200.00 FAX HEADER BAIT 88.88 FROM:STOCK MUG PEN OVERLAP LABEL bait 327 DO NOT SCAN VXCD WI"
+    },
+    {
+      "id": "v34_16",
+      "kind": "rice_fax",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 87.5,
+      "expected": 87.5,
+      "ocr_preview": "SCAN DESK V34 Bait 133.00 PAGE 01 富纸传真 FAX RICE PAPER V34 f1 paid 40.00 f2 paid 17.50 f3 open 14.50 TOTAL PAID TARGET 87.50 OLAPSE wash DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v34_17",
+      "kind": "chrome_glare",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 119.25,
+      "expected": 119.25,
+      "ocr_preview": "SCAN DESK V34 Belt 133.00 PAGE 01 GLARE CHROME BAND V34 g1 paid 56.00 g2 paid 63.25 g3 open 19.00 TOTAL PAID TARGET 119.25 GLARE wash TAPE RBS bit 12.12 DRAFT DRAFT WATERMARK COPY DRAFT VOID VOID COPY OVER VOID GR 100 12.77 GLARE wash MUG PEN OVERLAP LABEL bait 327 DO NOT SCAN VXCD WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 200.00"
+    },
+    {
+      "id": "v34_18",
+      "kind": "index_tab",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 69.0,
+      "expected": 69.0,
+      "ocr_preview": "索引旗帜 TAB INDEX FLAG V34 t1 paid 32.00 t2 paid 37.00 t3 open 12.00 TOTAL PAID TARGET 69.00 OLARTE wash DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    }
+  ],
+  "vl_gate_v34_claim": true,
+  "claim_scope": "r50plus_v34_hlx_magclip_thermal_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V33 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

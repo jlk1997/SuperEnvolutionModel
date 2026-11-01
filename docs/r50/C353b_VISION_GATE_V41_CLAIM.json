@@ -1,0 +1,27 @@
+{
+  "kind": "vision_gate_v41_claim",
+  "timestamp": "2026-10-20T04:25:46+08:00",
+  "vl_gate_v41_claim": true,
+  "rate": 1.0,
+  "n": 18,
+  "n_ok": 18,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v41_teak_onyx_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V41 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "cycle": "C353",
+  "c358_fix": true
+}

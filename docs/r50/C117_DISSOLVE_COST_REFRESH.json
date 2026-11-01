@@ -1,0 +1,331 @@
+{
+  "cycle": "C117",
+  "theme": "dissolve_cost_refresh",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T02:38:31+08:00",
+  "gate2_3_untouched": true,
+  "families": {
+    "table": {
+      "bare": 1.0,
+      "D": 0.0,
+      "internalized": true
+    },
+    "report": {
+      "bare": 1.0,
+      "D": 0.0,
+      "internalized": true
+    },
+    "file": {
+      "bare": 1.0,
+      "D": 0.0,
+      "internalized": true
+    },
+    "shell": {
+      "bare": 1.0,
+      "D": 0.0,
+      "internalized": true
+    }
+  },
+  "dashboard_full": {
+    "kind": "dissolve_dashboard",
+    "product": "蚁算模型",
+    "engine": "Envolution",
+    "gate": "0.6",
+    "timestamp": "2026-10-19T02:38:31+08:00",
+    "families": [
+      {
+        "family": "table",
+        "found": true,
+        "path": "E:\\envolution\\runs\\capabilities\\office_table_uselog\\dissolution.json",
+        "bare_rate": 1.0,
+        "scaffold_rate": 0.0,
+        "dissolution": 0.0,
+        "bare_clears_gate": true,
+        "internalized": true,
+        "n_train_pairs": 7,
+        "heldout_n": 4,
+        "pair_source": "events_xml",
+        "criterion": 0.6,
+        "atom": "office_table_uselog"
+      },
+      {
+        "family": "report",
+        "found": true,
+        "path": "E:\\envolution\\runs\\capabilities\\office_report_uselog\\dissolution.json",
+        "bare_rate": 1.0,
+        "scaffold_rate": 1.0,
+        "dissolution": 0.0,
+        "bare_clears_gate": true,
+        "internalized": true,
+        "n_train_pairs": 12,
+        "heldout_n": 4,
+        "pair_source": "events_xml",
+        "criterion": 0.6,
+        "atom": "office_report_uselog"
+      },
+      {
+        "family": "file",
+        "found": true,
+        "path": "E:\\envolution\\runs\\capabilities\\office_file_uselog\\dissolution.json",
+        "bare_rate": 1.0,
+        "scaffold_rate": 1.0,
+        "dissolution": 0.0,
+        "bare_clears_gate": true,
+        "internalized": true,
+        "n_train_pairs": 4,
+        "heldout_n": 4,
+        "pair_source": "events_xml",
+        "criterion": 0.6,
+        "atom": "office_file_uselog"
+      },
+      {
+        "family": "shell",
+        "found": true,
+        "path": "E:\\envolution\\runs\\capabilities\\office_shell_uselog\\dissolution.json",
+        "bare_rate": 1.0,
+        "scaffold_rate": 0.0,
+        "dissolution": 0.0,
+        "bare_clears_gate": true,
+        "internalized": true,
+        "n_train_pairs": 16,
+        "heldout_n": 4,
+        "pair_source": "events_xml",
+        "criterion": 0.6,
+        "atom": "office_shell_uselog"
+      }
+    ],
+    "summary": {
+      "n_families": 4,
+      "all_found": true,
+      "all_bare_clears_gate": true,
+      "all_dissolution_le_005": true,
+      "pass": true
+    },
+    "gate2_claim_untouched": true,
+    "vl": false,
+    "notes": "Aggregated from existing runs/capabilities/office_*_uselog/dissolution.json; no retrain."
+  },
+  "recent_cycles": {
+    "C113_U2C_GROW_PAIRS": {
+      "pass": true,
+      "claim": false
+    },
+    "C114_U2C_ABSORB_PUSH": {
+      "pass": true,
+      "claim": false,
+      "trained": {
+        "n": 9,
+        "n_ok": 0,
+        "rate": 0.0,
+        "rows": [
+          {
+            "i": 0,
+            "atom": "office_table_u2c_paid_total",
+            "sid": "c113_paid_total_08",
+            "gold": "paid_total=927.77",
+            "pred": "paid_total=17.47",
+            "ok": false
+          },
+          {
+            "i": 1,
+            "atom": "office_table_u2c_paid_total",
+            "sid": "c113_paid_total_09",
+            "gold": "paid_total=1697.16",
+            "pred": "paid_total=1054.66",
+            "ok": false
+          },
+          {
+            "i": 2,
+            "atom": "office_table_u2c_refund_done",
+            "sid": "c113_refund_done_08",
+            "gold": "refund_done=1270.67",
+            "pred": "refund_done=191.58",
+            "ok": false
+          },
+          {
+            "i": 3,
+            "atom": "office_table_u2c_refund_done",
+            "sid": "c113_refund_done_09",
+            "gold": "refund_done=1169.68",
+            "pred": "refund_done=166.00",
+            "ok": false
+          },
+          {
+            "i": 4,
+            "atom": "office_table_u2c_qty_sum",
+            "sid": "c113_qty_sum_09",
+            "gold": "qty_sum=262.00",
+            "pred": "qty_sum=218.00",
+            "ok": false
+          },
+          {
+            "i": 5,
+            "atom": "office_table_u2c_tax_base_paid",
+            "sid": "c113_tax_base_paid_09",
+            "gold": "tax_base_paid=359.52",
+            "pred": "tax_base_paid=63.56",
+            "ok": false
+          },
+          {
+            "i": 6,
+            "atom": "office_table_u2c_ship_ok_qty",
+            "sid": "c113_ship_ok_qty_09",
+            "gold": "ship_ok_qty=106.00",
+            "pred": "ship_ok_qty=19.00",
+            "ok": false
+          },
+          {
+            "i": 7,
+            "atom": "office_table_u2c_payroll_active",
+            "sid": "c113_payroll_active_09",
+            "gold": "payroll_active=657.50",
+            "pred": "payroll_active=596.44",
+            "ok": false
+          },
+          {
+            "i": 8,
+            "atom": "office_table_u2c_open_pri_sum",
+            "sid": "c113_open_pri_sum_09",
+            "gold": "open_pri_sum=11.00",
+            "pred": "open_pri_sum=20.00",
+            "ok": false
+          }
+        ]
+      },
+      "bare": {
+        "n": 9,
+        "n_ok": 0,
+        "rate": 0.0,
+        "rows": [
+          {
+            "i": 0,
+            "atom": "office_table_u2c_paid_total",
+            "sid": "c113_paid_total_08",
+            "gold": "paid_total=927.77",
+            "pred": "paid_total=3029.96",
+            "ok": false
+          },
+          {
+            "i": 1,
+            "atom": "office_table_u2c_paid_total",
+            "sid": "c113_paid_total_09",
+            "gold": "paid_total=1697.16",
+            "pred": "paid_total=1129.27",
+            "ok": false
+          },
+          {
+            "i": 2,
+            "atom": "office_table_u2c_refund_done",
+            "sid": "c113_refund_done_08",
+            "gold": "refund_done=1270.67",
+            "pred": "status=done,id=R1,amount=767.44,id=R3,amount=320.65,id=R5,amount=182.58",
+            "ok": false
+          },
+          {
+            "i": 3,
+            "atom": "office_table_u2c_refund_done",
+            "sid": "c113_refund_done_09",
+            "gold": "refund_done=1169.68",
+            "pred": "status=done,id=R1,amount=418.16,id=R3,amount=157.82,id=R5,amount=593.7",
+            "ok": false
+          },
+          {
+            "i": 4,
+            "atom": "office_table_u2c_qty_sum",
+            "sid": "c113_qty_sum_09",
+            "gold": "qty_sum=262.00",
+            "pred": "qty_sum=7.0",
+            "ok": false
+          },
+          {
+            "i": 5,
+            "atom": "office_table_u2c_tax_base_paid",
+            "sid": "c113_tax_base_paid_09",
+            "gold": "tax_base_paid=359.52",
+            "pred": "paid=328.9;void=793.17;paid=30.62",
+            "ok": false
+          },
+          {
+            "i": 6,
+            "atom": "office_table_u2c_ship_ok_qty",
+            "sid": "c113_ship_ok_qty_09",
+            "gold": "ship_ok_qty=106.00",
+            "pred": "ship_ok_qty=3",
+            "ok": false
+          },
+          {
+            "i": 7,
+            "atom": "office_table_u2c_payroll_active",
+            "sid": "c113_payroll_active_09",
+            "gold": "payroll_active=657.50",
+            "pred": "payroll_active=2",
+            "ok": false
+          },
+          {
+            "i": 8,
+            "atom": "office_table_u2c_open_pri_sum",
+            "sid": "c113_open_pri_sum_09",
+            "gold": "open_pri_sum=11.00",
+            "pred": "open_pri_sum=3.0",
+            "ok": false
+          }
+        ]
+      },
+      "delta_trained_minus_bare": 0.0,
+      "rate_gate_pass": false,
+      "trained_rate": 0.0,
+      "bare_rate": 0.0
+    },
+    "C115_HARDEN_ANT_CAPTURE": {
+      "pass": true,
+      "claim": false,
+      "test_rate": 1.0
+    },
+    "C116_V5_DESIGN_BATCH": {
+      "pass": true,
+      "claim": false,
+      "n_fixtures": 12,
+      "vl_gate_v5_claim": false,
+      "smoke_rate": null
+    },
+    "C110_REPLACE_HARDER_COST": {
+      "pass": true,
+      "claim": false,
+      "replace_rate": 1.0
+    },
+    "C107_VISION_V4_HELDOUT": {
+      "pass": true,
+      "claim": true,
+      "rate": 1.0,
+      "ocr_rate": 1.0,
+      "atom_rate": 1.0
+    }
+  },
+  "cost_c110": {
+    "kind": "cost_ledger",
+    "source": "C110",
+    "bare_rate": 1.0,
+    "replace_rate": 1.0,
+    "step_ratio_agent_over_bare": 3.3333,
+    "timestamp": "2026-10-19T02:07:11+08:00"
+  },
+  "vision": {
+    "v4_heldout": {
+      "pass": true,
+      "claim": true,
+      "rate": 1.0,
+      "ocr_rate": 1.0,
+      "atom_rate": 1.0
+    },
+    "v5_design": {
+      "pass": true,
+      "claim": false,
+      "n_fixtures": 12,
+      "vl_gate_v5_claim": false,
+      "smoke_rate": null
+    }
+  },
+  "pass": true,
+  "claim": false,
+  "note": "Dashboard refresh only. No Gate2/3 mint. No gen11 open."
+}

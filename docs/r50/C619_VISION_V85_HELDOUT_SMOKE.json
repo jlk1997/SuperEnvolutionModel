@@ -1,0 +1,237 @@
+{
+  "cycle": "C619",
+  "theme": "vision_v85_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T23:58:38+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7406.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v85h_01",
+      "kind": "umbertide_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 552.75,
+      "expected": 552.75,
+      "ocr_preview": "umbertide UMBERTIDE GRAIN RECV V85H a paid 270.00 b paid 282.75 c open 163.00 TOTAL PAID TARGET 552.75 DRAFT DRAFT DRAFT DRAFT DRAFT VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VO"
+    },
+    {
+      "id": "v85h_02",
+      "kind": "violettide_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 492.0,
+      "expected": 492.0,
+      "ocr_preview": "violettide WH VIOLETTIDE BIN V8SH SKU1 qty 232 ok SKU2 qty 170 hold SKU3 qty 260 ok qty_sum TARGET 492 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v85h_03",
+      "kind": "willotide_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 469.5,
+      "expected": 469.5,
+      "ocr_preview": "willotide WILLOTIDE PATCH REFUND V85H itemR1 228.00 done itemR2 241.50 done itemR3 151.00 open refund_done TARGET 469.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v85h_04",
+      "kind": "xerotide_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 702.0,
+      "expected": 702.0,
+      "ocr_preview": "xerotide XEROTIDE TAX SLIP VISH base 343.00 paid addon 359.00 paid skip 192.00 tax_base_paid TARGET 702.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 88.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v85h_05",
+      "kind": "yarrowtide_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 784.0,
+      "expected": 784.0,
+      "ocr_preview": "yarrowtide YARROWTIDE PAYROLL V85H empA 384.00 active empB 400.00 active empC 187.00 leave payroll_active TARGET 784.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v85h_06",
+      "kind": "zinctide_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 370.0,
+      "expected": 370.0,
+      "ocr_preview": "zincide ZNCTIDE SHIP DOCK V85H box1 178 ok box2 192 ok box3 156 hold ship_ok TARGET 370 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 V85H CE 10 clarity four peg_0502 photo2 testout"
+    },
+    {
+      "id": "v85h_07",
+      "kind": "aspertide_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 466.5,
+      "expected": 466.5,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 aspertide ASPERTIDE SLA CARD V85H job1 236.00 hours ok job2 230.50 hours ok job3 157.00 hours late sla_ok_hours TARGET 466.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v85h_08",
+      "kind": "beachtide_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 529.75,
+      "expected": 529.75,
+      "ocr_preview": "beachtide BEACHTIDE EXPENSE V85H e1 254.00 e2 275.75 e3 163.00 void exp_sum TARGET 529.75 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v85h_09",
+      "kind": "coraltide_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 536.0,
+      "expected": 536.0,
+      "ocr_preview": "coraltide CORALTIDE PO SHEET V85H line1 274.00 open line2 262.00 open line3 166.00 closed po_open TARGET 536.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v85h_10",
+      "kind": "dewotide_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 588.0,
+      "expected": 588.0,
+      "ocr_preview": "dewotide DEWOTIDE ORDER V85H skuA 301.00 paid skuB 287.00 paid skuC 158.00 due order_paid TARGET 588.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v85h_11",
+      "kind": "elmtide_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "elmtide ELMTIDE DUP MARK V85H markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT DRAFT DRAFT DRAFT VOID VOID DUP COPY VOID WIN IGNORE old total 888.00 do not parse bait 550.00 V85H CE-10 clarity four pegs (2) photo2 testout"
+    },
+    {
+      "id": "v85h_12",
+      "kind": "ferntide_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "ferntide FERNTIDE AIR ZERO V85H 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 b"
+    },
+    {
+      "id": "v85h_13",
+      "kind": "granitide_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 687.5,
+      "expected": 687.5,
+      "ocr_preview": "granitide GRANITIDE LEDGER V85H dr 336.00 cr 351.50 adj 173.00 ledger_net TARGET 687.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 55.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v85h_14",
+      "kind": "hemlotide_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "hemlotide HEMLOTIDE UI SCAN V85H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY"
+    },
+    {
+      "id": "v85h_15",
+      "kind": "ivorytide_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 157.0,
+      "expected": 157.0,
+      "ocr_preview": "ivorytide IVORYTIDE STACK V85H p1 80 p2 77 p3 72 stack_count TARGET 157 OKP bait 80.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 80.00 IGNORE VOID STK COPY VOID WIN IGNORE old total 888.00 do not parse bait $55.00"
+    },
+    {
+      "id": "v85h_16",
+      "kind": "jaspertide_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 186.0,
+      "expected": 186.0,
+      "ocr_preview": "jaspertide JASPERTIDE FAX V85H pgA 96 pgB 90 pgC 78 drop fax_pages TARGET 186 OKP fax 00 00 DRAFT DRAFT DRAFT DRAFT STICKY fax 00 00 IGNORE VOID WIN IGNORE old total 888.00 do not parse fax 555.00 fax DESK V43H BAS 222.00 PAGE 01 V85H CE 10 clarity four pag_052 photod2 testout"
+    },
+    {
+      "id": "v85h_17",
+      "kind": "kelptide_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "kelptide KELOPTIDE GLARE V85H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v85h_18",
+      "kind": "limetide_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 206.0,
+      "expected": 206.0,
+      "ocr_preview": "limetide LIMETIDE TAB INDEX V85H tabA 106 tabB 100 tabC 79 tab_index TARGET 206 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 VOID COPY tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v85_heldout_claim": true,
+  "claim_scope": "r50plus_v85_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "auto_smoke",
+  "gate": "0.6",
+  "actor": "scripted",
+  "gpu": false,
+  "vl": false,
+  "root": "E:\\envolution\\runs\\shadow_workspace",
+  "sandbox": "E:\\envolution\\runs\\shadow_workspace\\sandbox",
+  "outside": "E:\\envolution\\runs\\shadow_workspace\\outside",
+  "timestamp": "2026-10-18T02:59:41+08:00",
+  "min_n": 1,
+  "promoted_families": [
+    "report"
+  ],
+  "contracts": {
+    "auto_cold_refused": true,
+    "assist_promote": true,
+    "auto_hot_applies": true,
+    "auto_other_family_refused": true,
+    "auto_escape_blocked": true,
+    "audit_present": true
+  },
+  "pass": true,
+  "notes": "Assist\u2192auto: promote after audited assist success; auto applies only promoted families inside sandbox; D still deferred (no VL). Never reopen burned seals."
+}

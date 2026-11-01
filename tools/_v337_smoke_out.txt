@@ -1,0 +1,12 @@
+{"id": "v337_01", "ok": true, "got": 4693.5, "expected": 4693.5, "ocr_ok": true, "atom_ok": true}
+{"id": "v337_02", "ok": true, "got": 1600.0, "expected": 1600.0, "ocr_ok": true, "atom_ok": true}
+{"id": "v337_03", "ok": true, "got": 4506.25, "expected": 4506.25, "ocr_ok": true, "atom_ok": true}
+{"id": "v337_04", "ok": true, "got": 4805.0, "expected": 4805.0, "ocr_ok": true, "atom_ok": true}
+{"id": "v337_05", "ok": true, "got": 4936.0, "expected": 4936.0, "ocr_ok": true, "atom_ok": true}
+{"id": "v337_06", "ok": true, "got": 4364.0, "expected": 4364.0, "ocr_ok": true, "atom_ok": true}
+{"id": "v337_07", "ok": true, "got": 1020.0, "expected": 1020.0, "ocr_ok": true, "atom_ok": true}
+{"id": "v337_08", "ok": true, "got": 4639.75, "expected": 4639.75, "ocr_ok": true, "atom_ok": true}
+{"id": "v337_09", "ok": true, "got": 1600.0, "expected": 1600.0, "ocr_ok": true, "atom_ok": true}
+{"id": "v337_10", "ok": true, "got": 4730.0, "expected": 4730.0, "ocr_ok": true, "atom_ok": true}
+{"id": "v337_11", "ok": true, "got": 2.0, "expected": 2.0, "ocr_ok": true, "atom_ok": true}
+{"id": "v337_12", "ok": true, "got": 0.0, "expected": 0.0, "ocr_ok": true, "atom_ok": true}

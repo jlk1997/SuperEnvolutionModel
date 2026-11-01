@@ -1,0 +1,32 @@
+# Mid-effect design paper size: exam n~160 (steps=320). Log only; do not claim Gate2 from one seed.
+run_name: office_mid_n_160
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 0
+seeds: [0]
+actor: reference
+prefer_atoms: true
+family_skill_map: {}
+steps: 320
+difficulty: 1
+day_after: 2
+day_ticks: 80
+day_budget: 160
+revisit_every: 10
+drift_at: 80
+families: [table, file, report, shell]
+arms: [agent, oracle, shift, continual, dual, dual_agent, continual_sft]
+write_gate: false
+max_steps: 6
+exec_timeout: 8
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: full
+max_seq_len: 512
+max_new_code: 160
+outer_lr: 0.0005
+power_target: 0.8
+power_p_new: 0.65
+power_p_base: 0.45
+power_min_n: 24
+power_required_n: 160

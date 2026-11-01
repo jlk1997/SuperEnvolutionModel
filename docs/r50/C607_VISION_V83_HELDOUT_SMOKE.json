@@ -1,0 +1,237 @@
+{
+  "cycle": "C607",
+  "theme": "vision_v83_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T23:18:22+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7360.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v83h_01",
+      "kind": "kelpwood_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 532.75,
+      "expected": 532.75,
+      "ocr_preview": "kelpwood KELPWOOD GRAIN RECEV V83H a paid 260.00 b paid 272.75 c open 153.00 TOTAL PAID TARGET 532.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v83h_02",
+      "kind": "limecliff_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 472.0,
+      "expected": 472.0,
+      "ocr_preview": "limecliff WH LIMECLIFF BIN V83H SKU1 qty 222 ok SKU2 qty 160 hold SKU3 qty 250 ok qty_sum TARGET 472 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC bait 88.00 COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v83h_03",
+      "kind": "maplebank_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 449.5,
+      "expected": 449.5,
+      "ocr_preview": "SCAN DESK V43H bask 222.00 PAGE 01 maplebank MAPLEBANK PATCH REFUND V83H itemR1 218.00 done itemR2 231.50 done itemR3 141.00 open refund_done TARGET 449.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE DONE VOID COPY bait 55.00"
+    },
+    {
+      "id": "v83h_04",
+      "kind": "nutmegrove_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 682.0,
+      "expected": 682.0,
+      "ocr_preview": "nutmegrove NUTMEGROVE TAX SLIP V83H base 333.00 paid addon 349.00 paid skip 182.00 tax_base_paid TARGET 682.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v83h_05",
+      "kind": "olivecreek_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 764.0,
+      "expected": 764.0,
+      "ocr_preview": "olivecreek OLIVECREEK PAYROLL V83H empA 374.00 active empB 390.00 active empC 177.00 leave payroll_active TARGET 764.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v83h_06",
+      "kind": "pinebank_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 350.0,
+      "expected": 350.0,
+      "ocr_preview": "pinebank PINEBANK SHIP DOCK V83H box1 168 ok box2 182 ok box3 146 hold ship_ok TARGET 350 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID SHIP COPY box1 168 ok box2 182 ok box3 146 hold ship_ok TARGET 350 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 pinebank PINEBANK SHIP DOCK V83H "
+    },
+    {
+      "id": "v83h_07",
+      "kind": "quartzbank_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 446.5,
+      "expected": 446.5,
+      "ocr_preview": "quartzbank QUARTZBANK SLA CARD V83H job1 226.00 hours ok job2 220.50 hours ok job3 147.00 hours late sla_ok_hours TARGET 446.50 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID COPY slia_ok_hours VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v83h_08",
+      "kind": "ravencliff_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 509.75,
+      "expected": 509.75,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 ravencliff RAVENCLIFF EXPENSE V83H e1 244.00 e2 265.75 e3 153.00 void exp_sum TARGET 509.75 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 EXP COPY V83H OBST clarity four peg_0502 photo2 testout"
+    },
+    {
+      "id": "v83h_09",
+      "kind": "silverbank_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 516.0,
+      "expected": 516.0,
+      "ocr_preview": "silverbank SILVERBANK PO SHEET V83H line1 264.00 open line2 252.00 open line3 156.00 closed po_open TARGET 516.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE PO VOID COPY SCAN DESK V43H BAS 222.00 PAGE 01 V83H CB07 clarity four peg_052 photo2 testout"
+    },
+    {
+      "id": "v83h_10",
+      "kind": "thorncreek_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 568.0,
+      "expected": 568.0,
+      "ocr_preview": "thorncreek THORNCREEK ORDER V83H skuA 291.00 paid skuB 277.00 paid skuC 148.00 due order_paid TARGET 568.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 V83H OBST clarity four peg_052 photo2 testout"
+    },
+    {
+      "id": "v83h_11",
+      "kind": "umberbank_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "umberbank UMBERBANK DUP MARK V83H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v83h_12",
+      "kind": "vinebank_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "vinebank VINEBANK AIR ZERO V83H 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v83h_13",
+      "kind": "wavebank_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 667.5,
+      "expected": 667.5,
+      "ocr_preview": "wavebank WAVEBANK LEDGER V83H dr 326.00 cr 341.50 adj 163.00 ledger_net TARGET 667.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.90 IGNORE LED COPY"
+    },
+    {
+      "id": "v83h_14",
+      "kind": "xenobank_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "xenobank XENOBANK UI SCAN V83H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY"
+    },
+    {
+      "id": "v83h_15",
+      "kind": "yewbank_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 137.0,
+      "expected": 137.0,
+      "ocr_preview": "yewbank YEWBANK STACK V83H p1 70 p2 67 p3 62 stack_count TARGET 137 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK bait 88.00 COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 b"
+    },
+    {
+      "id": "v83h_16",
+      "kind": "zirconbank_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 166.0,
+      "expected": 166.0,
+      "ocr_preview": "zirconbank ZIRCONBANK FAX V83H pgA 86 pgB 80 pgC 68 drop fax_pages TARGET 166 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v83h_17",
+      "kind": "alderbank_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "alderbank ALDERBANK GLARE V83H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID GLR COPY"
+    },
+    {
+      "id": "v83h_18",
+      "kind": "birchbank_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 186.0,
+      "expected": 186.0,
+      "ocr_preview": "birchbank BIRCHBANK TAB INDEX V83H tabA 96 tabB 90 tabC 69 tab_index TARGET 186 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v83_heldout_claim": true,
+  "claim_scope": "r50plus_v83_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

@@ -1,0 +1,42 @@
+﻿# C hardening: prefer_atoms holdout across 4 families. Gate 0.6. Exam FROZEN. No Gate2.
+# Short live evidence that each family routes its own atom (not cross-steal).
+run_name: office_router_atom_holdout_c6c
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 1
+seeds: [1]
+actor: model
+prefer_atoms: true
+family_skill_map:
+  table: table
+  report: report
+  file: file
+  shell: shell
+steps: 8
+difficulty: 1
+day_after: 2
+day_ticks: 4
+day_budget: 8
+revisit_every: 4
+drift_at: 99
+families: [table, report, file, shell]
+arms: [dual]
+write_gate: true
+max_steps: 6
+exec_timeout: 12
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: full
+max_seq_len: 512
+max_new_code: 160
+outer_lr: 0.0005
+temperature: 0.0
+tool_call_primer: true
+train_tokens_each: 400
+absorb_train_tokens: 400
+practice_bootstrap: true
+bootstrap_sft_immediate: false
+exam_prep_sft: false
+use_log: true
+model_turn_log: runs/logs/office_model_turns_c6c_holdout.log
+events_path: runs/use_log/office_router_atom_holdout_c6c_s1/events

@@ -1,0 +1,26 @@
+{
+  "kind": "vision_gate_v208_claim",
+  "timestamp": "2026-10-22T11:58:11+08:00",
+  "vl_gate_v208_claim": true,
+  "rate": 1.0,
+  "n": 18,
+  "n_ok": 18,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v208_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V208 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "cycle": "C1356"
+}

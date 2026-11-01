@@ -1,0 +1,232 @@
+{
+  "cycle": "C996",
+  "theme": "vision_v148_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T18:24:14+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7749.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v148_01",
+      "kind": "ashhurst_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1861.5,
+      "expected": 1861.5,
+      "ocr_preview": "ashhurst ASHHURST GRAIN RECV V148 a paid 922.00 b paid 949.50 c open 732.00 TOTAL PAID TARGET 1861.50 DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT "
+    },
+    {
+      "id": "v148_02",
+      "kind": "cedarhurst_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "cedarhurst WH CEDARHURST BIN V148 SKU1 qty 740 ok SKU2 qty 610 hold SKU3 qty 780 ok qty_sum TARGET 1820 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.12.32 OR 18.12.77 VOID COPY OVEN DO NOT SCAN FAX HEADER BAIT 88.88 FROM: SPOTIFY SHOP LABEL BAIT 222.22 TRACK WITH: 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not pars"
+    },
+    {
+      "id": "v148_03",
+      "kind": "dawnhurst_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1719.25,
+      "expected": 1719.25,
+      "ocr_preview": "dawnhurst DAWNHURST PATCH REFUND V148 ItemR1 845.00 done ItemR2 874.25 done ItemR3 712.00 open refund_done TARGET 1719.25 DRAFT WATERMARK COPY TAPE R23 bait 12.12 GR 1812.77 VOID COPY OVEN MUG PEN OVERLAP LABEL bait 37 DO NOT SCAN V0KD WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 505.00 FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL B"
+    },
+    {
+      "id": "v148_04",
+      "kind": "elmhurst_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1973.0,
+      "expected": 1973.0,
+      "ocr_preview": "elmhurst ELMHURST TAX SLIP V148 base 978.00 paid addon 965.00 paid skip 802.00 tax_base_paid TARGET 1973.00 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.13.30 GR 18.12.77 VOID COPY OVEN DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 303.00 FAX header bait 88.88 from: SPOT MUG PEN SHOP LABEL bait 222.22 TRADE MARK "
+    },
+    {
+      "id": "v148_05",
+      "kind": "fernhurst_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2104.0,
+      "expected": 2104.0,
+      "ocr_preview": "fernhurst fernHURST PAYROLL V148 empB 1040.00 active empB 1564.00 active empC 772.00 leave payroll_active TARGET 2104.00 DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.3.25 GR 18.12.77 VOID COPY OVEN DO NOT SCAN FAX HEADER BAIT 88.88 FROM: SPOTF SHOP LABEL bait 222-22 Trace: WHT-0005 MUG PEN OVERLAY LABEL bait 327 DO NOT SCAN VOID WIN IGNORE old to"
+    },
+    {
+      "id": "v148_06",
+      "kind": "glenhurst_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1612.0,
+      "expected": 1612.0,
+      "ocr_preview": "glenhurst GLENHURST SHIP DOCK V148 box1 798 ok box2 814 ok box3 730 hold ship_ok TARGET 1612 DRAFT WATERMARK COPY TAPE R23 bait 12 12 RING 38 32 32 GR 18 12 77 VOID COPY OVEN DO NOT SCAN VCHD WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 303.00 FAX 123 123 123 BARCODE bait 123 40 SCAN DESK V42 BAIT 133.00 PAGE 01 OVERLAY LABEL bait"
+    },
+    {
+      "id": "v148_07",
+      "kind": "hazehurst_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1100.0,
+      "expected": 1100.0,
+      "ocr_preview": "hazehurst HAZEHURST SLA CARD V148 job1 630.00 hours ok job2 570.00 hours ok job3 410.00 hours late sla_ok_hours TARGET 1100.00 DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.12.32 GR 18.12.77 VOID COPY OVEN SHAPE scan FAX HEADER BAIT 88.88 FROM: SPOTF SHOP LABEL BAIT 222.22 TRUCK BAIT 685 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VODK WIN IGNORE old"
+    },
+    {
+      "id": "v148_08",
+      "kind": "inkhurst_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1807.75,
+      "expected": 1807.75,
+      "ocr_preview": "inkhurst INKHURST EXPENSE V148 e1 868.00 e2 919.75 e3 736.00 void exp_sum TARGET 1807.75 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v148_09",
+      "kind": "jadehurst_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "jadehurst JADEHURST PO SHEET V148 line1 840.00 open line2 700.00 open line3 740.00 closed po_open TARGET 1600.00 SCAN DESK V42 BAST 333.00 PAGE 01 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v148_10",
+      "kind": "knothurst_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1898.0,
+      "expected": 1898.0,
+      "ocr_preview": "knothurst KNOTHURST ORDER V148 skuA 955.00 paid skuB 948.00 paid skuC 733.00 due order_paid TARGET 1898.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v148_11",
+      "kind": "lakehurst_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakehurst LAKEHURST DUP MARK V148 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v148_12",
+      "kind": "mosshurst_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mosshurst MOSSHURST AIR ZERO V148 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v148_13",
+      "kind": "netherhurst_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2063.5,
+      "expected": 2063.5,
+      "ocr_preview": "netherhurst NETHERHURST LEDGER V148 dr 1021.00 cr 1042.50 adj 758.00 ledger_net TARGET 2063.50 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.12.35 OR 38.12.77 COPY OVEN VOID FAX HEADER BAIT 88.88 FROM:SHOOO SHOP LABEL BAIT 222.22 TRADE WITH: MUG PEN OVERLAY LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW"
+    },
+    {
+      "id": "v148_14",
+      "kind": "oakhurst_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakhurst OAKHURST UI SCAN V148 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v148_15",
+      "kind": "pinehurst_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1132.0,
+      "expected": 1132.0,
+      "ocr_preview": "pinehurst RINEHURST STACK V148 p1570 p2562 p3540 stack_count TARGET 1132 DRAFT WATERMARK.COM TAPE R23 bait 12.12 RING 38.4.12.20 GR 18.12.77 VOID COPY OVEN DO NOT SCAN VODK WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 50.00 FAX 123.40 BARCODE bait 123.40 SCAN DESK V42 BAIT 133.00 PAGE 01 OVERLAY LABEL bait 327 MUG PEN SHIP LABEL bai"
+    },
+    {
+      "id": "v148_16",
+      "kind": "quillhurst_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1160.0,
+      "expected": 1160.0,
+      "ocr_preview": "quillhurst QUILLHURST FAX V148 pgB 568 pgB 572 pgC 563 drop fax_pages TARGET 1160 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v148_17",
+      "kind": "reedhurst_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedhurst SEEDHURST GLARE V148 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY TAPE R23 bait 12.12 GR 184.22.77 VOID COPY OVEN PHONE SHADOW FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 TRASH: BAIT 646 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VODK WIN IGNORE old total 999.00 do not parse bait 666.00 BARCODE bait 123.40"
+    },
+    {
+      "id": "v148_18",
+      "kind": "stonehurst_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1204.0,
+      "expected": 1204.0,
+      "ocr_preview": "stonehurst STONEHURST TAB INDEX V148 tabB 514 tabB 599 tabC 560 tab_index TARGET 1204 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    }
+  ],
+  "vl_gate_v148_claim": true,
+  "claim_scope": "r50plus_v148_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V148 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

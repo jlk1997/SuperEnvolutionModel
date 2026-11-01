@@ -1,0 +1,398 @@
+{
+  "cycle": "C245",
+  "theme": "cost_ledger_refresh_and_replace_stress",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T09:18:13+08:00",
+  "ledger": {
+    "kind": "dual_vs_agent_cost_ledger_refresh",
+    "cycle": "C245",
+    "version": "c245",
+    "gate": 0.6,
+    "timestamp": "2026-10-19T09:18:13+08:00",
+    "method": "archival_summary_steps",
+    "summaries": [
+      "runs/office_gate2_full_slate_s0/20261017-201213/summary.json",
+      "runs/office_gate2_full_slate_s1/20261017-210105/summary.json",
+      "runs/office_gate2_mid_n_dual_s0/20261018-105958/summary.json",
+      "runs/office_gate2_mid_n_dual_s1/20261018-114219/summary.json"
+    ],
+    "missing": [],
+    "rows": [
+      {
+        "path": "runs/office_gate2_full_slate_s0/20261017-201213/summary.json",
+        "seed": 0,
+        "arms": {
+          "agent": {
+            "arm": "agent",
+            "n_exam": 4,
+            "ok": 1,
+            "fail": 3,
+            "fail_rate": 0.75,
+            "ok_rate": 0.25,
+            "steps_total": 24,
+            "steps_mean": 6.0,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          },
+          "oracle": {
+            "arm": "oracle",
+            "n_exam": 4,
+            "ok": 1,
+            "fail": 3,
+            "fail_rate": 0.75,
+            "ok_rate": 0.25,
+            "steps_total": 24,
+            "steps_mean": 6.0,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          },
+          "shift": {
+            "arm": "shift",
+            "n_exam": 4,
+            "ok": 0,
+            "fail": 4,
+            "fail_rate": 1.0,
+            "ok_rate": 0.0,
+            "steps_total": 26,
+            "steps_mean": 6.5,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          },
+          "continual": {
+            "arm": "continual",
+            "n_exam": 4,
+            "ok": 0,
+            "fail": 4,
+            "fail_rate": 1.0,
+            "ok_rate": 0.0,
+            "steps_total": 26,
+            "steps_mean": 6.5,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          },
+          "dual": {
+            "arm": "dual",
+            "n_exam": 4,
+            "ok": 3,
+            "fail": 1,
+            "fail_rate": 0.25,
+            "ok_rate": 0.75,
+            "steps_total": 34,
+            "steps_mean": 8.5,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          },
+          "dual_agent": {
+            "arm": "dual_agent",
+            "n_exam": 4,
+            "ok": 1,
+            "fail": 3,
+            "fail_rate": 0.75,
+            "ok_rate": 0.25,
+            "steps_total": 24,
+            "steps_mean": 6.0,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          },
+          "continual_sft": {
+            "arm": "continual_sft",
+            "n_exam": 4,
+            "ok": 0,
+            "fail": 4,
+            "fail_rate": 1.0,
+            "ok_rate": 0.0,
+            "steps_total": 26,
+            "steps_mean": 6.5,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          }
+        },
+        "dual_vs_agent": {
+          "dual_ok_rate": 0.75,
+          "agent_ok_rate": 0.25,
+          "dual_steps_mean": 8.5,
+          "agent_steps_mean": 6.0,
+          "dual_fail_rate": 0.25,
+          "agent_fail_rate": 0.75,
+          "step_advantage_agent_minus_dual": -2.5
+        }
+      },
+      {
+        "path": "runs/office_gate2_full_slate_s1/20261017-210105/summary.json",
+        "seed": 1,
+        "arms": {
+          "agent": {
+            "arm": "agent",
+            "n_exam": 4,
+            "ok": 0,
+            "fail": 4,
+            "fail_rate": 1.0,
+            "ok_rate": 0.0,
+            "steps_total": 21,
+            "steps_mean": 5.25,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          },
+          "oracle": {
+            "arm": "oracle",
+            "n_exam": 4,
+            "ok": 0,
+            "fail": 4,
+            "fail_rate": 1.0,
+            "ok_rate": 0.0,
+            "steps_total": 24,
+            "steps_mean": 6.0,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          },
+          "shift": {
+            "arm": "shift",
+            "n_exam": 4,
+            "ok": 0,
+            "fail": 4,
+            "fail_rate": 1.0,
+            "ok_rate": 0.0,
+            "steps_total": 25,
+            "steps_mean": 6.25,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          },
+          "continual": {
+            "arm": "continual",
+            "n_exam": 4,
+            "ok": 0,
+            "fail": 4,
+            "fail_rate": 1.0,
+            "ok_rate": 0.0,
+            "steps_total": 25,
+            "steps_mean": 6.25,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          },
+          "dual": {
+            "arm": "dual",
+            "n_exam": 4,
+            "ok": 2,
+            "fail": 2,
+            "fail_rate": 0.5,
+            "ok_rate": 0.5,
+            "steps_total": 34,
+            "steps_mean": 8.5,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          },
+          "dual_agent": {
+            "arm": "dual_agent",
+            "n_exam": 4,
+            "ok": 0,
+            "fail": 4,
+            "fail_rate": 1.0,
+            "ok_rate": 0.0,
+            "steps_total": 21,
+            "steps_mean": 5.25,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          },
+          "continual_sft": {
+            "arm": "continual_sft",
+            "n_exam": 4,
+            "ok": 0,
+            "fail": 4,
+            "fail_rate": 1.0,
+            "ok_rate": 0.0,
+            "steps_total": 25,
+            "steps_mean": 6.25,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          }
+        },
+        "dual_vs_agent": {
+          "dual_ok_rate": 0.5,
+          "agent_ok_rate": 0.0,
+          "dual_steps_mean": 8.5,
+          "agent_steps_mean": 5.25,
+          "dual_fail_rate": 0.5,
+          "agent_fail_rate": 1.0,
+          "step_advantage_agent_minus_dual": -3.25
+        }
+      },
+      {
+        "path": "runs/office_gate2_mid_n_dual_s0/20261018-105958/summary.json",
+        "seed": 0,
+        "arms": {
+          "dual": {
+            "arm": "dual",
+            "n_exam": 8,
+            "ok": 7,
+            "fail": 1,
+            "fail_rate": 0.125,
+            "ok_rate": 0.875,
+            "steps_total": 84,
+            "steps_mean": 10.5,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          },
+          "agent": {
+            "arm": "agent",
+            "n_exam": 8,
+            "ok": 2,
+            "fail": 6,
+            "fail_rate": 0.75,
+            "ok_rate": 0.25,
+            "steps_total": 45,
+            "steps_mean": 5.625,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          }
+        },
+        "dual_vs_agent": {
+          "dual_ok_rate": 0.875,
+          "agent_ok_rate": 0.25,
+          "dual_steps_mean": 10.5,
+          "agent_steps_mean": 5.625,
+          "dual_fail_rate": 0.125,
+          "agent_fail_rate": 0.75,
+          "step_advantage_agent_minus_dual": -4.875
+        }
+      },
+      {
+        "path": "runs/office_gate2_mid_n_dual_s1/20261018-114219/summary.json",
+        "seed": 1,
+        "arms": {
+          "dual": {
+            "arm": "dual",
+            "n_exam": 8,
+            "ok": 6,
+            "fail": 2,
+            "fail_rate": 0.25,
+            "ok_rate": 0.75,
+            "steps_total": 72,
+            "steps_mean": 9.0,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          },
+          "agent": {
+            "arm": "agent",
+            "n_exam": 8,
+            "ok": 0,
+            "fail": 8,
+            "fail_rate": 1.0,
+            "ok_rate": 0.0,
+            "steps_total": 45,
+            "steps_mean": 5.625,
+            "tokens_total": null,
+            "tokens_mean": null,
+            "tokens_available": false
+          }
+        },
+        "dual_vs_agent": {
+          "dual_ok_rate": 0.75,
+          "agent_ok_rate": 0.0,
+          "dual_steps_mean": 9.0,
+          "agent_steps_mean": 5.625,
+          "dual_fail_rate": 0.25,
+          "agent_fail_rate": 1.0,
+          "step_advantage_agent_minus_dual": -3.375
+        }
+      }
+    ],
+    "aggregate": {
+      "n_reports": 4,
+      "dual_steps_mean": 9.125,
+      "agent_steps_mean": 5.625,
+      "dual_fail_rate_mean": 0.28125,
+      "agent_fail_rate_mean": 0.875,
+      "step_delta_agent_minus_dual": -3.5,
+      "fail_delta_agent_minus_dual": 0.59375
+    },
+    "pass": true,
+    "gate2_3_untouched": true,
+    "gen11": "HOLD"
+  },
+  "replace_stress": {
+    "n": 5,
+    "n_ok": 5,
+    "rate": 1.0,
+    "mean_ratio": 3.4788,
+    "rows": [
+      {
+        "task": "join_filter",
+        "ok": true,
+        "bare_steps": 7,
+        "agent_steps_est": 23,
+        "paid_revenue": 72.0,
+        "step_ratio_agent_over_bare": 3.2857142857142856
+      },
+      {
+        "task": "cross_folder",
+        "ok": true,
+        "bare_steps": 8,
+        "agent_steps_est": 27,
+        "sum": 120.0,
+        "step_ratio_agent_over_bare": 3.375
+      },
+      {
+        "task": "multi_status",
+        "ok": true,
+        "bare_steps": 9,
+        "agent_steps_est": 30,
+        "open_hi": 3,
+        "cost": 40,
+        "step_ratio_agent_over_bare": 3.3333333333333335
+      },
+      {
+        "task": "nested_rollup",
+        "ok": true,
+        "bare_steps": 10,
+        "agent_steps_est": 34,
+        "totals": {
+          "A": 4,
+          "B": 2,
+          "C": 4
+        },
+        "step_ratio_agent_over_bare": 3.4
+      },
+      {
+        "task": "office_money",
+        "ok": true,
+        "bare_steps": 4,
+        "agent_steps_est": 16,
+        "paid_total": 53.5,
+        "step_ratio_agent_over_bare": 4.0
+      }
+    ],
+    "pass": true,
+    "gate": 0.6
+  },
+  "summary": {
+    "dual_steps_mean": 9.125,
+    "agent_steps_mean": 5.625,
+    "step_delta_agent_minus_dual": -3.5,
+    "dual_fail_rate_mean": 0.28125,
+    "agent_fail_rate_mean": 0.875,
+    "replace_rate": 1.0,
+    "replace_mean_ratio": 3.4788
+  },
+  "pass": true,
+  "claim": false,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "note": "Non-vision knife; does not mint Gate2/3"
+}

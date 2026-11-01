@@ -1,0 +1,48 @@
+{
+  "kind": "mid_n_judge_alias",
+  "gate": "0.6",
+  "note": "Alias of observational mid-n judge. Gate2 already claimed 2026-10-17; this run does NOT claim Gate2. Prefer docs/GATE2_MID_N_OBSERVATIONAL_2026-10-18.json as canonical.",
+  "canonical": "docs/GATE2_MID_N_OBSERVATIONAL_2026-10-18.json",
+  "run_judge": "runs/office_gate2_mid_n_dual_judge.json",
+  "timestamp": "2026-10-18T11:43:18+08:00",
+  "gate2_claim": false,
+  "observational_only": true,
+  "rates": {
+    "dual_rate": 0.8125,
+    "agent_rate": 0.125,
+    "per_seed": {
+      "0": {
+        "dual": 0.875,
+        "agent": 0.25
+      },
+      "1": {
+        "dual": 0.75,
+        "agent": 0.0
+      }
+    }
+  },
+  "ci": {
+    "n": 16,
+    "mean": 0.6875,
+    "low": 0.4375,
+    "high": 0.875,
+    "excludes_zero": true
+  },
+  "checks": {
+    "present": true,
+    "beat_agent": true,
+    "above_schedules": false,
+    "forget": true,
+    "safety": true
+  },
+  "pass_formal_gate2": false,
+  "power": {
+    "n": 16,
+    "power": 0.025,
+    "required_n": 800
+  },
+  "summaries": [
+    "runs/office_gate2_mid_n_dual_s0/20261018-105958/summary.json",
+    "runs/office_gate2_mid_n_dual_s1/20261018-114219/summary.json"
+  ]
+}

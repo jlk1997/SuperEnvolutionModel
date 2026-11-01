@@ -1,0 +1,11 @@
+# C4 v3: dissolve table using XML tool_call pairs (format-mismatch fix).
+# Gate 0.6. No Gate2. Run after 2B frees GPU.
+run_name: office_dissolve_table_f3i_xml
+use_log_dir: runs/use_log/office_use_log_dual_f3i_s0
+family: table
+epochs: 3
+heldout_n: 4
+criterion: 0.6
+pair_source: events_xml
+tool_call_primer: true
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct

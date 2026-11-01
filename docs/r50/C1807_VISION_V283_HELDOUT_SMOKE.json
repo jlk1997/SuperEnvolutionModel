@@ -1,0 +1,237 @@
+{
+  "cycle": "C1807",
+  "theme": "vision_v283_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-27T22:57:53+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7344.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v283h_01",
+      "kind": "ashfen_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4056.75,
+      "expected": 4056.75,
+      "ocr_preview": "ashfen ASHFEN GRAIN RECV V283H a paid 2022.00 b paid 2034.75 c open 1863.00 TOTAL PAID TARGET 4056.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY V283H C-1807 clearly their preg_2EC photoC testout"
+    },
+    {
+      "id": "v283h_02",
+      "kind": "cedarfen_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1300.0,
+      "expected": 1300.0,
+      "ocr_preview": "cedarfen WH CEDARFEN BIN V283H SKU1 qty 640 ok SKU2 qty 820 hold SKU3 qty 660 ok qty_sum TARGET 1300 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v283h_03",
+      "kind": "dawnfen_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3944.5,
+      "expected": 3944.5,
+      "ocr_preview": "dawnfen DAWNFEN PATCH REFUND V283H itemR1 1965.00 done itemR2 1979.50 done itemR3 1858.00 open refund_done TARGET 3944.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID DONE COPY V283H C-1807 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v283h_04",
+      "kind": "elmfen_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4206.0,
+      "expected": 4206.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 elmfen ELMFEN TAX SLIP V283H base 2095.00 paid addon 2111.00 paid skip 1914.00 tax_base_paid TARGET 4206.00 OKP tax 00.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 00.00 IGNORE TAX VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V283H C-1807 clarity from preg_20C photoC testout"
+    },
+    {
+      "id": "v283h_05",
+      "kind": "fernfen_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4288.0,
+      "expected": 4288.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 fernfen FERN&FEN PAYROLL V283H empA 2136.00 active empB 2152.00 active empC 1907.00 leave payroll_active TARGET 4288.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v283h_06",
+      "kind": "glenfen_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3848.0,
+      "expected": 3848.0,
+      "ocr_preview": "glenfen GLENFEN SHIP DOCK V283H box1 1918 ok box2 1930 ok box3 1878 hold ship_ok TARGET 3848 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY V283h C-1807 clarity from preg_32C photoC testout SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v283h_07",
+      "kind": "hazefen_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 880.0,
+      "expected": 880.0,
+      "ocr_preview": "hazefen HAZEFEN SLA CARD V283H job1 420.00 hours ok job2 460.00 hours ok job3 740.00 hours late sla_ok_hours TARGET 880.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID COPY"
+    },
+    {
+      "id": "v283h_08",
+      "kind": "inkfen_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4033.75,
+      "expected": 4033.75,
+      "ocr_preview": "inkfen INKFEN EXPENSE V283H e1 2006.00 e2 2027.75 e3 1883.00 void exp_sum TARGET 4033.75 VOID WIN IGNORE old total 888.00 do not parse bait $555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.0"
+    },
+    {
+      "id": "v283h_09",
+      "kind": "jadefen_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadefen JADEFEN PO SHEET V283H line1 740.00 open line2 780.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO COPY V283H C-1807 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v283h_10",
+      "kind": "knotfen_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4092.0,
+      "expected": 4092.0,
+      "ocr_preview": "knotfen KNOTFEN ORDER V283H skuA 2053.00 paid skuB 2039.00 paid skuC 1880.00 due order_paid TARGET 4092.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY V283h C-1807 clarity from preg_28C photoC testout"
+    },
+    {
+      "id": "v283h_11",
+      "kind": "lakefen_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakefen LAKEFEN DUP MARK V283H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v283h_12",
+      "kind": "mossfen_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossfen MOSSFEN AIR ZERO V283H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 V283H C-1807 early from preg_32C photoC testout SCAN DESK V43H BAS 222.00 PAGE 01"
+    },
+    {
+      "id": "v283h_13",
+      "kind": "netherfen_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 4191.5,
+      "expected": 4191.5,
+      "ocr_preview": "netherfen NETHERFEN LEDGER V283H dr 2088.00 cr 2103.50 adj 1893.00 ledger_net TARGET 4191.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE LED bait 88.00 COPY V283H C-1807 clarity from preg_20C photoC testout"
+    },
+    {
+      "id": "v283h_14",
+      "kind": "oakfen_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakfen OAKFEN UI SCAN V283H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY V283H C-1807 clarity from preg_32C photoC.h"
+    },
+    {
+      "id": "v283h_15",
+      "kind": "pinefen_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2355.0,
+      "expected": 2355.0,
+      "ocr_preview": "pinefen PINEFEN STACK V283H p1 1180 p2 1175 p3 1168 stack_count TARGET 2355 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK bait 88.00 COPY V283H C-1807 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v283h_16",
+      "kind": "quillfen_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2374.0,
+      "expected": 2374.0,
+      "ocr_preview": "quillfen QUILLFEN FAX V283H pgA 1190 pgB 1184 pgC 1172 drop fax_pages TARGET 2374 DRAFT DRAFT DRAFT DRAFT VOID VOID VOID COPY FAX FAX FAX COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY COPY CO"
+    },
+    {
+      "id": "v283h_17",
+      "kind": "reedfen_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedfen REEDFEN GLARE V283H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY"
+    },
+    {
+      "id": "v283h_18",
+      "kind": "stonefen_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2346.0,
+      "expected": 2346.0,
+      "ocr_preview": "stonefen STONEFEN TAB INDEX V283H tabA 1176 tabB 1170 tabC 1149 tab_index TARGET 2346 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v283_heldout_claim": true,
+  "claim_scope": "r50plus_v283_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

@@ -1,0 +1,237 @@
+{
+  "cycle": "C469",
+  "theme": "vision_v60_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T11:44:37+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7548.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v60h_01",
+      "kind": "anchor_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 264.5,
+      "expected": 264.5,
+      "ocr_preview": "anchor ANCHOR GRAIN RECV V60H a paid 128.00 b paid 136.50 c open 63.00 TOTAL PAID TARGET 264.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 66.00 IGNORE REC VOID COPY SCAN DESK V40H past 222.00 PAGE 01 V40H C400 clarity floor peg_0502 photo2 testout"
+    },
+    {
+      "id": "v60h_02",
+      "kind": "beacon_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 216.0,
+      "expected": 216.0,
+      "ocr_preview": "beacon WH BEACON BIN V60H SKU1 qty 97 ok SKU2 qty 70 hold SKU3 qty 119 ok qty_sum TARGET 216 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC bait 55.00 COPY beacon WH BEACON BIN V60H SKU1 qty 97 ok SKU2 qty 70 hold SKU3 qty 119 ok qty_sum TARGET 216 VOID WIN IGNORE old total 888.00 do not parse b"
+    },
+    {
+      "id": "v60h_03",
+      "kind": "citadel_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 195.25,
+      "expected": 195.25,
+      "ocr_preview": "citadel CITADEL PATCH REFUND V60H itemR1 93.00 done itemR2 102.25 done itemR3 51.00 open refund_done TARGET 195.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE DONE VOID COPY"
+    },
+    {
+      "id": "v60h_04",
+      "kind": "evergreen_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 347.0,
+      "expected": 347.0,
+      "ocr_preview": "evergreen EVERGREEN TAX SLIP V60H base 168.00 paid addon 179.00 paid skip 85.00 tax_base_paid TARGET 347.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 88.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v60h_05",
+      "kind": "fortress_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 419.0,
+      "expected": 419.0,
+      "ocr_preview": "fortress FORTRESS PAYROLL V60H empA 204.00 active empB 215.00 active empC 80.00 leave payroll_active TARGET 419.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v60h_06",
+      "kind": "gallery_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 165.0,
+      "expected": 165.0,
+      "ocr_preview": "gallery GALLERY SHIP DOCK V60H box1 78 ok box2 87 ok box3 56 hold ship_ok TARGET 165 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID SHIP COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v60h_07",
+      "kind": "highland_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 196.75,
+      "expected": 196.75,
+      "ocr_preview": "highland HIGHLAND SLA CARD V60H job1 101.00 hours ok job2 95.75 hours ok job3 57.00 hours late sla_ok_hours TARGET 196.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE COPY"
+    },
+    {
+      "id": "v60h_08",
+      "kind": "iceberg_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 238.5,
+      "expected": 238.5,
+      "ocr_preview": "iceberg ICEBERG EXPENSE V60H e1 114.00 e2 124.50 e3 63.00 void exp_sum TARGET 238.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP COPY iceberg ICEBERG EXPENSE V60H e1 114.00 e2 124.50 e3 63.00 void exp_sum TARGET 238.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 iceberg ICEBER"
+    },
+    {
+      "id": "v60h_09",
+      "kind": "jackpine_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 256.0,
+      "expected": 256.0,
+      "ocr_preview": "jackpine JACKPINE PO SHEET V60H line1 134.00 open line2 122.00 open line3 66.00 closed po_open TARGET 256.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO COPY"
+    },
+    {
+      "id": "v60h_10",
+      "kind": "keystone_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 299.5,
+      "expected": 299.5,
+      "ocr_preview": "keystone KEYSTONE ORDER V60H skuA 156.00 paid skuB 143.50 paid skuC 58.00 due order_paid TARGET 299.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v60h_11",
+      "kind": "lantern_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lantern LANTERN DUP MARK V60H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v60h_12",
+      "kind": "northstar_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "northstar NORTHSTAR AIR ZERO V60H 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait $55.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v60h_13",
+      "kind": "outlook_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 378.75,
+      "expected": 378.75,
+      "ocr_preview": "outlook OUTLOOK LEDGER V60H dr 184.00 cr 194.75 adj 73.00 ledger_net TARGET 378.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v60h_14",
+      "kind": "pavilion_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "pavilion PAVILION UI SCAN V60H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v60h_15",
+      "kind": "quartzite_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 37.0,
+      "expected": 37.0,
+      "ocr_preview": "quartzite QUARTZITE STACK V60H p1 20 p2 17 p3 12 stack_count TARGET 37 DRAFT DRAFT DRAFT DRAFT STICKY bait 88. 88 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v60h_16",
+      "kind": "riverbed_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 56.0,
+      "expected": 56.0,
+      "ocr_preview": "riverbed RIVERBED FAX V60H pgA 31 pgB 25 pgC 18 drop fax_pages TARGET 56 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY OKP bait 88.00"
+    },
+    {
+      "id": "v60h_17",
+      "kind": "sandstone_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "sandstone SANDSTONE GLARE V60H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v60h_18",
+      "kind": "tidemark_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 73.0,
+      "expected": 73.0,
+      "ocr_preview": "tidemark TDEMARK TAB INDEX V60H tabA 39 tabB 34 tabC 19 tab_index TARGET 73 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v60_heldout_claim": true,
+  "claim_scope": "r50plus_v60_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

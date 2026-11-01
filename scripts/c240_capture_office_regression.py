@@ -1,0 +1,169 @@
+# -*- coding: utf-8 -*-
+"""C240: Capture-office regression after C236-C239. V4-V22+heldout + clarity floor.
+Gate 0.6. Gate2/3 untouched. gen11 HOLD.
+"""
+from __future__ import annotations
+import json, subprocess, sys
+from datetime import datetime
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from evo.office.money_tool import sum_paid_from_text
+from evo.office.vision_metric_parse import parse_metric
+
+GATE = 0.6
+DOC = ROOT / "docs" / "r50"
+RUN = ROOT / "runs" / "capture_regression_c240"
+README = ROOT / "docs" / "蚁算_截图办公_README.md"
+CLI = ROOT / "scripts" / "ant_capture_office.py"
+FLOOR = ROOT / "docs" / "蚁算_CLARITY_FLOOR.md"
+
+SMOKE_POINTERS = [
+    ("V4", DOC / "C101_VISION_V4_MULTIHOP.json"),
+    ("V4_heldout", DOC / "C107_VISION_V4_HELDOUT.json"),
+    ("V5", DOC / "C121_VISION_V5_SMOKE.json"),
+    ("V5_heldout", DOC / "C126_VISION_V5_HELDOUT_SMOKE.json"),
+    ("V6", DOC / "C132_VISION_V6_SMOKE.json"),
+    ("V6_heldout", DOC / "C138_VISION_V6_HELDOUT_SMOKE.json"),
+    ("V7", DOC / "C144_VISION_V7_SMOKE.json"),
+    ("V7_heldout", DOC / "C150_VISION_V7_HELDOUT_SMOKE.json"),
+    ("V8", DOC / "C155_VISION_V8_SMOKE.json"),
+    ("V8_heldout_refresh", DOC / "C162_V8H02_UNGLUE_REPARSE.json"),
+    ("V9", DOC / "C163_VISION_V9_SMOKE.json"),
+    ("V9_heldout", DOC / "C164_VISION_V9_HELDOUT_SMOKE.json"),
+    ("V10", DOC / "C167_VISION_V10_SMOKE.json"),
+    ("V10_heldout", DOC / "C171_VISION_V10_HELDOUT_SMOKE.json"),
+    ("V11", DOC / "C173_VISION_V11_SMOKE.json"),
+    ("V11_heldout", DOC / "C175_VISION_V11_HELDOUT_SMOKE.json"),
+    ("V12", DOC / "C180_V12_FAIL_FIX_RETEST.json"),
+    ("V12_heldout", DOC / "C181_VISION_V12_HELDOUT_SMOKE.json"),
+    ("V13", DOC / "C183_VISION_V13_SMOKE.json"),
+    ("V13_heldout", DOC / "C186_VISION_V13_HELDOUT_SMOKE.json"),
+    ("V14", DOC / "C188_VISION_V14_SMOKE.json"),
+    ("V14_heldout", DOC / "C191_VISION_V14_HELDOUT_SMOKE.json"),
+    ("V15", DOC / "C193_VISION_V15_SMOKE.json"),
+    ("V15_heldout", DOC / "C196_VISION_V15_HELDOUT_SMOKE.json"),
+    ("V16", DOC / "C198_VISION_V16_SMOKE.json"),
+    ("V16_heldout", DOC / "C201_VISION_V16_HELDOUT_SMOKE.json"),
+    ("V17", DOC / "C203_VISION_V17_SMOKE.json"),
+    ("V17_heldout", DOC / "C207_VISION_V17_HELDOUT_SMOKE.json"),
+    ("V18", DOC / "C209_VISION_V18_SMOKE.json"),
+    ("V18_refresh", DOC / "C213_V18_FAIL_FIX_RETEST.json"),
+    ("V18_heldout", DOC / "C214_VISION_V18_HELDOUT_SMOKE.json"),
+    ("V19_prior", DOC / "C218_VISION_V19_SMOKE.json"),
+    ("V19_refresh", DOC / "C219_V19_FAIL_FIX_RETEST.json"),
+    ("V19_heldout", DOC / "C220_VISION_V19_HELDOUT_SMOKE.json"),
+    ("V20", DOC / "C225_VISION_V20_SMOKE.json"),
+    ("V20_heldout", DOC / "C226_VISION_V20_HELDOUT_SMOKE.json"),
+    ("V21", DOC / "C231_VISION_V21_SMOKE.json"),
+    ("V21_refresh", DOC / "C236_V21_FAIL_FIX_RETEST.json"),
+    ("V21_heldout", DOC / "C232_VISION_V21_HELDOUT_SMOKE.json"),
+    ("V22", DOC / "C238_VISION_V22_SMOKE.json"),
+    ("V22_heldout", DOC / "C239_VISION_V22_HELDOUT_SMOKE.json"),
+    ("C210_conf_gate", DOC / "C210_CONFIDENCE_GATE_CAPTURE_WIRE.json"),
+    ("C227_multi_metric_deepen", DOC / "C227_MULTI_METRIC_CAPTURE_DEEPEN.json"),
+    ("C233_clarity_floor", DOC / "C233_CLARITY_FLOOR_PRODUCT.json"),
+]
+
+
+def ts():
+    return datetime.now().astimezone().isoformat(timespec="seconds")
+
+
+def J(p, o):
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps(o, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def load_ok(path: Path):
+    if not path.is_file():
+        return {"present": False, "pass": False, "rate": None, "claim": None}
+    try:
+        o = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {"present": True, "pass": False, "rate": None, "claim": None, "error": "bad_json"}
+    rate = o.get("rate")
+    claim = bool(o.get("claim") or o.get("vl_gate_v22_claim") or o.get("vl_gate_v22_heldout_claim")
+                 or o.get("vl_gate_v21_claim") or o.get("pass"))
+    ok = bool(o.get("pass") or o.get("claim") or (isinstance(rate, (int, float)) and rate >= GATE))
+    return {"present": True, "pass": ok, "rate": rate, "claim": claim, "fail_ids": o.get("fail_ids")}
+
+
+def unit_money_parse():
+    cases = [
+        ("a paid 10.00 b paid 20.50 c open 5.00", 30.5),
+        ("TOTAL PAID TARGET 56.25 rA paid 28.00 rB paid 28.25", 56.25),
+        ("line paid 24.00 line paid 24.00 line paid 24.00 bait 88.88", 72.0),
+    ]
+    rows, n_ok = [], 0
+    for text, exp in cases:
+        got = sum_paid_from_text(text)
+        ok = abs(got - exp) < 0.08
+        n_ok += int(ok)
+        rows.append({"text": text[:60], "got": got, "expected": exp, "ok": ok})
+        # also parse_metric path
+        g2, aok = parse_metric(text, "paid_total", exp)
+        rows[-1]["parse_metric_ok"] = bool(aok and abs((g2 or 0) - exp) < 0.08)
+    return {"n": len(cases), "n_ok": n_ok, "rate": round(n_ok / len(cases), 4), "rows": rows, "pass": n_ok == len(cases)}
+
+
+def main():
+    RUN.mkdir(parents=True, exist_ok=True)
+    DOC.mkdir(parents=True, exist_ok=True)
+    readme_ok = README.is_file() and CLI.is_file()
+    floor_ok = FLOOR.is_file()
+    pointers = []
+    n_ok = 0
+    for name, path in SMOKE_POINTERS:
+        info = load_ok(path)
+        info["name"] = name
+        info["path"] = str(path.relative_to(ROOT)).replace("\\", "/")
+        pointers.append(info)
+        n_ok += int(info["pass"] and info["present"])
+    money = unit_money_parse()
+    # CLI oneshot dry (no VL) — help exit
+    cli_help_ok = False
+    try:
+        r = subprocess.run(
+            [sys.executable, str(CLI), "--help"],
+            capture_output=True, text=True, timeout=30, cwd=str(ROOT),
+        )
+        cli_help_ok = r.returncode == 0 and ("metric" in (r.stdout or "").lower() or "usage" in (r.stdout or "").lower() or len(r.stdout or "") > 20)
+    except Exception:
+        cli_help_ok = False
+
+    required = ["V21_refresh", "V21_heldout", "V22", "V22_heldout", "C233_clarity_floor"]
+    by_name = {p["name"]: p for p in pointers}
+    required_ok = all(by_name.get(k, {}).get("pass") for k in required)
+    overall = bool(required_ok and money["pass"] and readme_ok and cli_help_ok)
+    out = {
+        "cycle": "C240",
+        "theme": "capture_office_regression_c236_c239",
+        "gate": GATE,
+        "timestamp": ts(),
+        "n_pointers": len(pointers),
+        "n_ok_pointers": n_ok,
+        "pointers": pointers,
+        "required": required,
+        "required_ok": required_ok,
+        "money_unit": money,
+        "readme_ok": readme_ok,
+        "floor_doc_ok": floor_ok,
+        "cli_help_ok": cli_help_ok,
+        "pass": overall,
+        "gate2_3_untouched": True,
+        "gen11": "HOLD",
+    }
+    J(DOC / "C240_CAPTURE_OFFICE_REGRESSION.json", out)
+    J(RUN / "judge.json", out)
+    print(json.dumps({
+        "cycle": "C240", "pass": overall, "required_ok": required_ok,
+        "n_ok_pointers": n_ok, "n_pointers": len(pointers),
+        "money": money["rate"], "cli_help_ok": cli_help_ok,
+    }, ensure_ascii=False))
+    return 0 if overall else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

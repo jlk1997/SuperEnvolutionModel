@@ -1,0 +1,237 @@
+{
+  "cycle": "C1147",
+  "theme": "vision_v173_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-22T02:31:10+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7325.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v173h_01",
+      "kind": "ashbrook_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2052.75,
+      "expected": 2052.75,
+      "ocr_preview": "ashbrook ASHBROOK GRAIN RECEV V173H a paid 1020.00 b paid 1032.75 c open 913.00 TOTAL PAID TARGET 2052.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE REC bait 99.00 VOID COPY bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99"
+    },
+    {
+      "id": "v173h_02",
+      "kind": "cedarbrook_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "cedarbrook WH CEDARBROOK BIN V173H SKU1 qty 740 ok SKU2 qty 820 hold SKU3 qty 780 ok qty_sum TARGET 1520 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC COPY V173H C 11:47 clarity from page_052 photo/2 SCAN DESK V43H past 222.00 PAGE 01"
+    },
+    {
+      "id": "v173h_03",
+      "kind": "dawnbrook_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1969.5,
+      "expected": 1969.5,
+      "ocr_preview": "dawnbrook DAWNBROOK PATCH REFUND V173H itemR1 978.00 done itemR2 991.50 done itemR3 901.00 open refund_done TARGET 1969.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE DONE COPY V173Hm C1147 clarity from page_052 photo2 restored"
+    },
+    {
+      "id": "v173h_04",
+      "kind": "elmbrook_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2202.0,
+      "expected": 2202.0,
+      "ocr_preview": "elmbrook ELMBROOK TAX SLIP V173H base 1093.00 paid addon 1109.00 paid skip 942.00 tax_base_paid TARGET 2202.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 56.00 IGNORE TAX VOID COPY V173H C 1147 clarity from jpg_052 photo211"
+    },
+    {
+      "id": "v173h_05",
+      "kind": "fernbrook_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2284.0,
+      "expected": 2284.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 fernbrook FERNBROOK PAYROLL V173H empA 1134.00 active empB 1150.00 active empC 937.00 leave payroll_active TARGET 2284.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v173h_06",
+      "kind": "glenbrook_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1870.0,
+      "expected": 1870.0,
+      "ocr_preview": "glenbrook GLENBROOK SHIP DOCK V173H box1 928 ok box2 942 ok box3 906 hold ship_ok TARGET 1870 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE SHIP VOID COPY V173H C 1147 clarity floor page_052 photo_2 handwritten"
+    },
+    {
+      "id": "v173h_07",
+      "kind": "hazebrook_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "hazebrook HAZEBROOK SLA CARD V173H job1 360.00 hours ok job2 400.00 hours ok job3 500.00 hours late sla_ok_hours TARGET 760.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 80.00 IGNORE bait 80.00 VOID COPY V173Hm C1147 clarity from page_052 photo_2 hazebrook"
+    },
+    {
+      "id": "v173h_08",
+      "kind": "inkbrook_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2029.75,
+      "expected": 2029.75,
+      "ocr_preview": "inkbrook #INKBROOK EXPENSE V173H e1 1004.00 e2 1025.75 e3 913.00 void exp_sum TARGET 2029.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE EXP VOID COPY bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99."
+    },
+    {
+      "id": "v173h_09",
+      "kind": "jadebrook_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadebrook JADEBROOK PO SHEET V173H line1 780.00 open line2 740.00 open line3 760.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO COPY V173H C 1147 clarity from page_052 photo/2 1147"
+    },
+    {
+      "id": "v173h_10",
+      "kind": "knotbrook_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2088.0,
+      "expected": 2088.0,
+      "ocr_preview": "knotbrook KNOTBROOK ORDER V173H skuA 1051.00 paid skuB 1037.00 paid skuC 906.00 due order_paid TARGET 2088.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE ORD bait 99.00 bait 99.00 COPY V173H C 1147 copyly from page_052 photo2"
+    },
+    {
+      "id": "v173h_11",
+      "kind": "lakebrook_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakebrook LAKEBROOK DUP MARK V173H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v173h_12",
+      "kind": "mossbrook_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossbrook MOSSBROOK AIR ZERO V173H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 bait 00.00 V173H C 1147 clarity floor page_052 photo_2"
+    },
+    {
+      "id": "v173h_13",
+      "kind": "netherbrook_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2187.5,
+      "expected": 2187.5,
+      "ocr_preview": "netherbrook NETHERBROOK LEDGER V173H dr 1086.00 cr 1101.50 adj 923.00 ledger_net TARGET 2187.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE LED COPY V173H C 1147 clarity from page_052 photo_2 (redacted)"
+    },
+    {
+      "id": "v173h_14",
+      "kind": "oakbrook_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakbrook OAKBROOK UI SCAN V173H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v173h_15",
+      "kind": "pinebrook_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1547.0,
+      "expected": 1547.0,
+      "ocr_preview": "pinebrook PINEBROOK STACK V173H p1 776 p2 771 p3 766 stack_count TARGET 1547 OKP bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V173H C 1147 clarity from page_052 photo2 inverted"
+    },
+    {
+      "id": "v173h_16",
+      "kind": "quillbrook_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1574.0,
+      "expected": 1574.0,
+      "ocr_preview": "quillbrook QUILLBROOK FAX V173H pgA 790 pgB 784 pgC 772 drop fax_pages TARGET 1574 DRAFT DRAFT DRAFT DRAFT VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V173H C 1147 clarity floor page 2 photo 2"
+    },
+    {
+      "id": "v173h_17",
+      "kind": "reedbrook_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedbrook REEDBROOK GLARE V173H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY V173H C 1147 clarity from page_052 photo_2 (1)"
+    },
+    {
+      "id": "v173h_18",
+      "kind": "stonebrook_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1594.0,
+      "expected": 1594.0,
+      "ocr_preview": "stonebrook STONEBROOK TAB INDEX V173H tabA 800 tabB 794 tabC 773 tab_index TARGET 1594 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v173_heldout_claim": true,
+  "claim_scope": "r50plus_v173_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

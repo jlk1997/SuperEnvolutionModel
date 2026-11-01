@@ -1,0 +1,61 @@
+{
+  "cycle": "C170",
+  "theme": "unified_scorecard_c166_c169",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T05:38:02+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "beat": {
+    "source": "Gate2 CLAIM archive (untouched)",
+    "dual_exam_approx": 0.625,
+    "agent_exam_approx": 0.125,
+    "beat_agent": true,
+    "gate2_3_untouched": true
+  },
+  "replace": {
+    "mean_ratio": 3.875,
+    "rate": 1.0,
+    "pass": true
+  },
+  "vision": {
+    "v8_heldout_refresh": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v9": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v9_heldout": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v10_design": {
+      "n": 18,
+      "pass": true,
+      "claim": false
+    },
+    "v10_smoke": {
+      "rate": 1.0,
+      "n": 18,
+      "n_ok": 18,
+      "claim": true,
+      "fail_ids": []
+    }
+  },
+  "desktop_multiwin": {
+    "pass": true,
+    "rate": 1.0,
+    "n": 6,
+    "capture_ok": true
+  },
+  "regression": {
+    "pass": true,
+    "core_v4_v9": 1.0,
+    "overall": 1.0
+  },
+  "composite": 1.0,
+  "pass": true,
+  "claim": false,
+  "note": "After V10 design+smoke + multiwin pressure + V4-V9 regression. Gate2/3 untouched. gen11 HOLD."
+}

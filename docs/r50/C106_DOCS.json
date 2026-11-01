@@ -1,0 +1,17 @@
+{
+  "cycle": "C106",
+  "theme": "docs_stage_checkpoint_dissolve_pointer",
+  "gate": 0.6,
+  "pointers": [
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105"
+  ],
+  "v4_claim": true,
+  "dissolve_D_vision_multihop": 0.0,
+  "timestamp": "2026-10-19T01:41:17+08:00",
+  "pass": true
+}

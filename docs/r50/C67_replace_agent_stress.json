@@ -1,0 +1,88 @@
+{
+  "kind": "r50plus_c67_replace_agent_stress",
+  "timestamp": "2026-10-18T23:02:02+08:00",
+  "gate": 0.6,
+  "compose_rate": 1.0,
+  "compose_pass": true,
+  "compose_n": 4,
+  "stress_tasks": [
+    {
+      "id": "stress_paid_tax_deliver",
+      "families": [
+        "table",
+        "file",
+        "report",
+        "shell"
+      ],
+      "ok": true,
+      "why": [
+        "compose_kind=table_file_report",
+        "families=table,file,report",
+        "select_atom=office_table_uselog because family=table in compose chain",
+        "select_atom=office_file_uselog because family=file in compose chain",
+        "select_atom=office_report_uselog because family=report in compose chain",
+        "stress=tax+deliver+shell_copy"
+      ],
+      "atoms": [
+        "office_table_uselog",
+        "office_file_uselog",
+        "office_report_uselog",
+        "office_shell_uselog"
+      ]
+    },
+    {
+      "id": "stress_inventory_cross",
+      "families": [
+        "file",
+        "report"
+      ],
+      "ok": true,
+      "why": [
+        "compose_kind=file_report",
+        "families=file,report",
+        "select_atom=office_file_uselog because family=file in compose chain",
+        "select_atom=office_report_uselog because family=report in compose chain",
+        "stress=parse_markers+sum_qty+dual_export"
+      ],
+      "atoms": [
+        "office_file_uselog",
+        "office_report_uselog"
+      ]
+    }
+  ],
+  "stress_rate": 1.0,
+  "families": [
+    {
+      "family": "table",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "scaffold_steps_proxy": 0
+    },
+    {
+      "family": "report",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "scaffold_steps_proxy": 0
+    },
+    {
+      "family": "file",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "scaffold_steps_proxy": 0
+    },
+    {
+      "family": "shell",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "scaffold_steps_proxy": 0
+    }
+  ],
+  "scaffold_steps_mean": 0.0,
+  "agent_graph": false,
+  "replace_agent_score": 1.0,
+  "replace_agent_stress_pass": true,
+  "workspace": "runs/r50plus/c67_replace_stress",
+  "innovation": "Harder bare replace-agent stress with tax+inventory multi-hop",
+  "gate2_3_untouched": true,
+  "vs_c62": "C62 was light board; C67 adds tax calc + marker parse + dual export"
+}

@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "family": "file",
+      "current": "auto",
+      "nxt": "assist",
+      "reason": "demote"
+    },
+    {
+      "family": "table",
+      "current": "shadow",
+      "nxt": "auto",
+      "reason": "up"
+    },
+    {
+      "family": "shell",
+      "current": "assist",
+      "nxt": "shadow",
+      "reason": "up"
+    }
+  ],
+  "safety_demote_ok": true,
+  "write_gate": false,
+  "timestamp": "2026-10-18T22:31:06+08:00",
+  "innovation": "Safety demote stress no Gate mint"
+}

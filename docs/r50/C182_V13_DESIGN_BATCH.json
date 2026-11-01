@@ -1,0 +1,15 @@
+{
+  "cycle": "C182",
+  "theme": "vision_v13_design_batch",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T06:37:00+08:00",
+  "n": 18,
+  "fixture_dir": "evo/office/fixtures/vision_images_v13",
+  "protocol": "docs/蚁算_VL_GATE_V13_PROTOCOL.md",
+  "harder_than": "v12",
+  "pass": true,
+  "claim": false,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "note": "Fixtures only; claim deferred to C183 smoke"
+}

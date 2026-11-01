@@ -1,0 +1,20 @@
+{
+  "kind": "r50plus_c60_vision_u2c_lora",
+  "timestamp": "2026-10-18T22:55:11+08:00",
+  "gate": 0.6,
+  "n_pairs": 12,
+  "grade_rate_softmatch": 1.0,
+  "absorb": {
+    "ok": true,
+    "steps": 24,
+    "loss_last": 6.48193359375,
+    "loss_mean": 12.40691856543223,
+    "adapter": "runs/capabilities/vision_office_v1_readable_lora"
+  },
+  "adapter_trained": true,
+  "pass": true,
+  "evidence_run": "runs/vision_u2c_v1_lora",
+  "innovation": "Real micro-LoRA absorb on V1 readable fixtures",
+  "gate2_3_untouched": true,
+  "v1_claim_untouched": true
+}

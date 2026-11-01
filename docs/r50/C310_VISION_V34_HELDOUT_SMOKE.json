@@ -1,0 +1,235 @@
+{
+  "cycle": "C310",
+  "theme": "vision_v34_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T18:17:38+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 3080.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v34h_01",
+      "kind": "bamboo_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 69.5,
+      "expected": 69.5,
+      "ocr_preview": "竹纹收款单H BAMBOO GRAIN RECV V34H a paid 33.00 b paid 36.50 c open 13.00 TOTAL PAID TARGET 69.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE REC VOID COPY bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 b"
+    },
+    {
+      "id": "v34h_02",
+      "kind": "slate_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 58.0,
+      "expected": 58.0,
+      "ocr_preview": "SCAN DESK V34H BASST 222.00 PAGE 01 石板仓位单H WH SLATE TILE V34H SKU1 qty 26 ok SKU2 qty 13 hold SKU3 qty 32 ok qty_sum TARGET 58 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v34h_03",
+      "kind": "denim_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 38.5,
+      "expected": 38.5,
+      "ocr_preview": "SCAN DESK V34H BAST 222.00 PAGE 01 牛仔补丁退款单H DENIM PATCH REFUND V34H ItemR1 18.00 done ItemR2 20.50 done ItemR3 8.00 open refund_done TARGET 38.50 VOID bait 00.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE DONE VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V34H C310 clarity floor peg_c0 photo2 testout"
+    },
+    {
+      "id": "v34h_04",
+      "kind": "brass_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 117.0,
+      "expected": 117.0,
+      "ocr_preview": "SCAN DESK V34H FAST 222.00 PAGE 01 黄铜款发票基单H TAX BRASS FASTENER V34H T1 63.00 paid T2 26.00 open T3 54.00 paid tax_base_paid TARGET 117.00 VOID tax 00.00 tax 00.00 STICKY tax 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID REC COPY old total 888.00 do not parse bait 555.00 VOID WIN IGNORE V34H C310 clarity floor page_010 photo2 textout"
+    },
+    {
+      "id": "v34h_05",
+      "kind": "prism_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2140.0,
+      "expected": 2140.0,
+      "ocr_preview": "SCAN DESK V34H BAST 222.00 PAGE 01 棱镇工资单H PAYROLL PRISM SEAL V34H A 1040 active B 220 leave C 1100 active payroll_active TARGET 2140 OK balt 00.00 DRAFT DRAFT DRAFT DRAFT STICKY balt 00.00 IGNORE VOID OK COPY VOID WIN IGNORE old total 888.00 do not parse balt 555.00 V34H C310 clarity floor pag_c00 photo2 testout"
+    },
+    {
+      "id": "v34h_06",
+      "kind": "latch_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 52.0,
+      "expected": 52.0,
+      "ocr_preview": "SCAN DESK V34H BAST 222.00 PAGE 01 接扣发运单H SHIP LATCH BOX V34H P1 23 ok P2 15 hold P3 29 ok ship_ok_qty TARGET 52 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY V34H C310 clarity floor peg_p_g0 photo2 restart"
+    },
+    {
+      "id": "v34h_07",
+      "kind": "amber_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 49.0,
+      "expected": 49.0,
+      "ocr_preview": "SCAN DESK V34H 222.00 PAGE 01 SLA AMBER RESIN V34H S1 pri 19 open S2 pri 21 closed S3 pri 30 open open_pri_sum TARGET 49 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID bait 88.00 OPEN bait 88.00 COPY V34H C310 clarity floor peg_p_01 photo2 testout"
+    },
+    {
+      "id": "v34h_08",
+      "kind": "quarry_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 88.5,
+      "expected": 88.5,
+      "ocr_preview": "SCAN DESK V34H balt 222.00 PAGE 01 采石报销单H EXP QUARRY STONE V34H e1 paid 42.00 e2 paid 46.50 e3 open 15.00 TOTAL PAID TARGET 88.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v34h_09",
+      "kind": "tin_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 73.0,
+      "expected": 73.0,
+      "ocr_preview": "SCAN DESK V34H 222.00 PAGE 01 锡板采购单H PO TIN PLATE V34H lineA paid 34.00 lineB paid 39.00 lineC open 12.00 TOTAL PAID TARGET 73.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v34h_10",
+      "kind": "mylar_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 65.5,
+      "expected": 65.5,
+      "ocr_preview": "SCAN DESK V34H BAST 222.00 PAGE 01 麦拉丽订单H ORDER MYLAR FILM V34H o1 paid 30.00 o2 paid 35.50 o3 open 11.00 TOTAL PAID TARGET 65.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 55.00 IGNORE DRAFT DRAFT DRAFT DRAFT ORD VOID COPY V34H C310 clarity floor pag_c01 photo2 textout"
+    },
+    {
+      "id": "v34h_11",
+      "kind": "felt_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 85.0,
+      "expected": 85.0,
+      "ocr_preview": "SCAN DESK V34H BAST 222.00 PAGE 01 毛毡放副本H DUP FELT PAD V34H d1 paid 40.00 d2 paid 45.00 d3 open 14.00 TOTAL PAID TARGET 85.00 DRAFT DRAFT DRAFT DRAFT DUP VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V34H C310 clarity floor pag_c0 photo2 testout"
+    },
+    {
+      "id": "v34h_12",
+      "kind": "void_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "未付空单H OPEN ONLY V34H X 51.00 open Y 54.00 open paid_total TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse paid 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT VOID HOLD COPY paid 555.00 paid 555.00 paid 555.00 paid 555.00 paid 555.00 paid 555.00 paid 555.00 paid 555.00 paid 555.00 paid 555.00 paid 555.00 paid 555.00 paid 5"
+    },
+    {
+      "id": "v34h_13",
+      "kind": "stitch_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 52.5,
+      "expected": 52.5,
+      "ocr_preview": "SCAN DESK V34H BAST 222.00 PAGE 01 LEDGER STITCH EDGE V34H L1 paid 24.00 L2 paid 28.50 L3 open 10.00 TOTAL PAID TARGET 52.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE LED COPY V34H C310 clarity floor peg_010 photo2 testout"
+    },
+    {
+      "id": "v34h_14",
+      "kind": "enamel_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 59.75,
+      "expected": 59.75,
+      "ocr_preview": "SCAN DESK V34H BAST 222.00 PAGE 01 珐琅钉界面H UI ENAMEL PIN V34H u1 paid 27.00 u2 paid 32.75 u3 open 11.00 TOTAL PAID TARGET 59.75 OLD bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v34h_15",
+      "kind": "cord_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 82.0,
+      "expected": 82.0,
+      "ocr_preview": "SCAN DESK V34H BAST 222.00 PAGE 01 结结清单H STACK CORD BIND V34H m1 paid 38.00 m2 paid 44.00 m3 open 13.00 TOTAL PAID TARGET 82.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V34H C310 clarity floor pag_010 photo2 testout"
+    },
+    {
+      "id": "v34h_16",
+      "kind": "rice_fax",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 48.5,
+      "expected": 48.5,
+      "ocr_preview": "SCAN DESK V34H BAST 222.00 PAGE 01 宣纸传真H FAX RICE PAPER V34H f1 paid 22.00 f2 paid 26.50 f3 open 9.00 TOTAL PAID TARGET 48.50 VOID WIN IGNORE old total 888.00 do not parse balt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY balt 98.00 IGNORE FAX VOID COPY V34H C310 clarity floor pag_c0 photo2 testout"
+    },
+    {
+      "id": "v34h_17",
+      "kind": "chrome_glare",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 67.0,
+      "expected": 67.0,
+      "ocr_preview": "SCAN DESK V34H BAST 222.00 PAGE 01 捲带欧光单H GLARE CHROME BAND V34H g1 paid 31.00 g2 paid 36.00 g3 open 12.00 TOTAL PAID TARGET 67.00 OLD paid 00.00 STICKY paid 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID GLR COPY VOID WIN IGNORE old total 888.00 do not parse paid 555.00 V34H C310 clarity floor peg_c_00 photo2 testout"
+    },
+    {
+      "id": "v34h_18",
+      "kind": "index_tab",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 38.5,
+      "expected": 38.5,
+      "ocr_preview": "索引旗帜H TAB INDEX FLAG V34H t1 paid 17.00 t2 paid 21.50 t3 open 8.00 TOTAL PAID TARGET 38.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY V34H C310 clarity floor pag_c0 photo2 textout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0
+  ],
+  "vl_gate_v34_heldout_claim": true,
+  "claim_scope": "r50plus_v34_heldout_hlx_magclip_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 58,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

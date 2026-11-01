@@ -1,0 +1,235 @@
+{
+  "cycle": "C239",
+  "theme": "vision_v22_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T09:00:22+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7716.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v22h_01",
+      "kind": "coffee_receipt",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 64.5,
+      "expected": 64.5,
+      "ocr_preview": "咖啡清收据H COFFEE STAIN V22H a paid 31.00 b paid 33.50 c open 9.00 TOTAL PAID TARGET 64.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v22h_02",
+      "kind": "binder_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 51.0,
+      "expected": 51.0,
+      "ocr_preview": "SCAN DESK V22H bait 222.00 PAGE 01 活页仓单H WH BINDER V22H SKU1 qty 24 ok SKU2 qty 11 hold SKU3 qty 27 ok qty_sum TARGET 51 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v22h_03",
+      "kind": "tape_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 28.25,
+      "expected": 28.25,
+      "ocr_preview": "SCAN DESK V22H bait 222.00 PAGE 01 胶带退款H TAPE REFUND V22H itemR1 13.00 done itemR2 15.25 done itemR3 6.00 open refund_done TARGET 28.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v22h_04",
+      "kind": "pen_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 97.0,
+      "expected": 97.0,
+      "ocr_preview": "SCAN DESK V22H bait 222.00 PAGE 01 蓝笔税基H TAX BLUE PEN V22H T1 53.00 paid T2 22.00 open T3 44.00 paid tax_base_paid TARGET 97.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v22h_05",
+      "kind": "crumple_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1690.0,
+      "expected": 1690.0,
+      "ocr_preview": "SCAN DESK V22H bait 222.00 PAGE 01 破折工资H PAYROLL CRUMPLE V22H A 890 active B 170 leave C 800 active payroll_active TARGET 1690 OK bait 88.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V22H C236 clarity four pag_010 photo2 testout"
+    },
+    {
+      "id": "v22h_06",
+      "kind": "carbon_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 42.0,
+      "expected": 42.0,
+      "ocr_preview": "SCAN DESK V22H bait 222.00 PAGE 01 复写发运H SHIP CARBON V22H P1 21 ok P2 11 hold P3 21 ok ship_ok_qty TARGET 42 OK? bait 88.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID SHIP COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V22H C236 clarity four pag_p01 photo2 testout"
+    },
+    {
+      "id": "v22h_07",
+      "kind": "sticky_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 35.0,
+      "expected": 35.0,
+      "ocr_preview": "使空SLAH SLA STICKY V22H S1 pri 16 open S2 pri 20 closed S3 pri 19 open open_pri_sum TARGET 35 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v22h_08",
+      "kind": "fax_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 67.75,
+      "expected": 67.75,
+      "ocr_preview": "SCAN DESK V22H belt 222.00 PAGE 01 传真报销H EXPENSE FAXBAND V22H E1 33.00 paid E2 14.00 void E3 34.75 paid paid_total TARGET 67.75 OK belt 88.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v22h_09",
+      "kind": "grease_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 54.0,
+      "expected": 54.0,
+      "ocr_preview": "PO-GREASE V22H itemA paid 26.50 itemB paid 27.50 itemC open 10.00 TOTAL PAID TARGET 54.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v22h_10",
+      "kind": "contrast_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 45.5,
+      "expected": 45.5,
+      "ocr_preview": "对比扫描H ORDER CONTRAST V22H A paid 22.00 B paid 23.50 C open 7.00 TOTAL PAID TARGET 45.50 OK? bat 88.00 DRAFT DRAFT DRAFT DRAFT STICKY bat 88.00 IGNORE VOID REC COPY VOID WIN IGNORE old total 888.00 do not parse bat 555.00 V22H C236 clarity four pag_p01 photo2 testout"
+    },
+    {
+      "id": "v22h_11",
+      "kind": "coffee_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 54.0,
+      "expected": 54.0,
+      "ocr_preview": "咖啡重复H INVOICE #V22H-DUP line paid 18.00 line paid 18.00 line paid 18.00 TOTAL PAID TARGET 54.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v22h_12",
+      "kind": "binder_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "SCAN DESK V22H bait 222.00 PAGE 01 活页未付H OPEN ONLY V22H X 39.00 open Y 42.00 open paid_total TARGET 0.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v22h_13",
+      "kind": "tape_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 36.25,
+      "expected": 36.25,
+      "ocr_preview": "LEDGER TAPE V22H rA paid 17.50 rB paid 18.75 rC open 5.00 TOTAL PAID TARGET 36.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v22h_14",
+      "kind": "pen_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 40.5,
+      "expected": 40.5,
+      "ocr_preview": "SCAN DESK V22H belt 222.00 PAGE 01 蓝笔界面H UI BLUE PEN V22H alpha paid 20.00 beta paid 20.50 gamma open 7.50 TOTAL PAID TARGET 40.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v22h_15",
+      "kind": "crumple_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 64.0,
+      "expected": 64.0,
+      "ocr_preview": "SCAN DESK V22H bait 222.00 PAGE .01 皱折堆单H HEAVY CRUMPLE V22H x paid 32.00 usd y paid 32.00 usd z open 12.00 usd TOTAL PAID TARGET 64.00 OK bait 88.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V22H C236 clarity four pag_p01 photo2 testout"
+    },
+    {
+      "id": "v22h_16",
+      "kind": "carbon_mix",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 38.75,
+      "expected": 38.75,
+      "ocr_preview": "CN-EN CARBON MIX V22H tea paid 18.50 rice paid 20.25 soup open 6.00 TOTAL PAID TARGET 38.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v22h_17",
+      "kind": "sticky_win",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 49.0,
+      "expected": 49.0,
+      "ocr_preview": "STICKY WIN V22H w1 paid 24.00 w2 paid 25.00 w3 open 11.00 TOTAL PAID TARGET 49.00 DRAFT DRAFT DRAFT DRAFT DRAFT VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOI"
+    },
+    {
+      "id": "v22h_18",
+      "kind": "grease_foot",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 26.5,
+      "expected": 26.5,
+      "ocr_preview": "油清脚注H GREASE FOOT V22H p1 paid 13.00 p2 paid 13.50 p3 open 5.00 TOTAL PAID TARGET 26.50 DRAFT DRAFT DRAFT DRAFT OK? bat 00.00 STICKY bat 00.00 IGNORE VOID REC COPY VOID WIN IGNORE old total 888.00 do not parse bat 555.00 V22H C236 clarity four pag_p01 photo2 testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0
+  ],
+  "vl_gate_v22_heldout_claim": true,
+  "claim_scope": "r50plus_v22_heldout_coffee_binder_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 58,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

@@ -1,0 +1,237 @@
+{
+  "cycle": "C853",
+  "theme": "vision_v124_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T09:08:52+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v124h_01",
+      "kind": "amberheath_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1146.75,
+      "expected": 1146.75,
+      "ocr_preview": "amberheath AMBERHEATH GRAIN RECEV V124H a paid 567.00 b paid 579.75 c open 460.00 TOTAL PAID TARGET 1146.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY V124H C853 clarity floor preg_0f2 phone2 headset SCAN DESK V42H BAST 222.00 PAGE 01 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v124h_02",
+      "kind": "cedarheath_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1060.0,
+      "expected": 1060.0,
+      "ocr_preview": "cedarheath WH CEDARHEATH BIN V124H SKU1 qty 520 ok SKU2 qty 440 hold SKU3 qty 540 ok qty_sum TARGET 1060 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC COPY V124H C803 cavity floor prog_qf2 phone2 headset SCAN DESK V43H BAST 222.00 PAGE 01 bait 55.00 bait 55.00"
+    },
+    {
+      "id": "v124h_03",
+      "kind": "duskheath_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1063.5,
+      "expected": 1063.5,
+      "ocr_preview": "duskheath DUSKHEATH PATCH REFUND V124H itemR1 525.00 done itemR2 538.50 done itemR3 448.00 open refund_done TARGET 1063.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID DONE COPY V124k C853 cavity floor preg_up2 phone2 handset SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v124h_04",
+      "kind": "elmheath_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1296.0,
+      "expected": 1296.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 elmheath ELMHEATH TAX SLIP V124H base 640.00 paid addon 656.00 paid skip 489.00 tax_base_paid TARGET 1296.00 OKP tax 00.00 GRAFT DRAFT DRAFT DRAFT GRAFT DRAFT DRAFT DRAFT GRAFT DRAFT DRAFT DRAFT GRAFT DRAFT DRAFT DRAFT GRAFT DRAFT DRAFT DRAFT GRAFT DRAFT DRAFT DRAFT GRAFT DRAFT DRAFT DRAFT GRAFT DRAFT DRAFT DRAFT GRAFT DRAFT"
+    },
+    {
+      "id": "v124h_05",
+      "kind": "fernheath_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1378.0,
+      "expected": 1378.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 fernheath FERN@HEATH PAYROLL V124H empA 681.00 active empB 697.00 active empC 484.00 leave payroll_active TARGET 1378.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v124h_06",
+      "kind": "glenheath_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 964.0,
+      "expected": 964.0,
+      "ocr_preview": "glenheath GLENHEATH SHIP DOCK V124H box1 475 ok box2 489 ok box3 453 hold ship_ok TARGET 964 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY V124k C853 clarity floor preg_qf2 phone2 handset"
+    },
+    {
+      "id": "v124h_07",
+      "kind": "hazeheath_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "hazeheath HAZEHEATH SLA CARD V124H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE COPY bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55"
+    },
+    {
+      "id": "v124h_08",
+      "kind": "inkheath_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1123.75,
+      "expected": 1123.75,
+      "ocr_preview": "inkheath INKHEATH EXPENSE V124H e1 551.00 e2 572.75 e3 460.00 void exp_sum TARGET 1123.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE EXP VOID COPY V124H C853 cavity floor prog_qf2 phone2 headset SCAN DESK V43H part 222.00 PAGE 01 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55."
+    },
+    {
+      "id": "v124h_09",
+      "kind": "jadeheath_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1146.0,
+      "expected": 1146.0,
+      "ocr_preview": "jadeheath JADEHEATH PO SHEET V126H line1 610.00 open line2 536.00 open line3 457.00 closed po_open TARGET 1146.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE PO bait 55.00 VOID COPY V1264x C853 clarity floor prog_qf2 photo2 hidden"
+    },
+    {
+      "id": "v124h_10",
+      "kind": "knotheath_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1182.0,
+      "expected": 1182.0,
+      "ocr_preview": "knotheath KNOTHEATH ORDER V124H skuA 598.00 paid skuB 584.00 paid skuC 455.00 due order_paid TARGET 1182.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY V124H C853 clarity floor preg_qf2 photo2 metadata"
+    },
+    {
+      "id": "v124h_11",
+      "kind": "lakeheath_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakeheath LAKEHEATH DUP MARK V124H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v124h_12",
+      "kind": "mossheath_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossheath MOSSHEATH AIR ZERO V124H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v124h_13",
+      "kind": "netherheath_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1281.5,
+      "expected": 1281.5,
+      "ocr_preview": "netherheath NETHERHEATH LEDGER V124H dr 633.00 cr 648.50 adj 470.00 ledger_net TARGET 1281.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY V124H C853 cavity floor preg_qf2 photo2 netout"
+    },
+    {
+      "id": "v124h_14",
+      "kind": "oakheath_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakheath OAKHEATH UI SCAN V124H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY"
+    },
+    {
+      "id": "v124h_15",
+      "kind": "pineheath_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 639.0,
+      "expected": 639.0,
+      "ocr_preview": "pineheath PINEHEATH STACK V124H p1 321 p2 318 p3 313 stack_count TARGET 639 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V124H C853 cavity floor prog_qf2 phone2 headset"
+    },
+    {
+      "id": "v124h_16",
+      "kind": "quillheath_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 668.0,
+      "expected": 668.0,
+      "ocr_preview": "quillheath QUILLHEATH FAX V124H pgA 337 pgB 331 pgC 319 drop fax_pages TARGET 668 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY V124k CB03 clarity floor pag_q02 phone2 handset"
+    },
+    {
+      "id": "v124h_17",
+      "kind": "reedheath_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedheath REEDHEATH GLARE V124H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY V124H CB03 cavity floor preg_qf2 phone2 headset SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v124h_18",
+      "kind": "stoneheath_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 688.0,
+      "expected": 688.0,
+      "ocr_preview": "stoneheath STONEHEATH TAB INDEX V124H tabA 347 tabB 341 tabC 320 tab_index TARGET 688 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY V124H C853 cavity floor prog_012 phone2 handset"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v124_heldout_claim": true,
+  "claim_scope": "r50plus_v124_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

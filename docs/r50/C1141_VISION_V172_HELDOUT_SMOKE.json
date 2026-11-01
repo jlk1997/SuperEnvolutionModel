@@ -1,0 +1,237 @@
+{
+  "cycle": "C1141",
+  "theme": "vision_v172_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-22T02:07:33+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7314.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v172h_01",
+      "kind": "ashfen_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2034.75,
+      "expected": 2034.75,
+      "ocr_preview": "ashfen ASHFEN GRAIN RECEV V172H a paid 1011.00 b paid 1023.75 c open 904.00 TOTAL PAID TARGET 2034.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE REC VOID COPY V172H C 1141 clarity from page_052 photo_2 1141"
+    },
+    {
+      "id": "v172h_02",
+      "kind": "cedarfen_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "cedarfen WH CEDARFEN BIN V172H SKU1 qty 840 ok SKU2 qty 820 hold SKU3 qty 760 ok qty_sum TARGET 1600 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V172H C 1141 clarity floor page_052 photo_21100"
+    },
+    {
+      "id": "v172h_03",
+      "kind": "dawnfen_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1951.5,
+      "expected": 1951.5,
+      "ocr_preview": "dawnfen DAWNFEN PATCH REFUND V172H itemR1 969.00 done itemR2 982.50 done itemR3 892.00 open refund_done TARGET 1951.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DONE VOID COPY V172H C 1141 clarity floor page_052 photo2 hidden"
+    },
+    {
+      "id": "v172h_04",
+      "kind": "elmfen_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2184.0,
+      "expected": 2184.0,
+      "ocr_preview": "elmfen ELMFEN TAX SLIP V172H base 1084.00 paid addon 1100.00 paid skip 933.00 tax_base_paid TARGET 2184.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 98.00 IGNORE TAX VOID COPY V172H C 1141 clarity from page 2 photo 2 1141"
+    },
+    {
+      "id": "v172h_05",
+      "kind": "fernfen_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2266.0,
+      "expected": 2266.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 fernfen FERN&FEN PAYROLL V172H empA 1125.00 active empB 1141.00 active empC 928.00 leave payroll_active TARGET 2266.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v172h_06",
+      "kind": "glenfen_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1852.0,
+      "expected": 1852.0,
+      "ocr_preview": "glenfen GLENFEN SHIP DOCK V172H box1 919 ok box2 933 ok box3 897 hold ship_ok TARGET 1852 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE GRAFT DRAFT DRAFT DRAFT SHIP VOID COPY V172H C 1141 clarity from pag_052 photo/2 1141"
+    },
+    {
+      "id": "v172h_07",
+      "kind": "hazefen_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "hazefen HAZEFEN SLA CARD V172H job1 360.00 hours ok job2 400.00 hours ok job3 490.00 hours late sla_ok_hours TARGET 760.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v172h_08",
+      "kind": "inkfen_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2011.75,
+      "expected": 2011.75,
+      "ocr_preview": "SCAN DESK V43H bAST 222.00 PAGE 01 inkfen INKFEN EXPENSE V172H e1 995.00 e2 1016.75 e3 904.00 void exp_sum TARGET 2011.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE EXP VOID COPY bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99."
+    },
+    {
+      "id": "v172h_09",
+      "kind": "jadefen_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "jadefen JADEFEN PO SHEET V172H line1 840.00 open line2 760.00 open line3 740.00 closed po_open TARGET 1600.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO COPY bait 88.00 bait 88.00 bait 555.00 V172H C 1141 clarity from page_052 photo_2 handwritten SCAN DESK V43H BAS 222.00 PAGE 01"
+    },
+    {
+      "id": "v172h_10",
+      "kind": "knotfen_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2070.0,
+      "expected": 2070.0,
+      "ocr_preview": "knotfen KNOTFEN ORDER V172H skuA 1042.00 paid skuB 1028.00 paid skuC 899.00 due order_paid TARGET 2070.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD bait 88.00 COPY V172H C 1141 clarity floor page_052 photo2 hidden"
+    },
+    {
+      "id": "v172h_11",
+      "kind": "lakefen_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakefen LAKEFEN DUP MARK V172H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v172h_12",
+      "kind": "mossfen_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossfen MOSSFEN AIR ZERO V172H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 DRAFT DRAFT DRAFT DRAFT DRAFT VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VO"
+    },
+    {
+      "id": "v172h_13",
+      "kind": "netherfen_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2169.5,
+      "expected": 2169.5,
+      "ocr_preview": "netherfen NETHERFEN LEDGER V172H dr 1077.00 cr 1092.50 adj 914.00 ledger_net TARGET 2169.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE LED bait 99.00 COPY V172H C 1141 clarity from jpeg_052 photo2 1141"
+    },
+    {
+      "id": "v172h_14",
+      "kind": "oakfen_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakfen OAKFEN UI SCAN V172H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v172h_15",
+      "kind": "pinefen_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1529.0,
+      "expected": 1529.0,
+      "ocr_preview": "pinefen PINEFEN STACK V172H p1 767 p2 762 p3 757 stack_count TARGET 1529 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V172H C 1141 clarity from page_052 photo_2 (redacted)"
+    },
+    {
+      "id": "v172h_16",
+      "kind": "quillfen_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1556.0,
+      "expected": 1556.0,
+      "ocr_preview": "quillfen QUILLFEN FAX V172H pgA 781 pgB 775 pgC 763 drop fax_pages TARGET 1556 DRAFT DRAFT DRAFT DRAFT VOID VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V172H C 1141 clarity from pag_052 photo2 1141"
+    },
+    {
+      "id": "v172h_17",
+      "kind": "reedfen_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedfen REEDFEN GLARE V172H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY V172H-C 1141 clarity from page_052 photo_2 (redacted)"
+    },
+    {
+      "id": "v172h_18",
+      "kind": "stonefen_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1576.0,
+      "expected": 1576.0,
+      "ocr_preview": "stonefen STONEFEN TAB INDEX V172H tabA 791 tabB 785 tabC 764 tab_index TARGET 1576 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88."
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v172_heldout_claim": true,
+  "claim_scope": "r50plus_v172_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

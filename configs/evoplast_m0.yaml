@@ -1,0 +1,11 @@
+# Reference organism, within-life gate. No model is loaded.
+run_name: evoplast_m0
+stage: m0
+seed: 0
+actor: reference
+episodes: 20
+criterion: 0.6
+start_below: 0.2
+grpo_k: 8
+temperature: 0.7
+write: true

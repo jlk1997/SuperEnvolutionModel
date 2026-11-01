@@ -1,0 +1,46 @@
+{
+  "kind": "r50plus_c80_dual_cost_refresh",
+  "timestamp": "2026-10-18T23:55:27+08:00",
+  "gate": 0.6,
+  "replace_ok": true,
+  "replace_rate": 1.0,
+  "bare": {
+    "ok": true,
+    "elapsed_s": 0.051957,
+    "scaffold_steps": 0,
+    "agent_graph": false,
+    "fail_rate": 0.0,
+    "steps_proxy": 8,
+    "totals": {
+      "subtotal": 107.5,
+      "tax": 10.75,
+      "total": 118.25,
+      "paid_n": 5
+    }
+  },
+  "agent_sim": {
+    "ok": false,
+    "elapsed_s": 0.009189,
+    "scaffold_steps": 23,
+    "agent_graph": true,
+    "fail_rate": 0.0435,
+    "steps_proxy": 23,
+    "wrong_total": 134.2
+  },
+  "cost_ledger": {
+    "bare_steps": 8,
+    "agent_steps": 23,
+    "bare_fail_rate": 0.0,
+    "agent_fail_rate": 0.0435,
+    "bare_scaffold_steps": 0,
+    "agent_scaffold_steps": 23,
+    "step_advantage_agent_minus_bare": 15,
+    "fail_advantage_agent_minus_bare": 0.0435
+  },
+  "gate_pass": true,
+  "gpu_used": false,
+  "prior_c74_replace_rate": 1.0,
+  "innovation": "Harder multi-alloc dual cost refresh (bay+region); CPU only",
+  "gate2_3_untouched": true,
+  "gen11_hold": true
+}

@@ -1,0 +1,237 @@
+{
+  "cycle": "C1303",
+  "theme": "vision_v199_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-22T10:46:48+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7318.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v199h_01",
+      "kind": "ashholm_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2520.75,
+      "expected": 2520.75,
+      "ocr_preview": "ashholm ASHHOLM GRAIN RECV V199H a paid 1254.00 b paid 1266.75 c open 1147.00 TOTAL PAID TARGET 2520.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC VOID COPY"
+    },
+    {
+      "id": "v199h_02",
+      "kind": "cedarholm_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "cedarholm WH CEDARHOLM BIN V199H SKU1 qty 740 ok SKU2 qty 820 hold SKU3 qty 780 ok qty_sum TARGET 1520 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v199h_03",
+      "kind": "dawnholm_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2437.5,
+      "expected": 2437.5,
+      "ocr_preview": "dawnholm DAWNHOLM PATCH REFUND V199H itemR1 1212.00 done itemR2 1225.50 done itemR3 1135.00 open refund_done TARGET 2437.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID DONE COPY bait 88.00 bait 88.00 bait 555.00 SCAN DESK V43H BAST 222.00 PAGE 01 V1999h C1503 clarity from preg_32C photoC tes"
+    },
+    {
+      "id": "v199h_04",
+      "kind": "elmholm_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2670.0,
+      "expected": 2670.0,
+      "ocr_preview": "SCAN DESK V40H BAS 222.00 PAGE 01 elmholt ELMHOLM TAX SLIP V199H base 1327.00 paid addon 1343.00 paid skip 1176.00 tax_base_paid TARGET 2670.00 OKP tax 00.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 00.00 IGNORE VOID TAX COPY VOID WIN IGNORE old total 888.00 do not parse tax 555.00 V1999H C1503 clearly from prog_200C photoC1200"
+    },
+    {
+      "id": "v199h_05",
+      "kind": "fernholm_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2752.0,
+      "expected": 2752.0,
+      "ocr_preview": "fernholm FERNHOLM PAYROLL V199H empA 1368.00 active empB 1384.00 active empC 1171.00 leave payroll_active TARGET 2752.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v199h_06",
+      "kind": "glenholm_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2338.0,
+      "expected": 2338.0,
+      "ocr_preview": "glenholm GLENHOLM SHIP DOCK V199H box1 1162 ok box2 1176 ok box3 1140 hold ship_ok TARGET 2338 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT SHIP VOID COPY SCAN DESK V43H bask 222.00 PAGE 01 V199H C 1203 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v199h_07",
+      "kind": "hazeholm_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "hazeholm HAZEHOLM SLA CARD V199H job1 360.00 hours ok job2 400.00 hours ok job3 730.00 hours late sla_ok_hours TARGET 760.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88."
+    },
+    {
+      "id": "v199h_08",
+      "kind": "inkholm_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2497.75,
+      "expected": 2497.75,
+      "ocr_preview": "inkholm INKHOLM EXPENSE V199H e1 1238.00 e2 1259.75 e3 1147.00 void exp_sum TARGET 2497.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88."
+    },
+    {
+      "id": "v199h_09",
+      "kind": "jadeholm_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadeholm JADEHOLM PO SHEET V199H line1 780.00 open line2 740.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88."
+    },
+    {
+      "id": "v199h_10",
+      "kind": "knotholm_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2556.0,
+      "expected": 2556.0,
+      "ocr_preview": "knotholm KNOTHOLM ORDER V199H skuA 1265.00 paid skuB 1271.00 paid skuC 1142.00 due order_paid TARGET 2556.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD bait 55.00 COPY V199H C 1203 clearly from preg_200C photoC textbox SCAN DESK V43H bask 222.00 PAGE 01"
+    },
+    {
+      "id": "v199h_11",
+      "kind": "lakeholm_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakeholm LAKEHOLM DUP MARK V199H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v199h_12",
+      "kind": "mossholm_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossholm MOSSHOLM AIR ZERO V199H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 0.00 IGNORE ZERO VOID COPY bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait"
+    },
+    {
+      "id": "v199h_13",
+      "kind": "netherholm_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2655.5,
+      "expected": 2655.5,
+      "ocr_preview": "netherholm NETHERHOLM LEDGER V199H dr 1320.00 cr 1335.50 adj 1157.00 ledger_net TARGET 2655.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v199h_14",
+      "kind": "oakholm_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakholm OAKHOLM UI SCAN V199H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v199h_15",
+      "kind": "pineholm_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2013.0,
+      "expected": 2013.0,
+      "ocr_preview": "pineholm PINEHOLM STACK V199H p1 1009 p2 1004 p3 999 stack_count TARGET 2013 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY"
+    },
+    {
+      "id": "v199h_16",
+      "kind": "quillholm_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2042.0,
+      "expected": 2042.0,
+      "ocr_preview": "quillholm QUILLHOLM FAX V199H pgA 1024 pgB 1018 pgC 1006 drop fax_pages TARGET 2042 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY bait 88.00 bait 555.00 SCAN DESK V43H BAST 222.00 PAGE 01 V199H C-1003 clearly from preg_0C photoC testout"
+    },
+    {
+      "id": "v199h_17",
+      "kind": "reedholm_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedholm REEDHOLM GLARE V199H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v199h_18",
+      "kind": "stoneholm_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2062.0,
+      "expected": 2062.0,
+      "ocr_preview": "stoneholm STONEHOLM TAB INDEX V199H tabA 1034 tabB 1028 tabC 1007 tab_index TARGET 2062 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v199_heldout_claim": true,
+  "claim_scope": "r50plus_v199_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

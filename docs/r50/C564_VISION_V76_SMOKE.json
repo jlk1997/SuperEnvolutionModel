@@ -1,0 +1,232 @@
+{
+  "cycle": "C564",
+  "theme": "vision_v76_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T21:15:33+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7558.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v76_01",
+      "kind": "oakcliff_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 703.5,
+      "expected": 703.5,
+      "ocr_preview": "oakcliff OAKCLIFF GRAIN RECV V76 a paid 344.00 b paid 359.50 c open 171.00 TOTAL PAID TARGET 703.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v76_02",
+      "kind": "pebblehaven_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 610.0,
+      "expected": 610.0,
+      "ocr_preview": "pebblehaven WH PEBBLEHAVEN BIN V76 SKU1 qty 291 ok SKU2 qty 191 hold SKU3 qty 310 ok qty_sum TARGET 610 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v76_03",
+      "kind": "quailhaven_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 568.25,
+      "expected": 568.25,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 quailhaven QUAILHAVEN PATCH REFUND V76 ItemR1 271.00 done ItemR2 297.25 done ItemR3 149.00 open refund_done TARGET 568.25 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v76_04",
+      "kind": "rainhaven_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 814.0,
+      "expected": 814.0,
+      "ocr_preview": "rainhaven RAINHAVEN TAX SLIP V76 base 398.00 paid addon 446.00 paid skip 231.00 tax_base_paid TARGET 814.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v76_05",
+      "kind": "sagehaven_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 946.0,
+      "expected": 946.0,
+      "ocr_preview": "sagehaven SAGEHAVEN PAYROLL V76 empB 461.00 active empB 485.00 active empC 209.00 leave payroll_active TARGET 946.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v76_06",
+      "kind": "tidecliff_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 470.0,
+      "expected": 470.0,
+      "ocr_preview": "SCAN DESK V42 BEST 133.00 PAGE 01 tidecliff TIDECLIFF SHIP DOCK V76 box1 227 ok box2 238 ok box3 167 hold ship_ok TARGET 470 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v76_07",
+      "kind": "underpass_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 584.5,
+      "expected": 584.5,
+      "ocr_preview": "underpass UNDERPASS SLA CARD V76 job1 297.00 hours ok job2 267.50 hours ok job3 154.00 hours late sla_ok_hours TARGET 584.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v76_08",
+      "kind": "vinehaven_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 648.75,
+      "expected": 648.75,
+      "ocr_preview": "SCAN DESK V42 BAST 233.00 PAGE 01 vinehaven VINEHAVEN EXPENSE V76 e1 309.00 e2 339.75 e3 173.00 void exp_sum TARGET 648.75 DRAFT WATERMARK COPY TAPE RED 12 12 RING 38 4 12 32 GR 18 12 77 COPY OVEN VOID FAX HEADER BAST 88.88 FROM: SPOTF SHOP LABEL BAST 222-22 TRUCK BAST 648 MUG PEN OVERLAP LABEL BAST 327 DO NOT SCAN VOD WIN IGNORE old total 999.00 do not"
+    },
+    {
+      "id": "v76_09",
+      "kind": "wavecliff_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 669.0,
+      "expected": 669.0,
+      "ocr_preview": "wavecliff WAVECLIFF PO SHEET V76 line1 343.00 open line2 326.00 open line3 182.00 closed po_open TARGET 669.00 FAX HEADER BAIT 88.88 FROM:SPOTF SHOP LABEL BAIT 222-22 TRACK WITH: 600 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse baits 666.00 PHONE SHADOW baits 503.00 FAX HEADER 123.47 BARCODE bait 123.40 DRAFT WATER"
+    },
+    {
+      "id": "v76_10",
+      "kind": "xyloridge_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 740.0,
+      "expected": 740.0,
+      "ocr_preview": "xyloridge XYLORIDGE ORDER V76 skuA 376.00 paid skuB 304.00 paid skuC 170.00 due order_paid TARGET 740.00 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 TRACK WITH: E-MAIL MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 505.00 FAX 12345678901234567890123456789012345678901"
+    },
+    {
+      "id": "v76_11",
+      "kind": "yellowhaven_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "yellowhaven YELLOWHAVEN DUP MARK V76 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v76_12",
+      "kind": "zephyrpass_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "zephyrpass ZEPHYRASS AIR ZERO V76 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v76_13",
+      "kind": "alderpass_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 906.5,
+      "expected": 906.5,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 alderpass ALDERPASS LEDGER V76 dr 442.00 cr 464.00 adj 195.00 ledger_net TARGET 906.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v76_14",
+      "kind": "birchpass_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "birchpass BIRCHPASS UI SCAN V76 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v76_15",
+      "kind": "cinderpass_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 134.0,
+      "expected": 134.0,
+      "ocr_preview": "cinderpass CINDERPASS STACK V76 p1 74 p2 63 p3 41 stack_count TARGET 134 DRAFT WATERMARK COPY TAPE R23 bait 12 12 GR 18 12 77 VOID COPY OVEN PHONE SHADOW BARCODE bait 123 40 FAX HEADER BAIT 88 88 FROM: SPOT SHOP LABEL BAIT 222-22 TRACK WITH: 600 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 666.00 BARCODE bait "
+    },
+    {
+      "id": "v76_16",
+      "kind": "dewcliff_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 162.0,
+      "expected": 162.0,
+      "ocr_preview": "dewcliff DEWCLIFF FAX V76 pgB 69 pgB 73 pgC 64 drop fax_pages TARGET 162 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v76_17",
+      "kind": "emberpass_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "emberpass EMBERPASS GLARE V76 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v76_18",
+      "kind": "fernpass_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 202.0,
+      "expected": 202.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 fernpass FERNPASS TAB INDEX V76 tabB 111 tabB 91 tabC 61 tab_index TARGET 202 OVERLAY scan DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "vl_gate_v76_claim": true,
+  "claim_scope": "r50plus_v76_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V76 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

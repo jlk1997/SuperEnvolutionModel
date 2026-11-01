@@ -1,0 +1,8 @@
+{
+  "cycle": "C165",
+  "gen11": "HOLD",
+  "opened": false,
+  "reason": "explicit HOLD per plan; no heritability seal",
+  "timestamp": "2026-10-19T05:05:52+08:00",
+  "gate2_3_untouched": true
+}

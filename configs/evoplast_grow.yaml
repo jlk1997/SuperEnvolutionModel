@@ -1,0 +1,30 @@
+﻿# Growth and sleep on named rules. Every new rule after the primer starts in its own slot,
+# a copy of policy that already writes the answer format. Questions go to the nearest rule's slot.
+# Every second rule, sleep tries to fold the slots back into policy; the merge is kept only if every
+# rule clears the floor.
+# life_units move genes of the hand-set trainer to positions in [0, 1] of their range
+# (evo/plastic/real_genome.py). grow 0.9 is `always`; keep 0.86 is a floor of 0.90.
+run_name: evoplast_grow
+stage: grow
+seed: 0
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: attn_mlp
+max_seq_len: 256
+max_new_code: 128
+birth_new: 256
+icl_new: 256
+skill_mode: named
+life_primer: add6
+life_skills: [lin7, square, lin3, tri, mod17]
+life_units:
+  grow: 0.9
+  sleep_every: 0.35
+  keep: 0.86
+life_target: 0.9
+life_cap: 96
+check_every: 1
+max_slots: 6
+write: true

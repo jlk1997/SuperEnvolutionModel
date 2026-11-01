@@ -1,0 +1,237 @@
+{
+  "cycle": "C1339",
+  "theme": "vision_v205_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-22T11:37:45+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7323.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v205h_01",
+      "kind": "ashfen_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2628.75,
+      "expected": 2628.75,
+      "ocr_preview": "ashfen ASHFEN GRAIN RECV V205H a paid 1308.00 b paid 1320.75 c open 1201.00 TOTAL PAID TARGET 2628.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC VOID COPY V205H C 1230 clarity from preg_20C photoC testout"
+    },
+    {
+      "id": "v205h_02",
+      "kind": "cedarfen_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "cedarfen WH CEDARFEN BIN V205H SKU1 qty 740 ok SKU2 qty 820 hold SKU3 qty 780 ok qty_sum TARGET 1520 VOID WIN IGNORE old total 888.00 do not parse bait $55.00 DRAFT DRAFT DRAFT DRAFT STICKY bait $55.00 IGNORE REC COPY V205H C 1230 clarity from preg_20C photoC testout"
+    },
+    {
+      "id": "v205h_03",
+      "kind": "dawnfen_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2545.5,
+      "expected": 2545.5,
+      "ocr_preview": "dawnfen DAWNFEN PATCH REFUND V205H itemR1 1266.00 done itemR2 1279.50 done itemR3 1189.00 open refund_done TARGET 2545.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE DONE VOID COPY V205h C 1236 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v205h_04",
+      "kind": "elmfen_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2778.0,
+      "expected": 2778.0,
+      "ocr_preview": "elmfen ELMFEN TAX SLIP V205H base 1381.00 paid addon 1397.00 paid skip 1230.00 tax_base_paid TARGET 2778.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v205h_05",
+      "kind": "fernfen_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2860.0,
+      "expected": 2860.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 fernfen FERN&FEN PAYROLL V205H empA 1422.00 active empB 1438.00 active empC 1225.00 leave payroll_active TARGET 2860.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v205h_06",
+      "kind": "glenfen_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2446.0,
+      "expected": 2446.0,
+      "ocr_preview": "glenfen GLENFEN SHIP DOCK V205H box1 1216 ok box2 1230 ok box3 1194 hold ship_ok TARGET 2446 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP COPY V205h C 1230 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v205h_07",
+      "kind": "hazefen_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "hazefen HAZEFEN SLA CARD V205H job1 360.00 hours ok job2 400.00 hours ok job3 710.00 hours late sla_ok_hours TARGET 760.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 VOID COPY"
+    },
+    {
+      "id": "v205h_08",
+      "kind": "inkfen_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2605.75,
+      "expected": 2605.75,
+      "ocr_preview": "inkfen INKFEN EXPENSE V205H e1 1292.00 e2 1313.75 e3 1201.00 void exp_sum TARGET 2605.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY V200h C 1230 clarity from prog_20C progC testout"
+    },
+    {
+      "id": "v205h_09",
+      "kind": "jadefen_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadefen JADEFEN PO SHEET V205H line1 780.00 open line2 740.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO COPY V205h C 1236 clarity from preg_30C photoC testout"
+    },
+    {
+      "id": "v205h_10",
+      "kind": "knotfen_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2664.0,
+      "expected": 2664.0,
+      "ocr_preview": "knotfen KNOTFEN ORDER V205H skuA 1339.00 paid skuB 1325.00 paid skuC 1196.00 due order_paid TARGET 2664.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY V205h C-1336 clarity from preg_20C photoC testout"
+    },
+    {
+      "id": "v205h_11",
+      "kind": "lakefen_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakefen LAKEFEN DUP MARK V205H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP COPY V205H C-1230 clarity from preg_C photoC testout"
+    },
+    {
+      "id": "v205h_12",
+      "kind": "mossfen_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossfen MOSSFEN AIR ZERO V205H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 0.00 IGNORE ZERO VOID COPY V205h C 1236 clarity from prog_20C photoC testout"
+    },
+    {
+      "id": "v205h_13",
+      "kind": "netherfen_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2763.5,
+      "expected": 2763.5,
+      "ocr_preview": "netherfen NETHERFEN LEDGER V205H dr 1374.00 cr 1389.50 adj 1211.00 ledger_net TARGET 2763.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY V205h C 1236 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v205h_14",
+      "kind": "oakfen_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakfen OAKFEN UI SCAN V205H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY V205h C 1236 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v205h_15",
+      "kind": "pinefen_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2121.0,
+      "expected": 2121.0,
+      "ocr_preview": "pinefen PINEFEN STACK V205H p1 1063 p2 1058 p3 1053 stack_count TARGET 2121 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V205h C 1236 clarity from preg_32C pinefC testout"
+    },
+    {
+      "id": "v205h_16",
+      "kind": "quillfen_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2150.0,
+      "expected": 2150.0,
+      "ocr_preview": "quillfen QUILLFEN FAX V205H pgA 1078 pgB 1072 pgC 1060 drop fax_pages TARGET 2150 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY V205h C 1230 clarity from preg_20C photoC testout"
+    },
+    {
+      "id": "v205h_17",
+      "kind": "reedfen_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V40H BAST 222.00 PAGE 01 reedfen REEDFEN GLARE V205H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v205h_18",
+      "kind": "stonefen_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2170.0,
+      "expected": 2170.0,
+      "ocr_preview": "stonefen STONEFEN TAB INDEX V205H tabA 1068 tabB 1082 tabC 1061 tab_index TARGET 2170 VOID WIN IGNORE old total 888.00 do not parse bait $55.00 DRAFT DRAFT DRAFT DRAFT STICKY bait $5.00 IGNORE TAB VOID COPY V205H C 1236 clarity from preg_32C prologueC testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v205_heldout_claim": true,
+  "claim_scope": "r50plus_v205_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

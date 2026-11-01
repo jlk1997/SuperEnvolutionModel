@@ -1,0 +1,25 @@
+# Fast memory beside the last Qwen layer. No optimizer between the two attempts.
+run_name: phase4_fast
+station: fast
+model_name: e:/envolution/models/Qwen2.5-0.5B-Instruct
+seed: 0
+new_tools_per_day: 2
+exam_tasks: 4
+max_turns: 1
+fast_scale: 0.02
+night_epochs: 1
+outer_lr: 0.0005
+max_seq_len: 256
+max_new_code: 64
+exec_timeout: 2.0
+lora_rank: 8
+lora_alpha: 16
+write_decision: false
+target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj

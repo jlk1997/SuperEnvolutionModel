@@ -1,0 +1,79 @@
+{
+  "kind": "dissolve_dashboard",
+  "product": "蚁算模型",
+  "engine": "Envolution",
+  "gate": "0.6",
+  "timestamp": "2026-10-19T12:57:06+08:00",
+  "families": [
+    {
+      "family": "table",
+      "found": true,
+      "path": "E:\\envolution\\runs\\capabilities\\office_table_uselog\\dissolution.json",
+      "bare_rate": 1.0,
+      "scaffold_rate": 0.0,
+      "dissolution": 0.0,
+      "bare_clears_gate": true,
+      "internalized": true,
+      "n_train_pairs": 7,
+      "heldout_n": 4,
+      "pair_source": "events_xml",
+      "criterion": 0.6,
+      "atom": "office_table_uselog"
+    },
+    {
+      "family": "report",
+      "found": true,
+      "path": "E:\\envolution\\runs\\capabilities\\office_report_uselog\\dissolution.json",
+      "bare_rate": 1.0,
+      "scaffold_rate": 1.0,
+      "dissolution": 0.0,
+      "bare_clears_gate": true,
+      "internalized": true,
+      "n_train_pairs": 12,
+      "heldout_n": 4,
+      "pair_source": "events_xml",
+      "criterion": 0.6,
+      "atom": "office_report_uselog"
+    },
+    {
+      "family": "file",
+      "found": true,
+      "path": "E:\\envolution\\runs\\capabilities\\office_file_uselog\\dissolution.json",
+      "bare_rate": 1.0,
+      "scaffold_rate": 1.0,
+      "dissolution": 0.0,
+      "bare_clears_gate": true,
+      "internalized": true,
+      "n_train_pairs": 4,
+      "heldout_n": 4,
+      "pair_source": "events_xml",
+      "criterion": 0.6,
+      "atom": "office_file_uselog"
+    },
+    {
+      "family": "shell",
+      "found": true,
+      "path": "E:\\envolution\\runs\\capabilities\\office_shell_uselog\\dissolution.json",
+      "bare_rate": 1.0,
+      "scaffold_rate": 0.0,
+      "dissolution": 0.0,
+      "bare_clears_gate": true,
+      "internalized": true,
+      "n_train_pairs": 16,
+      "heldout_n": 4,
+      "pair_source": "events_xml",
+      "criterion": 0.6,
+      "atom": "office_shell_uselog"
+    }
+  ],
+  "summary": {
+    "n_families": 4,
+    "all_found": true,
+    "all_bare_clears_gate": true,
+    "all_dissolution_le_005": true,
+    "pass": true
+  },
+  "gate2_claim_untouched": true,
+  "vl": false,
+  "notes": "Aggregated from existing runs/capabilities/office_*_uselog/dissolution.json; no retrain."
+}

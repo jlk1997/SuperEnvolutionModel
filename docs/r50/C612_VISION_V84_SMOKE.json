@@ -1,0 +1,232 @@
+{
+  "cycle": "C612",
+  "theme": "vision_v84_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T23:26:01+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7346.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v84_01",
+      "kind": "cedarpass_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 806.5,
+      "expected": 806.5,
+      "ocr_preview": "cedarpass CEDARPASS GRAIN RECEV V84 a paid 396.00 b paid 440.50 c open 207.00 TOTAL PAID TARGET 806.50 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.12.30 GR 38.12.77 VOID COPY OVEN DRAFT WATERMARK COPY FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 TRACK BAIT 646.00 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 d"
+    },
+    {
+      "id": "v84_02",
+      "kind": "duskcliff_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 714.0,
+      "expected": 714.0,
+      "ocr_preview": "duskcliff WH DUSKCLIFF BIN V84 SKU1 qty 343 ok SKU2 qty 227 hold SKU3 qty 374 ok qty_sum TARGET 714 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.12.35 OR 18.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222.22 TRACK 100.00 MUG PEN OVERLAY LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE S"
+    },
+    {
+      "id": "v84_03",
+      "kind": "elderpass_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 667.25,
+      "expected": 667.25,
+      "ocr_preview": "elderpass ELDERPASS PATCH REFUND V84 ItemR1 319.00 done ItemR2 448.25 done ItemR3 185.00 open refund_done TARGET 667.25 DRAFT WATERMARK COPY TAPE R23 bait 12.12 GR 189.12.77 VOID OVEN COPY PEN MUG DO NOT SCAN VOD WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 503.00 FAX Header bait 123.40 BARCODE bait 123.40 SCAR DESK V42 BAST 333.00 "
+    },
+    {
+      "id": "v84_04",
+      "kind": "firgrove_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 918.0,
+      "expected": 918.0,
+      "ocr_preview": "SCAN DES V42 BAST 333.00 PAGE 01 firgrove FIRGROVE TAX SLIP V84 base 450.00 paid addon 468.00 paid skip 275.00 tax_base_paid TARGET 918.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v84_05",
+      "kind": "gorsebank_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1050.0,
+      "expected": 1050.0,
+      "ocr_preview": "gorsebank GORSEBANK PAYROLL V84 empB 513.00 active empB 587.00 active empC 245.00 leave payroll_active TARGET 1050.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v84_06",
+      "kind": "hazelpass_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 558.0,
+      "expected": 558.0,
+      "ocr_preview": "hazelpass HAZELPASS SHIP DOCK V84 box1 271 ok box2 287 ok box3 203 hold ship_ok TARGET 558 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v84_07",
+      "kind": "ironcliff_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 687.5,
+      "expected": 687.5,
+      "ocr_preview": "ironcliff IRONCLIFF SLA CARD V84 job1 349.00 hours ok job2 338.50 hours ok job3 190.00 hours late sla_ok_hours TARGET 687.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v84_08",
+      "kind": "junipass_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 753.75,
+      "expected": 753.75,
+      "ocr_preview": "junipass UNIPASS EXPENSE V84 e1 381.00 e2 392.75 e3 209.00 void exp_sum TARGET 753.75 DRAFT WATERMARK COPY DRAFT WATERMARK COPY TAPE RED 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 333 3"
+    },
+    {
+      "id": "v84_09",
+      "kind": "knollpass_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 773.0,
+      "expected": 773.0,
+      "ocr_preview": "knollpass KNOLLPASS PO SHEET V84 line1 395.00 open line2 378.00 open line3 218.00 closed po_open TARGET 773.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v84_10",
+      "kind": "larkpass_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 844.0,
+      "expected": 844.0,
+      "ocr_preview": "tarkpass ARKPASS ORDER V84 skuA 428.00 paid skuB 416.00 paid skuC 206.00 due order_paid TARGET 844.00 DRAFT WATERMARK COPY TAPE RGS bait 12.12 RING 38.4.12.35 GR 18.12.77 VOID COPY OVEN DO NOT SCAN FAX HEADER BAIT 88.88 FROM: SPOT SHOP LABEL BAIT 222.22 TRADE MARK BAIT 646 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not par"
+    },
+    {
+      "id": "v84_11",
+      "kind": "mosscliff_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "mossciff MOSSCLIFF DUP MARK V84 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v84_12",
+      "kind": "northpass_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "northpass NORTHPASS AIR ZERO V84 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT W"
+    },
+    {
+      "id": "v84_13",
+      "kind": "opalpass_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1009.5,
+      "expected": 1009.5,
+      "ocr_preview": "opalpass OPALPASS LEDGER VB4 dr 204.00 cr 515.00 adj 231.00 ledger_net TARGET 1009.50 DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY D"
+    },
+    {
+      "id": "v84_14",
+      "kind": "peatpass_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "peatpass BEATPASS UI SCAN V84 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v84_15",
+      "kind": "quillpass_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 190.0,
+      "expected": 190.0,
+      "ocr_preview": "quillpass QUILLPASS STACK V84 p1 99 p2 91 p3 69 stack_count TARGET 190 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v84_16",
+      "kind": "reedpass_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 218.0,
+      "expected": 218.0,
+      "ocr_preview": "reedpass REEDPASS FAX V84 pg#117 pgB 101 pgC 92 drop fax_pages TARGET 218 SCAN DESK V42 DIST 333.00 PAGE 01 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v84_17",
+      "kind": "stonepass_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "stonepass STONEPASS GLARE VB4 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v84_18",
+      "kind": "tidepass_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 262.0,
+      "expected": 262.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 tidepass TIDEPASS TAB INDEX V84 tab143 tabB 174 tabC 89 tab_index TARGET 262 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    }
+  ],
+  "vl_gate_v84_claim": true,
+  "claim_scope": "r50plus_v84_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V84 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

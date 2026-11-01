@@ -1,0 +1,232 @@
+{
+  "cycle": "C303",
+  "theme": "vision_v33_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T16:59:25+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7845.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v33_01",
+      "kind": "parchment_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 113.5,
+      "expected": 113.5,
+      "ocr_preview": "羊皮纸收款单 BARCHMENT RECV V33 a paid 52.00 b paid 04.50 c open 18.00 TOTAL PAID TARGET 113.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v33_02",
+      "kind": "cork_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 117.0,
+      "expected": 117.0,
+      "ocr_preview": "SCAN DESK V33 best 133.00 PAGE 01 软木仓位单 WH CORK BOARD V33 SKU01 qty 41 ok SKU2 qty 28 hold SKU3 qty 48 ok qty_sum TARGET 117 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v33_03",
+      "kind": "canvas_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 70.5,
+      "expected": 70.5,
+      "ocr_preview": "SCAN DESK V33 BEST 133.00 PAGE 01 机布退款单 CANVAS REFUND V33 ItemR1 29.00 done ItemR2 41.50 done ItemR3 15.00 open refund_done TARGET 70.50 DRAFT WATERMARK.COM DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v33_04",
+      "kind": "rivet_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 185.0,
+      "expected": 185.0,
+      "ocr_preview": "SCAN DESK V33 best 133.00 PAGE 01 钢钉校验单 TAX RIVET BIND V33 T1 57.00 paid T2 39.00 open T3 88.00 paid tax_base_paid TARGET 185.00 CLIPPE wash DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v33_05",
+      "kind": "holo_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3200.0,
+      "expected": 3200.0,
+      "ocr_preview": "SCAN DESK V33 BEST 333.00 PAGE 01 PAYROLL HOLO SEAL V33 A 1600 active B 310 inactive C 1580 active payroll_active TARGET 3200 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v33_06",
+      "kind": "zip_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 90.0,
+      "expected": 90.0,
+      "ocr_preview": "SCAN DESK V33 best 133.00 PAGE 01 拉链发运单 SHIP ZIP LOCK V33 P1 38 ok P2 24 ok P3 52 ok ship_ok_qty TARGET 90 DRAFT DRAFT WATERMARK COPY DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW D"
+    },
+    {
+      "id": "v33_07",
+      "kind": "filament_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 81.0,
+      "expected": 81.0,
+      "ocr_preview": "灯丝SLA单 SLA FILAMENT V33 S1 pr 29 open S2 pr 34 closed S3 pr 52 open open_pri_sum TARGET 81 SCAN DESK V33 best 133.00 PAGE 01 SLAPE mesh DRAFT DRAFT WATERMARK COPY DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DR"
+    },
+    {
+      "id": "v33_08",
+      "kind": "honey_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 140.25,
+      "expected": 140.25,
+      "ocr_preview": "SCAN DESK V33 best 333.00 PAGE 01 钱定报销单 EXP HONEYCOMB V33 e1 paid 71.25 e2 paid 59.00 e3 open 21.00 TOTAL PAID TARGET 140.25 DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 PEN 384.12.32 OR 384.12.77 VOID COPY OVEN V33 C302 clarity four.jpg_00 photo2. Parchment(Cork)(Canvas)(Fruit)/honey/Honey/Honey/Cocoa(Chocolate)/Perf/Flower/Bag/ri/Cream/Spice/ FAX HEADER "
+    },
+    {
+      "id": "v33_09",
+      "kind": "marble_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 118.5,
+      "expected": 118.5,
+      "ocr_preview": "大理石采购单 DO MARBLE EDGE V33 lineA paid 55.00 lineB paid 63.50 lineC open 12.00 TOTAL PAID TARGET 118.50 DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT "
+    },
+    {
+      "id": "v33_10",
+      "kind": "copper_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 105.0,
+      "expected": 105.0,
+      "ocr_preview": "SCAN DESK V33 BEST 333.00 PAGE 01 铜箔订单 ORDER COPPER FOIL V33 01 paid 48.00 02 paid 57.00 03 open 14.00 TOTAL PAID TARGET 105.00 CLIPPE DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v33_11",
+      "kind": "acetate_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 145.0,
+      "expected": 145.0,
+      "ocr_preview": "SCAN DESK V33 BAST 133.00 PAGE 01 酸酸片副本 DUP ACETATE SHEET V33 d1 paid 66.00 d2 paid 79.00 d3 open 22.00 TOTAL PAID TARGET 145.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v33_12",
+      "kind": "void_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "未付空单 OPEN ONLY V33 X 81.00 open Y 84.00 open paid_total TARGET 0.00 SCAN DESK V33 best 133.00 PAGE 01 CLAPE wash DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v33_13",
+      "kind": "perf_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 87.5,
+      "expected": 87.5,
+      "ocr_preview": "SCAN DESK V33 best 133.00 PAGE 01 打孔台帐 EDGER PERF EDGE V33 L1 paid 39.00 L2 paid 48.50 L3 open 16.00 TOTAL PAID TARGET 87.50 DRAW DRAFT WATERMARK COPY DRAW DRAFT DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRA"
+    },
+    {
+      "id": "v33_14",
+      "kind": "waxseal_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 97.75,
+      "expected": 97.75,
+      "ocr_preview": "SCAN DESK V33 BEST 133.00 PAGE 01 WAX SEAL V33 u1 paid 44.00 u2 paid 53.75 u3 open 17.00 TOTAL PAID TARGET 97.75 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v33_15",
+      "kind": "magnet_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 133.0,
+      "expected": 133.0,
+      "ocr_preview": "SCAN DESK V33 BEST 133.00 PAGE 01 班支清单 STACK MAGNET CLIP V33 m1 paid 62.00 m2 paid 71.00 m3 open 20.00 TOTAL PAID TARGET 133.00 CLAPE mug pen OVERLAP LABEL BEST 37 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 503.00 BARCODE bait 123.40 V33 C302 clarity four.jpg_00 photo2. Parchment(Cork)(Canvas)(Fruit)(hug)Top Farmer"
+    },
+    {
+      "id": "v33_16",
+      "kind": "crepe_fax",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 80.5,
+      "expected": 80.5,
+      "ocr_preview": "SCAN DESK V33 BAST 133.00 PAGE 01 他纸传真 TAX CREPE PAPER V33 f1 paid 36.00 f2 paid 44.50 f3 open 13.00 TOTAL PAID TARGET 80.50 CLAPE wash DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v33_17",
+      "kind": "satin_glare",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 110.25,
+      "expected": 110.25,
+      "ocr_preview": "SCAN DESK V33 BEST 133.00 PAGE 01 胶带胶光单 GLARE SATIN BAND V33 g1 paid 51.00 g2 paid 59.25 g3 open 18.00 TOTAL PAID TARGET 110.25 CLAPE wash DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v33_18",
+      "kind": "spiral_tab",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 63.0,
+      "expected": 63.0,
+      "ocr_preview": "SCAN DESK V33 best 133.00 PAGE 01 螺旋索引 TAB SPIRAL BIND V33 t1 paid 28.00 t2 paid 35.00 t3 open 11.00 TOTAL PAID TARGET 63.00 CLIPPE DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.52.32 OR 18.12.77 VOID COPY OVEN BARCODE bait 123.40 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222.22 TRACK 903-6495 MUG PEN OVERLAP LABEL bait 327 DO NOT SCAN VXO"
+    }
+  ],
+  "vl_gate_v33_claim": true,
+  "claim_scope": "r50plus_v33_hlx_magclip_thermal_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V33 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

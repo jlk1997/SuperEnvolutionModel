@@ -1,0 +1,17 @@
+{
+  "cycle": "C143",
+  "theme": "v7_design_occlusion_tiny_stamped",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T03:49:30+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "protocol": "docs/蚁算_VL_GATE_V7_PROTOCOL.md",
+  "fixtures_dir": "evo/office/fixtures/vision_images_v7",
+  "n_fixtures": 16,
+  "manifest": "evo/office/fixtures/vision_images_v7/manifest.json",
+  "harder_than_v6": true,
+  "pass": true,
+  "claim": false,
+  "vl_gate_v7_claim": false,
+  "note": "V7 protocol+fixtures landed. Claim deferred to C144 smoke with real VL."
+}

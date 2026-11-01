@@ -1,0 +1,232 @@
+{
+  "cycle": "C852",
+  "theme": "vision_v124_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T09:04:51+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v124_01",
+      "kind": "amberheath_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1411.5,
+      "expected": 1411.5,
+      "ocr_preview": "amberheath AMBERHEATH GRAIN RECV V124 a paid 697.00 b paid 744.50 c open 507.00 TOTAL PAID TARGET 1411.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v124_02",
+      "kind": "cedarheath_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1300.0,
+      "expected": 1300.0,
+      "ocr_preview": "SCAN DESK V42 BEST 333.00 PAGE 01 cedarheath WH CEDARHEATH BIN V124 SKU1 qty 640 ok SKU2 qty 480 hold SKU3 qty 680 ok qty_sum TARGET 1300 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v124_03",
+      "kind": "duskheath_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1269.25,
+      "expected": 1269.25,
+      "ocr_preview": "duskheath DUSKHEATH PATCH REFUND V124 ItemR1 620.00 done ItemR2 549.25 done ItemR3 487.00 open refund_done TARGET 1269.25 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v124_04",
+      "kind": "elmheath_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1523.0,
+      "expected": 1523.0,
+      "ocr_preview": "elmheath ELMHEATH TAX SLIP V124 base 753.00 paid addon 700.00 paid skip 577.00 tax_base_paid TARGET 1523.00 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.12.30 GR 18.12.77 VOID COPY OVEN DO NOT SCAN FAX HEADER BAIT 88.88 FROM:SPOT SHIP LABEL BAIT 222.22 TRACK WITH: MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse "
+    },
+    {
+      "id": "v124_05",
+      "kind": "fernheath_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1654.0,
+      "expected": 1654.0,
+      "ocr_preview": "fernheath FERNHEATH PAYROLL V124 empB 815.00 active empB 819.00 active empC 547.00 leave payroll_active TARGET 1654.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v124_06",
+      "kind": "glenheath_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1162.0,
+      "expected": 1162.0,
+      "ocr_preview": "glenheath GLENHEATH SHIP DOCK V124 box1 573 ok box2 505 ok box3 505 hold ship_ok TARGET 1162 DRAFT WATERMARK COPY TAPE R23 bait 12 12 RING 38 32 32 OR 38 32 77 VOID COPY OVEN FAX HEADER BAIT 88 88 FROM: SPOT SHIP LABEL BAIT 222-22 TRACK 38 32 32 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW "
+    },
+    {
+      "id": "v124_07",
+      "kind": "hazeheath_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 720.0,
+      "expected": 720.0,
+      "ocr_preview": "hazeheath HAZEHEATH SLA CARD V124 job1 340.00 hours ok job2 380.00 hours ok job3 220.00 hours late sla_ok_hours TARGET 720.00 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.3.20 GR 18.12.77 VOID COPY OVEN SLA FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 TRADE WITH: GENE MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999."
+    },
+    {
+      "id": "v124_08",
+      "kind": "inkheath_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1357.75,
+      "expected": 1357.75,
+      "ocr_preview": "inkheath INKHEATH EXPENSE V124 e1 663.00 e2 694.75 e3 511.00 void exp_sum TARGET 1357.75 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT TAPE R23 bait 12.12 RING 38.4.12.35 GR 18.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 TRAP: MUG 646 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 6"
+    },
+    {
+      "id": "v124_09",
+      "kind": "jadeheath_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1377.0,
+      "expected": 1377.0,
+      "ocr_preview": "jadeheath JADEHEATH PO SHEET V124 line1 697.00 open line2 689.00 open line3 520.00 closed po_open TARGET 1377.00 DRAFT WATERMARK COPY TAPE RED3 bait 12 12 RING 38 4 12 30 OR 18 12 77 VOID COPY OVEN FAX HEADER BAIT 88 88 FROM: SPOOF SHOP LABEL BAIT 222-22 Trade mark: G405 MUG PEN OVERLAY LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse"
+    },
+    {
+      "id": "v124_10",
+      "kind": "knotheath_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1448.0,
+      "expected": 1448.0,
+      "ocr_preview": "knotheath KNOTHEATH ORDER V124 skuA 730.00 paid skuB 716.00 paid skuC 506.00 due order_paid TARGET 1448.00 DRAFT WATERMARK COPY TAPE RED 12:12 RING RED 12:20 GR RED 12:77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 TRASH BAIT 646 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 646.00 PHON"
+    },
+    {
+      "id": "v124_11",
+      "kind": "lakeheath_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakeheath LAKEHEATH DUP MARK V124 markA 1 markB 1 markC 0 dup_mark TARGET 2 TAPE RED 12 12 RING 38 32 32 GR 18 12 77 DRAFT WATERMARK COPY VOID COPY OVEN DO NOT PARSE VCHD WIN IGNORE old total 999.00 bait 646.00 PHONE SHADOW BARCODE bait 123 40 FAX HEADER BAIT 88 88 FROM: SPOOF SHOP LABEL BAIT 222-22 TRACK WITH: 646 MUG PEN OVERLAY LABEL BAIT 327 BARCODE bait"
+    },
+    {
+      "id": "v124_12",
+      "kind": "mossheath_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossheath MOSSHEATH AIR ZERO V124 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v124_13",
+      "kind": "netherheath_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1613.5,
+      "expected": 1613.5,
+      "ocr_preview": "netherheath NETHERHEATH LEDGER V124 dr 705.00 cr 817.00 adj 533.00 ledger_net TARGET 1613.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v124_14",
+      "kind": "oakheath_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakheath OAKHEATH UI SCAN V124 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v124_15",
+      "kind": "pineheath_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 682.0,
+      "expected": 682.0,
+      "ocr_preview": "pineheath RINEHEATH STACK V124 p1 345 p2 337 p3 315 stack_count TARGET 682 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v124_16",
+      "kind": "quillheath_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 710.0,
+      "expected": 710.0,
+      "ocr_preview": "quillheath QUILLHEATH FAX V124 pgB 363 pgB 347 pgC 338 drop fax_pages TARGET 710 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v124_17",
+      "kind": "reedheath_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedheath REEDHEATH GLARE V124 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v124_18",
+      "kind": "stoneheath_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 754.0,
+      "expected": 754.0,
+      "ocr_preview": "stoneheath STONEHEATH TAB INDEX V124 tabC 389 tabB 305 tabC 335 tab_index TARGET 754 SHARE scan DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    }
+  ],
+  "vl_gate_v124_claim": true,
+  "claim_scope": "r50plus_v124_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V124 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

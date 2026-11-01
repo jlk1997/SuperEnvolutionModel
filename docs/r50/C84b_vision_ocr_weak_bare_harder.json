@@ -1,0 +1,123 @@
+{
+  "kind": "r50plus_c84b_vision_ocr_weak_bare_harder",
+  "timestamp": "2026-10-19T01:04:19+08:00",
+  "gate": 0.6,
+  "domain": "ocr_weak",
+  "n": 8,
+  "soft_rate": 0.0,
+  "strict_rate": 0.0,
+  "n_soft_ok": 0,
+  "n_strict_ok": 0,
+  "weak_enough_strict": true,
+  "rate": 0.0,
+  "n_ok": 0,
+  "items": [
+    {
+      "id": "owx-rcpt-001",
+      "gold": "RCPT ZQ-90K1 AMT 15.20 DATE 2026-10-01",
+      "must_codes": [
+        "ZQ-90K1",
+        "15.20",
+        "2026-10-01"
+      ],
+      "pred_head": "KOPT 20-001 AFT 11:34 DATE 2020-10-02 AFT 000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,0",
+      "soft_ok": false,
+      "strict_ok": false,
+      "error": null
+    },
+    {
+      "id": "owx-rcpt-002",
+      "gold": "RCPT ZQ-90L2 AMT 99.00 DATE 2026-10-02",
+      "must_codes": [
+        "ZQ-90L2",
+        "99.00",
+        "2026-10-02"
+      ],
+      "pred_head": "KOPT 20-04-2 DATE 19.04 DATE 2020-12-02 ALL 500 000,000 500 500",
+      "soft_ok": false,
+      "strict_ok": false,
+      "error": null
+    },
+    {
+      "id": "owx-rcpt-003",
+      "gold": "RCPT ZQ-90M3 AMT 4.50 DATE 2026-10-03",
+      "must_codes": [
+        "ZQ-90M3",
+        "4.50",
+        "2026-10-03"
+      ],
+      "pred_head": "KPT 30-04-00 KPT 4.58 DATE 2020-12-00 ALL 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 5",
+      "soft_ok": false,
+      "strict_ok": false,
+      "error": null
+    },
+    {
+      "id": "owx-rcpt-004",
+      "gold": "RCPT ZQ-90N4 AMT 33.33 DATE 2026-10-04",
+      "must_codes": [
+        "ZQ-90N4",
+        "33.33",
+        "2026-10-04"
+      ],
+      "pred_head": "KOPT 20-0004 APT 13.11 DATE 2020-10-04 ALL 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 50",
+      "soft_ok": false,
+      "strict_ok": false,
+      "error": null
+    },
+    {
+      "id": "owx-rcpt-005",
+      "gold": "RCPT ZQ-90P5 AMT 210.00 DATE 2026-10-05",
+      "must_codes": [
+        "ZQ-90P5",
+        "210.00",
+        "2026-10-05"
+      ],
+      "pred_head": "KOPT 30-0495 APT 124-44 DATE 2020-10-05 ALL 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 5",
+      "soft_ok": false,
+      "strict_ok": false,
+      "error": null
+    },
+    {
+      "id": "owx-rcpt-006",
+      "gold": "RCPT ZQ-90Q6 AMT 8.08 DATE 2026-10-06",
+      "must_codes": [
+        "ZQ-90Q6",
+        "8.08",
+        "2026-10-06"
+      ],
+      "pred_head": "KOPT 20-0404 APT 8-04 DATE 2020-12-04 ALL 500 100,000 500 500",
+      "soft_ok": false,
+      "strict_ok": false,
+      "error": null
+    },
+    {
+      "id": "owx-rcpt-007",
+      "gold": "RCPT ZQ-90R7 AMT 56.70 DATE 2026-10-07",
+      "must_codes": [
+        "ZQ-90R7",
+        "56.70",
+        "2026-10-07"
+      ],
+      "pred_head": "KOPT 20-04-07 APY 14.76 DATE 2020-12-07 ALL AMOUNTS EXCEPT FOR THE PAY 200",
+      "soft_ok": false,
+      "strict_ok": false,
+      "error": null
+    },
+    {
+      "id": "owx-rcpt-008",
+      "gold": "RCPT ZQ-90S8 AMT 1.01 DATE 2026-10-08",
+      "must_codes": [
+        "ZQ-90S8",
+        "1.01",
+        "2026-10-08"
+      ],
+      "pred_head": "KOPT 30-0009 APT 1.41 DATE 2020-10-00 ALL 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500",
+      "soft_ok": false,
+      "strict_ok": false,
+      "error": null
+    }
+  ],
+  "innovation": "Strict must_codes metric for weak-domain hunt (softmatch too lenient on degraded OCR)",
+  "gate2_3_untouched": true,
+  "no_fake_vl": true
+}

@@ -1,0 +1,17 @@
+{
+  "cycle": "C176",
+  "theme": "vision_v12_design_batch",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T06:16:45+08:00",
+  "n": 18,
+  "fixture_dir": "evo/office/fixtures/vision_images_v12",
+  "protocol": "docs/蚁算_VL_GATE_V12_PROTOCOL.md",
+  "harder_than": "v11",
+  "hardening": "torn_barcode_persp_qr_thermal_shadow_jpeg_ghost",
+  "smoke_deferred_to": "C177",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": false,
+  "note": "V12 fixtures ready; claim only after real VL smoke >=0.6"
+}

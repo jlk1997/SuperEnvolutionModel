@@ -1,0 +1,237 @@
+{
+  "cycle": "C1441",
+  "theme": "vision_v222_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-22T14:37:16+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7316.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v222h_01",
+      "kind": "ashmere_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3088.75,
+      "expected": 3088.75,
+      "ocr_preview": "ashmere ASHMERE GRAIN RECV V222H a paid 1538.00 b paid 1550.75 c open 1409.00 TOTAL PAID TARGET 3088.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY V222H C 1441 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v222h_02",
+      "kind": "cedarmere_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "cedarmere WH CEDARMERE BIN V222H SKU1 qty 740 ok SKU2 qty 820 hold SKU3 qty 780 ok qty_sum TARGET 1520 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v222h_03",
+      "kind": "dawnmere_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3005.5,
+      "expected": 3005.5,
+      "ocr_preview": "dawnmere DAWNMERE PATCH REFUND V222H itemR1 1496.00 done itemR2 1509.50 done itemR3 1397.00 open refund_done TARGET 3005.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID DONE COPY V222H C 1441 clearly from preg_32C photoC testout"
+    },
+    {
+      "id": "v222h_04",
+      "kind": "elmmere_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3238.0,
+      "expected": 3238.0,
+      "ocr_preview": "SCAN DESK V40H BAS 222.00 PAGE 01 elmmere ELMMERE TAX SLIP V222H base 1611.00 paid addon 1627.00 paid skip 1438.00 tax_base_paid TARGET 3238.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v222h_05",
+      "kind": "fernmere_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3320.0,
+      "expected": 3320.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 fernmere FERNMERE PAYROLL V222H empA 1652.00 active empB 1668.00 active empC 1433.00 leave payroll_active TARGET 3320.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v222h_06",
+      "kind": "glenmere_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2906.0,
+      "expected": 2906.0,
+      "ocr_preview": "glenmere GLENMERE SHIP DOCK V222H box1 1446 ok box2 1460 ok box3 1402 holds ship_ok TARGET 2906 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP COPY V222H C1441 clarity from preg_25C photoC testout"
+    },
+    {
+      "id": "v222h_07",
+      "kind": "hazemere_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 hazemere HAZEMERE SLA CARD V222H job1 360.00 hours ok job2 400.00 hours ok job3 730.00 hours late sla_ok_hours TARGET 760.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V222H C1441 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v222h_08",
+      "kind": "inkmere_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3065.75,
+      "expected": 3065.75,
+      "ocr_preview": "SCAN DESK V40H last 222.00 PAGE 01 inkmere INKMERE EXPENSE V222H e1 1522.00 e2 1543.75 e3 1409.00 void exp_sum TARGET 3065.75 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID EXP COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V222H C1441 clearly from preg_32C progC testout"
+    },
+    {
+      "id": "v222h_09",
+      "kind": "jademere_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jademere JADEMERE PO SHEET V222H line1 780.00 open line2 740.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO VOID COPY V222H C 1441 clarity from preg_30C photoC testout SCAN DESK V42H bait 222.00 PAGE 01 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v222h_10",
+      "kind": "knotmere_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3124.0,
+      "expected": 3124.0,
+      "ocr_preview": "knotmere KNOTMERE ORDER V222H skuA 1569.00 paid skuB 1555.00 paid skuC 1404.00 due order_paid TARGET 3124.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY V222H C-1441 clarity from preg_32C prologue2 textout"
+    },
+    {
+      "id": "v222h_11",
+      "kind": "lakemere_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakemere LAKEMERE DUP MARK V222H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v222h_12",
+      "kind": "mossmere_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossmere MOSSMERE AIR ZERO V222H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v222h_13",
+      "kind": "nethermere_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3223.5,
+      "expected": 3223.5,
+      "ocr_preview": "nethermere NETHERMERE LEDGER V222H dr 1604.00 cr 1619.50 adj 1419.00 ledger_net TARGET 3223.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT LED VOID COPY STICKY bait 88.00 bait 88.00 bait 88.00 V222H C1441 clarity from preg_32C photoC nethermere SCAN DESK V43H BAS 222.00 PAGE 01"
+    },
+    {
+      "id": "v222h_14",
+      "kind": "oakmere_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakmere OAKMERE UI SCAN V222H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY V222H C 1441 clarity from preg_32C progC testout"
+    },
+    {
+      "id": "v222h_15",
+      "kind": "pinemere_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2373.0,
+      "expected": 2373.0,
+      "ocr_preview": "pinemere PINEMERE STACK V222H p1 1189 p2 1184 p3 1179 stack_count TARGET 2373 OKP bait 88.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V222H C 1041 clearly from prog_20C photoC testout"
+    },
+    {
+      "id": "v222h_16",
+      "kind": "quillmere_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2402.0,
+      "expected": 2402.0,
+      "ocr_preview": "quillmere QUILLMERE FAX V222H pgA 1204 pgB 1198 pgC 1186 drop fax_pages TARGET 2402 DRAFT DRAFT DRAFT DRAFT VOID VOID VOID COPY FAX FAX COPY VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID"
+    },
+    {
+      "id": "v222h_17",
+      "kind": "reedmere_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedmere REEDMERE GLARE V222H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY V222H C1441 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v222h_18",
+      "kind": "stonemere_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2422.0,
+      "expected": 2422.0,
+      "ocr_preview": "stonomere STONEMERE TAB INDEX V222H tabA 1214 tabB 1208 tabC 1187 tab_index TARGET 2422 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v222_heldout_claim": true,
+  "claim_scope": "r50plus_v222_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

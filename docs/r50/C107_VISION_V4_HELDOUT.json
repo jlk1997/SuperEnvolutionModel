@@ -1,0 +1,266 @@
+{
+  "cycle": "C107",
+  "theme": "vision_v4_heldout_multihop_scoped_claim",
+  "n": 10,
+  "n_ok": 10,
+  "ocr_rate": 1.0,
+  "atom_rate": 1.0,
+  "rate": 1.0,
+  "dissolve_D": 0.0,
+  "gate": 0.6,
+  "pass": true,
+  "claim": true,
+  "vl_gate_v4_heldout_claim": true,
+  "scope": "multi-hop vision→office HELDOUT drawn fixtures; disjoint from C101; not open-domain",
+  "prior_v4_claim_untouched": true,
+  "tesseract_feasible": false,
+  "vl_weights": "models/Qwen3.5-2B",
+  "protocol": "docs/蚁算视_VL_GATE_V4_PROTOCOL.md",
+  "fixture_dir": "evo/office/fixtures/vision_images_v4_heldout",
+  "heldout_collisions": [],
+  "rows": [
+    {
+      "id": "v4h_retail_paid",
+      "ocr_ok": true,
+      "ocr_text": "RETAIL TICKET TICKET #4402 sku M paid 9.90 sku N open 4.00 sku P paid 14.10 sku Q paid 2.00 TOTAL PAID TARGET 26.00",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_paid": true,
+        "write_csv": true,
+        "write_report": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4h_lab_stock",
+      "ocr_ok": true,
+      "ocr_text": "LAB STOCK LAB BAY 9 VIAL-A qty 12 VIAL-B qty 18 KIT qty 6 SUM QTY 36",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_qty": true,
+        "write_csv": true,
+        "write_report": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4h_deploy_log",
+      "ocr_ok": true,
+      "ocr_text": "DEPLOY LOG cmd: sync build/ dist/ status: OK files: 4 agent_graph: none",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_status": true,
+        "write_marker": true,
+        "dissolve": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4h_vat_sheet",
+      "ocr_ok": true,
+      "ocr_text": "VAT SHEET id,amount,vat,status 1,30.00,3.00,paid 2,10.00,1.00,open 3,15.00,1.50,paid",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "dense_table",
+        "task": "table_cells",
+        "reason": "dense/table domain: LoRA historically regresses (C66/C72); use bare",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "filter_paid": true,
+        "sum_tax": true,
+        "write_csv": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4h_grn_recv",
+      "ocr_ok": true,
+      "ocr_text": "GRN RECEIVING GRN 5510 recv qty 8 recv qty 12 SUM RECV 20 status OK",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_qty": true,
+        "write_csv": true,
+        "write_report": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4h_travel_claim",
+      "ocr_ok": true,
+      "ocr_text": "TRAVEL CLAIM flight 310.00 hotel 180.00 blocked 50 APPROVED TOTAL 490.00",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_paid": true,
+        "write_csv": true,
+        "write_report": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4h_shift_pay",
+      "ocr_ok": true,
+      "ocr_text": "SHIFT PAY emp D hours 20 rate 25 active emp E hours 16 rate 30 active emp F hours 8 rate 20 leave ACTIVE PAY TOTAL 980.00",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_paid": true,
+        "write_csv": true,
+        "write_report": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4h_parcel_board",
+      "ocr_ok": true,
+      "ocr_text": "PARCEL BOARD PKG 201 boxes 4 PKG 202 boxes 1 PKG 203 boxes 7 SUM BOXES 12 status OK",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_qty": true,
+        "write_csv": true,
+        "write_marker": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4h_chargebacks",
+      "ocr_ok": true,
+      "ocr_text": "CHARGEBACKS C1 done 2.25 C2 open 7.00 C3 done 3.75 DONE TOTAL 6.00",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_paid": true,
+        "write_csv": true,
+        "write_report": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4h_incident_board",
+      "ocr_ok": true,
+      "ocr_text": "INCIDENT BOARD I1 open pri 3 I2 closed pri 5 I3 open pri 2 I4 open pri 1 OPEN HI COUNT 2",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_qty": true,
+        "write_csv": true,
+        "dissolve": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    }
+  ],
+  "timestamp": "2026-10-19T01:59:37+08:00",
+  "note": "Claim only if n>=8 and rate>=0.6. Gate2/3 untouched. C101 V4 claim untouched.",
+  "gate2_3_untouched": true
+}

@@ -1,0 +1,460 @@
+{
+  "cycle": "C153",
+  "theme": "fix_lineN_rowN_index_as_amount_raise_v7_train",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T04:22:30+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "unit_bug_proof": {
+    "v7_09": {
+      "got": 15.0,
+      "ok": true,
+      "pairs": [
+        [
+          5.5,
+          "paid"
+        ],
+        [
+          9.5,
+          "paid"
+        ],
+        [
+          2.0,
+          "open"
+        ]
+      ],
+      "sum": 15.0
+    },
+    "v7_13": {
+      "got": 8.0,
+      "ok": true,
+      "pairs": [
+        [
+          2.75,
+          "paid"
+        ],
+        [
+          5.25,
+          "paid"
+        ],
+        [
+          0.5,
+          "open"
+        ]
+      ],
+      "sum": 8.0
+    },
+    "no_index_as_paid_amount": true,
+    "pass": true,
+    "root_cause": "lineN/rowN trailing digit matched as amount-THEN-status without word boundary",
+    "fix": "leading \\\\b on amount-THEN-status in iter_amount_status_pairs"
+  },
+  "saved_reparse": {
+    "mode": "reparse_c149_full_vl_ocr_preview",
+    "n": 16,
+    "n_ok": 16,
+    "rate": 1.0,
+    "fixed_ids": [
+      "v7_09",
+      "v7_13"
+    ],
+    "still_fail": []
+  },
+  "saved_rows": [
+    {
+      "id": "v7_01",
+      "kind": "receipt_paid",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 16.5,
+      "expected": 16.5,
+      "was_fail_c149": false,
+      "fixed_now": false
+    },
+    {
+      "id": "v7_02",
+      "kind": "stamp_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 17.0,
+      "expected": 17.0,
+      "was_fail_c149": false,
+      "fixed_now": false
+    },
+    {
+      "id": "v7_03",
+      "kind": "tiny_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 5.0,
+      "expected": 5.0,
+      "was_fail_c149": false,
+      "fixed_now": false
+    },
+    {
+      "id": "v7_04",
+      "kind": "tax_stamp",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 16.0,
+      "expected": 16.0,
+      "was_fail_c149": false,
+      "fixed_now": false
+    },
+    {
+      "id": "v7_05",
+      "kind": "payroll_tiny",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 800.0,
+      "expected": 800.0,
+      "was_fail_c149": false,
+      "fixed_now": false
+    },
+    {
+      "id": "v7_06",
+      "kind": "ship_occlude",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 7.0,
+      "expected": 7.0,
+      "was_fail_c149": false,
+      "fixed_now": false
+    },
+    {
+      "id": "v7_07",
+      "kind": "sla_stamp",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 7.0,
+      "expected": 7.0,
+      "was_fail_c149": false,
+      "fixed_now": false
+    },
+    {
+      "id": "v7_08",
+      "kind": "expense_tiny",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 25.5,
+      "expected": 25.5,
+      "was_fail_c149": false,
+      "fixed_now": false
+    },
+    {
+      "id": "v7_09",
+      "kind": "po_stamp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 15.0,
+      "expected": 15.0,
+      "was_fail_c149": true,
+      "fixed_now": true
+    },
+    {
+      "id": "v7_10",
+      "kind": "order_mix",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 15.0,
+      "expected": 15.0,
+      "was_fail_c149": false,
+      "fixed_now": false
+    },
+    {
+      "id": "v7_11",
+      "kind": "dup_stamp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 10.0,
+      "expected": 10.0,
+      "was_fail_c149": false,
+      "fixed_now": false
+    },
+    {
+      "id": "v7_12",
+      "kind": "edge_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "was_fail_c149": false,
+      "fixed_now": false
+    },
+    {
+      "id": "v7_13",
+      "kind": "occlude_mid",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 8.0,
+      "expected": 8.0,
+      "was_fail_c149": true,
+      "fixed_now": true
+    },
+    {
+      "id": "v7_14",
+      "kind": "ui_stamp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 8.0,
+      "expected": 8.0,
+      "was_fail_c149": false,
+      "fixed_now": false
+    },
+    {
+      "id": "v7_15",
+      "kind": "stamp_heavy",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 15.0,
+      "expected": 15.0,
+      "was_fail_c149": false,
+      "fixed_now": false
+    },
+    {
+      "id": "v7_16",
+      "kind": "tiny_cn",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 10.0,
+      "expected": 10.0,
+      "was_fail_c149": false,
+      "fixed_now": false
+    }
+  ],
+  "full_vl_retest": {
+    "attempted": true,
+    "gpu_free_mib_start": 7234.0,
+    "n": 16,
+    "n_ok": 16,
+    "rate": 1.0,
+    "gate": 0.6,
+    "gate_pass": true,
+    "vl_gate_v7_claim": true,
+    "claim_scope": "r50plus_v7_linen_rowN_parsefix_n>=14_softocr_atom_qwen35_2b_c153",
+    "fail_ids": [],
+    "prior_rate": 0.875,
+    "rate_improved": true
+  },
+  "full_vl_rows": [
+    {
+      "id": "v7_01",
+      "kind": "receipt_paid",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 16.5,
+      "expected": 16.5,
+      "ocr_preview": "收据 Receipt RECEIPT#V7-01 latte paid 4.50 sandwich paid 12.00 juice open 3.00 TO~~ fold crease ~~ PAID RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice=OLD CN draft / EN void marker V7-01 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲：docs\\\\roadmap\\\\GENESIS-P GENESIS-WORLD-ONE-CHECK.md 现在能干什么 接书"
+    },
+    {
+      "id": "v7_02",
+      "kind": "stamp_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 17.0,
+      "expected": 17.0,
+      "ocr_preview": "仓收据 Warehouse WHTICKET V7 BOLT qty 12 ok NUT qty 8 hold WASH qty 5 ok qty -- fold crease -- RECV RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice#OLD CN draft / EN void marker V7-02 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲领：docs\\\\roadmap\\\\GENESIS-P GENESIS-WORLD-ONE-CHECK.md 现在能干什么 接书进厅： "
+    },
+    {
+      "id": "v7_03",
+      "kind": "tiny_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 5.0,
+      "expected": 5.0,
+      "ocr_preview": "退款小票 Refund REFUND STUB R1 3.25 done R2 5.00 open R3 1.75 done refu~~ fold crease ~~ DONE RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice#OLD CN draft / EN void marker V7-03 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲领：docs\\\\roadmap\\\\GENESIS-P GENESIS-WORLD-ONE-CHECK.md 现在能干什么 接书进厅： /theate"
+    },
+    {
+      "id": "v7_04",
+      "kind": "tax_stamp",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 16.0,
+      "expected": 16.0,
+      "ocr_preview": "税联 Tax TAX SLIP T1 7.00 paid T2 4.50 open T3 9.00 paid tax ← fold crease ← PAID RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice#OLD CN draft / EN void marker V7-04 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲领：docs\\\\roadmap\\\\GENESIS-P GENESIS-WORLD-ONE-CHECK.md 现在能干什么 接书进厅：/theater/search WI"
+    },
+    {
+      "id": "v7_05",
+      "kind": "payroll_tiny",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 800.0,
+      "expected": 800.0,
+      "ocr_preview": "薪资条 Payroll PAYROLL SLIP A 450 active B 80 leave C 350 active pay -- fold crease -- OK RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice#OLD CN draft / EN void marker V7-05 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲领：docs\\\\roadmap\\\\GENESIS-P GENESIS-WORLD-ONE-CHECK.md 现在能干什么 接书进厅：/theater/se"
+    },
+    {
+      "id": "v7_06",
+      "kind": "ship_occlude",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 7.0,
+      "expected": 7.0,
+      "ocr_preview": "发货单 Ship SHIP RECEIPT P1 4 ok P2 9 hold P3 3 ok ship -- fold crease -- SHIP RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice#OLD CN draft / EN void marker V7-06 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲领：docs\\\\roadmap\\\\GENESIS-PR GENESIS-WORLD-ONE-CHECK.md 现在能干什么 • 接书进厅：/theater/search 图 W"
+    },
+    {
+      "id": "v7_07",
+      "kind": "sla_stamp",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 7.0,
+      "expected": 7.0,
+      "ocr_preview": "服务单 SLA SLA TICKET S1 pri 2 open S2 pri 8 closed S3 pri 5 open OPEN RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice#OLD CN draft - EN void marker V7-07 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲领：docs\\\\roadmap\\\\GENESIS-PR GENESIS-WORLD-ONE-CHECK.md 现在能干什么 接书进厅：/theater/search WIN-C chat / "
+    },
+    {
+      "id": "v7_08",
+      "kind": "expense_tiny",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 25.5,
+      "expected": 25.5,
+      "ocr_preview": "报销小票 Expense EXPENSE STUB E1 18.00 paid E2 9.00 void E3 7.50 paid pai ---- fold crease ---- PAID RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice#OLD CN draft / EN void marker V7-08 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲领：docs\\\\roadmap\\\\GENESIS-P GENESIS-WORLD-ONE-CHECK.md 现在能干什么 接书进厅：/"
+    },
+    {
+      "id": "v7_09",
+      "kind": "po_stamp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 15.0,
+      "expected": 15.0,
+      "ocr_preview": "采购联 PO PO-77 STAMPED line1 paid 5.50 line2 paid 9.50 line3 open 2.00 TO -- fold crease -- RECV RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice#OLD CN draft / EN void marker V7-09 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲领：docs\\\\roadmap\\\\GENESIS-PR GENESIS-WORLD-ONE-CHECK.md 现在能干什么 接书进厅：/t"
+    },
+    {
+      "id": "v7_10",
+      "kind": "order_mix",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 15.0,
+      "expected": 15.0,
+      "ocr_preview": "订单 Order ORDER OFFICE A paid 6.25 B paid 8.75 C open 1.00 TO -- fold crease -- PAID RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice#OLD CN draft / EN void marker V7-10 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲：docs\\\\roadmap\\\\GENESIS-P GENESIS-WORLD-ONE-CHECK.md 现在能干什么 • 接书进厅：/theater/sear"
+    },
+    {
+      "id": "v7_11",
+      "kind": "dup_stamp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 10.0,
+      "expected": 10.0,
+      "ocr_preview": "重复盖章 Dup INVOICE #V7-DUP paid 2.00 paid 3.50 paid 4.50 TO ~ fold crease ~ PAID RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice#OLD CN draft / EN void marker V7-11 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲：docs\\\\roadmap\\\\GENESIS-P GENESIS-WORLD-ONE-CHECK.md 现在能干什么 接书进厅： /theater/search WIN"
+    },
+    {
+      "id": "v7_12",
+      "kind": "edge_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "未付 Open OPEN ONLY STUB X 11.00 open Y 19.00 open paid_total TARGET 0.00 ~~ fold crease ~~ HOLD RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice#OLD CN draft / EN void marker V7-12 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲领：docs\\\\roadmap\\\\GENESIS-P GENESIS-WORLD-ONE-CHECK.md 现在能干什么 接书进厅：/th"
+    },
+    {
+      "id": "v7_13",
+      "kind": "occlude_mid",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 8.0,
+      "expected": 8.0,
+      "ocr_preview": "Ledger V7 row1 paid 2.75 row2 paid 5.25 row3 open 0.50 TO fold crease PAID RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice#OLD CN draft / EN void marker V7-13 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲：docs\\\\roadmap\\\\GENESIS-PR GENESIS-WORLD-ONE-CHECK.md 现在能干什么 接书进厅：/theater/search 图 WIN-C"
+    },
+    {
+      "id": "v7_14",
+      "kind": "ui_stamp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 8.0,
+      "expected": 8.0,
+      "ocr_preview": "界面小票 UI UI RECEIPT alpha paid 1.50 beta paid 6.50 gamma open 4.00 TO ~~ fold crease ~~ PAID RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice=OLD CN draft / EN void marker V7-14 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲领：docs\\\\roadmap\\\\GENESIS-P GENESIS-WORLD-ONE-CHECK.md 现在能干什么 接书进厅：/theat"
+    },
+    {
+      "id": "v7_15",
+      "kind": "stamp_heavy",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 15.0,
+      "expected": 15.0,
+      "ocr_preview": "重章 Heavy HEAVY STAMP x paid 10.00 y paid 5.00 z open 2.00 TO ~ fold crease ~ PAID RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice#OLD CN draft / EN void marker V7-15 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲领：docs\\\\roadmap\\\\GENESIS-P GENESIS-WORLD-ONE-CHECK.md 现在能干什么 接书进厅：/theater/search "
+    },
+    {
+      "id": "v7_16",
+      "kind": "tiny_cn",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 10.0,
+      "expected": 10.0,
+      "ocr_preview": "中英盖章 Mix MIX paid 3.00 paid 7.00 open 2.00 TO ~ fold crease ~ RECEIVED WIN-B VOID / IGNORE 999 old total 999.00 stamped status=void invoice#OLD CN draft / EN void marker V7-16 tiny distractor 888.00 occlusion copy TOTAL 42 创世纪长规划已开写并开始按大课 创世纪这一档，我觉得 DEMO 品 纲领：docs\\\\roadmap\\\\GENESIS-P GENESIS-WORLD-ONE-CHECK.md 现在能干什么 接书进厅：/theater/search WIN-C chat / stamped"
+    }
+  ],
+  "rate": 1.0,
+  "n": 16,
+  "n_ok": 16,
+  "prior_rate": 0.875,
+  "fail_ids": [],
+  "gate_pass": true,
+  "vl_gate_v7_claim": true,
+  "claim_scope": "r50plus_v7_linen_rowN_parsefix_n>=14_softocr_atom_qwen35_2b_c153",
+  "pass": true,
+  "claim": true,
+  "note": "Fixed line1/row1 index-as-amount. Honest rate raise only if OCR+atom pass. Gate 0.6. Gate2/3 untouched."
+}

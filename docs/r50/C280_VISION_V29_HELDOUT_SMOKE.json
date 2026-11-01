@@ -1,0 +1,235 @@
+{
+  "cycle": "C280",
+  "theme": "vision_v29_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T12:18:35+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7441.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v29h_01",
+      "kind": "chalk_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 55.5,
+      "expected": 55.5,
+      "ocr_preview": "SCAN DESK V29H BAST 222.00 PAGE 01 粉笔灰收款单H CHALK DUST RECEV V29H a paid 27.00 b paid 28.50 c open 9.00 TOTAL PAID TARGET 55.50 VOID WIN IGNORE old total 888.00 do not parse balt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY balt 55.00 IGNORE REC VOID COPY V29H C280 clarity four pag_010 photo2 testout"
+    },
+    {
+      "id": "v29h_02",
+      "kind": "fan_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 44.0,
+      "expected": 44.0,
+      "ocr_preview": "SCAN DESK V29H 222.00 PAGE 01 扇钉仓单H WH STAPLE FAN V29H SKU1 qty 21 ok SKU2 qty 10 hold SKU3 qty 23 ok qty_sum TARGET 44 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v29h_03",
+      "kind": "carbon_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 31.75,
+      "expected": 31.75,
+      "ocr_preview": "SCAN DESK V29H 222.00 PAGE 01 复写退款单H CARBON COPY REFUND V29H ItemR1 15.00 done ItemR2 16.75 done ItemR3 6.00 open refund_done TARGET 31.75 VOID bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE DONE VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V29H C280 clarity four peg_010 photo2 testout"
+    },
+    {
+      "id": "v29h_04",
+      "kind": "toner_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 97.0,
+      "expected": 97.0,
+      "ocr_preview": "SCAN DESK V29H BAST 222.00 PAGE 01 碳粉税基单H TAX TONER STREAK V29H T1 54.00 paid T2 22.00 open T3 43.00 paid tax_base_paid TARGET 97.00 VOID bait 00.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE REC COPY V29H C280 clarity four pag_010 photo2 testout"
+    },
+    {
+      "id": "v29h_05",
+      "kind": "lamp_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1890.0,
+      "expected": 1890.0,
+      "ocr_preview": "SCAN DESK V29H 222.00 PAGE 01 台灯鼓光工资单H PAYROLL LAMP HOTSPOT V29H A 970 active B 190 leave C 920 active payroll_active TARGET 1890 OK bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID OK COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V29H C280 clarity four pag_p00 photo2 testout"
+    },
+    {
+      "id": "v29h_06",
+      "kind": "foil_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 36.0,
+      "expected": 36.0,
+      "ocr_preview": "SCAN DESK V29H 222.00 PAGE 01 蓝光运单H SHIP FOIL GLARE V29H P1 18 ok P2 9 hold P3 18 ok ship_ok_qty TARGET 36 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 98.00 IGNORE SHIP VOID COPY V29H C280 clarity floor peg_y_010 photo02 testout"
+    },
+    {
+      "id": "v29h_07",
+      "kind": "wax_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 39.0,
+      "expected": 39.0,
+      "ocr_preview": "SCAN DESK V29H BAIT 222.00 PAGE 01 纛封印SLAH SLA WAX SEAL BAIT V29H S1 pri 16 open S2 pri 18 closed S3 pri 23 open open_pri_sum TARGET 39 OLD bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V29H C280 clarity four peg_y0 photo2 testout"
+    },
+    {
+      "id": "v29h_08",
+      "kind": "magnet_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 74.25,
+      "expected": 74.25,
+      "ocr_preview": "SCAN DESK V29H BAST 222.00 PAGE 01 磁夹报销H EXPENSE MAGNET CLIP V29H E1 36.00 paid E2 14.00 void E3 38.25 paid paid_total TARGET 74.25 VOID paid 00.00 DRAFT DRAFT DRAFT DRAFT STICKY paid 00.00 IGNORE REC VOID COPY VOID WIN IGNORE old total 888.00 do not parse paid 555.00 V29H C280 clarity four pag_010 photo2 testout"
+    },
+    {
+      "id": "v29h_09",
+      "kind": "accordion_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 58.0,
+      "expected": 58.0,
+      "ocr_preview": "手风琴采购H PO-ACCORDION FOLD V29H itemA paid 28.00 itemB paid 30.00 itemC open 10.00 TOTAL PAID TARGET 58.00 VOID bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE REC bait 555.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V29H C280 clarity floor peg_c0 photo2 testout"
+    },
+    {
+      "id": "v29h_10",
+      "kind": "perforate_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 49.5,
+      "expected": 49.5,
+      "ocr_preview": "SCAN DESK V29H 222.00 PAGE 01 穿孔订单H ORDER PERFORATE EDGE V29H A paid 24.00 B paid 25.50 C open 8.00 TOTAL PAID TARGET 49.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY V29H C280 clarity four pag_c0 photo2 testout"
+    },
+    {
+      "id": "v29h_11",
+      "kind": "xfold_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 63.0,
+      "expected": 63.0,
+      "ocr_preview": "SCAN DESK V29H 222.00 PAGE 01 交叉折页联单H INVOICE #V29H-XFOLD lineA paid 21.00 lineB paid 21.00 lineC paid 21.00 TOTAL PAID TARGET 63.00 DRAFT DRAFT DRAFT DRAFT VOID REC COPY STICKY paid 63.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse paid 555.00 V29H C280 clarity four pag_010 photo2 testout"
+    },
+    {
+      "id": "v29h_12",
+      "kind": "ghost_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "SCAN DESK V29H 222.00 PAGE 01 复写电影未付H OPEN ONLY V29H X 33.00 open Y 36.00 open paid_total TARGET 0.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v29h_13",
+      "kind": "highlighter_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 37.5,
+      "expected": 37.5,
+      "ocr_preview": "SCAN DESK V29H BAST 222.00 PAGE 01 荧光笔台账H LEDGER HIGHLIGHTER V29H rA paid 18.00 rB paid 19.50 rC open 6.00 TOTAL PAID TARGET 37.50 VOID WIN IGNORE old total 888.00 do not parse balt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY balt 66.00 IGNORE VOID REC COPY V29H C280 clarity floor pag_c00 photo2 testout"
+    },
+    {
+      "id": "v29h_14",
+      "kind": "postit_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 42.75,
+      "expected": 42.75,
+      "ocr_preview": "便利贴界面H UI POSTIT EDGE V29H alpha paid 20.00 beta paid 22.75 gamma open 7.00 TOTAL PAID TARGET 42.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 99.99 IGNORE DRAFT DRAFT DRAFT DRAFT VOID REC COPY V29H C280 clarity four peg_y_01 photo2 testout"
+    },
+    {
+      "id": "v29h_15",
+      "kind": "thermal_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 68.0,
+      "expected": 68.0,
+      "ocr_preview": "SCAN DESK V29H 222.00 PAGE 01 热敏褪色页H THERMAL FADE STACK V29H x paid 33.00 usd y paid 35.00 usd z open 11.00 usd TOTAL PAID TARGET 68.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE REC VOID COPY V29H C280 clarity four peg_c0 photo2 testout"
+    },
+    {
+      "id": "v29h_16",
+      "kind": "bluepen_fax",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 35.25,
+      "expected": 35.25,
+      "ocr_preview": "CN-EN BLUEPEN FAX V29H tea paid 17.00 rice paid 18.25 soup open 6.00 TOTAL PAID TARGET 35.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE REC VOID COPY V28H C280 clarity four peg_010 photo2 testout"
+    },
+    {
+      "id": "v29h_17",
+      "kind": "binder_glare",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 51.0,
+      "expected": 51.0,
+      "ocr_preview": "长尾夹胶光单H BINDER CLIP GLARE V29H w1 paid 25.00 w2 paid 26.00 w3 open 9.00 TOTAL PAID TARGET 51.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE REC VOID COPY V29H C280 clarity four pag_010 photo2 testout"
+    },
+    {
+      "id": "v29h_18",
+      "kind": "margin_tab",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 29.5,
+      "expected": 29.5,
+      "ocr_preview": "SCAN DESK V29H BAST 222.00 PAGE 01 边距标签页H LAMINATE MARGIN TAB V29H p1 paid 14.00 p2 paid 15.50 p3 open 5.00 TOTAL PAID TARGET 29.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0
+  ],
+  "vl_gate_v29_heldout_claim": true,
+  "claim_scope": "r50plus_v29_heldout_hlx_magclip_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 58,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

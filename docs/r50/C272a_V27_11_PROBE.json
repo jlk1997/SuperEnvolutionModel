@@ -1,0 +1,17 @@
+{
+  "id": "v27_11",
+  "ok": true,
+  "ocr_ok": true,
+  "atom_ok": true,
+  "got": 111.0,
+  "expected": 111.0,
+  "ocr_preview": "SCAN DESK V27 BAST 133.00 PAGE 01 面边复可联单 INVOICE #V27-PERF lineA paid 37.00 lineB paid 37.00 lineC paid 37.00 TOTAL PAID TARGET 111.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT",
+  "lines": [
+    "INVOICE #V27-PERF",
+    "lineA paid 37.00",
+    "lineB paid 37.00",
+    "lineC paid 37.00",
+    "TOTAL PAID TARGET 111.00"
+  ],
+  "cn_title": "撕边复写联单"
+}

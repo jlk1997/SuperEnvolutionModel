@@ -1,0 +1,232 @@
+{
+  "cycle": "C894",
+  "theme": "vision_v131_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T10:14:25+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v131_01",
+      "kind": "ashmere_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1521.5,
+      "expected": 1521.5,
+      "ocr_preview": "ashmere ASHMERE GRAIN RECV V131 a paid 752.00 b paid 759.50 c open 562.00 TOTAL PAID TARGET 1521.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v131_02",
+      "kind": "cedarmere_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1440.0,
+      "expected": 1440.0,
+      "ocr_preview": "cedarmere WH CEDARMERE BIN V131 SKU1 qty 710 ok SKU2 qty 550 hold SKU3 qty 750 ok qty_sum TARGET 1440 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.12.32 GR 38.12.77 VOID COPY OVEN DO NOT SCAN FAX HEADER BAIT 88.88 FROM: SPOT SHOP LABEL BAIT 222.22 MUG PEN OVERLAY LABEL BAIT 32 VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 50"
+    },
+    {
+      "id": "v131_03",
+      "kind": "dawnmere_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1379.25,
+      "expected": 1379.25,
+      "ocr_preview": "dawnmere DAWNMERE PATCH REFUND V131 ItemR1 675.00 done ItemR2 704.25 done ItemR3 542.00 open refund_done TARGET 1379.25 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v131_04",
+      "kind": "elmmere_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1633.0,
+      "expected": 1633.0,
+      "ocr_preview": "elimmere ELMMERE TAX SLIP V131 base 808.00 paid addon 825.00 paid skip 632.00 tax_base_paid TARGET 1633.00 FAX HEADER BAIT 88 BE FROM SPOT SHIP LABEL BAIT 222-22 TRASH BAIT 645 MUG PEN OVERLAY LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 505.00 FAX HEADER BAIT 1217 BARCODE bait 123 40 DRAFT WATERMARK "
+    },
+    {
+      "id": "v131_05",
+      "kind": "fernmere_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1764.0,
+      "expected": 1764.0,
+      "ocr_preview": "SCAN DESK V42 BEST 133.00 PAGE 01 fernmere FERNMERE PAYROLL V131 empB 870.00 active empB 884.00 active empC 602.00 leave payroll_active TARGET 1764.00 DRAFT WATERMARK COPY TAPE RED 12 12 RING 38 4 3 35 GR 18 12 77 VOID COPY OVEN DO NOT SCAN VOD WIN IGNORE old total 999.00 do not parse bait 666.00 FAX HEADER BAIT 88.88 FROM: SPOTF SHOP LABEL BAIT 222-22 TRASH"
+    },
+    {
+      "id": "v131_06",
+      "kind": "glenmere_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1272.0,
+      "expected": 1272.0,
+      "ocr_preview": "glenmere GLENMERE SHIP DOCK V131 box1 628 ok box2 644 ok box3 560 hold ship_ok TARGET 1272 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v131_07",
+      "kind": "hazemere_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "hazemere HAZEMERE SLA CARD V131 job1 360.00 hours ok job2 400.00 hours ok job3 240.00 hours late sla_ok_hours TARGET 760.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v131_08",
+      "kind": "inkmere_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1467.75,
+      "expected": 1467.75,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 inkmere UKMERE EXPENSE V131 e1 748.00 e2 749.75 e3 566.00 void exp_sum TARGET 1467.75 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v131_09",
+      "kind": "jademere_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1487.0,
+      "expected": 1487.0,
+      "ocr_preview": "jademere JADEMERE PO SHEET V131 line1 752.00 open line2 756.00 open line3 575.00 closed po_open TARGET 1487.00 DRAFT WATERMARK COPY TAPE R23 bait 12 12 GR 189 12 77 VOID COPY OVEN SCAN DESK V42 BAST 133.00 PAGE 01 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 TRACK WITH: 696 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00"
+    },
+    {
+      "id": "v131_10",
+      "kind": "knotmere_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1558.0,
+      "expected": 1558.0,
+      "ocr_preview": "knotmere knotmere ORDER V131 skuA 785.00 paid skuB 778.00 paid skuC 563.00 due order_paid TARGET 1558.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v131_11",
+      "kind": "lakemere_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakemere LAKEMERE DUP MARK V131 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAW DRAFT WATERMARK COPY DRAW DRAFT WATERMARK COPY DRAW DRAFT WATERMARK COPY DRAW DRAFT WATERMARK COPY DRAW DRAFT WATERMARK COPY DRAW DRAFT WATERMARK COPY DRAW DRAFT WATERMARK COPY DRAW DRAFT WATERMARK COPY DRAW DRAFT WATERMARK COPY DRAW DRAFT WATERMARK COPY DRAW DRAFT WATERMARK COPY "
+    },
+    {
+      "id": "v131_12",
+      "kind": "mossmere_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossmere MOSSMERE AIR ZERO V131 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v131_13",
+      "kind": "nethermere_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1723.5,
+      "expected": 1723.5,
+      "ocr_preview": "nethermere NETHERMERE LEDGER V131 dr 861.00 cr 872.00 adj 568.00 ledger_net TARGET 1723.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v131_14",
+      "kind": "oakmere_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakmere OAKMERE UI SCAN V131 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v131_15",
+      "kind": "pinemere_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 792.0,
+      "expected": 792.0,
+      "ocr_preview": "pinemere PINEMERE STACK V131 p1 300 p2 392 p3 370 stack_count TARGET 792 DRAFT WATERMARK COPY TAPE R23 bait 12 12 GR 18 12 77 VOID OVEN COPY DO NOT SCAN VOD WIN IGNORE old total 999.00 do not parse bait 666.00 FAX HEADER BAIT 88 88 FROM: SPOTF SHIP LABEL BAIT 222-22 Trade with: MUG PEN OVERLAY LABEL BAIT 327 PHONE SHADOW bait 505.00 FAX 123 123 123 BARCODE b"
+    },
+    {
+      "id": "v131_16",
+      "kind": "quillmere_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 820.0,
+      "expected": 820.0,
+      "ocr_preview": "quillmere QUILLMERE FAX V131 pg418 pgB 400 pgC 393 drip fax_pages TARGET 820 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v131_17",
+      "kind": "reedmere_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedmere REEDMERE GLARE V131 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v131_18",
+      "kind": "stonemere_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 864.0,
+      "expected": 864.0,
+      "ocr_preview": "stonomere stonemere TAB INDEX V131 tabC 444 tabB 429 tabC 390 tab_index TARGET 864 DRAFT DRAFT WATERMARK COPY GR 189-12/77 GR 189-12/77 TAPE R23 bait 12/12 RING 189-12/32 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 TRASH BAIT 699 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 666.00 PHO"
+    }
+  ],
+  "vl_gate_v131_claim": true,
+  "claim_scope": "r50plus_v131_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V131 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

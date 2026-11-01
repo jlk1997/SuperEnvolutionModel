@@ -1,0 +1,115 @@
+{
+  "kind": "r50plus_c66_vision_lora_vs_bare",
+  "timestamp": "2026-10-18T23:04:18+08:00",
+  "gate": 0.6,
+  "adapter": "runs/capabilities/vision_office_v1_readable_lora",
+  "adapter_trained_on": "v1_readable (not heldout)",
+  "heldout_dir": "evo/office/fixtures/vision_images_v2_heldout",
+  "bare_reused_from_c65b": true,
+  "bare": {
+    "n": 10,
+    "n_ok": 10,
+    "rate": 1.0
+  },
+  "lora": {
+    "n": 10,
+    "n_ok": 9,
+    "rate": 0.9
+  },
+  "delta_lora_minus_bare": -0.1,
+  "lora_beats_bare": false,
+  "lora_gate_pass": true,
+  "flips": [
+    {
+      "id": "v2h-table-stock-001",
+      "bare_ok": true,
+      "lora_ok": false
+    }
+  ],
+  "lora_items": [
+    {
+      "id": "v2h-caption-bench-001",
+      "task": "caption",
+      "gold": "repair bench laptop blue screen red jar toolbox",
+      "pred_head": "repair bench laptop blue screen red jar toolbox",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-caption-dash-001",
+      "task": "caption",
+      "gold": "OPS DASHBOARD Orders 128 Late 7 FillRate 94% Alert Bay 4 conveyor jam",
+      "pred_head": "This image is a screenshot of an operational management dashboard displaying key metrics like orders, late arrivals, and fill rates, along with an urgent alert about a conveyor jam affecting the night",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-ocr-credit-001",
+      "task": "ocr",
+      "gold": "CREDIT NOTE CN-991 Discount -5.00 CREDIT TOTAL 59.00 Issued 2026-10-18",
+      "pred_head": "CREDIT NOTE #CN-991 Customer: North Plant Co Reason: Damaged shipment Item A qty 3 @ 15.00 = 45.00 Item B qty 2 @ 9.50 = 19.00 Discount -5.00 CREDIT TOTAL 59.00 Issued 2026-10-18 Ref INV-3301",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-ocr-pack-001",
+      "task": "ocr",
+      "gold": "PACK LABEL TO West Hub Dock 2 CARTON 3 of 5 TRACKING TRK-77821 FRAGILE KEEP DRY",
+      "pred_head": "PACKLABEL TO:WestHubDock2 CARTON3of5 SKU:MIX:BOLTMx40,NUT-MIx:x40 TRACKINGTRK-77821 FRAGILEKEEPDRY",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-ocr-po-001",
+      "task": "ocr",
+      "gold": "PURCHASE ORDER PO-5520 GRAND TOTAL USD 515.00 Need by 2026-11-01",
+      "pred_head": "PURCHASE ORDER PO-5520 Supplier: Ant Steel BUYER: EASTWAREHOUSE Plate 10mm x 4 @ 120.00 = 480.00 Freight 35.00 GRAND TOTAL USD 515.00 Need by 2026-11-01",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-table-defect-001",
+      "task": "table_cells",
+      "gold": "id,area,sev,status\nD01,Paint,H,open\nD02,Weld,M,fixed\nD03,Seal,H,open",
+      "pred_head": "id area sev status Défect Logiciel D01 Paint H open Open D02 Weld M fixed Fixed D03-Seal H open Open",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-table-roster-001",
+      "task": "table_cells",
+      "gold": "role,name,bay,radio\nLead,Mei,4,R1\nPicker,Jon,2,R3\nQA,Lia,1,R2",
+      "pred_head": "role,name,bay,radio Lead,Mei,4,R1 Picker,Jon,2,R3 QA,Lia,1,R2",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-table-stock-001",
+      "task": "table_cells",
+      "gold": "bin,sku,onhand,reserved,avail\nA1,BOLT-M6,500,40,460\nA2,NUT-M6,480,20,460\nB3,WASHER,900,100,800\nC1,GLUE-X,55,5,50",
+      "pred_head": "bin,sku,onhand,reserved,avail A1,BOLT-M%C3%A6ĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆĆ",
+      "ok": false,
+      "error": null
+    },
+    {
+      "id": "v2h-ui-access-001",
+      "task": "caption",
+      "gold": "Access Control SSH keys ON Root login OFF",
+      "pred_head": "This image displays a minimalist interface showing three distinct options: SSH keys enabled, Root login disabled, and an ssh command-line interface configured to allow only root access.",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-ui-seal-001",
+      "task": "caption",
+      "gold": "Overwrite sealed pack? burns gen11 seal [Abort] [Overwrite]",
+      "pred_head": "This image shows a computer screen displaying a confirmation dialog box with two buttons labeled Abort and Overwrite.",
+      "ok": true,
+      "error": null
+    }
+  ],
+  "innovation": "Heldout LoRA vs bare retest; adapter never trained on heldout",
+  "gate2_3_untouched": true,
+  "v1_v2_claims_untouched": true,
+  "note": "Does not mint new Gate2/3. Heldout claim remains from C65b bare if any."
+}

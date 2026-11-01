@@ -1,0 +1,27 @@
+{
+  "cycle": "C129",
+  "theme": "replace_cost_refresh_money_tool",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T03:15:00+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "bare": {
+    "ok": true,
+    "bare_steps": 5,
+    "agent_steps_est": 16,
+    "paid_total": 62.0,
+    "money_tool": true
+  },
+  "agent": {
+    "ok": true,
+    "agent_steps": 13,
+    "paid_total": 62.0,
+    "fail": false
+  },
+  "step_ratio_agent_over_bare": 2.6,
+  "replace_ok": true,
+  "rate": 1.0,
+  "pass": true,
+  "claim": false,
+  "note": "Optional cost refresh; uses money_tool on bare path. Does not mint Gate2."
+}

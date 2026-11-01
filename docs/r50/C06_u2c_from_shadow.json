@@ -1,0 +1,16 @@
+{
+  "kind": "r50_c06",
+  "timestamp": "2026-10-18T22:30:41+08:00",
+  "n_events": 3,
+  "crystal": {
+    "n_events": 3,
+    "atoms_proposed": [
+      "office_file_uselog",
+      "write_allowlist_guard"
+    ],
+    "promote_candidate": true
+  },
+  "rate": 1.0,
+  "dynamic_score": 0.7000000000000001,
+  "innovation": "Shadow audit→U2C crystal"
+}

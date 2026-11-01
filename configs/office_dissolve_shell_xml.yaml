@@ -1,0 +1,8 @@
+﻿# Shell family dissolve after bootstrap fix (v5 recipe). Gate 0.6. Exam frozen.
+run_name: office_dissolve_shell_merged_xml
+use_log_dir: runs/use_log/office_shell_xml_merged_s0
+family: shell
+epochs: 4
+heldout_n: 4
+criterion: 0.6
+pair_source: events_xml

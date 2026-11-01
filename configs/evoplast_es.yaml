@@ -1,0 +1,13 @@
+# OpenAI-ES on the plasticity genome. Fitness is shared across the population.
+run_name: evoplast_es
+stage: es
+seed: 0
+es: openai
+generations: 12
+pop: 8
+sigma: 0.45
+es_lr: 0.35
+grpo_k: 8
+temperature: 0.7
+backend: transformers
+write: true

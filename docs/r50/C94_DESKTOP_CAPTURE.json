@@ -1,0 +1,24 @@
+{
+  "cycle": "C94",
+  "theme": "desktop_screenshot_capture",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T01:30:58+08:00",
+  "claim": false,
+  "capture_ok": true,
+  "size": [
+    2560,
+    1600
+  ],
+  "saved": "runs/desktop_capture_c94/desktop_full.png",
+  "crop": "runs/desktop_capture_c94/desktop_crop.png",
+  "labeled": "runs/desktop_capture_c94/desktop_crop_labeled.png",
+  "vl_ocr": {
+    "attempted": true,
+    "text": "ANT_CAPTURE_PROBE C94\n文件\n自动保存\n格式刷\n粘贴\n微软雅黑\n10\nA+\nB\nI\nU\nab\nA\nC8\nX\n✓\nfx\n梳理预约、小时包商品、订单、修音交付\nA\nB",
+    "hit_probe_label": true,
+    "backend": "real_vl",
+    "synthetic_not_vl": false
+  },
+  "pass": true,
+  "note": "Real ImageGrab path works. Overlay label aids OCR probe; full desktop is real pixels not solid-draw fixtures."
+}

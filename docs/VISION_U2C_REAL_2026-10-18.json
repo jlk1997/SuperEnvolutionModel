@@ -1,0 +1,84 @@
+{
+  "kind": "vision_u2c_real",
+  "product": "蚁算-视",
+  "version": "STRONG_C3",
+  "timestamp": "2026-10-18T20:43:07+08:00",
+  "gate": "0.6",
+  "weights_local": true,
+  "synthetic_not_vl": false,
+  "weights_path": "E:/envolution/models/Qwen3.5-2B",
+  "n_tasks": 4,
+  "rate": 1.0,
+  "gate_pass_smoke": true,
+  "absorb": {
+    "ok": true,
+    "steps": 8,
+    "loss_last": 14.737370491027832,
+    "loss_mean": 16.70664918422699,
+    "adapter": "runs/capabilities/vision_office_real_vl_lora"
+  },
+  "atoms": [
+    {
+      "atom": "vision_caption_uselog_real",
+      "family": "vision_caption",
+      "status": "crystallized_real_vl",
+      "source": "vision_u2c_real",
+      "bare_rate": 1.0,
+      "criterion": 0.6,
+      "weights_local": true,
+      "vl_gate_claim": false,
+      "synthetic_not_vl": false,
+      "weights_path": "E:/envolution/models/Qwen3.5-2B"
+    },
+    {
+      "atom": "vision_ocr_uselog_real",
+      "family": "vision_ocr",
+      "status": "crystallized_real_vl",
+      "source": "vision_u2c_real",
+      "bare_rate": 1.0,
+      "criterion": 0.6,
+      "weights_local": true,
+      "vl_gate_claim": false,
+      "synthetic_not_vl": false,
+      "weights_path": "E:/envolution/models/Qwen3.5-2B"
+    },
+    {
+      "atom": "vision_table_uselog_real",
+      "family": "vision_table",
+      "status": "crystallized_real_vl",
+      "source": "vision_u2c_real",
+      "bare_rate": 1.0,
+      "criterion": 0.6,
+      "weights_local": true,
+      "vl_gate_claim": false,
+      "synthetic_not_vl": false,
+      "weights_path": "E:/envolution/models/Qwen3.5-2B"
+    }
+  ],
+  "phases_present": [
+    "use",
+    "grade",
+    "use",
+    "grade",
+    "use",
+    "grade",
+    "use",
+    "grade",
+    "crystallize",
+    "absorb",
+    "route"
+  ],
+  "required_phases": [
+    "use",
+    "grade",
+    "crystallize",
+    "absorb",
+    "route"
+  ],
+  "registry_updated": "evo/office/fixtures/vision_atom_registry.json",
+  "log": "runs/vision_u2c_real/vision_u2c_use_log.jsonl",
+  "pairs": "runs/vision_u2c_real/vision_graded_pairs.jsonl",
+  "vl_gate_claim": false,
+  "pass": true,
+  "notes": "Real VL U2C on drawn office fixtures. Absorb is micro LoRA; not a full Epoch D CLAIM."
+}

@@ -1,0 +1,12 @@
+{
+  "cycle": "C170",
+  "stage_ready": true,
+  "composite": 1.0,
+  "v10_claim": true,
+  "v10_rate": 1.0,
+  "multiwin_rate": 1.0,
+  "regression_core": 1.0,
+  "gen11": "HOLD",
+  "gate2_3_untouched": true,
+  "timestamp": "2026-10-19T05:38:02+08:00"
+}

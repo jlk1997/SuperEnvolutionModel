@@ -1,0 +1,237 @@
+{
+  "cycle": "C715",
+  "theme": "vision_v101_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T04:59:48+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7297.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v101h_01",
+      "kind": "pinehill_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 712.75,
+      "expected": 712.75,
+      "ocr_preview": "pinehill PINEHILL GRAIN RECV V101H a paid 350.00 b paid 362.75 c open 243.00 TOTAL PAID TARGET 712.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v101h_02",
+      "kind": "quartzhill_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 650.0,
+      "expected": 650.0,
+      "ocr_preview": "quartzhill WH QUARTZHILL BIN V101H SKU1 qty 305 ok SKU2 qty 225 hold SKU3 qty 345 ok qty_sum TARGET 650 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v101h_03",
+      "kind": "ravenhill_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 629.5,
+      "expected": 629.5,
+      "ocr_preview": "ravenhill RAVENHILL PATCH REFUND V101H itemR1 308.00 done itemR2 321.50 done itemR3 231.00 open refund_done TARGET 629.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE DONE VOID COPY"
+    },
+    {
+      "id": "v101h_04",
+      "kind": "silverhill_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 862.0,
+      "expected": 862.0,
+      "ocr_preview": "silverhill SILVERHILL TAX SLIP V101H base 423.00 paid addon 439.00 paid skip 272.00 tax_base_paid TARGET 862.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 88.00 IGNORE. TAX VOID COPY"
+    },
+    {
+      "id": "v101h_05",
+      "kind": "thornhill_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 944.0,
+      "expected": 944.0,
+      "ocr_preview": "thornhill THORNHILL PAYROLL V101H empA 464.00 active empB 480.00 active empC 267.00 leave payroll_active TARGET 944.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v101h_06",
+      "kind": "umberhill_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 530.0,
+      "expected": 530.0,
+      "ocr_preview": "umberhill UMBERHILL SHIP DOCK V10TH box1 258 ok box2 272 ok box3 236 hold ship_ok TARGET 530 VOID WIN IGNORE old total 888.00 do not parse bait $55.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP VOID COPY V10TH C715 clarity floor preg_qf2 photo2 metadata"
+    },
+    {
+      "id": "v101h_07",
+      "kind": "vinehill_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "vinehill VINEHILL SLA CARD V101H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE COPY"
+    },
+    {
+      "id": "v101h_08",
+      "kind": "wavehill_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 689.75,
+      "expected": 689.75,
+      "ocr_preview": "wavehill WAVEHILL EXPENSE V101H e1 334.00 e2 355.75 e3 243.00 void exp_sum TARGET 689.75 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.80 IGNORE VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VO"
+    },
+    {
+      "id": "v101h_09",
+      "kind": "xenoridge_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 696.0,
+      "expected": 696.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 xenoridge XENORIDGE PO SHEET V101H line1 354.00 open line2 342.00 open line3 246.00 closed po_open TARGET 696.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v101h_10",
+      "kind": "yewhill_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 748.0,
+      "expected": 748.0,
+      "ocr_preview": "yewhill YEWHILL ORDER V101H skuA 381.00 paid skuB 367.00 paid skuC 238.00 due order_paid TARGET 748.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v101h_11",
+      "kind": "zinchill_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "zinchill ZINCHILL DUP MARK V101H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP VOID COPY C715 clarity floor preg_a02 photo2 metadata"
+    },
+    {
+      "id": "v101h_12",
+      "kind": "aspenhill_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "aspenhill ASPENHILL AIR ZERO V101H 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY"
+    },
+    {
+      "id": "v101h_13",
+      "kind": "bayhill_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 847.5,
+      "expected": 847.5,
+      "ocr_preview": "bayhill BAYHILL LEDGER V101M dr 416.00 cr 431.50 adj 253.00 ledger_net TARGET 847.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v101h_14",
+      "kind": "coralhill_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "coralhill CORALHILL UI SCAN V101H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v101h_15",
+      "kind": "dawnhill_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 317.0,
+      "expected": 317.0,
+      "ocr_preview": "dawnhill DAWNHILL STACK V101H p1 160 p2 157 p3 152 stack_count TARGET 317 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY"
+    },
+    {
+      "id": "v101h_16",
+      "kind": "emberhill_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 346.0,
+      "expected": 346.0,
+      "ocr_preview": "emberhill EMBERHILL FAX V101H pgA 176 pgB 170 pgC 158 drop fax_pages TARGET 346 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v101h_17",
+      "kind": "fernhill_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "fernhill FERNHILL GLARE V101H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE GLR COPY V101H C715 clarity floor preg_qf2 phone2 handset"
+    },
+    {
+      "id": "v101h_18",
+      "kind": "granitehill_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 366.0,
+      "expected": 366.0,
+      "ocr_preview": "granitehill GRANITEHILL TAB INDEX V101H tabA 186 tabB 180 tabC 159 tab_index TARGET 366 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 VOID tab 88.00 COPY tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v101_heldout_claim": true,
+  "claim_scope": "r50plus_v101_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

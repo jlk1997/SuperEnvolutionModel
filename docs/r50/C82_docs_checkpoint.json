@@ -1,0 +1,14 @@
+{
+  "kind": "r50plus_c82_docs_checkpoint",
+  "timestamp": "2026-10-19T00:16:43+08:00",
+  "batch": "C76-C82",
+  "v3_heldout_claim": true,
+  "v3_heldout_rate": 1.0,
+  "route_smoke_rate": 1.0,
+  "ocr_tesseract_feasible": false,
+  "ocr_vl_rate": 1.0,
+  "dual_replace_rate": 1.0,
+  "gen11_decision": "HOLD",
+  "gate": 0.6,
+  "gate2_3_untouched": true
+}

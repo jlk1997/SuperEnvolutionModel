@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ea1",
+    "question": "Arena: Q=2+2. A says 5. B says 4. Winner letter?",
+    "answer": "B"
+  },
+  {
+    "id": "ea2",
+    "question": "Arena: capital of France. A=Paris B=Lyon. Winner letter?",
+    "answer": "A"
+  },
+  {
+    "id": "ea3",
+    "question": "Arena: 10-4. A=6 B=5. Winner letter?",
+    "answer": "A"
+  },
+  {
+    "id": "ea4",
+    "question": "Arena: reverse of ab. A=ba B=ab. Winner letter?",
+    "answer": "A"
+  },
+  {
+    "id": "ea5",
+    "question": "Arena: 3*3. A=6 B=9. Winner letter?",
+    "answer": "B"
+  },
+  {
+    "id": "ea6",
+    "question": "Arena: water freezes C. A=0 B=100. Winner letter?",
+    "answer": "A"
+  },
+  {
+    "id": "ea7",
+    "question": "Arena: len(hello). A=5 B=4. Winner letter?",
+    "answer": "A"
+  },
+  {
+    "id": "ea8",
+    "question": "Arena: odd among 2,4,7. A=7 B=4. Winner letter?",
+    "answer": "A"
+  }
+]

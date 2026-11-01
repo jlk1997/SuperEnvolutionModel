@@ -1,0 +1,232 @@
+{
+  "cycle": "C273",
+  "theme": "vision_v28_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T11:19:11+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7472.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v28_01",
+      "kind": "rust_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 108.5,
+      "expected": 108.5,
+      "ocr_preview": "SCAN DESK V28 best 133.00 PAGE 01 锈夹收款单 BUST CLIP RECV V28 a paid 52.00 b paid 56.50 c open 15.00 TOTAL PAID TARGET 108.50 CLIP sheet DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v28_02",
+      "kind": "wet_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 101.0,
+      "expected": 101.0,
+      "ocr_preview": "WH WET SMUDGE V28 SKU1 qty 48 ok SKU2 qty 24 hold SKU3 qty 53 ok qty_sum TARGET 101 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 TRACK WITH EASE MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 500.00 FAX BAIT 123-12 BARCODE bait 123-40 V28 C272 clarity floor.jpg_400 photo2. Ruxx["
+    },
+    {
+      "id": "v28_03",
+      "kind": "hole_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 67.25,
+      "expected": 67.25,
+      "ocr_preview": "SCAN DESK V28 best 133.00 PAGE 01 打孔退款单 HOLE PUNCH REFUND V28 Item1 32.00 done ItemR2 55.25 done ItemR3 14.00 open refund_done TARGET 67.25 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v28_04",
+      "kind": "band_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 184.0,
+      "expected": 184.0,
+      "ocr_preview": "皮筋和基单 TAX RUBBER BAND V28 T1 102.00 paid T2 41.00 open T3 82.00 paid tax_base_paid TARGET 184.00 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 Tape with 645 MUG PEN OVERLAP LABEL BAIT 377 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 503.00 FAX HEADER BAIT 123-12 BARCODE bait 123-40 V28 C272 clarity fine.jpg_"
+    },
+    {
+      "id": "v28_05",
+      "kind": "glare_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3120.0,
+      "expected": 3120.0,
+      "ocr_preview": "SCAN DESK V28 best 133.00 PAGE 01 PAYROLL DESK GLARE V28 A 1600 active B 310 inactive C 1520 active payroll_active TARGET 3120 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v28_06",
+      "kind": "label_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 91.0,
+      "expected": 91.0,
+      "ocr_preview": "SCAN DESK V28 best 133.00 PAGE 01 最优运单 SHIP LABEL OVERLAP V28 P1 45 ok P2 25 ok P3 45 ok ship_ok_qty TARGET 91 CLIPPE DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v28_07",
+      "kind": "blot_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 81.0,
+      "expected": 81.0,
+      "ocr_preview": "SLA FOUNTAIN BLOT V28 S1 pr 34 open S2 pr 37 closed S3 pr 47 open open_pri_sum TARGET 81 SLA FOUNTAIN BLOT V28 SLA FOUNTAIN BLOT V28 SLA FOUNTAIN BLOT V28 SLA FOUNTAIN BLOT V28 SLA FOUNTAIN BLOT V28 SLA FOUNTAIN BLOT V28 SLA FOUNTAIN BLOT V28 SLA FOUNTAIN BLOT V28 SLA FOUNTAIN BLOT V28 SLA FOUNTAIN BLOT V28 SLA FOUNTAIN BLOT V28 SLA FOUNTAIN BLOT V28 SLA FOU"
+    },
+    {
+      "id": "v28_08",
+      "kind": "clip_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 142.5,
+      "expected": 142.5,
+      "ocr_preview": "EXPENSE PAPERCLIP CHAIN V28 E1 60.00 paid E2 28.00 void E3 73.50 paid paid_total TARGET 142.50 EXPENSE PAPERCLIP CHAIN V28 E1 60.00 paid E2 28.00 void E3 73.50 paid paid_total TARGET 142.50 EXPENSE PAPERCLIP CHAIN V28 E1 60.00 paid E2 28.00 void E3 73.50 paid paid_total TARGET 142.50 EXPENSE PAPERCLIP CHAIN V28 E1 60.00 paid E2 28.00 void E3 73.50 paid"
+    },
+    {
+      "id": "v28_09",
+      "kind": "fax_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 104.75,
+      "expected": 104.75,
+      "ocr_preview": "传真噪点采购 SCAN DESK V28 BAST 133.00 PAGE 01 TO-FAX NOISE V28 ItemA paid 51.00 ItemB paid 53.75 ItemC paid 17.00 TOTAL PAID TARGET 104.75 DRAFT DRAFT WATERMARK COPY VOID OVERLAY LABEL bait 322-22 MUG PEN DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 503.00 PAX BARCODE bait 123.40 V28: C272 clarity floor.jpg_400 photo2. Ru"
+    },
+    {
+      "id": "v28_10",
+      "kind": "tab_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 93.0,
+      "expected": 93.0,
+      "ocr_preview": "标签页订单 ORDER STICKY TAB V28 A paid 45.00 B paid 36.00 C open 14.00 TOTAL PAID TARGET 93.00 DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK CO"
+    },
+    {
+      "id": "v28_11",
+      "kind": "crease_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 124.5,
+      "expected": 124.5,
+      "ocr_preview": "SCAN DESK V28 best 133.00 PAGE 01 交叉折痕联单 INVOICE #V28-XCREASE lineA paid 41.50 lineB paid 41.50 lineC paid 41.50 TOTAL PAID TARGET 124.50 CLUE DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v28_12",
+      "kind": "overink_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "SCAN DESK V28 best 133.00 PAGE 01 印章未付 OPEN ONLY V28 X 78.00 open Y 81.00 open paid_total TARGET 0.00 CLIPPE mask - DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v28_13",
+      "kind": "tape_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 79.25,
+      "expected": 79.25,
+      "ocr_preview": "胶康台账 LEDGER TAPE RESIDUE V28 rA paid 38.00 rB paid 41.25 rC open 12.00 TOTAL PAID TARGET 79.25 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v28_14",
+      "kind": "shade_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 86.5,
+      "expected": 86.5,
+      "ocr_preview": "SCAN DESK V28 best 133.00 PAGE 01 铅笔阴影界面 PENCIL SHADE V28 alpha paid 42.00 beta paid 44.50 gamma paid 14.00 TOTAL PAID TARGET 86.50 CLIPPE DRAFT DRAFT WATERMARK COPY VOID OVERLAY LABEL bait 327 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 503.00 FAX HEADER BAIT 88.88 FROM: SPOTF MUG PEN TAPE 203 bait 12.12 GR 88-12.7"
+    },
+    {
+      "id": "v28_15",
+      "kind": "ring_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 127.0,
+      "expected": 127.0,
+      "ocr_preview": "SCAN DESK V28 best 133.00 PAGE 01 杯圈页 COFFEE RING STACK V28 x paid 62.00 usd y paid 05.00 usd z open 21.00 usd TOTAL PAID TARGET 127.00 CLIPPE DRAFT DRAFT WATERMARK CO DRA VOID COPY OVEN GR 12.77 TAPE R23 best 12.12 RING 38.5.32.35 MUG PEN OVERLAP LABEL best 37 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 505.00"
+    },
+    {
+      "id": "v28_16",
+      "kind": "mix_fax",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 76.75,
+      "expected": 76.75,
+      "ocr_preview": "SCAN DESK V28 BEST 133.00 PAGE 01 中英传真混排 CN-EN FAX MIX V28 tea paid 37.00 rice paid 39.75 soup open 12.00 TOTAL PAID TARGET 76.75 CLIPPE DRAFT DRAFT WATERMARK COPY DRAFT COPY VOID OVERLAY GR 123-12.77 PEN MUG OVERLAP LABEL BEST 37 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW fax 503.00 BARCODE bait 123.40 V28 C272 clarity"
+    },
+    {
+      "id": "v28_17",
+      "kind": "env_glare",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 95.5,
+      "expected": 95.5,
+      "ocr_preview": "SCAN DESK V28 BEST 133.00 PAGE 01 蓝光信封窗 ENVELOPE GLARE WIN V28 w1 paid 46.00 w2 paid 49.50 w3 open 18.00 TOTAL PAID TARGET 95.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v28_18",
+      "kind": "lam_tab",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 59.25,
+      "expected": 59.25,
+      "ocr_preview": "SCAN DESK V28 bast 133.00 PAGE 01 LAMINATE TAB FOOT V28 p1 paid 28.00 p2 paid 31.25 p3 open 10.00 TOTAL PAID TARGET 59.25 OVERLAY LABEL bast 37 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bast 666.00 PHONE SHADOW bast 503.00 BARCODE bast 123.40 DRAFT WATERMARK COPY DRAFT COPY VOID GR bast 12.77 TAPE R23 bast 12.12 MUG PEN CLIP TAB CLIP DRAFT CLI"
+    }
+  ],
+  "vl_gate_v28_claim": true,
+  "claim_scope": "r50plus_v28_hlx_magclip_thermal_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V28 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

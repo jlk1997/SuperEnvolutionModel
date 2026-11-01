@@ -1,0 +1,14 @@
+{
+  "kind": "vision_gate_v14_claim",
+  "timestamp": "2026-10-19T06:47:48+08:00",
+  "vl_gate_v14_claim": true,
+  "rate": 1.0,
+  "n": 18,
+  "n_ok": 18,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v14_salt_moire_ghost_tape_redact_wet_mesh_n>=16_c162_parse_qwen35_2b_c188",
+  "gate2_3_untouched": true,
+  "v0_v13_untouched": true,
+  "gen11": "HOLD",
+  "cycle": "C188"
+}

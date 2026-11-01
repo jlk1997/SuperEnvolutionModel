@@ -1,0 +1,150 @@
+{
+  "cycle": "C103",
+  "theme": "u2c_grow_absorb_reuse",
+  "n_sessions": 12,
+  "crystal_rate": 1.0,
+  "n_crystal": 12,
+  "reuse_sessions": 2,
+  "reuse_ok": true,
+  "reuse_rate": 1.0,
+  "absorb": {
+    "attempted": false,
+    "n_pairs": 12,
+    "pairs_path": "runs/u2c_grow_c103/sft_pairs.jsonl",
+    "gpu": {
+      "free_mib": 7056.0,
+      "total_mib": 8187.5
+    },
+    "reason": "pairs_ready; micro-SFT deferred if free_mib unknown or <1200 — keep blast moving",
+    "artifact": "runs/u2c_grow_c103/absorb_ready.json",
+    "ready": true
+  },
+  "gate": 0.6,
+  "pass": true,
+  "claim": false,
+  "sessions": [
+    {
+      "sid": "s01_orders",
+      "crystal_ok": true,
+      "got": 32.5,
+      "expected": 32.5,
+      "atom": "office_table_u2c_paid_total",
+      "reused": false,
+      "reuse_source": null,
+      "log": "runs/u2c_grow_c103/sessions/s01_orders/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s02_refunds",
+      "crystal_ok": true,
+      "got": 4.5,
+      "expected": 4.5,
+      "atom": "office_table_u2c_refund_done",
+      "reused": false,
+      "reuse_source": null,
+      "log": "runs/u2c_grow_c103/sessions/s02_refunds/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s03_inventory",
+      "crystal_ok": true,
+      "got": 180.0,
+      "expected": 180.0,
+      "atom": "office_table_u2c_qty_sum",
+      "reused": false,
+      "reuse_source": null,
+      "log": "runs/u2c_grow_c103/sessions/s03_inventory/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s04_tax",
+      "crystal_ok": true,
+      "got": 32.5,
+      "expected": 32.5,
+      "atom": "office_table_u2c_tax_base_paid",
+      "reused": false,
+      "reuse_source": null,
+      "log": "runs/u2c_grow_c103/sessions/s04_tax/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s05_mixed",
+      "crystal_ok": true,
+      "got": 7.0,
+      "expected": 7.0,
+      "atom": "office_table_u2c_paid_total",
+      "reused": false,
+      "reuse_source": null,
+      "log": "runs/u2c_grow_c103/sessions/s05_mixed/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s06_empty_open",
+      "crystal_ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "atom": "office_table_u2c_paid_total",
+      "reused": false,
+      "reuse_source": null,
+      "log": "runs/u2c_grow_c103/sessions/s06_empty_open/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s07_shipping",
+      "crystal_ok": true,
+      "got": 8.0,
+      "expected": 8.0,
+      "atom": "office_table_u2c_ship_ok_qty",
+      "reused": false,
+      "reuse_source": null,
+      "log": "runs/u2c_grow_c103/sessions/s07_shipping/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s08_payroll",
+      "crystal_ok": true,
+      "got": 1570.0,
+      "expected": 1570.0,
+      "atom": "office_table_u2c_payroll_active",
+      "reused": false,
+      "reuse_source": null,
+      "log": "runs/u2c_grow_c103/sessions/s08_payroll/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s09_sla",
+      "crystal_ok": true,
+      "got": 6.0,
+      "expected": 6.0,
+      "atom": "office_table_u2c_open_pri_sum",
+      "reused": false,
+      "reuse_source": null,
+      "log": "runs/u2c_grow_c103/sessions/s09_sla/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s10_reuse_orders",
+      "crystal_ok": true,
+      "got": 15.0,
+      "expected": 15.0,
+      "atom": "office_table_u2c_paid_total",
+      "reused": true,
+      "reuse_source": "office_table_u2c_paid_total",
+      "log": "runs/u2c_grow_c103/sessions/s10_reuse_orders/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s11_reuse_tax",
+      "crystal_ok": true,
+      "got": 5.0,
+      "expected": 5.0,
+      "atom": "office_table_u2c_tax_base_paid",
+      "reused": true,
+      "reuse_source": "office_table_u2c_tax_base_paid",
+      "log": "runs/u2c_grow_c103/sessions/s11_reuse_tax/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s12_edge_zero",
+      "crystal_ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "atom": "office_table_u2c_paid_total",
+      "reused": false,
+      "reuse_source": null,
+      "log": "runs/u2c_grow_c103/sessions/s12_edge_zero/u2c_use_log.jsonl"
+    }
+  ],
+  "atom_registry_size": 7,
+  "timestamp": "2026-10-19T01:38:28+08:00",
+  "note": "Grown U2C; absorb instrumented (pairs ready). Reuse = same metric atom routed again."
+}

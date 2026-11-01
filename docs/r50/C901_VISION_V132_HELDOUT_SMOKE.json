@@ -1,0 +1,237 @@
+{
+  "cycle": "C901",
+  "theme": "vision_v132_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T10:27:41+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v132h_01",
+      "kind": "ashcroft_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1276.75,
+      "expected": 1276.75,
+      "ocr_preview": "ashcroft ASHCROFT GRAIN RECV V132H a paid 632.00 b paid 644.75 c open 525.00 TOTAL PAID TARGET 1276.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC VOID COPY V132H C801 cavity floor preg_qf2 photo2 metadata"
+    },
+    {
+      "id": "v132h_02",
+      "kind": "cedarcroft_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1220.0,
+      "expected": 1220.0,
+      "ocr_preview": "cedarcroft WH CEDARCROFT BIN V132H SKU1 qty 600 ok SKU2 qty 520 hold SKU3 qty 620 ok qty_sum TARGET 1220 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V132H C801 clarity floor preg_qf2 photo2 metadata"
+    },
+    {
+      "id": "v132h_03",
+      "kind": "dawncroft_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1193.5,
+      "expected": 1193.5,
+      "ocr_preview": "dawncroft DAWNCROFT PATCH REFUND V132H itemR1 590.00 done itemR2 603.50 done itemR3 513.00 open refund_done TARGET 1193.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID DONE COPY V132H C801 clarity floor preg_0f2 photo2 halftout"
+    },
+    {
+      "id": "v132h_04",
+      "kind": "elmcroft_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1426.0,
+      "expected": 1426.0,
+      "ocr_preview": "SCAN DESK V43H BASC 222.00 PAGE 01 elmcroft ELMCROFT TAX SLIP V132H base 705.00 paid addon 721.00 paid skip 554.00 tax_base_paid TARGET 1426.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v132h_05",
+      "kind": "ferncroft_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1508.0,
+      "expected": 1508.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222-00 PAGE 01 ferncroft FERNCROFT PAYROLL V132H empA 746.00 active empB 762.00 active empC 549.00 leave payroll_active TARGET 1508.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v132h_06",
+      "kind": "glencroft_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1094.0,
+      "expected": 1094.0,
+      "ocr_preview": "glencroft GLEN CROFT SHIP DOCK V132H box1 540 ok box2 554 ok box3 518 hold ship_ok TARGET 1094 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP VOID COPY V132H C801 cavity floor preg_qf2 photo2 hidden"
+    },
+    {
+      "id": "v132h_07",
+      "kind": "hazecroft_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 580.0,
+      "expected": 580.0,
+      "ocr_preview": "hazcroft HAZECROFT SLA CARD V132H job1 270.00 hours ok job2 310.00 hours ok job3 210.00 hours late sla_ok_hours TARGET 580.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID COPY"
+    },
+    {
+      "id": "v132h_08",
+      "kind": "inkcroft_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1253.75,
+      "expected": 1253.75,
+      "ocr_preview": "inkcroft #INKCROFT EXPENSE V132H e1 616.00 e2 637.75 e3 525.00 void exp_sum TARGET 1253.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE EXP VOID COPY V132H C801 clarity floor preg_qf2 photo2 metadata"
+    },
+    {
+      "id": "v132h_09",
+      "kind": "jadecroft_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1250.0,
+      "expected": 1250.0,
+      "ocr_preview": "jadecroft JADECROFT PO SHEET V132H line1 666.00 open line2 584.00 open line3 522.00 closed po_open TARGET 1250.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v132h_10",
+      "kind": "knotcroft_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1312.0,
+      "expected": 1312.0,
+      "ocr_preview": "knotcroft KNOTCROFT ORDER V132H skuA 663.00 paid skuB 649.00 paid skuC 520.00 due order_paid TARGET 1312.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY V132H C801 clarity floor preg_qf2 photo2 metadata"
+    },
+    {
+      "id": "v132h_11",
+      "kind": "lakecroft_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakecroft LAKECROFT DUP MARK V132H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v132h_12",
+      "kind": "mosscroft_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mosscroft MOSSCROFT AIR ZERO V132H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 b"
+    },
+    {
+      "id": "v132h_13",
+      "kind": "nethercroft_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1411.5,
+      "expected": 1411.5,
+      "ocr_preview": "nethercroft NETHERCROFT LEDGER V132H dr 698.00 cr 713.50 adj 535.00 ledger_net TARGET 1411.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 555.00 IGNORE LED COPY V132H C801 cavity floor photo2 photo2 netherout"
+    },
+    {
+      "id": "v132h_14",
+      "kind": "oakcroft_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakcroft OAKCROFT UI SCAN V132H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY V132h C801 cavity floor preg_u02 photo2 metadata"
+    },
+    {
+      "id": "v132h_15",
+      "kind": "pinecroft_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 769.0,
+      "expected": 769.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 pinecroft PINECROFT STACK V132H p1 386 p2 383 p3 378 stack_count TARGET 769 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V132H C801 cavity floor prog_qf2 phase2 halted"
+    },
+    {
+      "id": "v132h_16",
+      "kind": "quillcroft_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 798.0,
+      "expected": 798.0,
+      "ocr_preview": "quillcroft QUILLCROFT FAX V132H pgA 402 pgB 396 pgC 384 drop fax_pages TARGET 798 DRAFT DRAFT DRAFT DRAFT VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V132H C801 cavity floor pag_qf2 photo2 header"
+    },
+    {
+      "id": "v132h_17",
+      "kind": "reedcroft_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedcroft REEDCROFT GLARE V132H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY V132H C801 cavity floor preg_qf2 photo2 halftext"
+    },
+    {
+      "id": "v132h_18",
+      "kind": "stonecroft_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 818.0,
+      "expected": 818.0,
+      "ocr_preview": "stonecroft STONECROFT TAB INDEX V132H tabA 412 tabB 406 tabC 385 tab_index TARGET 818 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 VOID tab 88.00 COPY V132H C801 cavity floor prog_012 photo2 metadata"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v132_heldout_claim": true,
+  "claim_scope": "r50plus_v132_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

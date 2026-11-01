@@ -1,0 +1,37 @@
+{
+  "session": [
+    {
+      "turn": 1,
+      "family": "table",
+      "atom": "office_table_uselog",
+      "reuse": false
+    },
+    {
+      "turn": 2,
+      "family": "file",
+      "atom": "office_file_uselog",
+      "reuse": false
+    },
+    {
+      "turn": 3,
+      "family": "report",
+      "atom": "office_report_uselog",
+      "reuse": false
+    },
+    {
+      "turn": 4,
+      "family": "shell",
+      "atom": "office_shell_uselog",
+      "reuse": false
+    },
+    {
+      "turn": 5,
+      "family": "table",
+      "atom": "office_table_uselog",
+      "reuse": true
+    }
+  ],
+  "reuse_rate": 0.2,
+  "timestamp": "2026-10-18T22:31:06+08:00",
+  "innovation": "Multi-turn atom reuse"
+}

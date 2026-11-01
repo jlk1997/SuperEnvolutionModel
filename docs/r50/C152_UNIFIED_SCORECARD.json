@@ -1,0 +1,99 @@
+{
+  "cycle": "C152",
+  "theme": "unified_scorecard_refresh_c149_c151",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T04:11:27+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "beat": {
+    "source": "Gate2 CLAIM archive (untouched)",
+    "dual_exam_approx": 0.625,
+    "agent_exam_approx": 0.125,
+    "beat_agent": true,
+    "mid_n_obs_dual": 0.8125,
+    "gate2_3_untouched": true
+  },
+  "replace": {
+    "mean_ratio": 3.875,
+    "rate": 1.0,
+    "pass": true,
+    "source": "docs/r50/C141_UNIFIED_REPLACE_BOARD.json"
+  },
+  "vision": {
+    "v6_heldout": {
+      "rate": 1.0,
+      "claim": null,
+      "n": 14,
+      "path": "docs/r50/C138b_VISION_GATE_V6_HELDOUT_CLAIM.json"
+    },
+    "v6": {
+      "rate": 1.0,
+      "claim": true,
+      "n": 14,
+      "path": "docs/r50/C132b_VISION_GATE_V6_CLAIM.json"
+    },
+    "v7": {
+      "rate": 0.875,
+      "claim": true,
+      "n": 16,
+      "path": "docs/r50/C149b_VISION_GATE_V7_REFRESH_CLAIM.json"
+    },
+    "v7_legacy": {
+      "rate": 0.875,
+      "claim": true,
+      "n": 16,
+      "path": "docs/r50/C144b_VISION_GATE_V7_CLAIM.json"
+    },
+    "v7_heldout": {
+      "rate": 1.0,
+      "claim": true,
+      "n": 16,
+      "path": "docs/r50/C150b_VISION_GATE_V7_HELDOUT_CLAIM.json"
+    },
+    "v7_smoke": {
+      "rate": 0.875,
+      "claim": true,
+      "n": 16,
+      "path": "docs/r50/C149_V7_PARSE_FIX_RETEST.json"
+    },
+    "v7_heldout_smoke": {
+      "rate": 1.0,
+      "claim": true,
+      "n": 16,
+      "path": "docs/r50/C150_VISION_V7_HELDOUT_SMOKE.json"
+    }
+  },
+  "confidence_capture": {
+    "pass": true,
+    "rate": 1.0
+  },
+  "day_in_life": {
+    "pass": true,
+    "rate": 1.0
+  },
+  "business_multiday": {
+    "pass": true,
+    "n_days": 3,
+    "n_files": 18,
+    "week_paid": 691.5
+  },
+  "v7_parse_fix": {
+    "rate": 0.875,
+    "claim": true,
+    "fixed": [
+      "v7_02",
+      "v7_04",
+      "v7_05",
+      "v7_08"
+    ]
+  },
+  "v7_heldout": {
+    "rate": 1.0,
+    "claim": true,
+    "n": 16
+  },
+  "composite": 0.9857,
+  "pass": true,
+  "claim": false,
+  "note": "Scorecard refresh after parse-fix + V7 heldout + multiday sandbox. Gate2/3 untouched. gen11 HOLD."
+}

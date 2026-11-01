@@ -1,0 +1,233 @@
+{
+  "cycle": "C232",
+  "theme": "vision_v21_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T08:40:10+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7716.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v21h_01",
+      "kind": "staple_receipt",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 67.5,
+      "expected": 67.5,
+      "ocr_preview": "SCAN DESK V21 Bait 222.00 PAGE #1 STAPLE HOLE V21H a paid 33.00 b paid 34.50 c open 10.00 TOTAL PAID TARGET 67.50 H, line bait 77.77 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v21h_02",
+      "kind": "hl_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 54.0,
+      "expected": 54.0,
+      "ocr_preview": "SCAN DESK V21 SALT 222.00 PAGE #1 荧光仓仓单H WH HIGHLIGHT V21H SKU1 qty 26 ok SKU2 qty 12 hold SKU3 qty 28 ok qty_sum TARGET 54 H, line bait 77.77 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v21h_03",
+      "kind": "skew_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 29.75,
+      "expected": 29.75,
+      "ocr_preview": "SCAN DESK V21 Bait 222.00 PAGE #1 透视返款H SKEW REFUND V21H ItemR1 14.25 done ItemR2 15.50 done ItemR3 7.00 open refund_done TARGET 29.75 H, line bait 77.77 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v21h_04",
+      "kind": "bleed_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 108.0,
+      "expected": 108.0,
+      "ocr_preview": "SCAN DESK V21 Bait 222.00 PAGE #1 渗墨边缘H TAX STAMP BLEED V21H T1 60.00 paid T2 24.00 open T3 48.00 paid tax_base_paid TARGET 108.00 H, line tax 77.77 DRAFT DRAFT DRAFT DRAFT VOID STICKY bait 88.88 IGNORE RECV COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 [Black] bait 005 21 C200 clear file (jpg_00 photo2 Staple)H,Blue(Blue(Blue(Blue(Blue(Blue"
+    },
+    {
+      "id": "v21h_05",
+      "kind": "tear_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1860.0,
+      "expected": 1860.0,
+      "ocr_preview": "SCAN DESK V21 Bait 222.00 PAGE 01 乘边工资H PAYROLL TEAR V21H A 980 active B 180 leave C 880 active payroll_active TARGET 1860 H, leave bait 77.77 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v21h_06",
+      "kind": "moire_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 45.0,
+      "expected": 45.0,
+      "ocr_preview": "SCAN DESK V21 Bait 222.00 PAGE #1 网络发运H SHIP MOIRE V21H P1 23 ok P2 12 hold P3 22 ok ship_ok_qty TARGET 45 H, line bait 77.77 STICKY bait 88.88 IGNORE VOID DRAFT DRAFT DRAFT DRAFT COPY SHIP (Bar) bait 085 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 21 C220 clearly four (jpg_060 photo2 Staple)H,Staple)H,Staple)H,Staple)H,Staple)H,Staple)H,St"
+    },
+    {
+      "id": "v21h_07",
+      "kind": "wm_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 38.0,
+      "expected": 38.0,
+      "ocr_preview": "SCAN DESK V21 Sait 222.00 PAGE #1 水印SLAH SLA WATERMARK V21H S1 pri 17 open S2 pri 24 closed S3 pri 21 open open_pri_sum TARGET 38 HI, line ball 77.77 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v21h_08",
+      "kind": "shadow_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 72.25,
+      "expected": 72.25,
+      "ocr_preview": "SCAN DESK V21 Bait 222.00 PAGE #1 阴影收纳H EXPENSE SHADOW V21H E1 36.00 paid E2 15.00 void E3 36.25 paid paid_total TARGET 72.25 H, line bait 77.77 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v21h_09",
+      "kind": "rust_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 58.0,
+      "expected": 58.0,
+      "ocr_preview": "SCAN DESK V21 Bait 222.00 PAGE 01 诱订采购H PO-RUST STAPLE V21H itemA paid 28.75 itemB paid 29.25 itemC open 11.00 TOTAL PAID TARGET 58.00 H, line bait 77.77 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v21h_10",
+      "kind": "dogear_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 49.5,
+      "expected": 49.5,
+      "ocr_preview": "SCAN DESK V21 Sait 222.00 PAGE 01 折角订单H ORDER DOGEAR V21H A paid 24.50 B paid 25.00 C open 8.00 TOTAL PAID TARGET 49.50 H, line bait 77.77 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v21h_11",
+      "kind": "staple_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 60.0,
+      "expected": 60.0,
+      "ocr_preview": "SCAN DESK V21 Bait 222.00 PAGE #1 DRAFT INVOICE #V21H-DUP line paid 20.00 line paid 20.00 line paid 20.00 TOTAL PAID TARGET 60.00 H, line bait 77.77 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v21h_12",
+      "kind": "hl_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "SCAN DESK V21 Bait 222.00 PAGE #1 高亮未付H OPEN ONLY V21H X 47.00 open Y 50.00 open paid_total TARGET 0.00 H, line bait 77.77 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v21h_13",
+      "kind": "skew_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 39.75,
+      "expected": 39.75,
+      "ocr_preview": "SCAN DESK V21 Bait 222.00 PAGE #1 透视目标H LEDGER SKEW V21H rA paid 19.50 rB paid 20.25 rC open 6.00 TOTAL PAID TARGET 39.75 H, line bait 77.77 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v21h_14",
+      "kind": "bleed_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 46.5,
+      "expected": 46.5,
+      "ocr_preview": "SCAN DESK V21 BAIT 222.00 PAGE #1 渗墨外面H UI STAMP BLEED V21H alpha paid 23.00 beta paid 23.50 gamma open 8.50 TOTAL PAID TARGET 46.50 H, line bait 77.77 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.88 IGNORE RECV VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 [Black] bait 005 21 C230 daily file (pag_060 photo2 Staple)H,Staple)Blue(Blue(Blue(Blu"
+    },
+    {
+      "id": "v21h_15",
+      "kind": "tear_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 70.0,
+      "expected": 70.0,
+      "ocr_preview": "SCAN DESK V21 Bait 222.00 PAGE #1 斯边单单H HEAVY TEAR V21H x paid 35.00 usd y paid 35.00 usd z open 13.00 usd TOTAL PAID TARGET 70.00 H, line bait 77.77 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v21h_16",
+      "kind": "moire_mix",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 43.25,
+      "expected": 43.25,
+      "ocr_preview": "SCAN DESK V21 Bait 222.00 PAGE #1 中 CN-EN MOIRE MIX V21H tea paid 20.50 rice paid 22.75 soup open 7.00 TOTAL PAID TARGET 43.25 H, line bait 77.77 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v21h_17",
+      "kind": "wm_win",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 56.0,
+      "expected": 56.0,
+      "ocr_preview": "SCAN DESK V21 Bait 222.00 PAGE #1 水印双窗H WATERMARK WN V21H w1 paid 27.50 w2 paid 28.50 w3 open 12.00 TOTAL PAID TARGET 56.00 H, line bait 77.77 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v21h_18",
+      "kind": "shadow_foot",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 31.5,
+      "expected": 31.5,
+      "ocr_preview": "SCAN DESK V21 Bait 222.00 PAGE #1 阴 SHADOW FOOT V21H p1 paid 15.50 p2 paid 16.00 p3 open 6.00 TOTAL PAID TARGET 31.50 H, line bait 77.77 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    }
+  ],
+  "id_disjoint": true,
+  "expected_overlap": [
+    0.0
+  ],
+  "exp_mostly_disjoint": true,
+  "clarity_floor": {
+    "jpeg_q": 60,
+    "photocopy_div": 2,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "vl_gate_v21_heldout_claim": true,
+  "claim_scope": "r50plus_v21_heldout_disjoint_n>=16_qwen35_2b_clarity_floor",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

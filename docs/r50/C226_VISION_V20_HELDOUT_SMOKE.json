@@ -1,0 +1,230 @@
+{
+  "cycle": "C226",
+  "theme": "vision_v20_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T08:13:04+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7440.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v20h_01",
+      "kind": "crease_receipt",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 64.5,
+      "expected": 64.5,
+      "ocr_preview": "折痕收据H CREASE GRID V20H a paid 31.00 b paid 33.50 c open 9.00 TOTAL PAID TARGET 64.50 TAPE bait 90.00 STICKY bait 90.00 RECV VOID COPY CONFIDENTIAL REDACTED text 185 VOID WIN IGNORE old total 999.00 bait 666.00 20H C228.jpg_010 HSLDOUT dprint C:wave(Tape|Carbon|HotBone|Void|We|Thermal|fax"
+    },
+    {
+      "id": "v20h_02",
+      "kind": "tape_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 51.0,
+      "expected": 51.0,
+      "ocr_preview": "胶带仓单H WH TAPE GLARE V20H SKU1 qty 24 ok SKU2 qty 11 hold SKU3 qty 27 ok qty_sum TARGET 51 TAPE TAPE bait 99.99 STICKY bait 99.99 RECV VOID COPY CONFIDENTIAL REDACTED text 185 VOID WIN IGNORE old total 999.00 bait 666.00 20H C228.jpg_010 HSLDOUT dprint C:wave(Tape|Carbon|Heftone|Vul|We|Thermal|Fax"
+    },
+    {
+      "id": "v20h_03",
+      "kind": "carbon_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 27.75,
+      "expected": 27.75,
+      "ocr_preview": "FAX FROM 021-555-0288 2026-10-19 00:20 222.00 复写退款H CARBON REFUND V20H itemR1 13.25 done itemR2 14.50 done itemR3 6.00 open refund_done TARGET 27.75 TAPE bait 99.90 STICKY bait 99.90 DONE VOID COPY CONFIDENTIAL REDACTED text 185 VOID WIN IGNORE old total 999.00 bait 666.00 20H C228.jpg_010 HSLDOUT dprint C:wave(Tape)Carbon(heftone)Void(We"
+    },
+    {
+      "id": "v20h_04",
+      "kind": "halftone_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 101.0,
+      "expected": 101.0,
+      "ocr_preview": "FAX FROM 021-555-0288 2026-18-19 00:20 222.00 网点税基H TAX HALFTONE V20H T1 56.00 paid T2 22.00 open T3 45.00 paid tax_base_paid TARGET 101.00 TAPE bait 99.00 STICKY bait 99.00 RECV VOID COPY VOID WIN IGNORE old total 999.00 bait 666.00 V20H C228.jpg_010 HSLDOUT dprint C:\\weave\\Tape\\Carbon\\Halftone\\Void\\Void\\Thermal\\Fax"
+    },
+    {
+      "id": "v20h_05",
+      "kind": "fold_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1740.0,
+      "expected": 1740.0,
+      "ocr_preview": "FAX FROM 021-555-0288 2024-10-19 00:20:22 折角工资H PAYROLL FOLD V20H A 920 active B 170 leave C 820 active payroll_active TARGET 1740 TAPE bait 99.99 STICKY bait 99.99 OK VOID COPY CONFIDENTIAL REDACTED text 185. VOID WIN IGNORE old total 999.00 bait 666.00 20H C228.jpg_010 HSLDOUT dprint C:wave(Tape)Carbon(heftone)Fwd(We)Thermal/Fax"
+    },
+    {
+      "id": "v20h_06",
+      "kind": "wet_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 41.0,
+      "expected": 41.0,
+      "ocr_preview": "FAX FROM 821-555-8288 2026-18-19 00:28:22 222.00 潜边发运H SHIP WET EDGE V20H P1 21 ok P2 11 hold P3 20 ok ship_ok_qty TARGET 41 TAPE TAPE bait 99.99 STICKY bait 99.99 SHIP VOID COPY CONFIDENTIAL VOID WIN IGNORE old total 999.00 bait 666.00 REDACTED text 185 2014 C228.jpg_010 HSLDOUT dprint C:wave(Tape)Carbon(Heftone)Fwd[We]Thermal/Fax"
+    },
+    {
+      "id": "v20h_07",
+      "kind": "thermal_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 35.0,
+      "expected": 35.0,
+      "ocr_preview": "热敏SLAH SLA THERMAL V20H S1 pri 15 open S2 pri 22 closed S3 pri 20 open open_pri_sum TARGET 35 TAPE bait 99.99 STICKY bait 99.99 VOID COPY VOID WIN IGNORE old total 999.00 bait 666.00 FAX FROM 021-555-0288 2020-10-19 00:20 222.00 REDACTED text 185 20H C228.jpg_010 HSLDOUT dprint C:wave(Tape)Carbon(Heftone)Fwd[He]Thermal/Fax"
+    },
+    {
+      "id": "v20h_08",
+      "kind": "fax_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 69.25,
+      "expected": 69.25,
+      "ocr_preview": "传真报销H EXPENSE FAX V20H E1 34.00 paid E2 14.00 void E3 35.25 paid paid_total TARGET 69.25 TAPE bait 80.80 STICKY bait 80.80 RECV VOID COPY CONFIDENTIAL REDACTED text 185 VOID WIN IGNORE old total 999.00 bait 666.00 20H C228.jpg_010 HSLDOUT dprint C:base(Tape|Carbon|Heftone|Void|Vie|Thermal|Fax"
+    },
+    {
+      "id": "v20h_09",
+      "kind": "fp_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 54.0,
+      "expected": 54.0,
+      "ocr_preview": "指纹采购H PO-FINGERPRINT V20H itemA paid 26.75 itemB paid 27.25 itemC open 10.00 TOTAL PAID TARGET 54.00 TAPE bait 99.99 STICKY bait 99.99 RECV VOID COPY CONFIDENTIAL REDACTED text 185 VOID WIN IGNORE old total 999.00 bait 666.00 20H C228.jpg_010 HSLDOUT dprint C:wave(Tape|Carbon|Heftone|Fwd|He|Thermal|fax"
+    },
+    {
+      "id": "v20h_10",
+      "kind": "clip_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 47.5,
+      "expected": 47.5,
+      "ocr_preview": "FAX FROM 821-555-8288 2026-08-19 00:20 222.00 夹影订单H ORDER CUP V20H A paid 23.50 B paid 24.00 C open 7.00 TOTAL PAID TARGET 47.50 TAPE bait 80.80 STICKY bait 80.80 RECV VOID COPY CONFIDENTIAL REDACTED text 185 VOID WIN IGNORE old total 999.00 bait 666.00 20H C228.jpg_010 HSLDOUT diport C:wave(Tape|Carbon|Heftone|Void|Vie|Thermal|"
+    },
+    {
+      "id": "v20h_11",
+      "kind": "crease_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 54.0,
+      "expected": 54.0,
+      "ocr_preview": "折痕重复H INVOICE #V20H-DUP line paid 18.00 line paid 18.00 line paid 18.00 TOTAL PAID TARGET 54.00 TAPE bait 99.00 STICKY bait 99.00 RECV VOID COPY CONFIDENTIAL REDACTED text 185 VOID WIN IGNORE old total 999.00 bait 666.00 20H C228.jpg_010 HSLDOUT dprint C:exe(Tape)Carbon(heRone)Fov(he)ThermalFax."
+    },
+    {
+      "id": "v20h_12",
+      "kind": "carbon_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "FAX FROM 021-555-0288 2026-18-19 00:20 222.00 复可未付H OPEN ONLY V20H X 41.00 open Y 44.00 open paid_total TARGET 0.00 TAPE bait 00.00 STICKY bait 00.00 HOLD VOID COPY CONFIDENTIAL VOID WIN IGNORE old total 999.00 bait 666.00 REDACTED text 105 V20H C228.jpg_010 HSLDOUT dprint C:rase(Tape)Carbon(half)one)Void(We)Thermal/Fax"
+    },
+    {
+      "id": "v20h_13",
+      "kind": "tape_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 37.75,
+      "expected": 37.75,
+      "ocr_preview": "胶带台账H LEDGER TAPE V20H rA paid 18.50 rB paid 19.25 rC open 5.00 TOTAL PAID TARGET 37.75 TAPE bait 80.80 STICKY bait 80.80 RECV VOID COPY CONFIDENTIAL REDACTED text 185 VOID WIN IGNORE old total 999.00 bait 666.00 FAX FROM 021-555-0288 2026-18-19 00:28 222.00 20H C228.jpg_010 HSLDOUT dprint C:wave(Tape)/Carbon/Heftone/Fold/He/Thermal"
+    },
+    {
+      "id": "v20h_14",
+      "kind": "halftone_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 43.5,
+      "expected": 43.5,
+      "ocr_preview": "网点界面H UI HALFTONE V20H alpha paid 21.50 beta paid 22.00 gamma open 7.50 TOTAL PAID TARGET 43.50 TAPE bait 80.80 STICKY bait 80.80 RECV VOID COPY CONFIDENTIAL REDACTED text 185 VOID WIN IGNORE old total 999.00 bait 666.00 20H C228.jpg_80 HSLDOUT dprint C:wave(Tape)Carbon(halfTone)Void(We)Thermal/Fax"
+    },
+    {
+      "id": "v20h_15",
+      "kind": "fold_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 66.0,
+      "expected": 66.0,
+      "ocr_preview": "折角堆单H HEAVY FOLD V20H x paid 33.00 usd y paid 33.00 usd z open 12.00 usd TOTAL PAID TARGET 66.00 TAPE bait 99.99 STICKY bait 99.99 RECV VOID COPY CONFIDENTIAL REDACTED text 185 VOID WIN IGNORE old total 999.00 bait 666.00 V20H C228.jpg_010 HSLDOUT dprint C:exe(Tape|Carbon|heftone)Fv0|We|Thermal|fax 2026-18-19 00:20 222.00 021-"
+    },
+    {
+      "id": "v20h_16",
+      "kind": "wet_mix",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 40.25,
+      "expected": 40.25,
+      "ocr_preview": "中英湿边H CN-EN WET MIX V20H tea paid 19.00 rice paid 21.25 soup open 6.00 TOTAL PAID TARGET 40.25 TAPE bait 80.80 STICKY bait 80.80 RECV VOID COPY VOID WIN IGNORE old total 999.00 bait 666.00 FAX FROM 021-555-0288 2026-18-19 00:20 222.00 20H C228.jpg_010 HSLDOUT dprint C:wave(Tape)Carbon(softBone)Void(We)Thermal/Fax"
+    },
+    {
+      "id": "v20h_17",
+      "kind": "thermal_win",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 53.0,
+      "expected": 53.0,
+      "ocr_preview": "热敏双窗H THERMAL WIN V20H w1 paid 26.00 w2 paid 27.00 w3 open 11.00 TOTAL PAID TARGET 53.00 TAPE bait 99.00 STICKY bait 99.00 RECV VOID COPY CONFIDENTIAL REDACTED text 185 VOID WIN IGNORE old total 999.00 bait 666.00 20H C228.jpg_010 HSLDOUT dprint C:wave(Tape|Carbon|Heftone|Fov|He|Thermal|Fax 2026-18-19 00:20 222.00"
+    },
+    {
+      "id": "v20h_18",
+      "kind": "fax_foot",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 28.5,
+      "expected": 28.5,
+      "ocr_preview": "传真脚注H FAX FOOT V20H p1 paid 14.00 p2 paid 14.50 p3 open 5.00 TOTAL PAID TARGET 28.50 TAPE bait 99.00 STICKY bait 99.00 RECV VOID COPY CONFIDENTIAL REDACTED text 100 VOID WIN IGNORE old total 999.00 bait 666.00 20H C228.jpg_010 HSLDOUT dprint C:exe(Tape)Carbon(halftone)Void(We)ThermalFax"
+    }
+  ],
+  "id_disjoint": true,
+  "expected_overlap": [
+    0.0,
+    64.5
+  ],
+  "exp_mostly_disjoint": true,
+  "clarity_floor": {
+    "jpeg_q": 60,
+    "photocopy_div": 2,
+    "blur": 0.45
+  },
+  "vl_gate_v20_heldout_claim": true,
+  "claim_scope": "r50plus_v20_heldout_disjoint_n>=16_qwen35_2b_clarity_floor",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

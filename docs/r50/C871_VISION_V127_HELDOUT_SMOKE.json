@@ -1,0 +1,237 @@
+{
+  "cycle": "C871",
+  "theme": "vision_v127_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T09:37:55+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v127h_01",
+      "kind": "ashpeak_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1188.75,
+      "expected": 1188.75,
+      "ocr_preview": "ashpeak ASHPEAK GRAIN RECV V127H a paid 588.00 b paid 600.75 c open 481.00 TOTAL PAID TARGET 1188.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID REC COPY"
+    },
+    {
+      "id": "v127h_02",
+      "kind": "cedarpeak_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1120.0,
+      "expected": 1120.0,
+      "ocr_preview": "cedarpeak WH CEDARPEAK BIN V127H SKU1 qty 550 ok SKU2 qty 470 hold SKU3 qty 570 ok qty_sum TARGET 1120 VOID WIN IGNORE old total 889.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V127H CBT1 clarity floor prog_qf2 phone2 helixout"
+    },
+    {
+      "id": "v127h_03",
+      "kind": "dawnpeak_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1105.5,
+      "expected": 1105.5,
+      "ocr_preview": "dawnpeak DAWNPEAK PATCH REFUND V127H itemR1 546.00 done itemR2 559.50 done itemR3 469.00 open refund_done TARGET 1105.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE DONE VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 V127H CBT1 clarity floor preg_q02 phone2 headset"
+    },
+    {
+      "id": "v127h_04",
+      "kind": "elmpeak_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1338.0,
+      "expected": 1338.0,
+      "ocr_preview": "elmpeak ELMPEAK TAX SLIP V127H base 661.00 paid addon 677.00 paid skip 510.00 tax_base_paid TARGET 1338.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v127h_05",
+      "kind": "fernpeak_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1420.0,
+      "expected": 1420.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 fernpeak FERNPEAK PAYROLL V127H empA 702.00 active empB 718.00 active empC 505.00 leave payroll_active TARGET 1420.00 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V127H CET1 clarity floor prog_012 photo2 heatmap"
+    },
+    {
+      "id": "v127h_06",
+      "kind": "glenpeak_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1006.0,
+      "expected": 1006.0,
+      "ocr_preview": "glenpeak GLENPEAK SHIP DOCK V127H box1 496 ok box2 510 ok box3 474 hold ship_ok TARGET 1006 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP VOID COPY V127H CET1 cavity floor preg_q02 photo2 heatmap"
+    },
+    {
+      "id": "v127h_07",
+      "kind": "hazepeak_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "hazepeak HAZEPEAK SLA CARD V127H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00"
+    },
+    {
+      "id": "v127h_08",
+      "kind": "inkpeak_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1165.75,
+      "expected": 1165.75,
+      "ocr_preview": "@#KPEAK EXPENSE V127H e1 572.00 e2 593.75 e3 481.00 void exp_sum TARGET 1165.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 55.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID EXP COPY bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait"
+    },
+    {
+      "id": "v127h_09",
+      "kind": "jadepeak_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1188.0,
+      "expected": 1188.0,
+      "ocr_preview": "jadepeak JADEPEAK PO SHEET V127H line1 631.00 open line2 557.00 open line3 478.00 closed po_open TARGET 1188.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 55.00 IGNORE DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v127h_10",
+      "kind": "knotpeak_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1224.0,
+      "expected": 1224.0,
+      "ocr_preview": "knotpeak KNOTPEAK ORDER V127H skuA 619.00 paid skuB 605.00 paid skuC 476.00 due order_paid TARGET 1224.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v127h_11",
+      "kind": "lakepeak_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakepeak LAKEPEAK DUP MARK V127H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v127h_12",
+      "kind": "mosspeak_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mosspeak MOSSPEAK AIR ZERO V127H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v127h_13",
+      "kind": "netherpeak_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1323.5,
+      "expected": 1323.5,
+      "ocr_preview": "netherpeak NETHERPEAK LEDGER V127H dr 654.00 cr 669.50 adj 491.00 ledger_net TARGET 1323.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v127h_14",
+      "kind": "oakpeak_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakpeak OAKPEAK UI SCAN V127H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY V127H CBT1 cavity floor prog_02 photo2 headset"
+    },
+    {
+      "id": "v127h_15",
+      "kind": "pinepeak_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 681.0,
+      "expected": 681.0,
+      "ocr_preview": "pinepeak PINEPEAK STACK V127H p1 342 p2 339 p3 334 stack_count TARGET 681 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK bait 88.00 COPY bait 88.00"
+    },
+    {
+      "id": "v127h_16",
+      "kind": "quillpeak_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 710.0,
+      "expected": 710.0,
+      "ocr_preview": "quillpeak QUILLPEAK FAX V127H pgA 358 pgB 352 pgC 340 drop fax_pages TARGET 710 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v127h_17",
+      "kind": "reedpeak_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedpeak REEDPEAK GLARE V127H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY"
+    },
+    {
+      "id": "v127h_18",
+      "kind": "stonepeak_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 730.0,
+      "expected": 730.0,
+      "ocr_preview": "stonepeak STONEPEAK TAB INDEX V127H tabA 368 tabB 362 tabC 341 tab_index TARGET 730 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE tab 55.00 VOID COPY tab 55.00"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v127_heldout_claim": true,
+  "claim_scope": "r50plus_v127_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

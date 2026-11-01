@@ -1,0 +1,237 @@
+{
+  "cycle": "C739",
+  "theme": "vision_v105_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T05:43:39+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7310.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v105h_01",
+      "kind": "kelpcreek_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 800.75,
+      "expected": 800.75,
+      "ocr_preview": "kelpcreek KELP CREEK GRAIN RECEV V105H a paid 394.00 b paid 406.75 c open 287.00 TOTAL PAID TARGET 800.75 DRAFT DRAFT DRAFT DRAFT VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID "
+    },
+    {
+      "id": "v105h_02",
+      "kind": "lunargrove_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 738.0,
+      "expected": 738.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 lunargrove WH LUNARGROVE BIN V105H SKU1 qty 349 ok SKU2 qty 269 hold SKU3 qty 389 ok qty_sum TARGET 738 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v105h_03",
+      "kind": "marlincreek_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 717.5,
+      "expected": 717.5,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 marlincreek MARLINCREEK PATCH REFUND V105H itemR1 352.00 done itemR2 365.50 done itemR3 275.00 open refund_done TARGET 717.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE DONE VOID COPY bait 55.00"
+    },
+    {
+      "id": "v105h_04",
+      "kind": "nimbusgrove_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 950.0,
+      "expected": 950.0,
+      "ocr_preview": "nimbusgrove NIMBUSGROVE TAX SLIP V105H base 467.00 paid addon 483.00 paid skip 316.00 tax_base_paid TARGET 950.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 98.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v105h_05",
+      "kind": "ottercreek_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1032.0,
+      "expected": 1032.0,
+      "ocr_preview": "ottercreek OTTERCREEK PAYROLL V105H empA 508.00 active empB 524.00 active empC 311.00 leave payroll_active TARGET 1032.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE PAY VOID COPY"
+    },
+    {
+      "id": "v105h_06",
+      "kind": "prismgrove_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 618.0,
+      "expected": 618.0,
+      "ocr_preview": "prismgrove PRISMGROVE SHIP DOCK V105H box1 302 ok box2 316 ok box3 280 hold ship_ok TARGET 618 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP VOID COPY"
+    },
+    {
+      "id": "v105h_07",
+      "kind": "quarrycreek_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "quarrycreek QUARRYCREEK SLA CARD V105H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 DRAFT DRAFT DRAFT DRAFT STICKY sla 00.00 IGNORE VOID COPY OKP sla 00.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v105h_08",
+      "kind": "reefgrove_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 777.75,
+      "expected": 777.75,
+      "ocr_preview": "reefgrove REEFGROVE EXPENSE V105H e1 378.00 e2 399.75 e3 287.00 void exp_sum TARGET 777.75 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID EXP COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v105h_09",
+      "kind": "siltcreek_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 784.0,
+      "expected": 784.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 siltcreek SILTCREEK PO SHEET V105H line1 398.00 open line2 386.00 open line3 290.00 closed po_open TARGET 784.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v105h_10",
+      "kind": "torngrove_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 836.0,
+      "expected": 836.0,
+      "ocr_preview": "torngrove TORNGROVE ORDER V105H skuA 425.00 paid skuB 411.00 paid skuC 282.00 due order_paid TARGET 836.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v105h_11",
+      "kind": "uplandcreek_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "uplandcreek UPLANDCREEK DUP MARK V105H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v105h_12",
+      "kind": "valegrove_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "valegrove VALEGROVE AIR ZERO V105H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID ZERO COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 SCAN DESK V43H PART 222.00 PAGE 01 1000x C750 cavity floor preg_012 photo2 metadata"
+    },
+    {
+      "id": "v105h_13",
+      "kind": "weldcreek_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 935.5,
+      "expected": 935.5,
+      "ocr_preview": "weldcreek WELDCREEK LEDGER V105H dr 460.00 cr 475.50 adj 297.00 ledger_net TARGET 935.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v105h_14",
+      "kind": "xenongrove_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "xenongrove XENONGROVE UI SCAN V105H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY"
+    },
+    {
+      "id": "v105h_15",
+      "kind": "yelkcreek_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 373.0,
+      "expected": 373.0,
+      "ocr_preview": "yelkcreek YELKCREEK STACK V105H p1 188 p2 185 p3 180 stack_count TARGET 373 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY"
+    },
+    {
+      "id": "v105h_16",
+      "kind": "zestgrove_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 402.0,
+      "expected": 402.0,
+      "ocr_preview": "zestgrove ZESTGROVE FAX V105H pgA 204 pgB 198 pgC 186 drop fax_pages TARGET 402 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX VOID COPY C750x C750 clarity floor pag_q02 phone2 handset"
+    },
+    {
+      "id": "v105h_17",
+      "kind": "archcreek_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "archcreek ARCHCREEK GLARE V105H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v105h_18",
+      "kind": "bloomgrove_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 422.0,
+      "expected": 422.0,
+      "ocr_preview": "bloomgrove BLOOMGROVE TAB INDEX V105H tabA 214 tabB 208 tabC 187 tab_index TARGET 422 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tab 99.99 IGNORE tab 99.99 tab 99.99 tab 99.99 tab 99.99 tab 99.99 tab 99.99 tab 99.99 tab 99.99 tab 99.99 tab 99.99 tab 99.99 tab 99.99 tab"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v105_heldout_claim": true,
+  "claim_scope": "r50plus_v105_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

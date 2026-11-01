@@ -1,0 +1,14 @@
+{
+  "kind": "vision_gate_v12_claim",
+  "timestamp": "2026-10-19T06:24:55+08:00",
+  "vl_gate_v12_claim": true,
+  "rate": 0.6111,
+  "n": 18,
+  "n_ok": 11,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v12_torn_barcode_persp_qr_thermal_shadow_jpeg_ghost_n>=16_c162_parse_qwen35_2b_c177",
+  "gate2_3_untouched": true,
+  "v0_v11_untouched": true,
+  "gen11": "HOLD",
+  "cycle": "C177"
+}

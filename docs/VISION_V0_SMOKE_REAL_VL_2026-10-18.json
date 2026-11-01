@@ -1,0 +1,59 @@
+{
+  "kind": "vision_v0_smoke_real_vl",
+  "product": "蚁算-视",
+  "timestamp": "2026-10-18T20:41:01+08:00",
+  "gate": "0.6",
+  "weights_path": "E:/envolution/models/Qwen3.5-2B",
+  "fixture_dir": "E:/envolution/evo/office/fixtures/vision_images_real",
+  "weights_local": true,
+  "synthetic_not_vl": false,
+  "drawn_office_fixtures": true,
+  "n": 4,
+  "n_ok": 4,
+  "rate": 1.0,
+  "gate_pass": true,
+  "vl_gate_claim": false,
+  "rows": [
+    {
+      "image": "office-caption-001.png",
+      "task": "caption",
+      "gold": "blue office desk with laptop",
+      "pred": "A blue office desk with a laptop.",
+      "ok": true,
+      "error": null,
+      "backend": "real_vl",
+      "synthetic_not_vl": false
+    },
+    {
+      "image": "office-ocr-001.png",
+      "task": "ocr",
+      "gold": "INVOICE-7781 TOTAL 128.50",
+      "pred": "INVOICE-7781 TOTAL 128.50 Paid",
+      "ok": true,
+      "error": null,
+      "backend": "real_vl",
+      "synthetic_not_vl": false
+    },
+    {
+      "image": "office-table-001.png",
+      "task": "table_cells",
+      "gold": "sku,qty,price\nA1,2,10\nB2,1,7",
+      "pred": "sku,qty,price A1,2,10 B2,1,7",
+      "ok": true,
+      "error": null,
+      "backend": "real_vl",
+      "synthetic_not_vl": false
+    },
+    {
+      "image": "office-ui-001.png",
+      "task": "caption",
+      "gold": "settings screen dark mode toggle on",
+      "pred": "A dark interface displays a green toggle switch labeled \"Dark mode\" with \"ON\" illuminated, indicating the feature is active.",
+      "ok": true,
+      "error": null,
+      "backend": "real_vl",
+      "synthetic_not_vl": false
+    }
+  ],
+  "notes": "Honest V0 smoke on drawn office PNGs matching gold. Does NOT mint Epoch D gate claim. Gate2/3 untouched."
+}

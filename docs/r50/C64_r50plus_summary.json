@@ -1,0 +1,35 @@
+{
+  "kind": "r50plus_summary",
+  "timestamp": "2026-10-18T22:56:24+08:00",
+  "c58_rate": 1.0,
+  "c58_flipped": [
+    "office-caption-002",
+    "office-hard-ui-001"
+  ],
+  "c59_n": 8,
+  "adapter_trained": true,
+  "absorb_steps": 24,
+  "absorb_loss": 6.48193359375,
+  "gen11_prep": true,
+  "replace_score": 1.0,
+  "c63_rate": 1.0,
+  "c63_claim": true,
+  "scorecard": {
+    "timestamp": "2026-10-18T22:56:24+08:00",
+    "cycle": "R50+",
+    "beat_agent": 0.88,
+    "dynamic": 0.97,
+    "multimodal": 1.0,
+    "compose": 1.0,
+    "replace_agent": 1.0,
+    "vision_v1_rate": 0.8333,
+    "vision_v1_softmatch_rate": 1.0,
+    "vision_v2_rate": 1.0,
+    "vision_v2_claim": true,
+    "adapter_trained": true,
+    "gen11_seal_opened": false,
+    "gate2_3_untouched": true,
+    "composite": 0.97
+  },
+  "mm_score": 1.0
+}

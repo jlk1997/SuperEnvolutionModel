@@ -1,0 +1,46 @@
+{
+  "kind": "above_v025_micro_status_final",
+  "product": "蚁算模型",
+  "timestamp": "2026-10-18T20:37:44+08:00",
+  "config": "configs/office_above_v025_micro.yaml",
+  "write_gate": false,
+  "gate2_claim_untouched": true,
+  "finished": true,
+  "run_dir": "runs/office_above_v025_micro_s0/20261018-203423",
+  "summary": "runs/office_above_v025_micro_s0/20261018-203423/summary.json",
+  "log": "runs/logs/above_v025_micro_stdout.log",
+  "judge": {
+    "pass": false,
+    "checks": {
+      "present": true,
+      "beat_agent": false,
+      "above_schedules": true,
+      "forget": true,
+      "safety": true
+    },
+    "dual_rate": 1.0,
+    "agent_rate": 0.5,
+    "ci": {
+      "n": 2,
+      "mean": 0.5,
+      "low": 0.0,
+      "high": 1.0,
+      "excludes_zero": false
+    },
+    "power": {
+      "n": 2,
+      "power": 0.1,
+      "required_n": 800
+    }
+  },
+  "rates": {
+    "agent": 0.5,
+    "oracle": 0.5,
+    "shift": 0.0,
+    "continual": 0.0,
+    "dual": 1.0,
+    "dual_agent": 0.5,
+    "continual_sft": 0.0
+  },
+  "notes": "GPU micro finished. write_gate=false; does NOT mint Gate2. above_schedules/forget/safety green on this tiny board; beat_agent false (cost/quality branch). Evidence already in ABOVE_SCHEDULES_THICKEN_V025."
+}

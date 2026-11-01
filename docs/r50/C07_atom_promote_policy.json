@@ -1,0 +1,40 @@
+{
+  "kind": "atom_promote_policy",
+  "timestamp": "2026-10-18T22:30:41+08:00",
+  "levels": [
+    "assist",
+    "shadow",
+    "auto"
+  ],
+  "rules": [
+    {
+      "from": "assist",
+      "to": "shadow",
+      "when": "bare>=0.6 n>=8 safety"
+    },
+    {
+      "from": "shadow",
+      "to": "auto",
+      "when": "bare>=0.8 n>=20 rollback"
+    },
+    {
+      "demote": true,
+      "when": "fail>0.3 or !safety"
+    }
+  ],
+  "families": {
+    "table": {
+      "level": "auto"
+    },
+    "report": {
+      "level": "auto"
+    },
+    "file": {
+      "level": "shadow"
+    },
+    "shell": {
+      "level": "shadow"
+    }
+  },
+  "innovation": "Assist→shadow→auto with demote"
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "vision_gate_v3_heldout_claim",
+  "timestamp": "2026-10-19T00:00:05+08:00",
+  "vl_gate_v3_heldout_claim": true,
+  "rate": 1.0,
+  "n": 9,
+  "n_ok": 9,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v3_heldout_harder_drawn_n>=8_softmatch_qwen35_2b_bare",
+  "backend": "bare",
+  "gate2_3_untouched": true,
+  "v1_v2_v3_dense_untouched": true
+}

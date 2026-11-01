@@ -1,0 +1,42 @@
+# Gate3 gen7 — atelier + foundry @ difficulty 2.
+# Schema-randomized DEV table SFT + atoms both + table overweight. Pre-seal commit required.
+# Gate 0.6. 1.5B. No VL. Never reopen burned packs.
+run_name: office_gate3_gen7
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 0
+actor: model
+heldout_generation: gen7
+open_heldout: true
+reason: "gen7 rules+pack committed pre-seal; atelier+foundry d=2 schema-random table SFT"
+heldout_items: 4
+dev_items: 24
+dev_exam_items: 6
+dev_difficulties: [2, 3]
+dev_packs: [orders, expenses]
+dev_family_schedule: [table, table, table, report, file]
+schema_random_table_sft: true
+schema_random_n: 24
+schema_random_difficulties: [1, 2, 3]
+sft_rounds: 4
+sft_epochs: 4
+atom_sft_lr: 0.001
+atom_adapter_sft: true
+difficulty: 2
+prefer_atoms: true
+trained_prefer_atoms: true
+write_gate: true
+seal_path: runs/heldout_seal_gen7.json
+evidence_path: runs/office_gate3_gen7_judge.json
+families: [table, report, file]
+dev_families: [table, report, file]
+max_steps: 6
+exec_timeout: 12
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: full
+max_seq_len: 512
+max_new_code: 220
+outer_lr: 0.0005
+temperature: 0.0
+tool_call_primer: true

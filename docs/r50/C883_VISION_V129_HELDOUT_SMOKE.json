@@ -1,0 +1,237 @@
+{
+  "cycle": "C883",
+  "theme": "vision_v129_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T09:57:19+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v129h_01",
+      "kind": "ashwich_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1216.75,
+      "expected": 1216.75,
+      "ocr_preview": "ashwich ASHWICH GRAIN RECV V129H a paid 602.00 b paid 614.75 c open 495.00 TOTAL PAID TARGET 1216.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 60.00 IGNORE REC VOID COPY bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00"
+    },
+    {
+      "id": "v129h_02",
+      "kind": "cedarwich_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1160.0,
+      "expected": 1160.0,
+      "ocr_preview": "cedarwich WH CEDARWICH BIN V129H SKU1 qty 570 ok SKU2 qty 490 hold SKU3 qty 590 ok qty_sum TARGET 1160 DRAFT DRAFT DRAFT DRAFT VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v129h_03",
+      "kind": "dawnwich_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1133.5,
+      "expected": 1133.5,
+      "ocr_preview": "dawnwich DAWNWICH PATCH REFUND V129H itemR1 560.00 done itemR2 573.50 done itemR3 483.00 open refund_done TARGET 1133.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v129h_04",
+      "kind": "elmwich_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1366.0,
+      "expected": 1366.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 elmwich ELMWICH TAX SLIP V129H base 675.00 paid addon 691.00 paid skip 524.00 tax_base_paid TARGET 1366.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v129h_05",
+      "kind": "fernwich_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1448.0,
+      "expected": 1448.0,
+      "ocr_preview": "SCAN DESK V42H BAST 222.00 PAGE 01 fernwich FERNWICH PAYROLL V129H empA 716.00 active empB 732.00 active empC 519.00 leave payroll_active TARGET 1448.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v129h_06",
+      "kind": "glenwich_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1034.0,
+      "expected": 1034.0,
+      "ocr_preview": "glenwich GLENWICH SHIP DOCK V129H box1 510 ok box2 524 ok box3 488 hold ship_ok TARGET 1034 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP VOID COPY V129H C803 clarity floor preg_qf2 photo2 metadata SCAN DESK V43H bait 222.00 PAGE 01 box1 510 ok box2 524 ok box3 488 hold ship_ok TARGET 1034 VOI"
+    },
+    {
+      "id": "v129h_07",
+      "kind": "hazewich_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "hazewich HAZEWICH SLA CARD V129H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE COPY"
+    },
+    {
+      "id": "v129h_08",
+      "kind": "inkwich_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1193.75,
+      "expected": 1193.75,
+      "ocr_preview": "inkwich #KWICH EXPENSE V129H e1 586.00 e2 607.75 e3 495.00 void exp_sum TARGET 1193.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v129h_09",
+      "kind": "jadewich_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1216.0,
+      "expected": 1216.0,
+      "ocr_preview": "jadewich JADEWICH PO SHEET V129H line1 645.00 open line2 571.00 open line3 492.00 closed po_open TARGET 1216.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO VOID COPY"
+    },
+    {
+      "id": "v129h_10",
+      "kind": "knotwich_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1252.0,
+      "expected": 1252.0,
+      "ocr_preview": "knotwich KNOTWICH ORDER V129H skuA 633.00 paid skuB 619.00 paid skuC 490.00 due order_paid TARGET 1252.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY V129H C853 clarity floor preg_qf2 photo2 metadata"
+    },
+    {
+      "id": "v129h_11",
+      "kind": "lakewich_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakewich LAKEWICH DUP MARK V129H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v129h_12",
+      "kind": "mosswich_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mosswich MOSSWICH AIR ZERO V129H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 V129H C805 cavity floor prog_012 phone2 handset SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v129h_13",
+      "kind": "netherwich_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1351.5,
+      "expected": 1351.5,
+      "ocr_preview": "netherwich NETHERWICH LEDGER V129H dr 668.00 cr 683.50 adj 505.00 ledger_net TARGET 1351.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v129h_14",
+      "kind": "oakwich_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakwich OAKWICH UI SCAN V129H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY V129H C853 clarity floor preg_u02 photo2 metadata"
+    },
+    {
+      "id": "v129h_15",
+      "kind": "pinewich_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 709.0,
+      "expected": 709.0,
+      "ocr_preview": "pinewich PINEWICH STACK V129H p1 356 p2 353 p3 348 stack_count TARGET 709 OKP bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID STK COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V129H C853 clarity floor prog_qf2 phone2 headset SCAN DESK V43H BAS 222.00 PAGE 01"
+    },
+    {
+      "id": "v129h_16",
+      "kind": "quillwich_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 738.0,
+      "expected": 738.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 quillwich QUILLWICH FAX V129H pgA 372 pgB 366 pgC 354 drop fax_pages TARGET 738 DRAFT DRAFT DRAFT DRAFT DRAFT VOID VOID VOID WIN IGNORE old total 888.00 do not parse fax 555.00 bait 555.00 copy fax copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy co"
+    },
+    {
+      "id": "v129h_17",
+      "kind": "reedwich_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedwich REEDWICH GLARE V129H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY V129H C803 clarity floor preg_gl2 photo2 metadata"
+    },
+    {
+      "id": "v129h_18",
+      "kind": "stonewich_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 758.0,
+      "expected": 758.0,
+      "ocr_preview": "stonewich STONEWICH TAB INDEX V129H tabA 382 tabB 376 tabC 355 tab_index TARGET 758 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v129_heldout_claim": true,
+  "claim_scope": "r50plus_v129_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

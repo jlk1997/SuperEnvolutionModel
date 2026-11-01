@@ -1,0 +1,266 @@
+{
+  "cycle": "C233",
+  "theme": "business_loop_week_multimetric_u2c",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T08:40:46+08:00",
+  "week_sandbox": {
+    "n_days": 7,
+    "n_ok": 7,
+    "rate": 1.0,
+    "pass": true,
+    "days": [
+      {
+        "day": "D0",
+        "date": "2026-10-13",
+        "paid_orders": 46.5,
+        "paid_expenses": 152.0,
+        "qty_ok": 46.0,
+        "ok": true,
+        "expect_paid_orders": 46.5,
+        "expect_paid_exp": 152.0,
+        "expect_qty_ok": 46
+      },
+      {
+        "day": "D1",
+        "date": "2026-10-14",
+        "paid_orders": 64.0,
+        "paid_expenses": 126.0,
+        "qty_ok": 42.0,
+        "ok": true,
+        "expect_paid_orders": 64.0,
+        "expect_paid_exp": 126.0,
+        "expect_qty_ok": 42
+      },
+      {
+        "day": "D2",
+        "date": "2026-10-15",
+        "paid_orders": 53.0,
+        "paid_expenses": 182.0,
+        "qty_ok": 40.0,
+        "ok": true,
+        "expect_paid_orders": 53.0,
+        "expect_paid_exp": 182.0,
+        "expect_qty_ok": 40
+      },
+      {
+        "day": "D3",
+        "date": "2026-10-16",
+        "paid_orders": 55.0,
+        "paid_expenses": 155.5,
+        "qty_ok": 48.0,
+        "ok": true,
+        "expect_paid_orders": 55.0,
+        "expect_paid_exp": 155.5,
+        "expect_qty_ok": 48
+      },
+      {
+        "day": "D4",
+        "date": "2026-10-17",
+        "paid_orders": 50.5,
+        "paid_expenses": 202.0,
+        "qty_ok": 42.0,
+        "ok": true,
+        "expect_paid_orders": 50.5,
+        "expect_paid_exp": 202.0,
+        "expect_qty_ok": 42
+      },
+      {
+        "day": "D5",
+        "date": "2026-10-18",
+        "paid_orders": 82.5,
+        "paid_expenses": 219.0,
+        "qty_ok": 37.0,
+        "ok": true,
+        "expect_paid_orders": 82.5,
+        "expect_paid_exp": 219.0,
+        "expect_qty_ok": 37
+      },
+      {
+        "day": "D6",
+        "date": "2026-10-19",
+        "paid_orders": 65.0,
+        "paid_expenses": 193.0,
+        "qty_ok": 39.0,
+        "ok": true,
+        "expect_paid_orders": 65.0,
+        "expect_paid_exp": 193.0,
+        "expect_qty_ok": 39
+      }
+    ],
+    "u2c_crystals": 7,
+    "u2c_crystallized": 7,
+    "sandbox": "runs/business_week_sandbox_c233"
+  },
+  "multi_metric": {
+    "n": 8,
+    "n_ok": 8,
+    "rate": 1.0,
+    "pass": true,
+    "cli_pass": true,
+    "rows": [
+      {
+        "id": "mm_paid",
+        "metric": "paid_total",
+        "expected": 97.5,
+        "got": 97.5,
+        "ok": true,
+        "cli_ok": true,
+        "gate": {
+          "value": 97.5,
+          "metric": "paid_total",
+          "source": "confidence_gated_metric",
+          "decision": "force_tool",
+          "tool_got": 97.5,
+          "model_guess": null,
+          "expected": 97.5,
+          "policy": "confidence_gated_metric_c210",
+          "expanded": true
+        }
+      },
+      {
+        "id": "mm_qty",
+        "metric": "qty_sum",
+        "expected": 82.0,
+        "got": 82.0,
+        "ok": true,
+        "cli_ok": true,
+        "gate": {
+          "value": 82.0,
+          "metric": "qty_sum",
+          "source": "confidence_gated_metric",
+          "decision": "force_tool",
+          "tool_got": 82.0,
+          "model_guess": null,
+          "expected": 82.0,
+          "policy": "confidence_gated_metric_c210",
+          "expanded": true
+        }
+      },
+      {
+        "id": "mm_refund",
+        "metric": "refund_done",
+        "expected": 46.75,
+        "got": 46.75,
+        "ok": true,
+        "cli_ok": true,
+        "gate": {
+          "value": 46.75,
+          "metric": "refund_done",
+          "source": "confidence_gated_metric",
+          "decision": "force_tool",
+          "tool_got": 46.75,
+          "model_guess": null,
+          "expected": 46.75,
+          "policy": "confidence_gated_metric_c210",
+          "expanded": true
+        }
+      },
+      {
+        "id": "mm_tax",
+        "metric": "tax_base_paid",
+        "expected": 153.0,
+        "got": 153.0,
+        "ok": true,
+        "cli_ok": true,
+        "gate": {
+          "value": 153.0,
+          "metric": "tax_base_paid",
+          "source": "confidence_gated_metric",
+          "decision": "force_tool",
+          "tool_got": 153.0,
+          "model_guess": null,
+          "expected": 153.0,
+          "policy": "confidence_gated_metric_c210",
+          "expanded": true
+        }
+      },
+      {
+        "id": "mm_pay",
+        "metric": "payroll_active",
+        "expected": 2550.0,
+        "got": 2550.0,
+        "ok": true,
+        "cli_ok": true,
+        "gate": {
+          "value": 2550.0,
+          "metric": "payroll_active",
+          "source": "confidence_gated_metric",
+          "decision": "force_tool",
+          "tool_got": 2550.0,
+          "model_guess": null,
+          "expected": 2550.0,
+          "policy": "confidence_gated_metric_c210",
+          "expanded": true
+        }
+      },
+      {
+        "id": "mm_ship",
+        "metric": "ship_ok_qty",
+        "expected": 67.0,
+        "got": 67.0,
+        "ok": true,
+        "cli_ok": true,
+        "gate": {
+          "value": 67.0,
+          "metric": "ship_ok_qty",
+          "source": "confidence_gated_metric",
+          "decision": "force_tool",
+          "tool_got": 67.0,
+          "model_guess": null,
+          "expected": 67.0,
+          "policy": "confidence_gated_metric_c210",
+          "expanded": true
+        }
+      },
+      {
+        "id": "mm_sla",
+        "metric": "open_pri_sum",
+        "expected": 57.0,
+        "got": 57.0,
+        "ok": true,
+        "cli_ok": true,
+        "gate": {
+          "value": 57.0,
+          "metric": "open_pri_sum",
+          "source": "confidence_gated_metric",
+          "decision": "force_tool",
+          "tool_got": 57.0,
+          "model_guess": null,
+          "expected": 57.0,
+          "policy": "confidence_gated_metric_c210",
+          "expanded": true
+        }
+      },
+      {
+        "id": "mm_zero",
+        "metric": "paid_total",
+        "expected": 0.0,
+        "got": 0.0,
+        "ok": true,
+        "cli_ok": true,
+        "gate": {
+          "value": 0.0,
+          "metric": "paid_total",
+          "source": "confidence_gated_metric",
+          "decision": "force_tool",
+          "tool_got": 0.0,
+          "model_guess": null,
+          "expected": 0.0,
+          "policy": "confidence_gated_metric_c210",
+          "expanded": true
+        }
+      }
+    ]
+  },
+  "u2c_pack": {
+    "path": "runs/u2c_crystal_c233/crystals.json",
+    "n": 7,
+    "crystallized": 7,
+    "rate": 1.0
+  },
+  "pass": true,
+  "claim": false,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "note": "C233 real business loop evidence; no VL claim"
+}

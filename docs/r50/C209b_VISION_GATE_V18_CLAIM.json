@@ -1,0 +1,14 @@
+{
+  "kind": "vision_gate_v18_claim",
+  "timestamp": "2026-10-19T07:33:54+08:00",
+  "vl_gate_v18_claim": true,
+  "rate": 0.6667,
+  "n": 18,
+  "n_ok": 12,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v18_bleach_halftone_crayon_thermal_punch_n>=16_c162_parse_qwen35_2b_c209",
+  "gate2_3_untouched": true,
+  "v0_v17_untouched": true,
+  "gen11": "HOLD",
+  "cycle": "C209"
+}

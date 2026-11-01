@@ -1,0 +1,237 @@
+{
+  "cycle": "C763",
+  "theme": "vision_v109_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T06:27:45+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7291.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v109h_01",
+      "kind": "falconcove_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 888.75,
+      "expected": 888.75,
+      "ocr_preview": "SCAN DESK V42H BAST 222.00 PAGE 01 falconcove FALCONCOVE GRAIN RECEV V109H a paid 438.00 b paid 450.75 c open 331.00 TOTAL PAID TARGET 888.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait"
+    },
+    {
+      "id": "v109h_02",
+      "kind": "glintcove_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 826.0,
+      "expected": 826.0,
+      "ocr_preview": "glintcove WH GLINTCOVE BIN V109H SKU1 qty 393 ok SKU2 qty 313 hold SKU3 qty 433 ok qty_sum TARGET 826 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY bait 88.00 bait 88.00 C783 clarity floor preg_qf2 photo2 metadata"
+    },
+    {
+      "id": "v109h_03",
+      "kind": "harborcove_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 805.5,
+      "expected": 805.5,
+      "ocr_preview": "harborcove HARBORCOVE PATCH REFUND V109H itemR1 396.00 done itemR2 409.50 done itemR3 319.00 open refund_done TARGET 805.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID DONE COPY"
+    },
+    {
+      "id": "v109h_04",
+      "kind": "isletcove_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1038.0,
+      "expected": 1038.0,
+      "ocr_preview": "isletcove ISLETCOVE TAX SLIP V109H base 511.00 paid addon 527.00 paid skip 360.00 tax_base_paid TARGET 1038.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 88.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v109h_05",
+      "kind": "jadecove_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1120.0,
+      "expected": 1120.0,
+      "ocr_preview": "jadecove JADECOVE PAYROLL V109H empA 552.00 active empB 568.00 active empC 355.00 leave payroll_active TARGET 1120.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE PAY VOID COPY bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55"
+    },
+    {
+      "id": "v109h_06",
+      "kind": "kelpcove_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 706.0,
+      "expected": 706.0,
+      "ocr_preview": "kelpcove KELP COVE SHIP DOCK V109H box1 346 ok box2 360 ok box3 324 hold ship_ok TARGET 706 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT DRAFT SHIP VOID COPY bait 88.00 bait 555.00 bait 88.00 bait 555.00 bait 88.00 bait 555.00 bait 88.00 bait 555.00 bait 88.00"
+    },
+    {
+      "id": "v109h_07",
+      "kind": "lanterncove_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "lanterncove LANTERNCOVE SLA CARD V109H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 55.00 IGNORE DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v109h_08",
+      "kind": "marlincove_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 865.75,
+      "expected": 865.75,
+      "ocr_preview": "SCAN DESK V43H bask 222.00 PAGE 01 marlincove MARLINCOVE EXPENSE V109H e1 422.00 e2 443.75 e3 331.00 void exp_sum TARGET 865.75 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 VOID COPY e100x C783 cavity floor preg_q02 photo2 metadata"
+    },
+    {
+      "id": "v109h_09",
+      "kind": "nectarcove_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 872.0,
+      "expected": 872.0,
+      "ocr_preview": "nectarcove NECTARCOVE PO SHEET V109H line1 442.00 open line2 430.00 open line3 334.00 closed po_open TARGET 872.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.0"
+    },
+    {
+      "id": "v109h_10",
+      "kind": "ottercove_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 924.0,
+      "expected": 924.0,
+      "ocr_preview": "ottercove OTTERCOVE ORDER V109H skuA 469.00 paid skuB 455.00 paid skuC 326.00 due order_paid TARGET 924.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v109h_11",
+      "kind": "prismcove_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "prismcove PRISMCOVE DUP MARK V109H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP VOID COPY"
+    },
+    {
+      "id": "v109h_12",
+      "kind": "quillcove_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "quillcove QUILLCOVE AIR ZERO V109H 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 0.00 IGNORE ZERO VOID COPY bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait"
+    },
+    {
+      "id": "v109h_13",
+      "kind": "reefcove_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1023.5,
+      "expected": 1023.5,
+      "ocr_preview": "reefcove REEFCOVE LEDGER V109H dr 504.00 cr 519.50 adj 341.00 ledger_net TARGET 1023.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v109h_14",
+      "kind": "stonecove_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "stonecove STONECOVE UI SCAN V109H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY"
+    },
+    {
+      "id": "v109h_15",
+      "kind": "tidecove_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 429.0,
+      "expected": 429.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 tide.cove TIDECOVE STACK V109H p1 216 p2 213 p3 208 stack_count TARGET 429 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 VOID COPY STK bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00."
+    },
+    {
+      "id": "v109h_16",
+      "kind": "umbcove_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 458.0,
+      "expected": 458.0,
+      "ocr_preview": "umbcove UMBCOVE FAX V109H pgA 232 pgB 226 pgC 214 drop fax_pages TARGET 458 DRAFT DRAFT DRAFT DRAFT VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v109h_17",
+      "kind": "verdcove_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "verdcove VERDCOVE GLARE V109H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v109h_18",
+      "kind": "wavecove_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 478.0,
+      "expected": 478.0,
+      "ocr_preview": "WAVECOVE WAVECOVE TAB INDEX V109H tabA 242 tabB 296 tabC 215 tab_index TARGET 478 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 VOID tab 88.00 COPY tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v109_heldout_claim": true,
+  "claim_scope": "r50plus_v109_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

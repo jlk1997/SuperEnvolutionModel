@@ -1,0 +1,237 @@
+{
+  "cycle": "C322",
+  "theme": "vision_v36_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T00:52:42+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7672.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v36h_01",
+      "kind": "teak_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 76.5,
+      "expected": 76.5,
+      "ocr_preview": "TEAK GRAIN RECEV V36 a paid 36.00 b paid 40.50 c open 14.00 TOTAL PAID TARGET 76.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 90.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID REC COPY bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 b"
+    },
+    {
+      "id": "v36h_02",
+      "kind": "marble_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 54.0,
+      "expected": 54.0,
+      "ocr_preview": "SCAN DESK V36H BAST 222.00 PAGE 01 大理石仓位单H WH MARBLE TILE V36 SKU1 qty 24 ok SKU2 qty 12 hold SKU3 qty 30 ok qty_sum TARGET 54 VOID OLD bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT REC COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V36H C322 clarity floor pag_c0 photo2 textout"
+    },
+    {
+      "id": "v36h_03",
+      "kind": "canvas_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 42.25,
+      "expected": 42.25,
+      "ocr_preview": "SCAN DESK V36H BAIT 222.00 PAGE 01 帆布补丁退款单H CANVAS PATCH REFUND V36 ItemR1 20.00 done ItemR2 22.25 done ItemR3 9.00 open refund_done TARGET 42.25 VOID WIN IGNORE old total 886.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v36h_04",
+      "kind": "cobalt_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 108.0,
+      "expected": 108.0,
+      "ocr_preview": "钴蓝税基单H COBALT TAX SLIP V36 base 52.00 paid addon 56.00 paid skip 24.00 tax_base_paid TARGET 108.00 VOID WIN IGNORE old total 888.00 do not parse balt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 98.00 IGNORE TAX VOID COPY V36H C322 clarity four pag_010 photo2 testout"
+    },
+    {
+      "id": "v36h_05",
+      "kind": "mica_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 142.0,
+      "expected": 142.0,
+      "ocr_preview": "SCAN DESK V36H BAST 222.00 PAGE 01 云母工资单H MICA PAYROLL V36 empA 70.00 active empB 72.00 active empC 20.00 leave payroll_active TARGET 142.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY balt 90.00 IGNORE VOID PAY COPY VOID WIN IGNORE old total 888.00 do not parse balt 555.00 V36H C322 clarity four peg_cy0 photo2 testout"
+    },
+    {
+      "id": "v36h_06",
+      "kind": "clasp_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 35.0,
+      "expected": 35.0,
+      "ocr_preview": "SCAN DESK V36H BAST 222.00 PAGE 01 接扣出货单H CLASP SHIP DOCK V36 box1 18 ok box2 9 ok box3 14 hold ship_ok TARGET 35 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE SHIP VOID COPY V36H C332 clarity four pag_010 photo2 testout"
+    },
+    {
+      "id": "v36h_07",
+      "kind": "garnet_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 46.5,
+      "expected": 46.5,
+      "ocr_preview": "石楸石SLA卡H GARNET SLA CARD V36 job1 25.00h ok job2 21.50h ok job3 11.00h late sla_ok_hours TARGET 46.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE COPY"
+    },
+    {
+      "id": "v36h_08",
+      "kind": "flint_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 58.75,
+      "expected": 58.75,
+      "ocr_preview": "SCAN DESK V36H BAST 222.00 PAGE 01 STONE EXPENSE单H FLINT EXPENSE V36 e1 27.00 e2 31.75 e3 13.00 void exp_sum TARGET 58.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE EXP VOID COPY V36H C322 clarity floor pag_p010 photo2 testout"
+    },
+    {
+      "id": "v36h_09",
+      "kind": "steel_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 67.0,
+      "expected": 67.0,
+      "ocr_preview": "SCAN DESK V36H 222.00 PAGE 01 钢材采购单H STEEL PO SHEET V36 line1 36.00 open line2 31.00 open line3 15.00 closed po_open TARGET 67.00 VOID WIN IGNORE old total 888.00 do not parse bait $55.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 98.00 IGNORE PO COPY"
+    },
+    {
+      "id": "v36h_10",
+      "kind": "kraft_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 82.25,
+      "expected": 82.25,
+      "ocr_preview": "牛皮纸订单H KRAFT ORDER V36 skuA 44.00 paid skuB 38.25 paid skuC 12.00 due order_paid TARGET 82.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY V36H C322 clarity four peg_c00 photo2 testout"
+    },
+    {
+      "id": "v36h_11",
+      "kind": "flannel_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "SCAN DESK V36H PART 222.00 PAGE 01 法兰绒重复标记H FLANNEL DUP MARK V36 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT DRAFT DRAFT DUP VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait"
+    },
+    {
+      "id": "v36h_12",
+      "kind": "empty_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "空值清零单H EMPTY VOID ZERO V36 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v36h_13",
+      "kind": "jute_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 126.5,
+      "expected": 126.5,
+      "ocr_preview": "JUTE LEDGER V36 dr 60.00 cr 66.50 adj 20.00 ledger_net TARGET 126.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 90.00 IGNORE DRAFT DRAFT DRAFT DRAFT LED VOID COPY JUTE LEDGER V36 dr 60.00 cr 66.50 adj 20.00 ledger_net TARGET 126.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 90.00 IGNORE DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v36h_14",
+      "kind": "glaze_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V36H BAST 222.00 PAGE 01 陆麦界面扫描H GLAZE UI SCAN V36 btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID btn 00.00 ui DRAFT DRAFT DRAFT DRAFT STICKY btn 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse btn 555.00 V36H C32 clarity floor page_010 photo2 helout"
+    },
+    {
+      "id": "v36h_15",
+      "kind": "sisal_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 6.0,
+      "expected": 6.0,
+      "ocr_preview": "SCAN DESK V36H BAST 222.00 PAGE 01 剑麻堆叠单H SISAL STACK V36 p1 3 p2 2 p3 1 stack_count TARGET 6 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V36H C320 clarity floor page_01 photo2 textout"
+    },
+    {
+      "id": "v36h_16",
+      "kind": "aubergine_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 9.0,
+      "expected": 9.0,
+      "ocr_preview": "SCAN DESK V36H 222.00 PAGE 01 苡繁传真单H AUBERGNE FAX V36 pgA 5 pgB 4 pgC 2 drop fax_pages TARGET 9 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY V36H C332 clarity four pag_p00 photo2 handset"
+    },
+    {
+      "id": "v36h_17",
+      "kind": "titanium_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "钛光眩光单H TITANIUM GLARE V36 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE GLR VOID COPY SCAN DESK V36H PART 222.00 PAGE 01 V36H C322 clarity floor peg_010 photo2 testout"
+    },
+    {
+      "id": "v36h_18",
+      "kind": "dossier_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 12.0,
+      "expected": 12.0,
+      "ocr_preview": "DOSSIER TAB INDEX V36 tabA 7 tabB 5 tabC 1 tab_index TARGET 12 VOID WIN IGNORE old total 888.00 do not parse belt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY belt 88.00 IGNORE tab 88.00 VOID TAB COPY V36H C332 clarity four peg_010 photo2 testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v36_heldout_claim": true,
+  "claim_scope": "r50plus_v36_heldout_hlx_magclip_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 58,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

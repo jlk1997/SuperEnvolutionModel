@@ -1,0 +1,67 @@
+{
+  "cycle": "C92",
+  "theme": "live_u2c_growth",
+  "n_sessions": 6,
+  "crystal_rate": 1.0,
+  "gate": 0.6,
+  "pass": true,
+  "absorb": {
+    "attempted": false,
+    "reason": "pairs_ready_train_deferred_keep_blast_moving",
+    "n_pairs": 6,
+    "pairs_path": "runs/u2c_live_growth_c92/sft_pairs.jsonl",
+    "gpu_mem_mib": 533.0
+  },
+  "sessions": [
+    {
+      "sid": "s01_orders",
+      "crystal_ok": true,
+      "got": 32.5,
+      "expected": 32.5,
+      "atom": "office_table_u2c_s01_orders",
+      "log": "runs/u2c_live_growth_c92/sessions/s01_orders/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s02_refunds",
+      "crystal_ok": true,
+      "got": 4.5,
+      "expected": 4.5,
+      "atom": "office_table_u2c_s02_refunds",
+      "log": "runs/u2c_live_growth_c92/sessions/s02_refunds/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s03_inventory",
+      "crystal_ok": true,
+      "got": 180.0,
+      "expected": 180.0,
+      "atom": "office_table_u2c_s03_inventory",
+      "log": "runs/u2c_live_growth_c92/sessions/s03_inventory/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s04_tax",
+      "crystal_ok": true,
+      "got": 32.5,
+      "expected": 32.5,
+      "atom": "office_table_u2c_s04_tax",
+      "log": "runs/u2c_live_growth_c92/sessions/s04_tax/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s05_mixed",
+      "crystal_ok": true,
+      "got": 7.0,
+      "expected": 7.0,
+      "atom": "office_table_u2c_s05_mixed",
+      "log": "runs/u2c_live_growth_c92/sessions/s05_mixed/u2c_use_log.jsonl"
+    },
+    {
+      "sid": "s06_empty_open",
+      "crystal_ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "atom": "office_table_u2c_s06_empty_open",
+      "log": "runs/u2c_live_growth_c92/sessions/s06_empty_open/u2c_use_log.jsonl"
+    }
+  ],
+  "timestamp": "2026-10-19T01:31:46+08:00",
+  "claim": false
+}

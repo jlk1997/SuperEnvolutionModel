@@ -1,0 +1,28 @@
+{
+  "cycle": "C106",
+  "families": {
+    "table": {
+      "bare": 1.0,
+      "D": 0.0
+    },
+    "report": {
+      "bare": 1.0,
+      "D": 0.0
+    },
+    "file": {
+      "bare": 1.0,
+      "D": 0.0
+    },
+    "shell": {
+      "bare": 1.0,
+      "D": 0.0
+    }
+  },
+  "vision_v4_multihop": {
+    "rate": 1.0,
+    "D": 0.0,
+    "claim": true
+  },
+  "timestamp": "2026-10-19T01:41:17+08:00",
+  "note": "Pointer refresh; text four-family D unchanged at 0 unless remeasured."
+}

@@ -1,0 +1,13 @@
+{
+  "cycle": "C150a",
+  "theme": "v7_heldout_design_disjoint",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T04:08:27+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "n_fixtures": 16,
+  "fixtures": "evo/office/fixtures/vision_images_v7h",
+  "disjoint_from": "vision_images_v7",
+  "pass": true,
+  "claim": false
+}

@@ -1,0 +1,34 @@
+# Mid-effect office power smoke (Epoch B). steps drives zipf_plan length; exam~steps/2.
+# Target design n~160 (Δ~0.20); this smoke hits power_min_n~24 time-boxed. Do not claim Gate2.
+# See docs/POWER_ANALYSIS.md. Competence gate unchanged.
+run_name: office_mid_n_smoke
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 0
+seeds: [0]
+actor: reference
+prefer_atoms: true
+family_skill_map: {}
+steps: 48
+difficulty: 1
+day_after: 2
+day_ticks: 24
+day_budget: 48
+revisit_every: 8
+drift_at: 12
+families: [table, file, report, shell]
+arms: [agent, oracle, shift, continual, dual, dual_agent, continual_sft]
+write_gate: false
+max_steps: 6
+exec_timeout: 8
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: full
+max_seq_len: 512
+max_new_code: 160
+outer_lr: 0.0005
+power_target: 0.8
+power_p_new: 0.65
+power_p_base: 0.45
+power_min_n: 24
+power_required_n: 160

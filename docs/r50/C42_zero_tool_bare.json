@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "family": "table",
+      "bare_rate": 1.0,
+      "pass": true
+    },
+    {
+      "family": "report",
+      "bare_rate": 1.0,
+      "pass": true
+    },
+    {
+      "family": "file",
+      "bare_rate": 1.0,
+      "pass": true
+    },
+    {
+      "family": "shell",
+      "bare_rate": 1.0,
+      "pass": true
+    }
+  ],
+  "rate": 1.0,
+  "timestamp": "2026-10-18T22:31:19+08:00",
+  "innovation": "Zero-tool bare via dissolution"
+}

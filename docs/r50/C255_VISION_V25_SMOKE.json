@@ -1,0 +1,232 @@
+{
+  "cycle": "C255",
+  "theme": "vision_v25_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T09:47:51+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7652.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v25_01",
+      "kind": "fp_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 82.0,
+      "expected": 82.0,
+      "ocr_preview": "指纹污收据 FINGERPRINT RECV V25 a paid 40.00 b paid 42.00 c open 12.00 TOTAL PAID TARGET 82.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v25_02",
+      "kind": "rain_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 73.0,
+      "expected": 73.0,
+      "ocr_preview": "WH RAIN STREAK V25 SKU1 qty 35 ok SKU2 qty 16 hold SKU3 qty 38 ok qty_sum TARGET 73 DRAFT DRAFT DRAFT DRAFT DRAFT 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 77.77 7"
+    },
+    {
+      "id": "v25_03",
+      "kind": "staple_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 44.25,
+      "expected": 44.25,
+      "ocr_preview": "订书影退款 STAPLE SHADOW REFUND V25 itemR1 20.00 done itemR2 24.25 done itemR3 9.00 open refund_done TARGET 44.25 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v25_04",
+      "kind": "qr_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 139.0,
+      "expected": 139.0,
+      "ocr_preview": "二维码和基 TAX QR BAIT V25 T1 78.00 paid T2 31.00 open T3 61.00 paid tax_base_paid TARGET 139.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v25_05",
+      "kind": "curl_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2450.0,
+      "expected": 2450.0,
+      "ocr_preview": "卷边工资 PAYROLL CURL EDGE V25 A 1260 active B 240 leave C 1190 active payroll_active TARGET 2450 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v25_06",
+      "kind": "flare_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 62.0,
+      "expected": 62.0,
+      "ocr_preview": "荧光发货 SHIP FLUOR FLARE V25 P1 31 ok P2 17 hold P3 31 ok ship_ok_qty TARGET 62 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v25_07",
+      "kind": "clutter_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 58.0,
+      "expected": 58.0,
+      "ocr_preview": "SLA DESK CLUTTER V25 S1 pri 25 open S2 pri 29 closed S3 pri 33 open open_pri_sum TARGET 58 DRAFT DRAFT DRAFT DRAFT DRAFT 77.77 MUG PEN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 BARCODE bait 123.40 V28 CBA clarity fear.jpg_60 photo2.77(pan)baye/GPC.ur/Files/Clux/4/1/Turn/2g/Com-b/Barcode/Com/Progs"
+    },
+    {
+      "id": "v25_08",
+      "kind": "ink_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 103.5,
+      "expected": 103.5,
+      "ocr_preview": "SCAN DESK V25 best 133.00 PAGE 01 印泥报销 EXPENSE INK BLEED V25 E1 51.00 paid E2 19.00 void E3 52.50 paid paid_total TARGET 103.50 DRAFT DRAFT DRAFT DRAFT MUG PEN VVOID WIN IGNORE old total 999.00 do not parse bait 666.00 BARCODE bait 123.40 V25 GBA clarity fine.jpg_60 photo2.77(pan)bayne/GPC.ur/Files/Clux/In/Turn/Zip/Com-b/Barcode/Com/Prints"
+    },
+    {
+      "id": "v25_09",
+      "kind": "torn_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 81.0,
+      "expected": 81.0,
+      "ocr_preview": "PO-TORN MARGIN V25 itemA paid 39.00 itemB paid 42.00 itemC open 14.00 TOTAL PAID TARGET 81.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v25_10",
+      "kind": "zig_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 70.25,
+      "expected": 70.25,
+      "ocr_preview": "折痕订单 ORDER ZIGZAG CREASE V25 A paid 34.00 B paid 36.25 C open 11.00 TOTAL PAID TARGET 70.25 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v25_11",
+      "kind": "combo_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 90.0,
+      "expected": 90.0,
+      "ocr_preview": "SCAN DESK V25 BEST 133.00 PAGE 01 胶带咖啡重复 INVOICE #V25-COMBO line paid 30.00 line paid 30.00 line paid 30.00 TOTAL PAID TARGET 90.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v25_12",
+      "kind": "barcode_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "条码未付 OPEN ONLY V25 X 58.00 open Y 61.00 open paid_total TARGET 0.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v25_13",
+      "kind": "moire_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 59.75,
+      "expected": 59.75,
+      "ocr_preview": "轻摩尔台账 LEDGER MOIRE MILD V25 rA paid 29.00 rB paid 30.75 rC open 8.00 TOTAL PAID TARGET 59.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v25_14",
+      "kind": "rings_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 63.0,
+      "expected": 63.0,
+      "ocr_preview": "水环窗口 UI WATER RINGS V25 alpha paid 30.50 beta paid 32.50 gamma open 11.00 TOTAL PAID TARGET 63.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v25_15",
+      "kind": "fp_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 95.5,
+      "expected": 95.5,
+      "ocr_preview": "指纹堆单 HEAVY FP STACK V25 x paid 47.00 usd y paid 48.50 usd z open 17.00 usd TOTAL PAID TARGET 95.50 MUG PEN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v25_16",
+      "kind": "rain_mix",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 57.5,
+      "expected": 57.5,
+      "ocr_preview": "中英雨痕 CN-EN RAIN MIX V25 tea paid 28.00 rice paid 29.50 soup open 9.00 TOTAL PAID TARGET 57.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v25_17",
+      "kind": "staple_win",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 72.0,
+      "expected": 72.0,
+      "ocr_preview": "订书双窗 STAPLE WIN V25 w1 paid 35.00 w2 paid 37.00 w3 open 15.00 TOTAL PAID TARGET 72.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v25_18",
+      "kind": "curl_foot",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 42.25,
+      "expected": 42.25,
+      "ocr_preview": "卷边脚注 CURL FOOT V25 p1 paid 20.00 p2 paid 22.25 p3 open 7.00 TOTAL PAID TARGET 42.25 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    }
+  ],
+  "vl_gate_v25_claim": true,
+  "claim_scope": "r50plus_v25_fp_rain_staple_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 58,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V25 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

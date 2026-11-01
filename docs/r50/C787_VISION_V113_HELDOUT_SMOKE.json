@@ -1,0 +1,237 @@
+{
+  "cycle": "C787",
+  "theme": "vision_v113_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T07:10:32+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v113h_01",
+      "kind": "cedarfen_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 976.75,
+      "expected": 976.75,
+      "ocr_preview": "cedarfen CEDARFEN GRAIN RECV V113H a paid 482.00 b paid 494.75 c open 375.00 TOTAL PAID TARGET 976.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE REC VOID COPY bait 99.99 V113H C787 startly floor (jpeg_012 photo2 testout)"
+    },
+    {
+      "id": "v113h_02",
+      "kind": "duskfen_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 914.0,
+      "expected": 914.0,
+      "ocr_preview": "duskfen WH DUSKFEN BIN V113H SKU1 qty 437 ok SKU2 qty 357 hold SKU3 qty 477 ok qty_sum TARGET 914 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v113h_03",
+      "kind": "emberfen_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 893.5,
+      "expected": 893.5,
+      "ocr_preview": "EMBERFEN PATCH REFUND V113H ItemR1 440.00 done ItemR2 453.50 done ItemR3 363.00 open refund_done TARGET 893.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID DONE COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v113h_04",
+      "kind": "frostfen_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1126.0,
+      "expected": 1126.0,
+      "ocr_preview": "frostfen FROSTFEN TAX SLIP V113H base 555.00 paid addon 571.00 paid skip 404.00 tax_base_paid TARGET 1126.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY tax 55.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v113h_05",
+      "kind": "glenfen_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1208.0,
+      "expected": 1208.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 glenfen GLENFEN PAYROLL V113H empA 596.00 active empB 612.00 active empC 399.00 leave payroll_active TARGET 1208.00 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V113H C787 start fly (pag_q02 photo/2 testout"
+    },
+    {
+      "id": "v113h_06",
+      "kind": "hazelfen_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 794.0,
+      "expected": 794.0,
+      "ocr_preview": "hazelfen HAZELFEN SHIP DOCK V113H box1 390 ok box2 404 ok box3 368 hold ship_ok TARGET 794 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY"
+    },
+    {
+      "id": "v113h_07",
+      "kind": "ironfen_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "ironfen IRONFEN SLA CARD V113H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v113h_08",
+      "kind": "jadefen_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 953.75,
+      "expected": 953.75,
+      "ocr_preview": "jadefen JADEFEN EXPENSE V113H e1 466.00 e2 487.75 e3 375.00 void exp_sum TARGET 953.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE EXP VOID COPY bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00"
+    },
+    {
+      "id": "v113h_09",
+      "kind": "knollfen_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 960.0,
+      "expected": 960.0,
+      "ocr_preview": "knofffen KNOLLFEN PO SHEET V113H line1 486.00 open line2 474.00 open line3 378.00 closed po_open TARGET 960.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v113h_10",
+      "kind": "lotusfen_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1012.0,
+      "expected": 1012.0,
+      "ocr_preview": "lotusfen LOTUSFEN ORDER V113H skuA 513.00 paid skuB 499.00 paid skuC 370.00 due order_paid TARGET 1012.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v113h_11",
+      "kind": "meadowfen_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "meadowfen MEADOWFEN DUP MARK V113H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP COPY"
+    },
+    {
+      "id": "v113h_12",
+      "kind": "northfen_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "northfen NORTHFEN AIR ZERO V113H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 b"
+    },
+    {
+      "id": "v113h_13",
+      "kind": "opalfen_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1111.5,
+      "expected": 1111.5,
+      "ocr_preview": "opalfen OPALFEN LEDGER V113H dr 548.00 cr 563.50 adj 365.00 ledger_net TARGET 1111.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v113h_14",
+      "kind": "pearlfen_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "pearffen PEARLFEN UI SCAN V113H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY V113H C787 startly floor (peg_012 photo2 testout)"
+    },
+    {
+      "id": "v113h_15",
+      "kind": "quartzfen_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 485.0,
+      "expected": 485.0,
+      "ocr_preview": "quartzfen QUARTZFEN STACK V113H p1 244 p2 241 p3 236 stack_count TARGET 485 OKP bait 00 00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00 00 IGNORE STK VOID COPY VOID WIN IGNORE old total 888.00 do not parie bait 555.00"
+    },
+    {
+      "id": "v113h_16",
+      "kind": "ravenfen_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 514.0,
+      "expected": 514.0,
+      "ocr_preview": "ravenfen RAVENFEN FAX V113H pgA 260 pgB 254 pgC 242 drop fax_pages TARGET 514 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY"
+    },
+    {
+      "id": "v113h_17",
+      "kind": "stonefen_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "stonefen STONEFEN GLARE V113H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v113h_18",
+      "kind": "timberfen_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 534.0,
+      "expected": 534.0,
+      "ocr_preview": "timberfen TIMBERFEN TAB INDEX V113H tabA 270 tabB 264 tabC 243 tab_index TARGET 534 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v113_heldout_claim": true,
+  "claim_scope": "r50plus_v113_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

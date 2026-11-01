@@ -1,0 +1,42 @@
+{
+  "kind": "cl_bench_local_model_score",
+  "gate": "0.6",
+  "model": "E:\\envolution\\models\\Qwen2.5-1.5B-Instruct",
+  "timestamp": "2026-10-18T18:35:18+08:00",
+  "local_path": "E:\\envolution\\data\\heldout_math.json",
+  "n_eval": 4,
+  "rate": 1.0,
+  "pass_gate": true,
+  "upstream_claim": false,
+  "rows": [
+    {
+      "id": "m5",
+      "task": "Tom reads 4 pages a day for 3 days. How many pages does he read?",
+      "gold": "12",
+      "pred": "12 pages",
+      "em": 1.0
+    },
+    {
+      "id": "m6",
+      "task": "A jar holds 20 marbles. 9 are removed. How many marbles stay in the jar?",
+      "gold": "11",
+      "pred": "11",
+      "em": 1.0
+    },
+    {
+      "id": "m7",
+      "task": "Each ticket costs 8 dollars. How much do 2 tickets cost?",
+      "gold": "16",
+      "pred": "16 dollars",
+      "em": 1.0
+    },
+    {
+      "id": "m8",
+      "task": "A train has 14 cars and 5 are detached. How many cars remain?",
+      "gold": "9",
+      "pred": "9",
+      "em": 1.0
+    }
+  ],
+  "notes": "Bare 1.5B score on heldout_math continual toy eval split. Not CL-Bench leaderboard."
+}

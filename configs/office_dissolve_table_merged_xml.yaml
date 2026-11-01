@@ -1,0 +1,11 @@
+# C4 v4: dissolve table on merged F3i+F3j XML corpus (larger n).
+# Gate 0.6. Exam ladder FROZEN. No Gate2.
+run_name: office_dissolve_table_merged_xml
+use_log_dir: runs/use_log/office_merged_xml_s0
+family: table
+epochs: 4
+heldout_n: 4
+criterion: 0.6
+pair_source: events_xml
+tool_call_primer: true
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct

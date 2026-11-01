@@ -1,0 +1,30 @@
+{
+  "cycle": "C338",
+  "theme": "fix_v38_07_sla_ok_hours_atom",
+  "timestamp": "2026-10-20T02:08:04+08:00",
+  "diagnosis": {
+    "fail_id": "v38_07",
+    "kind": "citrine_sla",
+    "metric": "sla_ok_hours",
+    "ocr_ok": true,
+    "atom_ok_before": false,
+    "got_before": 0.0,
+    "expected": 81.5,
+    "root_cause": "OCR mangled TARGET 81.50 -> .50 under watermark; parse_metric had no sla_ok_hours job-line sum for Nh ok / N hours ok",
+    "honest": true,
+    "fake_vl": false
+  },
+  "fix": {
+    "file": "evo/office/vision_metric_parse.py",
+    "change": "add sla_ok_hours branch summing (\\\\d+)\\\\s*h(?:ours)?\\\\s+ok",
+    "rescored_from_saved_ocr_preview": {
+      "n": 18,
+      "n_ok": 18,
+      "rate": 1.0
+    }
+  },
+  "gate": 0.6,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true
+}

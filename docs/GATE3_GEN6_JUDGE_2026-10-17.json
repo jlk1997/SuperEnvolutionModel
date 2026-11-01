@@ -1,0 +1,139 @@
+{
+  "packs": [
+    "harbor",
+    "orchard"
+  ],
+  "fresh": [
+    0.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    0.0
+  ],
+  "trained": [
+    0.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    0.0
+  ],
+  "dev_exam": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "judge": {
+    "pass": false,
+    "checks": {
+      "speed": false,
+      "transfer": false,
+      "ceiling": false,
+      "heritability": false
+    },
+    "gain": {
+      "n": 8,
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "excludes_zero": false
+    },
+    "branch": "Gate 3 did not pass. Change only the learning rule, burn this pack, and seal a new one.",
+    "pass_branch": null,
+    "fresh_rate": 0.5,
+    "trained_rate": 0.5,
+    "gate3_claim": false,
+    "measured": true,
+    "dev_touches": 1,
+    "held_touches": 2,
+    "family_diag": {
+      "fresh": {
+        "table": 0.0,
+        "report": 1.0,
+        "file": 1.0
+      },
+      "trained": {
+        "table": 0.0,
+        "report": 1.0,
+        "file": 1.0
+      }
+    },
+    "learning_rule": {
+      "prefer_atoms_both": true,
+      "atom_adapter_sft": true,
+      "table_overweight": true,
+      "dev_difficulties": [
+        2,
+        3
+      ],
+      "dev_items": 24,
+      "sft_rounds": 4,
+      "sft_epochs": 4,
+      "atom_sft_lr": 0.001,
+      "eval_difficulty": 2,
+      "atom_sft": {
+        "table": {
+          "atom": "office_table_uselog",
+          "pairs": 15,
+          "loss": 0.026337285328797103,
+          "steps": 60,
+          "rounds": 4,
+          "epochs": 4,
+          "lr": 0.001
+        },
+        "report": {
+          "atom": "office_report_uselog",
+          "pairs": 5,
+          "loss": 0.0602761837428261,
+          "steps": 20,
+          "rounds": 4,
+          "epochs": 4,
+          "lr": 0.001
+        },
+        "file": {
+          "atom": "office_file_uselog",
+          "pairs": 4,
+          "loss": 0.020676259277024656,
+          "steps": 16,
+          "rounds": 4,
+          "epochs": 4,
+          "lr": 0.001
+        }
+      },
+      "warm_adapters": [
+        "table",
+        "report",
+        "file"
+      ]
+    }
+  },
+  "dev_pairs": 24,
+  "family_diag": {
+    "fresh": {
+      "table": 0.0,
+      "report": 1.0,
+      "file": 1.0
+    },
+    "trained": {
+      "table": 0.0,
+      "report": 1.0,
+      "file": 1.0
+    }
+  },
+  "seal": "runs/heldout_seal_gen6.json",
+  "evidence": "docs/GATE3_GEN6_JUDGE_2026-10-17.json",
+  "heldout_generation": "gen6",
+  "config": "configs/office_gate3_gen6.yaml",
+  "protocol_commit": "5530e13",
+  "gate3_claim": false,
+  "note": "gen6 harbor+orchard d=2: fresh=trained=0.5; family_diag table=0 report=1 file=1 both passes; table-overweight atom SFT (24 pairs, 4x4 epochs, lr=1e-3) did not lift table. Pack burned.",
+  "finished_asia_shanghai": "2026-10-17T23:50+08:00"
+}

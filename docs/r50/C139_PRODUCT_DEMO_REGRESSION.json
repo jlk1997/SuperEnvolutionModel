@@ -1,0 +1,141 @@
+{
+  "cycle": "C139",
+  "theme": "product_demo_regression_capture_money_v4v5v6",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T03:39:40+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "smoke_pointers": {
+    "n": 6,
+    "n_ok": 6,
+    "rate": 1.0,
+    "rows": [
+      {
+        "name": "V4",
+        "path": "docs/r50/C101_VISION_V4_MULTIHOP.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V4_heldout",
+        "path": "docs/r50/C107_VISION_V4_HELDOUT.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V5",
+        "path": "docs/r50/C121_VISION_V5_SMOKE.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V5_heldout",
+        "path": "docs/r50/C126_VISION_V5_HELDOUT_SMOKE.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V6",
+        "path": "docs/r50/C132_VISION_V6_SMOKE.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V6_claim",
+        "path": "docs/r50/C132b_VISION_GATE_V6_CLAIM.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      }
+    ]
+  },
+  "money_tool": {
+    "n": 5,
+    "n_ok": 5,
+    "rate": 1.0,
+    "rows": [
+      {
+        "kind": "text",
+        "exp": 30.0,
+        "got": 30.0,
+        "ok": true,
+        "text": "item A paid 11.00 item C paid 19.00"
+      },
+      {
+        "kind": "text",
+        "exp": 7.0,
+        "got": 7.0,
+        "ok": true,
+        "text": "paid 1.5 paid 2.5 paid 3"
+      },
+      {
+        "kind": "text",
+        "exp": 0.0,
+        "got": 0.0,
+        "ok": true,
+        "text": "OPEN ONLY X 9.00 open Y 11.00 open"
+      },
+      {
+        "kind": "csv",
+        "exp": 18.0,
+        "got": 18.0,
+        "ok": true,
+        "text": "amount,status\n12.5,paid\n8,open\n5.5,paid\n"
+      },
+      {
+        "kind": "text",
+        "exp": 16.5,
+        "got": 16.5,
+        "ok": true,
+        "text": "latte paid 4.50 sandwich paid 12.00 juice open 3.0"
+      }
+    ]
+  },
+  "capture_oneshot": {
+    "ok": true,
+    "money_tool": true,
+    "paid_got": 16.5,
+    "paid_expected": 16.5,
+    "schema_errors": [],
+    "evidence_keys": [
+      "agent_graph",
+      "atom_ok",
+      "capture_ok",
+      "entry",
+      "errors",
+      "gate",
+      "money_policy",
+      "money_tool",
+      "note_fallback",
+      "ocr_ok",
+      "ocr_text",
+      "ok",
+      "paid_expected",
+      "paid_got",
+      "paid_ok",
+      "panel",
+      "pass",
+      "rate",
+      "scaffold_steps",
+      "size",
+      "timestamp",
+      "use_vl",
+      "vl_skipped"
+    ]
+  },
+  "rate": 1.0,
+  "pass": true,
+  "claim": false,
+  "note": "Regression suite: pointers + money_tool + capture dry. No new VL claim."
+}

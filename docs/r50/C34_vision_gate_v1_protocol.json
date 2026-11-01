@@ -1,0 +1,14 @@
+{
+  "kind": "vision_gate_v1_protocol",
+  "gate": 0.6,
+  "min_n": 8,
+  "status": "CLAIMED_SCOPED",
+  "vl_gate_v1_claim": true,
+  "rate": 0.8333,
+  "n": 12,
+  "v0_claim_untouched": true,
+  "gate2_3_untouched": true,
+  "timestamp": "2026-10-18T22:39:11+08:00",
+  "innovation": "V1 readable fixtures unlock real VL OCR/table/UI soft-match claim",
+  "evidence": "docs/r50/C52_vision_v1_smoke_readable.json"
+}

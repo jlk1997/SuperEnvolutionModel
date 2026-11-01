@@ -1,0 +1,237 @@
+{
+  "cycle": "C1183",
+  "theme": "vision_v179_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-22T05:11:29+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7325.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v179h_01",
+      "kind": "ashwick_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2160.75,
+      "expected": 2160.75,
+      "ocr_preview": "ashwick ASHWICK GRAIN RECV V179H a paid 1074.00 b paid 1086.75 c open 967.00 TOTAL PAID TARGET 2160.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE REC VOID COPY bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99."
+    },
+    {
+      "id": "v179h_02",
+      "kind": "cedarwick_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "cedarwick WH CEDARWICK BIN V179H SKU1 qty 740 ok SKU2 qty 820 hold SKU3 qty 780 ok qty_sum TARGET 1520 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V179H C 1183 clarity from page_052 photo/2 hidden SCAN DESK V43H BAST 222.00 PAGE 01 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v179h_03",
+      "kind": "dawnwick_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2077.5,
+      "expected": 2077.5,
+      "ocr_preview": "dawnwick DAWNWICK PATCH REFUND V179H itemR1 1032.00 done itemR2 1045.50 done itemR3 955.00 open refund_done TARGET 2077.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE bait 99.00 DONE VOID COPY V179H C 1183 clarity floor page_052 photo_2 handwritten"
+    },
+    {
+      "id": "v179h_04",
+      "kind": "elmwick_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2310.0,
+      "expected": 2310.0,
+      "ocr_preview": "elmwick ELMWICK TAX SLIP V179H base 1147.00 paid addon 1163.00 paid skip 996.00 tax_base_paid TARGET 2310.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 99.00 IGNORE TAX VOID COPY V179H C 1183 clarity from page_002 photo2"
+    },
+    {
+      "id": "v179h_05",
+      "kind": "fernwick_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2392.0,
+      "expected": 2392.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 fernwick FERNWICK PAYROLL V179H empA 1188.00 active empB 1204.00 active empC 991.00 leave payroll_active TARGET 2392.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v179h_06",
+      "kind": "glenwick_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1978.0,
+      "expected": 1978.0,
+      "ocr_preview": "glenwick GLENWICK SHIP DOCK V179H box1 982 ok box2 996 ok box3 960 hold ship_ok TARGET 1978 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE SHIP VOID COPY V179H C 1183 clarity from page_052 photo_2 hidden SCAN DESK V43H BAS 222.00 PAGE 01 box1 982 ok box2 996 ok box3 960 hold ship_ok TARGET 1978 VOID"
+    },
+    {
+      "id": "v179h_07",
+      "kind": "hazewick_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 800.0,
+      "expected": 800.0,
+      "ocr_preview": "hazewick HAZEWICK SLA CARD V179H job1 380.00 hours ok job2 420.00 hours ok job3 560.00 hours late sla_ok_hours TARGET 800.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 80.00 IGNORE VOID COPY OKP bait 80.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V179H C 1183 clarity from page_052 photo/2 hazewick"
+    },
+    {
+      "id": "v179h_08",
+      "kind": "inkwick_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2137.75,
+      "expected": 2137.75,
+      "ocr_preview": "SCAN DESK V40H BAS 222.00 PAGE 01 inkwick #@KWICK EXPENSE V179H e1 1058.00 e2 1079.75 e3 967.00 void exp_sum TARGET 2137.75 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID EXP COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V179H C 1183 clarity from page_052 photo_2"
+    },
+    {
+      "id": "v179h_09",
+      "kind": "jadewick_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadewick JADEWICK PO SHEET V179H line1 780.00 open line2 740.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO bait 88.00 COPY V179H C 1183 clarity from page_052 photo_2 hidden SCAN DESK V43H BAS 222.00 PAGE 01"
+    },
+    {
+      "id": "v179h_10",
+      "kind": "knotwick_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2196.0,
+      "expected": 2196.0,
+      "ocr_preview": "knotwick KNOTWICK ORDER V179H skuA 1105.00 paid skuB 1091.00 paid skuC 962.00 due order_paid TARGET 2196.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE ORD VOID COPY V179H C 1183 clarity from pag_052 photo2 metadata SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v179h_11",
+      "kind": "lakewick_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakewick LAKEWICK DUP MARK V179H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v179h_12",
+      "kind": "mosswick_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mosswick MOSSWICK AIR ZERO V179H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v179h_13",
+      "kind": "netherwick_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2295.5,
+      "expected": 2295.5,
+      "ocr_preview": "netherwick NETHERWICK LEDGER V179H dr 1140.00 cr 1155.50 adj 977.00 ledger_net TARGET 2295.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY V179H C 1183 clarity from page_052 photo/2 manual"
+    },
+    {
+      "id": "v179h_14",
+      "kind": "oakwick_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakwick OAKWICK UI SCAN V179H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY V179H C 1183 clarity from page_002 photo_21100"
+    },
+    {
+      "id": "v179h_15",
+      "kind": "pinewick_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1653.0,
+      "expected": 1653.0,
+      "ocr_preview": "pinewick PINEWICK STACK V179H p1 829 p2 824 p3 819 stack_count TARGET 1653 OKP bait 80.00 STICKY bait 80.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID STK COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V179H C 1183 clarity from png_052 photo2"
+    },
+    {
+      "id": "v179h_16",
+      "kind": "quillwick_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1682.0,
+      "expected": 1682.0,
+      "ocr_preview": "SCAN DESK V40H BAST 222.00 PAGE 01 quillwick QUILLWICK FAX V179H pgA 844 pgB 838 pgC 826 drop fax_pages TARGET 1682 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v179h_17",
+      "kind": "reedwick_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedwick REEDWICK GLARE V179H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY V179H C 1183 clarity from png_002 photo_2 headed"
+    },
+    {
+      "id": "v179h_18",
+      "kind": "stonewick_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1702.0,
+      "expected": 1702.0,
+      "ocr_preview": "stonewick STONEWICK TAB INDEX V179H tabA 854 tabB 848 tabC 827 tab_index TARGET 1702 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY V179H C 1183 clarity from page_002 photo_2 tabbed"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v179_heldout_claim": true,
+  "claim_scope": "r50plus_v179_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

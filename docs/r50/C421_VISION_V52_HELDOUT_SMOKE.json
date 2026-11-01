@@ -1,0 +1,237 @@
+{
+  "cycle": "C421",
+  "theme": "vision_v52_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T09:56:00+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7616.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v52h_01",
+      "kind": "sierra_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 189.5,
+      "expected": 189.5,
+      "ocr_preview": "sierra SIERRA GRAIN RECV V52H a paid 92.00 b paid 97.50 c open 41.00 TOTAL PAID TARGET 189.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v52h_02",
+      "kind": "tundra_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 152.0,
+      "expected": 152.0,
+      "ocr_preview": "SCAN DESK V42H PART 222-00 PAGE 01 tundra WH TUNDRA BIN V52H SKU1 qty 67 ok SKU2 qty 49 hold SKU3 qty 85 ok qty_sum TARGET 152 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v52h_03",
+      "kind": "umbra_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 134.25,
+      "expected": 134.25,
+      "ocr_preview": "umbra UMBRA PATCH REFUND V52H itemR1 64.00 done itemR2 70.25 done itemR3 31.00 open refund_done TARGET 134.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v52h_04",
+      "kind": "vortex_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 253.0,
+      "expected": 253.0,
+      "ocr_preview": "vortex VORTEX TAX SLIP V52H base 124.00 paid addon 129.00 paid skip 57.00 tax_base_paid TARGET 253.00 OKP tax 00.00 STICKY tax 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT TAX VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V52H C421 clarity four peg_0502 photo2 testout"
+    },
+    {
+      "id": "v52h_05",
+      "kind": "willow_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 310.0,
+      "expected": 310.0,
+      "ocr_preview": "willow WILLOW PAYROLL V52H empA 152.00 active empB 158.00 active empC 54.00 leave payroll_active TARGET 310.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v52h_06",
+      "kind": "xylem_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 115.0,
+      "expected": 115.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 xylem XYLEM SHIP DOCK V52H box1 56 ok box2 59 ok box3 34 hold ship_ok TARGET 115 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP VOID COPY V52H C421 clarity four peg_c421 photo2 testout"
+    },
+    {
+      "id": "v52h_07",
+      "kind": "yarn_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 136.5,
+      "expected": 136.5,
+      "ocr_preview": "yarn YARN SLA CARD V52H job1 71.00 hours ok job2 65.50 hours ok job3 35.00 hours late sla_ok_hours TARGET 136.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait"
+    },
+    {
+      "id": "v52h_08",
+      "kind": "zenith_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 166.0,
+      "expected": 166.0,
+      "ocr_preview": "zenith ZENITH EXPENSE V52H e1 80.00 e2 86.00 e3 41.00 void exp_sum TARGET 166.00 OKP bait 80.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 80.00 IGNORE VOID EXP COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 SCAN DESK V43H PART 222.00 PAGE 01 V52H C421 clarity four peg_c421 photol testout"
+    },
+    {
+      "id": "v52h_09",
+      "kind": "acorn_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 182.0,
+      "expected": 182.0,
+      "ocr_preview": "acorn ACORN PO SHEET V52H line1 97.00 open line2 85.00 open line3 44.00 closed po_open TARGET 182.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v52h_10",
+      "kind": "boulder_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 217.75,
+      "expected": 217.75,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 boulder BOULDER ORDER V52H skuA 115.00 paid skuB 102.75 paid skuC 37.00 due order_paid TARGET 217.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY V52H C421 clarity four peg_0502 photo2 testout"
+    },
+    {
+      "id": "v52h_11",
+      "kind": "cipher_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "cipher CIPHER DUP MARK V52H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v52h_12",
+      "kind": "dew_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "dew DEW AIR ZERO V52H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID ZERO COPY"
+    },
+    {
+      "id": "v52h_13",
+      "kind": "elm_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 274.5,
+      "expected": 274.5,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 elm ELM LEDGER V52H dr 133.00 cr 141.50 adj 51.00 ledger_net TARGET 274.50 OKP bat 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bat 00.00 IGNORE VOID LED COPY VOID WIN IGNORE old total 888.00 do not parse bat 555.00 V52H C421 clarity four peg_050 photo2 testout"
+    },
+    {
+      "id": "v52h_14",
+      "kind": "frost_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "frost FROST UI SCAN V52H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY OKP bait 88.00 V52H C421 clarity four peg_c421 photod2 testout"
+    },
+    {
+      "id": "v52h_15",
+      "kind": "geyser_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 22.0,
+      "expected": 22.0,
+      "ocr_preview": "geyser GEYSER STACK V52H p1 12 p2 10 p3 5 stack_count TARGET 22 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK bait 88.00 VOID COPY V52H C421 clarity four peg_peg2 photod2 testout"
+    },
+    {
+      "id": "v52h_16",
+      "kind": "helix_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 32.0,
+      "expected": 32.0,
+      "ocr_preview": "helix HELIX FAX V52H pgA 18 pgB 14 pgC 11 drop fax_pages TARGET 32 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY V52H C421 clarity four pag_562 photod2 testout"
+    },
+    {
+      "id": "v52h_17",
+      "kind": "iris_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "IRIS IRIS GLARE V52H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY IRIS GLARE V52H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR V"
+    },
+    {
+      "id": "v52h_18",
+      "kind": "juniper_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 46.0,
+      "expected": 46.0,
+      "ocr_preview": "juniper JUNIPER TAB INDEX V52H tabA 25 tabB 21 tabC 12 tab_index TARGET 46 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY V52H C421 clarity four peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_p"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v52_heldout_claim": true,
+  "claim_scope": "r50plus_v52_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

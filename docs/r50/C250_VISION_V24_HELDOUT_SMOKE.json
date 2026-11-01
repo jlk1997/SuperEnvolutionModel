@@ -1,0 +1,237 @@
+{
+  "cycle": "C250",
+  "theme": "vision_v24_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T09:31:58+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7686.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v24h_01",
+      "kind": "coffee_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 67.5,
+      "expected": 67.5,
+      "ocr_preview": "咖啡清收据H COFFEE RING RECEV V24H a paid 33.00 b paid 34.50 c open 9.00 TOTAL PAID TARGET 67.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 98.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID REC COPY bait 98.00 bait 98.00 bait 98.00 bait 98.00 bait 98.00 bait 98.00 bait 98.00 bait 98.00 bait 98.00 bait"
+    },
+    {
+      "id": "v24h_02",
+      "kind": "binder_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 51.0,
+      "expected": 51.0,
+      "ocr_preview": "SCAN DESK V24H 222.00 PAGE 01 活页夹仓单H WH BINDER TEETH V24H SKU1 qty 24 ok SKU2 qty 11 hold SKU3 qty 27 ok qty_sum TARGET 51 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v24h_03",
+      "kind": "tape_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 28.75,
+      "expected": 28.75,
+      "ocr_preview": "SCAN DESK V24H 224.00 PAGE 01 黄胶带退款H YELLOW TAPE REFUND V24H itemR1 13.00 done itemR2 15.75 done itemR3 6.00 open refund_done TARGET 28.75 VOID bait 88.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID DONE COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V24H C250 clarity floor peg_peg_00 photo2 testout"
+    },
+    {
+      "id": "v24h_04",
+      "kind": "pen_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 96.0,
+      "expected": 96.0,
+      "ocr_preview": "SCAN DESK V24H BAST 222.00 PAGE 01 笔迹识别H TAX PEN SCRIBBLE V24H T1 54.00 paid T2 22.00 open T3 42.00 paid tax_base_paid TARGET 96.00 VOID bait 99.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE REC bait 555.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V24H C230 starty four pag_010 photo02 testout"
+    },
+    {
+      "id": "v24h_05",
+      "kind": "crumple_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1680.0,
+      "expected": 1680.0,
+      "ocr_preview": "SCAN DESK V24H 222.00 PAGE 01 皱折工资H PAYROLL CRUMPLE X V24H A 670 active B 170 leave C 810 active payroll_active TARGET 1680 OK balt 55.00 DRAFT DRAFT DRAFT DRAFT STICKY balt 55.00 IGNORE VOID OK COPY VOID WIN IGNORE old total 888.00 do not parse balt 55.00 V24H C230 clarity floor pag_y00 photo2 testout"
+    },
+    {
+      "id": "v24h_06",
+      "kind": "carbon_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 41.0,
+      "expected": 41.0,
+      "ocr_preview": "SCAN DESK V24H 222.00 PAGE 01 复写发货H SHIP CARBON GHOST V24H P1 21 ok P2 11 hold P3 20 ok ship_ok_qty TARGET 41 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY V24H C250 clarity floor peg_y00 photo2 testout"
+    },
+    {
+      "id": "v24h_07",
+      "kind": "sticky_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 37.0,
+      "expected": 37.0,
+      "ocr_preview": "SCAN DESK V24H BAST 222.00 PAGE 01 便利服务站SLAH SLA STICKY STACK V24H S1 pri 16 open S2 pri 20 closed S3 pri 21 open open_pri_sum TARGET 37 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID COPY OPEN bait 88.00"
+    },
+    {
+      "id": "v24h_08",
+      "kind": "fax_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 68.25,
+      "expected": 68.25,
+      "ocr_preview": "传真条纹报销H EXPENSE FAX STREAK V24H E1 33.00 paid E2 14.00 void E3 35.25 paid paid_total TARGET 68.25 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v24h_09",
+      "kind": "grease_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 55.0,
+      "expected": 55.0,
+      "ocr_preview": "SCAN DESK V24H 222.00 PAGE -01 油漆采购H PO-GREASE BLOT V24H itemA paid 27.00 itemB paid 28.00 itemC open 10.00 TOTAL PAID TARGET 55.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v24h_10",
+      "kind": "gray_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 45.5,
+      "expected": 45.5,
+      "ocr_preview": "SCAN DESK V24H BAST 222.00 PAGE 01 低对比订单H ORDER GRAY FADE V24H A paid 22.00 B paid 23.50 C open 7.00 TOTAL PAID TARGET 45.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY bait 88.00"
+    },
+    {
+      "id": "v24h_11",
+      "kind": "coffee_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 54.0,
+      "expected": 54.0,
+      "ocr_preview": "咖啡液重复H INVOICE #V24H-DUP line paid 18:00 line paid 18:00 line paid 18:00 TOTAL PAID TARGET 54.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bar 55.00 IGNORE VOID REC VOID COPY VOID WIN IGNORE old total 888.00 do not parse bar 555.00 SCAN DESK V24H BAS 222.00 PAGE 01 V24H C230 clarity floor pag_c0 photo2 testout"
+    },
+    {
+      "id": "v24h_12",
+      "kind": "binder_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "SCAN DESK V24H BAST 222.00 PAGE 01 活页未付H OPEN ONLY V24H X 39.00 open Y 42.00 open paid_total TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 GRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE HOLD VOID COPY bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90"
+    },
+    {
+      "id": "v24h_13",
+      "kind": "skew_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 38.25,
+      "expected": 38.25,
+      "ocr_preview": "SCAN DESK V24H 222.00 PAGE 01 轻斜台账H LEDGER SKEW MILD V24H rA paid 18.50 rB paid 19.75 rC open 5.00 TOTAL PAID TARGET 38.25 VOID WIN IGNORE old total 888.00 do not parse balt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY balt 55.00 IGNORE REC VOID COPY V24H C250 clarity floor pag_c250 photo2 testout"
+    },
+    {
+      "id": "v24h_14",
+      "kind": "ghost_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 40.5,
+      "expected": 40.5,
+      "ocr_preview": "SCAN DESK V24H 222.00 PAGE 01 重彩窗口H UI GHOST DOUBLE V24H alpha paid 19.50 beta paid 21.00 gamma open 8.00 TOTAL PAID TARGET 40.50 OLD bait 88.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT REC VOID COPY VOID WIN IGNORE old total 888.00 do not parie bait 555.00 V24H C230 clarity floor pag_010 photo2 testout"
+    },
+    {
+      "id": "v24h_15",
+      "kind": "crumple_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 64.0,
+      "expected": 64.0,
+      "ocr_preview": "SCAN DESK V24H 222.00 PAGE 01 皱折堆单H HEAVY CRUMPLE STACK V24H x paid 32.00 usd y paid 32.00 usd z open 12.00 usd TOTAL PAID TARGET 64.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY paid 32.00 IGNORE VOID REC COPY VOID WIN IGNORE old total 888.00 do not parse paid 555.00 V24H C230 clarity four pag_010 photo2 textout"
+    },
+    {
+      "id": "v24h_16",
+      "kind": "carbon_mix",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 38.75,
+      "expected": 38.75,
+      "ocr_preview": "CN-EN CARBON MIX V24H tea paid 19.00 rice paid 19.75 soup open 6.00 TOTAL PAID TARGET 38.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v24h_17",
+      "kind": "fax_win",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 49.0,
+      "expected": 49.0,
+      "ocr_preview": "传真双密H FAX WIN V24H w1 paid 24.00 w2 paid 25.00 w3 open 11.00 TOTAL PAID TARGET 49.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V24H C250 clarity four pag_p00 photo2 testout"
+    },
+    {
+      "id": "v24h_18",
+      "kind": "grease_foot",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 27.5,
+      "expected": 27.5,
+      "ocr_preview": "油清脚注H GREASE FOOT V24H p1 paid 13.00 p2 paid 14.50 p3 open 4.50 TOTAL PAID TARGET 27.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 8"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    49.0,
+    55.0
+  ],
+  "vl_gate_v24_heldout_claim": true,
+  "claim_scope": "r50plus_v24_heldout_coffee_binder_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 58,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

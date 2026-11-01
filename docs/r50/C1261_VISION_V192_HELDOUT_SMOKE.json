@@ -1,0 +1,237 @@
+{
+  "cycle": "C1261",
+  "theme": "vision_v192_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-22T09:29:37+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7313.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v192h_01",
+      "kind": "ashhurst_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2394.75,
+      "expected": 2394.75,
+      "ocr_preview": "ashhurst ASHHURST GRAIN RECV V192H a paid 1191.00 b paid 1203.75 c open 1084.00 TOTAL PAID TARGET 2394.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY V192H C 1201: clarity from preg_32C photoC testout SCAN DESK V43H BAS 222.00 PAGE 01 bait 88.00"
+    },
+    {
+      "id": "v192h_02",
+      "kind": "cedarhurst_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "cedarhurst WH CEDARHURST BIN V192H SKU1 qty 840 ok SKU2 qty 820 hold SKU3 qty 760 ok qty_sum TARGET 1600 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC COPY V192H C 1201: clarity from preg_20C prodC testout SCAN DESK V42H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v192h_03",
+      "kind": "dawnhurst_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2311.5,
+      "expected": 2311.5,
+      "ocr_preview": "dawnhurst DAWNHURST PATCH REFUND V192H itemR1 1149.00 done itemR2 1162.50 done itemR3 1072.00 open refund_done TARGET 2311.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID DONE COPY V192H C 1021: early from prog_20C photoC testout"
+    },
+    {
+      "id": "v192h_04",
+      "kind": "elmhurst_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2544.0,
+      "expected": 2544.0,
+      "ocr_preview": "elmhurst ELMHURST TAX SLIP V192H base 1264.00 paid addon 1280.00 paid skip 1113.00 tax_base_paid TARGET 2544.00 DRAFT DRAFT DRAFT DRAFT DRAFT VOID TAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v192h_05",
+      "kind": "fernhurst_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2626.0,
+      "expected": 2626.0,
+      "ocr_preview": "fernhurst FERNHURST PAYROLL V192H empA 1305.00 active empB 1321.00 active empC 1108.00 leave payroll_active TARGET 2626.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v192h_06",
+      "kind": "glenhurst_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2212.0,
+      "expected": 2212.0,
+      "ocr_preview": "glenhurst GLENHURST SHIP DOCK V192H box1 1099 ok box2 1113 ok box3 1077 hold ship_ok TARGET 2212 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT SHIP VOID COPY V192H C 1201: clarify from prog_20C progC testout SCAN DESK V43H bait 222.00 PAGE 01"
+    },
+    {
+      "id": "v192h_07",
+      "kind": "hazehurst_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "hazehurst HAZEHURST SLA CARD V192H job1 360.00 hours ok job2 400.00 hours ok job3 660.00 hours late sla_ok_hours TARGET 760.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88"
+    },
+    {
+      "id": "v192h_08",
+      "kind": "inkhurst_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2371.75,
+      "expected": 2371.75,
+      "ocr_preview": "inkhurst INKHURST EXPENSE V192H e1 1175.00 e2 1196.75 e3 1084.00 void exp_sum TARGET 2371.75 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOI"
+    },
+    {
+      "id": "v192h_09",
+      "kind": "jadehurst_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "jadehurst JADEHURST PO SHEET V192H line1 840.00 open line2 760.00 open line3 820.00 closed po_open TARGET 1600.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 8"
+    },
+    {
+      "id": "v192h_10",
+      "kind": "knothurst_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2430.0,
+      "expected": 2430.0,
+      "ocr_preview": "knothurst KNOTHURST ORDER V192H skuA 1222.00 paid skuB 1208.00 paid skuC 1079.00 due order_paid TARGET 2430.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE ORD VOID COPY V192H C 1201: start from preg_00C photoC testout SCAN DESK V43H BAST 222.00 PAGE 01 bait 99.00 ORD bait 99.00"
+    },
+    {
+      "id": "v192h_11",
+      "kind": "lakehurst_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakehurst LAKEHURST DUP MARK V192H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP COPY V192H C 1201: clarify from preg_32C photoC testout"
+    },
+    {
+      "id": "v192h_12",
+      "kind": "mosshurst_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mosshurst MOSSHURST AIR ZERO V192H 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v192h_13",
+      "kind": "netherhurst_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2529.5,
+      "expected": 2529.5,
+      "ocr_preview": "netherhurst NETHERHURST LEDGER V192H dr 1257.00 cr 1272.50 adj 1094.00 ledger_net TARGET 2529.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v192h_14",
+      "kind": "oakhurst_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakhurst OAKHURST UI SCAN V192H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY V192H C:1001:clearly from prog_200 progC testout"
+    },
+    {
+      "id": "v192h_15",
+      "kind": "pinehurst_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1887.0,
+      "expected": 1887.0,
+      "ocr_preview": "pinehurst PINEHURST STACK V192H p1 946 p2 941 p3 936 stack_count TARGET 1887 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE STK VOID COPY V192H C 10201: clarity from prog_20C prog2 testout"
+    },
+    {
+      "id": "v192h_16",
+      "kind": "quillhurst_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1916.0,
+      "expected": 1916.0,
+      "ocr_preview": "quillhurst QUILLHURST FAX V192H pgA 961 pgB 955 pgC 943 drop fax_pages TARGET 1916 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v192h_17",
+      "kind": "reedhurst_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedhurst REEDHURST GLARE V192H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY SCAN DESK V40H page 222.00 PAGE 01 V192H C 1201 clarity from preg_30C progC testout"
+    },
+    {
+      "id": "v192h_18",
+      "kind": "stonehurst_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1936.0,
+      "expected": 1936.0,
+      "ocr_preview": "stonehurst STONEHURST TAB INDEX V192H tabA 971 tabB 965 tabC 944 tab_index TARGET 1936 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE tab 99.00 VOID tab 99.00 COPY V192H C 10201: clearly from preg_30C photoC testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v192_heldout_claim": true,
+  "claim_scope": "r50plus_v192_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

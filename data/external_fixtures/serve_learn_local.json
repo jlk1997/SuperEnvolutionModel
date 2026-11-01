@@ -1,0 +1,42 @@
+[
+  {
+    "id": "sl1",
+    "question": "API rows: paid=10, open=5, paid=7. Sum paid and POST /v1/reconcile. What total?",
+    "answer": "17"
+  },
+  {
+    "id": "sl2",
+    "question": "Auth missing returns 401. Correct Authorization header value for token tok-x?",
+    "answer": "Bearer tok-x"
+  },
+  {
+    "id": "sl3",
+    "question": "Date style dmy. Order date 12/01/2023 means which ISO day-month order tip: day first?",
+    "answer": "2023-01-12"
+  },
+  {
+    "id": "sl4",
+    "question": "POST /v1/reconcile body must be JSON with key total. Minimal body for total 9?",
+    "answer": "{\"total\": 9}"
+  },
+  {
+    "id": "sl5",
+    "question": "Book says 20, API ok sum is 17. Absolute gap to POST /v1/reconcile?",
+    "answer": "3"
+  },
+  {
+    "id": "sl6",
+    "question": "Auth missing returns 401. Correct Authorization header value for token abc?",
+    "answer": "Bearer abc"
+  },
+  {
+    "id": "sl7",
+    "question": "Date style dmy. Order date 05/03/2024 means which ISO day-month order tip: day first?",
+    "answer": "2024-03-05"
+  },
+  {
+    "id": "sl8",
+    "question": "POST /v1/reconcile body must be JSON with key total. Minimal body for total 42?",
+    "answer": "{\"total\": 42}"
+  }
+]

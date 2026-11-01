@@ -1,0 +1,15 @@
+{
+  "kind": "r50_c55_vision_u2c_v1_readable",
+  "timestamp": "2026-10-18T22:41:15+08:00",
+  "gate": 0.6,
+  "n_use": 12,
+  "n_crystallized": 10,
+  "n_registry_added": 10,
+  "crystallize_rate": 0.8333,
+  "pass": true,
+  "adapter_trained": false,
+  "note": "Crystallize+route only this cycle (no LoRA) — honest pipeline after V1 claim",
+  "evidence_run": "runs/vision_u2c_v1_readable",
+  "innovation": "Vision U2C on readable V1 fixtures → atom registry growth",
+  "gate2_3_untouched": true
+}

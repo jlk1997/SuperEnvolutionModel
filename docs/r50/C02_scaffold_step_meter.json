@@ -1,0 +1,32 @@
+{
+  "kind": "r50_c02",
+  "timestamp": "2026-10-18T22:30:14+08:00",
+  "families": [
+    {
+      "family": "table",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "steps_scaffold_proxy": 0
+    },
+    {
+      "family": "report",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "steps_scaffold_proxy": 0
+    },
+    {
+      "family": "file",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "steps_scaffold_proxy": 0
+    },
+    {
+      "family": "shell",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "steps_scaffold_proxy": 0
+    }
+  ],
+  "replace_agent_score": 1.0,
+  "innovation": "Scaffold-step meter for agent-shell dissolve"
+}

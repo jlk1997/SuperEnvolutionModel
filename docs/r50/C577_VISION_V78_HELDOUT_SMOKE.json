@@ -1,0 +1,237 @@
+{
+  "cycle": "C577",
+  "theme": "vision_v78_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T21:40:15+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7543.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v78h_01",
+      "kind": "yarrowpass_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 479.25,
+      "expected": 479.25,
+      "ocr_preview": "yarrowpass YARROWPASS GRAIN RECEV V78H a paid 233.00 b paid 246.25 c open 130.00 TOTAL PAID TARGET 479.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC bait 88.00 VOID COPY V78H CE57 clarity four page_052 photo2 testout SCAN DESK V43H BAST 222.00 PAGE 01 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v78h_02",
+      "kind": "zephyrdale_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 418.0,
+      "expected": 418.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 zephyrdale WH ZEPHYRDALE BIN V78H SKU1 qty 195 ok SKU2 qty 137 hold SKU3 qty 223 ok qty_sum TARGET 418 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v78h_03",
+      "kind": "amberpass_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 396.0,
+      "expected": 396.0,
+      "ocr_preview": "amberpass AMBERPASS PATCH REFUND V78H itemR1 191.00 done itemR2 205.00 done itemR3 118.00 open refund_done TARGET 396.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID DONE COPY"
+    },
+    {
+      "id": "v78h_04",
+      "kind": "bluestonepass_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 620.0,
+      "expected": 620.0,
+      "ocr_preview": "bluestonepass BLUESTONEPASS TAX SLIP V78H base 302.00 paid addon 318.00 paid skip 159.00 tax_base_paid TARGET 620.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY: tax 60.00 IGNORE TAX VOID COPY V78H CE57 clarity four peg_052 photo2 testout"
+    },
+    {
+      "id": "v78h_05",
+      "kind": "coralpass_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 702.0,
+      "expected": 702.0,
+      "ocr_preview": "coralpass CORALPASS PAYROLL V78H empA 343.00 active empB 359.00 active empC 154.00 leave payroll_active TARGET 702.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V78H CEST7 clarity four peg_052 photo2 testout"
+    },
+    {
+      "id": "v78h_06",
+      "kind": "driftpass_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 304.0,
+      "expected": 304.0,
+      "ocr_preview": "driftpass DRIFTPASS SHIP DOCK V78H box1 145 ok box2 159 ok box3 123 hold ship_ok TARGET 304 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT SHIP VOID COPY V78H CE57 clarity four peg_c52 photo2 testout"
+    },
+    {
+      "id": "v78h_07",
+      "kind": "eaglepass_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 393.0,
+      "expected": 393.0,
+      "ocr_preview": "eaglepass EAGLEPASS SLA CARD V78H job1 199.00 hours ok job2 194.00 hours ok job3 124.00 hours late sla_ok_hours TARGET 393.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE COPY OKP bait 88.00 V78H CES7 clarity four peg_052 photo2 testout"
+    },
+    {
+      "id": "v78h_08",
+      "kind": "fogpass_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 455.25,
+      "expected": 455.25,
+      "ocr_preview": "fogpass FOGPASS EXPENSE V78H e1 217.00 e2 238.25 e3 130.00 void exp_sum TARGET 455.25 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V78H CE77 clarity four peg_052 photo2 testout"
+    },
+    {
+      "id": "v78h_09",
+      "kind": "greenpass_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 462.0,
+      "expected": 462.0,
+      "ocr_preview": "greenpass GREENPASS PO SHEET V78H line1 237.00 open line2 225.00 open line3 133.00 closed po_open TARGET 462.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE po VOID COPY V78H CE77 clarity four peg_c_52 photo2 testout"
+    },
+    {
+      "id": "v78h_10",
+      "kind": "harborpass_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 514.5,
+      "expected": 514.5,
+      "ocr_preview": "harborpass HARBORPASS ORDER V78H skuA 264.00 paid skuB 250.50 paid skuC 125.00 due order_paid TARGET 514.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD bait 50.00 VOID COPY V78H CEST7 clarity four peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_"
+    },
+    {
+      "id": "v78h_11",
+      "kind": "ivorydale_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "ivorydale IVORYDALE DUP MARK V78H markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v78h_12",
+      "kind": "jasperdale_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "jasperdale JASPERDALE AIR ZERO V78H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 V78H CEST7 clarity four peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_pe"
+    },
+    {
+      "id": "v78h_13",
+      "kind": "kelppass_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 614.0,
+      "expected": 614.0,
+      "ocr_preview": "kelppass KEILPASS LEDGER V78H dr 299.00 cr 315.00 adj 140.00 ledger_net TARGET 614.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE LED bait 99.00 COPY V78H CE77 clarity four peg_0102 photol testout"
+    },
+    {
+      "id": "v78h_14",
+      "kind": "lotusdale_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "lotusdale LOTUSDALE UI SCAN V78H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY V78H CE77 clarity four peg_052 photo2 testout"
+    },
+    {
+      "id": "v78h_15",
+      "kind": "mistpass_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 99.0,
+      "expected": 99.0,
+      "ocr_preview": "mistpass MISTPASS STACK V78H p1 51 p2 48 p3 43 stack_count TARGET 99 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK bait 88.00 COPY V78H CEST7 clarity four peg_p_52 photo2 testout"
+    },
+    {
+      "id": "v78h_16",
+      "kind": "nimbusdale_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 128.0,
+      "expected": 128.0,
+      "ocr_preview": "nimbusdale NIMBUSDALE FAX V78H pgA 67 pgB 61 pgC 49 drop fax_pages TARGET 128 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v78h_17",
+      "kind": "oakdale_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakdale OAKDALE GLARE V78H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY V78H CE77 clarity four peg_052 photo2 testout"
+    },
+    {
+      "id": "v78h_18",
+      "kind": "pinepass_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 148.0,
+      "expected": 148.0,
+      "ocr_preview": "pinepass PINEPASS TAB INDEX V78H tabA 77 tabB 71 tabC 50 tab_index TARGET 148 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v78_heldout_claim": true,
+  "claim_scope": "r50plus_v78_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

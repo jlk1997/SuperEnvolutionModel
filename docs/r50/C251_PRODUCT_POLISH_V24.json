@@ -1,0 +1,91 @@
+{
+  "cycle": "C251",
+  "theme": "product_polish_v24_conf_gate_parse_cli",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T09:32:40+08:00",
+  "confidence_gate": {
+    "n": 2,
+    "n_ok": 2,
+    "pass": true,
+    "cases": [
+      {
+        "id": "conf_v24_01",
+        "tool_sum": 88.5,
+        "model": 99.0,
+        "forced": 88.5,
+        "expected": 88.5,
+        "ok": true
+      },
+      {
+        "id": "conf_v24_zero",
+        "tool_sum": 0.0,
+        "model": 107.0,
+        "forced": 0.0,
+        "expected": 0.0,
+        "ok": true
+      }
+    ]
+  },
+  "parse_unit_v24": {
+    "n": 6,
+    "n_ok": 6,
+    "pass": true,
+    "rows": [
+      {
+        "id": "v24_01",
+        "metric": "paid_total",
+        "got": 88.5,
+        "expected": 88.5,
+        "ok": true
+      },
+      {
+        "id": "v24_02",
+        "metric": "qty_sum",
+        "got": 69.0,
+        "expected": 69.0,
+        "ok": true
+      },
+      {
+        "id": "v24_03",
+        "metric": "refund_done",
+        "got": 39.5,
+        "expected": 39.5,
+        "ok": true
+      },
+      {
+        "id": "v24_04",
+        "metric": "tax_base_paid",
+        "got": 127.0,
+        "expected": 127.0,
+        "ok": true
+      },
+      {
+        "id": "v24_05",
+        "metric": "payroll_active",
+        "got": 2210.0,
+        "expected": 2210.0,
+        "ok": true
+      },
+      {
+        "id": "v24_06",
+        "metric": "ship_ok_qty",
+        "got": 55.0,
+        "expected": 55.0,
+        "ok": true
+      }
+    ]
+  },
+  "cli_oneshot": {
+    "ok": true,
+    "cli": "scripts/ant_capture_office.py",
+    "sample_fixture": "v24_01",
+    "sample_path": "evo/office/fixtures/vision_images_v24/v24_01_coffee_recv.png",
+    "help_rc": 0
+  },
+  "clarity_floor_doc_present": true,
+  "pass": true,
+  "claim": false,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "note": "product polish; does not mint Gate2/3 or VL claim"
+}

@@ -1,0 +1,237 @@
+{
+  "cycle": "C583",
+  "theme": "vision_v79_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T21:49:52+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7533.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v79h_01",
+      "kind": "quarrydale_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 491.0,
+      "expected": 491.0,
+      "ocr_preview": "quarrydale QUARRYDALE GRAIN RECEV V79H a paid 239.00 b paid 252.00 c open 134.00 TOTAL PAID TARGET 491.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bait 50.00 IGNORE VOID VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 SCAN DESK V43H bait 222.00 PAGE 01 V79H C583 clarity four peg_582 photo2 testout"
+    },
+    {
+      "id": "v79h_02",
+      "kind": "riverdale_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 430.0,
+      "expected": 430.0,
+      "ocr_preview": "riverdale WH RIVERDALE BIN V79H SKU1 qty 201 ok SKU2 qty 141 hold SKU3 qty 229 ok qty_sum TARGET 430 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V79H C580 clarity four peg_peg_peg_peg testout"
+    },
+    {
+      "id": "v79h_03",
+      "kind": "sagedale_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 407.75,
+      "expected": 407.75,
+      "ocr_preview": "sagedale SAGEDALE PATCH REFUND V79H itemR1 197.00 done itemR2 210.75 done itemR3 122.00 open refund_done TARGET 407.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DONE COPY V79H CS85 clarity four peg_052 photo2 testout"
+    },
+    {
+      "id": "v79h_04",
+      "kind": "tidedale_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 636.0,
+      "expected": 636.0,
+      "ocr_preview": "tidedale TIDEDALE TAX SLIP V79H base 310.00 paid addon 326.00 paid skip 163.00 tax_base_paid TARGET 636.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 88.00 IGNORE TAX VOID COPY V79H CS80 clarity four page_012 photo2 testout"
+    },
+    {
+      "id": "v79h_05",
+      "kind": "underdale_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 718.0,
+      "expected": 718.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 underdale UNDERDALE PAYROLL V79H empA 351.00 active empB 367.00 active empC 158.00 leave payroll_active TARGET 718.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v79h_06",
+      "kind": "vinedale_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 312.0,
+      "expected": 312.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 vinedale VINEDALE SHIP DOCK V79H box1 149 ok box2 163 ok box3 127 hold ship_ok TARGET 312 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP COPY VINEDALE CS83 clarity four peg_012 photo2 testout"
+    },
+    {
+      "id": "v79h_07",
+      "kind": "wavedale_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 404.75,
+      "expected": 404.75,
+      "ocr_preview": "wavedale WAVEDALE SLA CARD V79H job1 205.00 hours ok job2 199.75 hours ok job3 128.00 hours late sla_ok_hours TARGET 404.75 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v79h_08",
+      "kind": "xylodale_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 467.5,
+      "expected": 467.5,
+      "ocr_preview": "xylodale XYLODALE EXPENSE V79H e1 223.00 e2 244.50 e3 134.00 void exp_sum TARGET 467.50 DRAFT DRAFT DRAFT DRAFT STICKY total 88. 88 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v79h_09",
+      "kind": "yellowdale_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 474.0,
+      "expected": 474.0,
+      "ocr_preview": "yellowdale YELLOWDALE PO SHEET V79H line1 243.00 open line2 231.00 open line3 137.00 closed po_open TARGET 474.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V79H C580 clarity four pegs (C) photo2 testout"
+    },
+    {
+      "id": "v79h_10",
+      "kind": "zincdale_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 526.25,
+      "expected": 526.25,
+      "ocr_preview": "SCAN DESK V43H BASC 222.00 PAGE 01 zincdale ZINCDALE ORDER V79H skuA 270.00 paid skuB 256.25 paid skuC 129.00 due order_paid TARGET 526.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v79h_11",
+      "kind": "ashendale_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "ashendale ASHENDALE DUP MARK V79H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v79h_12",
+      "kind": "brackendale_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "brackendale BRACKENDALE AIR ZERO V79H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY OKP bait 00.00 V79H CS80 clarity four peg_0102 photo2 testout"
+    },
+    {
+      "id": "v79h_13",
+      "kind": "cedardale_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 625.75,
+      "expected": 625.75,
+      "ocr_preview": "cedardale CEDARDALE LEDGER V79H dr 305.00 cr 320.75 adj 144.00 ledger_net TARGET 625.75 OKP bat 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bat 00.00 IGNORE LED VOID COPY VOID WIN IGNORE old total 888.00 do not parse bat 555.00 V79H C583 clarity four peg_582 photo2 testout"
+    },
+    {
+      "id": "v79h_14",
+      "kind": "duskdale_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "duskdale DUSKDALE UI SCAN V79H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v79h_15",
+      "kind": "echodale_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 103.0,
+      "expected": 103.0,
+      "ocr_preview": "echodale ECHODALE STACK V79H p1 53 p2 50 p3 45 stack_count TARGET 103 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V79H C580 clarity four peg_peg_peg_peg testout"
+    },
+    {
+      "id": "v79h_16",
+      "kind": "firwooddale_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 132.0,
+      "expected": 132.0,
+      "ocr_preview": "firwooddale FRWOODDALE FAX V79H pgA 69 pgB 63 pgC 51 drop fax_pages TARGET 132 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v79h_17",
+      "kind": "grovedale_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "grovedale GROVEDALE GLARE V79H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY V79H CS60 clarity four peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_p"
+    },
+    {
+      "id": "v79h_18",
+      "kind": "hollowdale_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 152.0,
+      "expected": 152.0,
+      "ocr_preview": "hollowdale HOLLOWDALE TAB INDEX V79H tabA 79 tabB 73 tabC 52 tab_index TARGET 152 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v79_heldout_claim": true,
+  "claim_scope": "r50plus_v79_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

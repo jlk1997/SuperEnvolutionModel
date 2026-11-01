@@ -1,0 +1,73 @@
+{
+  "cycle": "C216",
+  "theme": "unified_scorecard_c213_c215",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T07:46:58+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "beat": {
+    "source": "Gate2 CLAIM archive (untouched)",
+    "dual_exam_approx": 0.625,
+    "agent_exam_approx": 0.125,
+    "beat_agent": true,
+    "gate2_3_untouched": true
+  },
+  "replace": {
+    "mean_ratio": 3.875,
+    "rate": 1.0,
+    "pass": true
+  },
+  "vision": {
+    "v17_heldout": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v18_prior_c209": {
+      "rate": 0.6667,
+      "fail_ids": [
+        "v18_02",
+        "v18_06",
+        "v18_08",
+        "v18_09",
+        "v18_16",
+        "v18_17"
+      ]
+    },
+    "v18_refresh_c213": {
+      "rate": 1.0,
+      "n": 18,
+      "n_ok": 18,
+      "claim": true,
+      "fail_ids": [],
+      "prior_rate": 0.6667,
+      "rate_delta": 0.3333
+    },
+    "v18_heldout": {
+      "rate": 1.0,
+      "n": 18,
+      "n_ok": 18,
+      "claim": true,
+      "fail_ids": [],
+      "disjoint": true
+    },
+    "confidence_gate_capture_wire": {
+      "rate": 1.0,
+      "pass": true
+    }
+  },
+  "desktop_multiwin": {
+    "pass": true,
+    "rate": 1.0
+  },
+  "product": {
+    "readme_ok": true,
+    "capture_regression_pass": true,
+    "pointer_ok": 32,
+    "pointer_rate": 1.0
+  },
+  "composite": 1.0,
+  "stage_ready": true,
+  "pass": true,
+  "claim": false,
+  "note": "Scorecard after V18 refresh 1.0 + V18 heldout 1.0 + regression; Gate2/3 untouched; gen11 HOLD"
+}

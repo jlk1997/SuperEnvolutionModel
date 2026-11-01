@@ -1,0 +1,10 @@
+{
+  "kind": "r50_c24",
+  "dual_fail_rate_ref": 0.28,
+  "agent_fail_rate_ref": 0.88,
+  "fail_advantage": 0.6,
+  "customer_message": "蚁算双脑失败率显著低于同设定 agent",
+  "gate2_claim_untouched": true,
+  "timestamp": "2026-10-18T22:31:06+08:00",
+  "innovation": "Customer cost/fail win board"
+}

@@ -1,0 +1,232 @@
+{
+  "cycle": "C327",
+  "theme": "vision_v37_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T01:11:34+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7676.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v37_01",
+      "kind": "walnut_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 118.5,
+      "expected": 118.5,
+      "ocr_preview": "SCAN DESK V37 best 133.00 PAGE 01 胡桃收款单 WALNUT GRAIN RECEV V37 a paid 55.00 b paid 68.50 c open 17.00 TOTAL PAID TARGET 118.50 CLIPPE wash DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 PEN 38.52.32 GR 18.12.77 VOID COPY OVEN PHONE SHADOW BARCODE bait 123.40 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL bait 222.22 TRACK 903.695 MUG PEN OVERLAP LABEL bait 327 D"
+    },
+    {
+      "id": "v37_02",
+      "kind": "onyx_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 88.0,
+      "expected": 88.0,
+      "ocr_preview": "SCAN DESK V37 best 133.00 PAGE 01 领码细仓位单 WH ONYX TILE V37 SKU1 qty 33 ok SKU2 qty 29 hold SKU3 qty 4 ok qty_sum TARGET 88 CLUE DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.12.35 GR 18.12.77 VOID COPY OVEN PHONE SHADOW BARCODE bait 123.40 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL bait 222.22 TRACK 900.00 MUG PEN OVERLAP LABEL bait 327 DO NOT SCAN"
+    },
+    {
+      "id": "v37_03",
+      "kind": "linen_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 64.75,
+      "expected": 64.75,
+      "ocr_preview": "亚麻补丁退款单 SCAN DESK V37 best 133.00 PAGE 01 LINEN PATCH REFUND V37 ItemR1 30.00 done ItemR2 64.75 done ItemR3 12.00 open refund_done TARGET 64.75 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v37_04",
+      "kind": "indigo_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 176.0,
+      "expected": 176.0,
+      "ocr_preview": "SCAN DESK V37 best 133.00 PAGE 01 款发票基单 NOIGO TAX SLIP V37 base 84.00 paid addon 92.00 paid skip 38.00 tax_base_paid TARGET 176.00 OLPE scan DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v37_05",
+      "kind": "quartz_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 241.0,
+      "expected": 241.0,
+      "ocr_preview": "石英新领单 QUARTZ PAYROLL V37 empA 118.00 active empB 153.00 active empC 31.00 leave payroll_active TARGET 241.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v37_06",
+      "kind": "latch_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 57.0,
+      "expected": 57.0,
+      "ocr_preview": "LOCK OUT SHEET LATCH SHIP DOCK V37 box1 27 ok box2 15 ok box3 19 holes ship_ok TARGET 57 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v37_07",
+      "kind": "amber_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 73.5,
+      "expected": 73.5,
+      "ocr_preview": "SCAN DESK V37 best 133.00 PAGE 01 琥珀SLA卡 AMBER SLA CARD V37 job1 09.00h ok job2 34.50h ok job3 18.00h rate sla_ok_hours TARGET 73.50 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v37_08",
+      "kind": "shale_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 99.25,
+      "expected": 99.25,
+      "ocr_preview": "页岩费用单 SHALE EXPENSE V37 e1 37.00 e2 52.25 e3 22.00 vda exp_sum TARGET 99.25 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v37_09",
+      "kind": "chrome_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 113.0,
+      "expected": 113.0,
+      "ocr_preview": "SCAR DESK V37 best 133.00 PAGE 01 体钢采购单 CHROME PO SHEET V37 line1 61.00 open line2 52.00 open line3 26.00 closed po_open TARGET 113.00 CLIPPE wash. DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v37_10",
+      "kind": "bond_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 135.5,
+      "expected": 135.5,
+      "ocr_preview": "证券纸订单 BOND ORDER V37 skuA 72.00 paid skuB 63.50 paid skuC 19.00 due order_paid TARGET 135.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v37_11",
+      "kind": "tweed_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "SCAN DESK V37 bast 133.00 PAGE 01 花呢重复标记 DWEED DUP MARK V37 markA 1 markB 1 markC 0 dup_mark TARGET 2 CLUE mark DRAFT DRAFT WATERMARK COPY DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW D"
+    },
+    {
+      "id": "v37_12",
+      "kind": "void_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "SCAN DESK V37 BAST 133.00 PAGE 01 空值清零单 VOID NIL ZERO V37 Z1 0.00 Z2 0.00 Z3 0.00 zero_check TARGET 0.00 OLPE wait DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v37_13",
+      "kind": "hemp_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 208.75,
+      "expected": 208.75,
+      "ocr_preview": "SCAN DESK V37 best 133.00 PAGE 01 麻堤账本 HEMP LEDGER V37 dr 101.00 cr 107.76 adj 33.00 ledger_net TARGET 208.75 CLIPPE DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v37_14",
+      "kind": "enamel_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V37 BEST 133.00 PAGE 01 DETECT 界面扫描 ENAMEL UI SCAN V37 br/OK 1 br/Skip 0 br/Ad 0 ui_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v37_15",
+      "kind": "raffia_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 10.0,
+      "expected": 10.0,
+      "ocr_preview": "SCAN DESK V37 BAIT 133.00 PAGE 01 酒师堆清单 RAFFIA STACK V37 p1 4 p2 4 p3 2 stack_count TARGET 10 OLAPHE wash TAPE R23 bait 12 12 DRAFT DRAFT WATERMARK COPY GR 1812 77 VOID OVEN COPY PEN MUG OVERLAP LABEL bait 37 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 503.00 FAX header bait 12 12 BARCODE bait 123 40 V37 CD28 daily "
+    },
+    {
+      "id": "v37_16",
+      "kind": "plum_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 14.0,
+      "expected": 14.0,
+      "ocr_preview": "SCAN DESK V37 BAST 233.00 PAGE 01 梅签传真单 BLUM FAX V37 pgB 7 pgB 7 pgC 3 drop fax_pages TARGET 14 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v37_17",
+      "kind": "tungsten_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V37 best 133.00 PAGE 01 铅钢胶片单 TUNGSTEN GLARE V37 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v37_18",
+      "kind": "binder_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 19.0,
+      "expected": 19.0,
+      "ocr_preview": "SCAN DESK V37 bast 233.00 PAGE 01 活页页索引 BINDER TAB INDEX V37 tabB 11 tabB 8 tabC 2 tab_index TARGET 19 OLPE DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    }
+  ],
+  "vl_gate_v37_claim": true,
+  "claim_scope": "r50plus_v37_hlx_magclip_thermal_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V37 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

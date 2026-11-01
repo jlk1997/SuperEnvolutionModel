@@ -1,0 +1,232 @@
+{
+  "cycle": "C810",
+  "theme": "vision_v117_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T07:46:29+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7315.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v117_01",
+      "kind": "amberholt_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1313.5,
+      "expected": 1313.5,
+      "ocr_preview": "amberholt AMBERHOLT GRAIN RECEV V117 a paid 648.00 b paid 665.50 c open 456.00 TOTAL PAID TARGET 1313.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v117_02",
+      "kind": "bronzeholt_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1191.0,
+      "expected": 1191.0,
+      "ocr_preview": "bronzeholt WH BRONZEHOLT BIN V117 SKU1 qty 575 ok SKU2 qty 430 hold SKU3 qty 616 ok qty_sum TARGET 1191 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.12.32 OR 18.12.77 VOID COPY OVEN DRAFT WATERMARK COPY FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222-22 TRADE MARK: EAGLE MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do"
+    },
+    {
+      "id": "v117_03",
+      "kind": "cedarholt_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1171.25,
+      "expected": 1171.25,
+      "ocr_preview": "cedarholt CEDARHOLT PATCH REFUND V117 ItemR1 571.00 done ItemR2 500.25 done ItemR3 436.00 open refund_done TARGET 1171.25 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.53.25 GR 18.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 232-22 TRACK WITH: MUG PEN OVERLAY LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse "
+    },
+    {
+      "id": "v117_04",
+      "kind": "driftwoodholt_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1424.0,
+      "expected": 1424.0,
+      "ocr_preview": "driftwoodholt DRIFTWOODHOLT TAX SLIP V117 base 703.00 paid addon 721.00 paid skip 528.00 tax_base_paid TARGET 1424.00 DRAFT WATERMARK COPY TAPE R23 base 12 12 RING 38 13 20 GR base 12 77 VOID COPY OVEN FAX HEADER BAIT 88 88 FROM: SPOT SHIP LABEL BAIT 222-22 TRADE MARK: GENE MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not pa"
+    },
+    {
+      "id": "v117_05",
+      "kind": "emberholt_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1556.0,
+      "expected": 1556.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 emberholt EMBERHOLT PAYROLL V117 empB 766.00 active empB 790.00 active empC 498.00 leave payroll_active TARGET 1556.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v117_06",
+      "kind": "flintholt_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1064.0,
+      "expected": 1064.0,
+      "ocr_preview": "flintholt ELINTHOLT SHP DOCK V117 box1 524 ok box2 540 ok box3 456 hold ship_ok TARGET 1064 DRAFT WATERMARK COPY TAPE R23 bait 12 12 RING 38 13 35 GR 38 12 77 VOID COPY OVEN DRAFT FAX HEADER BAIT 88 88 FROM: SPOOF SHIP LABEL BAIT 222-22 TRACK 003 003 MUG PEN OVERLAY LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SH"
+    },
+    {
+      "id": "v117_07",
+      "kind": "graniteholt_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 720.0,
+      "expected": 720.0,
+      "ocr_preview": "graniteholt GRANITEHOLT SLA CARD V117 job1 340.00 hours ok job2 360.00 hours ok job3 220.00 hours late sla_ok_hours TARGET 720.00 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.12.32 GR 18.12.77 VOID COPY OVEN DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 503.00 FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222"
+    },
+    {
+      "id": "v117_08",
+      "kind": "harborholt_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1259.75,
+      "expected": 1259.75,
+      "ocr_preview": "harborholt HARBORHOLT EXPENSE V117 e1 644.00 e2 645.75 e3 462.00 void exp_sum TARGET 1259.75 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v117_09",
+      "kind": "ironholt_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1279.0,
+      "expected": 1279.0,
+      "ocr_preview": "ironholt IRONHOLT PO SHEET V117 line1 648.00 open line2 634.00 open line3 471.00 closed po_open TARGET 1279.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v117_10",
+      "kind": "jadeholt_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1350.0,
+      "expected": 1350.0,
+      "ocr_preview": "jadeholt JADEHOLT ORDER V117 skuA 681.00 paid skuB 600.00 paid skuC 459.00 due order_paid TARGET 1350.00 FAX HEADER BAIT 88.88 FROM: SPOT SHOP LABEL BAIT 222-22. TRADE MARK: GENE MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCKD WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 301.00 FAX HEADER BAIT 1177 BARCODE bait 123.40 DRAFT WATERMAR"
+    },
+    {
+      "id": "v117_11",
+      "kind": "knollholt_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "knollholt KNOLLHOLT DUP MARK V117 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v117_12",
+      "kind": "lotusholt_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "lotusholt LOTUSHOLT AIR ZERO V117 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v117_13",
+      "kind": "mapleholt_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1515.5,
+      "expected": 1515.5,
+      "ocr_preview": "SCAR DESK V42 BAST 133.00 PAGE 01 mapleholt MAPLEHOLT LEDGER V117 dr 747.00 cr 768.00 adj 484.00 ledger_net TARGET 1515.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v117_14",
+      "kind": "nimbusholt_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "nimbusholt NIMBUSHOLT UI SCAN V117 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v117_15",
+      "kind": "opalholt_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 584.0,
+      "expected": 584.0,
+      "ocr_preview": "opalholt OPALHOLT STACK V117 p1 266 p2 288 p3 266 stack_count TARGET 584 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v117_16",
+      "kind": "pebbleholt_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 612.0,
+      "expected": 612.0,
+      "ocr_preview": "pebbleholt REBBLEHOLT FAX V117 pgB 814 pgB 289 pgC 289 drop fax_pages TARGET 612 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v117_17",
+      "kind": "quarryholt_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "quarryholt QUARRYHOLT GLARE V117 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.43.35 GR 38.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM: SPOT SHOP LABEL BAIT 222.22 Trade with: MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 303.00 "
+    },
+    {
+      "id": "v117_18",
+      "kind": "ridgeholt_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 656.0,
+      "expected": 656.0,
+      "ocr_preview": "ridgeholt RIDGEHOLT TAB INDEX V117 tabC 340 tabB 316 tabC 286 tab_index TARGET 656 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "vl_gate_v117_claim": true,
+  "claim_scope": "r50plus_v117_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V117 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

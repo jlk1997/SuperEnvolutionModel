@@ -1,0 +1,37 @@
+{
+  "rows": [
+    {
+      "metric": "exam_ok_rate",
+      "dual": 0.625,
+      "agent": 0.125,
+      "source": "Gate2 archival"
+    },
+    {
+      "metric": "mid_n_ok",
+      "dual": 0.8125,
+      "agent": 0.125,
+      "source": "mid-n observational"
+    },
+    {
+      "metric": "micro_ok",
+      "dual": 1.0,
+      "agent": 0.5,
+      "source": "above_v025_micro n=2"
+    },
+    {
+      "metric": "fail_rate",
+      "dual": 0.28,
+      "agent": 0.88,
+      "source": "cost ledger"
+    },
+    {
+      "metric": "scaffold_D",
+      "dual": 0.0,
+      "agent": "n/a",
+      "source": "dissolve"
+    }
+  ],
+  "gate2_claim_untouched": true,
+  "timestamp": "2026-10-18T22:31:19+08:00",
+  "innovation": "Expanded H2H board"
+}

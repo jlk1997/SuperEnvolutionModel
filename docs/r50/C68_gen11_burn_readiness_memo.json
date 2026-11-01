@@ -1,0 +1,56 @@
+{
+  "kind": "gen11_burn_readiness_memo",
+  "timestamp": "2026-10-18T23:04:32+08:00",
+  "decision": "HOLD",
+  "go_open_seal": false,
+  "reason": "Branch B heritability requires measured fresh>=0.99 on sealed gen11 packs. Other boards near-ceiling=True but fresh unmeasured → seal stays closed.",
+  "signals": [
+    {
+      "src": "c62",
+      "metric": "replace_agent_score",
+      "value": 1.0,
+      "near_ceiling": true
+    },
+    {
+      "src": "c67",
+      "metric": "replace_agent_score",
+      "value": 1.0,
+      "near_ceiling": true
+    },
+    {
+      "src": "c67",
+      "metric": "stress_rate",
+      "value": 1.0,
+      "near_ceiling": true
+    },
+    {
+      "src": "c63",
+      "metric": "v2_smoke_rate",
+      "value": 1.0,
+      "near_ceiling": true
+    },
+    {
+      "src": "c65b",
+      "metric": "v2_heldout_rate",
+      "value": 1.0,
+      "near_ceiling": true
+    },
+    {
+      "src": "gen11_fresh",
+      "metric": "fresh_rate",
+      "value": null,
+      "near_ceiling": false,
+      "note": "seal closed; no fresh measured"
+    }
+  ],
+  "what_would_unlock": [
+    "Run a non-gen11 ceiling probe on analogous heritability tasks >= 0.99",
+    "Confirm operator intent to burn irreversible seal",
+    "Have rollback / Branch A Gate3 claim locked"
+  ],
+  "prep_strengthened": [
+    "signals board aggregated",
+    "explicit HOLD decision recorded",
+    "unlock criteria written"
+  ]
+}

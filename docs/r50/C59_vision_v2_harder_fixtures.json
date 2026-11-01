@@ -1,0 +1,61 @@
+{
+  "kind": "r50plus_c59_vision_v2_fixtures",
+  "timestamp": "2026-10-18T22:54:29+08:00",
+  "n": 8,
+  "fixtures": [
+    {
+      "id": "v2-hard-ocr-001",
+      "png_bytes": 25917,
+      "task": "ocr",
+      "gold": "TAX INVOICE TX-4402 Subtotal 22.00 Tax 2.20 TOTAL 24.20 Due 2026-11-15"
+    },
+    {
+      "id": "v2-hard-table-001",
+      "png_bytes": 13172,
+      "task": "table_cells",
+      "gold": "sku,name,qty,unit,amt\nC9,Clamp,4,2.50,10.00\nD1,Drill,1,45.00,45.00\nE3,Epoxy,2,8.25,16.50"
+    },
+    {
+      "id": "v2-hard-ui-001",
+      "png_bytes": 12288,
+      "task": "caption",
+      "gold": "Confirm purge? Delete 12 archived logs [Cancel] [Delete]"
+    },
+    {
+      "id": "v2-hard-mixed-001",
+      "png_bytes": 13112,
+      "task": "ocr",
+      "gold": "SHIP TO 12 River Rd Bay 4 DEADLINE 2026-12-01 PRIORITY HIGH"
+    },
+    {
+      "id": "v2-caption-001",
+      "png_bytes": 6377,
+      "task": "caption",
+      "gold": "cluttered desk laptop red mug"
+    },
+    {
+      "id": "v2-ocr-002",
+      "png_bytes": 14209,
+      "task": "ocr",
+      "gold": "RECEIPT TOTAL 5.50 Paid CARD"
+    },
+    {
+      "id": "v2-table-002",
+      "png_bytes": 8394,
+      "task": "table_cells",
+      "gold": "dept,hrs,ot\nENG,8,1\nOPS,8,0\nQA,7,2"
+    },
+    {
+      "id": "v2-ui-002",
+      "png_bytes": 10036,
+      "task": "caption",
+      "gold": "Preferences auto-save ON telemetry OFF"
+    }
+  ],
+  "dir": "evo/office/fixtures/vision_images_v2",
+  "protocol": "docs/蚁算视_VL_GATE_V2_PROTOCOL.md",
+  "innovation": "Vision V2 harder readable set",
+  "vl_gate_v2_claim": false,
+  "gate2_3_untouched": true,
+  "v1_untouched": true
+}

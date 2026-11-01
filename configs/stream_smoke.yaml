@@ -1,0 +1,41 @@
+# Epoch A smoke on registry PRIMARY (1.5B).
+# One short pass of every arm. Confirms the stream runs before the three-seed paper.
+run_name: stream_smoke
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 0
+seeds: [0]
+ticks: 4
+day_ticks: 2
+tool_every: 2
+drift_tick: 1
+new_tools_per_day: 2
+exam_tasks: 2
+practice_tasks: 1
+gate_tasks: 1
+max_turns: 1
+max_opt_steps: 24
+txn_steps: 2
+grpo_k: 2
+canary_size: 1
+flush_limit: 2
+temperature: 0.7
+fast_scale: 0.02
+write_gate: false
+inner_lr: 0.0005
+outer_lr: 0.0005
+max_seq_len: 256
+max_new_code: 64
+exec_timeout: 2.0
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+gate_drop: 0.34
+arms: [agent, oracle, shift, continual, continual_nofast, continual_sft]
+target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj

@@ -1,0 +1,544 @@
+﻿{
+  "train": [
+    {
+      "id": "v33_01",
+      "kind": "parchment_recv",
+      "metric": "paid_total",
+      "expected": 113.5,
+      "lines": [
+        "PARCHMENT RECV V33",
+        "a paid 52.00",
+        "b paid 61.50",
+        "c open 18.00",
+        "TOTAL PAID TARGET 113.50"
+      ],
+      "cn": "羊皮纸收款单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v33_02",
+      "kind": "cork_wh",
+      "metric": "qty_sum",
+      "expected": 117.0,
+      "lines": [
+        "WH CORK BOARD V33",
+        "SKU1 qty 41 ok",
+        "SKU2 qty 28 hold",
+        "SKU3 qty 48 ok",
+        "qty_sum TARGET 117"
+      ],
+      "cn": "软木仓位单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v33_03",
+      "kind": "canvas_refund",
+      "metric": "refund_done",
+      "expected": 70.5,
+      "lines": [
+        "CANVAS REFUND V33",
+        "itemR1 29.00 done",
+        "itemR2 41.50 done",
+        "itemR3 15.00 open",
+        "refund_done TARGET 70.50"
+      ],
+      "cn": "帆布退款单",
+      "stamp": "DONE"
+    },
+    {
+      "id": "v33_04",
+      "kind": "rivet_tax",
+      "metric": "tax_base_paid",
+      "expected": 185.0,
+      "lines": [
+        "TAX RIVET BIND V33",
+        "T1 97.00 paid",
+        "T2 39.00 open",
+        "T3 88.00 paid",
+        "tax_base_paid TARGET 185.00"
+      ],
+      "cn": "铆钉税基单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v33_05",
+      "kind": "holo_pay",
+      "metric": "payroll_active",
+      "expected": 3200.0,
+      "lines": [
+        "PAYROLL HOLO SEAL V33",
+        "A 1620 active",
+        "B 310 leave",
+        "C 1580 active",
+        "payroll_active TARGET 3200"
+      ],
+      "cn": "全息工资单",
+      "stamp": "OK"
+    },
+    {
+      "id": "v33_06",
+      "kind": "zip_ship",
+      "metric": "ship_ok_qty",
+      "expected": 90.0,
+      "lines": [
+        "SHIP ZIP LOCK V33",
+        "P1 38 ok",
+        "P2 24 hold",
+        "P3 52 ok",
+        "ship_ok_qty TARGET 90"
+      ],
+      "cn": "拉链发运单",
+      "stamp": "SHIP"
+    },
+    {
+      "id": "v33_07",
+      "kind": "filament_sla",
+      "metric": "open_pri_sum",
+      "expected": 81.0,
+      "lines": [
+        "SLA FILAMENT V33",
+        "S1 pri 29 open",
+        "S2 pri 34 closed",
+        "S3 pri 52 open",
+        "open_pri_sum TARGET 81"
+      ],
+      "cn": "灯丝SLA单",
+      "stamp": "OPEN"
+    },
+    {
+      "id": "v33_08",
+      "kind": "honey_exp",
+      "metric": "paid_total",
+      "expected": 140.25,
+      "lines": [
+        "EXP HONEYCOMB V33",
+        "e1 paid 71.25",
+        "e2 paid 69.00",
+        "e3 open 21.00",
+        "TOTAL PAID TARGET 140.25"
+      ],
+      "cn": "蜂窝报销单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v33_09",
+      "kind": "marble_po",
+      "metric": "paid_total",
+      "expected": 118.5,
+      "lines": [
+        "PO MARBLE EDGE V33",
+        "lineA paid 55.00",
+        "lineB paid 63.50",
+        "lineC open 19.00",
+        "TOTAL PAID TARGET 118.50"
+      ],
+      "cn": "大理石采购单",
+      "stamp": "PO"
+    },
+    {
+      "id": "v33_10",
+      "kind": "copper_order",
+      "metric": "paid_total",
+      "expected": 105.0,
+      "lines": [
+        "ORDER COPPER FOIL V33",
+        "o1 paid 48.00",
+        "o2 paid 57.00",
+        "o3 open 14.00",
+        "TOTAL PAID TARGET 105.00"
+      ],
+      "cn": "铜箔订单",
+      "stamp": "ORD"
+    },
+    {
+      "id": "v33_11",
+      "kind": "acetate_dup",
+      "metric": "paid_total",
+      "expected": 145.0,
+      "lines": [
+        "DUP ACETATE SHEET V33",
+        "d1 paid 66.00",
+        "d2 paid 79.00",
+        "d3 open 22.00",
+        "TOTAL PAID TARGET 145.00"
+      ],
+      "cn": "醋酸片副本",
+      "stamp": "DUP"
+    },
+    {
+      "id": "v33_12",
+      "kind": "void_zero",
+      "metric": "paid_total",
+      "expected": 0.0,
+      "lines": [
+        "OPEN ONLY V33",
+        "X 81.00 open",
+        "Y 84.00 open",
+        "paid_total TARGET 0.00"
+      ],
+      "cn": "未付空单",
+      "stamp": "HOLD"
+    },
+    {
+      "id": "v33_13",
+      "kind": "perf_ledger",
+      "metric": "paid_total",
+      "expected": 87.5,
+      "lines": [
+        "LEDGER PERF EDGE V33",
+        "L1 paid 39.00",
+        "L2 paid 48.50",
+        "L3 open 16.00",
+        "TOTAL PAID TARGET 87.50"
+      ],
+      "cn": "打孔台账",
+      "stamp": "LED"
+    },
+    {
+      "id": "v33_14",
+      "kind": "waxseal_ui",
+      "metric": "paid_total",
+      "expected": 97.75,
+      "lines": [
+        "UI WAX SEAL V33",
+        "u1 paid 44.00",
+        "u2 paid 53.75",
+        "u3 open 17.00",
+        "TOTAL PAID TARGET 97.75"
+      ],
+      "cn": "蜡封印界面",
+      "stamp": "UI"
+    },
+    {
+      "id": "v33_15",
+      "kind": "magnet_stack",
+      "metric": "paid_total",
+      "expected": 133.0,
+      "lines": [
+        "STACK MAGNET CLIP V33",
+        "m1 paid 62.00",
+        "m2 paid 71.00",
+        "m3 open 20.00",
+        "TOTAL PAID TARGET 133.00"
+      ],
+      "cn": "磁夹叠单",
+      "stamp": "STK"
+    },
+    {
+      "id": "v33_16",
+      "kind": "crepe_fax",
+      "metric": "paid_total",
+      "expected": 80.5,
+      "lines": [
+        "FAX CREPE PAPER V33",
+        "f1 paid 36.00",
+        "f2 paid 44.50",
+        "f3 open 13.00",
+        "TOTAL PAID TARGET 80.50"
+      ],
+      "cn": "绉纸传真",
+      "stamp": "FAX"
+    },
+    {
+      "id": "v33_17",
+      "kind": "satin_glare",
+      "metric": "paid_total",
+      "expected": 110.25,
+      "lines": [
+        "GLARE SATIN BAND V33",
+        "g1 paid 51.00",
+        "g2 paid 59.25",
+        "g3 open 18.00",
+        "TOTAL PAID TARGET 110.25"
+      ],
+      "cn": "缎带眩光单",
+      "stamp": "GLR"
+    },
+    {
+      "id": "v33_18",
+      "kind": "spiral_tab",
+      "metric": "paid_total",
+      "expected": 63.0,
+      "lines": [
+        "TAB SPIRAL BIND V33",
+        "t1 paid 28.00",
+        "t2 paid 35.00",
+        "t3 open 11.00",
+        "TOTAL PAID TARGET 63.00"
+      ],
+      "cn": "螺旋索引签",
+      "stamp": "TAB"
+    }
+  ],
+  "held": [
+    {
+      "id": "v33h_01",
+      "kind": "parchment_recv",
+      "metric": "paid_total",
+      "expected": 64.5,
+      "lines": [
+        "PARCHMENT RECV V33H",
+        "a paid 31.00",
+        "b paid 33.50",
+        "c open 12.00",
+        "TOTAL PAID TARGET 64.50"
+      ],
+      "cn": "羊皮纸收款单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v33h_02",
+      "kind": "cork_wh",
+      "metric": "qty_sum",
+      "expected": 66.0,
+      "lines": [
+        "WH CORK BOARD V33H",
+        "SKU1 qty 22 ok",
+        "SKU2 qty 15 hold",
+        "SKU3 qty 29 ok",
+        "qty_sum TARGET 66"
+      ],
+      "cn": "软木仓位单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v33h_03",
+      "kind": "canvas_refund",
+      "metric": "refund_done",
+      "expected": 41.5,
+      "lines": [
+        "CANVAS REFUND V33H",
+        "itemR1 18.00 done",
+        "itemR2 23.50 done",
+        "itemR3 9.00 open",
+        "refund_done TARGET 41.50"
+      ],
+      "cn": "帆布退款单H",
+      "stamp": "DONE"
+    },
+    {
+      "id": "v33h_04",
+      "kind": "rivet_tax",
+      "metric": "tax_base_paid",
+      "expected": 109.0,
+      "lines": [
+        "TAX RIVET BIND V33H",
+        "T1 58.00 paid",
+        "T2 24.00 open",
+        "T3 51.00 paid",
+        "tax_base_paid TARGET 109.00"
+      ],
+      "cn": "铆钉税基单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v33h_05",
+      "kind": "holo_pay",
+      "metric": "payroll_active",
+      "expected": 2020.0,
+      "lines": [
+        "PAYROLL HOLO SEAL V33H",
+        "A 980 active",
+        "B 210 leave",
+        "C 1040 active",
+        "payroll_active TARGET 2020"
+      ],
+      "cn": "全息工资单H",
+      "stamp": "OK"
+    },
+    {
+      "id": "v33h_06",
+      "kind": "zip_ship",
+      "metric": "ship_ok_qty",
+      "expected": 48.0,
+      "lines": [
+        "SHIP ZIP LOCK V33H",
+        "P1 21 ok",
+        "P2 14 hold",
+        "P3 27 ok",
+        "ship_ok_qty TARGET 48"
+      ],
+      "cn": "拉链发运单H",
+      "stamp": "SHIP"
+    },
+    {
+      "id": "v33h_07",
+      "kind": "filament_sla",
+      "metric": "open_pri_sum",
+      "expected": 45.0,
+      "lines": [
+        "SLA FILAMENT V33H",
+        "S1 pri 17 open",
+        "S2 pri 19 closed",
+        "S3 pri 28 open",
+        "open_pri_sum TARGET 45"
+      ],
+      "cn": "灯丝SLA单H",
+      "stamp": "OPEN"
+    },
+    {
+      "id": "v33h_08",
+      "kind": "honey_exp",
+      "metric": "paid_total",
+      "expected": 81.5,
+      "lines": [
+        "EXP HONEYCOMB V33H",
+        "e1 paid 39.00",
+        "e2 paid 42.50",
+        "e3 open 14.00",
+        "TOTAL PAID TARGET 81.50"
+      ],
+      "cn": "蜂窝报销单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v33h_09",
+      "kind": "marble_po",
+      "metric": "paid_total",
+      "expected": 68.0,
+      "lines": [
+        "PO MARBLE EDGE V33H",
+        "lineA paid 32.00",
+        "lineB paid 36.00",
+        "lineC open 11.00",
+        "TOTAL PAID TARGET 68.00"
+      ],
+      "cn": "大理石采购单H",
+      "stamp": "PO"
+    },
+    {
+      "id": "v33h_10",
+      "kind": "copper_order",
+      "metric": "paid_total",
+      "expected": 60.5,
+      "lines": [
+        "ORDER COPPER FOIL V33H",
+        "o1 paid 27.00",
+        "o2 paid 33.50",
+        "o3 open 10.00",
+        "TOTAL PAID TARGET 60.50"
+      ],
+      "cn": "铜箔订单H",
+      "stamp": "ORD"
+    },
+    {
+      "id": "v33h_11",
+      "kind": "acetate_dup",
+      "metric": "paid_total",
+      "expected": 79.0,
+      "lines": [
+        "DUP ACETATE SHEET V33H",
+        "d1 paid 38.00",
+        "d2 paid 41.00",
+        "d3 open 13.00",
+        "TOTAL PAID TARGET 79.00"
+      ],
+      "cn": "醋酸片副本H",
+      "stamp": "DUP"
+    },
+    {
+      "id": "v33h_12",
+      "kind": "void_zero",
+      "metric": "paid_total",
+      "expected": 0.0,
+      "lines": [
+        "OPEN ONLY V33H",
+        "X 46.00 open",
+        "Y 49.00 open",
+        "paid_total TARGET 0.00"
+      ],
+      "cn": "未付空单H",
+      "stamp": "HOLD"
+    },
+    {
+      "id": "v33h_13",
+      "kind": "perf_ledger",
+      "metric": "paid_total",
+      "expected": 48.5,
+      "lines": [
+        "LEDGER PERF EDGE V33H",
+        "L1 paid 22.00",
+        "L2 paid 26.50",
+        "L3 open 9.00",
+        "TOTAL PAID TARGET 48.50"
+      ],
+      "cn": "打孔台账H",
+      "stamp": "LED"
+    },
+    {
+      "id": "v33h_14",
+      "kind": "waxseal_ui",
+      "metric": "paid_total",
+      "expected": 54.75,
+      "lines": [
+        "UI WAX SEAL V33H",
+        "u1 paid 25.00",
+        "u2 paid 29.75",
+        "u3 open 10.00",
+        "TOTAL PAID TARGET 54.75"
+      ],
+      "cn": "蜡封印界面H",
+      "stamp": "UI"
+    },
+    {
+      "id": "v33h_15",
+      "kind": "magnet_stack",
+      "metric": "paid_total",
+      "expected": 77.0,
+      "lines": [
+        "STACK MAGNET CLIP V33H",
+        "m1 paid 35.00",
+        "m2 paid 42.00",
+        "m3 open 12.00",
+        "TOTAL PAID TARGET 77.00"
+      ],
+      "cn": "磁夹叠单H",
+      "stamp": "STK"
+    },
+    {
+      "id": "v33h_16",
+      "kind": "crepe_fax",
+      "metric": "paid_total",
+      "expected": 44.5,
+      "lines": [
+        "FAX CREPE PAPER V33H",
+        "f1 paid 20.00",
+        "f2 paid 24.50",
+        "f3 open 8.00",
+        "TOTAL PAID TARGET 44.50"
+      ],
+      "cn": "绉纸传真H",
+      "stamp": "FAX"
+    },
+    {
+      "id": "v33h_17",
+      "kind": "satin_glare",
+      "metric": "paid_total",
+      "expected": 63.0,
+      "lines": [
+        "GLARE SATIN BAND V33H",
+        "g1 paid 29.00",
+        "g2 paid 34.00",
+        "g3 open 11.00",
+        "TOTAL PAID TARGET 63.00"
+      ],
+      "cn": "缎带眩光单H",
+      "stamp": "GLR"
+    },
+    {
+      "id": "v33h_18",
+      "kind": "spiral_tab",
+      "metric": "paid_total",
+      "expected": 35.5,
+      "lines": [
+        "TAB SPIRAL BIND V33H",
+        "t1 paid 16.00",
+        "t2 paid 19.50",
+        "t3 open 7.00",
+        "TOTAL PAID TARGET 35.50"
+      ],
+      "cn": "螺旋索引签H",
+      "stamp": "TAB"
+    }
+  ]
+}

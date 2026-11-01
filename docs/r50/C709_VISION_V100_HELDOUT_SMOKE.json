@@ -1,0 +1,237 @@
+{
+  "cycle": "C709",
+  "theme": "vision_v100_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T04:48:44+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7297.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v100h_01",
+      "kind": "xenohill_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 702.75,
+      "expected": 702.75,
+      "ocr_preview": "SCAN DESK V40H PART 222-00 PAGE 01 xeno hill XENOHILL GRAIN RECV V100H a paid 345.00 b paid 357.75 c open 238.00 TOTAL PAID TARGET 702.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v100h_02",
+      "kind": "yarrowridge_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 640.0,
+      "expected": 640.0,
+      "ocr_preview": "yarrowridge WH YARROWRIDGE BIN V100H SKU1 qty 300 ok SKU2 qty 220 hold SKU3 qty 340 ok qty_sum TARGET 640 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v100h_03",
+      "kind": "zirconridge_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 619.5,
+      "expected": 619.5,
+      "ocr_preview": "zirconridge ZIRCONRIDGE PATCH REFUND V100H itemR1 303.00 done itemR2 316.50 done itemR3 226.00 open refund_done TARGET 619.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DONE VOID COPY bait 88.00 bait 88.00 bait 555.00"
+    },
+    {
+      "id": "v100h_04",
+      "kind": "aldergrove_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 852.0,
+      "expected": 852.0,
+      "ocr_preview": "SCAN DESK V40H BAS 222.00 PAGE 01 aldergrove ALDERGROVE TAX SLIP V100H base 418.00 paid addon 434.00 paid skip 267.00 tax_base_paid TARGET 852.00 OKP tax 00.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 00.00 IGNORE VOID TAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v100h_05",
+      "kind": "bloomridge_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 934.0,
+      "expected": 934.0,
+      "ocr_preview": "bloomridge BLOOMRIDGE PAYROLL V100H empA 459.00 active empB 475.00 active empC 262.00 leave payroll_active TARGET 934.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v100h_06",
+      "kind": "cedargrove_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "cedargrove CEDARGROVE SHIP DOCK V100H box1 253 ok box2 267 ok box3 231 hold ship_ok TARGET 520 VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v100h_07",
+      "kind": "duskridge_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "duskridge DUSKRIDGE SLA CARD V100H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00"
+    },
+    {
+      "id": "v100h_08",
+      "kind": "elmridge_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 679.75,
+      "expected": 679.75,
+      "ocr_preview": "SCAN DESK V43H bst 222.00 PAGE 01 elmrige ELMRIDGE EXPENSE V100H e1 329.00 e2 350.75 e3 238.00 void exp_sum TARGET 679.75 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v100h_09",
+      "kind": "firhill_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 686.0,
+      "expected": 686.0,
+      "ocr_preview": "firhill FRHILL PO SHEET V100H line1 349.00 open line2 337.00 open line3 241.00 closed po_open TARGET 686.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v100h_10",
+      "kind": "gorsegrove_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 738.0,
+      "expected": 738.0,
+      "ocr_preview": "gorsegrove GORSEGROVE ORDER V100H skuA 376.00 paid skuB 362.00 paid skuC 233.00 due order_paid TARGET 738.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v100h_11",
+      "kind": "hazelridge_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "hazelridge HAZELRIDGE DUP MARK V100H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP COPY"
+    },
+    {
+      "id": "v100h_12",
+      "kind": "ironhill_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "ironhill IRONHILL AIR ZERO V100H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v100h_13",
+      "kind": "jaderidge_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 837.5,
+      "expected": 837.5,
+      "ocr_preview": "jaderidge JADERIDGE LEDGER V100H dr 411.00 cr 426.50 adj 248.00 ledger_net TARGET 837.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v100h_14",
+      "kind": "kelpgrove_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "kelpgrove KELPGROVE UI SCAN V100H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v100h_15",
+      "kind": "larkridge_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 307.0,
+      "expected": 307.0,
+      "ocr_preview": "larkridge LARKRIDGE STACK V100H p1 155 p2 152 p3 147 stack_count TARGET 307 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY"
+    },
+    {
+      "id": "v100h_16",
+      "kind": "mossgrove_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 336.0,
+      "expected": 336.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 mossgrove MOSSGROVE FAX V100H pgA 171 pgB 165 pgC 153 drop fax_pages TARGET 336 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v100h_17",
+      "kind": "northridge_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "northridge NORTHBRIDGE GLARE V100H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v100h_18",
+      "kind": "opalhill_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 356.0,
+      "expected": 356.0,
+      "ocr_preview": "opahill OPALHILL TAB INDEX V100H tabA 181 tabB 175 tabC 154 tab_index TARGET 356 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY tab 88.00 bait 88.00 bait 555.00 opahill tabA 181 tabB 175 tabC 154 tab_index TARGET 356 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 opahill tab"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v100_heldout_claim": true,
+  "claim_scope": "r50plus_v100_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

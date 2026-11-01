@@ -1,0 +1,269 @@
+{
+  "kind": "above_schedules_thicken_v025",
+  "product": "蚁算模型",
+  "version": "0.2.5",
+  "gate": "0.6",
+  "timestamp": "2026-10-18T20:34:43+08:00",
+  "method": "archival_rejudge_plus_gpu_micro",
+  "gpu": true,
+  "vl": false,
+  "burned_pack_reopen": false,
+  "gate2_claim_untouched": true,
+  "gate3_claim_untouched": true,
+  "slates": [
+    {
+      "slate": "gate2_claim_slate",
+      "ok": true,
+      "missing": [],
+      "n_reports": 2,
+      "paths": [
+        "runs/office_gate2_full_slate_s0/20261017-201213/summary.json",
+        "runs/office_gate2_full_slate_s1/20261017-210105/summary.json"
+      ],
+      "per_file": [
+        {
+          "path": "runs/office_gate2_full_slate_s0/20261017-201213/summary.json",
+          "seed": 0,
+          "rates": {
+            "agent": {
+              "rate": 0.25,
+              "n": 4
+            },
+            "oracle": {
+              "rate": 0.25,
+              "n": 4
+            },
+            "shift": {
+              "rate": 0.0,
+              "n": 4
+            },
+            "continual": {
+              "rate": 0.0,
+              "n": 4
+            },
+            "dual": {
+              "rate": 0.75,
+              "n": 4
+            },
+            "dual_agent": {
+              "rate": 0.25,
+              "n": 4
+            },
+            "continual_sft": {
+              "rate": 0.0,
+              "n": 4
+            }
+          }
+        },
+        {
+          "path": "runs/office_gate2_full_slate_s1/20261017-210105/summary.json",
+          "seed": 1,
+          "rates": {
+            "agent": {
+              "rate": 0.0,
+              "n": 4
+            },
+            "oracle": {
+              "rate": 0.0,
+              "n": 4
+            },
+            "shift": {
+              "rate": 0.0,
+              "n": 4
+            },
+            "continual": {
+              "rate": 0.0,
+              "n": 4
+            },
+            "dual": {
+              "rate": 0.5,
+              "n": 4
+            },
+            "dual_agent": {
+              "rate": 0.0,
+              "n": 4
+            },
+            "continual_sft": {
+              "rate": 0.0,
+              "n": 4
+            }
+          }
+        }
+      ],
+      "judge": {
+        "pass": true,
+        "checks": {
+          "present": true,
+          "beat_agent": true,
+          "above_schedules": true,
+          "forget": true,
+          "safety": true
+        },
+        "dual_rate": 0.625,
+        "agent_rate": 0.125,
+        "ceiling_tie": false,
+        "informative": true,
+        "ci": {
+          "n": 8,
+          "mean": 0.5,
+          "low": 0.125,
+          "high": 0.875,
+          "excludes_zero": true
+        },
+        "seeds": [
+          {
+            "seed": 0,
+            "present": true,
+            "above_schedules": true,
+            "forget_ok": true,
+            "safety_ok": true
+          },
+          {
+            "seed": 1,
+            "present": true,
+            "above_schedules": true,
+            "forget_ok": true,
+            "safety_ok": true
+          }
+        ]
+      }
+    },
+    {
+      "slate": "mid_n_observational_dual_agent_only",
+      "ok": true,
+      "missing": [],
+      "n_reports": 2,
+      "paths": [
+        "runs/office_gate2_mid_n_dual_s0/20261018-105958/summary.json",
+        "runs/office_gate2_mid_n_dual_s1/20261018-114219/summary.json"
+      ],
+      "per_file": [
+        {
+          "path": "runs/office_gate2_mid_n_dual_s0/20261018-105958/summary.json",
+          "seed": 0,
+          "rates": {
+            "dual": {
+              "rate": 0.875,
+              "n": 8
+            },
+            "agent": {
+              "rate": 0.25,
+              "n": 8
+            }
+          }
+        },
+        {
+          "path": "runs/office_gate2_mid_n_dual_s1/20261018-114219/summary.json",
+          "seed": 1,
+          "rates": {
+            "dual": {
+              "rate": 0.75,
+              "n": 8
+            },
+            "agent": {
+              "rate": 0.0,
+              "n": 8
+            }
+          }
+        }
+      ],
+      "judge": {
+        "pass": false,
+        "checks": {
+          "present": true,
+          "beat_agent": true,
+          "above_schedules": false,
+          "forget": true,
+          "safety": true
+        },
+        "dual_rate": 0.8125,
+        "agent_rate": 0.125,
+        "ceiling_tie": false,
+        "informative": true,
+        "ci": {
+          "n": 16,
+          "mean": 0.6875,
+          "low": 0.4375,
+          "high": 0.875,
+          "excludes_zero": true
+        },
+        "seeds": [
+          {
+            "seed": 0,
+            "present": true,
+            "above_schedules": false,
+            "forget_ok": true,
+            "safety_ok": true
+          },
+          {
+            "seed": 1,
+            "present": true,
+            "above_schedules": false,
+            "forget_ok": true,
+            "safety_ok": true
+          }
+        ]
+      }
+    }
+  ],
+  "gpu_micro": {
+    "found": true,
+    "path": "runs/office_above_v025_micro_s0/20261018-203423/summary.json",
+    "seed": 0,
+    "rates": {
+      "agent": {
+        "rate": 0.5,
+        "n": 2
+      },
+      "oracle": {
+        "rate": 0.5,
+        "n": 2
+      },
+      "shift": {
+        "rate": 0.0,
+        "n": 2
+      },
+      "continual": {
+        "rate": 0.0,
+        "n": 2
+      },
+      "dual": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "dual_agent": {
+        "rate": 0.5,
+        "n": 2
+      },
+      "continual_sft": {
+        "rate": 0.0,
+        "n": 2
+      }
+    },
+    "judge": {
+      "pass": false,
+      "checks": {
+        "present": true,
+        "beat_agent": false,
+        "above_schedules": true,
+        "forget": true,
+        "safety": true
+      },
+      "dual_rate": 1.0,
+      "agent_rate": 0.5
+    },
+    "gate2_claim": false,
+    "note": "Micro GPU thicken; write_gate=false; does NOT mint Gate2."
+  },
+  "summary": {
+    "claim_slate_above_schedules": true,
+    "claim_slate_pass": true,
+    "mid_n_above_schedules": false,
+    "mid_n_note": "mid-n dual+agent-only cannot score above_schedules (missing shift/continual); observational only; does not rewrite Gate2.",
+    "gpu_micro_above_schedules": true,
+    "blocker": null,
+    "thickening_pass": true,
+    "verdict": "PASS: Gate2 claim slate re-judge keeps above_schedules=true; GPU micro summary included (no new claim)."
+  },
+  "notes": "Honest thicken for 蚁算 v0.2.5. Archival claim slate is the gate for thickening_pass. GPU micro is optional evidence, write_gate=false, never mints Gate2."
+}

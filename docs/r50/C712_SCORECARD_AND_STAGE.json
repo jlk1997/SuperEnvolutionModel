@@ -1,0 +1,54 @@
+{
+  "cycle": "C712",
+  "timestamp": "2026-10-21T04:48:48+08:00",
+  "gate": 0.6,
+  "milestone": "V100",
+  "vision": {
+    "v99": {
+      "rate": 1.0,
+      "claim": true,
+      "n": 18
+    },
+    "v99_heldout": {
+      "rate": 1.0,
+      "claim": true,
+      "disjoint": true,
+      "n": 18
+    },
+    "v100": {
+      "rate": 1.0,
+      "claim": true,
+      "n": 18
+    },
+    "v100_heldout": {
+      "rate": 1.0,
+      "claim": true,
+      "disjoint": true,
+      "n": 18
+    }
+  },
+  "product_u2c": {
+    "pass": true,
+    "replace_ratio": 4.0694,
+    "source": "C710"
+  },
+  "confidence_gate": {
+    "pass": true,
+    "rate": 1.0,
+    "source": "C704"
+  },
+  "capture_regression": {
+    "pass": true,
+    "source": "C711"
+  },
+  "dissolve_shadow": {
+    "dissolve_pass": true,
+    "shadow_pass": true,
+    "source": "C398"
+  },
+  "composite": 1.0,
+  "stage_ready": true,
+  "v100_jpeg_q": 62,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD"
+}

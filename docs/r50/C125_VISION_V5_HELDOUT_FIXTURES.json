@@ -1,0 +1,33 @@
+{
+  "cycle": "C125",
+  "theme": "vision_v5_heldout_fixtures",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T03:15:00+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "n_fixtures": 12,
+  "fixtures_dir": "evo/office/fixtures/vision_images_v5_heldout",
+  "manifest": "evo/office/fixtures/vision_images_v5_heldout/manifest.json",
+  "overlap": {
+    "checked": true,
+    "id_overlap": [],
+    "file_overlap": [],
+    "kind_expected_soft_overlap": [
+      {
+        "id": "v5h_06",
+        "kind": "ship",
+        "expected": 9.0
+      },
+      {
+        "id": "v5h_12",
+        "kind": "edge_zero",
+        "expected": 0.0
+      }
+    ],
+    "disjoint_ids": true,
+    "disjoint_files": true
+  },
+  "pass": true,
+  "claim": false,
+  "note": "Heldout fixtures only; claim deferred to C126 smoke."
+}

@@ -1,0 +1,20 @@
+{
+  "cycle": "C123",
+  "theme": "docs_sync_c113_c124",
+  "timestamp": "2026-10-19T03:10:40+08:00",
+  "gate": 0.6,
+  "gate2_3_untouched": true,
+  "v5_rate": 1.0,
+  "v5_claim": true,
+  "u2c_claim": false,
+  "gen11": "HOLD",
+  "files": [
+    "docs/CHECKPOINT_NOW.md",
+    "docs/STAGE_ANT_C124.md",
+    "docs/STAGE_ANT_R50PLUS.md",
+    "docs/r50/C124_GEN11_HOLD.json"
+  ],
+  "pass": true,
+  "claim": false,
+  "note": "Synced stale CHECKPOINT with C113-C124 facts."
+}

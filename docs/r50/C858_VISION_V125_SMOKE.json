@@ -1,0 +1,232 @@
+{
+  "cycle": "C858",
+  "theme": "vision_v125_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T09:14:25+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v125_01",
+      "kind": "ashcove_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1425.5,
+      "expected": 1425.5,
+      "ocr_preview": "ashcove ASHCOVE GRAIN RECV V125 a paid 704.00 b paid 781.50 c open 514.00 TOTAL PAID TARGET 1425.50 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 TRADE MARK: EAGLE MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 505.00 FAX HEADER BAIT 123.40 BARCODE bait 123.40 SCAN DESK V42 BAIT"
+    },
+    {
+      "id": "v125_02",
+      "kind": "briarcove_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1320.0,
+      "expected": 1320.0,
+      "ocr_preview": "briarcove WH BRIARCOVE BIN V125 SKU1 qty 650 ok SKU2 qty 490 hold SKU3 qty 650 ok qty_sum TARGET 1320 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v125_03",
+      "kind": "cedarcove_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1283.25,
+      "expected": 1283.25,
+      "ocr_preview": "cedarcove CEDARCOVE PATCH REFUND V125 ItemR1 627.00 done ItemR2 556.25 done ItemR3 499.00 open refund_done TARGET 1283.25 DRAFT DRAFT WATERMARK COPY TAPE REDS bait 12:12 GR 181:12:77 VOID COPY OVEN VOID FAX HEADER BAIT 88:88 FROM:SPOTF SHOP LABEL BAIT 222:22 TRASH: MUG: PEN MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOKD WIN IGNORE old total 999.00 do not pa"
+    },
+    {
+      "id": "v125_04",
+      "kind": "dawncove_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1537.0,
+      "expected": 1537.0,
+      "ocr_preview": "dawncove DAWNCOVE TAX SLIP V125 base 760.00 paid addon 727.00 paid skip 584.00 tax_base_paid TARGET 1537.00 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.12.30 OR 18.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222-22 TRADE MARK BAIT 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse ba"
+    },
+    {
+      "id": "v125_05",
+      "kind": "embercove_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1668.0,
+      "expected": 1668.0,
+      "ocr_preview": "embercove EMBERCOVE PAYROLL V125 empB 822.00 active empB 846.00 active empC 554.00 leave payroll_active TARGET 1668.00 DRAFT DRAFT WATERMARK COPY GR 189-12/77 TAPE R23 bait 12/12 VOID COPY OVEN VOID FAX HEADER BAIT 88.88 FROM: SPOTF SHOP LABEL BAIT 222-22 TRADE MARK: EAGLE MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not par"
+    },
+    {
+      "id": "v125_06",
+      "kind": "ferncove_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1176.0,
+      "expected": 1176.0,
+      "ocr_preview": "SCAR DESK V42 BEST 133.00 PAGE 01 ferncove FERNCOVE SHIP DOCK V125 box1 580 ok box2 595 ok box3 512 hold ship_ok TARGET 1176 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v125_07",
+      "kind": "glencove_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 720.0,
+      "expected": 720.0,
+      "ocr_preview": "glencove GLENCOVE SLA CARD V125 job1 340.00 hours ok job2 360.00 hours ok job3 220.00 hours late sla_ok_hours TARGET 720.00 SHAPE scan TAPE R23 bait 12.12 RING 38.4.12.35 GR 18.12.77 DRAFT DRAFT WATERMARK COPY VOID COPY OVEN VOID FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 TRUCK WITH 6000 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNOR"
+    },
+    {
+      "id": "v125_08",
+      "kind": "hazecove_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1371.75,
+      "expected": 1371.75,
+      "ocr_preview": "hazecove HAZECOVE EXPENSE V125 e1 670.00 e2 701.75 e3 518.00 void exp_sum TARGET 1371.75 TAPE R23 bait 12.12 DRAFT DRAFT WATERMARK COPY GR 1812.77 VOID COPY OVEN MUG PEN OVERLAP LABEL bait 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 303.00 FAX 123.17 BARCODE bait 123.40 SCAN DESK V42 bait 333.00 PAGE 01"
+    },
+    {
+      "id": "v125_09",
+      "kind": "inkcove_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1391.0,
+      "expected": 1391.0,
+      "ocr_preview": "inkcove INKCOVE PO SHEET V125 line1 704.00 open line2 607.00 open line3 527.00 closed po_open TARGET 1391.00 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 TRACK WITH: MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 503.00 FAX HEADER BAIT 123.40 BARCODE bait 123.40 SCAN DESK V42 B"
+    },
+    {
+      "id": "v125_10",
+      "kind": "jadecove_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1462.0,
+      "expected": 1462.0,
+      "ocr_preview": "jadcove JADECOVE ORDER V125 skuA 737.00 paid skuB 726.00 paid skuC 515.00 due order_paid TARGET 1462.00 FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 TRADE MARK: EAGLE MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse baft 646.00 PHONE SHADOW baft 503.00 FAX HEADER BAIT 123.17 BARCODE bait 123.40 DRAFT WATERM"
+    },
+    {
+      "id": "v125_11",
+      "kind": "kelpcove_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "kelpcove KELPCOVE DUP MARK V125 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.3.20 OR 38.12.77 COPY OVEN VOID FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222.22 TRACK: WASH: 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOD WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 505.00 FAX HE"
+    },
+    {
+      "id": "v125_12",
+      "kind": "loamcove_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "loamcove LOAMCOVE AIR ZERO V125 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 CLASS scan DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v125_13",
+      "kind": "mistcove_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1627.5,
+      "expected": 1627.5,
+      "ocr_preview": "mistcove MISTCOVE LEDGER V125 dr 803.00 cr 824.50 adj 540.00 ledger_net TARGET 1627.50 SHARE scan DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v125_14",
+      "kind": "nethercove_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "nethercove NETHERCOVE UI SCAN V125 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v125_15",
+      "kind": "oakcove_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 696.0,
+      "expected": 696.0,
+      "ocr_preview": "oakcove OAKCOVE STACK V125 p1 362 p2 344 p3 322 stack_count TARGET 696 DRAFT WATERMARK COPY GR 189-12/77 TAPE R23 bait 12/12 VOID OVEN COPY DO NOT SCAN OVERLAY LABEL bait 327 MUG PEN VOD WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 305.00 FAX HEADER BAIT 88.88 FROM: SPOT SHOP LABEL BAIT 222-22 TRACK WITH 600 BARCODE bait 123 40 SCAN"
+    },
+    {
+      "id": "v125_16",
+      "kind": "pinecove_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 724.0,
+      "expected": 724.0,
+      "ocr_preview": "pinecove RINECOVE FAX V125 pgB370 pgB354 pgC345dip fax_pages TARGET 724 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v125_17",
+      "kind": "quillcove_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 quillcove QUILLCOVE GLARE V125 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v125_18",
+      "kind": "reedcove_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 768.0,
+      "expected": 768.0,
+      "ocr_preview": "reedcove REEDCOVE TAB INDEX V125 tabA 396 tabB 378 tabC 342 tab_index TARGET 768 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    }
+  ],
+  "vl_gate_v125_claim": true,
+  "claim_scope": "r50plus_v125_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V125 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

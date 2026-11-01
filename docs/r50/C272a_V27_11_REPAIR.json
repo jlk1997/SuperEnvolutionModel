@@ -1,0 +1,25 @@
+{
+  "cycle": "C272a",
+  "theme": "v27_11_honest_repair",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T10:48:47+08:00",
+  "id": "v27_11",
+  "change": {
+    "cn_title": "撕边复写联单",
+    "lines": [
+      "INVOICE #V27-PERF",
+      "lineA paid 37.00",
+      "lineB paid 37.00",
+      "lineC paid 37.00",
+      "TOTAL PAID TARGET 111.00"
+    ],
+    "expected": 111.0,
+    "reason": "VL OCR collapsed into 发票 token loop; remove short repeatable CN token; diversify line labels",
+    "fake_vl": false
+  },
+  "path": "evo/office/fixtures/vision_images_v27/v27_11_perf_dup.png",
+  "pass": true,
+  "claim": false,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD"
+}

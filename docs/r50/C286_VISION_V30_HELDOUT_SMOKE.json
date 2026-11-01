@@ -1,0 +1,235 @@
+{
+  "cycle": "C286",
+  "theme": "vision_v30_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T12:41:40+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7445.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v30h_01",
+      "kind": "velvet_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 58.5,
+      "expected": 58.5,
+      "ocr_preview": "SCAN DESK V30H BAST 222.00 PAGE 01 洞藏旺源版救烧供壶H VELVET DUST RECV V30H a paid 28.00 b paid 30.50 c open 10.00 TOTAL PAID TARGET 58.50 OLD bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID REC COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V30H C280 clarity four pag_c00 photo2 testout"
+    },
+    {
+      "id": "v30h_02",
+      "kind": "spiral_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 47.0,
+      "expected": 47.0,
+      "ocr_preview": "SCAN DESK V30H PART 222.00 PAGE 01 WH SPIRAL BIND V30H SKU1 qty 22 ok SKU2 qty 11 hold SKU3 qty 25 ok qty_sum TARGET 47 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v30h_03",
+      "kind": "mimeo_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 33.75,
+      "expected": 33.75,
+      "ocr_preview": "SCAN DESK V30H BAST 222.00 PAGE 01 耀璃紙筒C燒供塗H MIMEO COPY REFUND V30H ItemR1 16.00 done ItemR2 17.75 done ItemR3 7.00 open refund_done TARGET 33.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE VOID DONE COPY V30H C280 clarity floor peg_p00 photo2 testout"
+    },
+    {
+      "id": "v30h_04",
+      "kind": "ribbon_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 101.0,
+      "expected": 101.0,
+      "ocr_preview": "SCAN DESK V30H BAST 222.00 PAGE 01 税盾增值税税筹划 TAX RIBBON STREAK V30H T1 56.00 paid T2 23.00 open T3 45.00 paid tax_base_paid TARGET 101.00 VOID VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 88.00 IGNORE REC VOID COPY V30H C280 clarity four pag_010 photo2 testout"
+    },
+    {
+      "id": "v30h_05",
+      "kind": "neon_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1980.0,
+      "expected": 1980.0,
+      "ocr_preview": "SCAN DESK V30H BAST 222.00 PAGE 01 OPEN PAYROLL NEON HOTSPOT V30H A 1010 active B 200 leave C 970 active payroll_active TARGET 1980 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v30h_06",
+      "kind": "hologram_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 39.0,
+      "expected": 39.0,
+      "ocr_preview": "SCAN DESK V30H PART 222.00 PAGE 01 健儿花盗戏劫劫劫 SHIP HOLOGRAM GLARE V30H P1 19 ok P2 10 hold P3 20 ok ship_ok_qty TARGET 39 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY V30H C280 clarity four peg_y00 photo2 testout"
+    },
+    {
+      "id": "v30h_07",
+      "kind": "lacquer_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 41.0,
+      "expected": 41.0,
+      "ocr_preview": "SCAN DESK V30H BAIT 222.00 PAGE 01 SLA LACQUER SEAL BAIT V30H S1 pri 17 open S2 pri 19 closed S3 pri 24 open open_pri_sum TARGET 41 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 90.00 IGNORE DRAFT DRAFT DRAFT DRAFT DRAFT OPEN bait 90.00 VOID COPY OPEN"
+    },
+    {
+      "id": "v30h_08",
+      "kind": "rivet_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 77.25,
+      "expected": 77.25,
+      "ocr_preview": "SCAN DESK V30H 222.00 PAGE 01 聞味補償5個H EXPENSE RIVET CLIP V30H E1 37.00 paid E2 15.00 void E3 40.25 paid paid_total TARGET 77.25 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v30h_09",
+      "kind": "concertina_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 61.0,
+      "expected": 61.0,
+      "ocr_preview": "SCAN DESK V30H BAST 222.00 PAGE 01 PO-CONCERTINA FOLD V30H itemA paid 29.00 itemB paid 32.00 itemC open 11.00 TOTAL PAID TARGET 61.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE REC VOID COPY V30H C280 clarity floor peg_010 photo2 testout"
+    },
+    {
+      "id": "v30h_10",
+      "kind": "serrate_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 52.5,
+      "expected": 52.5,
+      "ocr_preview": "OPEN bait 80.00 ORDER SERRATE EDGE V30H A paid 25.00 B paid 27.50 C open 9.00 TOTAL PAID TARGET 52.50 STICKY bait 80.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID REC COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V30H C280 clarity four pag_010 photo2 testout"
+    },
+    {
+      "id": "v30h_11",
+      "kind": "triptych_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 66.0,
+      "expected": 66.0,
+      "ocr_preview": "SCAN DESK V30H 222.00 PAGE 01 洞数扒柳如照酒愁夜妆下 INVOICE #V30H-TRIPTYCH lineA paid 22.00 lineB paid 22.00 lineC paid 22.00 TOTAL PAID TARGET 66.00 OLD balt 00.00 STICKY balt 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID REC COPY VOID WIN IGNORE old total 888.00 do not parse balt 555.00 V30H C280 clarity four pag_c00100100100100100100100100100100"
+    },
+    {
+      "id": "v30h_12",
+      "kind": "void_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "SCAN DESK V30H BAST 222.00 PAGE W1 璀璨珊瑚村安雄D型H OPEN ONLY V30H X 35.00 open Y 38.00 open paid_total TARGET 0.00 OLD paid 00.00 DRAFT DRAFT DRAFT DRAFT STICKY paid 00.00 IGNORE HOLD VOID COPY VOID WIN IGNORE old total 888.00 do not parse paid 555.00 V30H C280 clarity floor pag_c280 photol testout"
+    },
+    {
+      "id": "v30h_13",
+      "kind": "marker_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 40.5,
+      "expected": 40.5,
+      "ocr_preview": "SCAN DESK V30H 222.00 PAGE 01 LEDGER MARKER STREAK V30H rA paid 19.00 rB paid 21.50 rC open 7.00 TOTAL PAID TARGET 40.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE REC VOID COPY bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90.00 bait 90."
+    },
+    {
+      "id": "v30h_14",
+      "kind": "washi_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 45.75,
+      "expected": 45.75,
+      "ocr_preview": "SCAN DESK V30H BAST 222.00 PAGE 01 假出焊权主邮聞(一塗H UI WASHI EDGE V30H alpha paid 22.00 beta paid 23.75 gamma open 8.00 TOTAL PAID TARGET 45.75 VOID bait 80.00 STICKY bait 80.00 IGNORE DRAFT DRAFT DRAFT DRAFT REC bait 555.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V30H C280 clarity four peg_y00 photo2 testout"
+    },
+    {
+      "id": "v30h_15",
+      "kind": "inkjet_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 71.0,
+      "expected": 71.0,
+      "ocr_preview": "SCAN DESK V30H 222.00 PAGE 01 眼睛V30H站口壞追跡)H INKJET FADE STACK V30H x paid 34.00 usd y paid 37.00 usd z open 12.00 usd TOTAL PAID TARGET 71.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE REC VOID COPY V30H C280 clarity four peg_y00 photo2 testout"
+    },
+    {
+      "id": "v30h_16",
+      "kind": "redink_fax",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 38.25,
+      "expected": 38.25,
+      "ocr_preview": "CN-EN REDINK FAX V30H tea paid 18.00 rice paid 20.25 soup open 7.00 TOTAL PAID TARGET 38.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 98.00 IGNORE REC VOID COPY V30H C280 clarity four pag_c010 photo2 testout"
+    },
+    {
+      "id": "v30h_17",
+      "kind": "bulldog_glare",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 54.0,
+      "expected": 54.0,
+      "ocr_preview": "SCAN DESK V30H BAST 222.00 PAGE 01 BULLDOG CLIP GLARE V30H w1 paid 26.00 w2 paid 28.00 w3 open 10.00 TOTAL PAID TARGET 54.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 99.00 IGNORE DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v30h_18",
+      "kind": "corner_tab",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 31.5,
+      "expected": 31.5,
+      "ocr_preview": "SCAN DESK V30H 222.00 PAGE 01 磁擊D型眼鏡檸檬 LAMINATE CORNER TAB V30H p1 paid 15.00 p2 paid 16.50 p3 open 6.00 TOTAL PAID TARGET 31.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 98.00 IGNORE REC VOID COPY V30H C280 clarity four peg_p_01 photo2 testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0
+  ],
+  "vl_gate_v30_heldout_claim": true,
+  "claim_scope": "r50plus_v30_heldout_hlx_magclip_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 58,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

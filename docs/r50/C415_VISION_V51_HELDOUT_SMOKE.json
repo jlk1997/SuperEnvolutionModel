@@ -1,0 +1,237 @@
+{
+  "cycle": "C415",
+  "theme": "vision_v51_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T09:43:42+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7616.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v51h_01",
+      "kind": "azure_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 171.5,
+      "expected": 171.5,
+      "ocr_preview": "azure AZURE GRAIN RECEV V51H a paid 83.00 b paid 88.50 c open 37.00 TOTAL PAID TARGET 171.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY"
+    },
+    {
+      "id": "v51h_02",
+      "kind": "breeze_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 139.0,
+      "expected": 139.0,
+      "ocr_preview": "breeze WH BREEZE BIN V51H SKU1 qty 61 ok SKU2 qty 45 hold SKU3 qty 78 ok qty_sum TARGET 139 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v51h_03",
+      "kind": "coral_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 121.75,
+      "expected": 121.75,
+      "ocr_preview": "coral CORAL PATCH REFUND V51H itemR1 58.00 done itemR2 63.75 done itemR3 28.00 open refund_done TARGET 121.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v51h_04",
+      "kind": "drift_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 231.0,
+      "expected": 231.0,
+      "ocr_preview": "drift DRIFT TAX SLIP V51H base 113.00 paid addon 118.00 paid skip 52.00 tax_base_paid TARGET 231.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 88.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v51h_05",
+      "kind": "echo_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 288.0,
+      "expected": 288.0,
+      "ocr_preview": "echo ECHO PAYROLL V51H empA 141.00 active empB 147.00 active empC 49.00 leave payroll_active TARGET 288.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PAY bait 88.00 COPY bait 88.00"
+    },
+    {
+      "id": "v51h_06",
+      "kind": "flint_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 105.0,
+      "expected": 105.0,
+      "ocr_preview": "flint FLINT SHIP DOCK V51H box1 51 ok box2 54 ok box3 31 hold ship_ok TARGET 105 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP VOID COPY"
+    },
+    {
+      "id": "v51h_07",
+      "kind": "grove_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 124.5,
+      "expected": 124.5,
+      "ocr_preview": "grove GROVE SLA CARD V51H job1 65.00 hours ok job2 59.50 hours ok job3 32.00 hours late sla_ok_hours TARGET 124.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE COPY"
+    },
+    {
+      "id": "v51h_08",
+      "kind": "haze_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 152.0,
+      "expected": 152.0,
+      "ocr_preview": "haze HAZE EXPENSE V51H e1 73.00 e2 79.00 e3 37.00 void exp_sum TARGET 152.00 OKP bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID EXP COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v51h_09",
+      "kind": "ivory_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 166.0,
+      "expected": 166.0,
+      "ocr_preview": "ivory IVORY PO SHEET V51H line1 89.00 open line2 77.00 open line3 40.00 closed po_open TARGET 166.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88."
+    },
+    {
+      "id": "v51h_10",
+      "kind": "jet_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 198.25,
+      "expected": 198.25,
+      "ocr_preview": "jet JET ORDER V51H skuA 105.00 paid skuB 93.25 paid skuC 34.00 due order_paid TARGET 198.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v51h_11",
+      "kind": "kettle_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "kettle KETTLE DUP MARK V51H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait $55.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v51h_12",
+      "kind": "lotus_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "lotus LOTUS AIR ZERO V51H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 0"
+    },
+    {
+      "id": "v51h_13",
+      "kind": "marble_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 251.5,
+      "expected": 251.5,
+      "ocr_preview": "marble MARBLE LEDGER V51H dr 122.00 cr 129.50 adj 46.00 ledger_net TARGET 251.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v51h_14",
+      "kind": "nexus_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "nexus NEXUS UI SCAN V51H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v51h_15",
+      "kind": "opal_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 20.0,
+      "expected": 20.0,
+      "ocr_preview": "opal OPAL STACK V51H p1 11 p2 9 p3 4 stack_count TARGET 20 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY"
+    },
+    {
+      "id": "v51h_16",
+      "kind": "pebble_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 29.0,
+      "expected": 29.0,
+      "ocr_preview": "pebble PEBBLE FAX V51H pgA 16 pgB 13 pgC 10 drop fax_pages TARGET 29 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY"
+    },
+    {
+      "id": "v51h_17",
+      "kind": "quartz_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "quartz QUARTZ GLARE V51H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v51h_18",
+      "kind": "ripple_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 42.0,
+      "expected": 42.0,
+      "ocr_preview": "ripple RIPPLE TAB INDEX V51H tabA 23 tabB 19 tabC 11 tab_index TARGET 42 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v51_heldout_claim": true,
+  "claim_scope": "r50plus_v51_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

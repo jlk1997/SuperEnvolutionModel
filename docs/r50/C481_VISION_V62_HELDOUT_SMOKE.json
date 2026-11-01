@@ -1,0 +1,237 @@
+{
+  "cycle": "C481",
+  "theme": "vision_v62_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T12:22:00+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7453.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v62h_01",
+      "kind": "moonlight_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 287.25,
+      "expected": 287.25,
+      "ocr_preview": "SCAN DESK V43H baskt 222.00 PAGE 01 moonlight MOONLIGHT GRAIN RECEV V62H a paid 138.00 b paid 149.25 c open 69.00 TOTAL PAID TARGET 287.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 69.00 IGNORE REC VOID COPY bait 69.00 bait 69.00 bait 69.00 bait 69.00 bait 69.00 bait 69.00 bait 69.0"
+    },
+    {
+      "id": "v62h_02",
+      "kind": "nightwatch_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 234.0,
+      "expected": 234.0,
+      "ocr_preview": "nightwatch WH NIGHTWATCH BIN V62H SKU1 qty 105 ok SKU2 qty 76 hold SKU3 qty 129 ok qty_sum TARGET 234 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v62h_03",
+      "kind": "overbridge_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 213.75,
+      "expected": 213.75,
+      "ocr_preview": "overbridge OVERBRIDGE PATCH REFUND V62H itemR1 101.00 done itemR2 112.75 done itemR3 57.00 open refund_done TARGET 213.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v62h_04",
+      "kind": "pinecone_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 373.0,
+      "expected": 373.0,
+      "ocr_preview": "pinecone PINECONE TAX SLIP V62H base 180.00 paid addon 193.00 paid skip 93.00 tax_base_paid TARGET 373.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 99.99 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v62h_05",
+      "kind": "quicksand_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 449.0,
+      "expected": 449.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 quicksand QUICKSAND PAYROLL V62H empA 218.00 active empB 231.00 active empC 88.00 leave payroll_active TARGET 449.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v62h_06",
+      "kind": "raincloud_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 179.0,
+      "expected": 179.0,
+      "ocr_preview": "raincloud RAINCLOUD SHIP DOCK V62H box1 84 ok box2 95 ok box3 62 hold ship_ok TARGET 179 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY"
+    },
+    {
+      "id": "v62h_07",
+      "kind": "snowdrift_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 213.75,
+      "expected": 213.75,
+      "ocr_preview": "snowdrift SNOWDRIFT SLA CARD V62H job1 109.00 hours ok job2 104.75 hours ok job3 63.00 hours late sla_ok_hours TARGET 213.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 VOID COPY bait 88.00 bait 555.00"
+    },
+    {
+      "id": "v62h_08",
+      "kind": "torchlight_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 261.25,
+      "expected": 261.25,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 torchlight TORCHLIGHT EXPENSE V62H e1 124.00 e2 137.25 e3 69.00 void exp_sum TARGET 261.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait"
+    },
+    {
+      "id": "v62h_09",
+      "kind": "umbrella_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 276.0,
+      "expected": 276.0,
+      "ocr_preview": "umbrella UMBRELLA PO SHEET V62H line1 144.00 open line2 132.00 open line3 72.00 closed po_open TARGET 276.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v62h_10",
+      "kind": "valleyfloor_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 324.25,
+      "expected": 324.25,
+      "ocr_preview": "valleyfloor VALLEYFLOOR ORDER V62H skuA 168.00 paid skuB 156.25 paid skuC 64.00 due order_paid TARGET 324.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v62h_11",
+      "kind": "windmill_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "windmill WINDMILL DUP MARK V62H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v62h_12",
+      "kind": "xerocopy_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "xerocopy XEROCOPY AIR ZERO V62H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v62h_13",
+      "kind": "yellowwood_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 409.75,
+      "expected": 409.75,
+      "ocr_preview": "yellowwood YELLOWWOOD LEDGER V62H dr 198.00 cr 211.75 adj 79.00 ledger_net TARGET 409.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v62h_14",
+      "kind": "zincplate_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "zincplate ZINCPLATE UI SCAN V62H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui bait 88.00 COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88."
+    },
+    {
+      "id": "v62h_15",
+      "kind": "afterglow_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 41.0,
+      "expected": 41.0,
+      "ocr_preview": "afterglow AFTERGLOW STACK V62H p1 22 p2 19 p3 14 stack_count TARGET 41 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 V43H V43H clarity four peg_peg_peg_peg_peg test"
+    },
+    {
+      "id": "v62h_16",
+      "kind": "bluebell_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 64.0,
+      "expected": 64.0,
+      "ocr_preview": "bluebell BLUEBELL FAX V62H pgA 35 pgB 29 pgC 20 drop fax_pages TARGET 64 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY"
+    },
+    {
+      "id": "v62h_17",
+      "kind": "deepwater_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "deepwater DEEPWATER GLARE V62H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY deepwater DEEPWATER GLARE V62H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICK"
+    },
+    {
+      "id": "v62h_18",
+      "kind": "egretwing_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 81.0,
+      "expected": 81.0,
+      "ocr_preview": "egretwing EGRETWING TAB INDEX V62H tabA 43 tabB 38 tabC 21 tab_index TARGET 81 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY tab 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 b"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v62_heldout_claim": true,
+  "claim_scope": "r50plus_v62_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

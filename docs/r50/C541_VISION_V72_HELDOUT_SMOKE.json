@@ -1,0 +1,237 @@
+{
+  "cycle": "C541",
+  "theme": "vision_v72_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T20:41:53+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7424.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v72h_01",
+      "kind": "ultramarine_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 408.75,
+      "expected": 408.75,
+      "ocr_preview": "ultramarine ULTRAMARINE GRAIN RECV V72H a paid 197.00 b paid 211.75 c open 106.00 TOTAL PAID TARGET 408.75 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V72H CS41 clarity four pag_012 photo2 testout"
+    },
+    {
+      "id": "v72h_02",
+      "kind": "verdantglen_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 346.0,
+      "expected": 346.0,
+      "ocr_preview": "verdantglen WH VERDANTGLEN BIN V72H SKU1 qty 159 ok SKU2 qty 113 hold SKU3 qty 187 ok qty_sum TARGET 346 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v72h_03",
+      "kind": "windwardbay_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 325.5,
+      "expected": 325.5,
+      "ocr_preview": "windwardbay WINDWARDBAY PATCH REFUND V72H itemR1 155.00 done itemR2 170.50 done itemR3 94.00 open refund_done TARGET 325.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v72h_04",
+      "kind": "xanadupass_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 524.0,
+      "expected": 524.0,
+      "ocr_preview": "SCAN DESK V43H BASC 222.00 PAGE 01 xanadupass XANADUPASS TAX SLIP V72H base 254.00 paid addon 270.00 paid skip 135.00 tax_base_paid TARGET 524.00 OKP tax 00.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 00.00 IGNORE VOID TAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V72H CB41 clarity four peg_052 photo2 testout"
+    },
+    {
+      "id": "v72h_05",
+      "kind": "yellowstone_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 606.0,
+      "expected": 606.0,
+      "ocr_preview": "yellowstone YELLOWSTONE PAYROLL V72H empA 295.00 active empB 311.00 active empC 130.00 leave payroll_active TARGET 606.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v72h_06",
+      "kind": "zincplateau_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 256.0,
+      "expected": 256.0,
+      "ocr_preview": "zincplateau ZINCPLATEAU SHIP DOCK V72H box1 121 ok box2 135 ok box3 99 hold ship_ok TARGET 256 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY V72H CS41 clarity four peg_0152 photo2 testout"
+    },
+    {
+      "id": "v72h_07",
+      "kind": "ashenridge_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 322.5,
+      "expected": 322.5,
+      "ocr_preview": "ashenridge ASHENRIDGE SLA CARD V72H job1 163.00 hours ok job2 159.50 hours ok job3 100.00 hours late sla_ok_hours TARGET 322.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v72h_08",
+      "kind": "bluemistcliff_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 381.75,
+      "expected": 381.75,
+      "ocr_preview": "bluemistcliff BLUEMSTCLIFF EXPENSE V72H e1 181.00 e2 200.75 e3 106.00 void exp_sum TARGET 381.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY V72H CS41 clarity four peg_0152 photo2 testout"
+    },
+    {
+      "id": "v72h_09",
+      "kind": "coralhaven_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 390.0,
+      "expected": 390.0,
+      "ocr_preview": "coralhaven CORALHAVEN PO SHEET V72H line1 201.00 open line2 189.00 open line3 109.00 closed po_open TARGET 390.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v72h_10",
+      "kind": "driftstone_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 444.0,
+      "expected": 444.0,
+      "ocr_preview": "driftstone DRIFTSTONE ORDER V72H skuA 228.00 paid skuB 216.00 paid skuC 101.00 due order_paid TARGET 444.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 99.00 IGNORE DRAFT DRAFT DRAFT DRAFT ORD VOID COPY V72H CS41 clarity four pag_c562 photog2 testout"
+    },
+    {
+      "id": "v72h_11",
+      "kind": "eaglehollow_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "eaglehollow EAGLEHOLLOW DUP MARK V72H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP bait 88.00 COPY V72H CS41 clarity four peg_peg_2012 testout"
+    },
+    {
+      "id": "v72h_12",
+      "kind": "firwoodpass_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "firwoodpass FRWOODPASS AIR ZERO V72H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID ZERO COPY bait 00.00 bait 00.00 bait 00.00 V72H CS41 clarity four peg_052 photo2 testout SCAN DESK V43H BAS 222.00 PAGE 01"
+    },
+    {
+      "id": "v72h_13",
+      "kind": "goldenharbor_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 543.5,
+      "expected": 543.5,
+      "ocr_preview": "goldenharbor GOLDENHARBOR LEDGER V72H dr 263.00 cr 280.50 adj 116.00 ledger_net TARGET 543.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 55.00 IGNORE DRAFT DRAFT DRAFT DRAFT LED VOID COPY V72H CS41 clarity four peg_0102 photo2 testout"
+    },
+    {
+      "id": "v72h_14",
+      "kind": "hazelridge_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "hazelridge HAZELRIDGE UI SCAN V72H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY"
+    },
+    {
+      "id": "v72h_15",
+      "kind": "ironhaven_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 75.0,
+      "expected": 75.0,
+      "ocr_preview": "ironhaven IRONHAVEN STACK V72H p1 39 p2 36 p3 31 stack_count TARGET 75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK bait 88.00 COPY V72H CS41 clarity four peg_p502 photod2 testout"
+    },
+    {
+      "id": "v72h_16",
+      "kind": "jadecliff_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 104.0,
+      "expected": 104.0,
+      "ocr_preview": "jadecliff JADECLIFF FAX V72H pgA 55 pgB 49 pgC 37 drop fax_pages TARGET 104 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY V72H CB51 clarity four pag_512 photod2 testout"
+    },
+    {
+      "id": "v72h_17",
+      "kind": "kelpbasin_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "kelpbasin KELPBASIN GLARE V72H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY V72H CS41 clear floor peg_peg2 photo2 textout"
+    },
+    {
+      "id": "v72h_18",
+      "kind": "limestonebay_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 124.0,
+      "expected": 124.0,
+      "ocr_preview": "limestonebay LIMESTONEBAY TAB INDEX V72H tabA 65 tabB 59 tabC 38 tab_index TARGET 124 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 VOID TAB COPY V72H CS41 clearly four page_0152 photo2 testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v72_heldout_claim": true,
+  "claim_scope": "r50plus_v72_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

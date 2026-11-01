@@ -1,0 +1,10 @@
+# Mid-n decision (2026-10-18): Gate3 gen10 packs are sealed/claimed — DO NOT reopen.
+# Runnable power job is Gate2 dual-vs-agent: configs/office_gate2_mid_n_dual.yaml
+# (pooled exam n≈80 toward design n≈160). Informational; no new Gate2 claim.
+# Gate 0.6 / 1.5B / no VL / burned_packs: do_not_reopen
+status: superseded_by_gate2_mid_n_dual
+run: configs/office_gate2_mid_n_dual.yaml
+n_flags_target: 80
+power_required_n: 160
+vl: false
+burned_packs: do_not_reopen

@@ -1,0 +1,31 @@
+# Round 4 architecture update.
+# During domain B the optimizer steps only on B. Every 4 steps a no-grad
+# forward reads the next chunk of domain A and updates the fast state.
+run_name: phase3_recall
+seed: 0
+recall_only: true
+carry_state: true
+recall_every: 4
+d_model: 768
+n_layers: 6
+n_heads: 12
+d_mem: 128
+seq_len: 64
+batch_size: 4
+steps_per_domain: 80
+arch_lr: 0.0003
+log_every: 20
+grad_clip: 1.0
+freqs:
+  - 1
+  - 4
+  - 16
+etas:
+  - 0.30
+  - 0.10
+  - 0.02
+decays:
+  - 0.60
+  - 0.90
+  - 0.99
+bptt: 64

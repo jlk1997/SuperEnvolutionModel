@@ -1,0 +1,25 @@
+{
+  "cycle": "C130",
+  "theme": "gen11_hold_docs_sync_c125_c129",
+  "timestamp": "2026-10-19T03:22:17+08:00",
+  "gate": 0.6,
+  "gen11": "HOLD",
+  "seal_open": false,
+  "gate2_3_untouched": true,
+  "summary": {
+    "C125_pass": true,
+    "C126_rate": 1.0,
+    "C126_claim": true,
+    "C126_heldout_claim_file": true,
+    "C127_pass": true,
+    "C127_rate": 1.0,
+    "C128_pass": true,
+    "C128_rate": 1.0,
+    "C128_use_vl": true,
+    "C129_pass": true,
+    "C129_ratio": 2.6
+  },
+  "pass": true,
+  "claim": false,
+  "note": "gen11 remains HOLD. Sync only."
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "r50plus_c81_gen11_hold",
+  "timestamp": "2026-10-18T23:55:27+08:00",
+  "near_ceiling_threshold": 0.99,
+  "fresh_measured": false,
+  "fresh_rate": null,
+  "fresh_ge_099": false,
+  "seal_opened": false,
+  "seal_file_absent": true,
+  "decision": "HOLD",
+  "go_open_seal": false,
+  "reason": "gen11 seal closed; fresh unmeasured. Policy: open only if fresh>=0.99. Other boards at 1.0 do not authorize burn.",
+  "signals": [
+    {
+      "src": "gen11_fresh",
+      "metric": "fresh_rate",
+      "value": null,
+      "near_ceiling": false
+    },
+    {
+      "src": "c74",
+      "metric": "replace_rate",
+      "value": 1.0,
+      "near_ceiling": true
+    },
+    {
+      "src": "c80",
+      "metric": "replace_rate",
+      "value": 1.0,
+      "near_ceiling": true
+    },
+    {
+      "src": "c73c",
+      "metric": "v3_rate",
+      "value": 1.0,
+      "near_ceiling": true
+    }
+  ],
+  "gate2_3_untouched": true,
+  "innovation": "Reaffirm burn discipline: boards≠fresh"
+}

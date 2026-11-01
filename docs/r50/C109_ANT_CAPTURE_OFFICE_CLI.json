@@ -1,0 +1,28 @@
+{
+  "entry": "ant_capture_office",
+  "timestamp": "2026-10-19T02:01:52+08:00",
+  "gate": 0.6,
+  "capture_ok": true,
+  "size": [
+    2560,
+    1600
+  ],
+  "use_vl": true,
+  "scaffold_steps": 0,
+  "agent_graph": "none",
+  "panel": "runs/ant_capture_office/cli_run/capture_panel.png",
+  "vl_weights": "models/Qwen3.5-2B",
+  "ocr_text": "ANT CAPTURE OFFICE INVOICE #3301 item A paid 11.00 item B open 3.00 item C paid 19.00 TOTAL PAID TARGET 30.00 Windows PowerShell Copyright (C) Microsoft Corporation. All rights reserved. 加载个人及系统配置文件用了 2306 毫秒。 10552>",
+  "ocr_ok": true,
+  "paid_got": 30.0,
+  "paid_expected": 30.0,
+  "paid_ok": true,
+  "atom_ok": true,
+  "ok": true,
+  "pass": true,
+  "rate": 1.0,
+  "cli_entry": "scripts/ant_capture_office.py",
+  "cycle": "C109",
+  "theme": "productize_capture_office_cli",
+  "gate2_3_untouched": true
+}

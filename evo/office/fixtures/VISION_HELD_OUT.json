@@ -1,0 +1,7 @@
+{
+  "heldout_ids": [
+    "office-hard-mixed-001",
+    "office-ui-003"
+  ],
+  "train_forbidden_on_heldout": true
+}

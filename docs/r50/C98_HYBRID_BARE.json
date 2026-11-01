@@ -1,0 +1,44 @@
+{
+  "cycle": "C98",
+  "theme": "hybrid_vision_replace_bare",
+  "n": 4,
+  "rate": 1.0,
+  "bare_steps": 12,
+  "agent_steps": 40,
+  "step_ratio_agent_over_bare": 3.333,
+  "gate": 0.6,
+  "pass": true,
+  "rows": [
+    {
+      "id": "mh_invoice_paid_sum",
+      "ok": true,
+      "bare_steps": 3,
+      "agent_steps": 10,
+      "sum_nums": 8905.0
+    },
+    {
+      "id": "mh_bay_qty_report",
+      "ok": true,
+      "bare_steps": 3,
+      "agent_steps": 10,
+      "sum_nums": 196.0
+    },
+    {
+      "id": "mh_shell_confirm_log",
+      "ok": true,
+      "bare_steps": 3,
+      "agent_steps": 10,
+      "sum_nums": 1.0
+    },
+    {
+      "id": "mh_tax_table",
+      "ok": true,
+      "bare_steps": 3,
+      "agent_steps": 10,
+      "sum_nums": 25.55
+    }
+  ],
+  "timestamp": "2026-10-19T01:32:16+08:00",
+  "claim": false,
+  "note": "Uses C91 OCR outputs; bare office path replaces agent graph."
+}

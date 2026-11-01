@@ -1,0 +1,33 @@
+# Round 5 architecture update.
+# During domain B, every 4 steps domain A takes one gradient step on the
+# fastest memory level. Attention, embeddings, and the slower levels stay
+# on the domain-B update.
+run_name: phase3_fastgrad
+seed: 0
+recall_only: true
+carry_state: true
+recall_every: 4
+recall_grad: true
+d_model: 768
+n_layers: 6
+n_heads: 12
+d_mem: 128
+seq_len: 64
+batch_size: 4
+steps_per_domain: 80
+arch_lr: 0.0003
+log_every: 20
+grad_clip: 1.0
+freqs:
+  - 1
+  - 4
+  - 16
+etas:
+  - 0.30
+  - 0.10
+  - 0.02
+decays:
+  - 0.60
+  - 0.90
+  - 0.99
+bptt: 64

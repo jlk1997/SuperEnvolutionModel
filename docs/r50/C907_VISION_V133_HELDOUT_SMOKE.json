@@ -1,0 +1,237 @@
+{
+  "cycle": "C907",
+  "theme": "vision_v133_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T10:37:18+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v133h_01",
+      "kind": "ashhaven_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1296.75,
+      "expected": 1296.75,
+      "ocr_preview": "ashhaven ASHHAVEN GRAIN RECV V133H a paid 642.00 b paid 654.75 c open 535.00 TOTAL PAID TARGET 1296.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID REC COPY"
+    },
+    {
+      "id": "v133h_02",
+      "kind": "cedarhaven_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1240.0,
+      "expected": 1240.0,
+      "ocr_preview": "cedarhaven WH CEDARHAVEN BIN V133H SKU1 qty 610 ok SKU2 qty 530 hold SKU3 qty 630 ok qty_sum TARGET 1240 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC COPY V133H C807 cavity floor prog_qf2 photo2 helixout"
+    },
+    {
+      "id": "v133h_03",
+      "kind": "dawnhaven_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1213.5,
+      "expected": 1213.5,
+      "ocr_preview": "dawnhaven DAWNHAVEN PATCH REFUND V133H itemR1 600.00 done itemR2 613.50 done itemR3 523.00 open refund_done TARGET 1213.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID DONE COPY"
+    },
+    {
+      "id": "v133h_04",
+      "kind": "elmhaven_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1446.0,
+      "expected": 1446.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 elmhaven ELMHAVEN TAX SLIP V133H base 715.00 paid addon 731.00 paid skip 564.00 tax_base_paid TARGET 1446.00 OKP tax 00.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 00.00 IGNORE TAX VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V133H C807 cavity floor preg_q02 phone2 headset"
+    },
+    {
+      "id": "v133h_05",
+      "kind": "fernhaven_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1528.0,
+      "expected": 1528.0,
+      "ocr_preview": "fernhaven FERNHAVEN PAYROLL V133H empA 756.00 active empB 772.00 active empC 559.00 leave payroll_active TARGET 1528.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v133h_06",
+      "kind": "glenhaven_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1114.0,
+      "expected": 1114.0,
+      "ocr_preview": "SCAN DESK V43H BASC 222.00 PAGE 01 glenhaven GLENHAVEN SHIP DOCK V133H box1 550 ok box2 564 ok box3 528 hold ship_ok TARGET 1114 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP VOID COPY V133Hx C807 cavity floor preg_qf2 photo2 metadata"
+    },
+    {
+      "id": "v133h_07",
+      "kind": "hazehaven_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 600.0,
+      "expected": 600.0,
+      "ocr_preview": "hazehaven HAZEHAVEN SLA CARD V133H job1 280.00 hours ok job2 320.00 hours ok job3 220.00 hours late sla_ok_hours TARGET 600.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE COPY"
+    },
+    {
+      "id": "v133h_08",
+      "kind": "inkhaven_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1273.75,
+      "expected": 1273.75,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 inkhaven @#HAVEN EXPENSE V133H e1 626.00 e2 647.75 e3 535.00 void exp_sum TARGET 1273.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE EXP VOID COPY V133H C807 cavity floor preg_012 photo2 metadata"
+    },
+    {
+      "id": "v133h_09",
+      "kind": "jadehaven_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1260.0,
+      "expected": 1260.0,
+      "ocr_preview": "jadehaven JADEHAVEN PO SHEET V133H line1 673.00 open line2 587.00 open line3 532.00 closed po_open TARGET 1260.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE PO VOID COPY V133H C807 cavity floor preg_q02 photo2 hidden"
+    },
+    {
+      "id": "v133h_10",
+      "kind": "knothaven_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1332.0,
+      "expected": 1332.0,
+      "ocr_preview": "knothaven KNOTHAVEN ORDER V133H skuA 673.00 paid skuB 659.00 paid skuC 530.00 due order_paid TARGET 1332.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY SCAN DESK V43H BAS 222.00 PAGE 01 V133H C807 cavity floor preg_qf2 photo2 metadata"
+    },
+    {
+      "id": "v133h_11",
+      "kind": "lakehaven_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakehaven LAKEHAVEN DUP MARK V133H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DUP VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v133h_12",
+      "kind": "mosshaven_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mosshaven MOSSHAVEN AIR ZERO V133H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v133h_13",
+      "kind": "netherhaven_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1431.5,
+      "expected": 1431.5,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 netherhaven NETHERHAVEN LEDGER V133H dr 708.00 cr 723.50 adj 545.00 ledger_net TARGET 1431.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY V133H C807 cavity floor preg_qf2 photo2 netherhaven"
+    },
+    {
+      "id": "v133h_14",
+      "kind": "oakhaven_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakhaven OAKHAVEN UI SCAN V133H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY V133H C607 cavity floor prog_012 photo2 headset"
+    },
+    {
+      "id": "v133h_15",
+      "kind": "pinehaven_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 789.0,
+      "expected": 789.0,
+      "ocr_preview": "pinehaven PINEHAVEN STACK V133H p1 396 p2 393 p3 388 stack_count TARGET 789 OKP bait 88.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID STK COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V133H C807 cavity floor prog_qf2 phone2 headset"
+    },
+    {
+      "id": "v133h_16",
+      "kind": "quillhaven_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 818.0,
+      "expected": 818.0,
+      "ocr_preview": "quillhaven QUILLHAVEN FAX V133H pgA 412 pgB 406 pgC 394 drop fax_pages TARGET 818 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v133h_17",
+      "kind": "reedhaven_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedhaven REEDHAVEN GLARE V133H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v133h_18",
+      "kind": "stonehaven_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 838.0,
+      "expected": 838.0,
+      "ocr_preview": "stonehaven STONEHAVEN TAB INDEX V133H tabA 422 tabB 416 tabC 395 tab_index TARGET 838 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY V133H C807 cavity floor preg_0f2 photo2 headset"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v133_heldout_claim": true,
+  "claim_scope": "r50plus_v133_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

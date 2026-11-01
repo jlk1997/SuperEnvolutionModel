@@ -1,0 +1,17 @@
+{
+  "kind": "r50plus_c75_summary",
+  "timestamp": "2026-10-18T23:50:54+08:00",
+  "cycles": "C70-C75",
+  "c70_n": 10,
+  "c71_absorb": true,
+  "c72_delta": -0.2,
+  "c72_delta_ge_0": false,
+  "c72_ceiling": true,
+  "c73_n": 8,
+  "c73b_rate": 1.0,
+  "c73_claim": true,
+  "c74_replace": 1.0,
+  "gen11": "HOLD",
+  "gate": 0.6,
+  "gate2_3_untouched": true
+}

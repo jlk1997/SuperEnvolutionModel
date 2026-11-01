@@ -1,0 +1,9 @@
+{
+  "kind": "vision_gate_v2_protocol",
+  "timestamp": "2026-10-18T22:54:29+08:00",
+  "gate": 0.6,
+  "min_n": 8,
+  "vl_gate_v2_claim": false,
+  "gate2_3_untouched": true,
+  "v1_claim_untouched": true
+}

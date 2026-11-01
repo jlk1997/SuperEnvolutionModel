@@ -1,0 +1,20 @@
+# Reference-organism census: M0, M1, ES, Baldwin comparison, heritability.
+run_name: evoplast
+stage: all
+seed: 0
+actor: reference
+es: openai
+generations: 14
+pop: 16
+sigma: 0.4
+es_lr: 0.35
+episodes: 20
+criterion: 0.6
+start_below: 0.2
+source_gain: 0.6
+target_gain: 1.0
+heritability_min: 0.5
+grpo_k: 8
+temperature: 0.7
+backend: transformers
+write: true

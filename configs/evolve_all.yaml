@@ -1,0 +1,11 @@
+# One pass through every station. Each stage writes its own curve.
+stages:
+  - configs/evolve_census.yaml
+  - configs/evolve_slots.yaml
+  - configs/evolve_population_fixed.yaml
+  - configs/evolve_population.yaml
+  - configs/evolve_recipe_fixed.yaml
+  - configs/evolve_recipe.yaml
+  - configs/evolve_invent.yaml
+  - configs/evolve_drift.yaml
+  - configs/evolve_pixels.yaml

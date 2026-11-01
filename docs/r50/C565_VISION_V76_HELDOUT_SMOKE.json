@@ -1,0 +1,237 @@
+{
+  "cycle": "C565",
+  "theme": "vision_v76_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T21:19:32+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7558.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v76h_01",
+      "kind": "oakcliff_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 455.75,
+      "expected": 455.75,
+      "ocr_preview": "oakcliff OAKCLIFF GRAIN RECV V70H a paid 221.00 b paid 234.75 c open 122.00 TOTAL PAID TARGET 455.75 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V70H C550 clarity four peg_0502 photo2 testout"
+    },
+    {
+      "id": "v76h_02",
+      "kind": "pebblehaven_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 394.0,
+      "expected": 394.0,
+      "ocr_preview": "pebblehaven WH PEBBLEHAVEN BIN V76H SKU1 qty 183 ok SKU2 qty 129 hold SKU3 qty 211 ok qty_sum TARGET 394 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC bait 88.00 COPY V76H C385 clarity four peg_peg2 photo2 transcript SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v76h_03",
+      "kind": "quailhaven_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 372.5,
+      "expected": 372.5,
+      "ocr_preview": "quailhaven QUAILHAVEN PATCH REFUND V76H itemR1 179.00 done itemR2 193.50 done itemR3 110.00 open refund_done TARGET 372.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DONE COPY bait 88.00 bait 88.00 bait 555.00 V76H C550 clarity four pegs (2) photo2 testout SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v76h_04",
+      "kind": "rainhaven_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 588.0,
+      "expected": 588.0,
+      "ocr_preview": "rainhaven RAINHAVEN TAX SLIP V76H base 286.00 paid addon 302.00 paid skip 151.00 tax_base_paid TARGET 588.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 58.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v76h_05",
+      "kind": "sagehaven_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 670.0,
+      "expected": 670.0,
+      "ocr_preview": "SCAN DESK V42H BAS 222.00 PAGE 01 sagehaven SAGEHAVEN PAYROLL V76H empA 327.00 active empB 343.00 active empC 146.00 leave payroll_active TARGET 670.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v76h_06",
+      "kind": "tidecliff_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 288.0,
+      "expected": 288.0,
+      "ocr_preview": "tidecliff TIDECLIFF SHIP DOCK V76H box1 137 ok box2 151 ok box3 115 hold ship_ok TARGET 288 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY V76H C550 clarity four peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg_peg"
+    },
+    {
+      "id": "v76h_07",
+      "kind": "underpass_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 369.5,
+      "expected": 369.5,
+      "ocr_preview": "underpass UNDERPASS SLA CARD V76H job1 187.00 hours ok job2 182.50 hours ok job3 116.00 hours late sla_ok_hours TARGET 369.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE COPY"
+    },
+    {
+      "id": "v76h_08",
+      "kind": "vinehaven_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 430.75,
+      "expected": 430.75,
+      "ocr_preview": "SCAN DESK V43H PART 222.00 PAGE 01 vinehaven VINEHAVEN EXPENSE V76H e1 205.00 e2 225.75 e3 122.00 void exp_sum TARGET 430.75 OKP balt 80.00 DRAFT DRAFT DRAFT DRAFT STICKY balt 80.00 IGNORE EXP COPY VOID WIN IGNORE old total 888.00 do not parse balt 555.00 VINEHAVEN C550 clarity four peg_0502 photol testout"
+    },
+    {
+      "id": "v76h_09",
+      "kind": "wavecliff_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 438.0,
+      "expected": 438.0,
+      "ocr_preview": "wavecliff WAVECLIFF PO SHEET V76H line1 225.00 open line2 213.00 open line3 125.00 closed po_open TARGET 438.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v76h_10",
+      "kind": "xyloridge_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 491.0,
+      "expected": 491.0,
+      "ocr_preview": "xyloridge XYLORIDGE ORDER V76H skuA 252.00 paid skuB 239.00 paid skuC 117.00 due order_paid TARGET 491.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v76h_11",
+      "kind": "yellowhaven_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "yellowhaven YELLOWHAVEN DUP MARK V76H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v76h_12",
+      "kind": "zephyrpass_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "zephyrpass ZEPHYRPASS AIR ZERO V76H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v76h_13",
+      "kind": "alderpass_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 590.5,
+      "expected": 590.5,
+      "ocr_preview": "alderpass ALDERPASS LEDGER V76H dr 287.00 cr 303.50 adj 132.00 ledger_net TARGET 590.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 55.00 IGNORE DRAFT DRAFT DRAFT DRAFT LED VOID COPY"
+    },
+    {
+      "id": "v76h_14",
+      "kind": "birchpass_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "birchpass BIRCHPASS UI SCAN V76H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v76h_15",
+      "kind": "cinderpass_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 91.0,
+      "expected": 91.0,
+      "ocr_preview": "cinderpass CINDERPASS STACK V76H p1 47 p2 44 p3 39 stack_count TARGET 91 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V76H C550 clarity four pegs (5) (2) photo2 testout"
+    },
+    {
+      "id": "v76h_16",
+      "kind": "dewcliff_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 120.0,
+      "expected": 120.0,
+      "ocr_preview": "dewcliff DEWCLIFF FAX V76H pgA 63 pgB 57 pgC 45 drop fax_pages TARGET 120 VOID WIN IGNORE old total 886.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE FAX COPY V76H C55 clarity four pag_552 photod testout"
+    },
+    {
+      "id": "v76h_17",
+      "kind": "emberpass_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "emberpass EMBERPASS GLARE V76H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT GLR VOID COPY V76H C550 clearly four peg_c550 photo2 testout"
+    },
+    {
+      "id": "v76h_18",
+      "kind": "fernpass_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 140.0,
+      "expected": 140.0,
+      "ocr_preview": "fernpass FERNPASS TAB INDEX V76H tabA 73 tabB 67 tabC 46 tab_index TARGET 140 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v76_heldout_claim": true,
+  "claim_scope": "r50plus_v76_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

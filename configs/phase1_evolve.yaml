@@ -1,0 +1,40 @@
+# Round 2 knowledge update.
+# peak: keep an edit only when no previous passage falls more than max_f1_drop
+# below its own best F1, and prefer the edit with the best retention reward.
+# anchor: same selection, while the inner loop matches the current memory's
+# answers on old questions instead of distilling the new passage.
+run_name: phase1_evolve
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 0
+lora_rank: 8
+lora_alpha: 16
+max_seq_len: 384
+max_passage_chars: 1600
+candidate_pool: 16
+n_passages: 4
+questions_per_passage: 3
+n_edits: 2
+edit_tokens: 96
+answer_tokens: 16
+inner_steps: 40
+inner_lr: 0.0005
+temperature: 0.7
+reward_metric: f1
+lam: 1.0
+# A passage scored 0.333 and then fell to 0. That drop is just inside 0.34,
+# so the looser cap accepted a wipe. 0.15 blocks it.
+max_f1_drop: 0.15
+max_kl: 16.0
+kl_coef: 0.5
+distill_questions: 2
+methods:
+  - peak
+  - anchor
+target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj

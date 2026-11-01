@@ -1,0 +1,12 @@
+# Epoch A-3 dry plan only (no GPU). Writes the cell matrix to runs/.
+run_name: evoplast_census_dry
+stage: census
+actor: model
+seed: 0
+seeds: [0, 1, 2]
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+skill: stack
+dry: true
+smoke: false
+write: true
+criterion: 0.6

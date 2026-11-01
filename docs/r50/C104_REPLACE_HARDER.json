@@ -1,0 +1,62 @@
+{
+  "cycle": "C104",
+  "theme": "replace_agent_harder_mix",
+  "n": 4,
+  "bare_rate": 1.0,
+  "replace_rate": 1.0,
+  "bare_steps_total": 32,
+  "agent_steps_total": 106,
+  "step_ratio_agent_over_bare": 3.3125,
+  "gate": 0.6,
+  "pass": true,
+  "rows": [
+    {
+      "task": "join_filter",
+      "bare_ok": true,
+      "agent_ok": true,
+      "bare_steps": 7,
+      "agent_steps": 22,
+      "replace": true,
+      "detail": {
+        "paid_revenue": 50.0
+      }
+    },
+    {
+      "task": "cross_folder",
+      "bare_ok": true,
+      "agent_ok": true,
+      "bare_steps": 8,
+      "agent_steps": 26,
+      "replace": true,
+      "detail": {
+        "sum": 110.0
+      }
+    },
+    {
+      "task": "multi_status",
+      "bare_ok": true,
+      "agent_ok": true,
+      "bare_steps": 9,
+      "agent_steps": 28,
+      "replace": true,
+      "detail": {
+        "open_hi": 2,
+        "cost": 25
+      }
+    },
+    {
+      "task": "nested_rollup",
+      "bare_ok": true,
+      "agent_ok": true,
+      "bare_steps": 8,
+      "agent_steps": 30,
+      "replace": true,
+      "detail": {
+        "paid_amt": 20.0
+      }
+    }
+  ],
+  "timestamp": "2026-10-19T01:38:29+08:00",
+  "claim": false,
+  "note": "Does not mint Gate2. Observational harder replace stress."
+}

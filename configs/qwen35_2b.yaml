@@ -1,0 +1,15 @@
+# OPTIONAL secondary: Qwen3.5-2B only. Epoch A primary is Qwen2.5-1.5B-Instruct
+# (see office_*.yaml and evo.registry.PRIMARY). Do not use this as a silent fallback.
+run_name: qwen35_2b
+model_name: e:/envolution/models/Qwen3.5-2B
+seed: 0
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: full
+max_seq_len: 512
+max_new_code: 160
+inner_lr: 0.0005
+outer_lr: 0.0005
+exec_timeout: 8
+temperature: 0.0

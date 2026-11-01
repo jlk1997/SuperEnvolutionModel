@@ -1,0 +1,28 @@
+{
+  "kind": "r50_c19",
+  "families": [
+    {
+      "family": "table",
+      "bare": 1.0,
+      "stable_gate": true
+    },
+    {
+      "family": "report",
+      "bare": 1.0,
+      "stable_gate": true
+    },
+    {
+      "family": "file",
+      "bare": 1.0,
+      "stable_gate": true
+    },
+    {
+      "family": "shell",
+      "bare": 1.0,
+      "stable_gate": true
+    }
+  ],
+  "all_stable": true,
+  "timestamp": "2026-10-18T22:30:54+08:00",
+  "innovation": "Bare stability lock"
+}

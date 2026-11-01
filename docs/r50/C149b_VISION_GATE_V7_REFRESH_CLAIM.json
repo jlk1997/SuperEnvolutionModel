@@ -1,0 +1,16 @@
+{
+  "kind": "vision_gate_v7_refresh_claim",
+  "timestamp": "2026-10-19T04:08:14+08:00",
+  "vl_gate_v7_claim": true,
+  "rate": 0.875,
+  "n": 16,
+  "n_ok": 14,
+  "gate": 0.6,
+  "prior_rate": 0.75,
+  "claim_scope": "r50plus_v7_occlusion_tiny_stamped_n>=14_softocr_atom_qwen35_2b_c149parse",
+  "parser": "evo.office.vision_metric_parse",
+  "gate2_3_untouched": true,
+  "v0_v6_untouched": true,
+  "gen11": "HOLD",
+  "supersedes_smoke": "C144_VISION_V7_SMOKE.json"
+}

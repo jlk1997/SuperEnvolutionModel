@@ -1,0 +1,143 @@
+{
+  "kind": "r50plus_c78_vision_route_policy_smoke",
+  "timestamp": "2026-10-18T23:54:14+08:00",
+  "gate": 0.6,
+  "n": 8,
+  "n_ok": 8,
+  "rate": 1.0,
+  "gate_pass": true,
+  "policy": "dense_table_bare__lora_only_weak_domains",
+  "dense_table_domains": [
+    "dense_table",
+    "table",
+    "table_cells"
+  ],
+  "weak_lora_ok": [
+    "caption_weak",
+    "ocr_weak",
+    "style_train",
+    "train_style"
+  ],
+  "adapter_present": true,
+  "cases": [
+    {
+      "name": "dense_table_with_adapter",
+      "expect_mode": "bare",
+      "got": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "dense_table",
+        "task": "table_cells",
+        "reason": "dense/table domain: LoRA historically regresses (C66/C72); use bare",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true
+    },
+    {
+      "name": "v3_dense_table_infer",
+      "expect_mode": "bare",
+      "got": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "dense_table",
+        "task": "table_cells",
+        "reason": "dense/table domain: LoRA historically regresses (C66/C72); use bare",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true
+    },
+    {
+      "name": "ocr_default_bare",
+      "expect_mode": "bare",
+      "got": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true
+    },
+    {
+      "name": "ocr_weak_lora",
+      "expect_mode": "lora",
+      "got": {
+        "mode": "lora",
+        "use_adapter": true,
+        "adapter_path": "E:\\envolution\\runs\\capabilities\\vision_office_v2h_style_lora",
+        "domain": "ocr_weak",
+        "task": "ocr",
+        "reason": "weak/ok domain=ocr_weak; adapter present → LoRA",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true
+    },
+    {
+      "name": "caption_weak_lora",
+      "expect_mode": "lora",
+      "got": {
+        "mode": "lora",
+        "use_adapter": true,
+        "adapter_path": "E:\\envolution\\runs\\capabilities\\vision_office_v2h_style_lora",
+        "domain": "caption_weak",
+        "task": "caption",
+        "reason": "weak/ok domain=caption_weak; adapter present → LoRA",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true
+    },
+    {
+      "name": "weak_no_adapter_bare",
+      "expect_mode": "bare",
+      "got": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "caption_weak",
+        "task": "caption",
+        "reason": "default bare (domain=caption_weak not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true
+    },
+    {
+      "name": "force_bare",
+      "expect_mode": "bare",
+      "got": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "dense_table",
+        "task": "table_cells",
+        "reason": "force_bare=True",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true
+    },
+    {
+      "name": "train_style_missing_adapter",
+      "expect_mode": "bare",
+      "got": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "train_style",
+        "task": "ocr",
+        "reason": "default bare (domain=train_style not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true
+    }
+  ],
+  "evidence_basis": [
+    "C66_vision_lora_vs_bare.json",
+    "C72_vision_lora_vs_bare_retest.json"
+  ],
+  "innovation": "Productize LoRA-hurts-dense-table finding into enforceable route()",
+  "gate2_3_untouched": true,
+  "v1_v2_v3_claims_untouched": true
+}

@@ -1,0 +1,50 @@
+{
+  "cycle": "C93",
+  "theme": "replace_agent_stress_new_mix",
+  "n": 3,
+  "bare_rate": 1.0,
+  "replace_rate": 1.0,
+  "bare_steps_total": 15,
+  "agent_steps_total": 48,
+  "step_ratio_agent_over_bare": 3.2,
+  "gate": 0.6,
+  "pass": true,
+  "rows": [
+    {
+      "task": "payroll",
+      "bare_ok": true,
+      "agent_ok": true,
+      "bare_steps": 4,
+      "agent_steps": 14,
+      "replace": true,
+      "detail": {
+        "total": 1570.0
+      }
+    },
+    {
+      "task": "sla_tickets",
+      "bare_ok": true,
+      "agent_ok": true,
+      "bare_steps": 5,
+      "agent_steps": 16,
+      "replace": true,
+      "detail": {
+        "open_hi": 2
+      }
+    },
+    {
+      "task": "multifile_merge",
+      "bare_ok": true,
+      "agent_ok": true,
+      "bare_steps": 6,
+      "agent_steps": 18,
+      "replace": true,
+      "detail": {
+        "sum": 100.0
+      }
+    }
+  ],
+  "timestamp": "2026-10-19T01:29:12+08:00",
+  "claim": false,
+  "note": "Does not mint Gate2. Observational replace stress."
+}

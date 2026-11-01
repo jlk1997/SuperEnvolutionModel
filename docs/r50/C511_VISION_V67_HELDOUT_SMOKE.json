@@ -1,0 +1,237 @@
+{
+  "cycle": "C511",
+  "theme": "vision_v67_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T13:27:26+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7397.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v67h_01",
+      "kind": "dewdropcliff_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 349.5,
+      "expected": 349.5,
+      "ocr_preview": "dewdropcliff DEWDROPCLIFF GRAIN RECV V67H a paid 167.00 b paid 182.50 c open 86.00 TOTAL PAID TARGET 349.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 86.00 IGNORE REC VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88."
+    },
+    {
+      "id": "v67h_02",
+      "kind": "fernhollow_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 286.0,
+      "expected": 286.0,
+      "ocr_preview": "SCAN DESK V43H PART 222.00 PAGE 01 fernhold WH FERNHOLLOW BIN V67H SKU1 qty 129 ok SKU2 qty 93 hold SKU3 qty 157 ok qty_sum TARGET 286 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v67h_03",
+      "kind": "goldenspire_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 266.75,
+      "expected": 266.75,
+      "ocr_preview": "goldenspire GOLDENSPIRE PATCH REFUND V67H itemR1 125.00 done itemR2 141.75 done itemR3 74.00 open refund_done TARGET 266.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID DONE COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 8"
+    },
+    {
+      "id": "v67h_04",
+      "kind": "heatherfield_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 444.0,
+      "expected": 444.0,
+      "ocr_preview": "heatherfield HEATHERFIELD TAX SUP V67H base 214.00 paid addon 230.00 paid skip 115.00 tax_base_paid TARGET 444.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 90.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v67h_05",
+      "kind": "ivoryglen_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 526.0,
+      "expected": 526.0,
+      "ocr_preview": "ivoryglen IVORYGLEN PAYROLL V67H empA 255.00 active empB 271.00 active empC 110.00 leave payroll_active TARGET 526.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v67h_06",
+      "kind": "kelpshore_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 216.0,
+      "expected": 216.0,
+      "ocr_preview": "kelpshore KELPSHORE SHIP DOCK V67H box1 101 ok box2 115 ok box3 79 hold ship_ok TARGET 216 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP bait 88.00 COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait"
+    },
+    {
+      "id": "v67h_07",
+      "kind": "limestonespire_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 263.75,
+      "expected": 263.75,
+      "ocr_preview": "limestonespire LIMESTONESPIRE SLA CARD V67H job1 133.00 hours ok job2 130.75 hours ok job3 80.00 hours late sla_ok_hours TARGET 263.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 80.00 IGNORE COPY VOID bait 80.00 bait 80.00 bait 80.00 bait 80.00 bait 80.00 bait 80.00 bait 80.00 bait 80.00 bait"
+    },
+    {
+      "id": "v67h_08",
+      "kind": "mistletoeridge_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 320.5,
+      "expected": 320.5,
+      "ocr_preview": "mistletoeridge MISTLETOERIDGE EXPENSE V67H e1 151.00 e2 169.50 e3 86.00 void exp_sum TARGET 320.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 86.00 IGNORE EXP COPY bait 86.00 bait 86.00 bait 86.00 bait 86.00 bait 86.00 bait 86.00 bait 86.00 bait 86.00 bait 86.00"
+    },
+    {
+      "id": "v67h_09",
+      "kind": "orchidpath_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 330.0,
+      "expected": 330.0,
+      "ocr_preview": "orchidpath ORCHIDPATH PO SHEET V67H line1 171.00 open line2 159.00 open line3 89.00 closed po_open TARGET 330.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE po VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v67h_10",
+      "kind": "pearlstream_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 385.25,
+      "expected": 385.25,
+      "ocr_preview": "pearlstream PEARLSTREAM ORDER V67H skuA 198.00 paid skuB 187.25 paid skuC 81.00 due order_paid TARGET 385.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v67h_11",
+      "kind": "reedmarsh_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "reedmarsh REEDMARSH DUP MARK V67H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v67h_12",
+      "kind": "sandbarcoast_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "sandbarcoast SANDBARCOAST AIR ZERO V67H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY OKP bait 00.00"
+    },
+    {
+      "id": "v67h_13",
+      "kind": "thistlefield_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 484.75,
+      "expected": 484.75,
+      "ocr_preview": "thistlefield THISTLEFIELD LEDGER V67H dr 233.00 cr 251.75 adj 96.00 ledger_net TARGET 484.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE LED COPY"
+    },
+    {
+      "id": "v67h_14",
+      "kind": "umberridge_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "umberridge UMBERRIDGE UI SCAN V67H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait $55.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v67h_15",
+      "kind": "verdantpeak_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 55.0,
+      "expected": 55.0,
+      "ocr_preview": "verdantpeak VERDANTPEAK STACK V67H p1 29 p2 26 p3 21 stack_count TARGET 55 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY"
+    },
+    {
+      "id": "v67h_16",
+      "kind": "whitecliff_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 84.0,
+      "expected": 84.0,
+      "ocr_preview": "whitecliff WHITECLIFF FAX V67H pgA 45 pgB 39 pgC 27 drop fax_pages TARGET 84 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v67h_17",
+      "kind": "xerophyte_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "xerophyte XERO PHYTE GLARE V67H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v67h_18",
+      "kind": "yellowglen_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 104.0,
+      "expected": 104.0,
+      "ocr_preview": "yellowglen YELLOWGLEN TAB INDEX V67H tabA 55 tabB 49 tabC 28 tab_index TARGET 104 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v67_heldout_claim": true,
+  "claim_scope": "r50plus_v67_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

@@ -1,0 +1,237 @@
+{
+  "cycle": "C1537",
+  "theme": "vision_v238_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-25T01:46:19+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7539.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v238h_01",
+      "kind": "ashmoor_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3600.75,
+      "expected": 3600.75,
+      "ocr_preview": "ashmoor ASHMOOR GRAIN RECV V238H a paid 1794.00 b paid 1806.75 c open 1655.00 TOTAL PAID TARGET 3600.75 DRAFT DRAFT DRAFT DRAFT VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VO"
+    },
+    {
+      "id": "v238h_02",
+      "kind": "cedarmoor_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "cedarmoor WH CEDARMOOR BIN V238H SKU1 qty 740 ok SKU2 qty 820 hold SKU3 qty 780 ok qty_sum TARGET 1520 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V238H C-1037 clearly from preg_2EC photoC testout SCAN DESK V43H BAS 222.00 PAGE 01"
+    },
+    {
+      "id": "v238h_03",
+      "kind": "dawnmoor_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3487.5,
+      "expected": 3487.5,
+      "ocr_preview": "dawnmoor DAWNMOOR PATCH REFUND V238H itemR1 1737.00 done itemR2 1750.50 done itemR3 1630.00 open refund_done TARGET 3487.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DONE VOID COPY V238h C-1037 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v238h_04",
+      "kind": "elmmoor_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3750.0,
+      "expected": 3750.0,
+      "ocr_preview": "elmmoor ELMMOOR TAX SLIP V238H base 1867.00 paid addon 1883.00 paid skip 1684.00 tax_base_paid TARGET 3750.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAX VOID COPY V238H C-1037 clarity from preg_20C photoC testout"
+    },
+    {
+      "id": "v238h_05",
+      "kind": "fernmoor_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3832.0,
+      "expected": 3832.0,
+      "ocr_preview": "fernmoor FERNMOOR PAYROLL V238H empA 1908.00 active empB 1924.00 active empC 1679.00 leave payroll_active TARGET 3832.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v238h_06",
+      "kind": "glenmoor_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3418.0,
+      "expected": 3418.0,
+      "ocr_preview": "glenmoor GLENMOOR SHIP DOCK V238H box1 1702 ok box2 1716 ok box3 1648 hold ship_ok TARGET 3418 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP COPY V238H C-1037 clarity from preg_20C photoC testout"
+    },
+    {
+      "id": "v238h_07",
+      "kind": "hazemoor_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "hazemoor HAZEMOOR SLA CARD V238H job1 360.00 hours ok job2 400.00 hours ok job3 730.00 hours late sla_ok_hours TARGET 760.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 80.00 IGNORE bait 80.00 bait 80.00 bait 80.00 bait 80.00 bait 80.00 bait 80.00 bait 80.00 bait 80.00 bait 80.0"
+    },
+    {
+      "id": "v238h_08",
+      "kind": "inkmoor_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3577.75,
+      "expected": 3577.75,
+      "ocr_preview": "inkmoor #@MOOR EXPENSE V238H e1 1778.00 e2 1799.75 e3 1655.00 void exp_sum TARGET 3577.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE EXP VOID COPY SCAN DESK V43H BAS 222.00 PAGE 01 V238H C-1037 clarity from preg_32C progC testout bait 55.00 bait 55.00 bait 55.00 bait 55.0"
+    },
+    {
+      "id": "v238h_09",
+      "kind": "jademoor_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jademoor JADEMOOR PO SHEET V238H line1 780.00 open line2 740.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO VOID COPY V238H C-1037 clarity from preg_30C photoC testout"
+    },
+    {
+      "id": "v238h_10",
+      "kind": "knotmoor_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3636.0,
+      "expected": 3636.0,
+      "ocr_preview": "knotmoor KNOTMOOR ORDER V238H skuA 1825.00 paid skuB 1811.00 paid skuC 1650.00 due order_paid TARGET 3636.00 VOID WIN IGNORE old total 888.00 do not parse bait $55.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY V238H C-1037 clarity from preg_20C photoC testout SCAN DESK V43H BAST 222.00 PAGE 01 bait 88.00 ORD bait 88.00"
+    },
+    {
+      "id": "v238h_11",
+      "kind": "lakemoor_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakemoor LAKEMOOR DUP MARK V238H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v238h_12",
+      "kind": "mossmoor_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossmoor MOSSMOOR AIR ZERO V238H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY V238H C-1037 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v238h_13",
+      "kind": "nethermoor_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3735.5,
+      "expected": 3735.5,
+      "ocr_preview": "nethermoor NETHERMOOR LEDGER V238H dr 1860.00 cr 1875.50 adj 1665.00 ledger_net TARGET 3735.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT LED VOID COPY V238H C-1037 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v238h_14",
+      "kind": "oakmoor_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakmoor OAKMOOR UI SCAN V238H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY V238H C-1037 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v238h_15",
+      "kind": "pinemoor_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2291.0,
+      "expected": 2291.0,
+      "ocr_preview": "pinemoor PINEMOOR STACK V238H p1 1148 p2 1143 p3 1136 stack_count TARGET 2291 OKP bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V238H C-1037 clarity from prog_20C progC testout"
+    },
+    {
+      "id": "v238h_16",
+      "kind": "quillmoor_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2318.0,
+      "expected": 2318.0,
+      "ocr_preview": "quillmoor QUILLMOOR FAX V238H pgA 1162 pgB 1156 pgC 1144 drop fax_pages TARGET 2318 DRAFT DRAFT DRAFT DRAFT VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V238H C-1037 clarity from pgC photoC testout!"
+    },
+    {
+      "id": "v238h_17",
+      "kind": "reedmoor_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedmoor REEDMOOR GLARE V238H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY V238H C 0337 clarity from preg_332 photoC testout"
+    },
+    {
+      "id": "v238h_18",
+      "kind": "stonemoor_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2338.0,
+      "expected": 2338.0,
+      "ocr_preview": "stonemoor STONEMOOR TAB INDEX V238H tabA 1172 tabB 1166 tabC 1145 tab_index TARGET 2338 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v238_heldout_claim": true,
+  "claim_scope": "r50plus_v238_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

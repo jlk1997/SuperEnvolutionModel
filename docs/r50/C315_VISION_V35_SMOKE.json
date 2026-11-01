@@ -1,0 +1,232 @@
+{
+  "cycle": "C315",
+  "theme": "vision_v35_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T18:57:18+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7828.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v35_01",
+      "kind": "jade_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 121.5,
+      "expected": 121.5,
+      "ocr_preview": "SCAR DESK V35 best 233.00 PAGE 01 玉纹收款单 TRADE GRAIN RECEV V35 a paid 58.00 b paid 68.50 c open 17.00 TOTAL PAID TARGET 121.50 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v35_02",
+      "kind": "granite_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 103.0,
+      "expected": 103.0,
+      "ocr_preview": "花岗岩仓位单 WH GRANITE TILE V35 SKU1 qty 48 ok SKU2 qty 22 hold SKU3 qty 55 ok qty_sum TARGET 103 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v35_03",
+      "kind": "suede_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 67.25,
+      "expected": 67.25,
+      "ocr_preview": "SCAN DESK V35 best 133.00 PAGE 01 橡皮补丁退款单 SUEDE PATCH REFUND V35 ItemR1 31.00 done ItemR2 36.25 done ItemR3 14.00 open refund_done TARGET 67.25 CLIPPE DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v35_04",
+      "kind": "bronze_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 188.0,
+      "expected": 188.0,
+      "ocr_preview": "BRONZE TAX SLIP V35 base 90.00 paid addon 98.00 paid skip 40.00 tax_base_paid TARGET 188.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v35_05",
+      "kind": "opal_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 244.0,
+      "expected": 244.0,
+      "ocr_preview": "SCAN DESK V35 best 133.00 PAGE 01 蛋白石工资单 OPAL PAYROLL V35 empB 120.00 active empB 164.00 active empC 30.00 leave payroll_active TARGET 244.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v35_06",
+      "kind": "hinge_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 56.0,
+      "expected": 56.0,
+      "ocr_preview": "较链发运单 SHINGE SHIP DOCK V35 box1 28 ok box2 14 ok box3 20 ok ship_ok TARGET 56 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v35_07",
+      "kind": "citrine_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 72.5,
+      "expected": 72.5,
+      "ocr_preview": "黄水晶SLA卡 CITRINE SLA CARD V35 job1 40.00h ok job2 32.50h ok job3 18.00h rate sla_ok_hours TARGET 72.50 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v35_08",
+      "kind": "basalt_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 95.75,
+      "expected": 95.75,
+      "ocr_preview": "SCAN DESK V35 BAST 133.00 PAGE 01 玄武岩费用单 BASALT EXPENSE V35 e1 34.25 e2 50.50 e3 22.00 vda exp_sum TARGET 95.75 CLUE DRAFT DRAFT WATERMARK.COM TAPE R23 bait 12.12 RING 38.43.32 OR 38.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222.22 TRACK 903.695 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VXO WIN IGNORE old total 999."
+    },
+    {
+      "id": "v35_09",
+      "kind": "pewter_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 110.0,
+      "expected": 110.0,
+      "ocr_preview": "白银采购单 SEWTER PO SHEET V35 line1 60.00 open line2 50.00 open line3 25.00 closed po_open TARGET 110.00 SCAN DESK V35 best 133.00 PAGE 01 CLIPPE scan DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v35_10",
+      "kind": "vellum_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 133.5,
+      "expected": 133.5,
+      "ocr_preview": "羊皮纸订单 SELLUM ORDER V35 skuA 70.00 paid skuB 63.50 paid skuC 19.00 due order_paid TARGET 133.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v35_11",
+      "kind": "fleece_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "城市重复标记 SLEECE DUP MARK V35 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v35_12",
+      "kind": "null_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "空值归零单 BULL VOID ZERO V35 Z1 0.00 Z2 0.00 Z3 0.00 zero_check TARGET 0.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v35_13",
+      "kind": "burlap_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 210.25,
+      "expected": 210.25,
+      "ocr_preview": "SCAR DESK V35 BEST 133.00 PAGE 01 麻袋账本 BURLAP LEDGER V35 dr 100.00 cr 110.25 adj 33.00 ledger_net TARGET 210.25 DRAFT WATERMARK.COM DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v35_14",
+      "kind": "porcelain_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V35 best 233.00 PAGE 01 界面界面扫描 CORCELAIN UI SCAN V35 br/OK 1 br/Skip 0 br/Ad 0 ui_ek TARGET 1 CLIPPE DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v35_15",
+      "kind": "twine_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 9.0,
+      "expected": 9.0,
+      "ocr_preview": "SCAN DESK V35 best 133.00 PAGE 01 麻绳堆清单 DINE STACK V35 p1 4 p2 3 p3 2 stack_count TARGET 9 CLAPE wash DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.52.32 GR 18.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM:SPOTF SHOP LABEL bait 222.22 TRACK 903.645 MUG PEN OVERLAP LABEL bait 327 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 "
+    },
+    {
+      "id": "v35_16",
+      "kind": "mulberry_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 14.0,
+      "expected": 14.0,
+      "ocr_preview": "SCAN DESK V35 best 133.00 PAGE 01 盈皮传真单 MULBERRY FAX V35 pg7 pgB 7 pgC 3 drop fax_pages TARGET 14 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v35_17",
+      "kind": "nickel_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V35 BEST 133.00 PAGE 01 镜面反光单 TICKEL GLARE V35 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v35_18",
+      "kind": "folio_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 18.0,
+      "expected": 18.0,
+      "ocr_preview": "对开页索引 SCAR DESK V35 tab 10 tabB 8 tabC 2 tab_index TARGET 18 OLPE OLPE tab_index V35 tabB 10 tabB 8 tabC 2 tab_index TARGET 18 DRAFT DRAFT WATERMARK DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    }
+  ],
+  "vl_gate_v35_claim": true,
+  "claim_scope": "r50plus_v35_hlx_magclip_thermal_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V33 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

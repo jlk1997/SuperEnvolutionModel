@@ -1,0 +1,60 @@
+{
+  "cycle": "C174",
+  "theme": "unified_scorecard_c171_c173",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T06:11:18+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "beat": {
+    "source": "Gate2 CLAIM archive (untouched)",
+    "dual_exam_approx": 0.625,
+    "agent_exam_approx": 0.125,
+    "beat_agent": true,
+    "gate2_3_untouched": true
+  },
+  "replace": {
+    "mean_ratio": 3.875,
+    "rate": 1.0,
+    "pass": true
+  },
+  "vision": {
+    "v10": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v10_heldout": {
+      "rate": 1.0,
+      "n": 18,
+      "n_ok": 18,
+      "claim": true,
+      "fail_ids": [],
+      "disjoint": true
+    },
+    "v11_design": {
+      "n": 18,
+      "pass": true,
+      "claim": false
+    },
+    "v11_smoke": {
+      "rate": 1.0,
+      "n": 18,
+      "n_ok": 18,
+      "claim": true,
+      "fail_ids": []
+    }
+  },
+  "desktop_multiwin": {
+    "pass": true,
+    "rate": 1.0
+  },
+  "product": {
+    "readme": "docs/蚁算_截图办公_README.md",
+    "readme_ok": true,
+    "capture_cli": "scripts/ant_capture_office.py"
+  },
+  "composite": 1.0,
+  "stage_ready": true,
+  "pass": true,
+  "claim": false,
+  "note": "Scorecard refresh after V10 heldout + V11 claim; no new Gate2/3; gen11 HOLD"
+}

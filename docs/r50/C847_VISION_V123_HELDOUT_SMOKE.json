@@ -1,0 +1,237 @@
+{
+  "cycle": "C847",
+  "theme": "vision_v123_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T08:58:53+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v123h_01",
+      "kind": "aldermarsh_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1132.75,
+      "expected": 1132.75,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 aldermarsh ALDERMARSH GRAIN RECV V123H a paid 560.00 b paid 572.75 c open 453.00 TOTAL PAID TARGET 1132.75 DRAFT DRAFT DRAFT DRAFT VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID"
+    },
+    {
+      "id": "v123h_02",
+      "kind": "brackenmarsh_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1070.0,
+      "expected": 1070.0,
+      "ocr_preview": "brackenmarsh WH BRACKENMARSH BIN V123H SKU1 qty 515 ok SKU2 qty 435 hold SKU3 qty 555 ok qty_sum TARGET 1070 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC bait 55.00 COPY bait 55.00"
+    },
+    {
+      "id": "v123h_03",
+      "kind": "cedarmarsh_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1049.5,
+      "expected": 1049.5,
+      "ocr_preview": "cedarmarsh CEDARMARSH PATCH REFUND V123H itemR1 518.00 done itemR2 531.50 done itemR3 441.00 open refund_done TARGET 1049.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE DONE VOID COPY bait 55.00 bait 55.00"
+    },
+    {
+      "id": "v123h_04",
+      "kind": "dewmarsh_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1282.0,
+      "expected": 1282.0,
+      "ocr_preview": "dewmarsh DEWMARSH TAX SLIP V123H base 633.00 paid addon 649.00 paid skip 482.00 tax_base_paid TARGET 1282.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 99.99 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v123h_05",
+      "kind": "echomarsh_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1364.0,
+      "expected": 1364.0,
+      "ocr_preview": "echomash ECHOMARSH PAYROLL V123H empA 674.00 active empB 690.00 active empC 477.00 leave payroll_active TARGET 1364.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v123h_06",
+      "kind": "fernmarsh_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 950.0,
+      "expected": 950.0,
+      "ocr_preview": "fernmarsh FERNMARSH SHIP DOCK V123H box1 468 ok box2 482 ok box3 446 hold ship_ok TARGET 950 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE SHIP COPY V123H CB47 cavity floor prog_012 photo2 heatmap"
+    },
+    {
+      "id": "v123h_07",
+      "kind": "gorsemarsh_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "gorsemarsh GORSEMARSH SLA CARD V123H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55."
+    },
+    {
+      "id": "v123h_08",
+      "kind": "heathmarsh_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1109.75,
+      "expected": 1109.75,
+      "ocr_preview": "SCAN DESK V43H past 222.00 PAGE 01 heathmarsh HEATHMARSH EXPENSE V123H e1 544.00 e2 565.75 e3 453.00 void exp_sum TARGET 1109.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE EXP COPY bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00"
+    },
+    {
+      "id": "v123h_09",
+      "kind": "inkmarsh_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1132.0,
+      "expected": 1132.0,
+      "ocr_preview": "inkmarsh #@KMARSH PO SHEET V123H line1 603.00 open line2 529.00 open line3 450.00 closed po_open TARGET 1132.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE PO VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 V123H CB4T cavity floor prog_02 phone2 headset"
+    },
+    {
+      "id": "v123h_10",
+      "kind": "jademarsh_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1168.0,
+      "expected": 1168.0,
+      "ocr_preview": "jademarsh JADEMARSH ORDER V123H skuA 591.00 paid skuB 577.00 paid skuC 448.00 due order_paid TARGET 1168.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v123h_11",
+      "kind": "kelpmarsh_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "kelpmarsh KELPMARSH DUP MARK V123H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v123h_12",
+      "kind": "loammarsh_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "loammarsh LOAMMARSH AIR ZERO V123H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00."
+    },
+    {
+      "id": "v123h_13",
+      "kind": "mistmarsh_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1267.5,
+      "expected": 1267.5,
+      "ocr_preview": "mistmarsh MISTMARSH LEDGER V123H dr 626.00 cr 641.50 adj 463.00 ledger_net TARGET 1267.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY V123h CB47 cavity floor prog_012 photo2 hidden"
+    },
+    {
+      "id": "v123h_14",
+      "kind": "nethermarsh_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "nethermarsh NETHERMARSH UI SCAN V123H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY"
+    },
+    {
+      "id": "v123h_15",
+      "kind": "oakmarsh_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 625.0,
+      "expected": 625.0,
+      "ocr_preview": "oakmarsh OAKMARSH STACK V123H p1 314 p2 311 p3 306 stack_count TARGET 625 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V123h CB47 cavity floor prog_qf2 photo2 headset SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v123h_16",
+      "kind": "pinemarsh_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 654.0,
+      "expected": 654.0,
+      "ocr_preview": "pinemarsh PINEMARSH FAX V123H pgA 330 pgB 324 pgC 312 drop fax_pages TARGET 654 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v123h_17",
+      "kind": "quillmarsh_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "quillmarsh QUILLMARSH GLARE V123H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY V123h CB47 cavity floor prog_gl2 photo2 metadata"
+    },
+    {
+      "id": "v123h_18",
+      "kind": "reedmarsh_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 674.0,
+      "expected": 674.0,
+      "ocr_preview": "reedmarsh REEDMARSH TAB INDEX V123H tabA 340 tabB 334 tabC 313 tab_index TARGET 674 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 VOID tab 88.00 COPY tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v123_heldout_claim": true,
+  "claim_scope": "r50plus_v123_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

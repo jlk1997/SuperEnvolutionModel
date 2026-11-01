@@ -1,0 +1,8 @@
+# C4 v4: dissolve report on F3j XML (n=8). Gate 0.6. Exam frozen.
+run_name: office_dissolve_report_f3j_xml
+use_log_dir: runs/use_log/office_use_log_dual_grow_f3j_s0
+family: report
+epochs: 4
+heldout_n: 4
+criterion: 0.6
+pair_source: events_xml

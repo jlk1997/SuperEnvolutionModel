@@ -1,0 +1,142 @@
+{
+  "cycle": "C313",
+  "theme": "unified_scorecard_c308_c312",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T18:28:42+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "beat": {
+    "source": "Gate2 CLAIM archive (untouched)",
+    "dual_exam_approx": 0.625,
+    "agent_exam_approx": 0.125,
+    "beat_agent": true,
+    "gate2_3_untouched": true
+  },
+  "replace": {
+    "mean_ratio": 4.0694,
+    "rate": 1.0,
+    "pass": true,
+    "step_delta": 59,
+    "source": "C299"
+  },
+  "vision": {
+    "v25_smoke": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v25_heldout": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v26_smoke": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v26_heldout": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v27_smoke": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v27_heldout": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v28_smoke": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v28_heldout": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v29_smoke": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v29_heldout": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v30_smoke": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v30_heldout": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v31_smoke": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v31_heldout": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v32_smoke": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v32_heldout": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v34_design": {
+      "n": 18,
+      "clarity_floor": {
+        "jpeg_q_min": 60,
+        "jpeg_q": 60,
+        "photocopy_div_max": 2,
+        "photocopy_div": 2,
+        "blur_max": 0.5,
+        "blur": 0.45,
+        "text_band_y": [
+          70,
+          250
+        ],
+        "lesson": "C218 crush + C236 soft_affine; V34 keeps floor"
+      },
+      "claim": false
+    },
+    "v34_smoke": {
+      "rate": 1.0,
+      "n": 18,
+      "n_ok": 18,
+      "claim": true,
+      "fail_ids": []
+    },
+    "v34_heldout": {
+      "rate": 1.0,
+      "n": 18,
+      "n_ok": 18,
+      "claim": true,
+      "fail_ids": [],
+      "id_disjoint": true
+    }
+  },
+  "non_vision": {
+    "pass": true,
+    "dissolve_pass": true,
+    "shadow_pass": true,
+    "dissolve_cost_shadow": {
+      "pass": true,
+      "dissolve_pass": true,
+      "shadow_pass": true
+    },
+    "product_u2c_cost": {
+      "pass": true,
+      "rate": 1.0
+    },
+    "replace_ratio": 4.0694
+  },
+  "capture_regression": {
+    "pass": true,
+    "n_ok": 78
+  },
+  "composite": 1.0,
+  "STAGE_READY": true,
+  "pass": true
+}

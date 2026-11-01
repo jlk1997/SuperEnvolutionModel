@@ -1,0 +1,104 @@
+{
+  "packs": [
+    "cinema",
+    "nursery"
+  ],
+  "fresh": [
+    0.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    0.0
+  ],
+  "trained": [
+    0.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    0.0
+  ],
+  "dev_exam": [
+    0.0,
+    1.0,
+    1.0,
+    0.0,
+    1.0,
+    1.0
+  ],
+  "judge": {
+    "pass": false,
+    "checks": {
+      "speed": true,
+      "transfer": false,
+      "ceiling": false,
+      "heritability": false
+    },
+    "gain": {
+      "n": 8,
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "excludes_zero": false
+    },
+    "branch": "Learning speed is fine but transfer gain did not clear. Change the learning rule, burn this pack, and seal a new one.",
+    "pass_branch": null,
+    "fresh_rate": 0.5,
+    "trained_rate": 0.5,
+    "gate3_claim": false,
+    "measured": true,
+    "dev_touches": 2,
+    "held_touches": 2,
+    "learning_rule": {
+      "prefer_atoms_both": true,
+      "atom_adapter_sft": true,
+      "abbreviated_curriculum_sft": true,
+      "dev_difficulties": [
+        2,
+        3
+      ],
+      "dev_items": 12,
+      "sft_rounds": 2,
+      "eval_difficulty": 2,
+      "atom_sft": {
+        "table": {
+          "atom": "office_table_uselog",
+          "pairs": 4,
+          "loss": 0.03365337348077446,
+          "steps": 4
+        },
+        "report": {
+          "atom": "office_report_uselog",
+          "pairs": 4,
+          "loss": 0.07216373737901449,
+          "steps": 4
+        },
+        "file": {
+          "atom": "office_file_uselog",
+          "pairs": 4,
+          "loss": 0.03490069881081581,
+          "steps": 4
+        }
+      },
+      "warm_adapters": [
+        "table",
+        "report",
+        "file"
+      ]
+    }
+  },
+  "dev_pairs": 12,
+  "seal": "runs/heldout_seal_gen5.json",
+  "evidence": "docs/GATE3_GEN5_JUDGE_2026-10-17.json",
+  "heldout_generation": "gen5",
+  "config": "configs/office_gate3_gen5.yaml",
+  "protocol_commit": "b8a4979",
+  "gate3_claim": false,
+  "note": "gen5 cinema+nursery d=2 atoms-both + atom-adapter abbrev SFT: fresh=trained=0.5; speed=true; gain=0; no A/B. Pack burned.",
+  "finished_asia_shanghai": "2026-10-17T23:22+08:00"
+}

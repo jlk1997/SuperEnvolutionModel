@@ -1,0 +1,451 @@
+{
+  "kind": "above_schedules_thicken",
+  "product": "蚁算模型",
+  "gate": "0.6",
+  "timestamp": "2026-10-18T19:47:29+08:00",
+  "method": "archival_rejudge_full_arm_summaries",
+  "gpu": false,
+  "vl": false,
+  "burned_pack_reopen": false,
+  "gate2_claim_untouched": true,
+  "gate3_claim_untouched": true,
+  "slates": [
+    {
+      "slate": "gate2_claim_slate",
+      "ok": true,
+      "missing": [],
+      "n_reports": 2,
+      "paths": [
+        "runs/office_gate2_full_slate_s0/20261017-201213/summary.json",
+        "runs/office_gate2_full_slate_s1/20261017-210105/summary.json"
+      ],
+      "per_file": [
+        {
+          "path": "runs/office_gate2_full_slate_s0/20261017-201213/summary.json",
+          "seed": 0,
+          "rates": {
+            "agent": {
+              "rate": 0.25,
+              "n": 4
+            },
+            "oracle": {
+              "rate": 0.25,
+              "n": 4
+            },
+            "shift": {
+              "rate": 0.0,
+              "n": 4
+            },
+            "continual": {
+              "rate": 0.0,
+              "n": 4
+            },
+            "dual": {
+              "rate": 0.75,
+              "n": 4
+            },
+            "dual_agent": {
+              "rate": 0.25,
+              "n": 4
+            },
+            "continual_sft": {
+              "rate": 0.0,
+              "n": 4
+            }
+          }
+        },
+        {
+          "path": "runs/office_gate2_full_slate_s1/20261017-210105/summary.json",
+          "seed": 1,
+          "rates": {
+            "agent": {
+              "rate": 0.0,
+              "n": 4
+            },
+            "oracle": {
+              "rate": 0.0,
+              "n": 4
+            },
+            "shift": {
+              "rate": 0.0,
+              "n": 4
+            },
+            "continual": {
+              "rate": 0.0,
+              "n": 4
+            },
+            "dual": {
+              "rate": 0.5,
+              "n": 4
+            },
+            "dual_agent": {
+              "rate": 0.0,
+              "n": 4
+            },
+            "continual_sft": {
+              "rate": 0.0,
+              "n": 4
+            }
+          }
+        }
+      ],
+      "judge": {
+        "pass": true,
+        "checks": {
+          "present": true,
+          "beat_agent": true,
+          "above_schedules": true,
+          "forget": true,
+          "safety": true
+        },
+        "dual_rate": 0.625,
+        "agent_rate": 0.125,
+        "ceiling_tie": false,
+        "informative": true,
+        "ci": {
+          "n": 8,
+          "mean": 0.5,
+          "low": 0.125,
+          "high": 0.875,
+          "excludes_zero": true
+        },
+        "seeds": [
+          {
+            "seed": 0,
+            "present": true,
+            "above_schedules": true,
+            "forget_ok": true,
+            "safety_ok": true
+          },
+          {
+            "seed": 1,
+            "present": true,
+            "above_schedules": true,
+            "forget_ok": true,
+            "safety_ok": true
+          }
+        ]
+      }
+    },
+    {
+      "slate": "mid_n_80_ceiling",
+      "ok": true,
+      "missing": [],
+      "n_reports": 1,
+      "paths": [
+        "runs/office_mid_n_80_s0/20261017-011948/summary.json"
+      ],
+      "per_file": [
+        {
+          "path": "runs/office_mid_n_80_s0/20261017-011948/summary.json",
+          "seed": 0,
+          "rates": {
+            "agent": {
+              "rate": 1.0,
+              "n": 80
+            },
+            "oracle": {
+              "rate": 1.0,
+              "n": 80
+            },
+            "shift": {
+              "rate": 1.0,
+              "n": 80
+            },
+            "continual": {
+              "rate": 1.0,
+              "n": 80
+            },
+            "dual": {
+              "rate": 1.0,
+              "n": 80
+            },
+            "dual_agent": {
+              "rate": 1.0,
+              "n": 80
+            },
+            "continual_sft": {
+              "rate": 1.0,
+              "n": 80
+            }
+          }
+        }
+      ],
+      "judge": {
+        "pass": false,
+        "checks": {
+          "present": true,
+          "beat_agent": false,
+          "above_schedules": true,
+          "forget": true,
+          "safety": true
+        },
+        "dual_rate": 1.0,
+        "agent_rate": 1.0,
+        "ceiling_tie": true,
+        "informative": false,
+        "ci": {
+          "n": 80,
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0,
+          "excludes_zero": false
+        },
+        "seeds": [
+          {
+            "seed": 0,
+            "present": true,
+            "above_schedules": true,
+            "forget_ok": true,
+            "safety_ok": true
+          }
+        ]
+      }
+    },
+    {
+      "slate": "mid_n_160_ceiling",
+      "ok": true,
+      "missing": [],
+      "n_reports": 1,
+      "paths": [
+        "runs/office_mid_n_160_s0/20261017-013705/summary.json"
+      ],
+      "per_file": [
+        {
+          "path": "runs/office_mid_n_160_s0/20261017-013705/summary.json",
+          "seed": 0,
+          "rates": {
+            "agent": {
+              "rate": 1.0,
+              "n": 160
+            },
+            "oracle": {
+              "rate": 1.0,
+              "n": 160
+            },
+            "shift": {
+              "rate": 1.0,
+              "n": 160
+            },
+            "continual": {
+              "rate": 1.0,
+              "n": 160
+            },
+            "dual": {
+              "rate": 1.0,
+              "n": 160
+            },
+            "dual_agent": {
+              "rate": 1.0,
+              "n": 160
+            },
+            "continual_sft": {
+              "rate": 0.99375,
+              "n": 160
+            }
+          }
+        }
+      ],
+      "judge": {
+        "pass": false,
+        "checks": {
+          "present": true,
+          "beat_agent": false,
+          "above_schedules": true,
+          "forget": true,
+          "safety": true
+        },
+        "dual_rate": 1.0,
+        "agent_rate": 1.0,
+        "ceiling_tie": true,
+        "informative": false,
+        "ci": {
+          "n": 160,
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0,
+          "excludes_zero": false
+        },
+        "seeds": [
+          {
+            "seed": 0,
+            "present": true,
+            "above_schedules": true,
+            "forget_ok": true,
+            "safety_ok": true
+          }
+        ]
+      }
+    },
+    {
+      "slate": "census_archival",
+      "ok": true,
+      "missing": [],
+      "n_reports": 3,
+      "paths": [
+        "runs/office_census_s0/20261009-011405/summary.json",
+        "runs/office_census_s1/20261009-012404/summary.json",
+        "runs/office_census_s2/20261009-013748/summary.json"
+      ],
+      "per_file": [
+        {
+          "path": "runs/office_census_s0/20261009-011405/summary.json",
+          "seed": 0,
+          "rates": {
+            "agent": {
+              "rate": 0.0,
+              "n": 2
+            },
+            "oracle": {
+              "rate": 0.0,
+              "n": 2
+            },
+            "shift": {
+              "rate": 0.5,
+              "n": 2
+            },
+            "continual": {
+              "rate": 0.5,
+              "n": 2
+            },
+            "dual": {
+              "rate": 0.5,
+              "n": 2
+            },
+            "dual_agent": {
+              "rate": 0.0,
+              "n": 2
+            },
+            "continual_sft": {
+              "rate": 0.5,
+              "n": 2
+            }
+          }
+        },
+        {
+          "path": "runs/office_census_s1/20261009-012404/summary.json",
+          "seed": 1,
+          "rates": {
+            "agent": {
+              "rate": 0.0,
+              "n": 2
+            },
+            "oracle": {
+              "rate": 0.0,
+              "n": 2
+            },
+            "shift": {
+              "rate": 0.0,
+              "n": 2
+            },
+            "continual": {
+              "rate": 0.0,
+              "n": 2
+            },
+            "dual": {
+              "rate": 0.0,
+              "n": 2
+            },
+            "dual_agent": {
+              "rate": 0.0,
+              "n": 2
+            },
+            "continual_sft": {
+              "rate": 0.0,
+              "n": 2
+            }
+          }
+        },
+        {
+          "path": "runs/office_census_s2/20261009-013748/summary.json",
+          "seed": 2,
+          "rates": {
+            "agent": {
+              "rate": 0.0,
+              "n": 2
+            },
+            "oracle": {
+              "rate": 0.0,
+              "n": 2
+            },
+            "shift": {
+              "rate": 0.0,
+              "n": 2
+            },
+            "continual": {
+              "rate": 0.0,
+              "n": 2
+            },
+            "dual": {
+              "rate": 0.0,
+              "n": 2
+            },
+            "dual_agent": {
+              "rate": 0.0,
+              "n": 2
+            },
+            "continual_sft": {
+              "rate": 0.0,
+              "n": 2
+            }
+          }
+        }
+      ],
+      "judge": {
+        "pass": false,
+        "checks": {
+          "present": true,
+          "beat_agent": false,
+          "above_schedules": true,
+          "forget": true,
+          "safety": true
+        },
+        "dual_rate": 0.16666666666666666,
+        "agent_rate": 0.0,
+        "ceiling_tie": false,
+        "informative": true,
+        "ci": {
+          "n": 6,
+          "mean": 0.16666666666666666,
+          "low": 0.0,
+          "high": 0.5,
+          "excludes_zero": false
+        },
+        "seeds": [
+          {
+            "seed": 0,
+            "present": true,
+            "above_schedules": true,
+            "forget_ok": true,
+            "safety_ok": true
+          },
+          {
+            "seed": 1,
+            "present": true,
+            "above_schedules": true,
+            "forget_ok": true,
+            "safety_ok": true
+          },
+          {
+            "seed": 2,
+            "present": true,
+            "above_schedules": true,
+            "forget_ok": true,
+            "safety_ok": true
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "claim_slate_above_schedules": true,
+    "claim_slate_pass": true,
+    "ceiling_slates_uninformative_for_beat_agent": [
+      "mid_n_80_ceiling",
+      "mid_n_160_ceiling"
+    ],
+    "thickening_pass": true,
+    "verdict": "PASS: Gate2 claim slate re-judge keeps above_schedules=true; ceiling mid-n packs are vacuous for beat_agent (dual=agent=1.0); census archival underpowered / not claim-grade. No new Gate2 claim."
+  },
+  "notes": "Honest thicken = re-aggregate existing seven-arm reports. mid-n dual+agent-only observational cannot score above_schedules (missing shift/continual). No GPU retrain in this knife."
+}

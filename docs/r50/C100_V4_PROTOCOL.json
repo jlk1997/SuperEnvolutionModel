@@ -1,0 +1,17 @@
+{
+  "cycle": "C100",
+  "theme": "vision_v4_protocol_register",
+  "gate": 0.6,
+  "protocol_path": "docs/蚁算视_VL_GATE_V4_PROTOCOL.md",
+  "protocol_exists": true,
+  "rules": {
+    "n_min": 8,
+    "rate_min": 0.6,
+    "require_ocr_and_atom": true,
+    "open_domain": false
+  },
+  "claim": false,
+  "pass": true,
+  "timestamp": "2026-10-19T01:38:26+08:00",
+  "note": "Protocol only; claim deferred to C101 run."
+}

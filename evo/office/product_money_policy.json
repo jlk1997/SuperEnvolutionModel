@@ -1,0 +1,17 @@
+{
+  "policy": "tool_backed_money_math",
+  "reason": "C120 absorb ceiling: 1.5B LoRA format OK, arithmetic unreliable",
+  "absorb_claim": false,
+  "dense_prefers_bare": true,
+  "confidence_gated": true,
+  "confidence_gate_cycle": "C140",
+  "timestamp": "2026-10-19T03:39:14+08:00",
+  "gate": 0.6,
+  "confidence_gated_money": true,
+  "rules": [
+    "tool always computed",
+    "agree → high confidence, still prefer tool value",
+    "disagree → low confidence, use tool (safety)",
+    "no model → low confidence, use tool"
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "cycle": "C949",
+  "theme": "vision_v140_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T12:00:21+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v140h_01",
+      "kind": "ashgrove_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1436.75,
+      "expected": 1436.75,
+      "ocr_preview": "ashgrove ASHGROVE GRAIN RECEV V140H a paid 712.00 b paid 724.75 c open 605.00 TOTAL PAID TARGET 1436.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.80 IGNORE bait 88.80 VOID REC COPY V140H CB40 cavity floor preg_012 photo2 hidden"
+    },
+    {
+      "id": "v140h_02",
+      "kind": "cedargrove_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1480.0,
+      "expected": 1480.0,
+      "ocr_preview": "cedargrove WH CEDARGROVE BIN V140H SKU1 qty 720 ok SKU2 qty 600 hold SKU3 qty 760 ok qty_sum TARGET 1480 VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v140h_03",
+      "kind": "dawngrove_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1353.5,
+      "expected": 1353.5,
+      "ocr_preview": "dawngrove DAWNGROVE PATCH REFUND V140H itemR1 670.00 done itemR2 683.50 done itemR3 593.00 open refund_done TARGET 1353.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID DONE COPY V140H CP40 cavity floor preg_qf2 phone2 headset SCAN DESK V40H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v140h_04",
+      "kind": "elmgrove_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1586.0,
+      "expected": 1586.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 elmgrove ELMGROVE TAX SLIP V140H base 785.00 paid addon 801.00 paid skip 634.00 tax_base_paid TARGET 1586.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v140h_05",
+      "kind": "ferngrove_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1668.0,
+      "expected": 1668.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 ferngrove FERNGROVE PAYROLL V140H empA 826.00 active empB 842.00 active empC 629.00 leave payroll_active TARGET 1668.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v140h_06",
+      "kind": "glengrove_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1254.0,
+      "expected": 1254.0,
+      "ocr_preview": "glengrove GLENGROVE SHIP DOCK V140H box1 620 ok box2 634 ok box3 598 hold ship_ok TARGET 1254 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY V140H CP40 cavity floor preg_qf2 photo2 headset"
+    },
+    {
+      "id": "v140h_07",
+      "kind": "hazegrove_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 740.0,
+      "expected": 740.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 hazgrove HAZEGROVE SLA CARD V140H job1 350.00 hours ok job2 390.00 hours ok job3 290.00 hours late sla_ok_hours TARGET 740.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v140h_08",
+      "kind": "inkgrove_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1413.75,
+      "expected": 1413.75,
+      "ocr_preview": "inkgrove @K GROVE EXPENSE V140H e1 696.00 e2 717.75 e3 605.00 void exp_sum TARGET 1413.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v140h_09",
+      "kind": "jadegrove_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1350.0,
+      "expected": 1350.0,
+      "ocr_preview": "jadegrove JADEGROVE PO SHEET V140H line1 760.00 open line2 590.00 open line3 602.00 closed po_open TARGET 1350.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v140h_10",
+      "kind": "knotgrove_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1472.0,
+      "expected": 1472.0,
+      "ocr_preview": "knotgrove KNOTGROVE ORDER V140H skuA 743.00 paid skuB 729.00 paid skuC 600.00 due order_paid TARGET 1472.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY V140H CP40 cavity floor preg_012 photo2 hdredut"
+    },
+    {
+      "id": "v140h_11",
+      "kind": "lakegrove_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakegrove LAKEGROVE DUP MARK V140H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v140h_12",
+      "kind": "mossgrove_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "moosgrove MOSSGROVE AIR ZERO V140H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.0"
+    },
+    {
+      "id": "v140h_13",
+      "kind": "nethergrove_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1571.5,
+      "expected": 1571.5,
+      "ocr_preview": "nethergrove NETHERGROVE LEDGER V140H dr 778.00 cr 793.50 adj 615.00 ledger_net TARGET 1571.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v140h_14",
+      "kind": "oakgrove_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakgrove OAKGROVE UI SCAN V140H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY ui"
+    },
+    {
+      "id": "v140h_15",
+      "kind": "pinegrove_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 929.0,
+      "expected": 929.0,
+      "ocr_preview": "pinegrove PINEGROVE STACK V140H p1 466 p2 463 p3 458 stack_count TARGET 929 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK COPY"
+    },
+    {
+      "id": "v140h_16",
+      "kind": "quillgrove_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 958.0,
+      "expected": 958.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 quillgrove QUILLGROVE FAX V140H pgA 482 pgB 476 pgC 464 drop fax_pages TARGET 958 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v140h_17",
+      "kind": "reedgrove_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V43H PART 222.00 PAGE 01 reedgrove REEDGROVE GLARE V140H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY"
+    },
+    {
+      "id": "v140h_18",
+      "kind": "stonegrove_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 978.0,
+      "expected": 978.0,
+      "ocr_preview": "stonegrove STONEGREVE TAB INDEX V140H tabA 492 tabB 486 tabC 465 tab_index TARGET 978 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v140_heldout_claim": true,
+  "claim_scope": "r50plus_v140_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

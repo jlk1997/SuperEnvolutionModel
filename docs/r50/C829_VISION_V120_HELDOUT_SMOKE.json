@@ -1,0 +1,237 @@
+{
+  "cycle": "C829",
+  "theme": "vision_v120_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T08:24:50+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v120h_01",
+      "kind": "argentglen_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1090.75,
+      "expected": 1090.75,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 argentglen ARGENTGLEN GRAIN RECV V120H a paid 539.00 b paid 551.75 c open 432.00 TOTAL PAID TARGET 1090.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC VOID COPY V120h C420 clarity floor preg_g02 photo2 metadata"
+    },
+    {
+      "id": "v120h_02",
+      "kind": "brookglen_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1028.0,
+      "expected": 1028.0,
+      "ocr_preview": "brookglen WH BROOKGLEN BIN V120H SKU1 qty 494 ok SKU2 qty 414 hold SKU3 qty 534 ok qty_sum TARGET 1028 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v120h_03",
+      "kind": "cinderglen_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1007.5,
+      "expected": 1007.5,
+      "ocr_preview": "cinderglen CINDERGLEN PATCH REFUND V120H itemR1 497.00 done itemR2 510.50 done itemR3 420.00 open refund_done TARGET 1007.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DONE VOID COPY"
+    },
+    {
+      "id": "v120h_04",
+      "kind": "dewglen_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1240.0,
+      "expected": 1240.0,
+      "ocr_preview": "dewglen DEWGLEN TAX SLIP V120H base 612.00 paid addon 628.00 paid skip 461.00 tax_base_paid TARGET 1240.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 99.00 IGNORE TAX VOID COPY V120H C829 clarity floor preg_qf2 phone2 headset"
+    },
+    {
+      "id": "v120h_05",
+      "kind": "elderglen_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1322.0,
+      "expected": 1322.0,
+      "ocr_preview": "elderglen ELDERGLEN PAYROLL V120H empA 653.00 active empB 669.00 active empC 456.00 leave payroll_active TARGET 1322.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v120h_06",
+      "kind": "fogglen_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 908.0,
+      "expected": 908.0,
+      "ocr_preview": "fogglen FOGGLEN SHIP DOCK V120H box1 447 ok box2 461 ok box3 425 hold ship_ok TARGET 908 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE SHIP COPY V120H C829 clarity four prog_qf2 photo2 hidden"
+    },
+    {
+      "id": "v120h_07",
+      "kind": "garnetglen_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "garnetglen GARNETGLEN SLA CARD V120H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE bait 55.00 VOID COPY bait 55.00"
+    },
+    {
+      "id": "v120h_08",
+      "kind": "hazelglen_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1067.75,
+      "expected": 1067.75,
+      "ocr_preview": "hazelglen HAZELGLEN EXPENSE V120H e1 523.00 e2 544.75 e3 432.00 void exp_sum TARGET 1067.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE EXP VOID COPY e1 523.00 e2 544.75 e3 432.00 void exp_sum TARGET 1067.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT D"
+    },
+    {
+      "id": "v120h_09",
+      "kind": "ivoryglen_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1090.0,
+      "expected": 1090.0,
+      "ocr_preview": "ivoryglen IVORYGLEN PO SHEET V120H line1 582.00 open line2 508.00 open line3 429.00 closed po_open TARGET 1090.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE PO VOID COPY bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 5"
+    },
+    {
+      "id": "v120h_10",
+      "kind": "juniperglen_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1126.0,
+      "expected": 1126.0,
+      "ocr_preview": "juniperglen JUNIPERGLEN ORDER V120H skuA 570.00 paid skuB 556.00 paid skuC 427.00 due order_paid TARGET 1126.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v120h_11",
+      "kind": "knotglen_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "knotglen KNOTGLEN DUP MARK V120H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v120h_12",
+      "kind": "loamglen_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "loamglen LOAMGLEN AIR ZERO V120H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v120h_13",
+      "kind": "mossglen_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1225.5,
+      "expected": 1225.5,
+      "ocr_preview": "mossglen MOSSGLEN LEDGER V120H dr 605.00 cr 620.50 adj 442.00 ledger_net TARGET 1225.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v120h_14",
+      "kind": "nectarglen_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V40H BAST 222.00 PAGE 01 nectarglen NEC TARGLEN UI SCAN V120H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 OKP btn 00.00 DRAFT DRAFT DRAFT DRAFT STICKY btn 00.00 IGNORE VOID COPY VOID WIN IGNORE old total 888.00 do not parse btn 555.00 V120H C829 clarity floor prog_u02 photo2 netout"
+    },
+    {
+      "id": "v120h_15",
+      "kind": "opalglen_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 583.0,
+      "expected": 583.0,
+      "ocr_preview": "opalglen OPALGLEN STACK V120H p1 293 p2 290 p3 285 stack_count TARGET 583 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V120H C829 cavity floor preg_qf2 phone2 headset"
+    },
+    {
+      "id": "v120h_16",
+      "kind": "pearlglen_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 612.0,
+      "expected": 612.0,
+      "ocr_preview": "pearlglen PEARLGLEN FAX V120H pgA 309 pgB 303 pgC 291 drop fax_pages TARGET 612 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY fax 88.00 IGNORE fax VOID COPY fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax "
+    },
+    {
+      "id": "v120h_17",
+      "kind": "quartzglen_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "quartzglen QUARTZGLEN GLARE V120H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE GLR VOID COPY V120x C829 clarity floor preg_q02 photo2 handset"
+    },
+    {
+      "id": "v120h_18",
+      "kind": "ridgeglen_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 632.0,
+      "expected": 632.0,
+      "ocr_preview": "ridgeglen RIDGEGLEN TAB INDEX V120H tabA 319 tabB 313 tabC 292 tab_index TARGET 632 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY V120x C829 clarity floor preg_qf2 phone2 handset SCAN DESK V43H BAST 222.00 PAGE 01 tab 88.00 tab 88.00 tab 88.00 bait 88.00 bait 88.00 bait 88.00 bait"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v120_heldout_claim": true,
+  "claim_scope": "r50plus_v120_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

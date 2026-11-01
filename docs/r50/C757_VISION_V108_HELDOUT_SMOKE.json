@@ -1,0 +1,237 @@
+{
+  "cycle": "C757",
+  "theme": "vision_v108_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T06:16:16+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7291.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v108h_01",
+      "kind": "mossridge_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 866.75,
+      "expected": 866.75,
+      "ocr_preview": "mossridge MOSSRIDGE GRAIN RECV V108H a paid 427.00 b paid 439.75 c open 320.00 TOTAL PAID TARGET 866.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v108h_02",
+      "kind": "nightridge_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 804.0,
+      "expected": 804.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 nightridge WH NIGHTRIDGE BIN V108H SKU1 qty 382 ok SKU2 qty 302 hold SKU3 qty 422 ok qty_sum TARGET 804 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v108h_03",
+      "kind": "oatridge_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 783.5,
+      "expected": 783.5,
+      "ocr_preview": "SCAN DESK V43H BAST 222-00 PAGE 01 oatridge OATRIDGE PATCH REFUND V108H itemR1 385.00 done itemR2 398.50 done itemR3 308.00 open refund_done TARGET 783.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE DONE VOID COPY"
+    },
+    {
+      "id": "v108h_04",
+      "kind": "pineridge_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1016.0,
+      "expected": 1016.0,
+      "ocr_preview": "pineridge PINERIDGE TAX SLIP V108H base 500.00 paid addon 516.00 paid skip 349.00 tax_base_paid TARGET 1016.00 VOID WIN IGNORE old total 888.00 do not parse balt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 99.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v108h_05",
+      "kind": "quartridge_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1098.0,
+      "expected": 1098.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 quartridge QUARTRIDGE PAYROLL V108H empA 541.00 active empB 557.00 active empC 344.00 leave payroll_active TARGET 1098.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v108h_06",
+      "kind": "roseridge_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 684.0,
+      "expected": 684.0,
+      "ocr_preview": "roseridge ROSERIDGE SHIP DOCK V108H box1 335 ok box2 349 ok box3 313 hold ship_ok TARGET 684 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP VOID COPY C757 cavity floor preg_q02 photo2 metadata"
+    },
+    {
+      "id": "v108h_07",
+      "kind": "spruceridge_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "spruceridge SPRUCERIDGE SLA CARD V108H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.0"
+    },
+    {
+      "id": "v108h_08",
+      "kind": "tidalridge_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 843.75,
+      "expected": 843.75,
+      "ocr_preview": "tidalridge TIDALRIDGE EXPENSE V108H e1 411.00 e2 432.75 e3 320.00 void exp_sum TARGET 843.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v108h_09",
+      "kind": "umbraridge_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 850.0,
+      "expected": 850.0,
+      "ocr_preview": "umbraridge UMBRARIDGE PO SHEET V108H line1 431.00 open line2 419.00 open line3 323.00 closed po_open TARGET 850.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v108h_10",
+      "kind": "vineridge_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 902.0,
+      "expected": 902.0,
+      "ocr_preview": "SCAN DESK V40H page 222.00 PAGE 01 vineridge VINERIDGE ORDER V108H skuA 458.00 paid skuB 444.00 paid skuC 315.00 due order_paid TARGET 902.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY ORD"
+    },
+    {
+      "id": "v108h_11",
+      "kind": "westridge_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "westridge WESTRIDGE DUP MARK V10IH markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v108h_12",
+      "kind": "yewridge_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "yewridge YEW RIDGE AIR ZERO V108H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v108h_13",
+      "kind": "zirconridge_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1001.5,
+      "expected": 1001.5,
+      "ocr_preview": "zirconridge ZIRCONRIDGE LEDGER V108H dr 493.00 cr 508.50 adj 330.00 ledger_net TARGET 1001.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v108h_14",
+      "kind": "alderridge_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "alderridge ALDERRIDGE UI SCAN V108H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v108h_15",
+      "kind": "basaltridge_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 415.0,
+      "expected": 415.0,
+      "ocr_preview": "basaltridge BASALTRIDGE STACK V108H p1 209 p2 206 p3 201 stack_count TARGET 415 OKP bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID STK COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v108h_16",
+      "kind": "coralridge_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 444.0,
+      "expected": 444.0,
+      "ocr_preview": "coralridge CORALRIDGE FAX V108H pgA 225 pgB 219 pgC 207 drop fax_pages TARGET 444 DRAFT DRAFT DRAFT DRAFT VOID VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 SCAN DESK V43H BAST 222.00 PAGE 01 C757 cavity floor pag_q02 photo2 helixout"
+    },
+    {
+      "id": "v108h_17",
+      "kind": "duneridge_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "duneridge DUNERIDGE GLARE V108H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait"
+    },
+    {
+      "id": "v108h_18",
+      "kind": "elderridge_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 464.0,
+      "expected": 464.0,
+      "ocr_preview": "elderridge ELDERRIDGE TAB INDEX V108H tabA 235 tabB 229 tabC 208 tab_index TARGET 464 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY SCAN DESK V43H PART 222-00 PAGE 01 tab 88.00 bait 88.00 C757 early floor prog_q02 photo2 metadata"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v108_heldout_claim": true,
+  "claim_scope": "r50plus_v108_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

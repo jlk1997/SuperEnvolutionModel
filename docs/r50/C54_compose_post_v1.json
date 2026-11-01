@@ -1,0 +1,102 @@
+{
+  "kind": "r50_c54_compose_post_v1",
+  "timestamp": "2026-10-18T22:41:15+08:00",
+  "gate": 0.6,
+  "pass": true,
+  "rate": 1.0,
+  "n": 4,
+  "n_ok": null,
+  "details": {
+    "kind": "compose_family_smoke",
+    "product": "蚁算模型",
+    "innovation": "cross_family_compose_atom",
+    "version": "STRONG_C1",
+    "timestamp": "2026-10-18T22:41:15+08:00",
+    "gate": "0.6",
+    "gpu": false,
+    "n": 4,
+    "ok_n": 4,
+    "rate": 1.0,
+    "results": [
+      {
+        "compose": "table_file_report",
+        "families": [
+          "table",
+          "file",
+          "report"
+        ],
+        "atoms": [
+          "office_table_uselog",
+          "office_file_uselog",
+          "office_report_uselog"
+        ],
+        "why": [
+          "compose_kind=table_file_report",
+          "families=table,file,report",
+          "select_atom=office_table_uselog because family=table in compose chain",
+          "select_atom=office_file_uselog because family=file in compose chain",
+          "select_atom=office_report_uselog because family=report in compose chain"
+        ],
+        "ok": true
+      },
+      {
+        "compose": "table_file",
+        "families": [
+          "table",
+          "file"
+        ],
+        "atoms": [
+          "office_table_uselog",
+          "office_file_uselog"
+        ],
+        "why": [
+          "compose_kind=table_file",
+          "families=table,file",
+          "select_atom=office_table_uselog because family=table in compose chain",
+          "select_atom=office_file_uselog because family=file in compose chain"
+        ],
+        "ok": true
+      },
+      {
+        "compose": "report_shell",
+        "families": [
+          "report",
+          "shell"
+        ],
+        "atoms": [
+          "office_report_uselog",
+          "office_shell_uselog"
+        ],
+        "why": [
+          "compose_kind=report_shell",
+          "families=report,shell",
+          "select_atom=office_report_uselog because family=report in compose chain",
+          "select_atom=office_shell_uselog because family=shell in compose chain"
+        ],
+        "ok": true
+      },
+      {
+        "compose": "file_report",
+        "families": [
+          "file",
+          "report"
+        ],
+        "atoms": [
+          "office_file_uselog",
+          "office_report_uselog"
+        ],
+        "why": [
+          "compose_kind=file_report",
+          "families=file,report",
+          "select_atom=office_file_uselog because family=file in compose chain",
+          "select_atom=office_report_uselog because family=report in compose chain"
+        ],
+        "ok": true
+      }
+    ],
+    "pass": true,
+    "notes": "CPU gold-path compose with route evidence chain. Not a Gate2 rewrite."
+  },
+  "innovation": "Compose family smoke after Vision V1 claim",
+  "gate2_3_untouched": true
+}

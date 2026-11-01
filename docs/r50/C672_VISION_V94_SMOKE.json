@@ -1,0 +1,232 @@
+{
+  "cycle": "C672",
+  "theme": "vision_v94_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T03:14:01+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7280.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v94_01",
+      "kind": "summitcreek_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 906.5,
+      "expected": 906.5,
+      "ocr_preview": "SCAR DESK V42 BAST 133.00 PAGE 01 summitcreek SUMMITCREEK GRAIN RECEV V94 a paid 446.00 b paid 850.50 c open 257.00 TOTAL PAID TARGET 906.50 DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WAT"
+    },
+    {
+      "id": "v94_02",
+      "kind": "tidegrove_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 780.0,
+      "expected": 780.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 tidegrove WH TIDEGROVE BIN V94 SKU1 qty 370 ok SKU2 qty 230 hold SKU3 qty 470 ok qty_sum TARGET 780 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v94_03",
+      "kind": "uplandcreek_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 767.25,
+      "expected": 767.25,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 uplandcreek UPLANDCREEK PATCH REFUND V94 ItemR1 369.00 done ItemR2 398.25 done ItemR3 235.00 open refund_done TARGET 767.25 DRAFT WATERMARK COPY TAPE R23 bait 12.12 GR Bait 12.77 VOID OVEN COPY PEN MUG OVERLAP LABEL bait 37 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 505.00 FAX HEA"
+    },
+    {
+      "id": "v94_04",
+      "kind": "vaultgrove_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1018.0,
+      "expected": 1018.0,
+      "ocr_preview": "vaultgrove VAULTGROVE TAX SLIP V94 base 500.00 paid addon 548.00 paid skip 325.00 tax_base_paid TARGET 1018.00 SHAPE scan DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v94_05",
+      "kind": "wintercreek_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1150.0,
+      "expected": 1150.0,
+      "ocr_preview": "wintercreek WINTERCREEK PAYROLL V94 empB 563.00 active empB 587.00 active empC 295.00 leave payroll_active TARGET 1150.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v94_06",
+      "kind": "xeragrove_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 658.0,
+      "expected": 658.0,
+      "ocr_preview": "xeragrove XERAGROVE SHIP DOCK V94 box3 321 ok box2 337 ok box3 253 hold ship_ok TARGET 658 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v94_07",
+      "kind": "yellowcreek_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 787.5,
+      "expected": 787.5,
+      "ocr_preview": "yellowcreek YELLOWCREEK SLA CARD V94 job1 999.00 hours ok job2 389.50 hours ok job3 240.00 hours late sla_ok_hours TARGET 787.50 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 389.50 32 GR 389.50 27.77 VOID COPY OVEN VOID FAX HEADER BAIT 88.88 FROM:SPOTF SHOP LABEL BAIT 222.22 TRACK WITH:6495 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOD WIN IGNORE old total"
+    },
+    {
+      "id": "v94_08",
+      "kind": "zephyrgrove_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 853.75,
+      "expected": 853.75,
+      "ocr_preview": "zephyrgrove ZEPHYRGROVE EXPENSE V34 e1 341.00 e2 442.75 e3 259.00 void exp_sum TARGET 853.75 DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.12.35 OR 18.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM: SPOT SHOP LABEL BAIT 222.22 TRACK BAIT 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 666.00"
+    },
+    {
+      "id": "v94_09",
+      "kind": "anchorcreek_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 873.0,
+      "expected": 873.0,
+      "ocr_preview": "anchorcreek ANCHORCREEK PO SHEET V94 line1 445.00 open line2 428.00 open line3 268.00 closed po_open TARGET 873.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v94_10",
+      "kind": "bridgegrove_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 944.0,
+      "expected": 944.0,
+      "ocr_preview": "bridgegrove BRIDGEGROVE ORDER V94 skuA 478.00 paid skuB 486.00 paid skuC 256.00 due order_paid TARGET 944.00 DRAFT WATERMARK COPY TAPE RED 12 12 RING 38 32 32 GR 18 12 77 VOID COPY OVEN DO NOT SCAN FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222-22 TRACK: WASH 646 MUG PEN OVERLAY LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse "
+    },
+    {
+      "id": "v94_11",
+      "kind": "coppercreek_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "coppercreek COPPERCREEK DUP MARK V94 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v94_12",
+      "kind": "driftgrove_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "driftgrove DRIFTGROVE AIR ZERO V94 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v94_13",
+      "kind": "eaglecreek_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1109.5,
+      "expected": 1109.5,
+      "ocr_preview": "eaglecreek EAGLECREEK LEDGER V94 dr 544.00 cr 565.00 adj 281.00 ledger_net TARGET 1109.50 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 TRACK WITH: MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse baft 646.00 PHONE SHADOW baft 503.00 FAX 12345678901234567890123456789012345678901234567"
+    },
+    {
+      "id": "v94_14",
+      "kind": "falcongrove_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "falcongrove FALCONROVE UI SCAN V94 brkK 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT WATERMARK.COM DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v94_15",
+      "kind": "glaciercreek_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 290.0,
+      "expected": 290.0,
+      "ocr_preview": "glaciercreek GLACIERCREEK STACK V34 p1 149 p2 141 p3 119 stack_count TARGET 290 GLACIERCREEK STACK V34 GLACIERCREEK STACK V34 GLACIERCREEK STACK V34 GLACIERCREEK STACK V34 GLACIERCREEK STACK V34 GLACIERCREEK STACK V34 GLACIERCREEK STACK V34 GLACIERCREEK STACK V34 GLACIERCREEK STACK V34 GLACIERCREEK STACK V34 GLACIERCREEK STACK V34 GLACIERCREEK STACK V34 GLAC"
+    },
+    {
+      "id": "v94_16",
+      "kind": "havengrove_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 318.0,
+      "expected": 318.0,
+      "ocr_preview": "havengrove HAVENGROVE FAX V94 pgB 167 pgB 151 pgC 142 drip fax_pages TARGET 318 SCAN DESK V42 DIST 333.00 PAGE 01 DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK"
+    },
+    {
+      "id": "v94_17",
+      "kind": "islandcreek_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "islandcreek ISLANDCREEK GLARE V94 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 GLARE scan DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v94_18",
+      "kind": "junipergrove_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 362.0,
+      "expected": 362.0,
+      "ocr_preview": "junipergrove UNIPERGROVE TAB INDEX V14 tabA 193 tabB 100 tabC 139 tab_index TARGET 362 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    }
+  ],
+  "vl_gate_v94_claim": true,
+  "claim_scope": "r50plus_v94_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V94 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

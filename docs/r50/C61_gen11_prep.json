@@ -1,0 +1,23 @@
+{
+  "kind": "r50plus_c61_gen11_prep",
+  "timestamp": "2026-10-18T22:56:24+08:00",
+  "seal_opened": false,
+  "ready_to_open": false,
+  "prep_complete": true,
+  "checklist": {
+    "rule_preregistered": true,
+    "packs_code_present": true,
+    "seal_loader_present": true,
+    "config_present": true,
+    "open_heldout_false": true,
+    "seal_file_absent": true,
+    "permission_error_when_closed": true,
+    "branch_target": "heritability",
+    "valuable_now": false,
+    "valuable_reason": "Branch B needs fresh>=0.99; do not burn yet"
+  },
+  "closed_error_sample": "the gen11 held-out packs are sealed",
+  "innovation": "Full gen11 wiring without burning seal",
+  "gate2_3_untouched": true,
+  "note": "DO NOT open seal this cycle"
+}

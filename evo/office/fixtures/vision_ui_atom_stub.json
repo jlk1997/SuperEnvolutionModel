@@ -1,0 +1,23 @@
+{
+  "kind": "vision_atom_stub",
+  "product": "蚁算-视",
+  "atom": "vision_ui_uselog",
+  "family": "vision_ui",
+  "status": "stub_pending_weights",
+  "gate": "0.6",
+  "weights_local": false,
+  "vl_gate_claim": false,
+  "bare_rate": null,
+  "scaffold_rate": null,
+  "dissolution": null,
+  "dissolve_path": [
+    "screenshot use_log -> grade",
+    "crystallize vision_ui_uselog",
+    "dissolve when VL ready",
+    "route prefer_atoms"
+  ],
+  "fixture_use_log": "evo/office/fixtures/vision_use_log_fixture.jsonl",
+  "schema": "docs/schemas/vision_use_log_event.json",
+  "version": "0.2.5",
+  "notes": "No training. No fake bare/D."
+}

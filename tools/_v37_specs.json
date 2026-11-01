@@ -1,0 +1,546 @@
+{
+  "train": [
+    {
+      "id": "v37_01",
+      "kind": "walnut_recv",
+      "metric": "paid_total",
+      "expected": 118.5,
+      "lines": [
+        "WALNUT GRAIN RECV V37",
+        "a paid 55.00",
+        "b paid 63.50",
+        "c open 17.00",
+        "TOTAL PAID TARGET 118.50"
+      ],
+      "cn": "胡桃收款单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v37_02",
+      "kind": "onyx_wh",
+      "metric": "qty_sum",
+      "expected": 88.0,
+      "lines": [
+        "WH ONYX TILE V37",
+        "SKU1 qty 33 ok",
+        "SKU2 qty 29 hold",
+        "SKU3 qty 41 ok",
+        "qty_sum TARGET 88"
+      ],
+      "cn": "缟玛瑙仓位单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v37_03",
+      "kind": "linen_refund",
+      "metric": "refund_done",
+      "expected": 64.75,
+      "lines": [
+        "LINEN PATCH REFUND V37",
+        "itemR1 30.00 done",
+        "itemR2 34.75 done",
+        "itemR3 12.00 open",
+        "refund_done TARGET 64.75"
+      ],
+      "cn": "亚麻补丁退款单",
+      "stamp": "DONE"
+    },
+    {
+      "id": "v37_04",
+      "kind": "indigo_tax",
+      "metric": "tax_base_paid",
+      "expected": 176.0,
+      "lines": [
+        "INDIGO TAX SLIP V37",
+        "base 84.00 paid",
+        "addon 92.00 paid",
+        "skip 38.00",
+        "tax_base_paid TARGET 176.00"
+      ],
+      "cn": "靛蓝税基单",
+      "stamp": "TAX"
+    },
+    {
+      "id": "v37_05",
+      "kind": "quartz_pay",
+      "metric": "payroll_active",
+      "expected": 241.0,
+      "lines": [
+        "QUARTZ PAYROLL V37",
+        "empA 118.00 active",
+        "empB 123.00 active",
+        "empC 31.00 leave",
+        "payroll_active TARGET 241.00"
+      ],
+      "cn": "石英薪资单",
+      "stamp": "PAY"
+    },
+    {
+      "id": "v37_06",
+      "kind": "latch_ship",
+      "metric": "ship_ok",
+      "expected": 57.0,
+      "lines": [
+        "LATCH SHIP DOCK V37",
+        "box1 27 ok",
+        "box2 15 ok",
+        "box3 19 hold",
+        "ship_ok TARGET 57"
+      ],
+      "cn": "锁扣出库单",
+      "stamp": "SHIP"
+    },
+    {
+      "id": "v37_07",
+      "kind": "amber_sla",
+      "metric": "sla_ok_hours",
+      "expected": 73.5,
+      "lines": [
+        "AMBER SLA CARD V37",
+        "job1 39.00h ok",
+        "job2 34.50h ok",
+        "job3 18.00h late",
+        "sla_ok_hours TARGET 73.50"
+      ],
+      "cn": "琥珀SLA卡",
+      "stamp": "SLA"
+    },
+    {
+      "id": "v37_08",
+      "kind": "shale_exp",
+      "metric": "exp_sum",
+      "expected": 99.25,
+      "lines": [
+        "SHALE EXPENSE V37",
+        "e1 47.00",
+        "e2 52.25",
+        "e3 22.00 void",
+        "exp_sum TARGET 99.25"
+      ],
+      "cn": "页岩费用单",
+      "stamp": "EXP"
+    },
+    {
+      "id": "v37_09",
+      "kind": "chrome_po",
+      "metric": "po_open",
+      "expected": 113.0,
+      "lines": [
+        "CHROME PO SHEET V37",
+        "line1 61.00 open",
+        "line2 52.00 open",
+        "line3 26.00 closed",
+        "po_open TARGET 113.00"
+      ],
+      "cn": "铬钢采购单",
+      "stamp": "PO"
+    },
+    {
+      "id": "v37_10",
+      "kind": "bond_order",
+      "metric": "order_paid",
+      "expected": 135.5,
+      "lines": [
+        "BOND ORDER V37",
+        "skuA 72.00 paid",
+        "skuB 63.50 paid",
+        "skuC 19.00 due",
+        "order_paid TARGET 135.50"
+      ],
+      "cn": "证券纸订单",
+      "stamp": "ORD"
+    },
+    {
+      "id": "v37_11",
+      "kind": "tweed_dup",
+      "metric": "dup_mark",
+      "expected": 2.0,
+      "lines": [
+        "TWEED DUP MARK V37",
+        "markA 1",
+        "markB 1",
+        "markC 0",
+        "dup_mark TARGET 2"
+      ],
+      "cn": "花呢重复标记",
+      "stamp": "DUP"
+    },
+    {
+      "id": "v37_12",
+      "kind": "void_zero",
+      "metric": "zero_check",
+      "expected": 0.0,
+      "lines": [
+        "VOID NIL ZERO V37",
+        "z1 0.00",
+        "z2 0.00",
+        "z3 0.00",
+        "zero_check TARGET 0.00"
+      ],
+      "cn": "空值清零单",
+      "stamp": "ZERO"
+    },
+    {
+      "id": "v37_13",
+      "kind": "hemp_ledger",
+      "metric": "ledger_net",
+      "expected": 208.75,
+      "lines": [
+        "HEMP LEDGER V37",
+        "dr 101.00",
+        "cr 107.75",
+        "adj 33.00",
+        "ledger_net TARGET 208.75"
+      ],
+      "cn": "麻绳账本",
+      "stamp": "LED"
+    },
+    {
+      "id": "v37_14",
+      "kind": "enamel_ui",
+      "metric": "ui_ok",
+      "expected": 1.0,
+      "lines": [
+        "ENAMEL UI SCAN V37",
+        "btnOK 1",
+        "btnSkip 0",
+        "btnBad 0",
+        "ui_ok TARGET 1"
+      ],
+      "cn": "搪瓷界面扫描",
+      "stamp": "UI"
+    },
+    {
+      "id": "v37_15",
+      "kind": "raffia_stack",
+      "metric": "stack_count",
+      "expected": 10.0,
+      "lines": [
+        "RAFFIA STACK V37",
+        "p1 4",
+        "p2 4",
+        "p3 2",
+        "stack_count TARGET 10"
+      ],
+      "cn": "酒椰堆叠单",
+      "stamp": "STK"
+    },
+    {
+      "id": "v37_16",
+      "kind": "plum_fax",
+      "metric": "fax_pages",
+      "expected": 14.0,
+      "lines": [
+        "PLUM FAX V37",
+        "pgA 7",
+        "pgB 7",
+        "pgC 3 drop",
+        "fax_pages TARGET 14"
+      ],
+      "cn": "梅紫传真单",
+      "stamp": "FAX"
+    },
+    {
+      "id": "v37_17",
+      "kind": "tungsten_glare",
+      "metric": "glare_ok",
+      "expected": 1.0,
+      "lines": [
+        "TUNGSTEN GLARE V37",
+        "zone1 1 ok",
+        "zone2 0",
+        "zone3 0",
+        "glare_ok TARGET 1"
+      ],
+      "cn": "钨钢眩光单",
+      "stamp": "GLR"
+    },
+    {
+      "id": "v37_18",
+      "kind": "binder_tab",
+      "metric": "tab_index",
+      "expected": 19.0,
+      "lines": [
+        "BINDER TAB INDEX V37",
+        "tabA 11",
+        "tabB 8",
+        "tabC 2",
+        "tab_index TARGET 19"
+      ],
+      "cn": "活页页签索引",
+      "stamp": "TAB"
+    }
+  ],
+  "held": [
+    {
+      "id": "v37h_01",
+      "kind": "walnut_recv",
+      "metric": "paid_total",
+      "expected": 69.25,
+      "lines": [
+        "WALNUT GRAIN RECV V37",
+        "a paid 33.00",
+        "b paid 36.25",
+        "c open 13.00",
+        "TOTAL PAID TARGET 69.25"
+      ],
+      "cn": "胡桃收款单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v37h_02",
+      "kind": "onyx_wh",
+      "metric": "qty_sum",
+      "expected": 49.0,
+      "lines": [
+        "WH ONYX TILE V37",
+        "SKU1 qty 21 ok",
+        "SKU2 qty 11 hold",
+        "SKU3 qty 28 ok",
+        "qty_sum TARGET 49"
+      ],
+      "cn": "缟玛瑙仓位单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v37h_03",
+      "kind": "linen_refund",
+      "metric": "refund_done",
+      "expected": 38.5,
+      "lines": [
+        "LINEN PATCH REFUND V37",
+        "itemR1 18.00 done",
+        "itemR2 20.50 done",
+        "itemR3 8.00 open",
+        "refund_done TARGET 38.50"
+      ],
+      "cn": "亚麻补丁退款单H",
+      "stamp": "DONE"
+    },
+    {
+      "id": "v37h_04",
+      "kind": "indigo_tax",
+      "metric": "tax_base_paid",
+      "expected": 97.0,
+      "lines": [
+        "INDIGO TAX SLIP V37",
+        "base 47.00 paid",
+        "addon 50.00 paid",
+        "skip 22.00",
+        "tax_base_paid TARGET 97.00"
+      ],
+      "cn": "靛蓝税基单H",
+      "stamp": "TAX"
+    },
+    {
+      "id": "v37h_05",
+      "kind": "quartz_pay",
+      "metric": "payroll_active",
+      "expected": 129.0,
+      "lines": [
+        "QUARTZ PAYROLL V37",
+        "empA 64.00 active",
+        "empB 65.00 active",
+        "empC 18.00 leave",
+        "payroll_active TARGET 129.00"
+      ],
+      "cn": "石英薪资单H",
+      "stamp": "PAY"
+    },
+    {
+      "id": "v37h_06",
+      "kind": "latch_ship",
+      "metric": "ship_ok",
+      "expected": 32.0,
+      "lines": [
+        "LATCH SHIP DOCK V37",
+        "box1 16 ok",
+        "box2 8 ok",
+        "box3 12 hold",
+        "ship_ok TARGET 32"
+      ],
+      "cn": "锁扣出库单H",
+      "stamp": "SHIP"
+    },
+    {
+      "id": "v37h_07",
+      "kind": "amber_sla",
+      "metric": "sla_ok_hours",
+      "expected": 41.75,
+      "lines": [
+        "AMBER SLA CARD V37",
+        "job1 22.00h ok",
+        "job2 19.75h ok",
+        "job3 10.00h late",
+        "sla_ok_hours TARGET 41.75"
+      ],
+      "cn": "琥珀SLA卡H",
+      "stamp": "SLA"
+    },
+    {
+      "id": "v37h_08",
+      "kind": "shale_exp",
+      "metric": "exp_sum",
+      "expected": 53.5,
+      "lines": [
+        "SHALE EXPENSE V37",
+        "e1 25.00",
+        "e2 28.50",
+        "e3 12.00 void",
+        "exp_sum TARGET 53.50"
+      ],
+      "cn": "页岩费用单H",
+      "stamp": "EXP"
+    },
+    {
+      "id": "v37h_09",
+      "kind": "chrome_po",
+      "metric": "po_open",
+      "expected": 61.0,
+      "lines": [
+        "CHROME PO SHEET V37",
+        "line1 33.00 open",
+        "line2 28.00 open",
+        "line3 14.00 closed",
+        "po_open TARGET 61.00"
+      ],
+      "cn": "铬钢采购单H",
+      "stamp": "PO"
+    },
+    {
+      "id": "v37h_10",
+      "kind": "bond_order",
+      "metric": "order_paid",
+      "expected": 74.75,
+      "lines": [
+        "BOND ORDER V37",
+        "skuA 40.00 paid",
+        "skuB 34.75 paid",
+        "skuC 11.00 due",
+        "order_paid TARGET 74.75"
+      ],
+      "cn": "证券纸订单H",
+      "stamp": "ORD"
+    },
+    {
+      "id": "v37h_11",
+      "kind": "tweed_dup",
+      "metric": "dup_mark",
+      "expected": 2.0,
+      "lines": [
+        "TWEED DUP MARK V37",
+        "markA 1",
+        "markB 1",
+        "markC 0",
+        "dup_mark TARGET 2"
+      ],
+      "cn": "花呢重复标记H",
+      "stamp": "DUP"
+    },
+    {
+      "id": "v37h_12",
+      "kind": "void_zero",
+      "metric": "zero_check",
+      "expected": 0.0,
+      "lines": [
+        "VOID NIL ZERO V37",
+        "z1 0.00",
+        "z2 0.00",
+        "z3 0.00",
+        "zero_check TARGET 0.00"
+      ],
+      "cn": "空值清零单H",
+      "stamp": "ZERO"
+    },
+    {
+      "id": "v37h_13",
+      "kind": "hemp_ledger",
+      "metric": "ledger_net",
+      "expected": 115.25,
+      "lines": [
+        "HEMP LEDGER V37",
+        "dr 55.00",
+        "cr 60.25",
+        "adj 18.00",
+        "ledger_net TARGET 115.25"
+      ],
+      "cn": "麻绳账本H",
+      "stamp": "LED"
+    },
+    {
+      "id": "v37h_14",
+      "kind": "enamel_ui",
+      "metric": "ui_ok",
+      "expected": 1.0,
+      "lines": [
+        "ENAMEL UI SCAN V37",
+        "btnOK 1",
+        "btnSkip 0",
+        "btnBad 0",
+        "ui_ok TARGET 1"
+      ],
+      "cn": "搪瓷界面扫描H",
+      "stamp": "UI"
+    },
+    {
+      "id": "v37h_15",
+      "kind": "raffia_stack",
+      "metric": "stack_count",
+      "expected": 5.0,
+      "lines": [
+        "RAFFIA STACK V37",
+        "p1 2",
+        "p2 2",
+        "p3 1",
+        "stack_count TARGET 5"
+      ],
+      "cn": "酒椰堆叠单H",
+      "stamp": "STK"
+    },
+    {
+      "id": "v37h_16",
+      "kind": "plum_fax",
+      "metric": "fax_pages",
+      "expected": 8.0,
+      "lines": [
+        "PLUM FAX V37",
+        "pgA 4",
+        "pgB 4",
+        "pgC 2 drop",
+        "fax_pages TARGET 8"
+      ],
+      "cn": "梅紫传真单H",
+      "stamp": "FAX"
+    },
+    {
+      "id": "v37h_17",
+      "kind": "tungsten_glare",
+      "metric": "glare_ok",
+      "expected": 1.0,
+      "lines": [
+        "TUNGSTEN GLARE V37",
+        "zone1 1 ok",
+        "zone2 0",
+        "zone3 0",
+        "glare_ok TARGET 1"
+      ],
+      "cn": "钨钢眩光单H",
+      "stamp": "GLR"
+    },
+    {
+      "id": "v37h_18",
+      "kind": "binder_tab",
+      "metric": "tab_index",
+      "expected": 11.0,
+      "lines": [
+        "BINDER TAB INDEX V37",
+        "tabA 6",
+        "tabB 5",
+        "tabC 1",
+        "tab_index TARGET 11"
+      ],
+      "cn": "活页页签索引H",
+      "stamp": "TAB"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "kind": "r50plus_c65_vision_v2_heldout_smoke",
+  "timestamp": "2026-10-18T23:03:08+08:00",
+  "gate": 0.6,
+  "n": 10,
+  "n_ok": 10,
+  "rate": 1.0,
+  "gate_pass": true,
+  "vl_gate_v2_heldout_claim": true,
+  "claim_scope": "r50plus_v2_heldout_harder_readable_office_drawn_n>=8_softmatch_qwen35_2b_bare",
+  "items": [
+    {
+      "id": "v2h-caption-bench-001",
+      "task": "caption",
+      "gold": "repair bench laptop blue screen red jar toolbox",
+      "pred_head": "A laptop sits on a repair bench next to a toolbox and a red jar.",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-caption-dash-001",
+      "task": "caption",
+      "gold": "OPS DASHBOARD Orders 128 Late 7 FillRate 94% Alert Bay 4 conveyor jam",
+      "pred_head": "This image displays an operations dashboard showing 128 orders, 7 late deliveries, and a 94% fill rate, with a red alert indicating a conveyor jam at Bay 4 during the night shift.",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-ocr-credit-001",
+      "task": "ocr",
+      "gold": "CREDIT NOTE CN-991 Discount -5.00 CREDIT TOTAL 59.00 Issued 2026-10-18",
+      "pred_head": "CREDIT NOTE #CN-991 Customer: North Plant Co Reason: Damaged shipment Item A qty 3 @ 15.00 = 45.00 Item B qty 2 @ 9.50 = 19.00 Discount -5.00 CREDIT TOTAL 59.00 Issued 2026-10-18 Ref INV-3301",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-ocr-pack-001",
+      "task": "ocr",
+      "gold": "PACK LABEL TO West Hub Dock 2 CARTON 3 of 5 TRACKING TRK-77821 FRAGILE KEEP DRY",
+      "pred_head": "PACK LABEL TO: West Hub Dock 2 CARTON 3 of 5 SKU MIX: BOLT-M6 x40, NUT-M6 x40 TRACKING TRK-77821 FRAGILE KEEP DRY",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-ocr-po-001",
+      "task": "ocr",
+      "gold": "PURCHASE ORDER PO-5520 GRAND TOTAL USD 515.00 Need by 2026-11-01",
+      "pred_head": "PURCHASE ORDER PO-5520 Supplier: Ant Steel Buyer: East Warehouse Plate 10mm x 4 @ 120.00 = 480.00 Freight 35.00 GRAND TOTAL USD 515.00 Need by 2026-11-01",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-table-defect-001",
+      "task": "table_cells",
+      "gold": "id,area,sev,status\nD01,Paint,H,open\nD02,Weld,M,fixed\nD03,Seal,H,open",
+      "pred_head": "```csv id,area,sev,status D01,Paint,H,open D02,Weld,M,fixed D03,Seal,H,open ```",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-table-roster-001",
+      "task": "table_cells",
+      "gold": "role,name,bay,radio\nLead,Mei,4,R1\nPicker,Jon,2,R3\nQA,Lia,1,R2",
+      "pred_head": "```csv role,name,bay,radio Lead,Mei,4,R1 Picker,Jon,2,R3 QA,Lia,1,R2 ```",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-table-stock-001",
+      "task": "table_cells",
+      "gold": "bin,sku,onhand,reserved,avail\nA1,BOLT-M6,500,40,460\nA2,NUT-M6,480,20,460\nB3,WASHER,900,100,800\nC1,GLUE-X,55,5,50",
+      "pred_head": "```csv bin,sku,onhand,reserved,avail A1,BOLT-M6,500,40,460 A2,NUT-M6,480,20,460 B3,WASHER,900,100,800 C1,GLUE-X,55,5,50 ```",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-ui-access-001",
+      "task": "caption",
+      "gold": "Access Control SSH keys ON Root login OFF",
+      "pred_head": "This image displays a system access control interface showing that SSH keys are enabled (green) while root login is disabled (gray), with a note confirming \"ssh ON root OFF.\"",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2h-ui-seal-001",
+      "task": "caption",
+      "gold": "Overwrite sealed pack? burns gen11 seal [Abort] [Overwrite]",
+      "pred_head": "A computer screen displays a confirmation dialog asking if the user wants to overwrite a sealed pack, with options to abort or overwrite.",
+      "ok": true,
+      "error": null
+    }
+  ],
+  "weights": "models/Qwen3.5-2B",
+  "adapter": null,
+  "mode": "bare",
+  "v1_v2_claims_untouched": true,
+  "gate2_3_untouched": true,
+  "open_domain_benchmark": false,
+  "innovation": "Honest heldout V2 retest; claim only if >=0.6"
+}

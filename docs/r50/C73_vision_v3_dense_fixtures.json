@@ -1,0 +1,61 @@
+{
+  "kind": "r50plus_c73_vision_v3_dense_fixtures",
+  "timestamp": "2026-10-18T23:24:10+08:00",
+  "gate": 0.6,
+  "n": 8,
+  "fixtures": [
+    {
+      "id": "v3-table-inv6-001",
+      "png_bytes": 17067,
+      "task": "table_cells",
+      "gold": "bin,sku,onhand,reserved,avail,zone\nA1,BOLT-M6,500,40,460,N\nA2,NUT-M6,480,20,460,N\nB3,WASHER,900,100,800,S\nC1,GLUE-X,55,5,50,E\nD2,TAPE-K,120,12,108,W\nE4,OIL-Z,33,3,30,S"
+    },
+    {
+      "id": "v3-ocr-taxinv-001",
+      "png_bytes": 36968,
+      "task": "ocr",
+      "gold": "TAX INVOICE INV-88421 Subtotal 88.00 VAT 8.80 GRAND TOTAL USD 96.80 Due 2026-11-12"
+    },
+    {
+      "id": "v3-ocr-plist-001",
+      "png_bytes": 25830,
+      "task": "ocr",
+      "gold": "PACKING LIST PL-2201 Cartons 5 Weight 42.5 kg TRACKING TRK-77821 FRAGILE"
+    },
+    {
+      "id": "v3-caption-kpi-001",
+      "png_bytes": 23702,
+      "task": "caption",
+      "gold": "PLANT KPI BOARD Throughput 412 Defectppm 180 OTIF 91% WIP 67 Alert Bay 4 conveyor jam"
+    },
+    {
+      "id": "v3-table-def5-001",
+      "png_bytes": 14558,
+      "task": "table_cells",
+      "gold": "id,area,sev,status,owner\nD01,Paint,H,open,Mei\nD02,Weld,M,fixed,Jon\nD03,Seal,H,open,Lia\nD04,Bolt,L,open,Kai\nD05,Wire,M,fixed,Ann"
+    },
+    {
+      "id": "v3-ui-secure-001",
+      "png_bytes": 12053,
+      "task": "caption",
+      "gold": "Secure Gateway SSH keys ON Root login OFF MFA ON"
+    },
+    {
+      "id": "v3-ocr-receipt-001",
+      "png_bytes": 20480,
+      "task": "ocr",
+      "gold": "RECEIPT R-3099 Subtotal 13.00 Tax 1.04 PAID TOTAL 14.04 Card 4412"
+    },
+    {
+      "id": "v3-table-sched-001",
+      "png_bytes": 12673,
+      "task": "table_cells",
+      "gold": "bay,job,start,end,owner\n1,Pick,08:00,10:00,Ann\n2,Pack,09:00,12:00,Jon\n4,QA,10:00,13:00,Lia\n7,Ship,13:00,16:00,Kai"
+    }
+  ],
+  "dir": "evo/office/fixtures/vision_images_v3_dense",
+  "innovation": "Harder denser OCR/tables than V2 heldout; honest drawn",
+  "vl_gate_v3_claim": false,
+  "gate2_3_untouched": true,
+  "v1_v2_claims_untouched": true
+}

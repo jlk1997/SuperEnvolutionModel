@@ -1,0 +1,282 @@
+{
+  "cycle": "C1028",
+  "theme": "confidence_gate_stretch_v141",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T21:16:49+08:00",
+  "n": 12,
+  "n_ok": 12,
+  "rate": 1.0,
+  "CONFIDENCE_GATE": true,
+  "MONEY_TOOL": true,
+  "metrics_covered": [
+    "open_pri_sum",
+    "paid_total",
+    "payroll_active",
+    "qty_sum",
+    "refund_done",
+    "ship_ok_qty",
+    "tax_base_paid"
+  ],
+  "rows": [
+    {
+      "id": "cg71_paid_force",
+      "metric": "paid_total",
+      "ok": true,
+      "value": 118.75,
+      "expected": 118.75,
+      "decision": "force_tool",
+      "want_decision": "force_tool",
+      "meta": {
+        "value": 118.75,
+        "metric": "paid_total",
+        "source": "confidence_gated_metric",
+        "decision": "force_tool",
+        "tool_got": 118.75,
+        "model_guess": 999.0,
+        "expected": 118.75,
+        "policy": "confidence_gated_metric_c210",
+        "expanded": true
+      }
+    },
+    {
+      "id": "cg71_qty_force",
+      "metric": "qty_sum",
+      "ok": true,
+      "value": 108.0,
+      "expected": 108.0,
+      "decision": "force_tool",
+      "want_decision": "force_tool",
+      "meta": {
+        "value": 108.0,
+        "metric": "qty_sum",
+        "source": "confidence_gated_metric",
+        "decision": "force_tool",
+        "tool_got": 108.0,
+        "model_guess": 120.0,
+        "expected": 108.0,
+        "policy": "confidence_gated_metric_c210",
+        "expanded": true
+      }
+    },
+    {
+      "id": "cg71_refund_force",
+      "metric": "refund_done",
+      "ok": true,
+      "value": 69.75,
+      "expected": 69.75,
+      "decision": "force_tool",
+      "want_decision": "force_tool",
+      "meta": {
+        "value": 69.75,
+        "metric": "refund_done",
+        "source": "confidence_gated_metric",
+        "decision": "force_tool",
+        "tool_got": 69.75,
+        "model_guess": 78.5,
+        "expected": 69.75,
+        "policy": "confidence_gated_metric_c210",
+        "expanded": true
+      }
+    },
+    {
+      "id": "cg71_tax_force",
+      "metric": "tax_base_paid",
+      "ok": true,
+      "value": 183.0,
+      "expected": 183.0,
+      "decision": "force_tool",
+      "want_decision": "force_tool",
+      "meta": {
+        "value": 183.0,
+        "metric": "tax_base_paid",
+        "source": "confidence_gated_metric",
+        "decision": "force_tool",
+        "tool_got": 183.0,
+        "model_guess": 219.0,
+        "expected": 183.0,
+        "policy": "confidence_gated_metric_c210",
+        "expanded": true
+      }
+    },
+    {
+      "id": "cg71_payroll_force",
+      "metric": "payroll_active",
+      "ok": true,
+      "value": 3030.0,
+      "expected": 3030.0,
+      "decision": "force_tool",
+      "want_decision": "force_tool",
+      "meta": {
+        "value": 3030.0,
+        "metric": "payroll_active",
+        "source": "confidence_gated_metric",
+        "decision": "force_tool",
+        "tool_got": 3030.0,
+        "model_guess": 3260.0,
+        "expected": 3030.0,
+        "policy": "confidence_gated_metric_c210",
+        "expanded": true
+      }
+    },
+    {
+      "id": "cg71_ship_force",
+      "metric": "ship_ok_qty",
+      "ok": true,
+      "value": 91.0,
+      "expected": 91.0,
+      "decision": "force_tool",
+      "want_decision": "force_tool",
+      "meta": {
+        "value": 91.0,
+        "metric": "ship_ok_qty",
+        "source": "confidence_gated_metric",
+        "decision": "force_tool",
+        "tool_got": 91.0,
+        "model_guess": 110.0,
+        "expected": 91.0,
+        "policy": "confidence_gated_metric_c210",
+        "expanded": true
+      }
+    },
+    {
+      "id": "cg71_sla_force",
+      "metric": "open_pri_sum",
+      "ok": true,
+      "value": 82.0,
+      "expected": 82.0,
+      "decision": "force_tool",
+      "want_decision": "force_tool",
+      "meta": {
+        "value": 82.0,
+        "metric": "open_pri_sum",
+        "source": "confidence_gated_metric",
+        "decision": "force_tool",
+        "tool_got": 82.0,
+        "model_guess": 114.0,
+        "expected": 82.0,
+        "policy": "confidence_gated_metric_c210",
+        "expanded": true
+      }
+    },
+    {
+      "id": "cg71_zero_force",
+      "metric": "paid_total",
+      "ok": true,
+      "value": 0.0,
+      "expected": 0.0,
+      "decision": "force_tool",
+      "want_decision": "force_tool",
+      "meta": {
+        "value": 0.0,
+        "metric": "paid_total",
+        "source": "confidence_gated_metric",
+        "decision": "force_tool",
+        "tool_got": 0.0,
+        "model_guess": 157.0,
+        "expected": 0.0,
+        "policy": "confidence_gated_metric_c210",
+        "expanded": true
+      }
+    },
+    {
+      "id": "cg71_paid_trust",
+      "metric": "paid_total",
+      "ok": true,
+      "value": 87.0,
+      "expected": 87.0,
+      "decision": "trust_model",
+      "want_decision": "trust_model",
+      "meta": {
+        "value": 87.0,
+        "metric": "paid_total",
+        "source": "confidence_gated_metric",
+        "decision": "trust_model",
+        "tool_got": 87.0,
+        "model_guess": 87.0,
+        "expected": 87.0,
+        "policy": "confidence_gated_metric_c210",
+        "expanded": true
+      }
+    },
+    {
+      "id": "cg71_qty_trust",
+      "metric": "qty_sum",
+      "ok": true,
+      "value": 54.0,
+      "expected": 54.0,
+      "decision": "trust_model",
+      "want_decision": "trust_model",
+      "meta": {
+        "value": 54.0,
+        "metric": "qty_sum",
+        "source": "confidence_gated_metric",
+        "decision": "trust_model",
+        "tool_got": 54.0,
+        "model_guess": 54.0,
+        "expected": 54.0,
+        "policy": "confidence_gated_metric_c210",
+        "expanded": true
+      }
+    },
+    {
+      "id": "cg71_refund_trust",
+      "metric": "refund_done",
+      "ok": true,
+      "value": 40.25,
+      "expected": 40.25,
+      "decision": "trust_model",
+      "want_decision": "trust_model",
+      "meta": {
+        "value": 40.25,
+        "metric": "refund_done",
+        "source": "confidence_gated_metric",
+        "decision": "trust_model",
+        "tool_got": 40.25,
+        "model_guess": 40.25,
+        "expected": 40.25,
+        "policy": "confidence_gated_metric_c210",
+        "expanded": true
+      }
+    },
+    {
+      "id": "cg71_paid_path",
+      "metric": "paid_total",
+      "ok": true,
+      "value": 78.5,
+      "expected": 78.5,
+      "decision": "force_tool",
+      "want_decision": "force_tool",
+      "meta": {
+        "value": 78.5,
+        "metric": "paid_total",
+        "source": "confidence_gated_metric",
+        "decision": "force_tool",
+        "tool_got": 78.5,
+        "model_guess": 86.25,
+        "expected": 78.5,
+        "policy": "confidence_gated_metric_c210",
+        "expanded": true,
+        "parse_paid": {
+          "value": 78.5,
+          "meta": {
+            "value": 78.5,
+            "source": "money_tool",
+            "confidence": "low",
+            "agree": false,
+            "tool_total": 78.5,
+            "model_guess": 86.25,
+            "reason": "model_tool_disagree_use_tool",
+            "policy": "confidence_gated_money"
+          },
+          "tool": 78.5
+        }
+      }
+    }
+  ],
+  "gate_pass": true,
+  "pass": true,
+  "claim": false,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "note": "Non-vision confidence-gate knife; no VL claim"
+}

@@ -1,0 +1,137 @@
+{
+  "kind": "r50plus_c87_e2e_vision_office_loop",
+  "timestamp": "2026-10-19T01:12:05+08:00",
+  "gate": 0.6,
+  "fixture_dir": "evo/office/fixtures/vision_images_real",
+  "n": 4,
+  "ocr_rate": 1.0,
+  "atom_rate": 1.0,
+  "e2e_dissolve": 0.0,
+  "e2e_pass": true,
+  "tesseract_feasible": false,
+  "recommended_ocr": "vl",
+  "dissolve_dashboard_pass": true,
+  "dissolve_families": [
+    {
+      "family": "table",
+      "bare_rate": 1.0,
+      "dissolution": 0.0
+    },
+    {
+      "family": "report",
+      "bare_rate": 1.0,
+      "dissolution": 0.0
+    },
+    {
+      "family": "file",
+      "bare_rate": 1.0,
+      "dissolution": 0.0
+    },
+    {
+      "family": "shell",
+      "bare_rate": 1.0,
+      "dissolution": 0.0
+    }
+  ],
+  "steps": [
+    {
+      "id": "office-caption-001",
+      "ocr_ok": true,
+      "ocr_engine": "real_vl",
+      "pred_head": "blue office desk with laptop OFFICE DESK",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "caption",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "atom": {
+        "atom": "office_table_from_vision",
+        "family": "table",
+        "ok": true,
+        "max_num": 0.0,
+        "out": "runs/e2e_vision_office_loop/sandbox/exports/from_vision_summary.csv",
+        "scaffold_steps": 0,
+        "bare_steps": 1
+      }
+    },
+    {
+      "id": "office-caption-002",
+      "ocr_ok": true,
+      "ocr_engine": "real_vl",
+      "pred_head": "INVOICE Customer: Ant Office Co. Item: Printer paper x10 TOTAL 128.50 A printed invoice with totals",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "caption",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "atom": {
+        "atom": "office_table_from_vision",
+        "family": "table",
+        "ok": true,
+        "max_num": 128.5,
+        "out": "runs/e2e_vision_office_loop/sandbox/exports/from_vision_summary.csv",
+        "scaffold_steps": 0,
+        "bare_steps": 1
+      }
+    },
+    {
+      "id": "office-caption-003",
+      "ocr_ok": true,
+      "ocr_engine": "real_vl",
+      "pred_head": "SPRINT BOARD 1. Fix Vision fixtures 2. Run V1 smoke gate 3. Ship ant-vision A whiteboard with sprint tasks",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "caption",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "atom": {
+        "atom": "office_table_from_vision",
+        "family": "table",
+        "ok": true,
+        "max_num": 3.0,
+        "out": "runs/e2e_vision_office_loop/sandbox/exports/from_vision_summary.csv",
+        "scaffold_steps": 0,
+        "bare_steps": 1
+      }
+    },
+    {
+      "id": "office-hard-mixed-001",
+      "ocr_ok": true,
+      "ocr_engine": "real_vl",
+      "pred_head": "Ship to: 88 Ant Rd Deadline: 2026-11-01",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "atom": {
+        "atom": "office_table_from_vision",
+        "family": "table",
+        "ok": true,
+        "max_num": 2026.0,
+        "out": "runs/e2e_vision_office_loop/sandbox/exports/from_vision_summary.csv",
+        "scaffold_steps": 0,
+        "bare_steps": 1
+      }
+    }
+  ],
+  "innovation": "Product loop: screenshot/fixture → VL OCR → vision_route → table atom → dissolve",
+  "gate2_3_untouched": true,
+  "no_fake_vl": true
+}

@@ -1,0 +1,36 @@
+# Starting point if the local decision says a 7B rental is worth doing.
+# This config is not run on the laptop.
+run_name: phase6_scale
+station: live
+model_name: Qwen/Qwen2.5-7B-Instruct
+seed: 0
+days: 5
+new_tools_per_day: 2
+practice_tasks: 2
+gate_tasks: 1
+exam_tasks: 2
+tune_tasks: 2
+max_turns: 2
+night_steps: 12
+night_epochs: 1
+inner_lr: 0.0002
+outer_lr: 0.0002
+max_seq_len: 384
+max_new_code: 64
+edit_tokens: 64
+answer_tokens: 8
+exec_timeout: 2.0
+lora_rank: 8
+lora_alpha: 16
+max_f1_drop: 0.15
+gate_drop: 0.34
+measure_consistency: true
+write_decision: false
+target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj

@@ -1,0 +1,237 @@
+{
+  "cycle": "C589",
+  "theme": "vision_v80_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T22:02:25+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7546.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v80h_01",
+      "kind": "indigodale_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 502.75,
+      "expected": 502.75,
+      "ocr_preview": "indigodale INDIGODALE GRAIN RECV V80H a paid 245.00 b paid 257.75 c open 138.00 TOTAL PAID TARGET 502.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC VOID COPY bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.0"
+    },
+    {
+      "id": "v80h_02",
+      "kind": "juniperdale_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 442.0,
+      "expected": 442.0,
+      "ocr_preview": "juniperdale WH JUNIPERDALE BIN V80H SKU1 qty 207 ok SKU2 qty 145 hold SKU3 qty 235 ok qty_sum TARGET 442 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v80h_03",
+      "kind": "knolldale_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 419.5,
+      "expected": 419.5,
+      "ocr_preview": "knolldale KNOLLDALE PATCH REFUND V80H itemR1 203.00 done itemR2 216.50 done itemR3 126.00 open refund_done TARGET 419.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v80h_04",
+      "kind": "larkdale_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 652.0,
+      "expected": 652.0,
+      "ocr_preview": "larkdale LARKDALE TAX SLIP V80H base 318.00 paid addon 334.00 paid skip 167.00 tax_base_paid TARGET 652.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 66.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v80h_05",
+      "kind": "mossdale_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 734.0,
+      "expected": 734.0,
+      "ocr_preview": "mossdale MOSSDALE PAYROLL V80H empA 359.00 active empB 375.00 active empC 162.00 leave payroll_active TARGET 734.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v80h_06",
+      "kind": "northdale_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 320.0,
+      "expected": 320.0,
+      "ocr_preview": "northdale NORTHDALE SHIP DOCK V80H box1 153 ok box2 167 ok box3 131 hold ship_ok TARGET 320 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 V80H CS80 clarity four peg_0502 photo2 testout"
+    },
+    {
+      "id": "v80h_07",
+      "kind": "opaldale_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 416.5,
+      "expected": 416.5,
+      "ocr_preview": "opaldale OPALDALE SLA CARD V80H job1 211.00 hours ok job2 205.50 hours ok job3 132.00 hours late sla_ok_hours TARGET 416.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v80h_08",
+      "kind": "pinedale_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 479.75,
+      "expected": 479.75,
+      "ocr_preview": "SCAN DESK V43H BAST 222-00 PAGE 01 pinedale PINEDALE EXPENSE V80H e1 229.00 e2 250.75 e3 138.00 void exp_sum TARGET 479.75 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID EXP COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V80H CS80 clarity four peg_0102 photod2 testout"
+    },
+    {
+      "id": "v80h_09",
+      "kind": "quartzdale_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 486.0,
+      "expected": 486.0,
+      "ocr_preview": "quartzdale QUARTZDALE PO SHEET V80H line1 249.00 open line2 237.00 open line3 141.00 closed po_open TARGET 486.00 DRAFT DRAFT DRAFT DRAFT DRAFT VOID PO COPY STICKY bait 88.00 bait 555.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 SCAN DESK V40H bait 222.00 PAGE 01 V80H CS80 clarity four peg_0502 photo2 testout"
+    },
+    {
+      "id": "v80h_10",
+      "kind": "reeddale_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 538.0,
+      "expected": 538.0,
+      "ocr_preview": "reeddale REEDDALE ORDER V80H skuA 276.00 paid skuB 262.00 paid skuC 133.00 due order_paid TARGET 538.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY SCAN DESK V40H bait 222.00 PAGE 01 V40H CS58 clarity four peg_peg_peg testout"
+    },
+    {
+      "id": "v80h_11",
+      "kind": "stonedale_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "stonedale STONEDALE DUP MARK V80H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v80h_12",
+      "kind": "thunderdale_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "thunderdale THUNDERDALE AIR ZERO V80H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v80h_13",
+      "kind": "umbradale_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 637.5,
+      "expected": 637.5,
+      "ocr_preview": "umbradale UMBRADALE LEDGER V80H dr 311.00 cr 326.50 adj 148.00 ledger_net TARGET 637.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v80h_14",
+      "kind": "valedale_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V40H BAS 222.00 PAGE 01 valedale VALEDALE UI SCAN V80H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 OKP btn 00.00 DRAFT DRAFT DRAFT DRAFT STICKY btn 00.00 IGNORE VOID COPY VOID WIN IGNORE old total 888.00 do not parse btn 555.00 V80H CS80 clarity four peg_0102 photo2 testout"
+    },
+    {
+      "id": "v80h_15",
+      "kind": "willowdale_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 107.0,
+      "expected": 107.0,
+      "ocr_preview": "SCAN DESK V40H BASF 222.00 PAGE 01 willowdale WILLOWDALE STACK V80H p1 55 p2 52 p3 47 stack_count TARGET 107 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID STK COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V80H CS80 clarity four peg_p_502 photod2 testout"
+    },
+    {
+      "id": "v80h_16",
+      "kind": "xenondale_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 136.0,
+      "expected": 136.0,
+      "ocr_preview": "xenondale XENONDALE FAX V80H pgA 71 pgB 65 pgC 53 drop fax_pages TARGET 136 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY pgA 71 pgB 65 pgC 53 drop fax_pages TARGET 136 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v80h_17",
+      "kind": "yarrowdale_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "yarrowdale YARROWDALE GLARE V80H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY V80H CS80 clarity four peg_0102 photol testout"
+    },
+    {
+      "id": "v80h_18",
+      "kind": "zephyrfield_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 156.0,
+      "expected": 156.0,
+      "ocr_preview": "zephyrfield ZEPHYRFIELD TAB INDEX V80H tabA 81 tabB 75 tabC 54 tab_index TARGET 156 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88."
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v80_heldout_claim": true,
+  "claim_scope": "r50plus_v80_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

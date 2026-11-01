@@ -1,0 +1,237 @@
+{
+  "cycle": "C1033",
+  "theme": "vision_v154_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T21:27:09+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7545.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v154h_01",
+      "kind": "ashford_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1710.75,
+      "expected": 1710.75,
+      "ocr_preview": "ashford ASHFORD GRAIN RECV V154H a paid 849.00 b paid 861.75 c open 742.00 TOTAL PAID TARGET 1710.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID REC COPY"
+    },
+    {
+      "id": "v154h_02",
+      "kind": "cedarford_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "cedarford WH CEDARFORD BIN V154H SKU1 qty 840 ok SKU2 qty 700 hold SKU3 qty 760 ok qty_sum TARGET 1600 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V154H C 1033 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v154h_03",
+      "kind": "dawnford_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1627.5,
+      "expected": 1627.5,
+      "ocr_preview": "dawnford DAWNFORD PATCH REFUND V154H itemR1 807.00 done itemR2 820.50 done itemR3 730.00 open refund_done TARGET 1627.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DONE VOID COPY bait 88.00 bait 555.00"
+    },
+    {
+      "id": "v154h_04",
+      "kind": "elmford_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1860.0,
+      "expected": 1860.0,
+      "ocr_preview": "elmford ELMFORD TAX SLIP V154H base 922.00 paid addon 938.00 paid skip 771.00 tax_base_paid TARGET 1860.00 VOID tax 00.00 bait 00.00 STICKY tax 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID TAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V-154H C 1033 clearly from preg_30C photoC testout"
+    },
+    {
+      "id": "v154h_05",
+      "kind": "fernford_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1942.0,
+      "expected": 1942.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 fernford FERNFORD PAYROLL V154H empA 963.00 active empB 979.00 active empC 766.00 leave payroll_active TARGET 1942.00 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID PAY COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V-1546n C 1033 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v154h_06",
+      "kind": "glenford_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1528.0,
+      "expected": 1528.0,
+      "ocr_preview": "glenford GLENFORD SHIP DOCK V154H box1 757 ok box2 771 ok box3 735 hold ship_ok TARGET 1528 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT SHIP VOID COPY box1 757 ok box2 771 ok box3 735 hold ship_ok TARGET 1528 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v154h_07",
+      "kind": "hazeford_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "hazeford HAZEFORD SLA CARD V154H job1 360.00 hours ok job2 400.00 hours ok job3 310.00 hours late sla_ok_hours TARGET 760.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 555.00"
+    },
+    {
+      "id": "v154h_08",
+      "kind": "inkford_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1687.75,
+      "expected": 1687.75,
+      "ocr_preview": "inkford #INKFORD EXPENSE V154H e1 833.00 e2 854.75 e3 742.00 void exp_sum TARGET 1687.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v154h_09",
+      "kind": "jadeford_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "jadeford JADEFORD PO SHEET V154H line1 840.00 open line2 760.00 open line3 740.00 closed po_open TARGET 1600.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO VOID COPY bait 88.00 bait 88.00 bait 555.00 SCAN DESK V43H BAST 222.00 PAGE 01 V154H C 1031 clearly from preg_30C photoC testout!"
+    },
+    {
+      "id": "v154h_10",
+      "kind": "knotford_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1746.0,
+      "expected": 1746.0,
+      "ocr_preview": "knotford KNOTFORD ORDER V154H skuA 880.00 paid skuB 866.00 paid skuC 737.00 due order_paid TARGET 1746.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY SCAN DESK V43H bask 222.00 PAGE 01 V154H C 1031 clearly from preg_00C photoC testout"
+    },
+    {
+      "id": "v154h_11",
+      "kind": "lakeford_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakeford LAKEFORD DUP MARK V154H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP COPY V154H C 1031 clearly from preg_C photoC testout"
+    },
+    {
+      "id": "v154h_12",
+      "kind": "mossford_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossford MOSSFORD AIR ZERO V154H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v154h_13",
+      "kind": "netherford_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1845.5,
+      "expected": 1845.5,
+      "ocr_preview": "netherford NETHERFORD LEDGER V154H dr 915.00 cr 900.50 adj 752.00 ledger_net TARGET 1845.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v154h_14",
+      "kind": "oakford_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakford OAKFORD UI SCAN V154H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui bait 88.00 COPY V154H C 1033 clearly from preg_32C photoC testout"
+    },
+    {
+      "id": "v154h_15",
+      "kind": "pineford_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1203.0,
+      "expected": 1203.0,
+      "ocr_preview": "pineford PINEFORD STACK V154H p1 603 p2 600 p3 595 stack_count TARGET 1203 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK bait 88.00 COPY V154H C 1031 start from prog_00C photoC testout SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v154h_16",
+      "kind": "quillford_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1232.0,
+      "expected": 1232.0,
+      "ocr_preview": "quillford QUILLFORD FAX V154H pgA 619 pgB 613 pgC 601 drop fax_pages TARGET 1232 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v154h_17",
+      "kind": "reedford_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedford REEDFORD GLARE V154H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v154h_18",
+      "kind": "stoneford_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1252.0,
+      "expected": 1252.0,
+      "ocr_preview": "stoneford STONEFORD TAB INDEX V154H tabA 629 tabB 623 tabC 602 tab_index TARGET 1252 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 VOID tab 88.00 COPY tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v154_heldout_claim": true,
+  "claim_scope": "r50plus_v154_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

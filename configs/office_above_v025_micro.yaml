@@ -1,0 +1,43 @@
+﻿# 蚁算 v0.2.5 above_schedules thicken micro attempt. Full REQUIRED_ARMS, tiny n.
+# write_gate=false — must NOT mint Gate2 claim. Gate 0.6. 1.5B. No VL.
+run_name: office_above_v025_micro
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 0
+seeds: [0]
+actor: model
+prefer_atoms: false
+prefer_atoms_by_arm:
+  dual: true
+agent_demo_notes: true
+family_skill_map:
+  table: table
+  report: report
+  file: file
+steps: 4
+difficulty: 1
+day_after: 99
+day_ticks: 0
+day_budget: 0
+revisit_every: 4
+drift_at: 99
+families: [table, report, file]
+arms: [agent, oracle, shift, continual, dual, dual_agent, continual_sft]
+write_gate: false
+max_steps: 6
+exec_timeout: 12
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: full
+max_seq_len: 512
+max_new_code: 220
+outer_lr: 0.0005
+temperature: 0.0
+tool_call_primer: true
+train_tokens_each: 0
+absorb_train_tokens: 0
+practice_bootstrap: false
+bootstrap_sft_immediate: false
+exam_prep_sft: false
+use_log: false
+model_turn_log: runs/logs/office_model_turns_above_v025_micro.log

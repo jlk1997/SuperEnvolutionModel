@@ -1,0 +1,237 @@
+{
+  "cycle": "C655",
+  "theme": "vision_v91_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T02:42:36+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7280.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v91h_01",
+      "kind": "jadecreek_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 612.75,
+      "expected": 612.75,
+      "ocr_preview": "jadecreek JADECREEK GRAIN RECEV V91H a paid 300.00 b paid 312.75 c open 193.00 TOTAL PAID TARGET 612.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 60.00 IGNORE REC VOID COPY bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.0"
+    },
+    {
+      "id": "v91h_02",
+      "kind": "kelpgrove_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 550.0,
+      "expected": 550.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 kelpgrove WH KELP GROVE BIN V91H SKU1 qty 255 ok SKU2 qty 175 hold SKU3 qty 295 ok qty_sum TARGET 550 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v91h_03",
+      "kind": "limecreek_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 529.5,
+      "expected": 529.5,
+      "ocr_preview": "limecreek LIMECREEK PATCH REFUND V91H itemR1 258.00 done itemR2 271.50 done itemR3 181.00 open refund_done TARGET 529.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE DONE VOID COPY bait 55.00 bait 55.00"
+    },
+    {
+      "id": "v91h_04",
+      "kind": "maplecreek_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 762.0,
+      "expected": 762.0,
+      "ocr_preview": "maplecreek MAPLECREEK TAX SLIP V91H base 373.00 paid addon 389.00 paid skip 222.00 tax_base_paid TARGET 762.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v91h_05",
+      "kind": "nutmegcreek_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 844.0,
+      "expected": 844.0,
+      "ocr_preview": "nutmegcreek NUTMEG CREEK PAYROLL V91H empA 414.00 active empB 430.00 active empC 217.00 leave payroll_active TARGET 844.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 empA 414.00 active empB 430.00 active empC 217.00 leave payroll_active TARGET 844.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v91h_06",
+      "kind": "olivegrove_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 430.0,
+      "expected": 430.0,
+      "ocr_preview": "olivegrove OLIVEGROVE SHIP DOCK V91H box1 208 ok box2 222 ok box3 186 hold ship_ok TARGET 430 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP COPY"
+    },
+    {
+      "id": "v91h_07",
+      "kind": "pinecreek_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 526.5,
+      "expected": 526.5,
+      "ocr_preview": "pinecreek PINECREEK SLA CARD V91H job1 266.00 hours ok job2 260.50 hours ok job3 187.00 hours late sla_ok_hours TARGET 526.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE COPY"
+    },
+    {
+      "id": "v91h_08",
+      "kind": "quartzgrove_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 589.75,
+      "expected": 589.75,
+      "ocr_preview": "quartzgrove QUARTZGROVE EXPENSE V91H e1 284.00 e2 305.75 e3 193.00 void exp_sum TARGET 589.75 VOID WIN IGNORE old total 888.00 do not parse bait $55.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP COPY e1 284.00 e2 305.75 e3 193.00 void exp_sum TARGET 589.75 VOID WIN IGNORE old total 888.00 do not parse bait $55.00 DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v91h_09",
+      "kind": "ravencreek_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 596.0,
+      "expected": 596.0,
+      "ocr_preview": "ravencreek RAVENCREEK PO SHEET V91H line1 304.00 open line2 292.00 open line3 196.00 closed po_open TARGET 596.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE PO VOID COPY SCAN DESK V43H BAS 222.00 PAGE 01 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait"
+    },
+    {
+      "id": "v91h_10",
+      "kind": "silvergrove_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 648.0,
+      "expected": 648.0,
+      "ocr_preview": "silvergrove SILVERGROVE ORDER V91H skuA 331.00 paid skuB 317.00 paid skuC 188.00 due order_paid TARGET 648.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v91h_11",
+      "kind": "thorncreek_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "thorncreek THORNCREEK DUP MARK V91H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v91h_12",
+      "kind": "umbergrove_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "umbergrove UMBERGROVE AIR ZERO V91H 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v91h_13",
+      "kind": "vinecreek_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 747.5,
+      "expected": 747.5,
+      "ocr_preview": "vinecreek VINECREEK LEDGER V91H dr 366.00 cr 381.50 adj 203.00 ledger_net TARGET 747.50 VOID WIN IGNORE old total 888.00 do not parse bait $55.00 DRAFT DRAFT DRAFT DRAFT STICKY bait $55.00 IGNORE LED COPY dr 366.00 cr 381.50 adj 203.00 ledger_net TARGET 747.50 bait $55.00"
+    },
+    {
+      "id": "v91h_14",
+      "kind": "wavegrove_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "wavegrove WAVEGROVE UI SCAN V91H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v91h_15",
+      "kind": "xenocreek_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 217.0,
+      "expected": 217.0,
+      "ocr_preview": "SCAN DESK V40H BAST 222-00 PAGE 01 xenocreek XENOCREEK STACK V91H p1 110 p2 107 p3 102 stack_count TARGET 217 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 VOID COPY STK"
+    },
+    {
+      "id": "v91h_16",
+      "kind": "yewcreek_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 246.0,
+      "expected": 246.0,
+      "ocr_preview": "yewcreek YEW CREEK FAX V91H pgA 126 pgB 120 pgC 108 drop fax_pages TARGET 246 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v91h_17",
+      "kind": "zinccreek_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "zinccreek ZINCCREEK GLARE V91H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v91h_18",
+      "kind": "aspengrove_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 266.0,
+      "expected": 266.0,
+      "ocr_preview": "aspengrove ASPENGROVE TAB INDEX V91H tabA 136 tabB 130 tabC 109 tab_index TARGET 266 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE TAB VOID COPY SCAN DESK V43H PART 222-00 PAGE 01 tab 00.00 bait 00.00"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v91_heldout_claim": true,
+  "claim_scope": "r50plus_v91_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>evo studio · 本机实验室</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23121410'/%3E%3Ccircle cx='16' cy='16' r='6' fill='none' stroke='%23d7a15f' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/studio.css?v=18">
+</head>
+<body>
+  <div class="app">
+    <aside class="nav">
+      <div class="brand">
+        <span class="brand-mark">evo</span>
+        <span class="brand-sub">在这台电脑上</span>
+      </div>
+      <nav>
+        <button type="button" data-view="cover" class="nav-btn"><span>00</span>这是什么</button>
+        <button type="button" data-view="tour" class="nav-btn"><span>01</span>看一遍</button>
+        <button type="button" data-view="studio" class="nav-btn"><span>02</span>看它干活</button>
+        <button type="button" data-view="books" class="nav-btn"><span>03</span>它记得什么</button>
+        <button type="button" data-view="arena" class="nav-btn"><span>04</span>考试成绩</button>
+        <button type="button" data-view="pilot" class="nav-btn"><span>05</span>能不能改文件</button>
+      </nav>
+      <button type="button" id="lesson-restart" class="nav-btn">再上一次课</button>
+      <p class="nav-foot">数据不出这台电脑。这里不把没考过的说成考过了。</p>
+      <p class="sr-only">原来的页面名：封面、导览、工作室、账本、考场、飞行员。</p>
+    </aside>
+
+    <main>
+      <section id="cover" class="view">
+        <p class="eyebrow">一台会边做边记的助手</p>
+        <h1>边干活，<br>边把做过的事<br>收进自己。</h1>
+        <p class="lede">它会在电脑上干活。做对了也不马上写进脑子。三次考试都还没通过。</p>
+        <ol id="learned" hidden></ol>
+        <div id="cover-gates" class="chips" aria-live="polite">
+          <span class="chip">正在读取考试结果</span>
+        </div>
+        <div id="cover-gate-detail"></div>
+        <div class="triad">
+          <article>
+            <span>01</span>
+            <h2>它会干活</h2>
+            <p>读表格、改文件、跑允许的命令，都发生在一个临时文件夹里。删东西、付款、发消息之前会问你。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h2>不马上记住</h2>
+            <p>做对一次只是记下。要反复做对，而且写进脑子比每次再看提示更划算，才写。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h2>考试照实说</h2>
+            <p>三次考试都还没通过。没考过的，不会在这里写成考过了。</p>
+          </article>
+        </div>
+        <div class="cover-actions">
+          <button type="button" class="ghost" id="lesson-again" hidden>再上一次课</button>
+          <button type="button" class="primary" id="goto-tour">看它干一件事</button>
+          <button type="button" class="ghost" id="goto-books">看它记不记得</button>
+          <button type="button" class="ghost" id="goto-arena">看考试结果</button>
+        </div>
+      </section>
+
+      <section id="tour" class="view" hidden>
+        <header class="view-head">
+          <p class="eyebrow">五步看懂</p>
+          <h2>先看它干活，再看它记不记得。</h2>
+        </header>
+        <div class="tour-grid">
+          <ol id="tour-steps" class="steps"></ol>
+          <div>
+            <p id="tour-flag" class="flag"></p>
+            <div id="tour-copy"></div>
+            <div class="tour-scroll">
+              <ol id="tour-timeline" class="rail"></ol>
+            </div>
+          </div>
+        </div>
+        <div class="cover-actions">
+          <button type="button" class="ghost" id="tour-prev">上一步</button>
+          <button type="button" class="primary" id="tour-next">下一步</button>
+        </div>
+      </section>
+
+      <section id="studio" class="view" hidden>
+        <div class="bench">
+          <form id="studio-form" class="panel">
+            <p class="eyebrow">看它干活</p>
+            <label>做什么<select id="family"></select></label>
+            <p id="family-blurb" class="hint"></p>
+            <div class="stack" id="studio-actions">
+              <button type="button" class="primary" id="play-replay">看已经录好的标准演示</button>
+              <button type="button" class="ghost" id="run-reference">再让标准答案做一小段</button>
+              <button type="button" class="ghost" id="run-model">让真模型做一题，做对做错都留下</button>
+            </div>
+            <p class="hint">标准演示只是给它的手脚看路径。真模型那一题会现场做，做错也留在时间线上。</p>
+            <label>已经录好的<select id="replay"></select></label>
+            <details class="fold" id="advanced">
+              <summary>高级：对照方式和模型</summary>
+              <label>对照方式<select id="arm"></select></label>
+              <p id="arm-blurb" class="hint"></p>
+              <label>模型<select id="model"></select></label>
+            </details>
+            <p id="studio-status" class="hint" role="status"></p>
+          </form>
+          <div class="stage">
+            <p id="studio-flag" class="flag"></p>
+            <ol id="studio-timeline" class="rail"></ol>
+          </div>
+          <aside id="studio-side" class="panel side"></aside>
+          <footer id="studio-bar" class="bar"></footer>
+        </div>
+      </section>
+
+      <section id="books" class="view" hidden>
+        <header class="view-head">
+          <p class="eyebrow">它记住了什么</p>
+          <h2>它记得什么</h2>
+          <p id="books-note" class="lede"></p>
+        </header>
+        <div id="books-body"></div>
+      </section>
+
+      <section id="arena" class="view" hidden>
+        <header class="view-head">
+          <p class="eyebrow">三次考试，照实说</p>
+          <h2>考试成绩</h2>
+          <p class="lede">先看结论。原来的考试原文收在每张卡片里面，一个字没改，也没有为了好看重考一遍。</p>
+        </header>
+        <div id="arena-arms" class="arm-grid"></div>
+        <div id="arena-gates"></div>
+      </section>
+
+      <section id="pilot" class="view" hidden>
+        <header class="view-head">
+          <p class="eyebrow">不碰你自己的文件夹</p>
+          <h2>能不能改文件</h2>
+          <p class="lede">下面用的是一个临时文件夹。只看不改、可以改、只许做验过的事，或者付款前先问你。</p>
+        </header>
+        <div class="stack row">
+          <button type="button" class="ghost" data-pilot="shadow">只看不改</button>
+          <button type="button" class="ghost" data-pilot="assist">可以改这个临时文件夹</button>
+          <button type="button" class="ghost" data-pilot="auto">只许做已经验过的事</button>
+          <button type="button" class="primary" data-pilot="confirm">付款前必须问你</button>
+        </div>
+        <p id="pilot-flag" class="flag"></p>
+        <ol id="pilot-timeline" class="rail"></ol>
+      </section>
+    </main>
+  </div>
+
+  <div id="modal" class="modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <p class="eyebrow">需要人确认</p>
+      <h3 id="modal-title">这一步不会自动做</h3>
+      <p id="modal-body"></p>
+      <div class="stack row">
+        <button type="button" class="primary" id="modal-yes">允许这一次</button>
+        <button type="button" class="ghost" id="modal-no">拒绝</button>
+      </div>
+    </div>
+  </div>
+  <aside id="lesson" class="lesson-card" hidden>
+    <div class="lesson-top">
+      <p id="lesson-progress">第 1 课 / 共 7 课</p>
+      <button type="button" class="ghost" id="lesson-notes-toggle">我记下的</button>
+      <button type="button" class="ghost" id="lesson-leave">先不听课，自己看</button>
+    </div>
+    <ol id="lesson-map" class="lesson-map"></ol>
+    <ol id="lesson-notes" hidden></ol>
+    <h2 id="lesson-title"></h2>
+    <p><b>这一课在问</b> <span id="lesson-ask"></span></p>
+    <p><b>请看</b> <span id="lesson-look"></span></p>
+    <p><b>结论</b> <span id="lesson-conclusion"></span></p>
+    <p><b>不能说成</b> <span id="lesson-cannot"></span></p>
+    <p id="lesson-missing" class="hint" hidden>这条录像还没放进这台电脑。</p>
+    <p id="lesson-latest" class="hint"></p>
+    <div class="stack row lesson-nav">
+      <button type="button" class="ghost" id="lesson-prev">上一步</button>
+      <button type="button" class="primary" id="lesson-next">下一步</button>
+    </div>
+  </aside>
+  <script src="/static/studio.js?v=18"></script>
+</body>
+</html>

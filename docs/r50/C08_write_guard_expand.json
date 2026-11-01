@@ -1,0 +1,58 @@
+{
+  "kind": "r50_c08",
+  "timestamp": "2026-10-18T22:30:41+08:00",
+  "allow": {
+    "tier1_write": [
+      "out.txt",
+      "exports/*",
+      "reports/*.md"
+    ],
+    "tier2_denied": [
+      "secret*",
+      "*credential*",
+      "*.pem",
+      "*.key",
+      "../*"
+    ]
+  },
+  "tests": [
+    {
+      "path": "out.txt",
+      "allowed": true,
+      "expect": true,
+      "ok": true
+    },
+    {
+      "path": "exports/summary.txt",
+      "allowed": true,
+      "expect": true,
+      "ok": true
+    },
+    {
+      "path": "secret.txt",
+      "allowed": false,
+      "expect": false,
+      "ok": true
+    },
+    {
+      "path": "../escape.txt",
+      "allowed": false,
+      "expect": false,
+      "ok": true
+    },
+    {
+      "path": "reports/weekly.md",
+      "allowed": true,
+      "expect": true,
+      "ok": true
+    },
+    {
+      "path": "id_rsa.pem",
+      "allowed": false,
+      "expect": false,
+      "ok": true
+    }
+  ],
+  "pass": true,
+  "innovation": "Risk-tier write allowlist"
+}

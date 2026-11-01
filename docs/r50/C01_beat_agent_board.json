@@ -1,0 +1,13 @@
+{
+  "kind": "r50_c01",
+  "timestamp": "2026-10-18T22:30:14+08:00",
+  "gate2_claim_untouched": true,
+  "ledger_summary": null,
+  "beat": {
+    "dual_ok_mean": 0.775,
+    "agent_ok_mean": 0.2,
+    "delta": 0.575,
+    "beat_agent_score": 0.775
+  },
+  "innovation": "Live H2H board aggregating full_slate+mid_n+micro without minting Gate2"
+}

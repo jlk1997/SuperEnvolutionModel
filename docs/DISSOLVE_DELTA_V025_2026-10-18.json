@@ -1,0 +1,48 @@
+{
+  "kind": "dissolve_dashboard_delta_v025",
+  "product": "蚁算模型",
+  "version": "0.2.5",
+  "timestamp": "2026-10-18T20:01:24+08:00",
+  "baseline_v01": "docs/DISSOLVE_DASHBOARD_2026-10-18.json",
+  "current": "docs/DISSOLVE_DASHBOARD_2026-10-18.json",
+  "families": [
+    {
+      "family": "table",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "bare_clears_gate": true,
+      "delta_bare": 0.0,
+      "delta_D": 0.0
+    },
+    {
+      "family": "report",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "bare_clears_gate": true,
+      "delta_bare": 0.0,
+      "delta_D": 0.0
+    },
+    {
+      "family": "file",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "bare_clears_gate": true,
+      "delta_bare": 0.0,
+      "delta_D": 0.0
+    },
+    {
+      "family": "shell",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "bare_clears_gate": true,
+      "delta_bare": 0.0,
+      "delta_D": 0.0
+    }
+  ],
+  "summary": {
+    "all_still_pass": true,
+    "regression": false,
+    "note": "No retrain in v0.2.5; dashboard refresh confirms four-family bare=1.0 D=0 held."
+  },
+  "pass": true
+}

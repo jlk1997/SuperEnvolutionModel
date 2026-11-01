@@ -1,0 +1,65 @@
+{
+  "cycle": "C161",
+  "theme": "unified_scorecard_c158_c160",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T04:45:51+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "beat": {
+    "source": "Gate2 CLAIM archive (untouched)",
+    "dual_exam_approx": 0.625,
+    "agent_exam_approx": 0.125,
+    "beat_agent": true,
+    "gate2_3_untouched": true
+  },
+  "replace": {
+    "mean_ratio": 3.875,
+    "rate": 1.0,
+    "pass": true
+  },
+  "vision": {
+    "v7": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v7_heldout": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v8_train": {
+      "rate": 1.0,
+      "claim": true,
+      "n": 18
+    },
+    "v8_heldout": {
+      "rate": 0.9375,
+      "claim": true,
+      "n": 16,
+      "fail_ids": [
+        "v8h_02"
+      ]
+    },
+    "v9_design": {
+      "n": 16,
+      "pass": true,
+      "claim": false
+    }
+  },
+  "confidence_capture": {
+    "pass": true
+  },
+  "week_sandbox": {
+    "pass": true,
+    "n_days": 7,
+    "week_paid": 1526.0
+  },
+  "parse_fixes_c158": [
+    "NOISE+=666",
+    "colon_decimal",
+    "dup_amount_no_bag_dedupe"
+  ],
+  "composite": 1.0,
+  "pass": true,
+  "claim": false,
+  "note": "After V8 train 1.0 + heldout 0.9375 + V9 design. Gate2/3 untouched. gen11 HOLD."
+}

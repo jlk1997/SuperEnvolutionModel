@@ -1,0 +1,232 @@
+{
+  "cycle": "C822",
+  "theme": "vision_v119_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T08:10:52+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v119_01",
+      "kind": "azurefen_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1341.5,
+      "expected": 1341.5,
+      "ocr_preview": "azurefen AZUREFEN GRAIN RECV V119 a paid 662.00 b paid 679.50 c open 472.00 TOTAL PAID TARGET 1341.50 DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT "
+    },
+    {
+      "id": "v119_02",
+      "kind": "brackenfen_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1219.0,
+      "expected": 1219.0,
+      "ocr_preview": "brackenfen WH BRACKENFEN BIN V119 SKU1 qty 589 ok SKU2 qty 444 hold SKU3 qty 650 ok qty_sum TARGET 1219 DRAFT WATERMARK COPY TAPE R23 bait 12.12 R20 38.4.3.20 GR 18.12.77 VOID COPY OVEN DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 505.00 FAX HEADER BAIT 88.88 FROM: SPOTF SHOP LABEL BAIT 222.22 TRACK 200.645 MUG PEN O"
+    },
+    {
+      "id": "v119_03",
+      "kind": "copperfen_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1199.25,
+      "expected": 1199.25,
+      "ocr_preview": "copperfen COPPERFEN PATCH REFUND V119 ItemR1 585.00 done ItemR2 614.25 done ItemR3 452.00 open refund_done TARGET 1199.25 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.12.32 GR 18.12.77 VOID COPY OVEN DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v119_04",
+      "kind": "dawnfen_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1453.0,
+      "expected": 1453.0,
+      "ocr_preview": "dawnfen DAWNFEN TAX SLIP V119 base 718.00 paid addon 785.00 paid skip 542.00 tax_base_paid TARGET 1453.00 DRAFT WATERMARK COPY DRAFT DRAFT TAPE R23 bait 12.12 RING 38.4.3.20 GR 18.12.77 VOID OVEN COPY DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 TRADE MARK BAIT 646 MUG PEN OVER"
+    },
+    {
+      "id": "v119_05",
+      "kind": "echofen_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1584.0,
+      "expected": 1584.0,
+      "ocr_preview": "SCAN DESK V42 BEST 133.00 PAGE 01 echofen ECHOFEN PAYROLL V119 empB 780.00 active empB 884.00 active empC 512.00 leave payroll_active TARGET 1584.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v119_06",
+      "kind": "frostfen_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1092.0,
+      "expected": 1092.0,
+      "ocr_preview": "frostfen frostfen SHIP DOCK V119 box1 538 ok box2 554 ok box3 470 hold ship_ok TARGET 1092 DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12 12 RING 38 12 32 GR 19 12 77 VOID COPY OVEN DO NOT SCAN VCHD WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 503.00 FAX HEADER BAIT 88 88 FROM: SPOOF SHIP LABEL BAIT 222-22 TRACK 100-100 MUG PEN OVERLAY"
+    },
+    {
+      "id": "v119_07",
+      "kind": "gorsefen_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 720.0,
+      "expected": 720.0,
+      "ocr_preview": "gorsefen GORSEFEN SLA CARD V119 job1 340.00 hours ok job2 360.00 hours ok job3 220.00 hours late sla_ok_hours TARGET 720.00 DRAFT DRAFT WATERMARK COPY TAPE RED 12 12 RING 38 4 12 30 GR 18 12 77 VOID COPY OVEN SLA FAX HEADER BAIT 88 88 FROM: SPOT SHOP LABEL BAIT 222-22 TRACK 100 640 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 d"
+    },
+    {
+      "id": "v119_08",
+      "kind": "hollowfen_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1287.75,
+      "expected": 1287.75,
+      "ocr_preview": "hollowfen HOLLOWFEN EXPENSE V119 e1 668.00 e2 659.75 e3 476.00 void exp_sum TARGET 1287.75 GLUE scan TAPE REDS bait 12.12 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v119_09",
+      "kind": "ivoryfen_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1307.0,
+      "expected": 1307.0,
+      "ocr_preview": "SCAR DESK V42 BEST 133.00 PAGE 01 Ivoryfen IVORYFEN PO SHEET V119 line1 662.00 open line2 665.00 open line3 485.00 closed po_open TARGET 1307.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v119_10",
+      "kind": "jasperfen_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1378.0,
+      "expected": 1378.0,
+      "ocr_preview": "jasperfen JASPERFEN ORDER V119 skuA 695.00 paid skuB 688.00 paid skuC 473.00 due order_paid TARGET 1378.00 DRAFT WATERMARK COPY TAPE R23 bait 12.12 GR bait 12.77 VOID OVEN COPY DO NOT SCAN FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL bait 222.22 Trade with: MUG PEN OVERLAP LABEL bait 327 VCHO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW ba"
+    },
+    {
+      "id": "v119_11",
+      "kind": "kelpfen_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "kelpfen KELPFEN DUP MARK V119 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v119_12",
+      "kind": "lunarfen_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 lunarfen UNARFEN AIR ZERO V119 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v119_13",
+      "kind": "meadowfen_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1543.5,
+      "expected": 1543.5,
+      "ocr_preview": "meadowfen MEADOWFEN LEDGER V119 dr 701.00 cr 782.00 adj 498.00 ledger_net TARGET 1543.50 DRAFT WATERMARK COPY TAPE RED 123 1212 RING 384 32 32 GR 189 12 77 VOID COPY OVEN FAX HEADER BAIT 88 88 FROM: SPOTF SHOP LABEL BAIT 222-22 TRACK 100 100 MUG PEN OVERLAY LABEL BAIT 327 DO NOT SCAN VOD WIN IGNORE old total 999.00 do not parse baft 646.00 PHONE SHADOW baft"
+    },
+    {
+      "id": "v119_14",
+      "kind": "nimbusfen_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "nimbusfen nimbusfen UI SCAN V119 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v119_15",
+      "kind": "orchidfen_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 612.0,
+      "expected": 612.0,
+      "ocr_preview": "orchidfen ORCHIDFEN STACK V119 p1 310 p2 302 p3 280 stack_count TARGET 612 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v119_16",
+      "kind": "pebblefen_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 640.0,
+      "expected": 640.0,
+      "ocr_preview": "pebblefen REBBLEFEN FAX V119 pgB 328 pgB 312 pgC 303 dipp fax_pages TARGET 640 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v119_17",
+      "kind": "quartzfen_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "quartzfen QUARTZFEN GLARE V119 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v119_18",
+      "kind": "ravenfen_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 684.0,
+      "expected": 684.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 ravenfen RAVENFEN TAB INDEX V119 tabB 354 tabB 300 tabC 300 tab_index TARGET 684 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    }
+  ],
+  "vl_gate_v119_claim": true,
+  "claim_scope": "r50plus_v119_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V119 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

@@ -1,0 +1,35 @@
+# Gate3 gen4 — museum + pharmacy @ difficulty 2.
+# Learning: abbreviated curriculum SFT + absorb-then-policy. Protocol updated BEFORE open.
+# Gate 0.6. 1.5B. No VL. Never reopen burned packs.
+run_name: office_gate3_gen4
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 0
+actor: model
+heldout_generation: gen4
+open_heldout: true
+reason: "gen4 learning-rule+pack committed pre-seal; museum+pharmacy d=2 abbreviated curriculum SFT absorb-then-policy"
+heldout_items: 4
+dev_items: 12
+dev_exam_items: 6
+dev_difficulties: [2, 3, 4]
+dev_packs: [orders, expenses]
+sft_rounds: 2
+difficulty: 2
+prefer_atoms: true
+trained_prefer_atoms: false
+write_gate: true
+seal_path: runs/heldout_seal_gen4.json
+evidence_path: runs/office_gate3_gen4_judge.json
+families: [table, report, file]
+dev_families: [table, report, file]
+max_steps: 6
+exec_timeout: 12
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: full
+max_seq_len: 512
+max_new_code: 220
+outer_lr: 0.0005
+temperature: 0.0
+tool_call_primer: true

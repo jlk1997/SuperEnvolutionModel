@@ -1,0 +1,16 @@
+{
+  "cycle": "C333b",
+  "theme": "vision_gate_v38_claim",
+  "timestamp": "2026-10-20T02:45:02+08:00",
+  "vl_gate_v38_claim": true,
+  "rate": 1.0,
+  "n": 18,
+  "n_ok": 18,
+  "gate": 0.6,
+  "pass": true,
+  "claim": true,
+  "fail_ids": [],
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "c338_fix": true
+}

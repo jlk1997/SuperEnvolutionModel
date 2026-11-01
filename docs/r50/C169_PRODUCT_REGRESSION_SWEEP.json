@@ -1,0 +1,176 @@
+{
+  "cycle": "C169",
+  "theme": "product_regression_sweep_v4_to_v9_plus_v10",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T05:38:02+08:00",
+  "smoke_pointers": {
+    "n": 14,
+    "n_ok": 14,
+    "rate": 1.0,
+    "rows": [
+      {
+        "name": "V4",
+        "path": "docs/r50/C101_VISION_V4_MULTIHOP.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V4_heldout",
+        "path": "docs/r50/C107_VISION_V4_HELDOUT.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V5",
+        "path": "docs/r50/C121_VISION_V5_SMOKE.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V5_heldout",
+        "path": "docs/r50/C126_VISION_V5_HELDOUT_SMOKE.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V6",
+        "path": "docs/r50/C132_VISION_V6_SMOKE.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V6_heldout",
+        "path": "docs/r50/C138_VISION_V6_HELDOUT_SMOKE.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V7",
+        "path": "docs/r50/C144_VISION_V7_SMOKE.json",
+        "exists": true,
+        "rate": 0.75,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V7_heldout",
+        "path": "docs/r50/C150_VISION_V7_HELDOUT_SMOKE.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V8",
+        "path": "docs/r50/C155_VISION_V8_SMOKE.json",
+        "exists": true,
+        "rate": 0.7222,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V8_heldout_refresh",
+        "path": "docs/r50/C162_V8H02_UNGLUE_REPARSE.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V9",
+        "path": "docs/r50/C163_VISION_V9_SMOKE.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V9_heldout",
+        "path": "docs/r50/C164_VISION_V9_HELDOUT_SMOKE.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V10_design",
+        "path": "docs/r50/C166_V10_DESIGN_BATCH.json",
+        "exists": true,
+        "rate": null,
+        "claimish": true,
+        "ok": true
+      },
+      {
+        "name": "V10_smoke",
+        "path": "docs/r50/C167_VISION_V10_SMOKE.json",
+        "exists": true,
+        "rate": 1.0,
+        "claimish": true,
+        "ok": true
+      }
+    ]
+  },
+  "core_v4_v9_rate": 1.0,
+  "money_and_parse": {
+    "n": 6,
+    "n_ok": 6,
+    "rate": 1.0,
+    "rows": [
+      {
+        "kind": "text",
+        "expected": 30.0,
+        "got": 30.0,
+        "ok": true
+      },
+      {
+        "kind": "text",
+        "expected": 7.0,
+        "got": 7.0,
+        "ok": true
+      },
+      {
+        "kind": "text",
+        "expected": 0.0,
+        "got": 0.0,
+        "ok": true
+      },
+      {
+        "kind": "csv",
+        "expected": 18.0,
+        "got": 18.0,
+        "ok": true
+      },
+      {
+        "kind": "text",
+        "expected": 16.5,
+        "got": 16.5,
+        "ok": true
+      },
+      {
+        "kind": "qty_unglue",
+        "expected": 23.0,
+        "got": 23.0,
+        "ok": true
+      }
+    ]
+  },
+  "overall_rate": 1.0,
+  "gate_pass": true,
+  "gate2_3_untouched": true,
+  "gen11_status": "HOLD",
+  "pass": true,
+  "claim": false,
+  "note": "Regression after C166-C168; V4-V9 must stay green. No new VL gate claim here."
+}

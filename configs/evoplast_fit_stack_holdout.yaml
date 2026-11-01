@@ -1,0 +1,30 @@
+﻿# H-holdout: far OOD select/report in same wrap class; densify via slot; gate 0.6.
+# After H-signal failed report on small odds (1,3,5,7) while select mid-odds cleared.
+run_name: evoplast_fit_stack_holdout
+stage: m0
+actor: model
+seed: 0
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: attn_mlp
+max_seq_len: 256
+max_new_code: 24
+skill: stack
+second_kind: offset
+second_offsets: [47, 43, 41, 37, 31, 27, 23, 19]
+second_phase: slot
+slot_name: skill2
+slot_epochs: 8
+second_select_x: [21, 23, 25, 27]
+second_report_x: [31, 33, 35, 37]
+teach: 8
+exam: 4
+rounds: 1
+fit_epochs: 2
+fit_sites:
+  - attn
+  - mlp
+adapter_dir: runs/evoplast_adapter_stack_holdout
+write: true

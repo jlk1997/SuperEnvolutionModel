@@ -1,0 +1,21 @@
+{
+  "baseline_proxy": 0.4,
+  "current": {
+    "beat_agent": 0.88,
+    "dynamic": 0.97,
+    "multimodal": 0.72,
+    "compose": 1.0,
+    "replace_agent": 0.99,
+    "dissolve_ok": 1.0,
+    "composite": 0.9119999999999999
+  },
+  "deltas": {
+    "beat_agent": 0.255,
+    "multimodal": 0.38666666666666666,
+    "replace_agent": 0.99,
+    "dynamic": 0.97
+  },
+  "stronger_than_start": true,
+  "timestamp": "2026-10-18T22:31:19+08:00",
+  "innovation": "Trend aggregation"
+}

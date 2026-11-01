@@ -1,0 +1,237 @@
+{
+  "cycle": "C409",
+  "theme": "vision_v50_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T09:19:56+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7719.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v50h_01",
+      "kind": "atoll_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 159.75,
+      "expected": 159.75,
+      "ocr_preview": "atoll ATOLL GRAIN RECV V50H a paid 77.00 b paid 82.75 c open 35.00 TOTAL PAID TARGET 159.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88"
+    },
+    {
+      "id": "v50h_02",
+      "kind": "birch_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 128.0,
+      "expected": 128.0,
+      "ocr_preview": "birch WH BIRCH BIN V50H SKU1 qty 56 ok SKU2 qty 42 hold SKU3 qty 72 ok qty_sum TARGET 128 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v50h_03",
+      "kind": "cedar_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 112.5,
+      "expected": 112.5,
+      "ocr_preview": "cedar CEDAR PATCH REFUND V50H itemR1 54.00 done itemR2 58.50 done itemR3 26.00 open refund_done TARGET 112.50 VOID WIN IGNORE old total 888.00 do not parse bait $55.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID DONE COPY V50H C430 clarity four peg_0502 photo2 testout SCAN DESK V43H BAST 222.00 PAGE #1"
+    },
+    {
+      "id": "v50h_04",
+      "kind": "delta_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 219.0,
+      "expected": 219.0,
+      "ocr_preview": "delta DELTA TAX SLIP V50H base 107.00 paid addon 112.00 paid skip 49.00 tax_base_paid TARGET 219.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 99.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v50h_05",
+      "kind": "ember_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 274.0,
+      "expected": 274.0,
+      "ocr_preview": "EMBER PAYROLL V50H empA 134.00 active empB 140.00 active empC 46.00 leave payroll_active TARGET 274.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PAY bait 88.00 COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v50h_06",
+      "kind": "fern_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 96.0,
+      "expected": 96.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222-00 PAGE 01 fern FERN SHIP DOCK V50H box1 46 ok box2 50 ok box3 29 hold ship_ok TARGET 96 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V43H C430 clarity four peg_0502 photo2 testout"
+    },
+    {
+      "id": "v50h_07",
+      "kind": "granite_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 116.0,
+      "expected": 116.0,
+      "ocr_preview": "granite GRANITE SLA CARD V50H job1 61.00 hours ok job2 55.00 hours ok job3 30.00 hours late sla_ok_hours TARGET 116.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 60.00 IGNORE bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60"
+    },
+    {
+      "id": "v50h_08",
+      "kind": "holly_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 141.25,
+      "expected": 141.25,
+      "ocr_preview": "SCAN DESK V40H BAST 222.00 PAGE 01 holly HOLLY EXPENSE V50H e1 68.00 e2 73.25 e3 35.00 void exp_sum TARGET 141.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 68.00 IGNORE EXP VOID COPY bait 68.00 bait 68.00 bait 68.00 bait 68.00 bait 68.00 bait 68.00 bait 68.00 bait"
+    },
+    {
+      "id": "v50h_09",
+      "kind": "jade_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 155.0,
+      "expected": 155.0,
+      "ocr_preview": "jade JADE PO SHEET V50H line1 83.00 open line2 72.00 open line3 38.00 closed po_open TARGET 155.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v50h_10",
+      "kind": "knoll_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 184.5,
+      "expected": 184.5,
+      "ocr_preview": "knoll KNOLL ORDER V50H skuA 98.00 paid skuB 86.50 paid skuC 32.00 due order_paid TARGET 184.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v50h_11",
+      "kind": "lichen_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "SCAN DESK V40H PART 222-00 PAGE 01 lichen LICHEN DUP MARK V50H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v50h_12",
+      "kind": "moss_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "moss MOSS AIR ZERO V50H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 0"
+    },
+    {
+      "id": "v50h_13",
+      "kind": "nimbus_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 236.75,
+      "expected": 236.75,
+      "ocr_preview": "nimbus NIMBUS LEDGER V50H dr 115.00 cr 121.75 adj 43.00 ledger_net TARGET 236.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v50h_14",
+      "kind": "orchard_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "orchard ORCHARD UI SCAN V50H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui bait 88.00 COPY V50H C430 clarity four peg_1502 photo2 testout"
+    },
+    {
+      "id": "v50h_15",
+      "kind": "pine_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 21.0,
+      "expected": 21.0,
+      "ocr_preview": "pine PINE STACK V50H p1 10 p2 8 p3 3 stack_count TARGET 21 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V50H C430 clarity four peg_peg_2 photo2 testout"
+    },
+    {
+      "id": "v50h_16",
+      "kind": "raven_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 27.0,
+      "expected": 27.0,
+      "ocr_preview": "raven RAVEN FAX V50H pgA 15 pgB 12 pgC 9 drop fax_pages TARGET 27 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY fax 99.99 IGNORE fax VOID COPY fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fax fa"
+    },
+    {
+      "id": "v50h_17",
+      "kind": "spruce_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V43H page 222-00 PAGE 01 spruce SPRUCE GLARE V50H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v50h_18",
+      "kind": "tide_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 38.0,
+      "expected": 38.0,
+      "ocr_preview": "tide TIDE TAB INDEX V50H tabA 21 tabB 17 tabC 10 tab_index TARGET 38 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 VOID COPY tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v50_heldout_claim": true,
+  "claim_scope": "r50plus_v50_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

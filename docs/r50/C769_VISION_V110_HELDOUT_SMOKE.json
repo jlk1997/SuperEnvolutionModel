@@ -1,0 +1,237 @@
+{
+  "cycle": "C769",
+  "theme": "vision_v110_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T06:38:57+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7295.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v110h_01",
+      "kind": "anchorpeak_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 910.75,
+      "expected": 910.75,
+      "ocr_preview": "anchorpeak ANCHORPEAK GRAIN RECV V110H a paid 449:00 b paid 461.75 c open 342.00 TOTAL PAID TARGET 916.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE REC VOID COPY bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00"
+    },
+    {
+      "id": "v110h_02",
+      "kind": "brookpeak_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 848.0,
+      "expected": 848.0,
+      "ocr_preview": "brookpeak WH BROOKPEAK BIN V110H SKU1 qty 404 ok SKU2 qty 324 hold SKU3 qty 444 ok qty_sum TARGET 848 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v110h_03",
+      "kind": "cliffpeak_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 827.5,
+      "expected": 827.5,
+      "ocr_preview": "cliffpeak CLIFFPEAK PATCH REFUND V110H itemR1 407.00 done itemR2 420.50 done itemR3 330.00 open refund_done TARGET 827.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v110h_04",
+      "kind": "driftpeak_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1060.0,
+      "expected": 1060.0,
+      "ocr_preview": "driftpeak DRIFTPEAK TAX SLIP V110H base 522.00 paid addon 538.00 paid skip 371.00 tax_base_paid TARGET 1060.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 88.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v110h_05",
+      "kind": "echopeak_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1142.0,
+      "expected": 1142.0,
+      "ocr_preview": "SCAN DESK V42H BAS 222.00 PAGE 01 echopeak ECHOPEAK PAYROLL V110H empA 563.00 active empB 579.00 active empC 366.00 leave payroll_active TARGET 1142.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v110h_06",
+      "kind": "flintpeak_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 728.0,
+      "expected": 728.0,
+      "ocr_preview": "flintpeak FLINTPEAK SHIP DOCK V110H box1 357 ok box2 371 ok box3 335 hold ship_ok TARGET 728 VOID WIN IGNORE old total 888.00 do not parse, bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP COPY V110H C788 clarity flow jpeg_q02 photo2 testout"
+    },
+    {
+      "id": "v110h_07",
+      "kind": "granitepeak_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "granitepeak GRANITEPEAK SLA CARD V110H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE COPY"
+    },
+    {
+      "id": "v110h_08",
+      "kind": "havenpeak_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 887.75,
+      "expected": 887.75,
+      "ocr_preview": "SCAN DESK V43H bask 222.00 PAGE 01 havenpeak HAVENPEAK EXPENSE V110H e1 433.00 e2 454.75 e3 342.00 void exp_sum TARGET 887.75 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID EXP COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V110Hm C788 clarity floor (jpeg_q02 photo2 testout"
+    },
+    {
+      "id": "v110h_09",
+      "kind": "ivorypeak_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 894.0,
+      "expected": 894.0,
+      "ocr_preview": "ivorypeak IVORYPEAK PO SHEET V110H line1 453.00 open line2 441.00 open line3 345.00 closed po_open TARGET 894.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v110h_10",
+      "kind": "jasperpeak_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 946.0,
+      "expected": 946.0,
+      "ocr_preview": "jasperpeak JASPERPEAK ORDER V110H skuA 480.00 paid skuB 466.00 paid skuC 337.00 due order_paid TARGET 946.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE ORD VOID COPY ORD bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99"
+    },
+    {
+      "id": "v110h_11",
+      "kind": "knollpeak_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "knollpeak KNOLLPEAK DUP MARK V110H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DUP VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 555.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 b"
+    },
+    {
+      "id": "v110h_12",
+      "kind": "ledgepeak_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "ledgepeak LEDGEPEAK AIR ZERO V110H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v110h_13",
+      "kind": "maplepeak_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1045.5,
+      "expected": 1045.5,
+      "ocr_preview": "maplepeak MAPLEPEAK LEDGER V110H dr 515.00 cr 530.50 adj 352.00 ledger_net TARGET 1045.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v110h_14",
+      "kind": "northpeak_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "northpeak NORTHPEAK UI SCAN V110H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY"
+    },
+    {
+      "id": "v110h_15",
+      "kind": "opalpeak_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 443.0,
+      "expected": 443.0,
+      "ocr_preview": "opalpeak OPALPEAK STACK V110H p1 223 p2 220 p3 215 stack_count TARGET 443 STICKY bait 88.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STK VOID COPY bait 88.00 bait 555.00 bait 88.00 bait 555.00 bait 88.00 bait 555.00 bait 88.00 bait 555.00 bait 88.00 bait 555.00"
+    },
+    {
+      "id": "v110h_16",
+      "kind": "plumepeak_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 472.0,
+      "expected": 472.0,
+      "ocr_preview": "plumepeak PLUMEPEAK FAX V110H pgA 239 pgB 233 pgC 221 drop fax_pages TARGET 472 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY OKP bait 88.00 V110H C798 clarity floor (jpeg_q02 photo/2 testout)"
+    },
+    {
+      "id": "v110h_17",
+      "kind": "quartzpeak_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "quartzpeak QUARTZPEAK GLARE V110H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 b"
+    },
+    {
+      "id": "v110h_18",
+      "kind": "ridgepeak_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 492.0,
+      "expected": 492.0,
+      "ocr_preview": "ridgepeak RIDGEPEAK TAB INDEX V110H tabA 249 tabB 243 tabC 222 tab_index TARGET 492 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE tab 55.00 VOID tab 55.00 COPY tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v110_heldout_claim": true,
+  "claim_scope": "r50plus_v110_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

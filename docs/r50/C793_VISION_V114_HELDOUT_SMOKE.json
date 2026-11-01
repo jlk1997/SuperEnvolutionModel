@@ -1,0 +1,237 @@
+{
+  "cycle": "C793",
+  "theme": "vision_v114_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T07:20:09+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7315.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v114h_01",
+      "kind": "ultrawold_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 998.75,
+      "expected": 998.75,
+      "ocr_preview": "ultrawold ULTRAWOLD GRAIN RECEV V114H a paid 493.00 b paid 505.75 c open 386.00 TOTAL PAID TARGET 998.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v114h_02",
+      "kind": "vaporwold_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 936.0,
+      "expected": 936.0,
+      "ocr_preview": "vaporwold WH VAPORWOLD BIN V114H SKU1 qty 448 ok SKU2 qty 368 hold SKU3 qty 488 ok qty_sum TARGET 936 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v114h_03",
+      "kind": "willowwold_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 915.5,
+      "expected": 915.5,
+      "ocr_preview": "willowwold WILLOWWOLD PATCH REFUND V114H itemR1 451.00 done itemR2 464.50 done itemR3 374.00 open refund_done TARGET 915.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 95.00 IGNORE DONE VOID COPY"
+    },
+    {
+      "id": "v114h_04",
+      "kind": "xenowold_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1148.0,
+      "expected": 1148.0,
+      "ocr_preview": "xenowold XENOWOLD TAX SLIP V114H base 566.00 paid addon 582.00 paid skip 415.00 tax_base_paid TARGET 1148.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 98.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v114h_05",
+      "kind": "yarrowwold_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1230.0,
+      "expected": 1230.0,
+      "ocr_preview": "yarrowwold YARROWWOLD PAYROLL V114H empA 607.00 active empB 623.00 active empC 410.00 leave payroll_active TARGET 1230.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00"
+    },
+    {
+      "id": "v114h_06",
+      "kind": "zincwold_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 816.0,
+      "expected": 816.0,
+      "ocr_preview": "zincwold ZINCWOLD SHIP DOCK V114H box1 401 ok box2 415 ok box3 379 hold ship_ok TARGET 816 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY SCAN DESK V43H PART 222.00 PAGE 01 11144x C793 starty floor (jpeg_q02 photo/2 testout"
+    },
+    {
+      "id": "v114h_07",
+      "kind": "asterwold_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "asterwold ASTERWOLD SLA CARD V114H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 GRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE COPY"
+    },
+    {
+      "id": "v114h_08",
+      "kind": "brinewold_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 975.75,
+      "expected": 975.75,
+      "ocr_preview": "brinewold BRINEWOLD EXPENSE V114H e1 477.00 e2 498.75 e3 386.00 void exp_sum TARGET 975.75 OKP bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID EXP COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v114h_09",
+      "kind": "cloverwold_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 982.0,
+      "expected": 982.0,
+      "ocr_preview": "cloverwold CLOVERWOLD PO SHEET V114H line1 497.00 open line2 485.00 open line3 389.00 closed po_open TARGET 982.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 98.00 IGNORE PO VOID COPY"
+    },
+    {
+      "id": "v114h_10",
+      "kind": "deltaswold_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1034.0,
+      "expected": 1034.0,
+      "ocr_preview": "deltaswold DELTA SWOLD ORDER V114H skuA 524.00 paid skuB 510.00 paid skuC 381.00 due order_paid TARGET 1034.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 11144x C793 starty floor (pag_012 photo/2 hteout"
+    },
+    {
+      "id": "v114h_11",
+      "kind": "elmwold_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "elmwold ELMWOLD DUP MARK V114H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v114h_12",
+      "kind": "firwold_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "firwold FRWOLD AIR ZERO V114H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 50.00 IGNORE VOID ZERO COPY"
+    },
+    {
+      "id": "v114h_13",
+      "kind": "gorsewold_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1133.5,
+      "expected": 1133.5,
+      "ocr_preview": "gorsewald GORSEWOLD LEDGER V114H dr 559.00 cr 574.50 adj 396.00 ledger_net TARGET 1133.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT LED VOID COPY bait 55.00 bait 55.00 bait 55.00"
+    },
+    {
+      "id": "v114h_14",
+      "kind": "heatherwold_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "heatherwold HEATHERWOLD UI SCAN V114H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY"
+    },
+    {
+      "id": "v114h_15",
+      "kind": "indowold_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 499.0,
+      "expected": 499.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 indowold INDOWOLD STACK V114H p1 251 p2 248 p3 243 stack_count TARGET 499 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v114h_16",
+      "kind": "juniperwold_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 528.0,
+      "expected": 528.0,
+      "ocr_preview": "juniperwold JUNIPERWOLD FAX V114H pgA 267 pgB 261 pgC 249 drop fax_pages TARGET 528 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY"
+    },
+    {
+      "id": "v114h_17",
+      "kind": "kestrelwold_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "kestrelwold KESTRELWOLD GLARE V114H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY"
+    },
+    {
+      "id": "v114h_18",
+      "kind": "larkwold_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 548.0,
+      "expected": 548.0,
+      "ocr_preview": "larkwold LARKWOLD TAB INDEX V114H tabA 277 tabB 271 tabC 250 tab_index TARGET 548 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY tab 88.00 bait 88.00 bait 555.00 V1144x C793 starty floor (jpeg_q02 photo2 testout)"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v114_heldout_claim": true,
+  "claim_scope": "r50plus_v114_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

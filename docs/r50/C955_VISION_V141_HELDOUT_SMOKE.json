@@ -1,0 +1,237 @@
+{
+  "cycle": "C955",
+  "theme": "vision_v141_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T12:10:13+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v141h_01",
+      "kind": "ashdale_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1456.75,
+      "expected": 1456.75,
+      "ocr_preview": "ashdale ASHDALE GRAIN RECV V141H a paid 722.00 b paid 734.75 c open 615.00 TOTAL PAID TARGET 1456.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.80 IGNORE REC VOID COPY bait 88.80 bait 88.80 V141H C855 clarity floor preg_qf2 photo2 hidden"
+    },
+    {
+      "id": "v141h_02",
+      "kind": "cedardale_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "cedardale WH CEDARDALE BIN V141H SKU1 qty 740 ok SKU2 qty 610 hold SKU3 qty 780 ok qty_sum TARGET 1520 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V141H C855 clarity floor preg_qf2 phone2 handset"
+    },
+    {
+      "id": "v141h_03",
+      "kind": "dawndale_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1373.5,
+      "expected": 1373.5,
+      "ocr_preview": "dawndale DAWNDALE PATCH REFUND V141H itemR1 680.00 done itemR2 693.50 done itemR3 603.00 open refund_done TARGET 1373.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 66.00 IGNORE DONE VOID COPY V141H C855 cavity floor preg_qf2 photo2 handset"
+    },
+    {
+      "id": "v141h_04",
+      "kind": "elmdale_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1606.0,
+      "expected": 1606.0,
+      "ocr_preview": "elmdale ELMDALE TAX SLIP V141H base 795.00 paid addon 811.00 paid skip 644.00 tax_base_paid TARGET 1606.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 88.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v141h_05",
+      "kind": "ferndale_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1688.0,
+      "expected": 1688.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 ferndale FERNDALE PAYROLL V141H empA 836.00 active empB 852.00 active empC 639.00 leave payroll_active TARGET 1688.00 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID PAY COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V141H in C855 clarity floor preg_qf2 phone2 headset"
+    },
+    {
+      "id": "v141h_06",
+      "kind": "glendale_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1274.0,
+      "expected": 1274.0,
+      "ocr_preview": "glendale GLENDALE SHIP DOCK V141H box1 630 ok box2 644 ok box3 608 hold ship_ok TARGET 1274 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY V141Hm C855 clarity floor preg_qf2 photo2 hidden"
+    },
+    {
+      "id": "v141h_07",
+      "kind": "hazedale_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "hazedale HAZEDALE SLA CARD V141H job1 360.00 hours ok job2 400.00 hours ok job3 300.00 hours late sla_ok_hours TARGET 760.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v141h_08",
+      "kind": "inkdale_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1433.75,
+      "expected": 1433.75,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 inkdale @INKDALE EXPENSE V141H e1 706.00 e2 727.75 e3 6155.00 void exp_sum TARGET 1433.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE EXP VOID COPY V141H C855 clarity floor preg_qf2 photo2 metadata"
+    },
+    {
+      "id": "v141h_09",
+      "kind": "jadedale_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1370.0,
+      "expected": 1370.0,
+      "ocr_preview": "jadedale JADEDALE PO SHEET V141H line1 780.00 open line2 590.00 open line3 612.00 closed po_open TARGET 1370.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE PO COPY bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.0"
+    },
+    {
+      "id": "v141h_10",
+      "kind": "knotdale_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1492.0,
+      "expected": 1492.0,
+      "ocr_preview": "knotdale KNOTDALE ORDER V141H skuA 753.00 paid skuB 739.00 paid skuC 610.00 due order_paid TARGET 1492.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait"
+    },
+    {
+      "id": "v141h_11",
+      "kind": "lakedale_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakedale LAKEDALE DUP MARK V141H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP VOID COPY bait 88.00 bait 555.00 V141Hn C855 clarity floor preg_qf2 photo2 hdout"
+    },
+    {
+      "id": "v141h_12",
+      "kind": "mossdale_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossdale MOSSDALE AIR ZERO V141H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID ZERO COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v141h_13",
+      "kind": "netherdale_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1591.5,
+      "expected": 1591.5,
+      "ocr_preview": "netherdale NETHERDALE LEDGER V141H dr 788.00 cr 803.50 adj 625.00 ledger_net TARGET 1591.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v141h_14",
+      "kind": "oakdale_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakdale OAKDALE UI SCAN V141H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY V141H C855 cavity floor prog_u02 phone2 handset"
+    },
+    {
+      "id": "v141h_15",
+      "kind": "pinedale_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 949.0,
+      "expected": 949.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 pinedale PINEDALE STACK V141H p1 476 p2 473 p3 468 stack_count TARGET 949 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V1/14 in C855 clarity floor preg_0f2 phone2 headset"
+    },
+    {
+      "id": "v141h_16",
+      "kind": "quilldale_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 978.0,
+      "expected": 978.0,
+      "ocr_preview": "quilldale QUILDLALE FAX V141H pgA 492 pgB 486 pgC 474 drop fax_pages TARGET 978 DRAFT DRAFT DRAFT DRAFT VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 SCAN DESK V43H BAST 222.00 PAGE 01 V141H C855 clarity floor pag_q02 phone2 handset"
+    },
+    {
+      "id": "v141h_17",
+      "kind": "reeddale_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reeddale REEDDALE GLARE V141H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY"
+    },
+    {
+      "id": "v141h_18",
+      "kind": "stonedale_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 998.0,
+      "expected": 998.0,
+      "ocr_preview": "stonedale STONEDALE TAB INDEX V141H tabA 502 tabB 496 tabC 475 tab_index TARGET 998 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v141_heldout_claim": true,
+  "claim_scope": "r50plus_v141_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

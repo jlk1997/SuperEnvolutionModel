@@ -1,0 +1,232 @@
+{
+  "cycle": "C243",
+  "theme": "vision_v23_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T09:13:42+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7711.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v23_01",
+      "kind": "hl_receipt",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 93.5,
+      "expected": 93.5,
+      "ocr_preview": "SCAN DESK V23 bait 222.00 PAGE 01 荧光笔收据 HIGHLIGHTER BLEED V23 a paid 46.00 b paid 47.50 c open 12.00 TOTAL PAID TARGET 93.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v23_02",
+      "kind": "clip_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 78.0,
+      "expected": 78.0,
+      "ocr_preview": "SCAN DESK V23 besit 222.00 PAGE 01 回形针仓单 WH PAPERCLIP V23 SKU1 qty 37 ok SKU2 qty 16 hold SKU3 qty 41 ok qty_sum TARGET 78 OK? bat 88.00 DRAFT DRAFT DRAFT DRAFT STICKY bat 88.00 IGNORE VOID COPY REC VOID WIN IGNORE old total 888.00 do not parse bat 555.00 V23 CM2 clarity flow_80 photo2 HL/Op/Push/Stamp/foil/Thermal/Dust/Recall/Share/Shape/Crop/Barcode"
+    },
+    {
+      "id": "v23_03",
+      "kind": "punch_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 44.75,
+      "expected": 44.75,
+      "ocr_preview": "SCAN DESK V23 bait 222.00 PAGE 01 打孔退款 HOLE PUNCH REFUND V23 itemR1 21.00 done itemR2 23.75 done itemR3 9.00 open refund_done TARGET 44.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v23_04",
+      "kind": "stamp_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 141.0,
+      "expected": 141.0,
+      "ocr_preview": "SCAN DESK V23 best 222.00 PAGE 01 橡皮章和基 TAX RUBBER STAMP V23 T1 79.00 paid T2 31.00 open T3 62.00 paid tax_base_paid TARGET 141.00 OK? bat 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bat 00.00 IGNORE VOID REC COPY VOID WIN IGNORE old total 888.00 do not parse bat 555.00 V23 CM2 daily flow_page_80 photo2 HL/Op/Push/Stamp/foil/Thermal/Dust/Pad/ink/Share/Shape/Crop/Ba"
+    },
+    {
+      "id": "v23_05",
+      "kind": "fold_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2480.0,
+      "expected": 2480.0,
+      "ocr_preview": "折角工资 PAYROLL FOLD V23 A 1280 active B 240 leave C 1200 active payroll_active TARGET 2480 OK bait 88.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID OK COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V23 CM2 clarity four page_80 photo2 HL/Op/Push/Stamp/Fold/Thermal/Dust/Print/Share/Shape/Crop/Barcode"
+    },
+    {
+      "id": "v23_06",
+      "kind": "thermal_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 63.0,
+      "expected": 63.0,
+      "ocr_preview": "SCAN DESK V23 best 222.00 PAGE 01 热敏发运 SHIP THERMAL V23 P1 32 ok P2 17 hold P3 31 ok ship_ok_qty TARGET 63 OK? bat 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bat 00.00 IGNORE VOID SHIP COPY VOID WIN IGNORE old total 888.00 do not parse bat 555.00 V23 CM2 clarity four jpeg_80 photo2 H:0/0pPush(Stang)FootThermaDustPatinkShareRoundCropBarscode"
+    },
+    {
+      "id": "v23_07",
+      "kind": "dust_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 55.0,
+      "expected": 55.0,
+      "ocr_preview": "SCAN DESK V23 best 222.00 PAGE 01 粉尘SLA SLA DUST V23 S1 pri 24 open S2 pri 29 closed S3 pri 31 open open_pri_sum TARGET 55 OK? bat 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bat 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bat 555.00 V23 CM2 daily fear page_80 photo2 HL/Op/Push/Stamp/For/Thermal/Dust/Print/Share/Share/Crop/Barcode"
+    },
+    {
+      "id": "v23_08",
+      "kind": "redink_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 102.25,
+      "expected": 102.25,
+      "ocr_preview": "SCAN DESK V23 bait 222.00 PAGE 01 EXPENSE RED INK V23 E1 51.00 paid E2 19.00 void E3 51.25 paid paid_total TARGET 102.25 OK? bait 88.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V23 CM2 clearly four page_80 photo2 HL/Dip/Push/Stamp/foil/Thermal/Dust/Pack/Print/Share/Shape/Crop/Barcode"
+    },
+    {
+      "id": "v23_09",
+      "kind": "glare_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 81.0,
+      "expected": 81.0,
+      "ocr_preview": "SCAN DESK V23 bait 222.00 PAGE 01 面额鼓光采购 PO-LAMINATE GLARE V23 itemA paid 40.00 itemB paid 41.00 itemC open 14.00 TOTAL PAID TARGET 81.00 VOID OK? bait 88.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V23 CM2 daily four page_80 photo2 HL/Op/Push/Stamp/foil/Thermal/Dust/Pack/Share/S"
+    },
+    {
+      "id": "v23_10",
+      "kind": "staple_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 68.5,
+      "expected": 68.5,
+      "ocr_preview": "ORDER STAPLER V23 A paid 33.50 B paid 35.00 C open 10.00 TOTAL PAID TARGET 68.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v23_11",
+      "kind": "hl_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 84.0,
+      "expected": 84.0,
+      "ocr_preview": "SCAN DESK V23 baet 222.00 PAGE 01 荧光笔重复 INVOICE #V23-DUP line paid 28.00 line paid 28.00 line paid 28.00 TOTAL PAID TARGET 84.00 DRAFT DRAFT DRAFT DRAFT OK? baet 88.00 STICKY baet 88.00 IGNORE VOID REC COPY VOID WIN IGNORE old total 888.00 do not parse baet 555.00 V23 CM2 openly four page_80 photo2 HL/Op/Push/Stamp/foil/Thermal/Dust/Recink/Share/Shape/Crop/B"
+    },
+    {
+      "id": "v23_12",
+      "kind": "clip_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "SCAN DESK V23 best 222.00 PAGE 01 回形针未付 OPEN ONLY V23 X 58.00 open Y 61.00 open paid_total TARGET 0.00 OK? bat 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bat 00.00 IGNORE HOLD VOID COPY VOID WIN IGNORE old total 888.00 do not parse bat 555.00 V23 CM2 clarity four_page_80 photo2 H/LipPushStampFootThermaDustPadLinkShareShapeCropBarcode"
+    },
+    {
+      "id": "v23_13",
+      "kind": "crop_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 57.75,
+      "expected": 57.75,
+      "ocr_preview": "SCAN DESK V23 besit 222.00 PAGE 01 截边台帐 LEDGER MARGIN CROP V23 rA paid 28.50 rB paid 29.25 rC open 8.00 TOTAL PAID TARGET 57.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v23_14",
+      "kind": "barcode_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 59.5,
+      "expected": 59.5,
+      "ocr_preview": "SCAN DESK V23 best 222.00 PAGE 01 条码遮挡界面 UI BARCODE OCCLUSION V23 alpha paid 29.50 beta paid 30.00 gamma open 11.50 TOTAL PAID TARGET 59.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v23_15",
+      "kind": "fold_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 98.0,
+      "expected": 98.0,
+      "ocr_preview": "SCAN DESK V23 best 222.00 PAGE 01 折角堆单 HEAVY FOLD STACK V23 x paid 49.00 usd y paid 49.00 usd z open 18.00 usd TOTAL PAID TARGET 98.00 OK bat 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bat 00.00 IGNORE VOID COPY VOID WIN IGNORE old total 888.00 do not parse bat 555.00 V23 CM2 clearly four page_80 photo2 HL/Op/Push/Stamp/Fold/Thermal/Dust/"
+    },
+    {
+      "id": "v23_16",
+      "kind": "thermal_mix",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 58.25,
+      "expected": 58.25,
+      "ocr_preview": "CN-EN THERMAL MIX V23 tea paid 28.00 rice paid 30.25 soup open 9.00 TOTAL PAID TARGET 58.25 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v23_17",
+      "kind": "dust_win",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 73.0,
+      "expected": 73.0,
+      "ocr_preview": "SCAN DISK V23 best 222.00 PAGE 01 DUST WIN V23 w1 paid 36.00 w2 paid 37.00 w3 open 15.00 TOTAL PAID TARGET 73.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v23_18",
+      "kind": "glare_foot",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 41.5,
+      "expected": 41.5,
+      "ocr_preview": "SCAN DESK V23 best 222.00 PAGE 01 眩光脚注 GLARE FOOT V23 p1 paid 20.50 p2 paid 21.00 p3 open 7.00 TOTAL PAID TARGET 41.50 OK? bat 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bat 00.00 IGNORE VOID COPY VOID WIN IGNORE old total 888.00 do not parse bat 555.00 V23 CM2 clarity four page_80 photo2 HL/Op/Push/Stamp/Fold/Thermal/Dust/Retink/Share/Shape/Crop/Barcode"
+    }
+  ],
+  "vl_gate_v23_claim": true,
+  "claim_scope": "r50plus_v23_coffee_binder_tape_pen_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 58,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V23 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

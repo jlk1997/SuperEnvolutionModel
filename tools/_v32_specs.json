@@ -1,0 +1,544 @@
+{
+  "train": [
+    {
+      "id": "v32_01",
+      "kind": "kraft_recv",
+      "metric": "paid_total",
+      "expected": 118.5,
+      "lines": [
+        "KRAFT PAPER RECV V32",
+        "a paid 58.00",
+        "b paid 60.50",
+        "c open 16.00",
+        "TOTAL PAID TARGET 118.50"
+      ],
+      "cn": "牛皮纸收款单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32_02",
+      "kind": "linen_wh",
+      "metric": "qty_sum",
+      "expected": 104.0,
+      "lines": [
+        "WH LINEN WEAVE V32",
+        "SKU1 qty 49 ok",
+        "SKU2 qty 23 hold",
+        "SKU3 qty 55 ok",
+        "qty_sum TARGET 104"
+      ],
+      "cn": "亚麻纹仓单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32_03",
+      "kind": "thermal_refund",
+      "metric": "refund_done",
+      "expected": 68.25,
+      "lines": [
+        "THERMAL FADE REFUND V32",
+        "itemR1 32.00 done",
+        "itemR2 36.25 done",
+        "itemR3 14.00 open",
+        "refund_done TARGET 68.25"
+      ],
+      "cn": "热敏淡化退款单",
+      "stamp": "DONE"
+    },
+    {
+      "id": "v32_04",
+      "kind": "dossier_tax",
+      "metric": "tax_base_paid",
+      "expected": 186.0,
+      "lines": [
+        "TAX DOSSIER TAB V32",
+        "T1 104.00 paid",
+        "T2 42.00 open",
+        "T3 82.00 paid",
+        "tax_base_paid TARGET 186.00"
+      ],
+      "cn": "档案标签税基单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32_05",
+      "kind": "chrono_pay",
+      "metric": "payroll_active",
+      "expected": 3340.0,
+      "lines": [
+        "PAYROLL CHRONO STAMP V32",
+        "A 1700 active",
+        "B 340 leave",
+        "C 1640 active",
+        "payroll_active TARGET 3340"
+      ],
+      "cn": "计时戳工资单",
+      "stamp": "OK"
+    },
+    {
+      "id": "v32_06",
+      "kind": "rubber_ship",
+      "metric": "ship_ok_qty",
+      "expected": 91.0,
+      "lines": [
+        "SHIP RUBBER PAD V32",
+        "P1 45 ok",
+        "P2 22 hold",
+        "P3 46 ok",
+        "ship_ok_qty TARGET 91"
+      ],
+      "cn": "橡胶印发运单",
+      "stamp": "SHIP"
+    },
+    {
+      "id": "v32_07",
+      "kind": "checker_sla",
+      "metric": "open_pri_sum",
+      "expected": 86.0,
+      "lines": [
+        "SLA CHECKER BAIT V32",
+        "S1 pri 36 open",
+        "S2 pri 38 closed",
+        "S3 pri 50 open",
+        "open_pri_sum TARGET 86"
+      ],
+      "cn": "棋盘SLA",
+      "stamp": "OPEN"
+    },
+    {
+      "id": "v32_08",
+      "kind": "vellum_exp",
+      "metric": "paid_total",
+      "expected": 158.75,
+      "lines": [
+        "EXPENSE VELLUM V32",
+        "E1 77.00 paid",
+        "E2 28.00 void",
+        "E3 81.75 paid",
+        "paid_total TARGET 158.75"
+      ],
+      "cn": "玻璃纸报销单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32_09",
+      "kind": "brad_po",
+      "metric": "paid_total",
+      "expected": 121.5,
+      "lines": [
+        "PO-BRAD FASTENER V32",
+        "itemA paid 59.00",
+        "itemB paid 62.50",
+        "itemC open 19.00",
+        "TOTAL PAID TARGET 121.50"
+      ],
+      "cn": "柜钉采购单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32_10",
+      "kind": "scroll_order",
+      "metric": "paid_total",
+      "expected": 101.0,
+      "lines": [
+        "ORDER SCROLL CURL V32",
+        "A paid 49.00",
+        "B paid 52.00",
+        "C open 15.00",
+        "TOTAL PAID TARGET 101.00"
+      ],
+      "cn": "卷边订单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32_11",
+      "kind": "ditto_dup",
+      "metric": "paid_total",
+      "expected": 144.0,
+      "lines": [
+        "INVOICE #V32-DITTO",
+        "lineA paid 48.00",
+        "lineB paid 48.00",
+        "lineC paid 48.00",
+        "TOTAL PAID TARGET 144.00"
+      ],
+      "cn": "紫油印重复发票",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32_12",
+      "kind": "void_zero",
+      "metric": "paid_total",
+      "expected": 0.0,
+      "lines": [
+        "OPEN ONLY V32",
+        "X 74.00 open",
+        "Y 77.00 open",
+        "paid_total TARGET 0.00"
+      ],
+      "cn": "未付空白",
+      "stamp": "HOLD"
+    },
+    {
+      "id": "v32_13",
+      "kind": "flock_ledger",
+      "metric": "paid_total",
+      "expected": 81.5,
+      "lines": [
+        "LEDGER FLOCK TEXTURE V32",
+        "rA paid 39.00",
+        "rB paid 42.50",
+        "rC open 13.00",
+        "TOTAL PAID TARGET 81.50"
+      ],
+      "cn": "绒面台账",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32_14",
+      "kind": "matrix_ui",
+      "metric": "paid_total",
+      "expected": 95.25,
+      "lines": [
+        "UI DOT MATRIX V32",
+        "alpha paid 46.00",
+        "beta paid 49.25",
+        "gamma open 16.00",
+        "TOTAL PAID TARGET 95.25"
+      ],
+      "cn": "点阵界面单据",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32_15",
+      "kind": "axon_stack",
+      "metric": "paid_total",
+      "expected": 139.0,
+      "lines": [
+        "AXON GRID STACK V32",
+        "x paid 68.00 usd",
+        "y paid 71.00 usd",
+        "z open 22.00 usd",
+        "TOTAL PAID TARGET 139.00"
+      ],
+      "cn": "轴测网格叠页",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32_16",
+      "kind": "twine_fax",
+      "metric": "paid_total",
+      "expected": 79.5,
+      "lines": [
+        "CN-EN TWINE BIND FAX V32",
+        "tea paid 38.00",
+        "rice paid 41.50",
+        "soup open 14.00",
+        "TOTAL PAID TARGET 79.50"
+      ],
+      "cn": "麻绳装订传真双语",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32_17",
+      "kind": "chamfer_glare",
+      "metric": "paid_total",
+      "expected": 108.75,
+      "lines": [
+        "CHAMFER EDGE GLARE V32",
+        "w1 paid 52.00",
+        "w2 paid 56.75",
+        "w3 open 18.00",
+        "TOTAL PAID TARGET 108.75"
+      ],
+      "cn": "倒角眩光单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32_18",
+      "kind": "snap_tab",
+      "metric": "paid_total",
+      "expected": 60.0,
+      "lines": [
+        "SNAP BUTTON TAB V32",
+        "p1 paid 28.00",
+        "p2 paid 32.00",
+        "p3 open 11.00",
+        "TOTAL PAID TARGET 60.00"
+      ],
+      "cn": "按扣角签页",
+      "stamp": "RECV"
+    }
+  ],
+  "held": [
+    {
+      "id": "v32h_01",
+      "kind": "kraft_recv",
+      "metric": "paid_total",
+      "expected": 67.5,
+      "lines": [
+        "KRAFT PAPER RECV V32H",
+        "a paid 33.00",
+        "b paid 34.50",
+        "c open 12.00",
+        "TOTAL PAID TARGET 67.50"
+      ],
+      "cn": "牛皮纸收款单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32h_02",
+      "kind": "linen_wh",
+      "metric": "qty_sum",
+      "expected": 55.0,
+      "lines": [
+        "WH LINEN WEAVE V32H",
+        "SKU1 qty 26 ok",
+        "SKU2 qty 13 hold",
+        "SKU3 qty 29 ok",
+        "qty_sum TARGET 55"
+      ],
+      "cn": "亚麻纹仓单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32h_03",
+      "kind": "thermal_refund",
+      "metric": "refund_done",
+      "expected": 39.25,
+      "lines": [
+        "THERMAL FADE REFUND V32H",
+        "itemR1 18.00 done",
+        "itemR2 21.25 done",
+        "itemR3 9.00 open",
+        "refund_done TARGET 39.25"
+      ],
+      "cn": "热敏淡化退款单H",
+      "stamp": "DONE"
+    },
+    {
+      "id": "v32h_04",
+      "kind": "dossier_tax",
+      "metric": "tax_base_paid",
+      "expected": 116.0,
+      "lines": [
+        "TAX DOSSIER TAB V32H",
+        "T1 64.00 paid",
+        "T2 26.00 open",
+        "T3 52.00 paid",
+        "tax_base_paid TARGET 116.00"
+      ],
+      "cn": "档案标签税基单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32h_05",
+      "kind": "chrono_pay",
+      "metric": "payroll_active",
+      "expected": 2280.0,
+      "lines": [
+        "PAYROLL CHRONO STAMP V32H",
+        "A 1160 active",
+        "B 240 leave",
+        "C 1120 active",
+        "payroll_active TARGET 2280"
+      ],
+      "cn": "计时戳工资单H",
+      "stamp": "OK"
+    },
+    {
+      "id": "v32h_06",
+      "kind": "rubber_ship",
+      "metric": "ship_ok_qty",
+      "expected": 47.0,
+      "lines": [
+        "SHIP RUBBER PAD V32H",
+        "P1 23 ok",
+        "P2 12 hold",
+        "P3 24 ok",
+        "ship_ok_qty TARGET 47"
+      ],
+      "cn": "橡胶印发运单H",
+      "stamp": "SHIP"
+    },
+    {
+      "id": "v32h_07",
+      "kind": "checker_sla",
+      "metric": "open_pri_sum",
+      "expected": 49.0,
+      "lines": [
+        "SLA CHECKER BAIT V32H",
+        "S1 pri 21 open",
+        "S2 pri 23 closed",
+        "S3 pri 28 open",
+        "open_pri_sum TARGET 49"
+      ],
+      "cn": "棋盘SLAH",
+      "stamp": "OPEN"
+    },
+    {
+      "id": "v32h_08",
+      "kind": "vellum_exp",
+      "metric": "paid_total",
+      "expected": 88.25,
+      "lines": [
+        "EXPENSE VELLUM V32H",
+        "E1 42.00 paid",
+        "E2 17.00 void",
+        "E3 46.25 paid",
+        "paid_total TARGET 88.25"
+      ],
+      "cn": "玻璃纸报销单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32h_09",
+      "kind": "brad_po",
+      "metric": "paid_total",
+      "expected": 70.0,
+      "lines": [
+        "PO-BRAD FASTENER V32H",
+        "itemA paid 34.00",
+        "itemB paid 36.00",
+        "itemC open 13.00",
+        "TOTAL PAID TARGET 70.00"
+      ],
+      "cn": "柜钉采购单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32h_10",
+      "kind": "scroll_order",
+      "metric": "paid_total",
+      "expected": 61.5,
+      "lines": [
+        "ORDER SCROLL CURL V32H",
+        "A paid 30.00",
+        "B paid 31.50",
+        "C open 11.00",
+        "TOTAL PAID TARGET 61.50"
+      ],
+      "cn": "卷边订单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32h_11",
+      "kind": "ditto_dup",
+      "metric": "paid_total",
+      "expected": 78.0,
+      "lines": [
+        "INVOICE #V32H-DITTO",
+        "lineA paid 26.00",
+        "lineB paid 26.00",
+        "lineC paid 26.00",
+        "TOTAL PAID TARGET 78.00"
+      ],
+      "cn": "紫油印重复发票H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32h_12",
+      "kind": "void_zero",
+      "metric": "paid_total",
+      "expected": 0.0,
+      "lines": [
+        "OPEN ONLY V32H",
+        "X 40.00 open",
+        "Y 43.00 open",
+        "paid_total TARGET 0.00"
+      ],
+      "cn": "未付空白H",
+      "stamp": "HOLD"
+    },
+    {
+      "id": "v32h_13",
+      "kind": "flock_ledger",
+      "metric": "paid_total",
+      "expected": 47.5,
+      "lines": [
+        "LEDGER FLOCK TEXTURE V32H",
+        "rA paid 23.00",
+        "rB paid 24.50",
+        "rC open 9.00",
+        "TOTAL PAID TARGET 47.50"
+      ],
+      "cn": "绒面台账H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32h_14",
+      "kind": "matrix_ui",
+      "metric": "paid_total",
+      "expected": 53.75,
+      "lines": [
+        "UI DOT MATRIX V32H",
+        "alpha paid 26.00",
+        "beta paid 27.75",
+        "gamma open 10.00",
+        "TOTAL PAID TARGET 53.75"
+      ],
+      "cn": "点阵界面单据H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32h_15",
+      "kind": "axon_stack",
+      "metric": "paid_total",
+      "expected": 84.0,
+      "lines": [
+        "AXON GRID STACK V32H",
+        "x paid 41.00 usd",
+        "y paid 43.00 usd",
+        "z open 14.00 usd",
+        "TOTAL PAID TARGET 84.00"
+      ],
+      "cn": "轴测网格叠页H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32h_16",
+      "kind": "twine_fax",
+      "metric": "paid_total",
+      "expected": 45.25,
+      "lines": [
+        "CN-EN TWINE BIND FAX V32H",
+        "tea paid 22.00",
+        "rice paid 23.25",
+        "soup open 9.00",
+        "TOTAL PAID TARGET 45.25"
+      ],
+      "cn": "麻绳装订传真双语H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32h_17",
+      "kind": "chamfer_glare",
+      "metric": "paid_total",
+      "expected": 63.0,
+      "lines": [
+        "CHAMFER EDGE GLARE V32H",
+        "w1 paid 30.00",
+        "w2 paid 33.00",
+        "w3 open 12.00",
+        "TOTAL PAID TARGET 63.00"
+      ],
+      "cn": "倒角眩光单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v32h_18",
+      "kind": "snap_tab",
+      "metric": "paid_total",
+      "expected": 36.5,
+      "lines": [
+        "SNAP BUTTON TAB V32H",
+        "p1 paid 17.00",
+        "p2 paid 19.50",
+        "p3 open 8.00",
+        "TOTAL PAID TARGET 36.50"
+      ],
+      "cn": "按扣角签页H",
+      "stamp": "RECV"
+    }
+  ]
+}

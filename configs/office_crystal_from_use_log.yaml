@@ -1,0 +1,11 @@
+# C2/C3 crystallize from F3i use-log (CPU). Gate 0.6. No Gate2.
+# Run: python -m evo crystal-use-log --use-log runs/use_log/office_use_log_dual_f3i_s0
+run_name: office_crystal_from_use_log
+use_log_dir: runs/use_log/office_use_log_dual_f3i_s0
+arm: dual
+families: [table, file, report]
+min_n: 2
+criterion: 0.6
+# bare_rate filled later by GPU adapter+ablation; notes_only scaffold first
+prefer_atoms: true
+gate2_claim: false

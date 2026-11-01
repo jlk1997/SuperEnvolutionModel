@@ -1,0 +1,16 @@
+{
+  "kind": "vision_gate_v8_heldout_refresh_claim",
+  "timestamp": "2026-10-19T04:49:54+08:00",
+  "vl_gate_v8_heldout_claim": true,
+  "rate": 1.0,
+  "n": 16,
+  "n_ok": 16,
+  "gate": 0.6,
+  "prev_rate": 0.9375,
+  "claim_scope": "r50plus_v8_heldout_disjoint_n>=16_c162_unglue_digit_status_qwen35_2b",
+  "parse_fix": "unglue_digit.status_in__clean + qty_regex_tolerant",
+  "gate2_3_untouched": true,
+  "v0_v7_untouched": true,
+  "gen11": "HOLD",
+  "cycle": "C162"
+}

@@ -1,0 +1,41 @@
+# Same world as the 0.5B smoke run. Nights also train held-out arguments,
+# verified tool chains, and the executor's program for practice the model missed.
+# Exam prompts stay out of the training set. A passed exam item is a rollback check.
+run_name: phase4_compose
+station: live
+model_name: e:/envolution/models/Qwen2.5-0.5B-Instruct
+seed: 0
+days: 2
+compose: true
+hindsight: true
+retention_gate: true
+new_tools_per_day: 2
+practice_tasks: 2
+gate_tasks: 1
+exam_tasks: 2
+tune_tasks: 4
+max_turns: 2
+night_steps: 12
+night_epochs: 2
+inner_lr: 0.0005
+outer_lr: 0.0005
+max_seq_len: 384
+kl_coef: 0.5
+max_new_code: 80
+edit_tokens: 64
+answer_tokens: 8
+exec_timeout: 2.0
+lora_rank: 8
+lora_alpha: 16
+max_f1_drop: 0.15
+gate_drop: 0.34
+measure_consistency: false
+write_decision: false
+target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj

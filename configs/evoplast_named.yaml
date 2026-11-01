@@ -1,0 +1,23 @@
+﻿# Named rules: the prompt gives only the rule's name, so the rule has to be stored in the weights.
+# The in-context baseline sees the same lesson examples in its prompt instead.
+# add6 is trained first and left out of the acceleration numbers.
+run_name: evoplast_named
+stage: life
+seed: 0
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: attn_mlp
+max_seq_len: 256
+max_new_code: 128
+birth_new: 256
+icl_new: 256
+skill_mode: named
+life_primer: add6
+life_skills: [lin7, square, lin3, tri]
+life_target: 0.9
+life_cap: 144
+check_every: 1
+max_slots: 3
+write: true

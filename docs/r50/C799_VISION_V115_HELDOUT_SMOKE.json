@@ -1,0 +1,237 @@
+{
+  "cycle": "C799",
+  "theme": "vision_v115_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T07:29:58+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v115h_01",
+      "kind": "mossdell_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1020.75,
+      "expected": 1020.75,
+      "ocr_preview": "mossdell MOSSDELL GRAIN RECEV V115H a paid 504.00 b paid 516.75 c open 397.00 TOTAL PAID TARGET 1020.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC VOID COPY"
+    },
+    {
+      "id": "v115h_02",
+      "kind": "nightdell_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 958.0,
+      "expected": 958.0,
+      "ocr_preview": "nightdell WH NIGHTDELL Bn V115H SKU1 qty 459 ok SKU2 qty 379 hold SKU3 qty 499 ok qty_sum TARGET 958 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE REC COPY"
+    },
+    {
+      "id": "v115h_03",
+      "kind": "oatdell_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 937.5,
+      "expected": 937.5,
+      "ocr_preview": "oatdell OATDELL PATCH REFUND V115H itemR1 462.00 done itemR2 475.50 done itemR3 385.00 open refund_done TARGET 937.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE DONE COPY bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 9"
+    },
+    {
+      "id": "v115h_04",
+      "kind": "pinedell_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1170.0,
+      "expected": 1170.0,
+      "ocr_preview": "pinedell PINEDELL TAX SLIP V115H base 577.00 paid addon 593.00 paid skip 426.00 tax_base_paid TARGET 1170.00 VOID DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v115h_05",
+      "kind": "quartdell_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1252.0,
+      "expected": 1252.0,
+      "ocr_preview": "quartdell QUARTDELL PAYROLL V115H empA 618.00 active empB 634.00 active empC 421.00 leave payroll_active TARGET 1252.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v115h_06",
+      "kind": "rosedell_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 838.0,
+      "expected": 838.0,
+      "ocr_preview": "rosedell ROSEDELL SHIP DOCK V115H box1 412 ok box2 426 ok box3 390 hold ship_ok TARGET 838 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY"
+    },
+    {
+      "id": "v115h_07",
+      "kind": "sprucedell_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 sprucedell SPRUCEDELL SLA CARD V115H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v115h_08",
+      "kind": "tidaldell_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 997.75,
+      "expected": 997.75,
+      "ocr_preview": "tidaldell TIDALDELL EXPENSE V115H e1 488.00 e2 509.75 e3 397.00 void exp_sum TARGET 997.75 OKP bait 88.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID EXP COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v115h_09",
+      "kind": "umbradell_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1004.0,
+      "expected": 1004.0,
+      "ocr_preview": "umbradelli UMBRADELL PO SHEET V115H line1 508.00 open line2 496.00 open line3 400.00 closed po_open TARGET 1004.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v115h_10",
+      "kind": "vinedell_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1056.0,
+      "expected": 1056.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 vinedell VINEDELL ORDER V115H skuA 535.00 paid skuB 521.00 paid skuC 392.00 due order_paid TARGET 1056.00 VOID ORD COPY DRAFT DRAFT DRAFT DRAFT STICKY bait 555.00 IGNORE bait 555.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v115h_11",
+      "kind": "westdell_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "westdell WESTDELL DUP MARK V115H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DUP VOID COPY STICKY bait 88.00 IGNORE bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v115h_12",
+      "kind": "yewdell_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "yewdell YEWDELL AIR ZERO V115H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v115h_13",
+      "kind": "zircondell_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1155.5,
+      "expected": 1155.5,
+      "ocr_preview": "zirconell ZIRCONDELL LEDGER V115H dr 570.00 cr 585.50 adj 407.00 ledger_net TARGET 1155.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v115h_14",
+      "kind": "alderdell_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "alderdell ALDERDELL UI SCAN V115H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v115h_15",
+      "kind": "basaltdell_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 513.0,
+      "expected": 513.0,
+      "ocr_preview": "basaltdell BASALTDELL STACK V115H p1 258 p2 255 p3 250 stack_count TARGET 513 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v115h_16",
+      "kind": "coraldell_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 542.0,
+      "expected": 542.0,
+      "ocr_preview": "coraldell CORALDELL FAX V115H pgA 274 pgB 268 pgC 256 drop fax_pages TARGET 542 DRAFT DRAFT DRAFT DRAFT VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v115h_17",
+      "kind": "dunedell_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "dunedell DUNEDELL GLARE V115H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v115h_18",
+      "kind": "elderdell_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 562.0,
+      "expected": 562.0,
+      "ocr_preview": "elderdell ELDERDELL TAB INDEX V115H tabA 284 tabB 278 tabC 257 tab_index TARGET 562 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE TAB VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 tab 00.00 bait 00.00 V115H C796 cleary floor (pag_012 photo/2 testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v115_heldout_claim": true,
+  "claim_scope": "r50plus_v115_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

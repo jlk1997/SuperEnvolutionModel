@@ -1,0 +1,38 @@
+{
+  "kind": "r50_c56_beat_agent_board_post_v1",
+  "timestamp": "2026-10-18T22:41:15+08:00",
+  "gate2_claim_untouched": true,
+  "gate3_claim_untouched": true,
+  "text_beat_agent_ref": {
+    "kind": "r50_c01",
+    "timestamp": "2026-10-18T22:30:14+08:00",
+    "gate2_claim_untouched": true,
+    "ledger_summary": null,
+    "beat": {
+      "dual_ok_mean": 0.775,
+      "agent_ok_mean": 0.2,
+      "delta": 0.575,
+      "beat_agent_score": 0.775
+    },
+    "innovation": "Live H2H board aggregating full_slate+mid_n+micro without minting Gate2"
+  },
+  "cost_ledger_ref_keys": [
+    "kind",
+    "product",
+    "version",
+    "gate",
+    "timestamp",
+    "method",
+    "gpu",
+    "vl",
+    "tokens_note",
+    "summaries",
+    "missing",
+    "rows"
+  ],
+  "vision_v1_rate": 0.8333,
+  "vision_v1_claim": true,
+  "composite_note": "Text Gate2 claim preserved; Vision V1 now also scoped-claimed — dual stack stronger",
+  "innovation": "Post-V1 beat-agent observational board (no new text gate mint)",
+  "cost_ledger_refreshed": true
+}

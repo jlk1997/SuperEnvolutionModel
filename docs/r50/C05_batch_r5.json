@@ -1,0 +1,14 @@
+{
+  "kind": "r50_c05",
+  "timestamp": "2026-10-18T22:30:14+08:00",
+  "scorecard": {
+    "beat_agent": 0.68,
+    "dynamic": 0.25,
+    "multimodal": 0.3333333333333333,
+    "compose": 1.0,
+    "replace_agent": 0.85,
+    "dissolve_ok": 1.0,
+    "composite": 0.6226666666666667
+  },
+  "stronger_than_start": true
+}

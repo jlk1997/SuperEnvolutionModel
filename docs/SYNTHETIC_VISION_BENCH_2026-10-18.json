@@ -1,0 +1,72 @@
+{
+  "kind": "synthetic_vision_bench",
+  "product": "蚁算-视",
+  "version": "STRONG_C1",
+  "timestamp": "2026-10-18T20:24:37+08:00",
+  "gate": "0.6",
+  "label": "synthetic_not_vl",
+  "weights_local": false,
+  "vl_gate_claim": false,
+  "fake_vl_scores": false,
+  "backend": "synthetic_fixture",
+  "drop_in": {
+    "module": "evo/office/vision_backend.py",
+    "protocol": "VisionBackend",
+    "real_backend_blocked_until_weights": true,
+    "inventory_ref": "docs/VL_WEIGHTS_INVENTORY_2026-10-18.json",
+    "vl_found": false
+  },
+  "n": 4,
+  "correct": 4,
+  "rate": 1.0,
+  "gate_0_6_cleared_synthetic_only": true,
+  "per_task": [
+    {
+      "id": "syn-caption-001",
+      "task": "caption",
+      "ok": true,
+      "gold": "blue office desk with laptop",
+      "pred": "blue office desk with laptop",
+      "backend": "synthetic_fixture",
+      "synthetic_not_vl": true,
+      "image": "evo/office/fixtures/vision_images/syn-caption-001.png",
+      "sha256": "9d883631cc0b7dd697890affabaad96c8e5c6abfd1dfd70dc1e5a7a72da22607"
+    },
+    {
+      "id": "syn-ocr-001",
+      "task": "ocr",
+      "ok": true,
+      "gold": "INVOICE-7781 TOTAL 128.50",
+      "pred": "INVOICE-7781 TOTAL 128.50",
+      "backend": "synthetic_fixture",
+      "synthetic_not_vl": true,
+      "image": "evo/office/fixtures/vision_images/syn-ocr-001.png",
+      "sha256": "44ddaa53098bcd90323317807e1c5d9c22a4cc071cc8964f49b9c3badbaa058d"
+    },
+    {
+      "id": "syn-table-001",
+      "task": "table_cells",
+      "ok": true,
+      "gold": "sku,qty,price\nA1,2,10\nB2,1,7",
+      "pred": "sku,qty,price\nA1,2,10\nB2,1,7",
+      "backend": "synthetic_fixture",
+      "synthetic_not_vl": true,
+      "image": "evo/office/fixtures/vision_images/syn-table-001.png",
+      "sha256": "1c0f92db4e9d1c31959dedce8cef8887620224f5cb0794d040a23ac53e99c878"
+    },
+    {
+      "id": "syn-ui-001",
+      "task": "caption",
+      "ok": true,
+      "gold": "settings screen dark mode toggle on",
+      "pred": "settings screen dark mode toggle on",
+      "backend": "synthetic_fixture",
+      "synthetic_not_vl": true,
+      "image": "evo/office/fixtures/vision_images/syn-ui-001.png",
+      "sha256": "ce4e1de41018159b8991d55f9b70c217cadbc56c5160102b2a31c146fea4dfe6"
+    }
+  ],
+  "use_log": "evo/office/fixtures/vision_use_log_synthetic.jsonl",
+  "pass": true,
+  "notes": "Synthetic fixture backend reads sidecar gold — NOT a VL model. Wiring/drop-in only."
+}

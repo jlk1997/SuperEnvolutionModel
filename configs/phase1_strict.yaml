@@ -1,0 +1,37 @@
+# Round 4 knowledge update.
+# Same anchor loss and peak gate as phase1_evolve. A candidate is merged only
+# when new-passage F1 rises by more than min_gain and the retention reward
+# is not negative. The zero-gain merge in the anchor run is the case this rejects.
+run_name: phase1_strict
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 0
+lora_rank: 8
+lora_alpha: 16
+max_seq_len: 384
+max_passage_chars: 1600
+candidate_pool: 16
+n_passages: 4
+questions_per_passage: 3
+n_edits: 2
+edit_tokens: 96
+answer_tokens: 16
+inner_steps: 40
+inner_lr: 0.0005
+temperature: 0.7
+reward_metric: f1
+lam: 1.0
+max_f1_drop: 0.15
+max_kl: 16.0
+kl_coef: 0.5
+distill_questions: 2
+min_gain: 0.02
+methods:
+  - strict
+target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj

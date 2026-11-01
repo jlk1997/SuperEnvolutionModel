@@ -1,0 +1,237 @@
+{
+  "cycle": "C1195",
+  "theme": "vision_v181_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-22T06:11:10+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7325.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v181h_01",
+      "kind": "ashhurst_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2196.75,
+      "expected": 2196.75,
+      "ocr_preview": "ashhurst ASHHURST GRAIN RECEV V181H a paid 1092.00 b paid 1104.75 c open 985.00 TOTAL PAID TARGET 2196.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 99.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID REC COPY V181H C 11/05 clarity floor page_052 photo_2 retouched"
+    },
+    {
+      "id": "v181h_02",
+      "kind": "cedarhurst_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "cedarhurst WH CEDARHURST BIN V181H SKU1 qty 740 ok SKU2 qty 820 hold SKU3 qty 780 ok qty_sum TARGET 1520 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V181H C 1185 clarity floor page_052 photo_2 thumbnail"
+    },
+    {
+      "id": "v181h_03",
+      "kind": "dawnhurst_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2113.5,
+      "expected": 2113.5,
+      "ocr_preview": "dawnhurst DAWNHURST PATCH REFUND V181H itemR1 1050.00 done itemR2 1063.50 done itemR3 973.00 open refund_done TARGET 2113.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE DONE VOID COPY V181H C 11/05 early plan page_052 photo2 restored"
+    },
+    {
+      "id": "v181h_04",
+      "kind": "elmhurst_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2346.0,
+      "expected": 2346.0,
+      "ocr_preview": "elmhurst ELMHURST TAX SLIP V181H base 1165.00 paid addon 1181.00 paid skip 1014.00 tax_base_paid TARGET 2346.00 DRAFT DRAFT DRAFT DRAFT VOID TAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 SCAN DESK V43H BAS 222.00 PAGE 01 V181H C 11/05 clarity floor page_052 photo/2 11/05"
+    },
+    {
+      "id": "v181h_05",
+      "kind": "fernhurst_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2428.0,
+      "expected": 2428.0,
+      "ocr_preview": "fernhurst FERNHURST PAYROLL V181H empA 1206.00 active empB 1222.00 active empC 1009.00 leave payroll_active TARGET 2428.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v181h_06",
+      "kind": "glenhurst_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2014.0,
+      "expected": 2014.0,
+      "ocr_preview": "glenhurst GLENHURST SHIP DOCK V181H box1 1000 ok box2 1014 ok box3 978 hold ship_ok TARGET 2014 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP COPY V181H C 11/05 early from page_052 photo_2 hidden SCAN DESK V43H BAS 222.00 PAGE 01 OK bait 55.00"
+    },
+    {
+      "id": "v181h_07",
+      "kind": "hazehurst_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 840.0,
+      "expected": 840.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 hazehurst HAZEHURST SLA CARD V181H job1 400.00 hours ok job2 440.00 hours ok job3 580.00 hours late sla_ok_hours TARGET 840.00 DRAFT DRAFT DRAFT DRAFT STICKY slat 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V181H C 11/05 clarity floor page_052 photo_2 hazehurst"
+    },
+    {
+      "id": "v181h_08",
+      "kind": "inkhurst_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2173.75,
+      "expected": 2173.75,
+      "ocr_preview": "inkhurst @#KHURST EXPENSE V181H e1 1076.00 e2 1097.75 e3 985.00 void exp_sum TARGET 2173.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v181h_09",
+      "kind": "jadehurst_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadehurst JADEHURST PO SHEET V181H line1 780.00 open line2 740.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO VOID COPY"
+    },
+    {
+      "id": "v181h_10",
+      "kind": "knothurst_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2232.0,
+      "expected": 2232.0,
+      "ocr_preview": "knothurst KNOTHURST ORDER V181H skuA 1123.00 paid skuB 1109.00 paid skuC 980.00 due order_paid TARGET 2232.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 98.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v181h_11",
+      "kind": "lakehurst_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakehurst LAKEHURST DUP MARK V181H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DUP VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 555.00 V181H C 1/85 clarity from page 2 photo 2"
+    },
+    {
+      "id": "v181h_12",
+      "kind": "mosshurst_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mosshurst MOSSHURST AIR ZERO V181H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 V181H C 11/05 early floor page 2 photo 2 V181H C 11/05 early floor page 2 photo 2"
+    },
+    {
+      "id": "v181h_13",
+      "kind": "netherhurst_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2331.5,
+      "expected": 2331.5,
+      "ocr_preview": "netherhurst NETHERHURST LEDGER V181H dr 1158.00 cr 1173.50 adj 995.00 ledger_net TARGET 2331.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v181h_14",
+      "kind": "oakhurst_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakhurst OAKHURST UI SCAN V181H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v181h_15",
+      "kind": "pinehurst_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1689.0,
+      "expected": 1689.0,
+      "ocr_preview": "pinehurst PINEHURST STACK V181H p1 847 p2 842 p3 837 stack_count TARGET 1689 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V181H C 1185 clarity from page_052 photo2 testbed"
+    },
+    {
+      "id": "v181h_16",
+      "kind": "quillhurst_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1718.0,
+      "expected": 1718.0,
+      "ocr_preview": "quillhurst QUILLHURST FAX V181H pgA 862 pgB 856 pgC 844 drop fax_pages TARGET 1718 DRAFT DRAFT DRAFT DRAFT VOID VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V181H C 1185 clarity from page_052 photo/2"
+    },
+    {
+      "id": "v181h_17",
+      "kind": "reedhurst_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedhurst REEDHURST GLARE V181H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY"
+    },
+    {
+      "id": "v181h_18",
+      "kind": "stonehurst_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1738.0,
+      "expected": 1738.0,
+      "ocr_preview": "stonehurst STONEHURST TAB INDEX V181H tabA 872 tabB 866 tabC 845 tab_index TARGET 1738 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 VOID COPY tab 88.00 tab 88.00 V181H C 11/05 early floor page_052 photo/2 manual"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v181_heldout_claim": true,
+  "claim_scope": "r50plus_v181_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

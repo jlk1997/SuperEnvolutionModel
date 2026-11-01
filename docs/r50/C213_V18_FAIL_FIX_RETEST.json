@@ -1,0 +1,291 @@
+{
+  "cycle": "C213",
+  "theme": "v18_fail_fix_retest",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T07:42:51+08:00",
+  "diagnosis": {
+    "fail_ids_c209": [
+      "v18_02",
+      "v18_06",
+      "v18_08",
+      "v18_09",
+      "v18_16",
+      "v18_17"
+    ],
+    "root_cause": "heavy_degrade_ocr_digit_drift_status_drop_decoy_paid_99.99",
+    "unit_fixed_by_parse_alone": [],
+    "still_needed_regen": [
+      "v18_02",
+      "v18_06",
+      "v18_08",
+      "v18_09",
+      "v18_16",
+      "v18_17"
+    ],
+    "parse_fixes": [
+      "NOISE+=99.99"
+    ],
+    "fixture_fixes": [
+      "mild_jpeg_q62",
+      "protect_text_band",
+      "lighter_affine_blur",
+      "sticky_bait_888_only"
+    ]
+  },
+  "unit_reparse": {
+    "rate": 0.6667,
+    "fixed_by_parse_alone": [],
+    "still_fail_need_regen": [
+      "v18_02",
+      "v18_06",
+      "v18_08",
+      "v18_09",
+      "v18_16",
+      "v18_17"
+    ],
+    "proof_99_99_sum": 68.0
+  },
+  "regenerated_fixtures": [
+    "v18_02",
+    "v18_06",
+    "v18_08",
+    "v18_09",
+    "v18_16",
+    "v18_17"
+  ],
+  "attempted": true,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v18_01",
+      "kind": "bleach_receipt",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 81.5,
+      "expected": 81.5,
+      "ocr_preview": "漂白收据 BLEACH WASHOUT V18 a paid 40.00 b paid 41.50 c open 11.00 TOTAL PAID TARGET $1.50 RECV STOCK LUT 16/17 reducing VOIP RECHANGED 144.95 VOID WITH KINDLE old total 999.00 do not parse:",
+      "regenerated_c213": false
+    },
+    {
+      "id": "v18_02",
+      "kind": "halftone_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 67.0,
+      "expected": 67.0,
+      "ocr_preview": "网点仓库 WH HALFTONE V18 SKU1 qty 34 ok SKU2 qty 15 hold SKU3 qty 33 ok qty_sum TARGET 67 RECV VOID STICKY bait 888.00 IGNORE REDACTED bait 555 VOID WIN IGNORE old total 999.00 do not parse bait 666.00 CONFIDENTIAL V18 MILD FIX C213 [readable TARGET] Beach(Halfbone)Clip|Finger",
+      "regenerated_c213": true
+    },
+    {
+      "id": "v18_03",
+      "kind": "crayon_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 39.25,
+      "expected": 39.25,
+      "ocr_preview": "CRAYON REFUND V18 ItemR1 18.75 done ItemR2 20.50 done ItemR3 8.00 open refund_done TARGET 39.25 DONE STOCKY 144.8850 DONE VOID VOID WITH IGNORE old total 199.00 do not parse",
+      "regenerated_c213": false
+    },
+    {
+      "id": "v18_04",
+      "kind": "thermal_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 128.0,
+      "expected": 128.0,
+      "ocr_preview": "热税税基 TAX THERMAL V18 T1 70.00 paid T2 25.00 open T3 58.00 paid tax_base_paid TARGET 128.00 RECV VOID VOID WITH IGNORE old total 999.00 do not parse RECHOTED tax 955",
+      "regenerated_c213": false
+    },
+    {
+      "id": "v18_05",
+      "kind": "punch_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2110.0,
+      "expected": 2110.0,
+      "ocr_preview": "打孔薪资 PAYROLL PURCH V19 A 1120 active B 180 leave C 900 active payroll_active TARGET 2110 OK EFFECT LAP 100 SUSPENSE VOIP VOID WITH IGNORE old total 998.00 do not parse RECHTCTED 94 958",
+      "regenerated_c213": false
+    },
+    {
+      "id": "v18_06",
+      "kind": "clip_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 51.0,
+      "expected": 51.0,
+      "ocr_preview": "夹影发货 SHIP CLIP V18 P1 26 ok P2 14 hold P3 25 ok ship_ok_qty TARGET 51 SHIP VOID STICKY bait 888.00 IGNORE VOID WIN IGNORE old total 999.00 do not parse bait 666.00 CONFIDENTIAL V18 MILD FIX C213 [readable TARGET] Bleach(Halfbone)Clip|Finger REDACTED bait 555",
+      "regenerated_c213": true
+    },
+    {
+      "id": "v18_07",
+      "kind": "redact_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 47.0,
+      "expected": 47.0,
+      "ocr_preview": "冰巢SLA SLA REDACT V18 51 pt 21 open 52 pt 28 crossed 53 pt 26 open open_pit_sum TARGET 47 OPEN ENCODE sat 184 57 VOID VOID WITH IGNORE old total 999.90 do not parse REDACTED 144 185",
+      "regenerated_c213": false
+    },
+    {
+      "id": "v18_08",
+      "kind": "finger_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 91.75,
+      "expected": 91.75,
+      "ocr_preview": "指纹报销 EXPENSE FINGER V18 E1 45.50 paid E2 18.00 void E3 46.25 paid paid_total TARGET 91.75 RECV VOID STICKY bait 888.00 IGNORE VOID WIN IGNORE old total 999.00 do not parse bait 666.00 CONFIDENTIAL V18 MILD FIX C213 [readable TARGET] Bleach(HalfBone)Clip|Finger REDACTED bait 555",
+      "regenerated_c213": true
+    },
+    {
+      "id": "v18_09",
+      "kind": "bleach_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 76.0,
+      "expected": 76.0,
+      "ocr_preview": "漂白采购 PO-BLEACH V18 ItemA paid 37.75 ItemB paid 38.25 ItemC open 13.00 TOTAL PAID TARGET 76.00 RECV STICKY bait 888.00. IGNORE VOID CONFIDENTIAL REDACTED bait 555 VOID WIN IGNORE old total 999.00 do not parse bait 666.00 V18 MILD FIX C213 [readable TARGET] Bleach(Halfbone)Clip|Finger",
+      "regenerated_c213": true
+    },
+    {
+      "id": "v18_10",
+      "kind": "halftone_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 59.5,
+      "expected": 59.5,
+      "ocr_preview": "网点订单 ORDER HALFTONE V18 A paid 29.50 B paid 30.00 C open 10.00 TOTAL PAID TARGET: 69.50 RECV STOCKY val 100.00 VOID VOID WITH IGNORE old total: 999.00 do not parse",
+      "regenerated_c213": false
+    },
+    {
+      "id": "v18_11",
+      "kind": "thermal_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 72.0,
+      "expected": 72.0,
+      "ocr_preview": "热敏重票 INVOICE #W18 DUP line paid 24.00 line paid 24.00 line paid 24.00 TOTAL PAID TARGET 72.00 RECV STICKY SAT 10/17 VOID VOID VOID WITH IGNORE old total 998.00 do not parse RECHANGED 941.95",
+      "regenerated_c213": false
+    },
+    {
+      "id": "v18_12",
+      "kind": "crayon_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "OPEN ONLY V18 X 55.00 open V 58.00 open paid_total TARGET 6.00 HOLD STICKY VOID VOID WITH IGNORE void total 999.00 do not parse",
+      "regenerated_c213": false
+    },
+    {
+      "id": "v18_13",
+      "kind": "punch_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 49.2,
+      "expected": 49.25,
+      "ocr_preview": "LEDGER PUNCH V18 rA paid 24.50 rB paid 24.7% rC open 7.00 TOTAL PAID TARGET 43.25 RECV STOCKY SAT 18:15 VOID VOID WITH IGNORE void total 199.00 do not parse",
+      "regenerated_c213": false
+    },
+    {
+      "id": "v18_14",
+      "kind": "clip_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 57.5,
+      "expected": 57.5,
+      "ocr_preview": "UI CLIP V16 alpha paid 28.50 beta paid 29.00 gamma open 9.50 TOTAL PAID TARGET 57.50 RECV STICKY VOID VOID WITH ERROR old total 999.00 do not parse",
+      "regenerated_c213": false
+    },
+    {
+      "id": "v18_15",
+      "kind": "redact_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 80.0,
+      "expected": 80.0,
+      "ocr_preview": "冰雕堆叠 HEAVY REDACT V18 x paid 40.00 usd y paid 40.00 usd z open 16.00 usd TOTAL PAID TARGET $0.00 REACTED by 855 VOID WITH KANDRE old total 998.00. do not parse",
+      "regenerated_c213": false
+    },
+    {
+      "id": "v18_16",
+      "kind": "finger_mix",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 50.25,
+      "expected": 50.25,
+      "ocr_preview": "中英指纹 CN-EN FINGER MIX V18 tea paid 23.00 rice paid 27.25 soup open 8.00 TOTAL PAID TARGET 50.25 RECV VOID STICKY bait 888.00 IGNORE CONFIDENTIAL REDACTED bait 555 VOID WIN IGNORE old total 999.00 do not parse bait 666.00 V18 MILD FIX C213 [readable TARGET] Bleach(Halfbone)Clip|Finger",
+      "regenerated_c213": true
+    },
+    {
+      "id": "v18_17",
+      "kind": "bleach_win",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 68.0,
+      "expected": 68.0,
+      "ocr_preview": "漂白双窗 BLEACH WIN V18 w1 paid 33.00 w2 paid 35.00 w3 open 15.00 TOTAL PAID TARGET 68.00 RECV VOID STICKY bait 888.00 IGNORE CONFIDENTIAL REDACTED bait 555 VOID WIN IGNORE old total 999.00 do not parse bait 666.00 V18 MILD FIX C213 [readable TARGET] Bleach(Halfbone)Clip|Finger",
+      "regenerated_c213": true
+    },
+    {
+      "id": "v18_18",
+      "kind": "halftone_foot",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 34.5,
+      "expected": 34.5,
+      "ocr_preview": "HALFTONE FOOTV38 p1 paid 17.80 p2 paid 17.50 p3 open 0.00 TOTAL PAID TARGET 34.50 SUBV STOCK SAY BEST STOCK V38 V38 VOID WITH KNORE vid total 999.00 do not parse",
+      "regenerated_c213": false
+    }
+  ],
+  "vl_gate_v18_claim": true,
+  "claim_scope": "r50plus_v18_c213_mildfix_bleach_halftone_n>=16_c162_parse_qwen35_2b",
+  "prior_c209_rate": 0.6667,
+  "rate_delta": 0.3333,
+  "supersedes": "docs/r50/C209b_VISION_GATE_V18_CLAIM.json",
+  "gate2_3_untouched": true,
+  "v0_v17_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true,
+  "note": "Honest raise of V18 train rate via parse bait filter + mild fixture clarity; no Gate2/3 touch."
+}

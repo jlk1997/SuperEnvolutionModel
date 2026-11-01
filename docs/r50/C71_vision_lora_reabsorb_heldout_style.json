@@ -1,0 +1,21 @@
+{
+  "kind": "r50plus_c71_vision_lora_reabsorb_heldout_style",
+  "timestamp": "2026-10-18T23:26:41+08:00",
+  "gate": 0.6,
+  "n_pairs": 10,
+  "train_dir": "evo/office/fixtures/vision_images_v2h_style_train",
+  "heldout_untouched": true,
+  "absorb": {
+    "ok": true,
+    "steps": 20,
+    "loss_last": 8.266026496887207,
+    "loss_mean": 14.269286680221558,
+    "adapter": "runs/capabilities/vision_office_v2h_style_lora"
+  },
+  "adapter_trained": true,
+  "pass": true,
+  "evidence_run": "runs/vision_u2c_v2h_style_lora",
+  "innovation": "Re-absorb LoRA on heldout-style dense readable data; test set never used",
+  "gate2_3_untouched": true,
+  "v1_v2_claims_untouched": true
+}

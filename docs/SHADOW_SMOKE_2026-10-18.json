@@ -1,0 +1,36 @@
+{
+  "kind": "shadow_smoke",
+  "gate": "0.6",
+  "actor": "scripted",
+  "gpu": false,
+  "vl": false,
+  "root": "E:\\envolution\\runs\\shadow_workspace",
+  "sandbox": "E:\\envolution\\runs\\shadow_workspace\\sandbox",
+  "outside": "E:\\envolution\\runs\\shadow_workspace\\outside",
+  "timestamp": "2026-10-18T02:54:48+08:00",
+  "contracts": {
+    "shadow_no_durable_write": true,
+    "shadow_honest_fail": true,
+    "audit_present": true,
+    "escape_refused": true,
+    "assist_task_success": true
+  },
+  "shadow": {
+    "ok_check": false,
+    "changed": [],
+    "proposals": 1,
+    "applied_any": false
+  },
+  "escape": {
+    "outside_escape_exists": false,
+    "refused_path": true,
+    "audit_rows": 2
+  },
+  "assist": {
+    "ok_check": true,
+    "out_exists": true,
+    "applied": true
+  },
+  "pass": true,
+  "notes": "Shadow mode on designated real folder; assist proves success; D still deferred (no VL weights). Never reopen burned seals."
+}\n

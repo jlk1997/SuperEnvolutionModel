@@ -1,0 +1,215 @@
+{
+  "cycle": "C114",
+  "theme": "u2c_absorb_push_gate_or_ceiling",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T02:16:58+08:00",
+  "gate2_3_untouched": true,
+  "prior_c108_trained_rate": 0.3333,
+  "epochs": 12,
+  "lr": 0.0005,
+  "dense_route": {
+    "dense_mode": "bare",
+    "dense_use_adapter": false,
+    "dense_prefers_bare": true,
+    "policy": "dense_table_bare__lora_only_weak_domains"
+  },
+  "pairs_path": "runs/u2c_grow_c113/sft_pairs.jsonl",
+  "n_pairs_total": 82,
+  "n_train": 73,
+  "n_eval": 9,
+  "eval_idx": [
+    20,
+    21,
+    30,
+    31,
+    41,
+    51,
+    61,
+    71,
+    81
+  ],
+  "absorb": {
+    "ok": true,
+    "adapter_name": "u2c_office_table_c114",
+    "adapter_dir": "runs/capabilities/u2c_office_table_lora_c114",
+    "n_train": 73,
+    "n_eval": 9,
+    "train_stats": {
+      "steps": 876,
+      "loss": 0.3197874516382112,
+      "pairs": 73,
+      "sites": []
+    }
+  },
+  "bare": {
+    "n": 9,
+    "n_ok": 0,
+    "rate": 0.0,
+    "rows": [
+      {
+        "i": 0,
+        "atom": "office_table_u2c_paid_total",
+        "sid": "c113_paid_total_08",
+        "gold": "paid_total=927.77",
+        "pred": "paid_total=3029.96",
+        "ok": false
+      },
+      {
+        "i": 1,
+        "atom": "office_table_u2c_paid_total",
+        "sid": "c113_paid_total_09",
+        "gold": "paid_total=1697.16",
+        "pred": "paid_total=1129.27",
+        "ok": false
+      },
+      {
+        "i": 2,
+        "atom": "office_table_u2c_refund_done",
+        "sid": "c113_refund_done_08",
+        "gold": "refund_done=1270.67",
+        "pred": "status=done,id=R1,amount=767.44,id=R3,amount=320.65,id=R5,amount=182.58",
+        "ok": false
+      },
+      {
+        "i": 3,
+        "atom": "office_table_u2c_refund_done",
+        "sid": "c113_refund_done_09",
+        "gold": "refund_done=1169.68",
+        "pred": "status=done,id=R1,amount=418.16,id=R3,amount=157.82,id=R5,amount=593.7",
+        "ok": false
+      },
+      {
+        "i": 4,
+        "atom": "office_table_u2c_qty_sum",
+        "sid": "c113_qty_sum_09",
+        "gold": "qty_sum=262.00",
+        "pred": "qty_sum=7.0",
+        "ok": false
+      },
+      {
+        "i": 5,
+        "atom": "office_table_u2c_tax_base_paid",
+        "sid": "c113_tax_base_paid_09",
+        "gold": "tax_base_paid=359.52",
+        "pred": "paid=328.9;void=793.17;paid=30.62",
+        "ok": false
+      },
+      {
+        "i": 6,
+        "atom": "office_table_u2c_ship_ok_qty",
+        "sid": "c113_ship_ok_qty_09",
+        "gold": "ship_ok_qty=106.00",
+        "pred": "ship_ok_qty=3",
+        "ok": false
+      },
+      {
+        "i": 7,
+        "atom": "office_table_u2c_payroll_active",
+        "sid": "c113_payroll_active_09",
+        "gold": "payroll_active=657.50",
+        "pred": "payroll_active=2",
+        "ok": false
+      },
+      {
+        "i": 8,
+        "atom": "office_table_u2c_open_pri_sum",
+        "sid": "c113_open_pri_sum_09",
+        "gold": "open_pri_sum=11.00",
+        "pred": "open_pri_sum=3.0",
+        "ok": false
+      }
+    ]
+  },
+  "trained": {
+    "n": 9,
+    "n_ok": 0,
+    "rate": 0.0,
+    "rows": [
+      {
+        "i": 0,
+        "atom": "office_table_u2c_paid_total",
+        "sid": "c113_paid_total_08",
+        "gold": "paid_total=927.77",
+        "pred": "paid_total=17.47",
+        "ok": false
+      },
+      {
+        "i": 1,
+        "atom": "office_table_u2c_paid_total",
+        "sid": "c113_paid_total_09",
+        "gold": "paid_total=1697.16",
+        "pred": "paid_total=1054.66",
+        "ok": false
+      },
+      {
+        "i": 2,
+        "atom": "office_table_u2c_refund_done",
+        "sid": "c113_refund_done_08",
+        "gold": "refund_done=1270.67",
+        "pred": "refund_done=191.58",
+        "ok": false
+      },
+      {
+        "i": 3,
+        "atom": "office_table_u2c_refund_done",
+        "sid": "c113_refund_done_09",
+        "gold": "refund_done=1169.68",
+        "pred": "refund_done=166.00",
+        "ok": false
+      },
+      {
+        "i": 4,
+        "atom": "office_table_u2c_qty_sum",
+        "sid": "c113_qty_sum_09",
+        "gold": "qty_sum=262.00",
+        "pred": "qty_sum=218.00",
+        "ok": false
+      },
+      {
+        "i": 5,
+        "atom": "office_table_u2c_tax_base_paid",
+        "sid": "c113_tax_base_paid_09",
+        "gold": "tax_base_paid=359.52",
+        "pred": "tax_base_paid=63.56",
+        "ok": false
+      },
+      {
+        "i": 6,
+        "atom": "office_table_u2c_ship_ok_qty",
+        "sid": "c113_ship_ok_qty_09",
+        "gold": "ship_ok_qty=106.00",
+        "pred": "ship_ok_qty=19.00",
+        "ok": false
+      },
+      {
+        "i": 7,
+        "atom": "office_table_u2c_payroll_active",
+        "sid": "c113_payroll_active_09",
+        "gold": "payroll_active=657.50",
+        "pred": "payroll_active=596.44",
+        "ok": false
+      },
+      {
+        "i": 8,
+        "atom": "office_table_u2c_open_pri_sum",
+        "sid": "c113_open_pri_sum_09",
+        "gold": "open_pri_sum=11.00",
+        "pred": "open_pri_sum=20.00",
+        "ok": false
+      }
+    ]
+  },
+  "delta_trained_minus_bare": 0.0,
+  "rate_gate_pass": false,
+  "ceiling": {
+    "documented": true,
+    "trained_rate": 0.0,
+    "gate": 0.6,
+    "reason": "more_data_epochs_still_below_gate",
+    "recommendation": "keep_text_u2c_adapter_optional; dense_vision_stays_bare; grow_real_user_logs_next",
+    "delta_vs_c108": -0.3333
+  },
+  "pass": true,
+  "claim": false,
+  "note": "U2C absorb pushed with C113 data + more epochs. Honest ceiling: trained still <0.6; no fake claim. Dense vision remains bare. No Gate2/3 mint."
+}

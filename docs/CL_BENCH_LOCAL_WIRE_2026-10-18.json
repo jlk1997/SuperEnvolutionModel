@@ -1,0 +1,31 @@
+{
+  "kind": "cl_bench_local_wire",
+  "gate": "0.6",
+  "timestamp": "2026-10-18T19:03:59+08:00",
+  "bench_id": "cl_bench",
+  "local_path": "E:\\envolution\\data\\heldout_math.json",
+  "load": {
+    "ok": true,
+    "bench_id": "cl_bench",
+    "path": "E:\\envolution\\data\\heldout_math.json",
+    "n": 8,
+    "n_train": 4,
+    "n_eval": 4,
+    "upstream_claim": false,
+    "kind": "continual_toy"
+  },
+  "score_smoke": {
+    "ok": true,
+    "bench_id": "cl_bench",
+    "n": 4,
+    "hits": 4,
+    "rate": 1.0,
+    "gate": "0.6",
+    "pass_gate": true,
+    "upstream_claim": false,
+    "notes": "local continual_toy score only; not upstream cl_bench"
+  },
+  "upstream_claim": false,
+  "pass": true,
+  "notes": "Wired cl_bench adapter to local toy. Not upstream CL-Bench."
+}

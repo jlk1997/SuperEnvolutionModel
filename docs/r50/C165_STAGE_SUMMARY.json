@@ -1,0 +1,16 @@
+{
+  "cycle": "C165",
+  "stage": "STAGE_READY",
+  "timestamp": "2026-10-19T05:05:52+08:00",
+  "c162_v8_heldout_rate": 1.0,
+  "c163_v9_rate": 1.0,
+  "c164_v9_heldout_rate": 1.0,
+  "c165_overall": 1.0,
+  "vl_gate_v8_heldout_claim": true,
+  "vl_gate_v9_claim": true,
+  "vl_gate_v9_heldout_claim": true,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "gate": 0.6,
+  "pass": true
+}

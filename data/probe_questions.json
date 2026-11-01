@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "answers": ["Paris"]
+  },
+  {
+    "question": "What planet is known as the Red Planet?",
+    "answers": ["Mars"]
+  },
+  {
+    "question": "What is 2 + 2?",
+    "answers": ["4", "four"]
+  },
+  {
+    "question": "Who wrote Romeo and Juliet?",
+    "answers": ["William Shakespeare", "Shakespeare"]
+  },
+  {
+    "question": "What is the opposite of hot?",
+    "answers": ["cold"]
+  }
+]

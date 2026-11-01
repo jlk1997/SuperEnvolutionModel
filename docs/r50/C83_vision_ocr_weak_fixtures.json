@@ -1,0 +1,115 @@
+{
+  "kind": "r50plus_c83_vision_ocr_weak_fixtures",
+  "timestamp": "2026-10-19T00:52:33+08:00",
+  "gate": 0.6,
+  "domain": "ocr_weak",
+  "n_train": 8,
+  "n_test": 8,
+  "train_dir": "evo/office/fixtures/vision_images_ocr_weak_train",
+  "test_dir": "evo/office/fixtures/vision_images_ocr_weak_test",
+  "disjoint_ids": true,
+  "disjoint_golds": true,
+  "train": [
+    {
+      "id": "owt-rcpt-001",
+      "png_bytes": 10931,
+      "gold": "RCPT RX-1001 AMT 12.50 DATE 2026-09-01",
+      "split": "train"
+    },
+    {
+      "id": "owt-rcpt-002",
+      "png_bytes": 10935,
+      "gold": "RCPT RX-1002 AMT 88.00 DATE 2026-09-02",
+      "split": "train"
+    },
+    {
+      "id": "owt-rcpt-003",
+      "png_bytes": 11037,
+      "gold": "RCPT RX-1003 AMT 3.25 DATE 2026-09-03",
+      "split": "train"
+    },
+    {
+      "id": "owt-rcpt-004",
+      "png_bytes": 10930,
+      "gold": "RCPT RX-1004 AMT 41.10 DATE 2026-09-04",
+      "split": "train"
+    },
+    {
+      "id": "owt-rcpt-005",
+      "png_bytes": 10862,
+      "gold": "RCPT RX-1005 AMT 19.99 DATE 2026-09-05",
+      "split": "train"
+    },
+    {
+      "id": "owt-rcpt-006",
+      "png_bytes": 11139,
+      "gold": "RCPT RX-1006 AMT 250.00 DATE 2026-09-06",
+      "split": "train"
+    },
+    {
+      "id": "owt-rcpt-007",
+      "png_bytes": 10673,
+      "gold": "RCPT RX-1007 AMT 7.77 DATE 2026-09-07",
+      "split": "train"
+    },
+    {
+      "id": "owt-rcpt-008",
+      "png_bytes": 11155,
+      "gold": "RCPT RX-1008 AMT 63.40 DATE 2026-09-08",
+      "split": "train"
+    }
+  ],
+  "test": [
+    {
+      "id": "owx-rcpt-001",
+      "png_bytes": 10905,
+      "gold": "RCPT RX-9001 AMT 15.20 DATE 2026-10-01",
+      "split": "test"
+    },
+    {
+      "id": "owx-rcpt-002",
+      "png_bytes": 10947,
+      "gold": "RCPT RX-9002 AMT 99.00 DATE 2026-10-02",
+      "split": "test"
+    },
+    {
+      "id": "owx-rcpt-003",
+      "png_bytes": 11036,
+      "gold": "RCPT RX-9003 AMT 4.50 DATE 2026-10-03",
+      "split": "test"
+    },
+    {
+      "id": "owx-rcpt-004",
+      "png_bytes": 10787,
+      "gold": "RCPT RX-9004 AMT 33.33 DATE 2026-10-04",
+      "split": "test"
+    },
+    {
+      "id": "owx-rcpt-005",
+      "png_bytes": 11127,
+      "gold": "RCPT RX-9005 AMT 210.00 DATE 2026-10-05",
+      "split": "test"
+    },
+    {
+      "id": "owx-rcpt-006",
+      "png_bytes": 10824,
+      "gold": "RCPT RX-9006 AMT 8.08 DATE 2026-10-06",
+      "split": "test"
+    },
+    {
+      "id": "owx-rcpt-007",
+      "png_bytes": 11103,
+      "gold": "RCPT RX-9007 AMT 56.70 DATE 2026-10-07",
+      "split": "test"
+    },
+    {
+      "id": "owx-rcpt-008",
+      "png_bytes": 10807,
+      "gold": "RCPT RX-9008 AMT 1.01 DATE 2026-10-08",
+      "split": "test"
+    }
+  ],
+  "design": "small font + low contrast + blur + clutter; gold short RCPT/AMT/DATE",
+  "innovation": "Weak vision domain to hunt LoRA Δ≥0 (dense already known-harm)",
+  "gate2_3_untouched": true
+}

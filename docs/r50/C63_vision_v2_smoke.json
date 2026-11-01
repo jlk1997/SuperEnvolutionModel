@@ -1,0 +1,82 @@
+{
+  "kind": "r50plus_c63_vision_v2_smoke",
+  "timestamp": "2026-10-18T22:56:08+08:00",
+  "gate": 0.6,
+  "n": 8,
+  "n_ok": 8,
+  "rate": 1.0,
+  "gate_pass": true,
+  "vl_gate_v2_claim": true,
+  "claim_scope": "r50plus_v2_harder_readable_office_drawn_n>=8_softmatch_qwen35_2b",
+  "items": [
+    {
+      "id": "v2-caption-001",
+      "task": "caption",
+      "gold": "cluttered desk laptop red mug",
+      "pred_head": "A cluttered desk with a laptop, red mug, and brown surface.",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2-hard-mixed-001",
+      "task": "ocr",
+      "gold": "SHIP TO 12 River Rd Bay 4 DEADLINE 2026-12-01 PRIORITY HIGH",
+      "pred_head": "SHIP TO 12 River Rd, Bay 4 SKU MIX: C9 x4, D1 x1 DEADLINE 2026-12-01 PRIORITY: HIGH",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2-hard-ocr-001",
+      "task": "ocr",
+      "gold": "TAX INVOICE TX-4402 Subtotal 22.00 Tax 2.20 TOTAL 24.20 Due 2026-11-15",
+      "pred_head": "TAX INVOICE #TX-4402 Vendor: Ant Hardware Ltd Buyer: East Warehouse Line1: Bolts M6 x100 @ 0.12 = 12.00 Line2: Washers x200 @ 0.05 = 10.00 Subtotal 22.00 Tax 2.20 TOTAL 24.20 Due: 2026-11-15 PO: PO-8891",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2-hard-table-001",
+      "task": "table_cells",
+      "gold": "sku,name,qty,unit,amt\nC9,Clamp,4,2.50,10.00\nD1,Drill,1,45.00,45.00\nE3,Epoxy,2,8.25,16.50",
+      "pred_head": "```csv sku,name,qty,unit,amt C9,Clamp,4,2.50,10.00 D1,Drill,1,45.00,45.00 E3,Epoxy,2,8.25,16.50 ```",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2-hard-ui-001",
+      "task": "caption",
+      "gold": "Confirm purge? Delete 12 archived logs [Cancel] [Delete]",
+      "pred_head": "A confirmation dialog box asks if the user wants to delete 12 archived logs forever.",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2-ocr-002",
+      "task": "ocr",
+      "gold": "RECEIPT TOTAL 5.50 Paid CARD",
+      "pred_head": "RECEIPT Store: Ant Mart #7 Coffee 3.50 Bagel 2.00 TOTAL 5.50 Paid CARD ****4412",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2-table-002",
+      "task": "table_cells",
+      "gold": "dept,hrs,ot\nENG,8,1\nOPS,8,0\nQA,7,2",
+      "pred_head": "```csv dept,hrs,ot ENG,8,1 OPS,8,0 QA,7,2 ```",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v2-ui-002",
+      "task": "caption",
+      "gold": "Preferences auto-save ON telemetry OFF",
+      "pred_head": "This image displays a settings interface with two toggles: \"Auto-save\" is enabled (green), while \"Telemetry\" is disabled (gray), and a status line confirms \"auto-save ON telemetry OFF\".",
+      "ok": true,
+      "error": null
+    }
+  ],
+  "weights": "models/Qwen3.5-2B",
+  "v1_claim_untouched": true,
+  "gate2_3_untouched": true,
+  "open_domain_benchmark": false,
+  "innovation": "First honest Vision V2 smoke on harder fixtures"
+}

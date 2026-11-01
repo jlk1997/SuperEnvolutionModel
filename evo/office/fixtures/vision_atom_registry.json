@@ -1,0 +1,205 @@
+{
+  "kind": "vision_atom_registry",
+  "product": "蚁算-视",
+  "version": "STRONG_C3_REAL_VL",
+  "gate": "0.6",
+  "weights_local": true,
+  "vl_gate_claim": false,
+  "weights_path": "E:/envolution/models/Qwen3.5-2B",
+  "atoms": [
+    {
+      "atom": "vision_caption_uselog_real",
+      "family": "vision_caption",
+      "status": "crystallized_real_vl_absorbed",
+      "stub_path": null,
+      "bare_rate": 1.0,
+      "adapter": "runs/capabilities/vision_office_real_vl_lora",
+      "dissolve_path": [
+        "real VL use_log -> grade",
+        "crystallize vision_*_uselog_real",
+        "micro LoRA absorb",
+        "route prefer_atoms when image"
+      ]
+    },
+    {
+      "atom": "vision_ocr_uselog_real",
+      "family": "vision_ocr",
+      "status": "crystallized_real_vl_absorbed",
+      "stub_path": null,
+      "bare_rate": 1.0,
+      "adapter": "runs/capabilities/vision_office_real_vl_lora",
+      "dissolve_path": [
+        "real VL use_log -> grade",
+        "crystallize vision_*_uselog_real",
+        "micro LoRA absorb",
+        "route prefer_atoms when image"
+      ]
+    },
+    {
+      "atom": "vision_table_uselog_real",
+      "family": "vision_table",
+      "status": "crystallized_real_vl_absorbed",
+      "stub_path": null,
+      "bare_rate": 1.0,
+      "adapter": "runs/capabilities/vision_office_real_vl_lora",
+      "dissolve_path": [
+        "real VL use_log -> grade",
+        "crystallize vision_*_uselog_real",
+        "micro LoRA absorb",
+        "route prefer_atoms when image"
+      ]
+    },
+    {
+      "id": "vision_ui_save_button",
+      "task": "ocr",
+      "family": "vision_ui"
+    },
+    {
+      "id": "vision_ui_confirm_delete",
+      "task": "caption",
+      "family": "vision_ui"
+    },
+    {
+      "id": "vision_pdf_clause",
+      "task": "ocr",
+      "family": "vision_doc"
+    },
+    {
+      "id": "vision_atom_office-caption-001",
+      "family": "vision_caption",
+      "task": "caption",
+      "image": "evo/office/fixtures/vision_images_real/office-caption-001.png",
+      "gold": "blue office desk with laptop",
+      "source": "c52_readable_v1",
+      "crystallized": true,
+      "registered_at": "2026-10-18T22:41:15+08:00"
+    },
+    {
+      "id": "vision_atom_office-ocr-001",
+      "family": "vision_ocr",
+      "task": "ocr",
+      "image": "evo/office/fixtures/vision_images_real/office-ocr-001.png",
+      "gold": "INVOICE-7781 TOTAL 128.50 Paid",
+      "source": "c52_readable_v1",
+      "crystallized": true,
+      "registered_at": "2026-10-18T22:41:15+08:00"
+    },
+    {
+      "id": "vision_atom_office-ocr-002",
+      "family": "vision_ocr",
+      "task": "ocr",
+      "image": "evo/office/fixtures/vision_images_real/office-ocr-002.png",
+      "gold": "TOTAL DUE 128.50",
+      "source": "c52_readable_v1",
+      "crystallized": true,
+      "registered_at": "2026-10-18T22:41:15+08:00"
+    },
+    {
+      "id": "vision_atom_office-table-001",
+      "family": "vision_table_cells",
+      "task": "table_cells",
+      "image": "evo/office/fixtures/vision_images_real/office-table-001.png",
+      "gold": "sku,qty,price\nA1,2,10\nB2,1,7",
+      "source": "c52_readable_v1",
+      "crystallized": true,
+      "registered_at": "2026-10-18T22:41:15+08:00"
+    },
+    {
+      "id": "vision_atom_office-table-002",
+      "family": "vision_table_cells",
+      "task": "table_cells",
+      "image": "evo/office/fixtures/vision_images_real/office-table-002.png",
+      "gold": "item,qty,price\npen,2,1.5\nink,1,3.0",
+      "source": "c52_readable_v1",
+      "crystallized": true,
+      "registered_at": "2026-10-18T22:41:15+08:00"
+    },
+    {
+      "id": "vision_atom_office-ui-001",
+      "family": "vision_caption",
+      "task": "caption",
+      "image": "evo/office/fixtures/vision_images_real/office-ui-001.png",
+      "gold": "settings screen dark mode toggle on",
+      "source": "c52_readable_v1",
+      "crystallized": true,
+      "registered_at": "2026-10-18T22:41:15+08:00"
+    },
+    {
+      "id": "vision_atom_office-ui-002",
+      "family": "vision_caption",
+      "task": "caption",
+      "image": "evo/office/fixtures/vision_images_real/office-ui-002.png",
+      "gold": "Settings dialog with Save button",
+      "source": "c52_readable_v1",
+      "crystallized": true,
+      "registered_at": "2026-10-18T22:41:15+08:00"
+    },
+    {
+      "id": "vision_atom_office-hard-ocr-001",
+      "family": "vision_ocr",
+      "task": "ocr",
+      "image": "evo/office/fixtures/vision_images_real/office-hard-ocr-001.png",
+      "gold": "Invoice# INV-7781 Subtotal 990.00 Tax 89.10 Total 1079.10",
+      "source": "c52_readable_v1",
+      "crystallized": true,
+      "registered_at": "2026-10-18T22:41:15+08:00"
+    },
+    {
+      "id": "vision_atom_office-hard-table-001",
+      "family": "vision_table_cells",
+      "task": "table_cells",
+      "image": "evo/office/fixtures/vision_images_real/office-hard-table-001.png",
+      "gold": "sku,name,qty,amt\nA1,Widget,3,12.00\nB2,Gadget,1,40.50",
+      "source": "c52_readable_v1",
+      "crystallized": true,
+      "registered_at": "2026-10-18T22:41:15+08:00"
+    },
+    {
+      "id": "vision_atom_office-hard-mixed-001",
+      "family": "vision_ocr",
+      "task": "ocr",
+      "image": "evo/office/fixtures/vision_images_real/office-hard-mixed-001.png",
+      "gold": "Ship to: 88 Ant Rd Deadline: 2026-11-01",
+      "source": "c52_readable_v1",
+      "crystallized": true,
+      "registered_at": "2026-10-18T22:41:15+08:00"
+    },
+    {
+      "id": "vision_office_v1_readable_lora",
+      "family": "vision_absorb",
+      "status": "absorbed",
+      "adapter": "runs/capabilities/vision_office_v1_readable_lora",
+      "steps": 24,
+      "loss_last": 6.48193359375,
+      "source": "c60",
+      "registered_at": "2026-10-18T22:55:11+08:00"
+    },
+    {
+      "id": "vision_office_v2h_style_lora",
+      "family": "vision_absorb",
+      "status": "absorbed",
+      "adapter": "runs/capabilities/vision_office_v2h_style_lora",
+      "steps": 20,
+      "loss_last": 8.266026496887207,
+      "source": "c71",
+      "trained_on": "v2h_style_train_not_heldout",
+      "registered_at": "2026-10-18T23:26:41+08:00"
+    },
+    {
+      "id": "vision_office_ocr_weak_lora",
+      "family": "vision_absorb",
+      "domain": "ocr_weak",
+      "status": "absorbed",
+      "adapter": "runs/capabilities/vision_office_ocr_weak_lora",
+      "steps": 16,
+      "loss_last": 6.18082332611084,
+      "source": "c85",
+      "trained_on": "ocr_weak_train_not_test",
+      "registered_at": "2026-10-19T01:07:08+08:00"
+    }
+  ],
+  "notes": "Real VL unlocked via Qwen3.5-2B. vl_gate_claim false until formal VISION_GATE doc.",
+  "updated": "2026-10-19T01:07:08+08:00",
+  "r50_c32": true,
+  "source": "c85_vision_ocr_weak_lora_absorb"
+}

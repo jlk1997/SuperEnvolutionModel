@@ -1,0 +1,27 @@
+# Stack: addition then hard OFFSET (same family as cleared add). Gate 0.6.
+# Hypothesis: affine*+ is too hard; odd +k with birth<0.5 should be learnable like +6.
+run_name: evoplast_fit_stack_offset_hard
+stage: m0
+actor: model
+seed: 0
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: attn_mlp
+max_seq_len: 256
+max_new_code: 24
+skill: stack
+second_kind: offset
+second_offsets: [27, 31, 37, 41, 43, 47, 19, 23]
+teach: 8
+exam: 4
+rounds: 1
+fit_epochs: 4
+second_phase: solo
+solo_epochs: 8
+fit_sites:
+  - attn
+  - mlp
+adapter_dir: runs/evoplast_adapter_stack_offset
+write: true

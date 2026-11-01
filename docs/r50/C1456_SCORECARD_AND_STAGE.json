@@ -1,0 +1,53 @@
+{
+  "cycle": "C1456",
+  "timestamp": "2026-10-22T14:58:31+08:00",
+  "gate": 0.6,
+  "vision": {
+    "v223": {
+      "rate": 1.0,
+      "claim": true,
+      "n": 18
+    },
+    "v223_heldout": {
+      "rate": 1.0,
+      "claim": true,
+      "disjoint": true,
+      "n": 18
+    },
+    "v224": {
+      "rate": 1.0,
+      "claim": true,
+      "n": 18
+    },
+    "v224_heldout": {
+      "rate": 1.0,
+      "claim": true,
+      "disjoint": true,
+      "n": 18
+    }
+  },
+  "product_u2c": {
+    "pass": true,
+    "replace_ratio": 4.0694,
+    "source": "C1454"
+  },
+  "confidence_gate": {
+    "pass": true,
+    "rate": 1.0,
+    "source": "C1448"
+  },
+  "capture_regression": {
+    "pass": true,
+    "source": "C1455"
+  },
+  "dissolve_shadow": {
+    "dissolve_pass": true,
+    "shadow_pass": true,
+    "source": "C398"
+  },
+  "composite": 1.0,
+  "stage_ready": true,
+  "v224_jpeg_q": 62,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD"
+}

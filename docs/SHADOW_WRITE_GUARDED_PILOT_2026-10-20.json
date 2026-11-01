@@ -1,0 +1,62 @@
+{
+  "kind": "shadow_write_guarded_pilot",
+  "product": "蚁算模型",
+  "version": "0.2.5",
+  "gate": "0.6",
+  "actor": "scripted",
+  "gpu": false,
+  "vl": false,
+  "root": "E:\\envolution\\runs\\dissolve_cost_shadow_c398\\shadow_sandbox",
+  "sandbox": "E:\\envolution\\runs\\dissolve_cost_shadow_c398\\shadow_sandbox\\sandbox",
+  "outside": "E:\\envolution\\runs\\dissolve_cost_shadow_c398\\shadow_sandbox\\outside",
+  "write_allowlist": [
+    "exports/summary.txt",
+    "out.txt"
+  ],
+  "timestamp": "2026-10-20T08:13:49+08:00",
+  "seed_files": [
+    "book.csv",
+    "notes.txt",
+    "meta.json"
+  ],
+  "seed_digests": {
+    "book.csv": "5c6e32bd9fe357f3de2997e74379045ca7f767581dcc6b704f6ccafd9849166a",
+    "notes.txt": "29dcd61815326b71038cf9232142826b8db58eb3423ddc2093c8b7fcff9a2d60",
+    "meta.json": "492409a69c3aef2bdfb1ca546346ab04e363690be33be3e72847cbfaa127f8d6"
+  },
+  "contracts": {
+    "allowlisted_write_persists": true,
+    "nested_allowlisted_write_persists": true,
+    "non_allowlisted_write_refused": true,
+    "shadow_still_blocks": true,
+    "escape_refused": true,
+    "seed_digests_intact": true,
+    "audit_present": true,
+    "allowlist_file_present": true,
+    "beyond_readonly": true,
+    "write_guarded_pilot": true
+  },
+  "legs": {
+    "allow": {
+      "ok": true,
+      "out_exists": true
+    },
+    "nested": {
+      "ok": true,
+      "summary_exists": true
+    },
+    "deny": {
+      "ok_check": false,
+      "secret_exists": false
+    },
+    "shadow": {
+      "ok_check": false,
+      "probe2_exists": false
+    },
+    "escape": {
+      "outside_escape_exists": false
+    }
+  },
+  "pass": true,
+  "notes": "Beyond SHADOW_READONLY_PILOT: assist writes persist only on explicit allowlist; non-allowlisted refused with write-allowlist; shadow still non-durable; escape refused; no VL."
+}

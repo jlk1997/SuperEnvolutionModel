@@ -1,0 +1,109 @@
+{
+  "cycle": "C157",
+  "theme": "unified_scorecard_refresh_c153_c156",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T04:26:44+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "beat": {
+    "source": "Gate2 CLAIM archive (untouched)",
+    "dual_exam_approx": 0.625,
+    "agent_exam_approx": 0.125,
+    "beat_agent": true,
+    "mid_n_obs_dual": 0.8125,
+    "gate2_3_untouched": true
+  },
+  "replace": {
+    "mean_ratio": 3.875,
+    "rate": 1.0,
+    "pass": true,
+    "source": "docs/r50/C141_UNIFIED_REPLACE_BOARD.json"
+  },
+  "vision": {
+    "v6_heldout": {
+      "rate": 1.0,
+      "claim": null,
+      "n": 14,
+      "path": "docs/r50/C138b_VISION_GATE_V6_HELDOUT_CLAIM.json"
+    },
+    "v6": {
+      "rate": 1.0,
+      "claim": true,
+      "n": 14,
+      "path": "docs/r50/C132b_VISION_GATE_V6_CLAIM.json"
+    },
+    "v7": {
+      "rate": 1.0,
+      "claim": true,
+      "n": 16,
+      "path": "docs/r50/C153b_VISION_GATE_V7_REFRESH_CLAIM.json"
+    },
+    "v7_c149": {
+      "rate": 0.875,
+      "claim": true,
+      "n": 16,
+      "path": "docs/r50/C149b_VISION_GATE_V7_REFRESH_CLAIM.json"
+    },
+    "v7_heldout": {
+      "rate": 1.0,
+      "claim": true,
+      "n": 16,
+      "path": "docs/r50/C150b_VISION_GATE_V7_HELDOUT_CLAIM.json"
+    },
+    "v7_smoke": {
+      "rate": 1.0,
+      "claim": true,
+      "n": 16,
+      "path": "docs/r50/C153_V7_LINEN_FIX_RETEST.json"
+    },
+    "v8": {
+      "rate": 0.7222,
+      "claim": true,
+      "n": 18,
+      "path": "docs/r50/C155b_VISION_GATE_V8_CLAIM.json"
+    },
+    "v8_smoke": {
+      "rate": 0.7222,
+      "claim": true,
+      "n": 18,
+      "path": "docs/r50/C155_VISION_V8_SMOKE.json"
+    }
+  },
+  "confidence_capture": {
+    "pass": true,
+    "rate": 1.0
+  },
+  "v7_linen_fix": {
+    "rate": 1.0,
+    "claim": true,
+    "fixed": [
+      "v7_09",
+      "v7_13"
+    ],
+    "unit_proof": true
+  },
+  "v8_design": {
+    "n": 18,
+    "pass": true
+  },
+  "v8_smoke": {
+    "rate": 0.7222,
+    "claim": true,
+    "n": 18
+  },
+  "week_sandbox": {
+    "pass": true,
+    "n_days": 7,
+    "n_files": 28,
+    "week_paid": 1526.0,
+    "rate": 1.0
+  },
+  "v7_heldout": {
+    "rate": 1.0,
+    "claim": true
+  },
+  "composite": 1.0,
+  "pass": true,
+  "claim": false,
+  "note": "Scorecard after linen fix + V8 + week sandbox. Gate2/3 untouched. gen11 HOLD."
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "r50plus_c89_gen11_hold",
+  "timestamp": "2026-10-19T00:56:14+08:00",
+  "gate": 0.6,
+  "fresh_open_threshold": 0.99,
+  "measured_fresh": null,
+  "measured_src": null,
+  "decision": "HOLD",
+  "seal_opened": false,
+  "prior_c81_decision": "HOLD",
+  "reason": "no measured fresh>=0.99 (got None); keep seal closed",
+  "innovation": "Hard hold discipline; never open gen11 seal without fresh evidence",
+  "gate2_3_untouched": true
+}

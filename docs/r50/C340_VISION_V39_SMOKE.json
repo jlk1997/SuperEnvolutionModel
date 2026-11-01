@@ -1,0 +1,232 @@
+{
+  "cycle": "C340",
+  "theme": "vision_v39_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T02:52:50+08:00",
+  "attempted": true,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v39_01",
+      "kind": "spruce_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 131.5,
+      "expected": 131.5,
+      "ocr_preview": "seed"
+    },
+    {
+      "id": "v39_02",
+      "kind": "carnelian_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 97.0,
+      "expected": 97.0,
+      "ocr_preview": "seed"
+    },
+    {
+      "id": "v39_03",
+      "kind": "voile_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 74.25,
+      "expected": 74.25,
+      "ocr_preview": "seed"
+    },
+    {
+      "id": "v39_04",
+      "kind": "azure_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 193.0,
+      "expected": 193.0,
+      "ocr_preview": "seed"
+    },
+    {
+      "id": "v39_05",
+      "kind": "apatite_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 262.0,
+      "expected": 262.0,
+      "ocr_preview": "seed"
+    },
+    {
+      "id": "v39_06",
+      "kind": "cleat_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 66.0,
+      "expected": 66.0,
+      "ocr_preview": "seed"
+    },
+    {
+      "id": "v39_07",
+      "kind": "peridot_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 84.5,
+      "expected": 84.5,
+      "ocr_preview": "seed"
+    },
+    {
+      "id": "v39_08",
+      "kind": "gneiss_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 111.75,
+      "expected": 111.75,
+      "ocr_preview": "片麻岩费用单 SHEISS EXPENSE V39 e1 58.00 e2 58.75 e3 25.00 vda exp_sum TARGET 111.75 DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.12.35 OR 38.12.77 COPY OVEN VOID FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL bait 222.22 TRACK 903.645 MUG PEN OVERLAP LABEL bait 327 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW"
+    },
+    {
+      "id": "v39_09",
+      "kind": "zinc_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 125.0,
+      "expected": 125.0,
+      "ocr_preview": "SCAN DESK V39 BAST 133.00 PAGE 01 锌片采购单 ZINC PO SHEET V39 line1 67.00 open line2 50.00 open line3 29.00 closed po_open TARGET 125.00 DRAFT WATERMARK COPY TAPE 053 bait 12.12 RING 054 12.32 GR 055 12.77 VOID OVERLAY LABEL bait 327 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 503.96 FAX 056 bait 12.12 BARCODE bait 1"
+    },
+    {
+      "id": "v39_10",
+      "kind": "papyrus_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 151.5,
+      "expected": 151.5,
+      "ocr_preview": "莎草纸订单 DAPYRUS ORDER V39 skuA 81.00 paid skuB 70.50 paid skuC 22.00 due order_paid TARGET 151.50 DRAFT WATERMARK.COM DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v39_11",
+      "kind": "houndstooth_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "干乌格重复标 SCAN DESK V39 BAST 133.00 PAGE 01 HOUNDSTOOTH DUP MARK V39 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v39_12",
+      "kind": "empty_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "空仓零检单 EMPTY VOID ZERO V39 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 PEN 38.12.32 GR 18.12.77 VOID COPY OVEN VOID FAX HEADER BAIT 88.88 FROM:SPOTF SHOP LABEL bait 222-22 TRACK 903-645 MUG PEN OVERLAP LABEL bait 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 503.00"
+    },
+    {
+      "id": "v39_13",
+      "kind": "hessian_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 227.25,
+      "expected": 227.25,
+      "ocr_preview": "SCAN DESK V39 best 133.00 PAGE 01 粗麻账本 LESSIAN LEDGER V39 dr 111.00 cr 116.25 adj 37.00 ledger_net TARGET 227.25 DRAFT WATERMARK.COM DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v39_14",
+      "kind": "shellac_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V39 best 133.00 PAGE 01 虫胶界面扫描 HELLAC UI SCAN V39 brOk 1 brSkip 0 brBad 0 ui_ek TARGET-1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v39_15",
+      "kind": "sisal_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 12.0,
+      "expected": 12.0,
+      "ocr_preview": "SCAN DESK V39 BAST 133.00 PAGE 01 创麻堆清单 BISAL STACK V39 p1 5 p2 4 p3 3 stack_count TARGET 12 CLAPE wash DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v39_16",
+      "kind": "fig_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 17.0,
+      "expected": 17.0,
+      "ocr_preview": "无花果传真单 FAX V39 pgB 8 pgC 3 drop fax_pages TARGET 17 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v39_17",
+      "kind": "osmium_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V39 BAIT 133.00 PAGE 01 镜光胶单 OSMIUM GLARE V39 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v39_18",
+      "kind": "quire_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 23.0,
+      "expected": 23.0,
+      "ocr_preview": "SCAN DESK V39 BAST 133.00 PAGE 01 印张页索引 QUIRE TAB INDEX V39 tabB 13 tabB 10 tabC 2 tab_index TARGET 23 OLPE scan DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "vl_gate_v39_claim": true,
+  "claim_scope": "r50plus_v39_hlx_magclip_thermal_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V39 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true,
+  "resume": true
+}

@@ -1,0 +1,42 @@
+# Gate3 gen8 — marina + greenhouse @ difficulty 2 (column names in table prompts).
+# Fix committed before open: families._table_csv d<=3 names columns. Atoms both + schema-random SFT.
+# Gate 0.6. 1.5B. No VL. Never reopen burned packs.
+run_name: office_gate3_gen8
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 0
+actor: model
+heldout_generation: gen8
+open_heldout: true
+reason: "gen8: table d<=3 column-name fix + schema-random SFT committed pre-seal; marina+greenhouse d=2"
+heldout_items: 4
+dev_items: 24
+dev_exam_items: 6
+dev_difficulties: [2, 3]
+dev_packs: [orders, expenses]
+dev_family_schedule: [table, table, table, report, file]
+schema_random_table_sft: true
+schema_random_n: 24
+schema_random_difficulties: [1, 2, 3]
+sft_rounds: 4
+sft_epochs: 4
+atom_sft_lr: 0.001
+atom_adapter_sft: true
+difficulty: 2
+prefer_atoms: true
+trained_prefer_atoms: true
+write_gate: true
+seal_path: runs/heldout_seal_gen8.json
+evidence_path: runs/office_gate3_gen8_judge.json
+families: [table, report, file]
+dev_families: [table, report, file]
+max_steps: 6
+exec_timeout: 12
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: full
+max_seq_len: 512
+max_new_code: 220
+outer_lr: 0.0005
+temperature: 0.0
+tool_call_primer: true

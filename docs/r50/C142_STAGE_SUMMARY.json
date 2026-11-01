@@ -1,0 +1,34 @@
+{
+  "stage": "ANT_C142",
+  "cycles": "C137-C142",
+  "timestamp": "2026-10-19T03:44:18+08:00",
+  "gate": 0.6,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "v6_heldout_fixtures": {
+    "pass": true,
+    "n": 14
+  },
+  "v6_heldout_smoke": {
+    "rate": 1.0,
+    "claim": true,
+    "n": 14,
+    "n_ok": 14,
+    "claim_file": true
+  },
+  "product_regression": {
+    "pass": true,
+    "rate": 1.0
+  },
+  "confidence_gated_tool": {
+    "pass": true,
+    "rate": 1.0,
+    "innovation": true
+  },
+  "replace_board": {
+    "pass": true,
+    "rate": 1.0,
+    "mean_step_ratio": 3.875
+  },
+  "STAGE_READY": true
+}

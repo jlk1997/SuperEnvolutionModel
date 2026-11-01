@@ -1,0 +1,21 @@
+{
+  "cycle": "C116",
+  "theme": "v5_design_cluttered_screenshot_office",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T02:38:31+08:00",
+  "gate2_3_untouched": true,
+  "protocol": "docs/蚁算视_VL_GATE_V5_PROTOCOL.md",
+  "fixtures_dir": "evo/office/fixtures/vision_images_v5",
+  "n_fixtures": 12,
+  "manifest": "evo/office/fixtures/vision_images_v5/manifest.json",
+  "smoke": {
+    "attempted": true,
+    "error": "ModuleNotFoundError:No module named 'torch'",
+    "pass": false,
+    "claim": false
+  },
+  "pass": true,
+  "claim": false,
+  "vl_gate_v5_claim": false,
+  "note": "V5 protocol+fixtures landed. Claim only if smoke rate>=0.6 with real VL. No Gate2/3. Smoke below gate — design OK, no V5 claim."
+}

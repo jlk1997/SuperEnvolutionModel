@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-10-18T22:30:14+08:00",
+  "dissolve_all_bare": true,
+  "dissolve_D": 0.0,
+  "compose_rate": 1.0,
+  "agent_replace_score": 0.0,
+  "dynamic_evolve_score": 0.0,
+  "multimodal_score": 0.3333333333333333,
+  "beat_agent_score": 0.625,
+  "vision_v0_rate": 1.0,
+  "vision_n": 4
+}

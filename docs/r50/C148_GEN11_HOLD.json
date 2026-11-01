@@ -1,0 +1,12 @@
+{
+  "cycle": "C148",
+  "theme": "gen11_HOLD",
+  "timestamp": "2026-10-19T03:55:17+08:00",
+  "gen11": "HOLD",
+  "seal_opened": false,
+  "gate": 0.6,
+  "gate2_3_untouched": true,
+  "reason": "heritability branch not opened; fresh>=0.99 not requested this cycle",
+  "pass": true,
+  "claim": false
+}

@@ -1,0 +1,33 @@
+# Round 2 capability update.
+# Gold answers come from the executor, copied prompt examples are dropped,
+# and an update is reverted when held-out accuracy falls.
+# consistency is agreement between two samples, not the model's yes/no.
+run_name: phase2_grounded
+model_name: e:/envolution/models/Qwen2.5-0.5B-Instruct
+seed: 0
+lora_rank: 8
+lora_alpha: 16
+max_seq_len: 384
+rounds: 2
+proposals_per_type: 1
+proposal_attempts: 3
+solver_samples: 3
+exec_timeout: 2.0
+min_learnability: 0.34
+temperature: 0.8
+max_new_code: 160
+answer_tokens: 16
+outer_lr: 0.00005
+outer_epochs: 2
+max_f1_drop: 0.34
+questions_per_passage: 5
+heldout_limit: 4
+teach_gold: true
+reject_example_copy: true
+accuracy_gate: true
+measure_consistency: true
+target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj

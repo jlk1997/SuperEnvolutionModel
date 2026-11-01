@@ -1,0 +1,153 @@
+{
+  "cycle": "C126",
+  "theme": "vision_v5_heldout_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T03:19:28+08:00",
+  "gate2_3_untouched": true,
+  "v0_v5_train_untouched": true,
+  "gen11": "HOLD",
+  "n": 12,
+  "n_ok": 12,
+  "rate": 1.0,
+  "pass": true,
+  "claim": true,
+  "vl_gate_v5_heldout_claim": true,
+  "claim_scope": "r50plus_v5_heldout_cluttered_screenshot_office_n>=10_softocr_atom_qwen35_2b",
+  "vl_weights": "models/Qwen3.5-2B",
+  "fixtures": "evo/office/fixtures/vision_images_v5_heldout",
+  "rows": [
+    {
+      "id": "v5h_01",
+      "kind": "retail",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 19.0,
+      "expected": 19.0,
+      "ocr_preview": "https://missav.ws/en/mvg-167-uncensored-leak V5H ZONE-A retail RETAIL #V5H-A1 sku X paid 7.25 sku Y open 3.00 sku Z paid 11.75 TOTAL PAID TARGET 19.00 ZONE-B noise / heldout DRAFT ignore old total 888.00 status=void mark"
+    },
+    {
+      "id": "v5h_02",
+      "kind": "lab",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 28.0,
+      "expected": 28.0,
+      "ocr_preview": "https://missav.ws/en/mvg_167_uncensored_leak V5H ZONE-A lab LAB STOCK H VIAL qty 8 ok KIT qty 14 hold PAD qty 6 ok qty_sum TARGET 28 ZONE-B noise / heldout DRAFT ignore old total 888.00 status=void marker V5H-02 backup s"
+    },
+    {
+      "id": "v5h_03",
+      "kind": "claim",
+      "metric": "approved_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 305.0,
+      "expected": 305.0,
+      "ocr_preview": "https://missav.ws/en/mvg-167-uncensored-leak V5H ZONE-A claim TRAVEL H flight 210.00 hotel 95.00 blocked 40 APPROVED TOTAL 305.00 ZONE-B noise / heldout DRAFT ignore old total 888.00 status=void marker V5H-03 backup shee"
+    },
+    {
+      "id": "v5h_04",
+      "kind": "vat",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 14.5,
+      "expected": 14.5,
+      "ocr_preview": "https://missav.ws/en/mvg-167-uncensored-leak V5H ZONE-A vat VAT H V1 8.00 paid V2 12.00 open V3 6.50 paid tax_base_paid TARGET 14.50 MAKER: GLORY QUEST Director: 小松セブンティー 14:01: GLORY QUEST ZONE-B noise / heldout DRAFT i"
+    },
+    {
+      "id": "v5h_05",
+      "kind": "grn",
+      "metric": "recv_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 14.0,
+      "expected": 14.0,
+      "ocr_preview": "https://missav.ws/en/mvg-167-uncensored-leak V5H ZONE-A grn GRN 8801 recv qty 5 recv qty 9 SUM RECV 14 status OK ZONE-B noise / heldout DRAFT ignore old total 888.00 status=void marker V5H-05 backup sheet Individual, Pro"
+    },
+    {
+      "id": "v5h_06",
+      "kind": "ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 9.0,
+      "expected": 9.0,
+      "ocr_preview": "https://missav.ws/en/mvg-167-uncensored-leak V5H ZONE-A ship SHIP H P1 7 ok P2 3 hold P3 2 ok ship_ok_qty TARGET 9 ZONE-B noise / heldout DRAFT ignore old total 888.00 status=void marker V5H-06 backup sheet Individual, P"
+    },
+    {
+      "id": "v5h_07",
+      "kind": "sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 9.0,
+      "expected": 9.0,
+      "ocr_preview": "https://missav.ws/en/mvg-167-uncensored-leak V5H ZONE-A sla SLA H S1 pri 4 open S2 pri 1 closed S3 pri 5 open open_pri_sum TARGET9 ZONE-B noise / heldout DRAFT ignore old total 888.00 status=void marker V5H-07 backup she"
+    },
+    {
+      "id": "v5h_08",
+      "kind": "expense",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 30.5,
+      "expected": 30.5,
+      "ocr_preview": "https://missav.ws/en/mvg-167-uncensored-leak V5H ZONE-A expense EXP H E1 13.00 paid E2 4.00 void E3 17.50 paid paid_total TARGET 30.50 ZONE-B noise / heldout DRAFT ignore old total 888.00 status=void marker V5H-08 backup"
+    },
+    {
+      "id": "v5h_09",
+      "kind": "po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 15.0,
+      "expected": 15.0,
+      "ocr_preview": "https://missav.ws/en/mvg-167-uncensored-leak V5H ZONE-A po PO-H91 line1 paid 4.50 line2 paid 10.50 line3 open 8.00 TOTAL PAID TARGET 15.00 ZONE-B noise / heldout DRAFT ignore old total 888.00 status=void marker V5H-09 ba"
+    },
+    {
+      "id": "v5h_10",
+      "kind": "mixed",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 14.0,
+      "expected": 14.0,
+      "ocr_preview": "https://missav.ws/en/mvg-167-uncensored-leak V5H ZONE-A mixed MIX OFFICE H A paid 5.25 B paid 8.75 C open 2.00 TOTAL PAID TARGET 14.00 ZONE-B noise / heldout DRAFT ignore old total 888.00 status=void marker V5H-10 backup"
+    },
+    {
+      "id": "v5h_11",
+      "kind": "dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 10.0,
+      "expected": 10.0,
+      "ocr_preview": "https://missav.ws/en/mvg-167-uncensored-leak V5H ZONE-A dup INVOICE #V5H-DUP paid 1.50 paid 2.50 paid 6.00 TOTAL PAID TARGET 10.00 ZONE-B noise / heldout DRAFT ignore old total 888.00 status=void marker V5H-11 backup she"
+    },
+    {
+      "id": "v5h_12",
+      "kind": "edge_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "https://missav.ws/en/mvg-167-uncensored-leak V5H ZONE-A edge_zero OPEN ONLY H X 4.00 open Y 6.00 open paid_total TARGET 0.00 ZONE-B noise / heldout DRAFT ignore old total 888.00 status=void marker V5H-12 backup sheet Ind"
+    }
+  ],
+  "note": "Claim ONLY if rate>=0.6. No fake. Gate2/3 untouched."
+}

@@ -1,0 +1,88 @@
+{
+  "cycle": "C135",
+  "theme": "u2c_sandbox_growth_money_tool",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T03:27:37+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "rows": [
+    {
+      "sid": "m01_orders",
+      "ok": true,
+      "got": 42.0,
+      "expected": 42.0,
+      "atom": "runs/u2c_sandbox_money_c135/atoms/m01_orders.json",
+      "money_tool": true
+    },
+    {
+      "sid": "m02_refunds",
+      "ok": true,
+      "got": 6.0,
+      "expected": 6.0,
+      "atom": "runs/u2c_sandbox_money_c135/atoms/m02_refunds.json",
+      "money_tool": true
+    },
+    {
+      "sid": "m03_tax",
+      "ok": true,
+      "got": 22.5,
+      "expected": 22.5,
+      "atom": "runs/u2c_sandbox_money_c135/atoms/m03_tax.json",
+      "money_tool": true
+    },
+    {
+      "sid": "m04_expense",
+      "ok": true,
+      "got": 58.0,
+      "expected": 58.0,
+      "atom": "runs/u2c_sandbox_money_c135/atoms/m04_expense.json",
+      "money_tool": true
+    },
+    {
+      "sid": "m05_mixed_cn",
+      "ok": true,
+      "got": 7.5,
+      "expected": 7.5,
+      "atom": "runs/u2c_sandbox_money_c135/atoms/m05_mixed_cn.json",
+      "money_tool": true
+    },
+    {
+      "sid": "m06_open_zero",
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "atom": "runs/u2c_sandbox_money_c135/atoms/m06_open_zero.json",
+      "money_tool": true
+    },
+    {
+      "sid": "m07_freight",
+      "ok": true,
+      "got": 40.0,
+      "expected": 40.0,
+      "atom": "runs/u2c_sandbox_money_c135/atoms/m07_freight.json",
+      "money_tool": true
+    },
+    {
+      "sid": "m08_subs",
+      "ok": true,
+      "got": 24.98,
+      "expected": 24.98,
+      "atom": "runs/u2c_sandbox_money_c135/atoms/m08_subs.json",
+      "money_tool": true
+    }
+  ],
+  "growth": {
+    "n_sessions": 8,
+    "n_ok": 8,
+    "prior_c92_sessions": 6,
+    "delta_sessions": 2,
+    "crystallized": 8,
+    "absorb_claim": false,
+    "reason": "C120 ceiling: format OK, arith unreliable — money_tool preferred; no absorb claim"
+  },
+  "rate": 1.0,
+  "pass": true,
+  "claim": false,
+  "absorb_claim": false,
+  "note": "Real sandbox sessions crystallize with money_tool. No fake LoRA absorb claim."
+}

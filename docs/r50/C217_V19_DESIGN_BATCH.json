@@ -1,0 +1,14 @@
+{
+  "cycle": "C217",
+  "theme": "vision_v19_design_batch",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T07:49:17+08:00",
+  "n": 18,
+  "fixture_dir": "evo/office/fixtures/vision_images_v19",
+  "harder_than": "v18",
+  "pass": true,
+  "claim": false,
+  "note": "fixtures only; claim deferred to C218 VL smoke",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD"
+}

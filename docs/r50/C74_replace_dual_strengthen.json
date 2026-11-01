@@ -1,0 +1,40 @@
+{
+  "kind": "r50plus_c74_replace_dual_strengthen",
+  "timestamp": "2026-10-18T23:24:10+08:00",
+  "gate": 0.6,
+  "replace_ok": true,
+  "replace_rate": 1.0,
+  "stress_rate": 1.0,
+  "bare": {
+    "ok": true,
+    "elapsed_s": 0.037469,
+    "scaffold_steps": 0,
+    "agent_graph": false,
+    "fail_rate": 0.0,
+    "steps_proxy": 6
+  },
+  "agent_sim": {
+    "ok": false,
+    "elapsed_s": 0.000677,
+    "scaffold_steps": 19,
+    "agent_graph": true,
+    "fail_rate": 0.1053,
+    "steps_proxy": 19,
+    "wrong_total": 67.1
+  },
+  "cost_ledger": {
+    "bare_steps": 6,
+    "agent_steps": 19,
+    "bare_fail_rate": 0.0,
+    "agent_fail_rate": 0.1053,
+    "bare_scaffold_steps": 0,
+    "agent_scaffold_steps": 19,
+    "step_advantage_agent_minus_bare": 13,
+    "fail_advantage_agent_minus_bare": 0.1053
+  },
+  "gate_pass": true,
+  "gpu_used": false,
+  "innovation": "Stronger bare replace + dual cost ledger without GPU stack",
+  "gate2_3_untouched": true,
+  "gen11_hold": true
+}

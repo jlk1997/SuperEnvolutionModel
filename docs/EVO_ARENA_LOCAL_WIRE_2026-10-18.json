@@ -1,0 +1,31 @@
+{
+  "kind": "evo_arena_local_wire",
+  "gate": "0.6",
+  "timestamp": "2026-10-18T19:03:59+08:00",
+  "bench_id": "evo_arena",
+  "local_path": "E:\\envolution\\data\\external_fixtures\\evo_arena_local.json",
+  "load": {
+    "ok": true,
+    "bench_id": "evo_arena",
+    "path": "E:\\envolution\\data\\external_fixtures\\evo_arena_local.json",
+    "n": 8,
+    "n_train": 4,
+    "n_eval": 4,
+    "upstream_claim": false,
+    "kind": "arena_toy"
+  },
+  "score_smoke": {
+    "ok": true,
+    "bench_id": "evo_arena",
+    "n": 4,
+    "hits": 4,
+    "rate": 1.0,
+    "gate": "0.6",
+    "pass_gate": true,
+    "upstream_claim": false,
+    "notes": "local arena_toy score only; not upstream evo_arena"
+  },
+  "upstream_claim": false,
+  "pass": true,
+  "notes": "Wired evo_arena adapter to local toy. Not upstream EvoArena."
+}

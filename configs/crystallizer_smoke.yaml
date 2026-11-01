@@ -1,0 +1,9 @@
+# CPU/GPU-agnostic smoke: promote the cleared add adapter into a capability atom.
+run_name: crystallizer_smoke
+criterion: 0.6
+atom_name: add6_mlp
+skill: add
+adapter_dir: runs/evoplast_adapter
+sites: [mlp]
+bare_rate: 1.0
+birth: 0.0

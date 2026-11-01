@@ -1,0 +1,39 @@
+{
+  "pass": true,
+  "checks": {
+    "present": true,
+    "beat_agent": true,
+    "above_schedules": true,
+    "forget": true,
+    "safety": true
+  },
+  "ci": {
+    "n": 8,
+    "mean": 0.5,
+    "low": 0.125,
+    "high": 0.875,
+    "excludes_zero": true
+  },
+  "seeds": [
+    {
+      "seed": 0,
+      "present": true,
+      "above_schedules": true,
+      "forget_ok": true,
+      "safety_ok": true
+    },
+    {
+      "seed": 1,
+      "present": true,
+      "above_schedules": true,
+      "forget_ok": true,
+      "safety_ok": true
+    }
+  ],
+  "branch": "Gate 2 passed. Open one sealed pack and measure transfer.",
+  "ceiling_tie": false,
+  "dual_rate": 0.625,
+  "agent_rate": 0.125,
+  "informative": true,
+  "gate2_claim": true
+}

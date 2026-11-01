@@ -1,0 +1,155 @@
+{
+  "kind": "mid_n_observational",
+  "gate": "0.6",
+  "run_name": "office_gate2_mid_n_dual",
+  "config": "configs/office_gate2_mid_n_dual.yaml",
+  "model": "e:/envolution/models/Qwen2.5-1.5B-Instruct",
+  "timestamp": "2026-10-18T11:43:18+08:00",
+  "restart_after_hang": true,
+  "restart_at": "2026-10-18T10:16:37+08:00",
+  "finished_at": "2026-10-18T11:43:18+08:00",
+  "gate2_already_claimed": true,
+  "gate2_claim": false,
+  "write_gate": false,
+  "observational_only": true,
+  "notes": "Power/CI sketch only. Gate2 already claimed from full slate 2026-10-17. Narrowed required_arms=[dual,agent] so above_schedules is false (no shift/continual) — expected, not a Gate2 reopen. Original n~48 hung overnight; RESTART steps=16 seeds=[0,1]. Never reopen burned seals.",
+  "design": {
+    "steps": 16,
+    "seeds": [
+      0,
+      1
+    ],
+    "arms": [
+      "dual",
+      "agent"
+    ],
+    "required_arms": [
+      "dual",
+      "agent"
+    ],
+    "families": [
+      "table",
+      "report",
+      "file"
+    ],
+    "power_min_n": 24,
+    "power_required_n": 160,
+    "power_target": 0.8,
+    "power_p_new": 0.65,
+    "power_p_base": 0.45
+  },
+  "rates": {
+    "dual_rate": 0.8125,
+    "agent_rate": 0.125,
+    "per_seed": {
+      "0": {
+        "dual": 0.875,
+        "agent": 0.25
+      },
+      "1": {
+        "dual": 0.75,
+        "agent": 0.0
+      }
+    }
+  },
+  "ci": {
+    "n": 16,
+    "mean": 0.6875,
+    "low": 0.4375,
+    "high": 0.875,
+    "excludes_zero": true
+  },
+  "checks": {
+    "present": true,
+    "beat_agent": true,
+    "above_schedules": false,
+    "forget": true,
+    "safety": true
+  },
+  "pass_formal_gate2": false,
+  "pass_observational_power": {
+    "beat_agent": true,
+    "ci_excludes_zero": true,
+    "informative": true,
+    "dual_gt_agent": true,
+    "n_exam_paired": 16,
+    "below_power_min_n_24": true,
+    "below_design_n_160": true,
+    "below_required_n_800": true,
+    "verdict": "STRONG signal dual>>agent with tighter CI than n=8 slate; still underpowered vs preregistered n~160/800. Observational PASS for power sketch; NO new Gate2 claim."
+  },
+  "runtime_judge": {
+    "pass": false,
+    "checks": {
+      "present": true,
+      "beat_agent": true,
+      "above_schedules": false,
+      "forget": true,
+      "safety": true
+    },
+    "ci": {
+      "n": 16,
+      "mean": 0.6875,
+      "low": 0.4375,
+      "high": 0.875,
+      "excludes_zero": true
+    },
+    "seeds": [
+      {
+        "seed": 0,
+        "present": true,
+        "above_schedules": false,
+        "forget_ok": true,
+        "safety_ok": true
+      },
+      {
+        "seed": 1,
+        "present": true,
+        "above_schedules": false,
+        "forget_ok": true,
+        "safety_ok": true
+      }
+    ],
+    "branch": "Gate 2 did not pass. Fix the failing check before opening a sealed pack.",
+    "ceiling_tie": false,
+    "dual_rate": 0.8125,
+    "agent_rate": 0.125,
+    "informative": true,
+    "gate2_claim": false,
+    "power": {
+      "n": 16,
+      "power": 0.025,
+      "required_n": 800
+    }
+  },
+  "evidence": {
+    "summaries": [
+      "runs/office_gate2_mid_n_dual_s0/20261018-105958/summary.json",
+      "runs/office_gate2_mid_n_dual_s1/20261018-114219/summary.json"
+    ],
+    "log_out": "runs/logs/office_gate2_mid_n_dual_out.log",
+    "log_err": "runs/logs/office_gate2_mid_n_dual_err.log",
+    "pid": "runs/logs/office_gate2_mid_n_dual_pid.txt",
+    "config": "configs/office_gate2_mid_n_dual.yaml",
+    "prior_gate2_claim": "docs/GATE2_OFFICE_JUDGE_2026-10-17.json"
+  },
+  "compare_to_full_slate": {
+    "full_slate_dual_rate": 0.625,
+    "full_slate_agent_rate": 0.125,
+    "full_slate_ci": {
+      "n": 8,
+      "mean": 0.5,
+      "low": 0.125,
+      "high": 0.875
+    },
+    "mid_n_dual_rate": 0.8125,
+    "mid_n_agent_rate": 0.125,
+    "mid_n_ci": {
+      "n": 16,
+      "mean": 0.6875,
+      "low": 0.4375,
+      "high": 0.875,
+      "excludes_zero": true
+    }
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "cycle": "C685",
+  "theme": "vision_v96_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T03:48:19+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7302.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v96h_01",
+      "kind": "cedarridge_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 662.75,
+      "expected": 662.75,
+      "ocr_preview": "cedarridge CEDARRIDGE GRAIN RECEV V9%H a paid 325.00 b paid 337.75 c open 218.00 TOTAL PAID TARGET 662.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v96h_02",
+      "kind": "duskgrove_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 600.0,
+      "expected": 600.0,
+      "ocr_preview": "duskgrove WH DUSKGROVE BIN V96H SKU1 qty 280 ok SKU2 qty 200 hold SKU3 qty 320 ok qty_sum TARGET 600 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v96h_03",
+      "kind": "elmcreek_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 579.5,
+      "expected": 579.5,
+      "ocr_preview": "elmcreek ELMCREEK PATCH REFUND V96H itemR1 283.00 done itemR2 296.50 done itemR3 206.00 open refund_done TARGET 579.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v96h_04",
+      "kind": "firgrove_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 812.0,
+      "expected": 812.0,
+      "ocr_preview": "firgrove FIRGROVE TAX SLIP V96H base 398.00 paid addon 414.00 paid skip 247.00 tax_base_paid TARGET 812.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v96h_05",
+      "kind": "gorsecreek_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 894.0,
+      "expected": 894.0,
+      "ocr_preview": "gorsecreek GORSECREEK PAYROLL V96H empA 439.00 active empB 455.00 active empC 242.00 leave payroll_active TARGET 894.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v96h_06",
+      "kind": "hazelgrove_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 480.0,
+      "expected": 480.0,
+      "ocr_preview": "hazelgrove HAZELGROVE SHIP DOCK V96H box1 233 ok box2 247 ok box3 211 hold ship_ok TARGET 480 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY"
+    },
+    {
+      "id": "v96h_07",
+      "kind": "ironcreek_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 576.5,
+      "expected": 576.5,
+      "ocr_preview": "ironcreek IRONCREEK SLA CARD V96H job1 291.00 hours ok job2 285.50 hours ok job3 212.00 hours late sla_ok_hours TARGET 576.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v96h_08",
+      "kind": "jadegrove_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 639.75,
+      "expected": 639.75,
+      "ocr_preview": "jadegrove JADEGROVE EXPENSE V96H e1 309.00 e2 330.75 e3 218.00 void exp_sum TARGET 639.75 OKP bait 80.00 STICKY bait 80.00 IGNORE DRAFT DRAFT DRAFT VOID EXP COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V96H C855 clarity four peg_052 photo2 testout"
+    },
+    {
+      "id": "v96h_09",
+      "kind": "kelpcreek_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 646.0,
+      "expected": 646.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 kelpcreek KELP CREEK PO SHEET V96H line1 329.00 open line2 317.00 open line3 221.00 closed po_open TARGET 646.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE VOID PO COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V96H C855 clarity four peg_0502 photo2 testout"
+    },
+    {
+      "id": "v96h_10",
+      "kind": "larkgrove_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 698.0,
+      "expected": 698.0,
+      "ocr_preview": "larkgrove LARKGROVE ORDER V190H skuA 356.00 paid skuB 342.00 paid skuC 213.00 due order_paid TARGET 698.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v96h_11",
+      "kind": "mosscreek_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "mosscreek MOSSCREEK DUP MARK V96H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v96h_12",
+      "kind": "northgrove_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "northgrove NORTHGROVE AIR ZERO V16H 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v96h_13",
+      "kind": "oakcreek_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 797.5,
+      "expected": 797.5,
+      "ocr_preview": "oakcreek OAKCREEK LEDGER V96H dr 391.00 cr 406.50 adj 228.00 ledger_net TARGET 797.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v96h_14",
+      "kind": "peatgrove_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "peatgrove PEATGROVE UI SCAN V96H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v96h_15",
+      "kind": "quillcreek_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 267.0,
+      "expected": 267.0,
+      "ocr_preview": "quillcreek QUILLCREEK STACK V96H p1 135 p2 132 p3 127 stack_count TARGET 267 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v96h_16",
+      "kind": "reedgrove_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 296.0,
+      "expected": 296.0,
+      "ocr_preview": "reedgrove REEDGROVE FAX V96H pgA 151 pgB 145 pgC 133 drop fax_pages TARGET 296 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v96h_17",
+      "kind": "stonecreek_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "stonecreek STONECREEK GLARE V96H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v96h_18",
+      "kind": "thundergrove_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 316.0,
+      "expected": 316.0,
+      "ocr_preview": "thundergrove THUNDERGROVE TAB INDEX V96H tabA 161 tabB 155 tabC 134 tab_index TARGET 316 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY tab 88.00 bait 88.00 bait 555.00 V96H C855 clarity four peg_152 photo2 testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v96_heldout_claim": true,
+  "claim_scope": "r50plus_v96_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

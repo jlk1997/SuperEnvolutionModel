@@ -1,0 +1,84 @@
+{
+  "cycle": "C128",
+  "theme": "real_screenshot_office_tasks_money_tool",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T03:22:14+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "use_vl": true,
+  "gpu_free_mib": 7241.0,
+  "n": 6,
+  "n_ok": 6,
+  "rate": 1.0,
+  "pass": true,
+  "claim": false,
+  "rows": [
+    {
+      "id": "rs_cafe",
+      "ok": true,
+      "paid_got": 8.0,
+      "paid_expected": 8.0,
+      "money_tool": true,
+      "capture_ok": true,
+      "use_vl": true,
+      "ocr_preview": "CAFE RECEIPT H CAFE #441 latte paid 4.50 muffin open 3.00 tea paid 3.50 TOTAL PAID TARGET 8.00 新建 Bot 接着打 V5 heldout, 并把金额工... 技术总监 两百轮长跑到了（账本 R001-R2... 财务总监 财",
+      "errors": []
+    },
+    {
+      "id": "rs_parts",
+      "ok": true,
+      "paid_got": 4.0,
+      "paid_expected": 4.0,
+      "money_tool": true,
+      "capture_ok": true,
+      "use_vl": true,
+      "ocr_preview": "PARTS TICKET H PARTS 902 bolt paid 2.25 nut paid 1.75 科研导师 washer open 0.50 科研... TOTAL PAID TARGET 4.00 新建 Bot 接着打 V5 heldout，并把金额工... 技术总监 两百轮长跑到了（账本 R001-R2.",
+      "errors": []
+    },
+    {
+      "id": "rs_consult",
+      "ok": true,
+      "paid_got": 160.0,
+      "paid_expected": 160.0,
+      "money_tool": true,
+      "capture_ok": true,
+      "use_vl": true,
+      "ocr_preview": "CONSULT INV H CONSULT hour1 paid 80.00 hour2 paid 80.00 travel open 20.00 TOTAL PAID TARGET 160.00 新建 Bot 接着打 V5 heldout，并把金额工... 技术总监 两百轮长跑到了（账本 R001-R2... 财务总",
+      "errors": []
+    },
+    {
+      "id": "rs_subs",
+      "ok": true,
+      "paid_got": 24.98,
+      "paid_expected": 24.98,
+      "money_tool": true,
+      "capture_ok": true,
+      "use_vl": true,
+      "ocr_preview": "SUBS LEDGER H SUBS > .backend_venv planA paid 9.99 planB paid 14.99 trial open 0.00 TOTAL PAID TARGET 24.98 > apps > deploy > dist bityin-connector.zip docs lan",
+      "errors": []
+    },
+    {
+      "id": "rs_zero",
+      "ok": true,
+      "paid_got": 0.0,
+      "paid_expected": 0.0,
+      "money_tool": true,
+      "capture_ok": true,
+      "use_vl": true,
+      "ocr_preview": "OPEN QUEUE H OPEN ONLY 维度: iPhone 16 393 x 852 适应窗口大小 无限制 “Sav ticket 12.00 open ticket 8.00 open paid_total TARGET 0.00 比特音 舒缓 已按你的状态调好: 85-110 BPM · 中性 用这个情绪生",
+      "errors": []
+    },
+    {
+      "id": "rs_freight",
+      "ok": true,
+      "paid_got": 50.0,
+      "paid_expected": 50.0,
+      "money_tool": true,
+      "capture_ok": true,
+      "use_vl": true,
+      "ocr_preview": "FREIGHT H FREIGHT 维度: iPhone 16 ▼ 393 x 852 适应窗口大小 无限制 leg1 paid 33.00 leg2 paid 17.00 hold open 5.00 TOTAL PAID TARGET 50.00 比特音 写一句试试;生成前需要登录 登 一句话出歌 帮我创作一首雨天",
+      "errors": []
+    }
+  ],
+  "note": "Desktop blend panels + money_tool sums. VL used only if GPU free>=2500."
+}

@@ -1,0 +1,18 @@
+{
+  "cycle": "C143-C148",
+  "timestamp": "2026-10-19T03:55:17+08:00",
+  "STAGE_READY": true,
+  "gate": 0.6,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "v7_design_n": 16,
+  "v7_rate": 0.75,
+  "v7_n_ok": 12,
+  "v7_claim": true,
+  "confidence_wired": true,
+  "confidence_rate": 1.0,
+  "day_in_life": true,
+  "day_total": 219.5,
+  "scorecard_composite": 0.9833,
+  "pass": true
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "vision_gate_v17_claim",
+  "timestamp": "2026-10-19T07:23:00+08:00",
+  "vl_gate_v17_claim": true,
+  "rate": 1.0,
+  "n": 18,
+  "n_ok": 18,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v17_oil_frost_ink_carbon_staple_fold_uv_n>=16_c162_parse_qwen35_2b_c203",
+  "gate2_3_untouched": true,
+  "v0_v16_untouched": true,
+  "gen11": "HOLD",
+  "cycle": "C203"
+}

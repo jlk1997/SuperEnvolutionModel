@@ -1,0 +1,232 @@
+{
+  "cycle": "C261",
+  "theme": "vision_v26_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T10:06:23+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7663.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v26_01",
+      "kind": "hl_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 91.5,
+      "expected": 91.5,
+      "ocr_preview": "荧光笔污收据 HIGHLIGHTER BLEED RECV V26 a paid 44.00 b paid 47.50 c open 13.00 TOTAL PAID TARGET 91.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v26_02",
+      "kind": "crumple_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 81.0,
+      "expected": 81.0,
+      "ocr_preview": "WH CRUMPLE CORNER V26 SKU1 qty 39 ok SKU2 qty 18 hold SKU3 qty 43 ok qty_sum TARGET 81 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v26_03",
+      "kind": "rubber_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 52.75,
+      "expected": 52.75,
+      "ocr_preview": "橡皮筋退款 RUBBER BAND REFUND V26 ItemR1 25.00 done ItemR2 27.75 done ItemR3 11.00 open refund_done TARGET 52.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v26_04",
+      "kind": "clip_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 156.0,
+      "expected": 156.0,
+      "ocr_preview": "回形针税基 TAX PAPERCLIP SHADOW V26 T1 68.00 paid T2 35.00 open T3 68.00 paid tax_base_paid TARGET 156.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v26_05",
+      "kind": "grease_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2680.0,
+      "expected": 2680.0,
+      "ocr_preview": "油渍工资 PAYROLL GREASE SMEAR V26 A 1300 active B 260 active C 1300 active payroll_active TARGET 2680 DRAFT DRAFT DRAFT DRAFT V26 CBS0 daily new (pic_60 photo2_77) (pan) (baye) (GRC) (u) (File) (C) (u) (n) (Turn) (2) (G) (Com) (b) (a) (r) (c) (o) (m) (i) (n) (R) (i) (n) MUG PEN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 BARCODE bait 123 40"
+    },
+    {
+      "id": "v26_06",
+      "kind": "carbon_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 71.0,
+      "expected": 71.0,
+      "ocr_preview": "复写发货 SHIP CARBON COPY V26 P1 35 ok P2 19 Roid P3 35 ok ship_ok_qty TARGET 71 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v26_07",
+      "kind": "stamp_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 67.0,
+      "expected": 67.0,
+      "ocr_preview": "SCAN DESK V26 BAST 133.00 PAGE 01 品章SLA SLA STAMP OVERLAP V26 S1 pr 28 open S2 pr 31 closed S3 pr 39 open open_pri_sum TARGET 67 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v26_08",
+      "kind": "pocket_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 118.25,
+      "expected": 118.25,
+      "ocr_preview": "折袋报销 EXPENSE FOLDED POCKET V26 E1 58.00 paid E2 22.00 void E3 60.25 paid paid_total TARGET 118.25 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v26_09",
+      "kind": "dust_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 88.0,
+      "expected": 88.0,
+      "ocr_preview": "灰尘采购 DUST SPECKLE V26 ItemA paid 42.00 ItemB paid 46.00 ItemC paid 15.00 TOTAL PAID TARGET 88.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v26_10",
+      "kind": "binder_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 76.5,
+      "expected": 76.5,
+      "ocr_preview": "装订孔订单 ORDER BINDER HOLE V26 A paid 37.00 B paid 39.50 C open 12.00 TOTAL PAID TARGET 76.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v26_11",
+      "kind": "perf_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 99.0,
+      "expected": 99.0,
+      "ocr_preview": "齿孔重复 INVOICE #V26-PERF line paid 33.00 line paid 33.00 line paid 33.00 TOTAL PAID TARGET 99.00 DRAFT DRAFT DRAFT DRAFT COPY VOID RECV V26 CB00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "id": "v26_12",
+      "kind": "polaroid_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "SCAN DESK V26 BAST 133.00 PAGE 01 宝丽未付 OPEN ONLY V26 X 64.00 open Y 67.00 open paid_total TARGET 0.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v26_13",
+      "kind": "wb_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 66.25,
+      "expected": 66.25,
+      "ocr_preview": "白板反光台账 LEDGER WHITEBOARD GLARE V26 rA paid 32.00 rB paid 34.25 rC open 9.00 TOTAL PAID TARGET 66.25 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v26_14",
+      "kind": "sticky_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 71.0,
+      "expected": 71.0,
+      "ocr_preview": "便利贴窗口 STICKY NOTE COVER V26 alpha paid 34.50 beta paid 36.50 gamma paid 12.00 TOTAL PAID TARGET 71.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v26_15",
+      "kind": "pen_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 104.5,
+      "expected": 104.5,
+      "ocr_preview": "SCAN DESK V26 BEST 133.00 PAGE 01 笔迹下划线堆单 HEAVY PEN UNDERLINE V26 x paid 51.00 usd y paid 58.50 usd z open 18.00 usd TOTAL PAID TARGET 104.50 MUG PEN DRAFT DRAFT DRAFT DRAFT V26 CBS0 daily four.jpg_60 photo2_77(pan)3bayeGRC.uFfFile:Clux(4h)Tm2ZgComb(4)Barcode)hore/Reps V26 CBS0 daily four.jpg_60 photo2_77(pan)3bayeGRC.uFfFile:Clux(4h)Tm2ZgComb(4)Barcode"
+    },
+    {
+      "id": "v26_16",
+      "kind": "fax_mix",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 63.5,
+      "expected": 63.5,
+      "ocr_preview": "传真头中英 CN-EN FAX HEADER V26 tea paid 31.00 rice paid 32.50 soup open 10.00 TOTAL PAID TARGET 63.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v26_17",
+      "kind": "env_win",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 79.0,
+      "expected": 79.0,
+      "ocr_preview": "SCAN DESK V26 BAST 133.00 PAGE 01 信封窗双栏 ENVELOPE WINDOW V26 w1 paid 38.00 w2 paid 41.00 w3 open 10.00 TOTAL PAID TARGET 79.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v26_18",
+      "kind": "laminate_foot",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 48.75,
+      "expected": 48.75,
+      "ocr_preview": "SCAN DESK V26 BAST 133.00 PAGE 01 LAMINATE SHINE FOOT V26 p1 paid 23.50 p2 paid 55.25 p3 open 8.00 TOTAL PAID TARGET 48.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    }
+  ],
+  "vl_gate_v26_claim": true,
+  "claim_scope": "r50plus_v26_hl_crumple_rubber_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 58,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V26 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

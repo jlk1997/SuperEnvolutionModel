@@ -1,0 +1,35 @@
+# Stack with attention+MLP. fit_sites forces attn even when the hand genome rates it under the floor.
+# Qwen2.5-1.5B. Learn addition, then a hard affine second skill.
+# second_kind=affine auto-picks (a,b) with birth < 0.5. Gate competence stays 0.6.
+run_name: evoplast_fit_stack_attn
+stage: m0
+actor: model
+seed: 0
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: attn_mlp
+max_seq_len: 256
+max_new_code: 24
+skill: stack
+second_kind: affine
+second_affines:
+  - [3, 17]
+  - [4, 13]
+  - [5, 9]
+  - [7, 11]
+  - [3, 23]
+  - [8, 19]
+  - [6, 29]
+teach: 8
+exam: 4
+rounds: 1
+fit_epochs: 4
+second_phase: solo
+solo_epochs: 10
+fit_sites:
+  - attn
+  - mlp
+adapter_dir: runs/evoplast_adapter
+write: true

@@ -1,0 +1,237 @@
+{
+  "cycle": "C781",
+  "theme": "vision_v112_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T07:00:20+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v112h_01",
+      "kind": "kelpmere_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 954.75,
+      "expected": 954.75,
+      "ocr_preview": "kelpmere KELPMERE GRAIN RECV V112H a paid 471.00 b paid 483.75 c open 364.00 TOTAL PAID TARGET 954.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID REC COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.0"
+    },
+    {
+      "id": "v112h_02",
+      "kind": "lunarmere_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 892.0,
+      "expected": 892.0,
+      "ocr_preview": "SCAN DESK V43H PAGE 01 lunarmere WH LUNARMERE BIN V112H SKU1 qty 426 ok SKU2 qty 346 hold SKU3 qty 466 ok qty_sum TARGET 892 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V112H C781 startly floor (jpeg_q02 photo2 testout)"
+    },
+    {
+      "id": "v112h_03",
+      "kind": "marlinmere_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 871.5,
+      "expected": 871.5,
+      "ocr_preview": "SCAN DESK V43H PART 222.00 PAGE 01 marlinmere MARLINMERE PATCH REFUND V112H itemR1 429.00 done itemR2 442.50 done itemR3 352.00 open refund_done TARGET 871.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID DONE COPY bait 88.00 bait 555.00 V112H C781 starty floor (pag_012 photo2 testout"
+    },
+    {
+      "id": "v112h_04",
+      "kind": "nimbusmere_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1104.0,
+      "expected": 1104.0,
+      "ocr_preview": "nimbusmere NIMBUSMERE TAX SLIP V112H base 544.00 paid addon 560.00 paid skip 393.00 tax_base_paid TARGET 1104.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v112h_05",
+      "kind": "ottermere_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1186.0,
+      "expected": 1186.0,
+      "ocr_preview": "ottermere OTTERMERE PAYROLL V112H empA 585.00 active empB 601.00 active empC 388.00 leave payroll_active TARGET 1186.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v112h_06",
+      "kind": "prismmere_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 772.0,
+      "expected": 772.0,
+      "ocr_preview": "prismmere PRISMERE SHIP DOCK V112H box1 379 ok box2 393 ok box3 357 hold ship_ok TARGET 772 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP bait 88.00 bait 88.00 COPY V112H C781 starty floor (peg_02 photo2 testout"
+    },
+    {
+      "id": "v112h_07",
+      "kind": "quarrymere_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "quarrymere QUARRYMERE SLA CARD V112H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 DRAFT DRAFT DRAFT DRAFT STICKY sla 80.00 IGNORE VOID COPY OKP sla 80.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V112H C781 starty floor (jpeg_012 photo/2 testout"
+    },
+    {
+      "id": "v112h_08",
+      "kind": "reefmere_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 931.75,
+      "expected": 931.75,
+      "ocr_preview": "reefmere REEF MERE EXPENSE V112H e1 455.00 e2 476.75 e3 364.00 void exp_sum TARGET 931.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v112h_09",
+      "kind": "siltmere_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 938.0,
+      "expected": 938.0,
+      "ocr_preview": "SCAN DESK V43H PART 222.00 PAGE 01 siltmere SILTMERE PO SHEET V112H line1 475.00 open line2 463.00 open line3 367.00 closed po_open TARGET 938.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 98.00 IGNORE VOID PO COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V112H C781 starty floor (jpeg_012 photo2 testout"
+    },
+    {
+      "id": "v112h_10",
+      "kind": "tornmere_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 990.0,
+      "expected": 990.0,
+      "ocr_preview": "tornmere TORNMERE ORDER V112H skuA 502.00 paid skuB 488.00 paid skuC 359.00 due order_paid TARGET 990.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE ORD bait 99.00 VOID COPY V112H C781 start fly (pag_02 photo2 testout)"
+    },
+    {
+      "id": "v112h_11",
+      "kind": "uplandmere_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "uplandmere UPLANDMERE DUP MARK V112H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v112h_12",
+      "kind": "valemere_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "valemere VALEMERE AIR ZERO V112H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v112h_13",
+      "kind": "weldmere_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1089.5,
+      "expected": 1089.5,
+      "ocr_preview": "weldmere WELDMERE LEDGER V112H dr 537.00 cr 562.50 adj 374.00 ledger_net TARGET 1089.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v112h_14",
+      "kind": "xenonmere_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "xenonmere XENONMERE UI SCAN V112H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v112h_15",
+      "kind": "yelkmere_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 471.0,
+      "expected": 471.0,
+      "ocr_preview": "yelkmere YELKMERE STACK V112H p1 237 p2 234 p3 229 stack_count TARGET 471 STICKY bait 88.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT STK VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 b"
+    },
+    {
+      "id": "v112h_16",
+      "kind": "zestmere_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 500.0,
+      "expected": 500.0,
+      "ocr_preview": "zestmere ZESTMERE FAX V112H pgA 253 pgB 247 pgC 235 drop fax_pages TARGET 500 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v112h_17",
+      "kind": "archmere_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "archmere ARCHMERE GLARE V112H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY archmere ARCHMERE GLARE V112H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY "
+    },
+    {
+      "id": "v112h_18",
+      "kind": "bloommere_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "bloommere BLOOMMERE TAB INDEX V112H tabA 263 tabB 257 tabC 236 tab_index TARGET 520 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE TAB VOID COPY V112H C781 startly floor (jpeg_q02 photo/2 testout)"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v112_heldout_claim": true,
+  "claim_scope": "r50plus_v112_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

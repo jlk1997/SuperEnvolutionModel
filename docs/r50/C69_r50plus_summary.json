@@ -1,0 +1,22 @@
+{
+  "kind": "r50plus_c69_summary",
+  "timestamp": "2026-10-18T23:04:32+08:00",
+  "gate": 0.6,
+  "cycles": "C65-C69",
+  "heldout_n": 10,
+  "heldout_rate": 1.0,
+  "heldout_claim": true,
+  "lora_vs_bare": {
+    "bare": 1.0,
+    "lora": 0.9,
+    "delta": -0.1
+  },
+  "replace_agent_score": 1.0,
+  "stress_rate": 1.0,
+  "gen11_seal_opened": false,
+  "gen11_decision": "HOLD",
+  "composite": 1.0,
+  "gate2_3_untouched": true,
+  "v1_v2_smoke_claims_untouched": true,
+  "git_hash_at_write": "b987df2"
+}

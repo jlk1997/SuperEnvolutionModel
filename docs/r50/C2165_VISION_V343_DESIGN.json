@@ -1,0 +1,28 @@
+{
+  "cycle": "C2165",
+  "theme": "vision_v343_design_and_batch",
+  "gate": 0.6,
+  "timestamp": "2026-10-29T15:49:33+08:00",
+  "n": 18,
+  "fixture_dir": "evo/office/fixtures/vision_images_v343",
+  "protocol": "docs/蚁算_VL_GATE_V343_PROTOCOL.md",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V343 keeps floor"
+  },
+  "vl_gate_v343_claim": false,
+  "pass": true,
+  "claim": false,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "note": "C2165 design+fixtures; no VL claim"
+}

@@ -1,0 +1,237 @@
+{
+  "cycle": "C493",
+  "theme": "vision_v64_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T12:42:26+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7502.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v64h_01",
+      "kind": "alpinepeak_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 310.25,
+      "expected": 310.25,
+      "ocr_preview": "alpinepeak ALPINEPEAK GRAIN RECE V64H a paid 148.00 b paid 162.25 c open 75.00 TOTAL PAID TARGET 316.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v64h_02",
+      "kind": "birchgrove_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 252.0,
+      "expected": 252.0,
+      "ocr_preview": "birchgrove WH BIRCHGROVE BN V64H SKU1 qty 113 ok SKU2 qty 82 hold SKU3 qty 139 ok qty_sum TARGET 252 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v64h_03",
+      "kind": "cedarcrest_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 232.75,
+      "expected": 232.75,
+      "ocr_preview": "cedarcrest CEDARCREST PATCH REFUND V64H itemR1 109.00 done itemR2 123.75 done itemR3 63.00 open refund_done TARGET 232.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v64h_04",
+      "kind": "dawnchorus_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 399.0,
+      "expected": 399.0,
+      "ocr_preview": "dawnchorus DAWNCHORUS TAX SLIP V64H base 192.00 paid addon 207.00 paid skip 101.00 tax_base_paid TARGET 399.00 VOID WIN IGNORE old total 888.00 do not parse balt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 99.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v64h_05",
+      "kind": "emberglow_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 479.0,
+      "expected": 479.0,
+      "ocr_preview": "emberglow EMBERGLOW PAYROLL V64H empA 232.00 active empB 247.00 active empC 96.00 leave payroll_active TARGET 479.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE PAY VOID COPY bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00"
+    },
+    {
+      "id": "v64h_06",
+      "kind": "flintstone_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 193.0,
+      "expected": 193.0,
+      "ocr_preview": "flintstone FLINTSTONE SHIP DOCK V64H box1 90 ok box2 103 ok box3 68 hold ship_ok TARGET 193 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE SHIP VOID COPY SCAN DESK V43H BASC 222.00 PAGE 01 box1 90 ok box2 103 ok box3 68 hold ship_ok TARGET 193 VOID WIN IGNORE old total 888.00 do not parse bait 555.0"
+    },
+    {
+      "id": "v64h_07",
+      "kind": "granitepeak_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 230.75,
+      "expected": 230.75,
+      "ocr_preview": "granitepeak GRANITEPEAK SLA CARD VI4H job1 117.00 hours ok job2 113.75 hours ok job3 69.00 hours late sla_ok_hours TARGET 230.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 b"
+    },
+    {
+      "id": "v64h_08",
+      "kind": "harborlight_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 284.25,
+      "expected": 284.25,
+      "ocr_preview": "harborlight HARBORLIGHT EXPENSE V64H e1 134.00 e2 150.25 e3 75.00 void exp_sum TARGET 284.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait"
+    },
+    {
+      "id": "v64h_09",
+      "kind": "ivorytower_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 296.0,
+      "expected": 296.0,
+      "ocr_preview": "ivorytower IVORYTOWER PO SHEET V64H line1 154.00 open line2 142.00 open line3 78.00 closed po_open TARGET 296.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE VOID PO COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v64h_10",
+      "kind": "juniperhill_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 349.25,
+      "expected": 349.25,
+      "ocr_preview": "SCAN DESK V43H BAST 222-00 PAGE 01 juniperhill JUNIPERHILL ORDER V64H skuA 180.00 paid skuB 169.25 paid skuC 70.00 due order_paid TARGET 349.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY ORD"
+    },
+    {
+      "id": "v64h_11",
+      "kind": "kelpforest_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "kelpforest KELPFOREST DUP MARK V64H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP VOID COPY"
+    },
+    {
+      "id": "v64h_12",
+      "kind": "lunarscape_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "lunarscape LUNARSCAPE AIR ZERO V64H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v64h_13",
+      "kind": "mossgarden_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 440.75,
+      "expected": 440.75,
+      "ocr_preview": "mossgarden MOSSGARDEN LEDGER V64H dr 212.00 cr 228.75 adj 85.00 ledger_net TARGET 440.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v64h_14",
+      "kind": "northridge_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "northridge NORTHIDGE UI SCAN V64H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v64h_15",
+      "kind": "opalstream_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 45.0,
+      "expected": 45.0,
+      "ocr_preview": "opalstream OPALSTREAM STACK V64H p1 24 p2 21 p3 16 stack_count TARGET 45 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT STK VOID COPY opalstream CH48 clarity four peg_peg2 photol testout"
+    },
+    {
+      "id": "v64h_16",
+      "kind": "pineforest_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 72.0,
+      "expected": 72.0,
+      "ocr_preview": "pineforest PINEFOREST FAX V64H pgA 39 pgB 33 pgC 22 drop fax_pages TARGET 72 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 OKP bait 88.00 OPEN CH480 clearly four pag_012 photod2 textout"
+    },
+    {
+      "id": "v64h_17",
+      "kind": "quartzvein_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "quartzvein QUARTZVEIN GLARE V64H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v64h_18",
+      "kind": "redwoodbark_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 89.0,
+      "expected": 89.0,
+      "ocr_preview": "redwoodbark REDWOODBARK TAB INDEX V64H tabA 47 tabB 42 tabC 23 tab_index TARGET 89 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 8"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v64_heldout_claim": true,
+  "claim_scope": "r50plus_v64_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

@@ -1,0 +1,232 @@
+{
+  "cycle": "C540",
+  "theme": "vision_v72_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T20:38:22+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7424.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v72_01",
+      "kind": "ultramarine_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 640.5,
+      "expected": 640.5,
+      "ocr_preview": "ultramarine ULTRAMARINE GRAIN RECEV V72 a paid 312.00 b paid 358.50 c open 155.00 TOTAL PAID TARGET 640.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v72_02",
+      "kind": "verdantglen_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 546.0,
+      "expected": 546.0,
+      "ocr_preview": "verdantglen WH VERDANTGLEN BIN V72 SKU1 qty 259 ok SKU2 qty 175 hold SKU3 qty 287 ok qty_sum TARGET 546 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v72_03",
+      "kind": "windwardbay_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 509.25,
+      "expected": 509.25,
+      "ocr_preview": "windwardbay WINDWARDBAY PATCH REFUND V72 ItemR1 243.00 done ItemR2 666.25 done ItemR3 133.00 open refund_done TARGET 509.25 DRAFT WATERMARK COPY TAPE R23 bait 12.12 GR 189.27.77 VOID OVEN COPY PEN MUG DO NOT SCAN OVERLAP LABEL bait 32. VCHO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 503.00 FAX 123.17 BARCODE bait 123.40 SCAN DESK "
+    },
+    {
+      "id": "v72_04",
+      "kind": "xanadupass_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 750.0,
+      "expected": 750.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 xanadupass XANADUPASS TAX SLIP V72 base 366.00 paid addon 364.00 paid skip 207.00 tax_base_paid TARGET 750.00 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.12.35 GR 18.12.77 VOID COPY OVEN DO NOT SCAN FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222.22 TRACK: MUG 645 MUG PEN OVERLAP LABEL BAIT 327 VOD WIN IGNORE old "
+    },
+    {
+      "id": "v72_05",
+      "kind": "yellowstone_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 882.0,
+      "expected": 882.0,
+      "ocr_preview": "yellowstone YELLOWSTONE PAYROLL V72 empB 429.00 active empB 453.00 active empC 193.00 leave payroll_active TARGET 882.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v72_06",
+      "kind": "zincplateau_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 422.0,
+      "expected": 422.0,
+      "ocr_preview": "zincplateau ZINCPLATEAU SHIP DOCK V72 box1 203 ok box2 278 ok box3 151 hold ship_ok TARGET 422 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v72_07",
+      "kind": "ashenridge_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 521.5,
+      "expected": 521.5,
+      "ocr_preview": "ashenridge ASHENRIDGE SLA CARD V72 job1 265.00 hours ok job2 256.50 hours ok job3 138.00 hours late sla_ok_hours TARGET 521.50 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v72_08",
+      "kind": "bluemistcliff_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 583.75,
+      "expected": 583.75,
+      "ocr_preview": "bluemistcliff BLUEMISTCLIFF EXPENSE V72 e1 227.00 e2 306.75 e3 157.00 void exp_sum TARGET 583.75 FAX HEADER BAIT 88.88 FROM:SPOTF SHOP LABEL BAIT 222-22 TRAP: MUG-645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOD WIN IGNORE old total 999.00 do not parse baits 666.00 PHONE SHADOW baits 503.00 FAX HEADER BAIT 123-127 BARCODE bait 123.40 DRAFT WATERMARK COPY D"
+    },
+    {
+      "id": "v72_09",
+      "kind": "coralhaven_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 605.0,
+      "expected": 605.0,
+      "ocr_preview": "coralhaven CORALHAVEN PO SHEET V72 line1 311.00 open line2 254.00 open line3 166.00 closed po_open TARGET 605.00 FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222-22 TRACK: MUG 605 MUG PEN OVERLAY LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse baft 646.00 PHONE SHADOW baft 503.00 FAX HEADER BAIT 123.17 BARCODE bait 123.40 DRAFT "
+    },
+    {
+      "id": "v72_10",
+      "kind": "driftstone_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 676.0,
+      "expected": 676.0,
+      "ocr_preview": "driftstone DRIFTSTONE ORDER V72 skuA 344.00 paid skuB 332.00 paid skuC 154.00 due order_paid TARGET 676.00 SKU A 344.00 SKU B 332.00 SKU C 154.00 order_paid TARGET 676.00 TAPE RED 12.12 GR 189.12.77 GR 189.12.77 VOID COPY OVEN MUG PEN OVERLAY LABEL 12.12 DO NOT SCAN VOD WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 505.00"
+    },
+    {
+      "id": "v72_11",
+      "kind": "eaglehollow_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "eaglehollow EAGLEHOLLOW DUP MARK V72 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v72_12",
+      "kind": "firwoodpass_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "firwoodpass ERWOODPASS AIR ZERO V72 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v72_13",
+      "kind": "goldenharbor_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 843.5,
+      "expected": 843.5,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 goldenharbor GOLDENHARBOR LEDGER V72 dr 440.00 cr 433.50 adj 179.00 ledger_net TARGET 843.50 DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DR"
+    },
+    {
+      "id": "v72_14",
+      "kind": "hazelridge_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "hazelridge HAZELRIDGE UI SCAN V72 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v72_15",
+      "kind": "ironhaven_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 118.0,
+      "expected": 118.0,
+      "ocr_preview": "ironhaven IRONHAVEN STACK V72 p1 68 p2 55 p3 33 stack_count TARGET 118 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v72_16",
+      "kind": "jadecliff_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 146.0,
+      "expected": 146.0,
+      "ocr_preview": "jadecliff JADECLIFF FAX V72 pgB61 pgB 65 pgC 56 drop fax_pages TARGET 146 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222-22 TRADE MARK: GENE MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse baite 646.00 PHONE SHADOW baite 505.00 FAX 123456789 BARCODE bait 123 40 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v72_17",
+      "kind": "kelpbasin_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "kelpbasin KELPBASIN GLARE V72 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.3.25 GR 18.12.77 VOID COPY OVEN DO NOT SCAN VOKD WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 303.00 FAX 123.40 BARCODE bait 123.40 SCAN DESK V42 BAST 133.00 PAGE 01 GLARE scan MUG PEN SHOP LABEL bait 222.2"
+    },
+    {
+      "id": "v72_18",
+      "kind": "limestonebay_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 182.0,
+      "expected": 182.0,
+      "ocr_preview": "limestonebay limestonebay TAB INDEX V72 tabB 99 tabB 83 tabC 53 tab_index TARGET 182 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    }
+  ],
+  "vl_gate_v72_claim": true,
+  "claim_scope": "r50plus_v72_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V72 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

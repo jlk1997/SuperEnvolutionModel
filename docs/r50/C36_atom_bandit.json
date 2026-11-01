@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "pick": "office_table_uselog",
+  "values": {
+    "office_table_uselog": 1.0,
+    "office_file_uselog": 0.0
+  },
+  "timestamp": "2026-10-18T22:31:19+08:00",
+  "innovation": "Bandit router adapts from rewards"
+}

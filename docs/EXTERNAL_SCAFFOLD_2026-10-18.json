@@ -1,0 +1,175 @@
+{
+  "kind": "external_scaffold_smoke",
+  "gate": "0.6",
+  "gpu": false,
+  "vl": false,
+  "timestamp": "2026-10-18T19:03:59+08:00",
+  "benches": [
+    {
+      "id": "cl_bench",
+      "title": "CL-Bench",
+      "kind": "continual",
+      "status": "wired_local_fixture",
+      "local_path": "E:\\envolution\\data\\heldout_math.json"
+    },
+    {
+      "id": "serve_learn",
+      "title": "ServeLearnBench",
+      "kind": "service",
+      "status": "wired_local_fixture",
+      "local_path": "E:\\envolution\\data\\external_fixtures\\serve_learn_local.json"
+    },
+    {
+      "id": "evo_arena",
+      "title": "EvoArena",
+      "kind": "arena",
+      "status": "wired_local_fixture",
+      "local_path": "E:\\envolution\\data\\external_fixtures\\evo_arena_local.json"
+    },
+    {
+      "id": "path_bench",
+      "title": "PATH-Bench",
+      "kind": "path",
+      "status": "wired_local_fixture",
+      "local_path": "E:\\envolution\\data\\external_fixtures\\path_bench_local.json"
+    }
+  ],
+  "contracts_ok": true,
+  "wired_ids": [
+    "cl_bench",
+    "serve_learn",
+    "evo_arena",
+    "path_bench"
+  ],
+  "per_bench": {
+    "cl_bench": {
+      "wired": true,
+      "load": {
+        "ok": true,
+        "bench_id": "cl_bench",
+        "path": "E:\\envolution\\data\\heldout_math.json",
+        "n": 8,
+        "n_train": 4,
+        "n_eval": 4,
+        "upstream_claim": false,
+        "kind": "continual_toy"
+      },
+      "score_smoke": {
+        "ok": true,
+        "bench_id": "cl_bench",
+        "n": 4,
+        "hits": 4,
+        "rate": 1.0,
+        "gate": "0.6",
+        "pass_gate": true,
+        "upstream_claim": false,
+        "notes": "local continual_toy score only; not upstream cl_bench"
+      }
+    },
+    "serve_learn": {
+      "wired": true,
+      "load": {
+        "ok": true,
+        "bench_id": "serve_learn",
+        "path": "E:\\envolution\\data\\external_fixtures\\serve_learn_local.json",
+        "n": 8,
+        "n_train": 4,
+        "n_eval": 4,
+        "upstream_claim": false,
+        "kind": "service_toy"
+      },
+      "score_smoke": {
+        "ok": true,
+        "bench_id": "serve_learn",
+        "n": 4,
+        "hits": 4,
+        "rate": 1.0,
+        "gate": "0.6",
+        "pass_gate": true,
+        "upstream_claim": false,
+        "notes": "local service_toy score only; not upstream serve_learn"
+      }
+    },
+    "evo_arena": {
+      "wired": true,
+      "load": {
+        "ok": true,
+        "bench_id": "evo_arena",
+        "path": "E:\\envolution\\data\\external_fixtures\\evo_arena_local.json",
+        "n": 8,
+        "n_train": 4,
+        "n_eval": 4,
+        "upstream_claim": false,
+        "kind": "arena_toy"
+      },
+      "score_smoke": {
+        "ok": true,
+        "bench_id": "evo_arena",
+        "n": 4,
+        "hits": 4,
+        "rate": 1.0,
+        "gate": "0.6",
+        "pass_gate": true,
+        "upstream_claim": false,
+        "notes": "local arena_toy score only; not upstream evo_arena"
+      }
+    },
+    "path_bench": {
+      "wired": true,
+      "load": {
+        "ok": true,
+        "bench_id": "path_bench",
+        "path": "E:\\envolution\\data\\external_fixtures\\path_bench_local.json",
+        "n": 8,
+        "n_train": 4,
+        "n_eval": 4,
+        "upstream_claim": false,
+        "kind": "path_toy"
+      },
+      "score_smoke": {
+        "ok": true,
+        "bench_id": "path_bench",
+        "n": 4,
+        "hits": 4,
+        "rate": 1.0,
+        "gate": "0.6",
+        "pass_gate": true,
+        "upstream_claim": false,
+        "notes": "local path_toy score only; not upstream path_bench"
+      }
+    }
+  },
+  "cl_bench_local": {
+    "ok": true,
+    "bench_id": "cl_bench",
+    "path": "E:\\envolution\\data\\heldout_math.json",
+    "n": 8,
+    "n_train": 4,
+    "n_eval": 4,
+    "upstream_claim": false,
+    "kind": "continual_toy"
+  },
+  "cl_bench_score_smoke": {
+    "ok": true,
+    "bench_id": "cl_bench",
+    "n": 4,
+    "hits": 4,
+    "rate": 1.0,
+    "gate": "0.6",
+    "pass_gate": true,
+    "upstream_claim": false,
+    "notes": "local continual_toy score only; not upstream cl_bench"
+  },
+  "none_wired": false,
+  "pass": true,
+  "notes": "CPU scaffold; all four benches wired to local toys under data/external_fixtures (cl_bench may also use heldout_math). Not an upstream external exam pass. Fleet module remains frozen.",
+  "queue_after_mid_n": [
+    "DONE: Gate2 mid-n dual power observational (GPU)",
+    "DONE: wire cl_bench / serve_learn / evo_arena / path_bench local toys",
+    "fleet drill already exists (frozen) \u2014 do not extend",
+    "D still blocked without VL weights"
+  ],
+  "mid_n_done": true,
+  "mid_n_evidence": "docs/GATE2_MID_N_OBSERVATIONAL_2026-10-18.json",
+  "upstream_claim": false
+}

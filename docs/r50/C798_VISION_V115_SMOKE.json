@@ -1,0 +1,232 @@
+{
+  "cycle": "C798",
+  "theme": "vision_v115_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T07:26:20+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v115_01",
+      "kind": "mossdell_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1286.5,
+      "expected": 1286.5,
+      "ocr_preview": "SCAN DESK V42 BEST 133.00 PAGE 01 mossdell MOSSDELL GRAIN RECV V115 a paid 635.00 b paid 661.50 c open 444.00 TOTAL PAID TARGET 1286.50 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.12.32 QR 18.12.77 VOID COPY OVEN DO NOT SCAN VOD WIN IGNORE old total 999.00 do not parse bait 666.00 FAX HEADER BAIT 88.88 FROM:SPOTF SHOP LABEL BAIT 222.22 TRASH BAIT 222"
+    },
+    {
+      "id": "v115_02",
+      "kind": "nightdell_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1162.0,
+      "expected": 1162.0,
+      "ocr_preview": "nightdell WH NIGHTDELL BIN V115 SKU1 qty 561 ok SKU2 qty 417 hold SKU3 qty 682 ok qty_sum TARGET 1162 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.3.20 GR 18.12.77 VOID COPY OVEN DO NOT SCAN MUG PEN OVERLAP LABEL bait 32 VCHO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 500.00 FAX HEADER BAIT 88.88 FROM: SPOT SHOP LABEL BAIT 2"
+    },
+    {
+      "id": "v115_03",
+      "kind": "oatdell_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1145.25,
+      "expected": 1145.25,
+      "ocr_preview": "oatdell OATDELL PATCH REFUND V115 ItemR1 558.00 done ItemR2 587.25 done ItemR3 426.00 open refund_done TARGET 1145.25 DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.12.25 OR 18.12.77 VOID COPY OVEN VOID SCAN DESK V42 BAST 133.00 PAGE 01 FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 TRASH WITH 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN "
+    },
+    {
+      "id": "v115_04",
+      "kind": "pinedell_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1396.0,
+      "expected": 1396.0,
+      "ocr_preview": "pinedell PINEDELL TAX SLIP V115 base 689.00 paid addon 707.00 paid skip 514.00 tax_base_paid TARGET 1396.00 DRAFT WATERMARK COPY TAPE R23 base 12 12 RING 38 4 12 32 OR base 12 77 VOID COPY OVEN FAX HEADER BAIT 88 88 FROM: SPOT SHIP LABEL BAIT 222-22 TRACK 100 600 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse bait 66"
+    },
+    {
+      "id": "v115_05",
+      "kind": "quartdell_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1528.0,
+      "expected": 1528.0,
+      "ocr_preview": "quartdell QUARTDELL PAYROLL V115 empB 752.00 active empB 776.00 active empC 484.00 leave payroll_active TARGET 1528.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v115_06",
+      "kind": "rosedell_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1036.0,
+      "expected": 1036.0,
+      "ocr_preview": "rosedell ROSEDELL SHIP DOCK V115 box1 510 ok box2 526 ok box3 442 hold ship_ok TARGET 1036 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.3.20 GR 38.22.77 VOID COPY OVEN DRAFT FAX HEADER BAIT 88.88 FROM: SPOOF SHIP LABEL BAIT 222-22 TRASH WITH 2005 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE "
+    },
+    {
+      "id": "v115_07",
+      "kind": "sprucedell_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 720.0,
+      "expected": 720.0,
+      "ocr_preview": "sprucedell SPRUCEDELL SLA CARD V115 job1 340.00 hours ok job2 380.00 hours ok job3 220.00 hours late sla_ok_hours TARGET 720.00 DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.3.20 GR 18.12.77 VOID COPY OVEN FAX HEADER BAIT 88.88 FROM:SPOTF SHOP LABEL BAIT 222.22 TRADE MARK BAIT 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VOID WIN IGNORE old tota"
+    },
+    {
+      "id": "v115_08",
+      "kind": "tidaldell_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1231.75,
+      "expected": 1231.75,
+      "ocr_preview": "tidaldell tidaldell EXPENSE V115 e1 000.00 e2 631.75 e3 448.00 void exp_sum TARGET 1231.75 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.3.30 GR 38.12.77 VOID COPY OVEN DRAFT WATERMARK COPY DRAFT WATERMARK COPY FAX HEADER BAIT 88.88 FROM: SPOT SHOP LABEL BAIT 222.22 TRADE MARK BAIT 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total"
+    },
+    {
+      "id": "v115_09",
+      "kind": "umbradell_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1251.0,
+      "expected": 1251.0,
+      "ocr_preview": "umbradell UMBRADELL PO SHEET V115 line1 634.00 open line2 617.00 open line3 457.00 closed po_open TARGET 1251.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v115_10",
+      "kind": "vinedell_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1322.0,
+      "expected": 1322.0,
+      "ocr_preview": "SCAN DESK V42 BAST 133.00 PAGE 01 vinedell VINEDELL ORDER V115 skuA 667.00 paid skuB 656.00 paid skuC 445.00 due order_paid TARGET 1322.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v115_11",
+      "kind": "westdell_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "westdell WESTDELL DUP MARK V115 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v115_12",
+      "kind": "yewdell_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "yewdell yewdell AIR ZERO V115 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v115_13",
+      "kind": "zircondell_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1487.5,
+      "expected": 1487.5,
+      "ocr_preview": "zirconell ZIRCONELL LEDGER V115 dr 703.00 cr 754.00 adj 470.00 ledger_net TARGET 1487.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v115_14",
+      "kind": "alderdell_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "alderdell ALDERDELL UI SCAN V115 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 SCAN DESK V42 DIST 133.00 PAGE 01 CLIPPE scan TAPE RED 3 bait 12 12 RING 38 32 32 GR 38 32 77 VOID OVEN COPY DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v115_15",
+      "kind": "basaltdell_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 556.0,
+      "expected": 556.0,
+      "ocr_preview": "basaltdell BASALTDELL STACK V115 p1 282 p2 274 p3 252 stack_count TARGET 556 SHAPE scan DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v115_16",
+      "kind": "coraldell_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 584.0,
+      "expected": 584.0,
+      "ocr_preview": "coraldell CORALDELL FAX V115 pg#800 pgB 281 pgC 275 dipp fax_pages TARGET 584 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.3.25 GR 18.12.77 VOID COPY OVEN DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v115_17",
+      "kind": "dunedell_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "dunedell DUNEDELL GLARE V115 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v115_18",
+      "kind": "elderdell_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 628.0,
+      "expected": 628.0,
+      "ocr_preview": "elderdell ELDERDELL TAB INDEX V115 tabA 326 tabB 302 tabC 272 tab_index TARGET 628 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "vl_gate_v115_claim": true,
+  "claim_scope": "r50plus_v115_silvercreek_knollstone_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V115 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

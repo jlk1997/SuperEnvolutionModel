@@ -1,0 +1,33 @@
+{
+  "kind": "u2c_sandbox_loop",
+  "product": "蚁算模型",
+  "version": "STRONG_C1",
+  "timestamp": "2026-10-18T20:24:37+08:00",
+  "gate": "0.6",
+  "gpu": false,
+  "phases_present": [
+    "use",
+    "grade",
+    "crystallize",
+    "absorb",
+    "route"
+  ],
+  "required_phases": [
+    "use",
+    "grade",
+    "crystallize",
+    "absorb",
+    "route"
+  ],
+  "atom": {
+    "atom": "office_table_uselog_u2c",
+    "family": "table",
+    "source": "u2c_sandbox",
+    "n_pairs": 1,
+    "status": "crystallized_stub"
+  },
+  "log": "runs/u2c_sandbox_loop/u2c_use_log.jsonl",
+  "pass": true,
+  "trained": false,
+  "notes": "Live U2C instrumentation on sandbox. Absorb is stub while GPU micro may be in flight."
+}

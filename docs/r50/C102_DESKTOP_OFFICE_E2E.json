@@ -1,0 +1,36 @@
+{
+  "cycle": "C102",
+  "theme": "desktop_screenshot_office_atom_e2e",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T01:40:41+08:00",
+  "claim": false,
+  "capture_ok": true,
+  "size": [
+    2560,
+    1600
+  ],
+  "saved_full": "runs/desktop_office_e2e_c102/desktop_full.png",
+  "panel": "runs/desktop_office_e2e_c102/desktop_office_panel.png",
+  "expected_paid": 40.0,
+  "vl_ocr": {
+    "attempted": true,
+    "text": "DESKTOP OFFICE PANEL C102 INVOICE #9910 item X paid 15.00 item Y open 9.00 item Z paid 25.00 TOTAL PAID TARGET 40.00 agent_graph: none",
+    "backend": "real_vl",
+    "synthetic_not_vl": false,
+    "hit_c102_label": true
+  },
+  "hops": {
+    "capture": true,
+    "overlay_panel": true,
+    "vl_ocr": true,
+    "parse_paid": true,
+    "write_csv": true,
+    "write_report": true
+  },
+  "paid_got": 40.0,
+  "atom_ok": true,
+  "ocr_ok": true,
+  "pass": true,
+  "dissolve_D": 0.0,
+  "note": "Real ImageGrab underlay + readable office panel. Success requires OCR+parse+CSV+report, not merely probe-label hit."
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "path_bench_local_wire",
+  "gate": "0.6",
+  "timestamp": "2026-10-18T19:03:59+08:00",
+  "bench_id": "path_bench",
+  "local_path": "E:\\envolution\\data\\external_fixtures\\path_bench_local.json",
+  "load": {
+    "ok": true,
+    "bench_id": "path_bench",
+    "path": "E:\\envolution\\data\\external_fixtures\\path_bench_local.json",
+    "n": 8,
+    "n_train": 4,
+    "n_eval": 4,
+    "upstream_claim": false,
+    "kind": "path_toy"
+  },
+  "score_smoke": {
+    "ok": true,
+    "bench_id": "path_bench",
+    "n": 4,
+    "hits": 4,
+    "rate": 1.0,
+    "gate": "0.6",
+    "pass_gate": true,
+    "upstream_claim": false,
+    "notes": "local path_toy score only; not upstream path_bench"
+  },
+  "upstream_claim": false,
+  "pass": true,
+  "notes": "Wired path_bench adapter to local toy. Not upstream PATH-Bench."
+}

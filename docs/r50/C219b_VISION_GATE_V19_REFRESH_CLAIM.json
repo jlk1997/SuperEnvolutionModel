@@ -1,0 +1,14 @@
+{
+  "kind": "vision_gate_v19_refresh_claim",
+  "timestamp": "2026-10-19T07:56:21+08:00",
+  "vl_gate_v19_claim": true,
+  "rate": 1.0,
+  "n": 18,
+  "n_ok": 18,
+  "gate": 0.6,
+  "prior_c218_rate": 0.0556,
+  "claim_scope": "r50plus_v19_mild_c219_coffee_hl_barcode_ghost_n>=16_qwen35_2b",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "cycle": "C219"
+}

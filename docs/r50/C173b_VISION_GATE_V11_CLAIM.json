@@ -1,0 +1,14 @@
+{
+  "kind": "vision_gate_v11_claim",
+  "timestamp": "2026-10-19T06:10:27+08:00",
+  "vl_gate_v11_claim": true,
+  "rate": 1.0,
+  "n": 18,
+  "n_ok": 18,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v11_glare_skew_hand_redact_night_mosaic_n>=16_c162_parse_qwen35_2b_c173",
+  "gate2_3_untouched": true,
+  "v0_v10_untouched": true,
+  "gen11": "HOLD",
+  "cycle": "C173"
+}

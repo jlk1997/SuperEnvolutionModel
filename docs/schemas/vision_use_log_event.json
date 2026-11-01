@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "evo://schemas/vision_use_log_event.json",
+  "title": "蚁算-视 use_log event",
+  "type": "object",
+  "required": ["event", "modality", "task_id"],
+  "properties": {
+    "event": { "type": "string" },
+    "modality": { "enum": ["text", "image", "image+text"] },
+    "task_id": { "type": "string" },
+    "family": { "type": "string" },
+    "split": { "enum": ["practice", "exam", "dev", "held"] },
+    "image_ref": {
+      "type": "object",
+      "required": ["uri", "sha256", "mime"],
+      "properties": {
+        "uri": { "type": "string" },
+        "sha256": { "type": "string", "minLength": 64, "maxLength": 64 },
+        "width": { "type": "integer", "minimum": 0 },
+        "height": { "type": "integer", "minimum": 0 },
+        "mime": { "type": "string" }
+      }
+    },
+    "text_caption": { "type": ["string", "null"] },
+    "caption_source": { "enum": ["none", "human", "model"] },
+    "tool_call": { "type": ["object", "null"] },
+    "weights_local": { "type": "boolean", "default": false },
+    "vl_gate_claim": { "type": "boolean", "default": false }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "modality": { "const": "image" } }, "required": ["modality"] },
+      "then": { "required": ["image_ref"] }
+    }
+  ]
+}

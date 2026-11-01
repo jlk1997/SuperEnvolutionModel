@@ -1,0 +1,42 @@
+[
+  {
+    "id": "pb1",
+    "question": "Path: lobby -> north desk -> east archive. Final room id?",
+    "answer": "archive"
+  },
+  {
+    "id": "pb2",
+    "question": "Path hops: start=A, edges A-B, B-C, C-D. Reach D in how many hops?",
+    "answer": "3"
+  },
+  {
+    "id": "pb3",
+    "question": "Warehouse path: dock -> aisle3 -> bin12. Last node?",
+    "answer": "bin12"
+  },
+  {
+    "id": "pb4",
+    "question": "Graph: S to T via U only. Sequence S,?,T. Middle node?",
+    "answer": "U"
+  },
+  {
+    "id": "pb5",
+    "question": "File path steps: /work -> reports -> 2024 -> q1.txt. Basename?",
+    "answer": "q1.txt"
+  },
+  {
+    "id": "pb6",
+    "question": "Maze: left, left, right from gate reaches vault. Direction count?",
+    "answer": "3"
+  },
+  {
+    "id": "pb7",
+    "question": "Route codes: R1 then R2 then R9. Concatenate with dash?",
+    "answer": "R1-R2-R9"
+  },
+  {
+    "id": "pb8",
+    "question": "City path: North Gate to Market to Pier. How many stops including start?",
+    "answer": "3"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "kind": "vision_lora_policy_decision",
+  "timestamp": "2026-10-19T01:10:03+08:00",
+  "source_cycle": "C86",
+  "dense_table": "DEPRECATED_FORCE_BARE",
+  "ocr_weak_delta": 0.0,
+  "decision": "LORA_NEUTRAL_WEAK_OCR_PREFER_BARE",
+  "product_default": "bare",
+  "evidence": [
+    "docs/r50/C66_vision_lora_vs_bare.json",
+    "docs/r50/C72_vision_lora_vs_bare_retest.json",
+    "docs/r50/C86_vision_ocr_weak_lora_vs_bare.json"
+  ],
+  "gate2_3_untouched": true
+}

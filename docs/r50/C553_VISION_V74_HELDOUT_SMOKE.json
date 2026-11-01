@@ -1,0 +1,237 @@
+{
+  "cycle": "C553",
+  "theme": "vision_v74_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T20:59:39+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7538.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v74h_01",
+      "kind": "emberhaven_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 432.25,
+      "expected": 432.25,
+      "ocr_preview": "emberhaven EMBERHAVEN GRAIN RECEV V74H a paid 209.00 b paid 223.25 c open 114.00 TOTAL PAID TARGET 432.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 b"
+    },
+    {
+      "id": "v74h_02",
+      "kind": "frostpeak_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 370.0,
+      "expected": 370.0,
+      "ocr_preview": "frostpeak WH FROSTPEAK BIN V74H SKU1 qty 171 ok SKU2 qty 121 hold SKU3 qty 199 ok qty_sum TARGET 370 DRAFT DRAFT DRAFT DRAFT STICKY bait 88. 88 IGNORE VOID REC COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v74h_03",
+      "kind": "glacierhaven_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 349.0,
+      "expected": 349.0,
+      "ocr_preview": "glacierhaven GLACIERHAVEN PATCH REFUND V74H itemR1 167.00 done itemR2 182.00 done itemR3 102.00 open refund_done TARGET 349.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DONE VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 V74H CSS3 clarity four peg_c02 photo2 testout"
+    },
+    {
+      "id": "v74h_04",
+      "kind": "heatherpass_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 556.0,
+      "expected": 556.0,
+      "ocr_preview": "heatherpass HEATHERPASS TAX SLIP V74H base 270.00 paid addon 286.00 paid skip 143.00 tax_base_paid TARGET 556.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 99.99 IGNORE TAX COPY"
+    },
+    {
+      "id": "v74h_05",
+      "kind": "indigohaven_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 638.0,
+      "expected": 638.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 indigohaven INDIGOHAVEN PAYROLL V74H empA 311.00 active empB 327.00 active empC 138.00 leave payroll_active TARGET 638.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v74h_06",
+      "kind": "junipercliff_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 272.0,
+      "expected": 272.0,
+      "ocr_preview": "junipercliff JUNIPERCLIFF SHIP DOCK V74H box1 129 ok box2 143 ok box3 107 hold ship_ok TARGET 272 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY SCAN DESK V43H PART 222.00 PAGE 01 V74H CSS3 clarity four peg_0102 photo2 testout"
+    },
+    {
+      "id": "v74h_07",
+      "kind": "knollhaven_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 346.0,
+      "expected": 346.0,
+      "ocr_preview": "knollhaven KNOLLHAVEN SLA CARD V74H job1 175.00 hours ok job2 171.00 hours ok job3 108.00 hours late sla_ok_hours TARGET 346.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE VOID COPY OKP bait 99.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V74H CSS5 clarity four peg_012 photo2 testout"
+    },
+    {
+      "id": "v74h_08",
+      "kind": "larkhaven_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 406.25,
+      "expected": 406.25,
+      "ocr_preview": "larkhaven LARKHAVEN EXPENSE V74H e1 193.00 e2 213.25 e3 114.00 void exp_sum TARGET 406.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 b"
+    },
+    {
+      "id": "v74h_09",
+      "kind": "mosscliff_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 414.0,
+      "expected": 414.0,
+      "ocr_preview": "mossc MOSSCLIFF PO SHEET V74H line1 213.00 open line2 201.00 open line3 117.00 closed po_open TARGET 414.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v74h_10",
+      "kind": "northhaven_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 467.5,
+      "expected": 467.5,
+      "ocr_preview": "northhaven NORTHHAVEN ORDER V74H skuA 240.00 paid skuB 227.50 paid skuC 109.00 due order_paid TARGET 467.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY V74H CSS5 clarity four peg_052 photo2 testout SCAN DESK V43H bait 222.00 PAGE 01"
+    },
+    {
+      "id": "v74h_11",
+      "kind": "opalcliff_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "opalcliff OPALCLIFF DUP MARK V74H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP VOID COPY V74H CSS3 clarity four peg_012 photo2 testout"
+    },
+    {
+      "id": "v74h_12",
+      "kind": "pinecrestpass_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "pinecrestpass PINECRESTPASS AIR ZERO V74H 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v74h_13",
+      "kind": "quartzhaven_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 567.0,
+      "expected": 567.0,
+      "ocr_preview": "quartzhaven QUARTZHAVEN LEDGER V74H dr 275.00 cr 292.00 adj 124.00 ledger_net TARGET 567.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v74h_14",
+      "kind": "reedhaven_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedhaven REEDHAVEN UI SCAN V74H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ui COPY V74H CSS clarity four peg_102 photo2 testout"
+    },
+    {
+      "id": "v74h_15",
+      "kind": "stonehaven_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 83.0,
+      "expected": 83.0,
+      "ocr_preview": "stonehaven STONEHAVEN STACK V74H p1 43 p2 40 p3 35 stack_count TARGET 83 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V74H CSS3 clarity four peg_012 photo2 testout"
+    },
+    {
+      "id": "v74h_16",
+      "kind": "thunderpass_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 112.0,
+      "expected": 112.0,
+      "ocr_preview": "thunderpass THUNDERPASS FAX V74H pgA 59 pgB 53 pgC 41 drop fax_pages TARGET 112 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY OKP bait 88.00 V74H CSS3 clarity four pag_152 photo2 testout"
+    },
+    {
+      "id": "v74h_17",
+      "kind": "umbrahaven_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "umbrahaven UMBRAHAVEN GLARE V74H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE glare VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 b"
+    },
+    {
+      "id": "v74h_18",
+      "kind": "valecliff_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 132.0,
+      "expected": 132.0,
+      "ocr_preview": "valecliff VALECLIFF TAB INDEX V74H tabA 69 tabB 63 tabC 42 tab_index TARGET 132 OKP tab 00.00 STICKY tab 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID TAB COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V74H CSS3 clarity four peg_0102 photo2 testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v74_heldout_claim": true,
+  "claim_scope": "r50plus_v74_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

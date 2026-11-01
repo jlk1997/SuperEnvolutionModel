@@ -1,0 +1,86 @@
+{
+  "cycle": "C115",
+  "theme": "harden_ant_capture_office",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T02:56:47+08:00",
+  "gate2_3_untouched": true,
+  "lib": "scripts/ant_capture_office_lib.py",
+  "entry": "scripts/ant_capture_office.py",
+  "tests": {
+    "n": 10,
+    "n_ok": 10,
+    "rate": 1.0,
+    "rows": [
+      {
+        "test": "parse_paid",
+        "text": "item A paid 11.00 item C paid 19.00",
+        "exp": 30.0,
+        "got": 30.0,
+        "ok": true
+      },
+      {
+        "test": "parse_paid",
+        "text": "TOTAL PAID TARGET 30.00",
+        "exp": 30.0,
+        "got": 30.0,
+        "ok": true
+      },
+      {
+        "test": "parse_paid",
+        "text": "total 12.5",
+        "exp": 12.5,
+        "got": 12.5,
+        "ok": true
+      },
+      {
+        "test": "parse_paid",
+        "text": "nothing here",
+        "exp": 0.0,
+        "got": 0.0,
+        "ok": true
+      },
+      {
+        "test": "parse_paid",
+        "text": "paid 1.5 paid 2.5 paid 3",
+        "exp": 7.0,
+        "got": 7.0,
+        "ok": true
+      },
+      {
+        "test": "empty_lines",
+        "ok": true
+      },
+      {
+        "test": "dry_happy",
+        "ok": true,
+        "paid": 15.0,
+        "evidence_exists": true
+      },
+      {
+        "test": "schema_missing",
+        "ok": true,
+        "errs": [
+          "missing_keys:['timestamp', 'gate', 'capture_ok', 'size', 'use_vl', 'scaffold_steps', 'agent_graph', 'ocr_ok', 'paid_got', 'paid_expected', 'paid_ok', 'atom_ok', 'ok', 'pass', 'rate', 'errors']"
+        ]
+      },
+      {
+        "test": "schema_good",
+        "ok": true,
+        "errs": []
+      },
+      {
+        "test": "cli_missing_lines",
+        "ok": true
+      }
+    ]
+  },
+  "vl_smoke": {
+    "attempted": true,
+    "ok": true,
+    "paid_got": 30.0,
+    "errors": []
+  },
+  "pass": true,
+  "claim": false,
+  "note": "Hardened CLI: error paths, evidence schema, unit tests. Gate2/3 untouched."
+}

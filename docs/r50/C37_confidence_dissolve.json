@@ -1,0 +1,14 @@
+{
+  "cases": [
+    {
+      "conf": 0.9,
+      "mode": "bare"
+    },
+    {
+      "conf": 0.2,
+      "mode": "full_scaffold"
+    }
+  ],
+  "timestamp": "2026-10-18T22:31:19+08:00",
+  "innovation": "Confidence-gated dissolve"
+}

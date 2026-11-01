@@ -1,0 +1,91 @@
+{
+  "cycle": "C168",
+  "theme": "desktop_multiwindow_office_pressure",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T05:28:16+08:00",
+  "gpu_free_mib_start": 2925.0,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "claim": false,
+  "capture_ok": true,
+  "n_grabs": 6,
+  "size": [
+    2560,
+    1600
+  ],
+  "vl_attempted": true,
+  "n": 6,
+  "n_ok": 6,
+  "rate": 1.0,
+  "rows": [
+    {
+      "id": "b01",
+      "metric": "paid_total",
+      "expected": 27.5,
+      "path": "runs/desktop_multiwin_c168/b01_multiwin.png",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 27.5,
+      "ocr_preview": "WIN-A b01 MW OFFICE B01 a paid 12.00 b paid 15.50 c open 4.00 TOTAL PAID TARGET 27.50 WIN-B CHAT bait ignore total 888.00 ignore fee 777.00 not the office panel WIN-C CAL bait event cost 666.00 travel 555.00 open MultiWin Desktop Pressure [C168] 工厂接着转：已到E70，下一张 张 张 张 张 张 张 张 张 张 财务总监 财务，市场 对不起，给你添麻烦"
+    },
+    {
+      "id": "b02",
+      "metric": "paid_total",
+      "expected": 19.25,
+      "path": "runs/desktop_multiwin_c168/b02_multiwin.png",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 19.25,
+      "ocr_preview": "WIN-A b02 MW OFFICE B02 x paid 9.00 y paid 10.25 z open 2.50 TOTAL PAID TARGET 19.25 WIN-B CHAT bait ignore total 888.00 ignore fee 777.00 not the office panel WIN-C CAL bait event cost 666.00 travel 555.00 open MultiWin Desktop Pressure [C168]"
+    },
+    {
+      "id": "b03",
+      "metric": "qty_sum",
+      "expected": 22.0,
+      "path": "runs/desktop_multiwin_c168/b03_multiwin.png",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 22.0,
+      "ocr_preview": "WIN-A b03 MW WH B03 SKU1 qty 14 ok SKU2 qty 5 hold SKU3 qty 8 ok qty_sum TARGET 22 WIN-B CHAT bait ignore total 888.00 ignore fee 777.00 not the office panel WIN-C CAL bait event cost 666.00 travel 555.00 open MultiWin Desktop Pressure [C168]"
+    },
+    {
+      "id": "b04",
+      "metric": "paid_total",
+      "expected": 0.0,
+      "path": "runs/desktop_multiwin_c168/b04_multiwin.png",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "ocr_preview": "WIN-A b04 MW OPEN B04 p 11.00 open q 13.00 open paid_total TARGET 0.00 WIN-B CHAT bait ignore total 888.00 ignore fee 777.00 not the office panel WIN-C CAL bait event cost 666.00 travel 555.00 open 下一刀开 V10，并加压真桌面... 财务总监 财务，市场 对不起，给你添麻烦了。经营所... 推广助手 没法帮你全网批量扒各行各业老... MultiWin Desktop Pressure [C168"
+    },
+    {
+      "id": "b05",
+      "metric": "refund_done",
+      "expected": 11.5,
+      "path": "runs/desktop_multiwin_c168/b05_multiwin.png",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 11.5,
+      "ocr_preview": "WIN-A b05 MW REFUND B05 r1 5.00 done r2 6.50 done r3 3.00 open refund_done TARGET 11.50 WIN-B CHAT bait ignore total 888.00 ignore fee 777.00 not the office panel WIN-C CAL bait event cost 666.00 travel 555.00 open 下一刀开 V10，并加压真桌面... 财务总监 财务，市场 对不起，给你添麻烦了。经营所... 推广助手 没法帮你全网批量扒各行各业老... MultiWin Deskt"
+    },
+    {
+      "id": "b06",
+      "metric": "paid_total",
+      "expected": 33.0,
+      "path": "runs/desktop_multiwin_c168/b06_multiwin.png",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 33.0,
+      "ocr_preview": "WIN-A b06 MW PO B06 itemA paid 18.00 itemB paid 15.00 itemC open 6.00 TOTAL PAID TARGET 33.00 WIN-B CHAT bait ignore total 888.00 ignore fee 777.00 not the office panel WIN-C CAL bait event cost 666.00 travel 555.00 open MultiWin Desktop Pressure [C168]"
+    }
+  ],
+  "gate_pass": true,
+  "pass": true,
+  "note": "Real ImageGrab multi-window batches with WIN-A office + WIN-B/C bait. Claim=False (pressure board, not VL gate)."
+}

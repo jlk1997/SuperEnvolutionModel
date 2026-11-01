@@ -1,0 +1,20 @@
+{
+  "kind": "vision_gate_v21_claim",
+  "timestamp": "2026-10-19T08:49:46+08:00",
+  "vl_gate_v21_claim": true,
+  "rate": 1.0,
+  "n": 18,
+  "n_ok": 18,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v21_c236_mildfix_skew_ledger_n>=16_qwen35_2b_clarity_floor",
+  "supersedes": "docs/r50/C231b_VISION_GATE_V21_CLAIM.json",
+  "prior_rate": 0.9444,
+  "fail_ids_resolved": [
+    "v21_13"
+  ],
+  "still_fail": [],
+  "gate2_3_untouched": true,
+  "v0_v20_untouched": true,
+  "gen11": "HOLD",
+  "cycle": "C236"
+}

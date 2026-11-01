@@ -1,0 +1,237 @@
+{
+  "cycle": "C919",
+  "theme": "vision_v135_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T11:01:49+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v135h_01",
+      "kind": "ashholt_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1336.75,
+      "expected": 1336.75,
+      "ocr_preview": "ashholt ASHHOLT GRAIN RECV V135H a paid 662.00 b paid 674.75 c open 555.00 TOTAL PAID TARGET 1336.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v135h_02",
+      "kind": "cedarholt_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1280.0,
+      "expected": 1280.0,
+      "ocr_preview": "cedarholt WH CEDARHOLT BIN V135H SKU1 qty 630 ok SKU2 qty 550 hold SKU3 qty 650 ok qty_sum TARGET 1280 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v135h_03",
+      "kind": "dawnholt_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1253.5,
+      "expected": 1253.5,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 dawnholt DAWNHOLT PATCH REFUND V135H itemR1 620.00 done itemR2 633.50 done itemR3 543.00 open refund_done TARGET 1253.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE DONE VOID COPY bait 00.00 bait 00.00 v135H C919 cavity floor preg_qf2 phone2 headset"
+    },
+    {
+      "id": "v135h_04",
+      "kind": "elmholt_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1486.0,
+      "expected": 1486.0,
+      "ocr_preview": "SCAN DESK V43H BASC 222.00 PAGE 01 elmholt ELMHOLT TAX SLIP V135H base 735.00 paid addon 751.00 paid skip 584.00 tax_base_paid TARGET 1486.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v135h_05",
+      "kind": "fernholt_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1568.0,
+      "expected": 1568.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 fernholt FERNHOLT PAYROLL V135H empA 776.00 active empB 792.00 active empC 579.00 leave payroll_active TARGET 1568.00 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE PAY VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 v135H C919 cavity floor preg_qf2 phone2 headset"
+    },
+    {
+      "id": "v135h_06",
+      "kind": "glenholt_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1154.0,
+      "expected": 1154.0,
+      "ocr_preview": "glenholt GLENHOLT SHIP DOCK V135H box1 570 ok box2 584 ok box3 548 hold ship_ok TARGET 1154 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP VOID COPY V135H C919 cavity floor prog_02 photo2 metadata"
+    },
+    {
+      "id": "v135h_07",
+      "kind": "hazeholt_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 640.0,
+      "expected": 640.0,
+      "ocr_preview": "hazeholt HAZEHOLT SLA CARD V135H job1 300.00 hours ok job2 340.00 hours ok job3 240.00 hours late sla_ok_hours TARGET 640.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v135h_08",
+      "kind": "inkholt_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1313.75,
+      "expected": 1313.75,
+      "ocr_preview": "inkholt #KHOLT EXPENSE V135H e1 646.00 e2 667.75 e3 555.00 void exp_sum TARGET 1313.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE EXP VOID COPY bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 b"
+    },
+    {
+      "id": "v135h_09",
+      "kind": "jadeholt_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1280.0,
+      "expected": 1280.0,
+      "ocr_preview": "jadeholt JADEHOLT PO SHEET V135H line1 690.00 open line2 590.00 open line3 552.00 closed po_open TARGET 1280.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE PO VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 V135H CO19 cavity floor preg_qf2 photo2 metadata"
+    },
+    {
+      "id": "v135h_10",
+      "kind": "knotholt_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1372.0,
+      "expected": 1372.0,
+      "ocr_preview": "knotholt KNOTHOLT ORDER V135H skuA 693.00 paid skuB 679.00 paid skuC 550.00 due order_paid TARGET 1372.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait"
+    },
+    {
+      "id": "v135h_11",
+      "kind": "lakeholt_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakeholt LAKEHOLT DUP MARK V135H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP VOID COPY V135H C919 cavity floor prog_qf2 phone2 headset"
+    },
+    {
+      "id": "v135h_12",
+      "kind": "mossholt_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossholt MOSSHOLT AIR ZERO V135H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 b"
+    },
+    {
+      "id": "v135h_13",
+      "kind": "netherholt_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1471.5,
+      "expected": 1471.5,
+      "ocr_preview": "netherholt NETHERHOLT LEDGER V135H dr 728.00 cr 743.50 adj 565.00 ledger_net TARGET 1471.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v135h_14",
+      "kind": "oakholt_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakholt OAKHOLT UI SCAN V135H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY V135H C919 cavity floor prog_012 phone2 handset"
+    },
+    {
+      "id": "v135h_15",
+      "kind": "pineholt_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 829.0,
+      "expected": 829.0,
+      "ocr_preview": "pineholt PINEHOLT STACK V135H p1 416 p2 413 p3 408 stack_count TARGET 829 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY"
+    },
+    {
+      "id": "v135h_16",
+      "kind": "quillholt_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 858.0,
+      "expected": 858.0,
+      "ocr_preview": "quillholt QUILLHOLT FAX V135H pgA 432 pgB 426 pgC 414 drop fax_pages TARGET 858 DRAFT DRAFT DRAFT DRAFT VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v135h_17",
+      "kind": "reedholt_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedholt REEDHOLT GLARE V135H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait"
+    },
+    {
+      "id": "v135h_18",
+      "kind": "stoneholt_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 878.0,
+      "expected": 878.0,
+      "ocr_preview": "stoneholt STONEHOLT TAB INDEX V135H tabA 442 tabB 436 tabC 415 tab_index TARGET 878 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 VOID COPY tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v135_heldout_claim": true,
+  "claim_scope": "r50plus_v135_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

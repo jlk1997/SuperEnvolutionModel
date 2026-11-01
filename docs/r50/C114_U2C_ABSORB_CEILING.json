@@ -1,0 +1,42 @@
+{
+  "cycle": "C114_CEILING",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T02:55:39+08:00",
+  "attempts": [
+    {
+      "id": "C108",
+      "n_train": 9,
+      "n_eval": 3,
+      "trained_rate": 0.3333
+    },
+    {
+      "id": "C114",
+      "n_train": 73,
+      "n_eval": 9,
+      "trained_rate": 0.0,
+      "note": "large_float_amounts"
+    },
+    {
+      "id": "C114b",
+      "n_train": 59,
+      "n_eval": 9,
+      "trained_rate": 0.0,
+      "note": "c103_scale_amounts"
+    }
+  ],
+  "ceiling": {
+    "documented": true,
+    "trained_rate": 0.0,
+    "gate": 0.6,
+    "c108_prior": 0.3333,
+    "c114_large_float_rate": 0.0,
+    "c114b_small_scale_rate": 0.0,
+    "reason": "1.5B LoRA on status-filter CSV arithmetic remains below 0.6 on heldout despite more pairs/epochs; large-float variant collapsed to 0",
+    "recommendation": "keep crystal/reuse path (rate 1.0); adapter optional for text U2C; do not claim absorb gate; prefer tool-backed sum for production money math"
+  },
+  "rate_gate_pass": false,
+  "claim": false,
+  "gate2_3_untouched": true,
+  "pass": true,
+  "note": "Documented absorb ceiling on weak text-U2C arithmetic domain."
+}

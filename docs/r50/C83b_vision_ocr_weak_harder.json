@@ -1,0 +1,14 @@
+{
+  "kind": "r50plus_c83b_vision_ocr_weak_harder",
+  "timestamp": "2026-10-19T01:02:03+08:00",
+  "gate": 0.6,
+  "domain": "ocr_weak",
+  "n_train": 8,
+  "n_test": 8,
+  "disjoint_ids": true,
+  "disjoint_golds": true,
+  "design": "font10 + blur1.35 + contrast0.55 + clutter; must_codes for strict hit",
+  "train_dir": "evo/office/fixtures/vision_images_ocr_weak_train",
+  "test_dir": "evo/office/fixtures/vision_images_ocr_weak_test",
+  "gate2_3_untouched": true
+}

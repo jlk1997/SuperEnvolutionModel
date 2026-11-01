@@ -1,0 +1,61 @@
+{
+  "packs": [
+    "library",
+    "warehouse"
+  ],
+  "fresh": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "trained": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "dev_exam": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "judge": {
+    "pass": false,
+    "checks": {
+      "speed": true,
+      "transfer": false
+    },
+    "gain": {
+      "n": 8,
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "excludes_zero": false
+    },
+    "branch": "Learning speed is fine but the first touch did not improve. The sort is keeping skills local; change the sort, then burn this pack and seal a new one.",
+    "measured": true,
+    "fresh_rate": 1.0,
+    "trained_rate": 1.0,
+    "dev_touches": 1,
+    "held_touches": 1
+  },
+  "heldout_generation": "next",
+  "seal": "runs/heldout_seal_next.json",
+  "evidence": "docs/GATE3_OFFICE_JUDGE_2026-10-17.json",
+  "config": "configs/office_gate3_next.yaml",
+  "model": "Qwen2.5-1.5B-Instruct",
+  "gate3_claim": false,
+  "ceiling": true,
+  "note": "fresh_rate=trained_rate=1.0 on library+warehouse with office atoms; speed=true; transfer gain=0 (ceiling). judge.pass=false. No Gate3 claim. Pack burned. Next: harder pack or protocol ceiling/heritability clause BEFORE new seal.",
+  "finished_asia_shanghai": "2026-10-17T21:46+08:00"
+}

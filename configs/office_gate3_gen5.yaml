@@ -1,0 +1,36 @@
+# Gate3 gen5 — cinema + nursery @ difficulty 2.
+# Rules: prefer_atoms BOTH sides; abbreviated SFT into warm atom adapters. Pre-seal commit required.
+# Gate 0.6. 1.5B. No VL. Never reopen burned packs.
+run_name: office_gate3_gen5
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+seed: 0
+actor: model
+heldout_generation: gen5
+open_heldout: true
+reason: "gen5 rules+pack committed pre-seal; cinema+nursery d=2 atoms-both + atom-adapter abbrev SFT"
+heldout_items: 4
+dev_items: 12
+dev_exam_items: 6
+dev_difficulties: [2, 3]
+dev_packs: [orders, expenses]
+sft_rounds: 2
+atom_adapter_sft: true
+difficulty: 2
+prefer_atoms: true
+trained_prefer_atoms: true
+write_gate: true
+seal_path: runs/heldout_seal_gen5.json
+evidence_path: runs/office_gate3_gen5_judge.json
+families: [table, report, file]
+dev_families: [table, report, file]
+max_steps: 6
+exec_timeout: 12
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: full
+max_seq_len: 512
+max_new_code: 220
+outer_lr: 0.0005
+temperature: 0.0
+tool_call_primer: true

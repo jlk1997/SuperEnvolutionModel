@@ -1,0 +1,8 @@
+{
+  "kind": "cost_ledger",
+  "source": "C110",
+  "bare_rate": 1.0,
+  "replace_rate": 1.0,
+  "step_ratio_agent_over_bare": 3.3333,
+  "timestamp": "2026-10-19T02:07:11+08:00"
+}

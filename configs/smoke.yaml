@@ -1,0 +1,14 @@
+model_name: e:/envolution/models/Qwen2.5-0.5B-Instruct
+lora_rank: 8
+lora_alpha: 16
+max_seq_len: 256
+inner_steps: 1
+inner_lr: 0.0001
+target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj

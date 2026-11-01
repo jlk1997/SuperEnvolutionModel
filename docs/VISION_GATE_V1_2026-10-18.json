@@ -1,0 +1,54 @@
+{
+  "kind": "vision_gate_v1_claim",
+  "product": "蚁算-视",
+  "timestamp": "2026-10-18T22:39:11+08:00",
+  "vl_gate_v1_claim": true,
+  "gate": 0.6,
+  "rate": 0.8333,
+  "n": 12,
+  "n_ok": 10,
+  "gate_pass": true,
+  "claim_scope": "r50_v1_smoke_readable_office_drawn_n>=8_softmatch_qwen35_2b",
+  "weights": "models/Qwen3.5-2B",
+  "prior_c47_rate": 0.375,
+  "fix_cause": "C47 fixtures were solid-color png()+tEXt metadata; VL saw blank",
+  "fix": "regen_vision_v1_readable_fixtures.py high-contrast Arial/Consolas drawings",
+  "evidence": [
+    "docs/r50/C51_vision_v1_readable_fixtures.json",
+    "docs/r50/C52_vision_v1_smoke_readable.json",
+    "scripts/regen_vision_v1_readable_fixtures.py",
+    "scripts/vision_v1_smoke_real_vl.py"
+  ],
+  "failures_honest": [
+    {
+      "id": "office-caption-002",
+      "task": "caption",
+      "gold": "A printed invoice with totals",
+      "pred_head": "This image displays a simple invoice for Ant Office Co. showing one item: printer paper x10, with a total of $128.50.",
+      "note": "Model description was reasonable; soft-token overlap < threshold (gold phrasing)"
+    },
+    {
+      "id": "office-hard-ui-001",
+      "task": "caption",
+      "gold": "Modal: Confirm delete 3 files? [Cancel] [Delete]",
+      "pred_head": "A modal dialog box asks for confirmation before deleting three files.",
+      "note": "Model description was reasonable; soft-token overlap < threshold (gold phrasing)"
+    }
+  ],
+  "passes": [
+    "office-caption-001",
+    "office-ocr-001",
+    "office-ocr-002",
+    "office-table-001",
+    "office-table-002",
+    "office-ui-001",
+    "office-ui-002",
+    "office-hard-ocr-001",
+    "office-hard-table-001",
+    "office-hard-mixed-001"
+  ],
+  "gate2_3_untouched": true,
+  "v0_untouched": true,
+  "open_domain_benchmark": false,
+  "notes": "Scoped claim only: readable drawn office fixtures, n=12, Qwen3.5-2B local. Not an open-domain VL leaderboard score."
+}

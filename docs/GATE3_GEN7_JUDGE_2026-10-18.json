@@ -1,0 +1,146 @@
+{
+  "packs": [
+    "atelier",
+    "foundry"
+  ],
+  "fresh": [
+    0.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    0.0
+  ],
+  "trained": [
+    0.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    0.0
+  ],
+  "dev_exam": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "judge": {
+    "pass": false,
+    "checks": {
+      "speed": false,
+      "transfer": false,
+      "ceiling": false,
+      "heritability": false
+    },
+    "gain": {
+      "n": 8,
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "excludes_zero": false
+    },
+    "branch": "Gate 3 did not pass. Change only the learning rule, burn this pack, and seal a new one.",
+    "pass_branch": null,
+    "fresh_rate": 0.5,
+    "trained_rate": 0.5,
+    "gate3_claim": false,
+    "measured": true,
+    "dev_touches": 1,
+    "held_touches": 2,
+    "family_diag": {
+      "fresh": {
+        "table": 0.0,
+        "report": 1.0,
+        "file": 1.0
+      },
+      "trained": {
+        "table": 0.0,
+        "report": 1.0,
+        "file": 1.0
+      }
+    },
+    "learning_rule": {
+      "prefer_atoms_both": true,
+      "atom_adapter_sft": true,
+      "schema_random_table_sft": true,
+      "schema_random_n": 24,
+      "table_overweight": true,
+      "dev_difficulties": [
+        2,
+        3
+      ],
+      "dev_items": 24,
+      "sft_rounds": 4,
+      "sft_epochs": 4,
+      "atom_sft_lr": 0.001,
+      "eval_difficulty": 2,
+      "atom_sft": {
+        "table": {
+          "atom": "office_table_uselog",
+          "pairs": 39,
+          "loss": 0.007070295585995505,
+          "steps": 156,
+          "rounds": 4,
+          "epochs": 4,
+          "lr": 0.001
+        },
+        "report": {
+          "atom": "office_report_uselog",
+          "pairs": 5,
+          "loss": 0.0602761837428261,
+          "steps": 20,
+          "rounds": 4,
+          "epochs": 4,
+          "lr": 0.001
+        },
+        "file": {
+          "atom": "office_file_uselog",
+          "pairs": 4,
+          "loss": 0.020676259277024656,
+          "steps": 16,
+          "rounds": 4,
+          "epochs": 4,
+          "lr": 0.001
+        }
+      },
+      "warm_adapters": [
+        "table",
+        "report",
+        "file"
+      ]
+    }
+  },
+  "dev_pairs": 48,
+  "family_diag": {
+    "fresh": {
+      "table": 0.0,
+      "report": 1.0,
+      "file": 1.0
+    },
+    "trained": {
+      "table": 0.0,
+      "report": 1.0,
+      "file": 1.0
+    }
+  },
+  "seal": "runs/heldout_seal_gen7.json",
+  "evidence": "docs/GATE3_GEN7_JUDGE_2026-10-18.json",
+  "heldout_generation": "gen7",
+  "config": "configs/office_gate3_gen7.yaml",
+  "protocol_commit": "3c9481c",
+  "gate3_claim": false,
+  "note": "gen7 atelier+foundry: fresh=trained=0.5; table=0 report=1 file=1 after schema-random table SFT (39 table pairs, loss~0.007). Scripted gold OK on foreign schema — not CSV/judge bug. Structural: d=2/3 prompts omit column names, forcing pack-specific memorization.",
+  "structural_block": {
+    "finding": "d<=3 abbreviated prompts omit id/amount/status column names; only ok+record lexical cues",
+    "scripted_ok_on_foreign_schema": true,
+    "proposed_fix": "families._table_*: include column names for difficulty<=3 (keep d>=4 abbreviated); then gen8"
+  },
+  "finished_asia_shanghai": "2026-10-18T00:21+08:00"
+}

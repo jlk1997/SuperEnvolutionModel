@@ -1,0 +1,199 @@
+{
+  "kind": "r50plus_c77_vision_v3_heldout_smoke",
+  "timestamp": "2026-10-19T00:00:05+08:00",
+  "gate": 0.6,
+  "dir": "evo/office/fixtures/vision_images_v3_heldout",
+  "n": 9,
+  "n_ok": 9,
+  "rate": 1.0,
+  "gate_pass": true,
+  "vl_gate_v3_heldout_claim": true,
+  "items": [
+    {
+      "id": "v3h-caption-line-001",
+      "task": "caption",
+      "domain": "caption",
+      "route": "bare",
+      "gold": "LINE HEALTH BOARD OEE 84% Scrap 2.1% Cycle 46s Queue 23 Alert Feeder jam Line C",
+      "pred_head": "This image displays a Line Health Board dashboard showing OEE at 84%, Scrap at 2.1%, Cycle time at 46 seconds, and a queue of 23, with an alert about a feeder jam and vision cam offline, along with an action to reroute to Bay 2.",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v3h-ocr-credit-001",
+      "task": "ocr",
+      "domain": "ocr",
+      "route": "bare",
+      "gold": "CREDIT MEMO CM-4408 Credit subtotal 23.80 CREDIT TOTAL 23.80 Issued 2026-10-19",
+      "pred_head": "CREDIT MEMO CM-4408 Customer: West Plant Co Reason: Short ship qty Item CAP-M8 qty 10 @ 1.10 = 11.00 Item SEAL-R qty 4 @ 3.20 = 12.80 Credit subtotal 23.80 CREDIT TOTAL 23.80 Issued 2026-10-19 Ref INV-88421 Approvers: Rui",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v3h-ocr-po7703-001",
+      "task": "ocr",
+      "domain": "ocr",
+      "route": "bare",
+      "gold": "PURCHASE ORDER PO-7703 Subtotal 409.00 Freight 27.50 GRAND TOTAL USD 436.50 Need by 2026-11-20",
+      "pred_head": "PURCHASE ORDER PO-7703 Vendor: North Alloy Works Ship: East Cold Bay 3 L1 CAP-M8 qty 80 @ 1.10 = 88.00 L2 SPRING-Q qty 40 @ 2.40 = 96.00 L3 BUSH-22 qty 20 @ 4.50 = 90.00 L4 SEAL-R qty 25 @ 3.20 = 80.00 L5 PIN-T5 qty 100 @ 0.55 = 55.00 Subtotal 409.00 Freight 27.50 GRAND TOTAL USD",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v3h-ocr-rcpt-001",
+      "task": "ocr",
+      "domain": "ocr",
+      "route": "bare",
+      "gold": "RECEIPT R-7712 Subtotal 21.90 Tax 1.75 PAID TOTAL 23.65 Card 8821",
+      "pred_head": "RECEIPT R-7712 Store: Harbor Mart #4 Tea x2 5.00 Bread x1 3.20 Milk x2 6.40 Soap x1 2.80 Bag x3 4.50 Subtotal 21.90 Tax 1.75 PAID TOTAL 23.65 Card ****8821 2026-10-19 00:12 Asia/Shanghai Cashier: 09 Lane: 3",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v3h-ocr-ship-001",
+      "task": "ocr",
+      "domain": "ocr",
+      "route": "bare",
+      "gold": "SHIPPING SLIP SS-501 Pallets 3 Gross 118.2 kg TRACKING TRK-99014 HANDLE WITH CARE",
+      "pred_head": "SHIPPING SLIP SS-501 From Ant East To Harbor Gate 7 Pallets 3 Gross 118.2 kg P1 CAP-M8 x200 P2 SPRING-Q x80 P3 MIX BUSH+SEAL TRACKING TRK-99014 HANDLE WITH CARE Seal code GEN11-HOLD Depart 2026-10-19 06:40 Asia/Shanghai",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v3h-table-def6-001",
+      "task": "table_cells",
+      "domain": "dense_table",
+      "route": "bare",
+      "gold": "id,area,sev,status,owner,eta\nX11,Coat,H,open,Rui,10:00\nX12,Weld,M,wip,Jon,11:30\nX13,Seal,H,open,Lia,12:00\nX14,Wire,L,fixed,Ann,done\nX15,Bolt,M,open,Kai,14:00\nX16,Lens,H,wip,Mei,15:20",
+      "pred_head": "```csv id,area,sev,status,owner,eta X11,Coat,H,open,Rui,10:00 X12,Weld,M,wip,Jon,11:30 X13,Seal,H,open,Lia,12:00 X14,Wire,L,fixed,Ann,done X15,Bolt,M,open,Kai,14:00 X16,Lens,H,wip,Mei,15:20 ```",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v3h-table-dock-001",
+      "task": "table_cells",
+      "domain": "dense_table",
+      "route": "bare",
+      "gold": "dock,job,start,end,truck,owner\nA,Unload,06:00,08:00,T-12,Ann\nB,Load,07:30,10:00,T-19,Jon\nC,QA,09:00,11:30,T-04,Lia\nD,Ship,11:00,14:00,T-22,Kai\nE,Hold,14:00,16:00,T-08,Mei",
+      "pred_head": "```csv dock,job,start,end,truck,owner A,Unload,06:00,08:00,T-12,Ann B,Load,07:30,10:00,T-19,Jon C,QA,09:00,11:30,T-04,Lia D,Ship,11:00,14:00,T-22,Kai E,Hold,14:00,16:00,T-08,Mei ```",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v3h-table-stock7-001",
+      "task": "table_cells",
+      "domain": "dense_table",
+      "route": "bare",
+      "gold": "bin,sku,onhand,rsv,avail,zone,lot\nF1,CAP-M8,220,18,202,N,L41\nF2,SPRING-Q,90,9,81,E,L42\nG3,BUSH-22,340,40,300,S,L43\nH1,SEAL-R,75,5,70,W,L44\nH4,PIN-T5,610,60,550,N,L45\nJ2,CLIP-Z,48,8,40,E,L46\nK9,HOSE-9,16,2,14,S,L47",
+      "pred_head": "```csv bin,sku,onhand,rsv,avail,zone,lot F1,CAP-M8,220,18,202,N,L41 F2,SPRING-Q,90,9,81,E,L42 G3,BUSH-22,340,40,300,S,L43 H1,SEAL-R,75,5,70,W,L44 H4,PIN-T5,610,60,550,N,L45 J2,CLIP-Z,48,8,40,E,L46 K9,HOSE-9,16,2,14,S,L47 ```",
+      "ok": true,
+      "error": null
+    },
+    {
+      "id": "v3h-ui-fw-001",
+      "task": "caption",
+      "domain": "caption",
+      "route": "bare",
+      "gold": "Edge Firewall Panel TLS 1.3 ON VPN only ON Guest WiFi OFF Auto-update ON",
+      "pred_head": "This image displays a configuration panel for an Edge Firewall, showing status indicators for features like TLS 1.3, VPN, Guest WiFi, and Auto-update, with some enabled (green) and one disabled (gray).",
+      "ok": true,
+      "error": null
+    }
+  ],
+  "routes": [
+    {
+      "id": "v3h-caption-line-001",
+      "mode": "bare",
+      "use_adapter": false,
+      "adapter_path": null,
+      "domain": "caption",
+      "task": "caption",
+      "reason": "default bare (domain=caption not in weak-lora allowlist or adapter missing)",
+      "policy": "dense_table_bare__lora_only_weak_domains"
+    },
+    {
+      "id": "v3h-ocr-credit-001",
+      "mode": "bare",
+      "use_adapter": false,
+      "adapter_path": null,
+      "domain": "ocr",
+      "task": "ocr",
+      "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+      "policy": "dense_table_bare__lora_only_weak_domains"
+    },
+    {
+      "id": "v3h-ocr-po7703-001",
+      "mode": "bare",
+      "use_adapter": false,
+      "adapter_path": null,
+      "domain": "ocr",
+      "task": "ocr",
+      "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+      "policy": "dense_table_bare__lora_only_weak_domains"
+    },
+    {
+      "id": "v3h-ocr-rcpt-001",
+      "mode": "bare",
+      "use_adapter": false,
+      "adapter_path": null,
+      "domain": "ocr",
+      "task": "ocr",
+      "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+      "policy": "dense_table_bare__lora_only_weak_domains"
+    },
+    {
+      "id": "v3h-ocr-ship-001",
+      "mode": "bare",
+      "use_adapter": false,
+      "adapter_path": null,
+      "domain": "ocr",
+      "task": "ocr",
+      "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+      "policy": "dense_table_bare__lora_only_weak_domains"
+    },
+    {
+      "id": "v3h-table-def6-001",
+      "mode": "bare",
+      "use_adapter": false,
+      "adapter_path": null,
+      "domain": "dense_table",
+      "task": "table_cells",
+      "reason": "dense/table domain: LoRA historically regresses (C66/C72); use bare",
+      "policy": "dense_table_bare__lora_only_weak_domains"
+    },
+    {
+      "id": "v3h-table-dock-001",
+      "mode": "bare",
+      "use_adapter": false,
+      "adapter_path": null,
+      "domain": "dense_table",
+      "task": "table_cells",
+      "reason": "dense/table domain: LoRA historically regresses (C66/C72); use bare",
+      "policy": "dense_table_bare__lora_only_weak_domains"
+    },
+    {
+      "id": "v3h-table-stock7-001",
+      "mode": "bare",
+      "use_adapter": false,
+      "adapter_path": null,
+      "domain": "dense_table",
+      "task": "table_cells",
+      "reason": "dense/table domain: LoRA historically regresses (C66/C72); use bare",
+      "policy": "dense_table_bare__lora_only_weak_domains"
+    },
+    {
+      "id": "v3h-ui-fw-001",
+      "mode": "bare",
+      "use_adapter": false,
+      "adapter_path": null,
+      "domain": "caption",
+      "task": "caption",
+      "reason": "default bare (domain=caption not in weak-lora allowlist or adapter missing)",
+      "policy": "dense_table_bare__lora_only_weak_domains"
+    }
+  ],
+  "route_tables_all_bare": true,
+  "innovation": "Harder V3 heldout claim; routing recorded; claim bare-only",
+  "gate2_3_untouched": true,
+  "v1_v2_v3_dense_untouched": true
+}

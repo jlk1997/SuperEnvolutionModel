@@ -1,0 +1,46 @@
+{
+  "cycle": "C122",
+  "theme": "product_harden_tool_backed_money",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T03:10:18+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "module": "evo/office/money_tool.py",
+  "policy_path": "evo/office/product_money_policy.json",
+  "tests": {
+    "n": 4,
+    "n_ok": 4,
+    "rate": 1.0,
+    "rows": [
+      {
+        "text": "item A paid 11.00 item C paid 19.00",
+        "exp": 30.0,
+        "got": 30.0,
+        "ok": true
+      },
+      {
+        "text": "paid 1.5 paid 2.5 paid 3",
+        "exp": 7.0,
+        "got": 7.0,
+        "ok": true
+      },
+      {
+        "text": "OPEN ONLY X 9.00 open Y 11.00 open",
+        "exp": 0.0,
+        "got": 0.0,
+        "ok": true
+      },
+      {
+        "text": "amount,status\n12.5,paid\n8,open\n5.5,paid\n",
+        "exp": 18.0,
+        "got": 18.0,
+        "ok": true
+      }
+    ]
+  },
+  "u2c_absorb_claim": false,
+  "c120_ref": "docs/r50/C120_U2C_ABSORB_DIAGNOSIS.json",
+  "pass": true,
+  "claim": false,
+  "note": "Cheap product harden: money sums via tool, not LoRA. No Gate2/3."
+}

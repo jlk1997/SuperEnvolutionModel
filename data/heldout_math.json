@@ -1,0 +1,10 @@
+[
+  {"id": "m1", "question": "A box has 3 red balls and 2 blue balls. How many balls are in the box?", "answer": "5"},
+  {"id": "m2", "question": "Lina had 10 coins and spent 4. How many coins does she have left?", "answer": "6"},
+  {"id": "m3", "question": "There are 6 rows of chairs with 5 chairs in each row. How many chairs are there?", "answer": "30"},
+  {"id": "m4", "question": "A rope is 15 meters long. A piece of 7 meters is cut off. How many meters remain?", "answer": "8"},
+  {"id": "m5", "question": "Tom reads 4 pages a day for 3 days. How many pages does he read?", "answer": "12"},
+  {"id": "m6", "question": "A jar holds 20 marbles. 9 are removed. How many marbles stay in the jar?", "answer": "11"},
+  {"id": "m7", "question": "Each ticket costs 8 dollars. How much do 2 tickets cost?", "answer": "16"},
+  {"id": "m8", "question": "A train has 14 cars and 5 are detached. How many cars remain?", "answer": "9"}
+]

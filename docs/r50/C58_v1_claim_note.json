@@ -1,0 +1,12 @@
+{
+  "kind": "vision_v1_softmatch_harden_note",
+  "timestamp": "2026-10-18T22:50:50+08:00",
+  "prior_claim_rate": 0.8333,
+  "rescored_rate": 1.0,
+  "flipped": [
+    "office-caption-002",
+    "office-hard-ui-001"
+  ],
+  "claim_scope_unchanged": true,
+  "gate2_3_untouched": true
+}

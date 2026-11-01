@@ -1,0 +1,82 @@
+{
+  "cycle": "C127",
+  "theme": "money_tool_wired_into_capture_office_e2e",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T03:15:00+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "money_tool_imported": true,
+  "unit": {
+    "n": 4,
+    "n_ok": 4,
+    "rate": 1.0,
+    "rows": [
+      {
+        "text": "item A paid 11.00 item C paid 19.00",
+        "exp": 30.0,
+        "tool": 30.0,
+        "parse": 30.0,
+        "ok": true
+      },
+      {
+        "text": "paid 1.5 paid 2.5 paid 3",
+        "exp": 7.0,
+        "tool": 7.0,
+        "parse": 7.0,
+        "ok": true
+      },
+      {
+        "text": "OPEN ONLY X 9.00 open Y 11.00 open paid_total TARG",
+        "exp": 0.0,
+        "tool": 0.0,
+        "parse": 0.0,
+        "ok": true
+      },
+      {
+        "text": "amount,status\n12.5,paid\n8,open\n5.5,paid\n",
+        "exp": 18.0,
+        "tool": 18.0,
+        "parse": 18.0,
+        "ok": true
+      }
+    ]
+  },
+  "e2e_capture_dry": {
+    "n": 3,
+    "n_ok": 3,
+    "rate": 1.0,
+    "rows": [
+      {
+        "name": "invoice_paid",
+        "ok": true,
+        "paid_got": 30.0,
+        "paid_expected": 30.0,
+        "money_tool": true,
+        "money_policy": "tool_backed_money_math",
+        "errors": []
+      },
+      {
+        "name": "open_only_zero",
+        "ok": true,
+        "paid_got": 0.0,
+        "paid_expected": 0.0,
+        "money_tool": true,
+        "money_policy": "tool_backed_money_math",
+        "errors": []
+      },
+      {
+        "name": "triple_paid",
+        "ok": true,
+        "paid_got": 15.5,
+        "paid_expected": 15.5,
+        "money_tool": true,
+        "money_policy": "tool_backed_money_math",
+        "errors": []
+      }
+    ]
+  },
+  "rate": 1.0,
+  "pass": true,
+  "claim": false,
+  "note": "Product path: capture→parse_paid uses evo.office.money_tool. Evidence fields money_tool/money_policy."
+}

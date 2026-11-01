@@ -1,0 +1,12 @@
+{
+  "kind": "vision_dissolve_protocol_v1",
+  "timestamp": "2026-10-18T22:30:53+08:00",
+  "gate": 0.6,
+  "definition": {
+    "bare_rate": "VL success without heavy scaffold",
+    "scaffold_rate": "with vision agent scaffold",
+    "D": "scaffold_dep target<=0.05"
+  },
+  "status": "PROTOCOL_READY_NOT_YET_FULL_RUN",
+  "innovation": "Vision dissolve D protocol"
+}

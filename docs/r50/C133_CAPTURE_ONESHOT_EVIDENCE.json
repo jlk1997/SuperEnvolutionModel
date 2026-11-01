@@ -1,0 +1,40 @@
+{
+  "product": "ant_capture_office",
+  "timestamp": "2026-10-19T03:27:37+08:00",
+  "oneshot": true,
+  "use_vl": false,
+  "expected_paid": 16.5,
+  "evidence": {
+    "entry": "ant_capture_office",
+    "timestamp": "2026-10-19T03:27:37+08:00",
+    "gate": 0.6,
+    "capture_ok": true,
+    "size": [
+      2560,
+      1600
+    ],
+    "use_vl": false,
+    "scaffold_steps": 0,
+    "agent_graph": "none",
+    "errors": [],
+    "panel": "runs/capture_product_demo_c133/oneshot_dry/capture_panel.png",
+    "vl_skipped": true,
+    "note_fallback": "no_vl_used_lines_as_text_for_offline_dryrun",
+    "ocr_text": "DEMO INVOICE #ANT-C133 latte paid 4.50 sandwich paid 12.00 juice open 3.00 TOTAL PAID TARGET 16.50",
+    "ocr_ok": true,
+    "paid_got": 16.5,
+    "paid_expected": 16.5,
+    "paid_ok": true,
+    "money_tool": true,
+    "money_policy": "tool_backed_money_math",
+    "atom_ok": true,
+    "ok": true,
+    "pass": true,
+    "rate": 1.0
+  },
+  "schema_errors": [],
+  "ok": true,
+  "cli": "python scripts/ant_capture_office.py --expected-paid 16.5 --title \"ANT CAPTURE DEMO\"",
+  "lib": "scripts/ant_capture_office_lib.py",
+  "money_tool": true
+}

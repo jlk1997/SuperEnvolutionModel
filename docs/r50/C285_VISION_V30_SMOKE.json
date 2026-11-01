@@ -1,0 +1,233 @@
+{
+  "cycle": "C285",
+  "theme": "vision_v30_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T12:36:32+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7444.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v30_01",
+      "kind": "velvet_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 103.5,
+      "expected": 103.5,
+      "ocr_preview": "丝绒灰收款单 VELVET DUST RECV V30 a paid 51.00 b paid 59.50 c open 14.00 TOTAL PAID TARGET 103.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v30_02",
+      "kind": "spiral_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 91.0,
+      "expected": 91.0,
+      "ocr_preview": "SCAN DESK V30 best 133.00 PAGE 01 螺旋装订仓单 WH SPIRAL BIND V30 SKU1 qty 43 ok SKU2 qty 20 hold SKU3 qty 43 ok qty_sum TARGET 91 DRAFT DRAFT WATERMARK.COM DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW DRAW"
+    },
+    {
+      "id": "v30_03",
+      "kind": "mimeo_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 57.25,
+      "expected": 57.25,
+      "ocr_preview": "SCAN DESK V30 BAST 233.00 PAGE 01 油印退款单 MIMEO COPY REFUND V30 ItemR1 27.00 done ItemR2 20.25 done ItemR3 12.00 open refund_done TARGET 57.25 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v30_04",
+      "kind": "ribbon_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 163.0,
+      "expected": 163.0,
+      "ocr_preview": "色带打印单 TAX RIBBON STREAK V30 T1 32.00 paid T2 37.00 open T3 71.00 paid tax_base_paid TARGET 163.00 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222.22 TAX RIBBON STREAK MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse baet 666.00 PHONE SHADOW baet 503.00 FAX HEADER BAIT 123.40 BARCODE bait 123.40 V30: CBA daily fear.j"
+    },
+    {
+      "id": "v30_05",
+      "kind": "neon_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2920.0,
+      "expected": 2920.0,
+      "ocr_preview": "PAYROLL NEON HOTSPOT V30 A 1400 active B 290 active C 1430 active payroll_active TARGET 2920 SCAN DESK V30 BAST 133.00 PAGE 01 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v30_06",
+      "kind": "hologram_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 76.0,
+      "expected": 76.0,
+      "ocr_preview": "SCAN DESK V30 best 133.00 PAGE 01 全息发货单 SHIP HOLOGRAM GLARE V30 P1 38 ok P2 19 red P3 38 ok ship_ok_qty TARGET 76 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v30_07",
+      "kind": "lacquer_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 72.0,
+      "expected": 72.0,
+      "ocr_preview": "SCAN DESK V30 BAIT 133.00 PAGE 01 EDSLA EDSLA LACQUER SEAL BAIT V30 S1 pri 30 open S2 pri 38 closed S3 pri 42 open open_pri_sum TARGET 72 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v30_08",
+      "kind": "rivet_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 137.25,
+      "expected": 137.25,
+      "ocr_preview": "SCAN DESK V30 BAST 133.00 PAGE 01 钢订报销单 EXPENSE RIVET CLIP V30 E1 66.00 paid E2 25.00 void E3 71.25 paid paid_total TARGET 137.25 CLIPPE DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v30_09",
+      "kind": "concertina_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 105.5,
+      "expected": 105.5,
+      "ocr_preview": "手风琴折采购单 DO-CONCERTINA FOLD V30 ItemA paid 51.00 ItemB paid 54.50 ItemC open 17.00 TOTAL PAID TARGET 105.50 FAX HEADER BAIT 88.88 FROM:SPOT SHOP LABEL BAIT 222.22 TRACK WITH 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 503.00 FAX HEADER BAIT 123.40 BARCODE bait 123.40 DRAFT DRAFT WAT"
+    },
+    {
+      "id": "v30_10",
+      "kind": "serrate_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 87.0,
+      "expected": 87.0,
+      "ocr_preview": "SCAR DESK V30 BAST 133.00 PAGE 01 银齿边订单 ORDER SERRATE EDGE V30 A paid 42.00 B paid 36.00 C open 13.00 TOTAL PAID TARGET 87.00 CLAPE wash DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v30_11",
+      "kind": "triptych_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 124.5,
+      "expected": 124.5,
+      "ocr_preview": "SCAN DESK V30 best 133.00 PAGE 01 三联页重复发票 INVOICE #V30-TRIPTYCH lineA paid 41.50 lineB paid 41.50 lineC paid 41.50 TOTAL PAID TARGET 124.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v30_12",
+      "kind": "void_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "SCAN DESK V30 best 133.00 PAGE 01 油印阴影未付 OPEN ONLY V30 X 60.00 open Y 67.00 open paid_total TARGET 0.00 CLUE 200 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v30_13",
+      "kind": "marker_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 69.5,
+      "expected": 69.5,
+      "ocr_preview": "MARKET 台账 EDGER MARKER STREAK V30 rA paid 33.00 rB paid 36.50 rC open 11.50 TOTAL PAID TARGET 69.50 DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 GR 189.12.77 VOID OVEN COPY PEN MUG OVERLAY LABEL bait 377 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 503.00 FAX PAID bait 12.12 BARCODE bait 123.40 SCAN DESK V30 bait 1"
+    },
+    {
+      "id": "v30_14",
+      "kind": "washi_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 81.25,
+      "expected": 81.25,
+      "ocr_preview": "SCAN DESK V30 best 133.00 PAGE 01 和纸边界面单 WASHI EDGE V30 alpha paid 39.00 beta paid 42.25 gamma paid 14.00 TOTAL PAID TARGET 81.25 CLIPPE DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.43.35 GR 18.12.77 VOID COPY OVEN V30 C284 clarity near jpeg_40 photo2. Velvet[purple][mint][rose][lavender][lavender][lavender][lavender][lavender][lavender][lavender]["
+    },
+    {
+      "id": "v30_15",
+      "kind": "inkjet_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 119.0,
+      "expected": 119.0,
+      "ocr_preview": "INKJET FADE STACK V30 x paid 58.00 usd y paid 61.00 usd z open 20.00 usd TOTAL PAID TARGET 119.00 (repaired C285a)"
+    },
+    {
+      "id": "v30_16",
+      "kind": "redink_fax",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 67.5,
+      "expected": 67.5,
+      "ocr_preview": "SCAN DESK V30 BAST 133.00 PAGE 01 红墨传真双语 CN-EN REDINK FAX V30 tea paid 32.00 rice paid 35.50 soup open 12.00 TOTAL PAID TARGET 67.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v30_17",
+      "kind": "bulldog_glare",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 93.75,
+      "expected": 93.75,
+      "ocr_preview": "长尾夹胶光单 BULLDOG CLIP GLARE V30 w1 paid 45.00 w2 paid 48.75 w3 open 10.00 TOTAL PAID TARGET 93.75 CLIPPE wash DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v30_18",
+      "kind": "corner_tab",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 51.0,
+      "expected": 51.0,
+      "ocr_preview": "角竺复膜页 LAMINATE CORNER TAB V30 p1 paid 24.00 p2 paid 27.00 p3 open 9.00 TOTAL PAID TARGET 51.00 CLIPPE DRAFT DRAFT WATERMARK COPY VOID OVERLAY LABEL bait 377 DO NOT SCAN VXO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 505.00 BARCODE bait 123.40 SCAN DESK V30 bait 133.00 PAGE 01 MUG PEN TAPE R23 bait 12.12 GR bait 12.77 RNG bait 12.3"
+    }
+  ],
+  "vl_gate_v30_claim": true,
+  "claim_scope": "r50plus_v30_hlx_magclip_thermal_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V30 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true,
+  "note": "; C285a repaired v30_15 real VL retest ok"
+}

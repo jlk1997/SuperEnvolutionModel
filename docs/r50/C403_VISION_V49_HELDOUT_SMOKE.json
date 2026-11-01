@@ -1,0 +1,237 @@
+{
+  "cycle": "C403",
+  "theme": "vision_v49_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T08:46:21+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7733.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v49h_01",
+      "kind": "aurora_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 148.5,
+      "expected": 148.5,
+      "ocr_preview": "aurora AURORA GRAIN RECV V49H a paid 71.00 b paid 77.50 c open 32.00 TOTAL PAID TARGET 148.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 C433 clarity four peg_052 photo2 testout"
+    },
+    {
+      "id": "v49h_02",
+      "kind": "basalt_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 119.0,
+      "expected": 119.0,
+      "ocr_preview": "basalt WH BASALT BIN V49H SKU1 qty 52 ok SKU2 qty 39 hold SKU3 qty 67 ok qty_sum TARGET 119 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v49h_03",
+      "kind": "canyon_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 103.75,
+      "expected": 103.75,
+      "ocr_preview": "canyon CANYON PATCH REFUND V49H itemR1 49.50 done itemR2 54.25 done itemR3 24.00 open refund_done TARGET 103.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v49h_04",
+      "kind": "dune_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 206.0,
+      "expected": 206.0,
+      "ocr_preview": "dune DUNE TAX SLIP V49H base 100.00 paid addon 106.00 paid skip 47.00 tax_base_paid TARGET 206.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 99.99 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v49h_05",
+      "kind": "estuary_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 259.0,
+      "expected": 259.0,
+      "ocr_preview": "estuary ESTUARY PAYROLL V49H empA 126.00 active empB 133.00 active empC 43.00 leave payroll_active TARGET 259.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v49h_06",
+      "kind": "fjord_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 89.0,
+      "expected": 89.0,
+      "ocr_preview": "fjord FJORD SHIP DOCK V49H box1 42 ok box2 47 ok box3 27 hold ship_ok TARGET 89 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT SHIP VOID COPY SCAN DESK V49H BEST 222.00 PAGE 01 C453 clarity four peg_052 photo2 testout"
+    },
+    {
+      "id": "v49h_07",
+      "kind": "glacier_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 107.25,
+      "expected": 107.25,
+      "ocr_preview": "glacier GLACIER SLA CARD V49H job1 57.00 hours ok job2 50.25 hours ok job3 28.00 hours late sla_ok_hours TARGET 107.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE COPY VOID SLA bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.0"
+    },
+    {
+      "id": "v49h_08",
+      "kind": "harbor_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 132.5,
+      "expected": 132.5,
+      "ocr_preview": "harbor HARBOR EXPENSE V49H e1 63.00 e2 69.50 e3 33.00 void exp_sum TARGET 132.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 60.00 IGNORE EXP VOID COPY bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60.00 bait 60."
+    },
+    {
+      "id": "v49h_09",
+      "kind": "islet_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 146.0,
+      "expected": 146.0,
+      "ocr_preview": "islet ISLET PO SHEET V49H line1 78.00 open line2 68.00 open line3 36.00 closed po_open TARGET 146.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO bait 88.00 COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88."
+    },
+    {
+      "id": "v49h_10",
+      "kind": "jasper_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 173.0,
+      "expected": 173.0,
+      "ocr_preview": "jasper JASPER ORDER V49H skuA 92.00 paid skuB 81.00 paid skuC 30.00 due order_paid TARGET 173.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v49h_11",
+      "kind": "kelp_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "kelp KELP DUP MARK V49H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v49h_12",
+      "kind": "lagoon_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "lagoon LAGOON AIR ZERO V49H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00"
+    },
+    {
+      "id": "v49h_13",
+      "kind": "meadow_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 221.5,
+      "expected": 221.5,
+      "ocr_preview": "meadow MEADOW LEDGER V49H dr 108.00 cr 113.50 adj 41.00 ledger_net TARGET 221.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v49h_14",
+      "kind": "nectar_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "nectar NECTAR UI SCAN V49H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v49h_15",
+      "kind": "oasis_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 19.0,
+      "expected": 19.0,
+      "ocr_preview": "OASIS OASIS STACK V49H p1 9 p2 7 p3 3 stack_count TARGET 19 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY OAK bait 88.00 OASIS C430 clarity four pegs (2) photo2 testout SCAN DESK V49H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v49h_16",
+      "kind": "prairie_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 24.0,
+      "expected": 24.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 prairie PRAIRIE FAX V49H pgA 13 pgB 11 pgC 8 drop fax_pages TARGET 24 DRAFT DRAFT DRAFT DRAFT VOID VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 fax 00.00 bait 00.00 bait 00.00 C433 clarity four pag_0102 photod textout"
+    },
+    {
+      "id": "v49h_17",
+      "kind": "quarry_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "quarry QUARRY GLARE V49H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY"
+    },
+    {
+      "id": "v49h_18",
+      "kind": "ridge_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 35.0,
+      "expected": 35.0,
+      "ocr_preview": "ridge RIDGE TAB INDEX V49H tabA 19 tabB 16 tabC 9 tab_index TARGET 35 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v49_heldout_claim": true,
+  "claim_scope": "r50plus_v49_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

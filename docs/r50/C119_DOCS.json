@@ -1,0 +1,17 @@
+{
+  "cycle": "C119",
+  "theme": "docs_stage_c113_c118",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T02:38:31+08:00",
+  "gate2_3_untouched": true,
+  "summary": {
+    "c114_trained_rate": 0.0,
+    "c114_rate_gate_pass": false,
+    "c114_claim": false,
+    "c115_test_rate": 1.0,
+    "c116_v5_claim": false,
+    "gen11": "HOLD"
+  },
+  "pass": true,
+  "claim": false
+}

@@ -1,0 +1,27 @@
+{
+  "cycle": "C97",
+  "theme": "multihop_heldout",
+  "n": 2,
+  "rate": 1.0,
+  "gate": 0.6,
+  "pass": true,
+  "rows": [
+    {
+      "id": "mh_h_po_recv",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "text": "PO RECEIVING PO 9001 recv qty 25 recv qty 15 SUM RECEV 40 status OK"
+    },
+    {
+      "id": "mh_h_expense",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "text": "EXPENSE travel 120.00 meals 45.50 blocked 999 APPROVED TOTAL 165.50"
+    }
+  ],
+  "timestamp": "2026-10-19T01:32:55+08:00",
+  "claim": false,
+  "note": "Heldout multihop observational; not Vision V4 claim."
+}

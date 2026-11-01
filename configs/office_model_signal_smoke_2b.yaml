@@ -1,0 +1,49 @@
+# Optional larger-base smoke after 1.5B exam floor kill (B-X6 escalate).
+# Gate 0.6. No Gate2. One detached trial only when GPU free and F3i done.
+run_name: office_model_signal_smoke_2b
+model_name: e:/envolution/models/Qwen3.5-2B
+seed: 0
+seeds: [0]
+actor: model
+prefer_atoms: true
+family_skill_map: {}
+steps: 16
+difficulty: 1
+day_after: 2
+day_ticks: 8
+day_budget: 16
+revisit_every: 4
+drift_at: 4
+families: [table, file, report, shell]
+arms: [agent, dual]
+write_gate: true
+max_steps: 6
+exec_timeout: 12
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: full
+max_seq_len: 512
+max_new_code: 160
+outer_lr: 0.0005
+temperature: 0.0
+grpo_k: 2
+power_target: 0.8
+power_p_new: 0.65
+power_p_base: 0.45
+power_min_n: 24
+power_required_n: 160
+
+tool_call_primer: true
+train_tokens_each: 1200
+absorb_train_tokens: 1200
+
+practice_bootstrap: true
+model_turn_log: runs/logs/office_model_turns_2b.log
+
+bootstrap_sft_immediate: true
+bootstrap_sft_epochs: 2
+exam_prep_sft: true
+exam_prep_sft_epochs: 2
+
+use_log: true

@@ -1,0 +1,11 @@
+{
+  "pieces": {
+    "DISSOLVE_DASHBOARD_2026-10-18.json": "docs/DISSOLVE_DASHBOARD_2026-10-18.json",
+    "C01_beat_agent_board.json": "docs/r50/C01_beat_agent_board.json",
+    "C46_trend_agg.json": "docs/r50/C46_trend_agg.json",
+    "C47_real_vl_v1_smoke.json": "docs/r50/C47_real_vl_v1_smoke.json",
+    "C39_capability_radar.json": "docs/r50/C39_capability_radar.json"
+  },
+  "timestamp": "2026-10-18T22:32:38+08:00",
+  "innovation": "Triangulate before seal"
+}

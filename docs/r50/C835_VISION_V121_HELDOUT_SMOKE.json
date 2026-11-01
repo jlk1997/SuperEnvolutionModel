@@ -1,0 +1,237 @@
+{
+  "cycle": "C835",
+  "theme": "vision_v121_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T08:34:19+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v121h_01",
+      "kind": "ambercroft_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1104.75,
+      "expected": 1104.75,
+      "ocr_preview": "amberscroft AMBERCROFT GRAIN RECV V121H a paid 546.00 b paid 558.75 c open 439.00 TOTAL PAID TARGET 1104.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC bait 55.00 VOID COPY V121H CBS5 clarity floor preg_qf2 phone2 headset"
+    },
+    {
+      "id": "v121h_02",
+      "kind": "briarcroft_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1042.0,
+      "expected": 1042.0,
+      "ocr_preview": "briarcroft WH BRIARCROFT BIN V121H SKU1 qty 501 ok SKU2 qty 421 hold SKU3 qty 541 ok qty_sum TARGET 1042 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V121H C850 clarity floor preg_qf2 phone2 handset"
+    },
+    {
+      "id": "v121h_03",
+      "kind": "cedarcroft_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1021.5,
+      "expected": 1021.5,
+      "ocr_preview": "cedarcroft CEDARCROFT PATCH REFUND V121H itemR1 504.00 done itemR2 517.50 done itemR3 427.00 open refund_done TARGET 1021.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v121h_04",
+      "kind": "dunecroft_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1254.0,
+      "expected": 1254.0,
+      "ocr_preview": "dunecroft DUNECROFT TAX SLIP V121H base 619.00 paid addon 635.00 paid skip 468.00 tax_base_paid TARGET 1254.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 88.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v121h_05",
+      "kind": "embercroft_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1336.0,
+      "expected": 1336.0,
+      "ocr_preview": "embercroft EMBERCROFT PAYROLL V121H empA 660.00 active empB 676.00 active empC 463.00 leave payroll_active TARGET 1336.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v121h_06",
+      "kind": "flintcroft_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 922.0,
+      "expected": 922.0,
+      "ocr_preview": "flintcroft FLINTCROFT SHIP DOCK V121H box1 454 ok box2 468 ok box3 432 hold ship_ok TARGET 922 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 99.99 IGNORE DRAFT DRAFT DRAFT DRAFT SHIP VOID COPY V121H C805 cavity floor prog_qf2 phone2 headset"
+    },
+    {
+      "id": "v121h_07",
+      "kind": "gorsecroft_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "gorsecroft GORSECROFT SLA CARD V121H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 VOID COPY bait 88.00 bait 555.00 V121H C850 clarity floor preg_qf2 phone2 headset SCAN DESK V43H BAST 222.00 PAGE"
+    },
+    {
+      "id": "v121h_08",
+      "kind": "heathcroft_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1081.75,
+      "expected": 1081.75,
+      "ocr_preview": "SCAN DESK V43H bAST 222.00 PAGE 01 heathcroft HEATHCROFT EXPENSE V121H e1 530.00 e2 551.75 e3 439.00 void exp_sum TARGET 1081.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE EXP COPY bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55."
+    },
+    {
+      "id": "v121h_09",
+      "kind": "inkcroft_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1104.0,
+      "expected": 1104.0,
+      "ocr_preview": "inkcroft INKCROFT PO SHEET V121H line1 589.00 open line2 515.00 open line3 436.00 closed po_open TARGET 1104.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v121h_10",
+      "kind": "jadecroft_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1140.0,
+      "expected": 1140.0,
+      "ocr_preview": "jadecroft JADECROFT ORDER V121H skuA 577.00 paid skuB 563.00 paid skuC 434.00 due order_paid TARGET 1140.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v121h_11",
+      "kind": "kelpcroft_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "kelpcroft KELP CROFT DUP MARK V121H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v121h_12",
+      "kind": "loamcroft_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "loamcroft LOAMCROFT AIR ZERO V121H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 0.00 IGNORE VOID ZERO COPY bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait 0.00 bait"
+    },
+    {
+      "id": "v121h_13",
+      "kind": "mistcroft_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1239.5,
+      "expected": 1239.5,
+      "ocr_preview": "mistcroft MISTCROFT LEDGER V121H dr 612.00 cr 627.50 adj 449.00 ledger_net TARGET 1239.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY V121H CB55 clarity floor preg_q02 photo2 metadata"
+    },
+    {
+      "id": "v121h_14",
+      "kind": "nethercroft_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "nethercroft NETHERCROFT UI SCAN V121H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v121h_15",
+      "kind": "oakcroft_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 597.0,
+      "expected": 597.0,
+      "ocr_preview": "oakcroft OAKCROFT STACK V121H p1 300 p2 297 p3 292 stack_count TARGET 597 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V121H CB55 cavity floor preg_qf2 photo2 hdout"
+    },
+    {
+      "id": "v121h_16",
+      "kind": "pinecroft_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 626.0,
+      "expected": 626.0,
+      "ocr_preview": "pinecroft PINECROFT FAX V121H pgA 316 pgB 310 pgC 298 drop fax_pages TARGET 626 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX COPY V121H C850 clarity floor pag_q02 phone2 handset"
+    },
+    {
+      "id": "v121h_17",
+      "kind": "quillcroft_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "quillcroft QUILLCROFT GLARE V121H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE GLR VOID COPY V121H CBS5 clarity floor preg_gQ2 photo2 metadata"
+    },
+    {
+      "id": "v121h_18",
+      "kind": "reedcroft_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 646.0,
+      "expected": 646.0,
+      "ocr_preview": "reedcroft REEDCROFT TAB INDEX V121H tabA 326 tabB 320 tabC 299 tab_index TARGET 646 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 VOID tab 88.00 COPY tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v121_heldout_claim": true,
+  "claim_scope": "r50plus_v121_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

@@ -1,0 +1,127 @@
+{
+  "cycle": "C257",
+  "theme": "innovation_u2c_capture_replace",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T09:43:11+08:00",
+  "u2c": {
+    "pass": true,
+    "n": 18,
+    "n_ok": 18,
+    "rate": 1.0,
+    "path": "runs/innovation_c257/u2c_atoms.json"
+  },
+  "capture_multimetric": {
+    "n": 8,
+    "n_ok": 8,
+    "rate": 1.0,
+    "rows": [
+      {
+        "metric": "paid_total",
+        "got": 82.0,
+        "expected": 82.0,
+        "ok": true
+      },
+      {
+        "metric": "qty_sum",
+        "got": 73.0,
+        "expected": 73.0,
+        "ok": true
+      },
+      {
+        "metric": "refund_done",
+        "got": 44.25,
+        "expected": 44.25,
+        "ok": true
+      },
+      {
+        "metric": "tax_base_paid",
+        "got": 139.0,
+        "expected": 139.0,
+        "ok": true
+      },
+      {
+        "metric": "payroll_active",
+        "got": 2450.0,
+        "expected": 2450.0,
+        "ok": true
+      },
+      {
+        "metric": "ship_ok_qty",
+        "got": 62.0,
+        "expected": 62.0,
+        "ok": true
+      },
+      {
+        "metric": "open_pri_sum",
+        "got": 58.0,
+        "expected": 58.0,
+        "ok": true
+      },
+      {
+        "metric": "paid_total",
+        "got": 0.0,
+        "expected": 0.0,
+        "ok": true
+      }
+    ],
+    "pass": true
+  },
+  "replace_ledger": {
+    "n": 6,
+    "mean_ratio": 3.725,
+    "bare_success_rate": 1.0,
+    "agent_success_rate": 0.8333,
+    "step_delta_agent_minus_bare": 53,
+    "scenarios": [
+      {
+        "id": "inv_sum",
+        "bare_steps": 3,
+        "agent_steps": 11,
+        "bare_ok": true,
+        "agent_ok": true
+      },
+      {
+        "id": "qty_wh",
+        "bare_steps": 3,
+        "agent_steps": 10,
+        "bare_ok": true,
+        "agent_ok": true
+      },
+      {
+        "id": "refund",
+        "bare_steps": 4,
+        "agent_steps": 13,
+        "bare_ok": true,
+        "agent_ok": false
+      },
+      {
+        "id": "payroll",
+        "bare_steps": 3,
+        "agent_steps": 12,
+        "bare_ok": true,
+        "agent_ok": true
+      },
+      {
+        "id": "zero_open",
+        "bare_steps": 2,
+        "agent_steps": 9,
+        "bare_ok": true,
+        "agent_ok": true
+      },
+      {
+        "id": "multihop",
+        "bare_steps": 5,
+        "agent_steps": 18,
+        "bare_ok": true,
+        "agent_ok": true
+      }
+    ],
+    "pass": true
+  },
+  "cli_help_ok": true,
+  "pass": true,
+  "claim": false,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "note": "innovation knife; no VL claim here"
+}

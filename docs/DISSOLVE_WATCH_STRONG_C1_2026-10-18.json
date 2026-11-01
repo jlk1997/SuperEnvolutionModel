@@ -1,0 +1,31 @@
+{
+  "kind": "dissolve_regression_watch_strong_c1",
+  "timestamp": "2026-10-18T20:24:37+08:00",
+  "baseline": "docs/DISSOLVE_DASHBOARD_2026-10-18.json",
+  "families": [
+    {
+      "family": "table",
+      "bare_rate": 1.0,
+      "dissolution": 0.0
+    },
+    {
+      "family": "report",
+      "bare_rate": 1.0,
+      "dissolution": 0.0
+    },
+    {
+      "family": "file",
+      "bare_rate": 1.0,
+      "dissolution": 0.0
+    },
+    {
+      "family": "shell",
+      "bare_rate": 1.0,
+      "dissolution": 0.0
+    }
+  ],
+  "regression": false,
+  "pass": true,
+  "gate": "0.6",
+  "notes": "Watch only; no retrain in C1."
+}

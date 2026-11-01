@@ -1,0 +1,70 @@
+[
+  {
+    "id": "add_one",
+    "prompt": "Write a Python function solve(x) that returns x plus 1. Reply with only the function.",
+    "tests": [
+      {"input": "1", "output": "2"},
+      {"input": "4", "output": "5"},
+      {"input": "-3", "output": "-2"}
+    ]
+  },
+  {
+    "id": "double",
+    "prompt": "Write a Python function solve(x) that returns x times 2. Reply with only the function.",
+    "tests": [
+      {"input": "3", "output": "6"},
+      {"input": "0", "output": "0"},
+      {"input": "10", "output": "20"}
+    ]
+  },
+  {
+    "id": "sign",
+    "prompt": "Write a Python function solve(x) that returns 1 if x is positive, -1 if x is negative, and 0 if x is zero. Reply with only the function.",
+    "tests": [
+      {"input": "5", "output": "1"},
+      {"input": "-2", "output": "-1"},
+      {"input": "0", "output": "0"}
+    ]
+  },
+  {
+    "id": "last",
+    "prompt": "Write a Python function solve(x) that returns the last item of list x. Reply with only the function.",
+    "tests": [
+      {"input": "[1, 2, 3]", "output": "3"},
+      {"input": "['a', 'b']", "output": "'b'"}
+    ]
+  },
+  {
+    "id": "clamp",
+    "prompt": "Write a Python function solve(x) that returns 0 if x is negative and otherwise returns x. Reply with only the function.",
+    "tests": [
+      {"input": "-4", "output": "0"},
+      {"input": "6", "output": "6"},
+      {"input": "0", "output": "0"}
+    ]
+  },
+  {
+    "id": "strlen",
+    "prompt": "Write a Python function solve(x) that returns the number of characters in string x. Reply with only the function.",
+    "tests": [
+      {"input": "'cat'", "output": "3"},
+      {"input": "''", "output": "0"}
+    ]
+  },
+  {
+    "id": "sum_list",
+    "prompt": "Write a Python function solve(x) that returns the sum of the numbers in list x. Reply with only the function.",
+    "tests": [
+      {"input": "[1, 2, 3]", "output": "6"},
+      {"input": "[10]", "output": "10"}
+    ]
+  },
+  {
+    "id": "even",
+    "prompt": "Write a Python function solve(x) that returns True if integer x is even and False otherwise. Reply with only the function.",
+    "tests": [
+      {"input": "4", "output": "True"},
+      {"input": "7", "output": "False"}
+    ]
+  }
+]

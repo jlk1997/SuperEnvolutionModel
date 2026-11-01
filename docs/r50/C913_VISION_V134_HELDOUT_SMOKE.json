@@ -1,0 +1,237 @@
+{
+  "cycle": "C913",
+  "theme": "vision_v134_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T10:51:43+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v134h_01",
+      "kind": "ashvale_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1316.75,
+      "expected": 1316.75,
+      "ocr_preview": "ashvale ASHVALE GRAIN RECV V134H a paid 652.00 b paid 664.75 c open 545.00 TOTAL PAID TARGET 1316.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC VOID COPY"
+    },
+    {
+      "id": "v134h_02",
+      "kind": "cedarvale_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1260.0,
+      "expected": 1260.0,
+      "ocr_preview": "cedarvale WH CEDARVALE BIN V134H SKU1 qty 620 ok SKU2 qty 540 hold SKU3 qty 640 ok qty_sum TARGET 1260 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC COPY V134H CB13 cavity floor prog_qf2 phone2 handset"
+    },
+    {
+      "id": "v134h_03",
+      "kind": "dawnvale_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1233.5,
+      "expected": 1233.5,
+      "ocr_preview": "dawnvale DAWNVALE PATCH REFUND V134H itemR1 610.00 done itemR2 623.50 done itemR3 533.00 open refund_done TARGET 1233.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v134h_04",
+      "kind": "elmvale_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1466.0,
+      "expected": 1466.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 elmvale ELMVALE TAX SUP V134H base 725.00 paid addon 741.00 paid skip 574.00 tax_base_paid TARGET 1466.00 OKP tax 00.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 00.00 IGNORE TAX VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V134H C013 cavity floor preg_q02 photo2 metadata"
+    },
+    {
+      "id": "v134h_05",
+      "kind": "fernvale_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1548.0,
+      "expected": 1548.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 fernvale FERNVALE PAYROLL V134H empA 766.00 active empB 782.00 active empC 569.00 leave payroll_active TARGET 1548.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v134h_06",
+      "kind": "glenvale_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1134.0,
+      "expected": 1134.0,
+      "ocr_preview": "glenvale GLENVALE SHIP DOCK V134H box1 560 ok box2 574 ok box3 538 hold ship_ok TARGET 1134 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY SCAN DESK V43H page 222.00 PAGE 01 V134H CB13 cavity floor preg_qf2 photo2 metadata"
+    },
+    {
+      "id": "v134h_07",
+      "kind": "hazevale_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 620.0,
+      "expected": 620.0,
+      "ocr_preview": "hazevale HAZEVALE SLA CARD V134H job1 290.00 hours ok job2 330.00 hours ok job3 230.00 hours late sla_ok_hours TARGET 620.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 VOID COPY"
+    },
+    {
+      "id": "v134h_08",
+      "kind": "inkvale_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1293.75,
+      "expected": 1293.75,
+      "ocr_preview": "INKVALE #INKVALE EXPENSE V134H e1 636.00 e2 657.75 e3 545.00 void exp_sum TARGET 1293.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE EXP VOID COPY V134en C013 cavity floor prog_q02 phone2 headset"
+    },
+    {
+      "id": "v134h_09",
+      "kind": "jadevale_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1270.0,
+      "expected": 1270.0,
+      "ocr_preview": "jadevale JADEVALE PO SHEET V134H line1 680.00 open line2 590.00 open line3 542.00 closed po_open TARGET 1270.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE PO bait 55.00 COPY V134H CD13 cavity floor preg_qf2 phone2 headset"
+    },
+    {
+      "id": "v134h_10",
+      "kind": "knotvale_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1352.0,
+      "expected": 1352.0,
+      "ocr_preview": "knotvale KNOTVALE ORDER V134H skuA 663.00 paid skuB 669.00 paid skuC 540.00 due order_paid TARGET 1352.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD bait 88.00 VOID COPY V134H CD13 cavity floor preg_q02 phone2 helixout"
+    },
+    {
+      "id": "v134h_11",
+      "kind": "lakevale_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakevale LAKEVALE DUP MARK V134H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP COPY V134H C813 cavity floor preg_qf2 phone2 headset"
+    },
+    {
+      "id": "v134h_12",
+      "kind": "mossvale_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossvale MOSSVALE AIR ZERO V134H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO bait 00.00 VOID bait 00.00 COPY bait 00.00 DRAFT DRAFT DRAFT DRAFT V134H C013 cavity floor preg_qf2 phone2 headset"
+    },
+    {
+      "id": "v134h_13",
+      "kind": "nethervale_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1451.5,
+      "expected": 1451.5,
+      "ocr_preview": "nethervale NETHERVALE LEDGER V134H dr 718.00 cr 733.50 adj 555.00 ledger_net TARGET 1451.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v134h_14",
+      "kind": "oakvale_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakvale OAKVALE UI SCAN V134H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY V134en C813 cavity floor prog_u02 photo2 headset"
+    },
+    {
+      "id": "v134h_15",
+      "kind": "pinevale_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 809.0,
+      "expected": 809.0,
+      "ocr_preview": "pinevale PINEVALE STACK V134H p1 406 p2 403 p3 398 stack_count TARGET 809 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V134H C013 cavity floor preg_q02 phone2 headset"
+    },
+    {
+      "id": "v134h_16",
+      "kind": "quillvale_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 838.0,
+      "expected": 838.0,
+      "ocr_preview": "quillvale QUILLVALE FAX V134H pgA 422 pgB 416 pgC 404 drop fax_pages TARGET 838 DRAFT DRAFT DRAFT DRAFT VOID FAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 SCAN DESK V43H BAST 222.00 PAGE 01 V134H CD13 cavity floor preg_qf2 phone2 handset"
+    },
+    {
+      "id": "v134h_17",
+      "kind": "reedvale_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedvale REEDVALE GLARE V134H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY"
+    },
+    {
+      "id": "v134h_18",
+      "kind": "stonevale_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 858.0,
+      "expected": 858.0,
+      "ocr_preview": "stonevale STONEVALE TAB INDEX V134H tabA 432 tabB 426 tabC 405 tab_index TARGET 858 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY V134en C013 cavity floor preg_qf2 phone2 handset"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v134_heldout_claim": true,
+  "claim_scope": "r50plus_v134_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

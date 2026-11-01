@@ -1,0 +1,262 @@
+{
+  "cycle": "C101",
+  "theme": "vision_v4_multihop_scoped_claim",
+  "n": 10,
+  "n_ok": 10,
+  "ocr_rate": 1.0,
+  "atom_rate": 1.0,
+  "rate": 1.0,
+  "dissolve_D": 0.0,
+  "gate": 0.6,
+  "pass": true,
+  "claim": true,
+  "vl_gate_v4_claim": true,
+  "scope": "multi-hop vision→office drawn readable fixtures; not open-domain",
+  "tesseract_feasible": false,
+  "vl_weights": "models/Qwen3.5-2B",
+  "protocol": "docs/蚁算视_VL_GATE_V4_PROTOCOL.md",
+  "rows": [
+    {
+      "id": "v4_invoice_paid",
+      "ocr_ok": true,
+      "ocr_text": "INVOICE PAID INVOICE #8821 item A paid 12.50 item B open 8.00 item C paid 20.00 item D paid 5.50 TOTAL PAID TARGET 38.00",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_paid": true,
+        "write_csv": true,
+        "write_report": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4_bay_qty",
+      "ocr_ok": true,
+      "ocr_text": "WAREHOUSE BAY BAY 4 STOCK BOLT-M6 qty 40 NUT-M6 qty 40 WASHER qty 100 SUM QTY 180",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_qty": true,
+        "write_csv": true,
+        "write_report": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4_shell_log",
+      "ocr_ok": true,
+      "ocr_text": "SHELL LOG cmd: copy report.md deliver/ status: OK files: 1 agent_graph: none",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_status": true,
+        "write_marker": true,
+        "dissolve": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4_tax_table",
+      "ocr_ok": true,
+      "ocr_text": "TAX TABLE id,amount,tax,status 1,12.50,1.25,paid 2,8.00,0.80,open 3,20.00,2.00,paid",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "dense_table",
+        "task": "table_cells",
+        "reason": "dense/table domain: LoRA historically regresses (C66/C72); use bare",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "filter_paid": true,
+        "sum_tax": true,
+        "write_csv": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4_po_recv",
+      "ocr_ok": true,
+      "ocr_text": "PO RECEIVING PO 9001 recv qty 25 recv qty 15 SUM RECV 40 status OK",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_qty": true,
+        "write_csv": true,
+        "write_report": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4_expense",
+      "ocr_ok": true,
+      "ocr_text": "EXPENSE travel 120.00 meals 45.50 blocked 999 APPROVED TOTAL 165.50",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_paid": true,
+        "write_csv": true,
+        "write_report": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4_payroll_snip",
+      "ocr_ok": true,
+      "ocr_text": "PAYROLL SNIP emp A hours 40 rate 20 active emp B hours 35 rate 22 active emp C hours 10 rate 18 leave ACTIVE PAY TOTAL 1570.00",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_paid": true,
+        "write_csv": true,
+        "write_report": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4_shipping",
+      "ocr_ok": true,
+      "ocr_text": "SHIPPING PKG 771 boxes 3 PKG 772 boxes 5 PKG 773 boxes 2 SUM BOXES 10 status OK",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_qty": true,
+        "write_csv": true,
+        "write_marker": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4_refunds",
+      "ocr_ok": true,
+      "ocr_text": "REFUNDS R1 done 3.00 R2 open 5.50 R3 done 1.50 DONE TOTAL 4.50",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_paid": true,
+        "write_csv": true,
+        "write_report": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    },
+    {
+      "id": "v4_sla_board",
+      "ocr_ok": true,
+      "ocr_text": "SLA BOARD T1 open pri 2 T2 closed pri 5 T3 open pri 1 T4 open pri 4 OPEN HI COUNT 2",
+      "route": {
+        "mode": "bare",
+        "use_adapter": false,
+        "adapter_path": null,
+        "domain": "ocr",
+        "task": "ocr",
+        "reason": "default bare (domain=ocr not in weak-lora allowlist or adapter missing)",
+        "policy": "dense_table_bare__lora_only_weak_domains"
+      },
+      "ok": true,
+      "hops_ok": {
+        "ocr": true,
+        "parse_qty": true,
+        "write_csv": true,
+        "dissolve": true
+      },
+      "atom_ok": true,
+      "scaffold_steps": 0,
+      "bare_steps": 4
+    }
+  ],
+  "timestamp": "2026-10-19T01:40:30+08:00",
+  "note": "Scoped V4 claim only if n>=8 and rate>=0.6. Gate2/3 untouched. Prior V0-V3 untouched."
+}

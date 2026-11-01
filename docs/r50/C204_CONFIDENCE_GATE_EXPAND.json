@@ -1,0 +1,128 @@
+{
+  "cycle": "C204",
+  "theme": "confidence_gate_expand_multimetric",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T07:17:35+08:00",
+  "n": 10,
+  "n_ok": 10,
+  "rate": 1.0,
+  "force_tool_count": 7,
+  "metrics_covered": [
+    "open_pri_sum",
+    "paid_total",
+    "payroll_active",
+    "qty_sum",
+    "refund_done",
+    "ship_ok_qty",
+    "tax_base_paid"
+  ],
+  "rows": [
+    {
+      "id": "cg_01",
+      "metric": "paid_total",
+      "model_got": 999.0,
+      "tool_got": 22.5,
+      "final": 22.5,
+      "expected": 22.5,
+      "decision": "force_tool",
+      "ok": true
+    },
+    {
+      "id": "cg_02",
+      "metric": "qty_sum",
+      "model_got": 14.0,
+      "tool_got": 12.0,
+      "final": 12.0,
+      "expected": 12.0,
+      "decision": "force_tool",
+      "ok": true
+    },
+    {
+      "id": "cg_03",
+      "metric": "refund_done",
+      "model_got": 11.5,
+      "tool_got": 10.5,
+      "final": 10.5,
+      "expected": 10.5,
+      "decision": "force_tool",
+      "ok": true
+    },
+    {
+      "id": "cg_04",
+      "metric": "tax_base_paid",
+      "model_got": 40.0,
+      "tool_got": 35.0,
+      "final": 35.0,
+      "expected": 35.0,
+      "decision": "force_tool",
+      "ok": true
+    },
+    {
+      "id": "cg_05",
+      "metric": "payroll_active",
+      "model_got": 200.0,
+      "tool_got": 180.0,
+      "final": 180.0,
+      "expected": 180.0,
+      "decision": "force_tool",
+      "ok": true
+    },
+    {
+      "id": "cg_06",
+      "metric": "ship_ok_qty",
+      "model_got": 8.0,
+      "tool_got": 7.0,
+      "final": 7.0,
+      "expected": 7.0,
+      "decision": "force_tool",
+      "ok": true
+    },
+    {
+      "id": "cg_07",
+      "metric": "open_pri_sum",
+      "model_got": 16.0,
+      "tool_got": 7.0,
+      "final": 7.0,
+      "expected": 7.0,
+      "decision": "force_tool",
+      "ok": true
+    },
+    {
+      "id": "cg_08",
+      "metric": "paid_total",
+      "model_got": 7.0,
+      "tool_got": 7.0,
+      "final": 7.0,
+      "expected": 7.0,
+      "decision": "trust_model",
+      "ok": true
+    },
+    {
+      "id": "cg_09",
+      "metric": "qty_sum",
+      "model_got": 3.0,
+      "tool_got": 3.0,
+      "final": 3.0,
+      "expected": 3.0,
+      "decision": "trust_model",
+      "ok": true
+    },
+    {
+      "id": "cg_10",
+      "metric": "refund_done",
+      "model_got": 4.0,
+      "tool_got": 4.0,
+      "final": 4.0,
+      "expected": 4.0,
+      "decision": "trust_model",
+      "ok": true
+    }
+  ],
+  "gate_pass": true,
+  "pass": true,
+  "claim": true,
+  "innovation": "expand confidence-gate from paid_total-only to qty/refund/tax/payroll/ship/sla",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "note": "Non-vision knife: multi-metric confidence gate forces tool on model/tool disagreement"
+}

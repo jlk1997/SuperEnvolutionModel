@@ -1,0 +1,32 @@
+{
+  "kind": "gate3_gen11_heritability_rule",
+  "status": "PRE_REGISTERED_NOT_OPENED",
+  "timestamp": "2026-10-18T20:26:08+08:00",
+  "gate": "0.6",
+  "pack_pair_planned": [
+    "archives",
+    "kiln"
+  ],
+  "pass_branch_target": "heritability",
+  "criteria_ref": "docs/GATE3_PROTOCOL.md Branch B",
+  "learning_rule": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "heldout_items": 4,
+    "difficulty": 2,
+    "prefer_atoms_fresh": true,
+    "sft": "warm_atom_plus_schema_random",
+    "compose_prefetch": true,
+    "note": "Aim Branch B ceiling: fresh>=0.99 trained>=0.99 abs(gain)~0 with speed=true; else fail and burn."
+  },
+  "seal_opened": false,
+  "gate3_claim": false,
+  "forbidden": [
+    "Do not open seal until this commit is on master",
+    "Do not reinterpret burned packs",
+    "Do not run while office_above_v025_micro holds GPU if VRAM insufficient"
+  ]
+}

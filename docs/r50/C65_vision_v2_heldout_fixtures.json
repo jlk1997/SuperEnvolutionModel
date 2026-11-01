@@ -1,0 +1,74 @@
+{
+  "kind": "r50plus_c65_vision_v2_heldout_fixtures",
+  "timestamp": "2026-10-18T23:02:02+08:00",
+  "gate": 0.6,
+  "n": 10,
+  "fixtures": [
+    {
+      "id": "v2h-ocr-credit-001",
+      "png_bytes": 26276,
+      "task": "ocr",
+      "gold": "CREDIT NOTE CN-991 Discount -5.00 CREDIT TOTAL 59.00 Issued 2026-10-18"
+    },
+    {
+      "id": "v2h-caption-dash-001",
+      "png_bytes": 17698,
+      "task": "caption",
+      "gold": "OPS DASHBOARD Orders 128 Late 7 FillRate 94% Alert Bay 4 conveyor jam"
+    },
+    {
+      "id": "v2h-table-stock-001",
+      "png_bytes": 13354,
+      "task": "table_cells",
+      "gold": "bin,sku,onhand,reserved,avail\nA1,BOLT-M6,500,40,460\nA2,NUT-M6,480,20,460\nB3,WASHER,900,100,800\nC1,GLUE-X,55,5,50"
+    },
+    {
+      "id": "v2h-ui-seal-001",
+      "png_bytes": 16401,
+      "task": "caption",
+      "gold": "Overwrite sealed pack? burns gen11 seal [Abort] [Overwrite]"
+    },
+    {
+      "id": "v2h-ocr-pack-001",
+      "png_bytes": 19204,
+      "task": "ocr",
+      "gold": "PACK LABEL TO West Hub Dock 2 CARTON 3 of 5 TRACKING TRK-77821 FRAGILE KEEP DRY"
+    },
+    {
+      "id": "v2h-table-roster-001",
+      "png_bytes": 10446,
+      "task": "table_cells",
+      "gold": "role,name,bay,radio\nLead,Mei,4,R1\nPicker,Jon,2,R3\nQA,Lia,1,R2"
+    },
+    {
+      "id": "v2h-caption-bench-001",
+      "png_bytes": 6314,
+      "task": "caption",
+      "gold": "repair bench laptop blue screen red jar toolbox"
+    },
+    {
+      "id": "v2h-ui-access-001",
+      "png_bytes": 10306,
+      "task": "caption",
+      "gold": "Access Control SSH keys ON Root login OFF"
+    },
+    {
+      "id": "v2h-ocr-po-001",
+      "png_bytes": 21575,
+      "task": "ocr",
+      "gold": "PURCHASE ORDER PO-5520 GRAND TOTAL USD 515.00 Need by 2026-11-01"
+    },
+    {
+      "id": "v2h-table-defect-001",
+      "png_bytes": 10527,
+      "task": "table_cells",
+      "gold": "id,area,sev,status\nD01,Paint,H,open\nD02,Weld,M,fixed\nD03,Seal,H,open"
+    }
+  ],
+  "dir": "evo/office/fixtures/vision_images_v2_heldout",
+  "disjoint_from": "evo/office/fixtures/vision_images_v2",
+  "innovation": "Heldout harder V2 readable set never seen in C63 smoke",
+  "vl_gate_v2_heldout_claim": false,
+  "gate2_3_untouched": true,
+  "v1_v2_claims_untouched": true
+}

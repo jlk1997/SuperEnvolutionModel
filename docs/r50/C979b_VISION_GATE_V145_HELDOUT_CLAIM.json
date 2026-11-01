@@ -1,0 +1,14 @@
+{
+  "kind": "vision_gate_v145_heldout_claim",
+  "timestamp": "2026-10-21T17:26:16+08:00",
+  "vl_gate_v145_heldout_claim": true,
+  "rate": 1.0,
+  "n": 18,
+  "n_ok": 18,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v145_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "id_disjoint": true,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "cycle": "C979"
+}

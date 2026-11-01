@@ -1,0 +1,40 @@
+{
+  "kind": "r50plus_c62_replace_agent_board",
+  "timestamp": "2026-10-18T22:54:29+08:00",
+  "gate": 0.6,
+  "bare_ok": true,
+  "scaffold_steps_mean": 0.0,
+  "families": [
+    {
+      "family": "table",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "scaffold_steps_proxy": 0
+    },
+    {
+      "family": "report",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "scaffold_steps_proxy": 0
+    },
+    {
+      "family": "file",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "scaffold_steps_proxy": 0
+    },
+    {
+      "family": "shell",
+      "bare_rate": 1.0,
+      "dissolution": 0.0,
+      "scaffold_steps_proxy": 0
+    }
+  ],
+  "compose_rate": 1.0,
+  "compose_pass": true,
+  "replace_agent_score": 1.0,
+  "agent_graph": false,
+  "workspace": "runs/r50plus/c62_bare_board",
+  "innovation": "Fresh replace-agent board without agent graph",
+  "gate2_3_untouched": true
+}

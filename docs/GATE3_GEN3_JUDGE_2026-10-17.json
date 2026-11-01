@@ -1,0 +1,66 @@
+{
+  "packs": [
+    "ferry",
+    "bakery"
+  ],
+  "fresh": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "trained": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "dev_exam": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "judge": {
+    "pass": false,
+    "checks": {
+      "speed": false,
+      "transfer": false,
+      "ceiling": false,
+      "heritability": false
+    },
+    "gain": {
+      "n": 8,
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "excludes_zero": false
+    },
+    "branch": "Gate 3 did not pass. Change only the learning rule, burn this pack, and seal a new one.",
+    "pass_branch": null,
+    "fresh_rate": 0.0,
+    "trained_rate": 0.0,
+    "gate3_claim": false,
+    "measured": true,
+    "dev_touches": null,
+    "held_touches": null
+  },
+  "heldout_generation": "gen3",
+  "seal": "runs/heldout_seal_gen3.json",
+  "evidence": "docs/GATE3_GEN3_JUDGE_2026-10-17.json",
+  "config": "configs/office_gate3_gen3.yaml",
+  "model": "Qwen2.5-1.5B-Instruct",
+  "difficulty": 4,
+  "protocol": "docs/GATE3_PROTOCOL.md @ a6bb0ed",
+  "gate3_claim": false,
+  "note": "gen3 ferry+bakery difficulty=4: fresh=trained=0.0; speed/transfer/ceiling/heritability all false. Neither Branch A nor B. Pack burned. No claim. library/warehouse still ineligible.",
+  "finished_asia_shanghai": "2026-10-17T22:26+08:00"
+}

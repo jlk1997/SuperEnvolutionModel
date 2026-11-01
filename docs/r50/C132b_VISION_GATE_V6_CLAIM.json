@@ -1,0 +1,13 @@
+{
+  "kind": "vision_gate_v6_claim",
+  "timestamp": "2026-10-19T03:34:05+08:00",
+  "vl_gate_v6_claim": true,
+  "rate": 1.0,
+  "n": 14,
+  "n_ok": 14,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v6_noisy_ui_multiwindow_cn_en_n>=12_softocr_atom_qwen35_2b",
+  "gate2_3_untouched": true,
+  "v0_v5_untouched": true,
+  "gen11": "HOLD"
+}

@@ -1,0 +1,236 @@
+{
+  "cycle": "C304",
+  "theme": "vision_v33_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T17:10:39+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7847.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v33h_01",
+      "kind": "parchment_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 64.5,
+      "expected": 64.5,
+      "ocr_preview": "羊皮纸收款单H PARCHMENT RECV V33H a paid 31.00 b paid 33.50 c open 12.00 TOTAL PAID TARGET 64.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE REC VOID COPY V33H C30H clarity floor pag_010 photo2 testout"
+    },
+    {
+      "id": "v33h_02",
+      "kind": "cork_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 66.0,
+      "expected": 66.0,
+      "ocr_preview": "SCAN DESK V33H PART 222.00 PAGE 01 软木仓位单H WH CORK BOARD V33H SKU1 qty 22 ok SKU2 qty 15 hold SKU3 qty 29 ok qty_sum TARGET 66 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v33h_03",
+      "kind": "canvas_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 41.5,
+      "expected": 41.5,
+      "ocr_preview": "SCAN DESK V33H BAST 222.00 PAGE 01 帆布退款单H CANVAS REFUND V33H itemR1 18.00 done itemR2 23.50 done itemR3 9.00 open refund_done TARGET 41.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v33h_04",
+      "kind": "rivet_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 109.0,
+      "expected": 109.0,
+      "ocr_preview": "SCAN DESK V33H RAST 222.00 PAGE 01 TAX RIVET BIND V33H T1 58.00 paid T2 24.00 open T3 51.00 paid tax_base_paid TARGET 109.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE REC VOID COPY V33H C33H clarity four pag_010 photo2 textout"
+    },
+    {
+      "id": "v33h_05",
+      "kind": "holo_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2020.0,
+      "expected": 2020.0,
+      "ocr_preview": "SCAN DESK V33H PART 222.00 PAGE 01 全息工资单H PAYROLL HOLO SEAL V33H A 980 active B 210 leave C 1040 active payroll_active TARGET 2020 OK balt 00.00 DRAFT DRAFT DRAFT DRAFT STICKY balt 00.00 IGNORE VOID OK COPY VOID WIN IGNORE old total 888.00 do not parse balt 555.00 V33H C33H clarity four peg_y00 photo2 testout"
+    },
+    {
+      "id": "v33h_06",
+      "kind": "zip_ship",
+      "metric": "ship_ok_qty",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 48.0,
+      "expected": 48.0,
+      "ocr_preview": "SCAN DESK V33H PART 222.00 PAGE 01 拉链发运单H SHIP ZIP LOCK V33H P1 21 ok P2 14 hold P3 27 ok ship_ok_qty TARGET 48 VOID WIN IGNORE old total 888.00 do not parse balt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY balt 98.00 IGNORE SHIP VOID COPY V33H C33H clarity floor peg_010 photo2 testout"
+    },
+    {
+      "id": "v33h_07",
+      "kind": "filament_sla",
+      "metric": "open_pri_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 45.0,
+      "expected": 45.0,
+      "ocr_preview": "SCAN DESK V33H BAST 222.00 PAGE 01 灯丝SLA单H SLA FILAMENT V33H S1 pri 17 open S2 pri 19 closed S3 pri 28 open open_pri_sum TARGET 45 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE OPEN bait 88.00 VOID COPY OPEN bait 88.00 V33H C33H clarity floor peg_01 photo2 instruct"
+    },
+    {
+      "id": "v33h_08",
+      "kind": "honey_exp",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 81.5,
+      "expected": 81.5,
+      "ocr_preview": "SCAN DESK V33H BAST 222.00 PAGE 01 蜂宝报销单H EXP HONEYCOMB V33H e1 paid 39.00 e2 paid 42.50 e3 open 14.00 TOTAL PAID TARGET 81.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v33h_09",
+      "kind": "marble_po",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 68.0,
+      "expected": 68.0,
+      "ocr_preview": "SCAN DESK V33H PART 222.00 PAGE 01 大理石采购单H PO MARBLE EDGE V33H lineA paid 32.00 lineB paid 36.00 lineC open 11.00 TOTAL PAID TARGET 68.00 VOID bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE PO VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V33H C33H clarity floor peg_010 photo2 testout"
+    },
+    {
+      "id": "v33h_10",
+      "kind": "copper_order",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 60.5,
+      "expected": 60.5,
+      "ocr_preview": "SCAN DESK V33H BAST 222.00 PAGE 01 铜活订单H ORDER COPPER FOIL V33H o1 paid 27.00 o2 paid 33.50 o3 open 10.00 TOTAL PAID TARGET 60.50 OLD bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID ORD COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V33H C30H clarity foil pag_c00 photo02 frontout"
+    },
+    {
+      "id": "v33h_11",
+      "kind": "acetate_dup",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 79.0,
+      "expected": 79.0,
+      "ocr_preview": "SCAN DESK V33H BAST 222.00 PAGE 01 酸胶片副本H DUP ACETATE SHEET V33H d1 paid 38.00 d2 paid 41.00 d3 open 13.00 TOTAL PAID TARGET 79.00 DUP VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE V33H C33H clarity four pag_010 photo2 testout"
+    },
+    {
+      "id": "v33h_12",
+      "kind": "void_zero",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "SCAN DESK V33H BAST 222.00 PAGE 01 未付空单H OPEN ONLY V33H X 46.00 open Y 49.00 open paid_total TARGET 0.00 OLD paid 00.00 DRAFT DRAFT DRAFT DRAFT STICKY paid 00.00 IGNORE HOLD VOID COPY VOID WIN IGNORE old total 888.00 do not parse paid 555.00 V33H C33H clarity floor page_010 photo2 testout"
+    },
+    {
+      "id": "v33h_13",
+      "kind": "perf_ledger",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 48.5,
+      "expected": 48.5,
+      "ocr_preview": "SCAN DESK V33H BAST 222.00 PAGE 01 打孔台账H LEDGER PERF EDGE V33H L1 paid 22:00 L2 paid 26.50 L3 open 9.00 TOTAL PAID TARGET 48.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 98.00 IGNORE LED VOID COPY V33H C33H clarity floor peg_010 photo2 testout"
+    },
+    {
+      "id": "v33h_14",
+      "kind": "waxseal_ui",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 54.75,
+      "expected": 54.75,
+      "ocr_preview": "SCAN DESK V33H BAST 222.00 PAGE 01 紙封印界面H UI WAX SEAL V33H u1 paid 25.00 u2 paid 29.75 u3 open 10.00 TOTAL PAID TARGET 54.75 OLD balt 00.00 STICKY balt 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID COPY VOID WIN IGNORE old total 888.00 do not parse balt 555.00 V33H C33H clarity four page_01 photo2 testout"
+    },
+    {
+      "id": "v33h_15",
+      "kind": "magnet_stack",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 77.0,
+      "expected": 77.0,
+      "ocr_preview": "SCAN DESK V33H BAST 222.00 PAGE 01 磁夹清单H STACK MAGNET CLIP V33H m1 paid 35.00 m2 paid 42.00 m3 open 12.00 TOTAL PAID TARGET 77.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE STK VOID COPY V33H C33H clarity four pag_010 photo2 testout"
+    },
+    {
+      "id": "v33h_16",
+      "kind": "crepe_fax",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 44.5,
+      "expected": 44.5,
+      "ocr_preview": "SCAN DESK V33H BAST 222.00 PAGE 01 信纸传真H FAX CREPE PAPER V33H f1 paid 20.00 f2 paid 24.50 f3 open 8.00 TOTAL PAID TARGET 44.50 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v33h_17",
+      "kind": "satin_glare",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 63.0,
+      "expected": 63.0,
+      "ocr_preview": "SCAN DESK V33H BAST 222.00 PAGE 01 胶带鼓光单H GLARE SATIN BAND V33H g1 paid 29.00 g2 paid 34.00 g3 open 11.00 TOTAL PAID TARGET 63.00 VOID WIN IGNORE old total 888.00 do not parse belt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY belt 99.00 IGNORE GLR VOID COPY V33H C30H clarity four peg_010 photo2 testout"
+    },
+    {
+      "id": "v33h_18",
+      "kind": "spiral_tab",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 35.5,
+      "expected": 35.5,
+      "ocr_preview": "SCAN DESK V33H BAST 222.00 PAGE 01 螺旋索引页H TAB SPIRAL BIND V33H t1 paid 16.00 t2 paid 19.50 t3 open 7.00 TOTAL PAID TARGET 35.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 90.00 IGNORE TAB VOID COPY V33H C30H clarity four pag_010 photo2 testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    63.0
+  ],
+  "vl_gate_v33_heldout_claim": true,
+  "claim_scope": "r50plus_v33_heldout_hlx_magclip_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 58,
+    "jpeg_q": 60,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

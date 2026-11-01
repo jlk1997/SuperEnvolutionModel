@@ -1,0 +1,237 @@
+{
+  "cycle": "C925",
+  "theme": "vision_v136_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T11:16:24+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v136h_01",
+      "kind": "ashridge_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1356.75,
+      "expected": 1356.75,
+      "ocr_preview": "ashridge ASHRIDGE GRAIN RECV V136H a paid 672.00 b paid 684.75 c open 565.00 TOTAL PAID TARGET 1356.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC VOID COPY"
+    },
+    {
+      "id": "v136h_02",
+      "kind": "cedarridge_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1320.0,
+      "expected": 1320.0,
+      "ocr_preview": "cedarridge WH CEDARRIDGE BIN V136H SKU1 qty 640 ok SKU2 qty 560 hold SKU3 qty 680 ok qty_sum TARGET 1320 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v136h_03",
+      "kind": "dawnridge_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1273.5,
+      "expected": 1273.5,
+      "ocr_preview": "dawnridge DAWNRIDGE PATCH REFUND V136H itemR1 630.00 done itemR2 643.50 done itemR3 553.00 open refund_done TARGET 1273.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID DONE COPY V136H CBS cavity floor.jpg_012 phone2 handset"
+    },
+    {
+      "id": "v136h_04",
+      "kind": "elmridge_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1506.0,
+      "expected": 1506.0,
+      "ocr_preview": "SCAN DESK V43H BASC 222.00 PAGE 01 elmrige ELMRIDGE TAX SLIP V136H base 745.00 paid addon 761.00 paid skip 594.00 tax_base_paid TARGET 1506.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v136h_05",
+      "kind": "fernridge_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1588.0,
+      "expected": 1588.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 fernridge FERNRIDGE PAYROLL V136H empA 786.00 active empB 802.00 active empC 589.00 leave payroll_active TARGET 1588.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v136h_06",
+      "kind": "glenridge_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1174.0,
+      "expected": 1174.0,
+      "ocr_preview": "glenridge GLENBRIDGE SHIP DOCK V136H box1 580 ok box2 594 ok box3 558 hold ship_ok TARGET 1174 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP VOID COPY V136H CBS cavity floor preg_qf2 phone2 headset"
+    },
+    {
+      "id": "v136h_07",
+      "kind": "hazeridge_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 660.0,
+      "expected": 660.0,
+      "ocr_preview": "hazeridge HAZERIDGE SLA CARD V136H job1 310.00 hours ok job2 350.00 hours ok job3 250.00 hours late sla_ok_hours TARGET 660.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v136h_08",
+      "kind": "inkridge_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1333.75,
+      "expected": 1333.75,
+      "ocr_preview": "SCAN DESK V40H BAST 222.00 PAGE 01 inkridge #KRIDGE EXPENSE V136H e1 656.00 e2 677.75 e3 565.00 void exp_sum TARGET 1333.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY V136H CBS cavity floor preg_qf2 photo2 headset"
+    },
+    {
+      "id": "v136h_09",
+      "kind": "jaderidge_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1290.0,
+      "expected": 1290.0,
+      "ocr_preview": "jaderidge JADERIDGE PO SHEET V136H line1 700.00 open line2 590.00 open line3 562.00 closed po_open TARGET 1290.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID PO COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v136h_10",
+      "kind": "knotridge_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1392.0,
+      "expected": 1392.0,
+      "ocr_preview": "knotridge KNOTRIDGE ORDER V136H skuA 703.00 paid skuB 689.00 paid skuC 560.00 due order_paid TARGET 1392.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00. DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v136h_11",
+      "kind": "lakeridge_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakeridge LAKERIDGE DUP MARK V136H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v136h_12",
+      "kind": "mossridge_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossridge MOSSRIDGE AIR ZERO V136H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v136h_13",
+      "kind": "netherridge_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1491.5,
+      "expected": 1491.5,
+      "ocr_preview": "netherridge NETHERRIDGE LEDGER V136H dr 738.00 cr 753.50 adj 575.00 ledger_net TARGET 1491.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED bait 55.00 COPY V136H CBS clarity floor preg_qf2 photo2 netherridge"
+    },
+    {
+      "id": "v136h_14",
+      "kind": "oakridge_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakridge OAKRIDGE UI SCAN V136H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY"
+    },
+    {
+      "id": "v136h_15",
+      "kind": "pineridge_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 849.0,
+      "expected": 849.0,
+      "ocr_preview": "pineridge PINERIDGE STACK V136H p1 426 p2 423 p3 418 stack_count TARGET 849 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V136h CBS cavity floor prog_qf2 phone2 headset"
+    },
+    {
+      "id": "v136h_16",
+      "kind": "quillridge_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 878.0,
+      "expected": 878.0,
+      "ocr_preview": "quillridge QUILLRIDGE FAX V136H pgA 442 pgB 436 pgC 424 drop fax_pages TARGET 878 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v136h_17",
+      "kind": "reedridge_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedridge REEDRIDGE GLARE V136H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE GLR VOID COPY V136H CBS cavity floor preg_qf2 phone2 notebook"
+    },
+    {
+      "id": "v136h_18",
+      "kind": "stoneridge_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 898.0,
+      "expected": 898.0,
+      "ocr_preview": "stoneridge STONERIDGE TAB INDEX V136H tabA 452 tabB 446 tabC 425 tab_index TARGET 898 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v136_heldout_claim": true,
+  "claim_scope": "r50plus_v136_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

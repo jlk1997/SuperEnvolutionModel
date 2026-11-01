@@ -1,0 +1,22 @@
+{
+  "n_atoms": 6,
+  "added": [
+    {
+      "id": "vision_ui_save_button",
+      "task": "ocr",
+      "family": "vision_ui"
+    },
+    {
+      "id": "vision_ui_confirm_delete",
+      "task": "caption",
+      "family": "vision_ui"
+    },
+    {
+      "id": "vision_pdf_clause",
+      "task": "ocr",
+      "family": "vision_doc"
+    }
+  ],
+  "timestamp": "2026-10-18T22:31:06+08:00",
+  "innovation": "UI/PDF vision atoms registered"
+}

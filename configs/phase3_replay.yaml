@@ -1,0 +1,30 @@
+# The slow-level lock cannot preserve domain A: the fast state is rebuilt
+# from zero on every forward, and the shared weights still move.
+# This run mixes domain A tokens back into domain B updates.
+run_name: phase3_replay
+seed: 0
+replay_only: true
+replay_frac: 0.5
+d_model: 768
+n_layers: 6
+n_heads: 12
+d_mem: 128
+seq_len: 64
+batch_size: 4
+steps_per_domain: 80
+arch_lr: 0.0003
+log_every: 20
+grad_clip: 1.0
+freqs:
+  - 1
+  - 4
+  - 16
+etas:
+  - 0.30
+  - 0.10
+  - 0.02
+decays:
+  - 0.60
+  - 0.90
+  - 0.99
+bptt: 64

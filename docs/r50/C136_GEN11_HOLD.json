@@ -1,0 +1,29 @@
+{
+  "cycle": "C136",
+  "theme": "gen11_hold_stage_sync_c131_c135",
+  "timestamp": "2026-10-19T03:34:18+08:00",
+  "gate": 0.6,
+  "gen11": "HOLD",
+  "seal_open": false,
+  "fresh_score": null,
+  "open_threshold": 0.99,
+  "gate2_3_untouched": true,
+  "summary": {
+    "C131_pass": true,
+    "C131_n_fixtures": 14,
+    "C132_rate": 1.0,
+    "C132_claim": true,
+    "C132_v6_claim_file": true,
+    "C133_pass": true,
+    "C133_oneshot_ok": true,
+    "C134_pass": true,
+    "C134_rate": 1.0,
+    "C134_mean_ratio": 3.425,
+    "C135_pass": true,
+    "C135_rate": 1.0,
+    "C135_absorb_claim": false
+  },
+  "pass": true,
+  "claim": false,
+  "note": "gen11 remains HOLD (no fresh>=0.99). Sync only."
+}

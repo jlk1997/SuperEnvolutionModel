@@ -1,0 +1,544 @@
+{
+  "train": [
+    [
+      "v28_01",
+      "rust_recv",
+      "paid_total",
+      108.5,
+      [
+        "RUST CLIP RECV V28",
+        "a paid 52.00",
+        "b paid 56.50",
+        "c open 15.00",
+        "TOTAL PAID TARGET 108.50"
+      ],
+      "锈夹收款单",
+      "RECV"
+    ],
+    [
+      "v28_02",
+      "wet_wh",
+      "qty_sum",
+      101.0,
+      [
+        "WH WET SMUDGE V28",
+        "SKU1 qty 48 ok",
+        "SKU2 qty 24 hold",
+        "SKU3 qty 53 ok",
+        "qty_sum TARGET 101"
+      ],
+      "水渍仓单",
+      "RECV"
+    ],
+    [
+      "v28_03",
+      "hole_refund",
+      "refund_done",
+      67.25,
+      [
+        "HOLE PUNCH REFUND V28",
+        "itemR1 32.00 done",
+        "itemR2 35.25 done",
+        "itemR3 14.00 open",
+        "refund_done TARGET 67.25"
+      ],
+      "打孔退款单",
+      "DONE"
+    ],
+    [
+      "v28_04",
+      "band_tax",
+      "tax_base_paid",
+      184.0,
+      [
+        "TAX RUBBER BAND V28",
+        "T1 102.00 paid",
+        "T2 41.00 open",
+        "T3 82.00 paid",
+        "tax_base_paid TARGET 184.00"
+      ],
+      "皮筋税基单",
+      "RECV"
+    ],
+    [
+      "v28_05",
+      "glare_pay",
+      "payroll_active",
+      3120.0,
+      [
+        "PAYROLL DESK GLARE V28",
+        "A 1600 active",
+        "B 310 leave",
+        "C 1520 active",
+        "payroll_active TARGET 3120"
+      ],
+      "眩光工资单",
+      "OK"
+    ],
+    [
+      "v28_06",
+      "label_ship",
+      "ship_ok_qty",
+      91.0,
+      [
+        "SHIP LABEL OVERLAP V28",
+        "P1 46 ok",
+        "P2 25 hold",
+        "P3 45 ok",
+        "ship_ok_qty TARGET 91"
+      ],
+      "叠标运单",
+      "SHIP"
+    ],
+    [
+      "v28_07",
+      "blot_sla",
+      "open_pri_sum",
+      81.0,
+      [
+        "SLA FOUNTAIN BLOT V28",
+        "S1 pri 34 open",
+        "S2 pri 37 closed",
+        "S3 pri 47 open",
+        "open_pri_sum TARGET 81"
+      ],
+      "墨渍SLA",
+      "OPEN"
+    ],
+    [
+      "v28_08",
+      "clip_exp",
+      "paid_total",
+      142.5,
+      [
+        "EXPENSE PAPERCLIP CHAIN V28",
+        "E1 69.00 paid",
+        "E2 28.00 void",
+        "E3 73.50 paid",
+        "paid_total TARGET 142.50"
+      ],
+      "回形针报销",
+      "RECV"
+    ],
+    [
+      "v28_09",
+      "fax_po",
+      "paid_total",
+      104.75,
+      [
+        "PO-FAX NOISE V28",
+        "itemA paid 51.00",
+        "itemB paid 53.75",
+        "itemC open 17.00",
+        "TOTAL PAID TARGET 104.75"
+      ],
+      "传真噪点采购",
+      "RECV"
+    ],
+    [
+      "v28_10",
+      "tab_order",
+      "paid_total",
+      93.0,
+      [
+        "ORDER STICKY TAB V28",
+        "A paid 45.00",
+        "B paid 48.00",
+        "C open 14.00",
+        "TOTAL PAID TARGET 93.00"
+      ],
+      "标签页订单",
+      "RECV"
+    ],
+    [
+      "v28_11",
+      "crease_dup",
+      "paid_total",
+      124.5,
+      [
+        "INVOICE #V28-XCREASE",
+        "lineA paid 41.50",
+        "lineB paid 41.50",
+        "lineC paid 41.50",
+        "TOTAL PAID TARGET 124.50"
+      ],
+      "交叉折痕联单",
+      "RECV"
+    ],
+    [
+      "v28_12",
+      "overink_zero",
+      "paid_total",
+      0.0,
+      [
+        "OPEN ONLY V28",
+        "X 78.00 open",
+        "Y 81.00 open",
+        "paid_total TARGET 0.00"
+      ],
+      "叠印未付",
+      "HOLD"
+    ],
+    [
+      "v28_13",
+      "tape_ledger",
+      "paid_total",
+      79.25,
+      [
+        "LEDGER TAPE RESIDUE V28",
+        "rA paid 38.00",
+        "rB paid 41.25",
+        "rC open 12.00",
+        "TOTAL PAID TARGET 79.25"
+      ],
+      "胶痕台账",
+      "RECV"
+    ],
+    [
+      "v28_14",
+      "shade_ui",
+      "paid_total",
+      86.5,
+      [
+        "UI PENCIL SHADE V28",
+        "alpha paid 42.00",
+        "beta paid 44.50",
+        "gamma open 14.00",
+        "TOTAL PAID TARGET 86.50"
+      ],
+      "铅笔阴影界面",
+      "RECV"
+    ],
+    [
+      "v28_15",
+      "ring_stack",
+      "paid_total",
+      127.0,
+      [
+        "COFFEE RING STACK V28",
+        "x paid 62.00 usd",
+        "y paid 65.00 usd",
+        "z open 21.00 usd",
+        "TOTAL PAID TARGET 127.00"
+      ],
+      "杯圈叠页",
+      "RECV"
+    ],
+    [
+      "v28_16",
+      "mix_fax",
+      "paid_total",
+      76.75,
+      [
+        "CN-EN FAX MIX V28",
+        "tea paid 37.00",
+        "rice paid 39.75",
+        "soup open 12.00",
+        "TOTAL PAID TARGET 76.75"
+      ],
+      "中英传真混排",
+      "RECV"
+    ],
+    [
+      "v28_17",
+      "env_glare",
+      "paid_total",
+      95.5,
+      [
+        "ENVELOPE GLARE WIN V28",
+        "w1 paid 46.00",
+        "w2 paid 49.50",
+        "w3 open 18.00",
+        "TOTAL PAID TARGET 95.50"
+      ],
+      "眩光信封窗",
+      "RECV"
+    ],
+    [
+      "v28_18",
+      "lam_tab",
+      "paid_total",
+      59.25,
+      [
+        "LAMINATE TAB FOOT V28",
+        "p1 paid 28.00",
+        "p2 paid 31.25",
+        "p3 open 10.00",
+        "TOTAL PAID TARGET 59.25"
+      ],
+      "覆膜标签脚",
+      "RECV"
+    ]
+  ],
+  "held": [
+    [
+      "v28h_01",
+      "rust_recv",
+      "paid_total",
+      61.25,
+      [
+        "RUST CLIP RECV V28H",
+        "a paid 29.00",
+        "b paid 32.25",
+        "c open 9.00",
+        "TOTAL PAID TARGET 61.25"
+      ],
+      "锈夹收款单H",
+      "RECV"
+    ],
+    [
+      "v28h_02",
+      "wet_wh",
+      "qty_sum",
+      52.0,
+      [
+        "WH WET SMUDGE V28H",
+        "SKU1 qty 25 ok",
+        "SKU2 qty 12 hold",
+        "SKU3 qty 27 ok",
+        "qty_sum TARGET 52"
+      ],
+      "水渍仓单H",
+      "RECV"
+    ],
+    [
+      "v28h_03",
+      "hole_refund",
+      "refund_done",
+      38.5,
+      [
+        "HOLE PUNCH REFUND V28H",
+        "itemR1 18.00 done",
+        "itemR2 20.50 done",
+        "itemR3 7.00 open",
+        "refund_done TARGET 38.50"
+      ],
+      "打孔退款单H",
+      "DONE"
+    ],
+    [
+      "v28h_04",
+      "band_tax",
+      "tax_base_paid",
+      118.0,
+      [
+        "TAX RUBBER BAND V28H",
+        "T1 66.00 paid",
+        "T2 26.00 open",
+        "T3 52.00 paid",
+        "tax_base_paid TARGET 118.00"
+      ],
+      "皮筋税基单H",
+      "RECV"
+    ],
+    [
+      "v28h_05",
+      "glare_pay",
+      "payroll_active",
+      2140.0,
+      [
+        "PAYROLL DESK GLARE V28H",
+        "A 1100 active",
+        "B 210 leave",
+        "C 1040 active",
+        "payroll_active TARGET 2140"
+      ],
+      "眩光工资单H",
+      "OK"
+    ],
+    [
+      "v28h_06",
+      "label_ship",
+      "ship_ok_qty",
+      41.0,
+      [
+        "SHIP LABEL OVERLAP V28H",
+        "P1 21 ok",
+        "P2 11 hold",
+        "P3 20 ok",
+        "ship_ok_qty TARGET 41"
+      ],
+      "叠标运单H",
+      "SHIP"
+    ],
+    [
+      "v28h_07",
+      "blot_sla",
+      "open_pri_sum",
+      46.0,
+      [
+        "SLA FOUNTAIN BLOT V28H",
+        "S1 pri 19 open",
+        "S2 pri 22 closed",
+        "S3 pri 27 open",
+        "open_pri_sum TARGET 46"
+      ],
+      "墨渍SLAH",
+      "OPEN"
+    ],
+    [
+      "v28h_08",
+      "clip_exp",
+      "paid_total",
+      81.75,
+      [
+        "EXPENSE PAPERCLIP CHAIN V28H",
+        "E1 39.00 paid",
+        "E2 16.00 void",
+        "E3 42.75 paid",
+        "paid_total TARGET 81.75"
+      ],
+      "回形针报销H",
+      "RECV"
+    ],
+    [
+      "v28h_09",
+      "fax_po",
+      "paid_total",
+      56.5,
+      [
+        "PO-FAX NOISE V28H",
+        "itemA paid 27.00",
+        "itemB paid 29.50",
+        "itemC open 10.00",
+        "TOTAL PAID TARGET 56.50"
+      ],
+      "传真噪点采购H",
+      "RECV"
+    ],
+    [
+      "v28h_10",
+      "tab_order",
+      "paid_total",
+      57.0,
+      [
+        "ORDER STICKY TAB V28H",
+        "A paid 27.00",
+        "B paid 30.00",
+        "C open 9.00",
+        "TOTAL PAID TARGET 57.00"
+      ],
+      "标签页订单H",
+      "RECV"
+    ],
+    [
+      "v28h_11",
+      "crease_dup",
+      "paid_total",
+      72.0,
+      [
+        "INVOICE #V28H-XCREASE",
+        "lineA paid 24.00",
+        "lineB paid 24.00",
+        "lineC paid 24.00",
+        "TOTAL PAID TARGET 72.00"
+      ],
+      "交叉折痕联单H",
+      "RECV"
+    ],
+    [
+      "v28h_12",
+      "overink_zero",
+      "paid_total",
+      0.0,
+      [
+        "OPEN ONLY V28H",
+        "X 44.00 open",
+        "Y 47.00 open",
+        "paid_total TARGET 0.00"
+      ],
+      "叠印未付H",
+      "HOLD"
+    ],
+    [
+      "v28h_13",
+      "tape_ledger",
+      "paid_total",
+      44.75,
+      [
+        "LEDGER TAPE RESIDUE V28H",
+        "rA paid 21.00",
+        "rB paid 23.75",
+        "rC open 7.00",
+        "TOTAL PAID TARGET 44.75"
+      ],
+      "胶痕台账H",
+      "RECV"
+    ],
+    [
+      "v28h_14",
+      "shade_ui",
+      "paid_total",
+      48.5,
+      [
+        "UI PENCIL SHADE V28H",
+        "alpha paid 23.00",
+        "beta paid 25.50",
+        "gamma open 8.00",
+        "TOTAL PAID TARGET 48.50"
+      ],
+      "铅笔阴影界面H",
+      "RECV"
+    ],
+    [
+      "v28h_15",
+      "ring_stack",
+      "paid_total",
+      71.0,
+      [
+        "COFFEE RING STACK V28H",
+        "x paid 34.00 usd",
+        "y paid 37.00 usd",
+        "z open 12.00 usd",
+        "TOTAL PAID TARGET 71.00"
+      ],
+      "杯圈叠页H",
+      "RECV"
+    ],
+    [
+      "v28h_16",
+      "mix_fax",
+      "paid_total",
+      43.25,
+      [
+        "CN-EN FAX MIX V28H",
+        "tea paid 21.00",
+        "rice paid 22.25",
+        "soup open 7.00",
+        "TOTAL PAID TARGET 43.25"
+      ],
+      "中英传真混排H",
+      "RECV"
+    ],
+    [
+      "v28h_17",
+      "env_glare",
+      "paid_total",
+      53.5,
+      [
+        "ENVELOPE GLARE WIN V28H",
+        "w1 paid 26.00",
+        "w2 paid 27.50",
+        "w3 open 10.00",
+        "TOTAL PAID TARGET 53.50"
+      ],
+      "眩光信封窗H",
+      "RECV"
+    ],
+    [
+      "v28h_18",
+      "lam_tab",
+      "paid_total",
+      33.75,
+      [
+        "LAMINATE TAB FOOT V28H",
+        "p1 paid 16.00",
+        "p2 paid 17.75",
+        "p3 open 6.00",
+        "TOTAL PAID TARGET 33.75"
+      ],
+      "覆膜标签脚H",
+      "RECV"
+    ]
+  ]
+}

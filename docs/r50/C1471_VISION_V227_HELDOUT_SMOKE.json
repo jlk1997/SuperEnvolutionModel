@@ -1,0 +1,237 @@
+{
+  "cycle": "C1471",
+  "theme": "vision_v227_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-24T22:42:29+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7358.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v227h_01",
+      "kind": "ashmoor_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3248.75,
+      "expected": 3248.75,
+      "ocr_preview": "ashmoor ASHMOOR GRAIN RECV V227H a paid 1618.00 b paid 1630.75 c open 1479.00 TOTAL PAID TARGET 3248.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY V227H C1471 clearly from preg_20C photoC testout"
+    },
+    {
+      "id": "v227h_02",
+      "kind": "cedarmoor_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "cedarmoor WH CEDARMOOR BIN V227H SKU1 qty 740 ok SKU2 qty 820 hold SKU3 qty 780 ok qty_sum TARGET 1520 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v227h_03",
+      "kind": "dawnmoor_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3135.5,
+      "expected": 3135.5,
+      "ocr_preview": "dawnmoor DAWNMOOR PATCH REFUND V227H itemR1 1561.00 done itemR2 1574.50 done itemR3 1454.00 open refund_done TARGET 3135.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DONE VOID COPY V227H C1471 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v227h_04",
+      "kind": "elmmoor_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3398.0,
+      "expected": 3398.0,
+      "ocr_preview": "elmmoor ELMMOOR TAX SLIP V227H base 1691.00 paid addon 1707.00 paid skip 1508.00 tax_base_paid TARGET 3398.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 00.00 IGNORE TAX VOID COPY V227H C1471 clearly from preg_200 photoC testout"
+    },
+    {
+      "id": "v227h_05",
+      "kind": "fernmoor_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3480.0,
+      "expected": 3480.0,
+      "ocr_preview": "SCAN DESK V43H BASC 222.00 PAGE 01 fernmoor FERNMOOR PAYROLL V227H empA 1732.00 active empB 1748.00 active empC 1503.00 leave payroll_active TARGET 3480.00 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 COPY V227H C1471 clarify from preg_00C photoC testout"
+    },
+    {
+      "id": "v227h_06",
+      "kind": "glenmoor_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3066.0,
+      "expected": 3066.0,
+      "ocr_preview": "glenmoor GLENMOOR SHIP DOCK V227H box1 1526 ok box2 1540 ok box3 1472 hold ship_ok TARGET 3066 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT SHIP VOID COPY V227H C1471 clearly from preg_32C photo2 testout"
+    },
+    {
+      "id": "v227h_07",
+      "kind": "hazemoor_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "hazemoor HAZEMOOR SLA CARD V227H job1 360.00 hours ok job2 400.00 hours ok job3 730.00 hours late sla_ok_hours TARGET 760.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 80.00 IGNORE bait 80.00 VOID COPY V227H C1471 clarity from preg_32C photo2 testout"
+    },
+    {
+      "id": "v227h_08",
+      "kind": "inkmoor_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3225.75,
+      "expected": 3225.75,
+      "ocr_preview": "inkmoor #@MOOR EXPENSE V227H e1 1602.00 e2 1623.75 e3 1479.00 void exp_sum TARGET 3225.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v227h_09",
+      "kind": "jademoor_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jademoor JADEMOOR PO SHEET V227H line1 780.00 open line2 740.00 open line3 820.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO bait 88.00 COPY V227H C1471 clearly from preg_32C photoC testout"
+    },
+    {
+      "id": "v227h_10",
+      "kind": "knotmoor_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3284.0,
+      "expected": 3284.0,
+      "ocr_preview": "knotmoor KNOTMOOR ORDER V227H skuA 1649.00 paid skuB 1635.00 paid skuC 1474.00 due order_paid TARGET 3284.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY V227H C1471 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v227h_11",
+      "kind": "lakemoor_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakemoor LAKEMOOR DUP MARK V227H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DUP VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 V227H C1471 clearly from preg_20C photoC testout"
+    },
+    {
+      "id": "v227h_12",
+      "kind": "mossmoor_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossmoor MOSSMOOR AIR ZERO V227H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID ZERO COPY V227H C1471 clarity from preg_32C photoC testout"
+    },
+    {
+      "id": "v227h_13",
+      "kind": "nethermoor_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 3383.5,
+      "expected": 3383.5,
+      "ocr_preview": "nethermoor NETHERMOOR LEDGER V227H dr 1684.00 cr 1699.50 adj 1489.00 ledger_net TARGET 3383.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY V227H C1471 clearly from preg_32C photoC testout"
+    },
+    {
+      "id": "v227h_14",
+      "kind": "oakmoor_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakmoor OAKMOOR UI SCAN V227H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY V227H C1471 clarity from preg_32C progC testout"
+    },
+    {
+      "id": "v227h_15",
+      "kind": "pinemoor_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2281.0,
+      "expected": 2281.0,
+      "ocr_preview": "pinemoor PINEMOOR STACK V227H p1 1143 p2 1138 p3 1133 stack_count TARGET 2281 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V227H C1471 clearly from preg_32C progC testout"
+    },
+    {
+      "id": "v227h_16",
+      "kind": "quillmoor_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2310.0,
+      "expected": 2310.0,
+      "ocr_preview": "quillmoor QUILLMOOR FAX V227H pgA 1158 pgB 1152 pgC 1140 drop fax_pages TARGET 2310 DRAFT DRAFT DRAFT DRAFT VOID VOID WIN IGNORE old total 888.00 do not parse fax 555.00 bait 555.00 V227H C 1471 clearly from pgC photoC testout"
+    },
+    {
+      "id": "v227h_17",
+      "kind": "reedmoor_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedmoor REEDMOOR GLARE V227H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY V227H C1471 clearly from preg_32C photoC testout"
+    },
+    {
+      "id": "v227h_18",
+      "kind": "stonemoor_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2330.0,
+      "expected": 2330.0,
+      "ocr_preview": "stonemoor STONEMOOR TAB INDEX V227H tabA 1168 tabB 1162 tabC 1141 tab_index TARGET 2330 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v227_heldout_claim": true,
+  "claim_scope": "r50plus_v227_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

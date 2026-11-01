@@ -1,0 +1,239 @@
+{
+  "cycle": "C961",
+  "theme": "vision_v142_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T12:43:25+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7238.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v142h_01",
+      "kind": "ashvale_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1476.75,
+      "expected": 1476.75,
+      "ocr_preview": "ashvale ASHVALE GRAIN RECV V142H a paid 732.00 b paid 744.75 c open 625.00 TOTAL PAID TARGET 1476.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE REC VOID COPY V142H C861 clarity floor preg_0f2 photo2 metadata SCAN DESK V43H PART 222.00 PAGE 01 bait 99.99 bait 99.99"
+    },
+    {
+      "id": "v142h_02",
+      "kind": "cedarvale_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1600.0,
+      "expected": 1600.0,
+      "ocr_preview": "cedarvale WH CEDARVALE BIN V142H SKU1 qty 840 ok SKU2 qty 620 hold SKU3 qty 760 ok qty_sum TARGET 1600 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY V142H C801 claydy floor prog_qf2 photo2 headset"
+    },
+    {
+      "id": "v142h_03",
+      "kind": "dawnvale_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1393.5,
+      "expected": 1393.5,
+      "ocr_preview": "dawnvale DAWNVALE PATCH REFUND V142H itemR1 690.00 done itemR2 703.50 done itemR3 613.00 open refund_done TARGET 1393.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE DONE VOID COPY V142H C811 clarity floor preg_qf2 photo2 headset SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v142h_04",
+      "kind": "elmvale_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1626.0,
+      "expected": 1626.0,
+      "ocr_preview": "SCAN DESK V42H PART 222-00 PAGE 01 elmvale ELMVALE TAX SUP V142H base 805.00 paid addon 821.00 paid skip 654.00 tax_base_paid TARGET 1626.00 OKP tax 00.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 00.00 IGNORE VOID TAX COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V142H C801 clarity floor preg_qf2 photo2 headset"
+    },
+    {
+      "id": "v142h_05",
+      "kind": "fernvale_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1708.0,
+      "expected": 1708.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 fernvale FERNVALE PAYROLL V142H empA 846.00 active empB 862.00 active empC 649.00 leave payroll_active TARGET 1708.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v142h_06",
+      "kind": "glenvale_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1294.0,
+      "expected": 1294.0,
+      "ocr_preview": "glenvale GLENVALE SHIP DOCK V142H box1 640 ok box2 654 ok box3 618 hold ship_ok TARGET 1294 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP bait 88.00 COPY V142H C881 clarity floor prog_012 photo2 hidden SCAN DESK V142H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v142h_07",
+      "kind": "hazevale_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 780.0,
+      "expected": 780.0,
+      "ocr_preview": "SCAN DECK V43H past 222.00 PAGE 01 hazevale HAZEVALE SLA CARD V142H job1 370.00 hours ok job2 410.00 hours ok job3 310.00 hours late sla_ok_hours TARGET 780.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v142h_08",
+      "kind": "inkvale_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1453.75,
+      "expected": 1453.75,
+      "ocr_preview": "SCAN DESK V42H BAST 222.00 PAGE 01 inkvale #KVALE EXPENSE V142H e1 716.00 e2 737.75 e3 625.00 void exp_sum TARGET 1453.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY V142H C881 clarity floor preg_qf2 photo2 halftout"
+    },
+    {
+      "id": "v142h_09",
+      "kind": "jadevale_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1520.0,
+      "expected": 1520.0,
+      "ocr_preview": "jadevale JADEVALE PO SHEET V142H line1 780.00 open line2 740.00 open line3 622.00 closed po_open TARGET 1520.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.0"
+    },
+    {
+      "id": "v142h_10",
+      "kind": "knotvale_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1512.0,
+      "expected": 1512.0,
+      "ocr_preview": "knotvale KNOTVALE ORDER V142H skuA 763.00 paid skuB 749.00 paid skuC 620.00 due order_paid TARGET 1512.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 66.00 IGNORE ORD bait 66.00 bait 66.00 bait 66.00 bait 66.00 bait 66.00 bait 66.00 bait 66.00 bait 66.00 bait 66.00 bait"
+    },
+    {
+      "id": "v142h_11",
+      "kind": "lakevale_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakevale LAKEVALE DUP MARK V142H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v142h_12",
+      "kind": "mossvale_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mossvale MOSSVALE AIR ZERO V142H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v142h_13",
+      "kind": "nethervale_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1611.5,
+      "expected": 1611.5,
+      "ocr_preview": "nethervale NETHERVALE LEDGER V142H dr 798.00 cr 813.50 adj 635.00 ledger_net TARGET 1611.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY V142H C881 clarity floor preg_0f2 photo2 netout"
+    },
+    {
+      "id": "v142h_14",
+      "kind": "oakvale_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakvale OAKVALE UI SCAN V142H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY V142h C861 clarity floor preg_u02 photo2 headset SCAN DESK V142H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v142h_15",
+      "kind": "pinevale_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 969.0,
+      "expected": 969.0,
+      "ocr_preview": "pinevale PINEVALE STACK V142H p1 486 p2 483 p3 478 stack_count TARGET 969 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK bait 88.00 VOID COPY V142H C811 clarity floor preg_u02 photo2 metadata"
+    },
+    {
+      "id": "v142h_16",
+      "kind": "quillvale_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 998.0,
+      "expected": 998.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 quillvale QUILLVALE FAX V142H pgA 502 pgB 496 pgC 484 drop fax_pages TARGET 998 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v142h_17",
+      "kind": "reedvale_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "SCAN DESK V43H PART 222.00 PAGE 01 reedvale REEDVALE GLARE V142H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY V142H C861 cavity floor preg_qf2 photo2 halftout"
+    },
+    {
+      "id": "v142h_18",
+      "kind": "stonevale_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1018.0,
+      "expected": 1018.0,
+      "ocr_preview": "stonevale STONEVALE TAB INDEX V142H tabA 512 tabB 506 tabC 485 tab_index TARGET 1018 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 VOID tab 88.00 COPY tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0,
+    1520.0,
+    1600.0
+  ],
+  "vl_gate_v142_heldout_claim": true,
+  "claim_scope": "r50plus_v142_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

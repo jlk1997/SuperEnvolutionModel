@@ -1,0 +1,129 @@
+{
+  "kind": "r50plus_c86_vision_ocr_weak_lora_vs_bare",
+  "timestamp": "2026-10-19T01:10:03+08:00",
+  "gate": 0.6,
+  "domain": "ocr_weak",
+  "metric": "strict_must_codes",
+  "adapter": "runs/capabilities/vision_office_ocr_weak_lora",
+  "adapter_trained_on": "ocr_weak_train (not test)",
+  "test_dir": "evo/office/fixtures/vision_images_ocr_weak_test",
+  "bare_reused_from_c84": true,
+  "bare": {
+    "n": 8,
+    "n_ok": 0,
+    "rate": 0.0
+  },
+  "lora": {
+    "n": 8,
+    "n_ok": 0,
+    "rate": 0.0
+  },
+  "delta_lora_minus_bare": 0.0,
+  "lora_helps_delta_ge_0": true,
+  "lora_beats_bare": false,
+  "decision": "LORA_NEUTRAL_WEAK_OCR_PREFER_BARE",
+  "deprecate_vision_lora_for_dense": true,
+  "deprecate_vision_lora_product_default_bare": true,
+  "flips": [],
+  "lora_items": [
+    {
+      "id": "owx-rcpt-001",
+      "gold": "RCPT ZQ-90K1 AMT 15.20 DATE 2026-10-01",
+      "must_codes": [
+        "ZQ-90K1",
+        "15.20",
+        "2026-10-01"
+      ],
+      "pred_head": "REPLY REQUIRED",
+      "ok": false,
+      "error": null
+    },
+    {
+      "id": "owx-rcpt-002",
+      "gold": "RCPT ZQ-90L2 AMT 99.00 DATE 2026-10-02",
+      "must_codes": [
+        "ZQ-90L2",
+        "99.00",
+        "2026-10-02"
+      ],
+      "pred_head": "REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:",
+      "ok": false,
+      "error": null
+    },
+    {
+      "id": "owx-rcpt-003",
+      "gold": "RCPT ZQ-90M3 AMT 4.50 DATE 2026-10-03",
+      "must_codes": [
+        "ZQ-90M3",
+        "4.50",
+        "2026-10-03"
+      ],
+      "pred_head": "▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶",
+      "ok": false,
+      "error": null
+    },
+    {
+      "id": "owx-rcpt-004",
+      "gold": "RCPT ZQ-90N4 AMT 33.33 DATE 2026-10-04",
+      "must_codes": [
+        "ZQ-90N4",
+        "33.33",
+        "2026-10-04"
+      ],
+      "pred_head": "REPLY:👍😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊",
+      "ok": false,
+      "error": null
+    },
+    {
+      "id": "owx-rcpt-005",
+      "gold": "RCPT ZQ-90P5 AMT 210.00 DATE 2026-10-05",
+      "must_codes": [
+        "ZQ-90P5",
+        "210.00",
+        "2026-10-05"
+      ],
+      "pred_head": "▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️",
+      "ok": false,
+      "error": null
+    },
+    {
+      "id": "owx-rcpt-006",
+      "gold": "RCPT ZQ-90Q6 AMT 8.08 DATE 2026-10-06",
+      "must_codes": [
+        "ZQ-90Q6",
+        "8.08",
+        "2026-10-06"
+      ],
+      "pred_head": "REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:REPLY:",
+      "ok": false,
+      "error": null
+    },
+    {
+      "id": "owx-rcpt-007",
+      "gold": "RCPT ZQ-90R7 AMT 56.70 DATE 2026-10-07",
+      "must_codes": [
+        "ZQ-90R7",
+        "56.70",
+        "2026-10-07"
+      ],
+      "pred_head": "▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️",
+      "ok": false,
+      "error": null
+    },
+    {
+      "id": "owx-rcpt-008",
+      "gold": "RCPT ZQ-90S8 AMT 1.01 DATE 2026-10-08",
+      "must_codes": [
+        "ZQ-90S8",
+        "1.01",
+        "2026-10-08"
+      ],
+      "pred_head": "REPLY ❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌",
+      "ok": false,
+      "error": null
+    }
+  ],
+  "innovation": "Strict-code weak-domain LoRA hunt; formal deprecate if Δ<0",
+  "gate2_3_untouched": true,
+  "no_new_vl_gate_claim": true
+}

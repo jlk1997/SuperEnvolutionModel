@@ -1,0 +1,16 @@
+{
+  "cycle": "C131",
+  "theme": "v6_design_noisy_ui_multiwindow_cn_en",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T03:27:26+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "protocol": "docs/蚁算视_VL_GATE_V6_PROTOCOL.md",
+  "fixtures_dir": "evo/office/fixtures/vision_images_v6",
+  "n_fixtures": 14,
+  "manifest": "evo/office/fixtures/vision_images_v6/manifest.json",
+  "pass": true,
+  "claim": false,
+  "vl_gate_v6_claim": false,
+  "note": "V6 protocol+fixtures landed. Claim deferred to C132 smoke with real VL."
+}

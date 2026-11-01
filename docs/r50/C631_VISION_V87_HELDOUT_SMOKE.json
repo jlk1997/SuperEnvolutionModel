@@ -1,0 +1,237 @@
+{
+  "cycle": "C631",
+  "theme": "vision_v87_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T01:13:01+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7357.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v87h_01",
+      "kind": "eldertide_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 572.75,
+      "expected": 572.75,
+      "ocr_preview": "eldertide ELDERTIDE GRAIN RECV V87H a paid 280.00 b paid 292.75 c open 173.00 TOTAL PAID TARGET 572.75 DRAFT DRAFT DRAFT DRAFT VOID VOID VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v87h_02",
+      "kind": "firtide_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 512.0,
+      "expected": 512.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 firtide WH FIRTIDE BIN V67H SKU1 qty 242 ok SKU2 qty 180 hold SKU3 qty 270 ok qty_sum TARGET 512 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v87h_03",
+      "kind": "gorsetide_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 489.5,
+      "expected": 489.5,
+      "ocr_preview": "gorsetide GORSETIDE PATCH REFUND V87H itemR1 238.00 done itemR2 251.50 done itemR3 161.00 open refund_done TARGET 489.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID DONE COPY"
+    },
+    {
+      "id": "v87h_04",
+      "kind": "hazeltide_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 722.0,
+      "expected": 722.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 hazeltide HAZELTIDE TAX SLIP V87H base 353.00 paid addon 369.00 paid skip 202.00 tax_base_paid TARGET 722.00 OKP tax 00.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v87h_05",
+      "kind": "irontide_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 804.0,
+      "expected": 804.0,
+      "ocr_preview": "irontide IRONTIDE PAYROLL V87H empA 394.00 active empB 410.00 active empC 197.00 leave payroll_active TARGET 804.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v87h_06",
+      "kind": "junitide_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 390.0,
+      "expected": 390.0,
+      "ocr_preview": "junitide JUNITIDE SHIP DOCK V87H box1 188 ok box2 202 ok box3 166 hold ship_ok TARGET 390 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY V87H GE31 clarity four peg_0502 photo2 testout"
+    },
+    {
+      "id": "v87h_07",
+      "kind": "knolltide_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 486.5,
+      "expected": 486.5,
+      "ocr_preview": "knolltide KNOLLTIDE SLA CARD V87H job1 246.00 hours ok job2 240.50 hours ok job3 167.00 hours late sla_ok_hours TARGET 486.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE COPY VOID bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v87h_08",
+      "kind": "larktide_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 549.75,
+      "expected": 549.75,
+      "ocr_preview": "larktide LARKTIDE EXPENSE V87H e1 264.00 e2 285.75 e3 173.00 void exp_sum TARGET 549.75 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v87h_09",
+      "kind": "mosstide_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 556.0,
+      "expected": 556.0,
+      "ocr_preview": "mosstide MOSSTIDE PO SHEET V87H line1 284.00 open line2 272.00 open line3 176.00 closed po_open TARGET 556.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v87h_10",
+      "kind": "northtide_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 608.0,
+      "expected": 608.0,
+      "ocr_preview": "northtide NORTHTIDE ORDER V87H skuA 311.00 paid skuB 297.00 paid skuC 168.00 due order_paid TARGET 608.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD bait 88.00 VOID COPY"
+    },
+    {
+      "id": "v87h_11",
+      "kind": "opaltide_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "opaltide OPALTIDE DUP MARK V87H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait $555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v87h_12",
+      "kind": "peattide_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "peptide PEATTIDE AIR ZERO V87H 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v87h_13",
+      "kind": "quilltide_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 707.5,
+      "expected": 707.5,
+      "ocr_preview": "quilttide QUILLTIDE LEDGER V87H dr 346.00 cr 361.50 adj 183.00 ledger_net TARGET 707.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v87h_14",
+      "kind": "reedtide_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedtide REEDTIDE UI SCAN V87H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY"
+    },
+    {
+      "id": "v87h_15",
+      "kind": "stonetide_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 177.0,
+      "expected": 177.0,
+      "ocr_preview": "SCAN DESK V40H PART 222-00 PAGE 01 stonetide STONETIDE STACK V87H p1 90 p2 87 p3 82 stack_count TARGET 177 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v87h_16",
+      "kind": "thundertide_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 206.0,
+      "expected": 206.0,
+      "ocr_preview": "thundertide THUNDERTIDE FAX V87H pgA 106 pgB 100 pgC 88 drop fax_pages TARGET 206 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v87h_17",
+      "kind": "umbertideg_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "umbertideg UMBERTIDEG GLARE V87H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY"
+    },
+    {
+      "id": "v87h_18",
+      "kind": "valotide_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 226.0,
+      "expected": 226.0,
+      "ocr_preview": "valotide VALOTIDE TAB INDEX V87H tabA 116 tabB 110 tabC 89 tab_index TARGET 226 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 89.00 tab 89.00 tab 89.00 tab 89.00 tab 89.00 tab 89.00 tab 89.00 tab 89.00 tab 89.00 tab 89.00 tab 89.00 tab 89.00 tab 89.00"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v87_heldout_claim": true,
+  "claim_scope": "r50plus_v87_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

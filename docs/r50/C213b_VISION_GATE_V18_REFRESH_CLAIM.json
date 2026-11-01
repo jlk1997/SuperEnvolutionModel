@@ -1,0 +1,16 @@
+{
+  "kind": "vision_gate_v18_claim",
+  "timestamp": "2026-10-19T07:42:51+08:00",
+  "vl_gate_v18_claim": true,
+  "rate": 1.0,
+  "n": 18,
+  "n_ok": 18,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v18_c213_mildfix_bleach_halftone_n>=16_c162_parse_qwen35_2b",
+  "supersedes": "docs/r50/C209b_VISION_GATE_V18_CLAIM.json",
+  "prior_rate": 0.6667,
+  "gate2_3_untouched": true,
+  "v0_v17_untouched": true,
+  "gen11": "HOLD",
+  "cycle": "C213"
+}

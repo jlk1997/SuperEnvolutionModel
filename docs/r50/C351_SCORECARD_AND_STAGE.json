@@ -1,0 +1,66 @@
+{
+  "cycle": "C351",
+  "theme": "unified_scorecard_c346_c350",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T03:47:58+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "replace": {
+    "mean_ratio": 4.1625,
+    "rate": 1.0,
+    "source": "C349"
+  },
+  "vision": {
+    "v39_smoke": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v39_heldout": {
+      "rate": 1.0,
+      "claim": true
+    },
+    "v40_smoke": {
+      "rate": 1.0,
+      "n": 18,
+      "n_ok": 18,
+      "claim": true,
+      "fail_ids": []
+    },
+    "v40_heldout": {
+      "rate": 1.0,
+      "n": 18,
+      "n_ok": 18,
+      "claim": true,
+      "id_disjoint": true,
+      "fail_ids": []
+    }
+  },
+  "non_vision": {
+    "pass": true,
+    "dissolve_cost_shadow": {
+      "pass": true,
+      "source": "C349"
+    },
+    "confidence_gate": {
+      "pass": true,
+      "rate": 1.0,
+      "source": "C342"
+    },
+    "dissolve_pass": true,
+    "shadow_pass": true,
+    "product_u2c_prior": {
+      "pass": true,
+      "replace_ratio": 4.0694,
+      "source": "C344"
+    }
+  },
+  "capture_regression": {
+    "pass": true,
+    "n_ok": null,
+    "source": "C350"
+  },
+  "composite": 1.0,
+  "STAGE_READY": true,
+  "pass": true,
+  "tip_hint": "post-C350"
+}

@@ -1,0 +1,19 @@
+{
+  "cycle": "C160",
+  "theme": "vision_v9_design_batch",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T04:50:07+08:00",
+  "n": 16,
+  "fixture_dir": "evo/office/fixtures/vision_images_v9",
+  "protocol": "docs/蚁算_VL_GATE_V9_PROTOCOL.md",
+  "harder_than": "v8",
+  "hardening": "torn_barcode_fx_ghost_qr",
+  "smoke_deferred_to": "C163+",
+  "v8_train_rate": 1.0,
+  "v8_heldout_rate": 0.9375,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": false,
+  "note": "V9 fixtures ready; claim only after real VL smoke >=0.6"
+}

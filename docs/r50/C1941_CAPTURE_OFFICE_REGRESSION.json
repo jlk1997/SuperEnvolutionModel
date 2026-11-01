@@ -1,0 +1,5905 @@
+{
+  "cycle": "C1941",
+  "theme": "capture_office_regression_c377_c380",
+  "gate": 0.6,
+  "timestamp": "2026-10-28T11:48:55+08:00",
+  "n_pointers": 642,
+  "n_ok_pointers": 641,
+  "pointers": [
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V226",
+      "path": "docs/r50/C1464_VISION_V226_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V226_heldout",
+      "path": "docs/r50/C1465_VISION_V226_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V225",
+      "path": "docs/r50/C1458_VISION_V225_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V225_heldout",
+      "path": "docs/r50/C1459_VISION_V225_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V224",
+      "path": "docs/r50/C1452_VISION_V224_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V224_heldout",
+      "path": "docs/r50/C1453_VISION_V224_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V223",
+      "path": "docs/r50/C1446_VISION_V223_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V223_heldout",
+      "path": "docs/r50/C1447_VISION_V223_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V222",
+      "path": "docs/r50/C1440_VISION_V222_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V222_heldout",
+      "path": "docs/r50/C1441_VISION_V222_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V221",
+      "path": "docs/r50/C1434_VISION_V221_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V221_heldout",
+      "path": "docs/r50/C1435_VISION_V221_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V220",
+      "path": "docs/r50/C1428_VISION_V220_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V220_heldout",
+      "path": "docs/r50/C1429_VISION_V220_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V219",
+      "path": "docs/r50/C1422_VISION_V219_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V219_heldout",
+      "path": "docs/r50/C1423_VISION_V219_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V218",
+      "path": "docs/r50/C1416_VISION_V218_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V218_heldout",
+      "path": "docs/r50/C1417_VISION_V218_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V217",
+      "path": "docs/r50/C1410_VISION_V217_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V217_heldout",
+      "path": "docs/r50/C1411_VISION_V217_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V216",
+      "path": "docs/r50/C1404_VISION_V216_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V216_heldout",
+      "path": "docs/r50/C1405_VISION_V216_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V215",
+      "path": "docs/r50/C1398_VISION_V215_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V215_heldout",
+      "path": "docs/r50/C1399_VISION_V215_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V214",
+      "path": "docs/r50/C1392_VISION_V214_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V214_heldout",
+      "path": "docs/r50/C1393_VISION_V214_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V213",
+      "path": "docs/r50/C1386_VISION_V213_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V213_heldout",
+      "path": "docs/r50/C1387_VISION_V213_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V212",
+      "path": "docs/r50/C1380_VISION_V212_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V212_heldout",
+      "path": "docs/r50/C1381_VISION_V212_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V211",
+      "path": "docs/r50/C1374_VISION_V211_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V211_heldout",
+      "path": "docs/r50/C1375_VISION_V211_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V210",
+      "path": "docs/r50/C1368_VISION_V210_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V210_heldout",
+      "path": "docs/r50/C1369_VISION_V210_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V209",
+      "path": "docs/r50/C1362_VISION_V209_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V209_heldout",
+      "path": "docs/r50/C1363_VISION_V209_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V208",
+      "path": "docs/r50/C1356_VISION_V208_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V208_heldout",
+      "path": "docs/r50/C1357_VISION_V208_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V207",
+      "path": "docs/r50/C1350_VISION_V207_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V207_heldout",
+      "path": "docs/r50/C1351_VISION_V207_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V206",
+      "path": "docs/r50/C1344_VISION_V206_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V206_heldout",
+      "path": "docs/r50/C1345_VISION_V206_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V205",
+      "path": "docs/r50/C1338_VISION_V205_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V205_heldout",
+      "path": "docs/r50/C1339_VISION_V205_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V204",
+      "path": "docs/r50/C1332_VISION_V204_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V204_heldout",
+      "path": "docs/r50/C1333_VISION_V204_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V203",
+      "path": "docs/r50/C1326_VISION_V203_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V203_heldout",
+      "path": "docs/r50/C1327_VISION_V203_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V202",
+      "path": "docs/r50/C1320_VISION_V202_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V202_heldout",
+      "path": "docs/r50/C1321_VISION_V202_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V201",
+      "path": "docs/r50/C1314_VISION_V201_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V201_heldout",
+      "path": "docs/r50/C1315_VISION_V201_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V200",
+      "path": "docs/r50/C1308_VISION_V200_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V200_heldout",
+      "path": "docs/r50/C1309_VISION_V200_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V199",
+      "path": "docs/r50/C1302_VISION_V199_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V199_heldout",
+      "path": "docs/r50/C1303_VISION_V199_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V198",
+      "path": "docs/r50/C1296_VISION_V198_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V198_heldout",
+      "path": "docs/r50/C1297_VISION_V198_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V197",
+      "path": "docs/r50/C1290_VISION_V197_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V197_heldout",
+      "path": "docs/r50/C1291_VISION_V197_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V196",
+      "path": "docs/r50/C1284_VISION_V196_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V196_heldout",
+      "path": "docs/r50/C1285_VISION_V196_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V195",
+      "path": "docs/r50/C1278_VISION_V195_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V195_heldout",
+      "path": "docs/r50/C1279_VISION_V195_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V194",
+      "path": "docs/r50/C1272_VISION_V194_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V194_heldout",
+      "path": "docs/r50/C1273_VISION_V194_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V193",
+      "path": "docs/r50/C1266_VISION_V193_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V193_heldout",
+      "path": "docs/r50/C1267_VISION_V193_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V192",
+      "path": "docs/r50/C1260_VISION_V192_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V192_heldout",
+      "path": "docs/r50/C1261_VISION_V192_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V191",
+      "path": "docs/r50/C1254_VISION_V191_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V191_heldout",
+      "path": "docs/r50/C1255_VISION_V191_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V190",
+      "path": "docs/r50/C1248_VISION_V190_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V190_heldout",
+      "path": "docs/r50/C1249_VISION_V190_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V189",
+      "path": "docs/r50/C1242_VISION_V189_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V189_heldout",
+      "path": "docs/r50/C1243_VISION_V189_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V188",
+      "path": "docs/r50/C1236_VISION_V188_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V188_heldout",
+      "path": "docs/r50/C1237_VISION_V188_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V187",
+      "path": "docs/r50/C1230_VISION_V187_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V187_heldout",
+      "path": "docs/r50/C1231_VISION_V187_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V186",
+      "path": "docs/r50/C1224_VISION_V186_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V186_heldout",
+      "path": "docs/r50/C1225_VISION_V186_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V185",
+      "path": "docs/r50/C1218_VISION_V185_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V185_heldout",
+      "path": "docs/r50/C1219_VISION_V185_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V184",
+      "path": "docs/r50/C1212_VISION_V184_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V184_heldout",
+      "path": "docs/r50/C1213_VISION_V184_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V183",
+      "path": "docs/r50/C1206_VISION_V183_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V183_heldout",
+      "path": "docs/r50/C1207_VISION_V183_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V182",
+      "path": "docs/r50/C1200_VISION_V182_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V182_heldout",
+      "path": "docs/r50/C1201_VISION_V182_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V181",
+      "path": "docs/r50/C1194_VISION_V181_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V181_heldout",
+      "path": "docs/r50/C1195_VISION_V181_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V180",
+      "path": "docs/r50/C1188_VISION_V180_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V180_heldout",
+      "path": "docs/r50/C1189_VISION_V180_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V179",
+      "path": "docs/r50/C1182_VISION_V179_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V179_heldout",
+      "path": "docs/r50/C1183_VISION_V179_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V178",
+      "path": "docs/r50/C1176_VISION_V178_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V178_heldout",
+      "path": "docs/r50/C1177_VISION_V178_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V177",
+      "path": "docs/r50/C1170_VISION_V177_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V177_heldout",
+      "path": "docs/r50/C1171_VISION_V177_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V176",
+      "path": "docs/r50/C1164_VISION_V176_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V176_heldout",
+      "path": "docs/r50/C1165_VISION_V176_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V175",
+      "path": "docs/r50/C1158_VISION_V175_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V175_heldout",
+      "path": "docs/r50/C1159_VISION_V175_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V174",
+      "path": "docs/r50/C1152_VISION_V174_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V174_heldout",
+      "path": "docs/r50/C1153_VISION_V174_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V173",
+      "path": "docs/r50/C1146_VISION_V173_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V173_heldout",
+      "path": "docs/r50/C1147_VISION_V173_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V172",
+      "path": "docs/r50/C1140_VISION_V172_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V172_heldout",
+      "path": "docs/r50/C1141_VISION_V172_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V171",
+      "path": "docs/r50/C1134_VISION_V171_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V171_heldout",
+      "path": "docs/r50/C1135_VISION_V171_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V170",
+      "path": "docs/r50/C1128_VISION_V170_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V170_heldout",
+      "path": "docs/r50/C1129_VISION_V170_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V169",
+      "path": "docs/r50/C1122_VISION_V169_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V169_heldout",
+      "path": "docs/r50/C1123_VISION_V169_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V168",
+      "path": "docs/r50/C1116_VISION_V168_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V168_heldout",
+      "path": "docs/r50/C1117_VISION_V168_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V167",
+      "path": "docs/r50/C1110_VISION_V167_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V167_heldout",
+      "path": "docs/r50/C1111_VISION_V167_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V166",
+      "path": "docs/r50/C1104_VISION_V166_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V166_heldout",
+      "path": "docs/r50/C1105_VISION_V166_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V165",
+      "path": "docs/r50/C1098_VISION_V165_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V165_heldout",
+      "path": "docs/r50/C1099_VISION_V165_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V164",
+      "path": "docs/r50/C1092_VISION_V164_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V164_heldout",
+      "path": "docs/r50/C1093_VISION_V164_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V163",
+      "path": "docs/r50/C1086_VISION_V163_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V163_heldout",
+      "path": "docs/r50/C1087_VISION_V163_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V162",
+      "path": "docs/r50/C1080_VISION_V162_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V162_heldout",
+      "path": "docs/r50/C1081_VISION_V162_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V161",
+      "path": "docs/r50/C1074_VISION_V161_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V161_heldout",
+      "path": "docs/r50/C1075_VISION_V161_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V160",
+      "path": "docs/r50/C1068_VISION_V160_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V160_heldout",
+      "path": "docs/r50/C1069_VISION_V160_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V159",
+      "path": "docs/r50/C1062_VISION_V159_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V159_heldout",
+      "path": "docs/r50/C1063_VISION_V159_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V158",
+      "path": "docs/r50/C1056_VISION_V158_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V158_heldout",
+      "path": "docs/r50/C1057_VISION_V158_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V157",
+      "path": "docs/r50/C1050_VISION_V157_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V157_heldout",
+      "path": "docs/r50/C1051_VISION_V157_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V156",
+      "path": "docs/r50/C1044_VISION_V156_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V156_heldout",
+      "path": "docs/r50/C1045_VISION_V156_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V155",
+      "path": "docs/r50/C1038_VISION_V155_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V155_heldout",
+      "path": "docs/r50/C1039_VISION_V155_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V154",
+      "path": "docs/r50/C1032_VISION_V154_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V154_heldout",
+      "path": "docs/r50/C1033_VISION_V154_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V153",
+      "path": "docs/r50/C1026_VISION_V153_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V153_heldout",
+      "path": "docs/r50/C1027_VISION_V153_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V152",
+      "path": "docs/r50/C1020_VISION_V152_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V152_heldout",
+      "path": "docs/r50/C1021_VISION_V152_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V151",
+      "path": "docs/r50/C1014_VISION_V151_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V151_heldout",
+      "path": "docs/r50/C1015_VISION_V151_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V150",
+      "path": "docs/r50/C1008_VISION_V150_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V150_heldout",
+      "path": "docs/r50/C1009_VISION_V150_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V149",
+      "path": "docs/r50/C1002_VISION_V149_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V149_heldout",
+      "path": "docs/r50/C1003_VISION_V149_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V148",
+      "path": "docs/r50/C996_VISION_V148_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V148_heldout",
+      "path": "docs/r50/C997_VISION_V148_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V147",
+      "path": "docs/r50/C990_VISION_V147_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V147_heldout",
+      "path": "docs/r50/C991_VISION_V147_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V146",
+      "path": "docs/r50/C984_VISION_V146_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V146_heldout",
+      "path": "docs/r50/C985_VISION_V146_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V145",
+      "path": "docs/r50/C978_VISION_V145_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V145_heldout",
+      "path": "docs/r50/C979_VISION_V145_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V144",
+      "path": "docs/r50/C972_VISION_V144_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V144_heldout",
+      "path": "docs/r50/C973_VISION_V144_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V143",
+      "path": "docs/r50/C966_VISION_V143_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V143_heldout",
+      "path": "docs/r50/C967_VISION_V143_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V142",
+      "path": "docs/r50/C960_VISION_V142_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V142_heldout",
+      "path": "docs/r50/C961_VISION_V142_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V142",
+      "path": "docs/r50/C960_VISION_V142_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V142_heldout",
+      "path": "docs/r50/C961_VISION_V142_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V141",
+      "path": "docs/r50/C954_VISION_V141_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V141_heldout",
+      "path": "docs/r50/C955_VISION_V141_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V140",
+      "path": "docs/r50/C948_VISION_V140_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V140_heldout",
+      "path": "docs/r50/C949_VISION_V140_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V139",
+      "path": "docs/r50/C942_VISION_V139_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V139_heldout",
+      "path": "docs/r50/C943_VISION_V139_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V138",
+      "path": "docs/r50/C936_VISION_V138_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V138_heldout",
+      "path": "docs/r50/C937_VISION_V138_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V138",
+      "path": "docs/r50/C936_VISION_V138_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V138_heldout",
+      "path": "docs/r50/C937_VISION_V138_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V137",
+      "path": "docs/r50/C930_VISION_V137_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V137_heldout",
+      "path": "docs/r50/C931_VISION_V137_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V137",
+      "path": "docs/r50/C930_VISION_V137_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V137_heldout",
+      "path": "docs/r50/C931_VISION_V137_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V136",
+      "path": "docs/r50/C924_VISION_V136_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V136_heldout",
+      "path": "docs/r50/C925_VISION_V136_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V136",
+      "path": "docs/r50/C924_VISION_V136_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V136_heldout",
+      "path": "docs/r50/C925_VISION_V136_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V135",
+      "path": "docs/r50/C918_VISION_V135_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V135_heldout",
+      "path": "docs/r50/C919_VISION_V135_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V135",
+      "path": "docs/r50/C918_VISION_V135_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V135_heldout",
+      "path": "docs/r50/C919_VISION_V135_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V134",
+      "path": "docs/r50/C912_VISION_V134_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V134_heldout",
+      "path": "docs/r50/C913_VISION_V134_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V134",
+      "path": "docs/r50/C912_VISION_V134_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V134_heldout",
+      "path": "docs/r50/C913_VISION_V134_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V133",
+      "path": "docs/r50/C906_VISION_V133_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V133_heldout",
+      "path": "docs/r50/C907_VISION_V133_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V133",
+      "path": "docs/r50/C906_VISION_V133_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V133_heldout",
+      "path": "docs/r50/C907_VISION_V133_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V132",
+      "path": "docs/r50/C900_VISION_V132_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V132_heldout",
+      "path": "docs/r50/C901_VISION_V132_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V132",
+      "path": "docs/r50/C900_VISION_V132_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V132_heldout",
+      "path": "docs/r50/C901_VISION_V132_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V131",
+      "path": "docs/r50/C894_VISION_V131_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V131_heldout",
+      "path": "docs/r50/C895_VISION_V131_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V131",
+      "path": "docs/r50/C894_VISION_V131_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V131_heldout",
+      "path": "docs/r50/C895_VISION_V131_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V130",
+      "path": "docs/r50/C888_VISION_V130_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V130_heldout",
+      "path": "docs/r50/C889_VISION_V130_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V130",
+      "path": "docs/r50/C888_VISION_V130_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V130_heldout",
+      "path": "docs/r50/C889_VISION_V130_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V129",
+      "path": "docs/r50/C882_VISION_V129_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V129_heldout",
+      "path": "docs/r50/C883_VISION_V129_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V129",
+      "path": "docs/r50/C882_VISION_V129_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V129_heldout",
+      "path": "docs/r50/C883_VISION_V129_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V128",
+      "path": "docs/r50/C876_VISION_V128_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V128_heldout",
+      "path": "docs/r50/C877_VISION_V128_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V128",
+      "path": "docs/r50/C876_VISION_V128_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V128_heldout",
+      "path": "docs/r50/C877_VISION_V128_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V127",
+      "path": "docs/r50/C870_VISION_V127_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V127_heldout",
+      "path": "docs/r50/C871_VISION_V127_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V127",
+      "path": "docs/r50/C870_VISION_V127_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V127_heldout",
+      "path": "docs/r50/C871_VISION_V127_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V126",
+      "path": "docs/r50/C864_VISION_V126_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V126_heldout",
+      "path": "docs/r50/C865_VISION_V126_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V126",
+      "path": "docs/r50/C864_VISION_V126_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V126_heldout",
+      "path": "docs/r50/C865_VISION_V126_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V125",
+      "path": "docs/r50/C858_VISION_V125_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V125_heldout",
+      "path": "docs/r50/C859_VISION_V125_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V125",
+      "path": "docs/r50/C858_VISION_V125_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V125_heldout",
+      "path": "docs/r50/C859_VISION_V125_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V124",
+      "path": "docs/r50/C852_VISION_V124_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V124_heldout",
+      "path": "docs/r50/C853_VISION_V124_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V124",
+      "path": "docs/r50/C852_VISION_V124_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V124_heldout",
+      "path": "docs/r50/C853_VISION_V124_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V123",
+      "path": "docs/r50/C846_VISION_V123_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V123_heldout",
+      "path": "docs/r50/C847_VISION_V123_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V123",
+      "path": "docs/r50/C846_VISION_V123_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V123_heldout",
+      "path": "docs/r50/C847_VISION_V123_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V122",
+      "path": "docs/r50/C840_VISION_V122_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V122_heldout",
+      "path": "docs/r50/C841_VISION_V122_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V122",
+      "path": "docs/r50/C840_VISION_V122_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V122_heldout",
+      "path": "docs/r50/C841_VISION_V122_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V121",
+      "path": "docs/r50/C834_VISION_V121_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V121_heldout",
+      "path": "docs/r50/C835_VISION_V121_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V121",
+      "path": "docs/r50/C834_VISION_V121_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V121_heldout",
+      "path": "docs/r50/C835_VISION_V121_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V120",
+      "path": "docs/r50/C828_VISION_V120_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V120_heldout",
+      "path": "docs/r50/C829_VISION_V120_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V120",
+      "path": "docs/r50/C828_VISION_V120_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V120_heldout",
+      "path": "docs/r50/C829_VISION_V120_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V119",
+      "path": "docs/r50/C822_VISION_V119_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V119_heldout",
+      "path": "docs/r50/C823_VISION_V119_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V119",
+      "path": "docs/r50/C822_VISION_V119_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V119_heldout",
+      "path": "docs/r50/C823_VISION_V119_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V118",
+      "path": "docs/r50/C816_VISION_V118_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V118_heldout",
+      "path": "docs/r50/C817_VISION_V118_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V118",
+      "path": "docs/r50/C816_VISION_V118_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V118_heldout",
+      "path": "docs/r50/C817_VISION_V118_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V117",
+      "path": "docs/r50/C810_VISION_V117_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V117_heldout",
+      "path": "docs/r50/C811_VISION_V117_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V117",
+      "path": "docs/r50/C810_VISION_V117_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V117_heldout",
+      "path": "docs/r50/C811_VISION_V117_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V116",
+      "path": "docs/r50/C804_VISION_V116_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V116_heldout",
+      "path": "docs/r50/C805_VISION_V116_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V116",
+      "path": "docs/r50/C804_VISION_V116_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V116_heldout",
+      "path": "docs/r50/C805_VISION_V116_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V115",
+      "path": "docs/r50/C798_VISION_V115_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V115_heldout",
+      "path": "docs/r50/C799_VISION_V115_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V115",
+      "path": "docs/r50/C798_VISION_V115_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V115_heldout",
+      "path": "docs/r50/C799_VISION_V115_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V114",
+      "path": "docs/r50/C792_VISION_V114_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V114_heldout",
+      "path": "docs/r50/C793_VISION_V114_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V114",
+      "path": "docs/r50/C792_VISION_V114_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V114_heldout",
+      "path": "docs/r50/C793_VISION_V114_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V113",
+      "path": "docs/r50/C786_VISION_V113_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V113_heldout",
+      "path": "docs/r50/C787_VISION_V113_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V113",
+      "path": "docs/r50/C786_VISION_V113_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V113_heldout",
+      "path": "docs/r50/C787_VISION_V113_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V112",
+      "path": "docs/r50/C780_VISION_V112_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V112_heldout",
+      "path": "docs/r50/C781_VISION_V112_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V112",
+      "path": "docs/r50/C780_VISION_V112_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V112_heldout",
+      "path": "docs/r50/C781_VISION_V112_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V111",
+      "path": "docs/r50/C774_VISION_V111_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V111_heldout",
+      "path": "docs/r50/C775_VISION_V111_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V111",
+      "path": "docs/r50/C774_VISION_V111_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V111_heldout",
+      "path": "docs/r50/C775_VISION_V111_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V110",
+      "path": "docs/r50/C768_VISION_V110_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V110_heldout",
+      "path": "docs/r50/C769_VISION_V110_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V110",
+      "path": "docs/r50/C768_VISION_V110_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V110_heldout",
+      "path": "docs/r50/C769_VISION_V110_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V109",
+      "path": "docs/r50/C762_VISION_V109_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V109_heldout",
+      "path": "docs/r50/C763_VISION_V109_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V109",
+      "path": "docs/r50/C762_VISION_V109_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V109_heldout",
+      "path": "docs/r50/C763_VISION_V109_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V108",
+      "path": "docs/r50/C756_VISION_V108_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V108_heldout",
+      "path": "docs/r50/C757_VISION_V108_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V108",
+      "path": "docs/r50/C756_VISION_V108_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V108_heldout",
+      "path": "docs/r50/C757_VISION_V108_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V107",
+      "path": "docs/r50/C750_VISION_V107_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V107_heldout",
+      "path": "docs/r50/C751_VISION_V107_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V107",
+      "path": "docs/r50/C750_VISION_V107_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V107_heldout",
+      "path": "docs/r50/C751_VISION_V107_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V106",
+      "path": "docs/r50/C744_VISION_V106_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V106_heldout",
+      "path": "docs/r50/C745_VISION_V106_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V106",
+      "path": "docs/r50/C744_VISION_V106_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V106_heldout",
+      "path": "docs/r50/C745_VISION_V106_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V105",
+      "path": "docs/r50/C738_VISION_V105_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V105_heldout",
+      "path": "docs/r50/C739_VISION_V105_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V105",
+      "path": "docs/r50/C738_VISION_V105_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V105_heldout",
+      "path": "docs/r50/C739_VISION_V105_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V104",
+      "path": "docs/r50/C732_VISION_V104_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V104_heldout",
+      "path": "docs/r50/C733_VISION_V104_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V104",
+      "path": "docs/r50/C732_VISION_V104_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V104_heldout",
+      "path": "docs/r50/C733_VISION_V104_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V103",
+      "path": "docs/r50/C726_VISION_V103_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V103_heldout",
+      "path": "docs/r50/C727_VISION_V103_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V103",
+      "path": "docs/r50/C726_VISION_V103_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V103_heldout",
+      "path": "docs/r50/C727_VISION_V103_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V102",
+      "path": "docs/r50/C720_VISION_V102_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V102_heldout",
+      "path": "docs/r50/C721_VISION_V102_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V102",
+      "path": "docs/r50/C720_VISION_V102_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V102_heldout",
+      "path": "docs/r50/C721_VISION_V102_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V101",
+      "path": "docs/r50/C714_VISION_V101_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V101_heldout",
+      "path": "docs/r50/C715_VISION_V101_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V101",
+      "path": "docs/r50/C714_VISION_V101_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V101_heldout",
+      "path": "docs/r50/C715_VISION_V101_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V100",
+      "path": "docs/r50/C708_VISION_V100_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V100_heldout",
+      "path": "docs/r50/C709_VISION_V100_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V100",
+      "path": "docs/r50/C708_VISION_V100_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V100_heldout",
+      "path": "docs/r50/C709_VISION_V100_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V99",
+      "path": "docs/r50/C702_VISION_V99_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V99_heldout",
+      "path": "docs/r50/C703_VISION_V99_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V99",
+      "path": "docs/r50/C702_VISION_V99_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V99_heldout",
+      "path": "docs/r50/C703_VISION_V99_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V98",
+      "path": "docs/r50/C696_VISION_V98_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V98_heldout",
+      "path": "docs/r50/C697_VISION_V98_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V98",
+      "path": "docs/r50/C696_VISION_V98_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V98_heldout",
+      "path": "docs/r50/C697_VISION_V98_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V97",
+      "path": "docs/r50/C690_VISION_V97_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V97_heldout",
+      "path": "docs/r50/C691_VISION_V97_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V97",
+      "path": "docs/r50/C690_VISION_V97_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V97_heldout",
+      "path": "docs/r50/C691_VISION_V97_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V96",
+      "path": "docs/r50/C684_VISION_V96_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V96_heldout",
+      "path": "docs/r50/C685_VISION_V96_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V96",
+      "path": "docs/r50/C684_VISION_V96_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V96_heldout",
+      "path": "docs/r50/C685_VISION_V96_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V95",
+      "path": "docs/r50/C678_VISION_V95_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V95_heldout",
+      "path": "docs/r50/C679_VISION_V95_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V95",
+      "path": "docs/r50/C678_VISION_V95_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V95_heldout",
+      "path": "docs/r50/C679_VISION_V95_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V94",
+      "path": "docs/r50/C672_VISION_V94_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V94_heldout",
+      "path": "docs/r50/C673_VISION_V94_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V94",
+      "path": "docs/r50/C672_VISION_V94_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V94_heldout",
+      "path": "docs/r50/C673_VISION_V94_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V93",
+      "path": "docs/r50/C666_VISION_V93_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V93_heldout",
+      "path": "docs/r50/C667_VISION_V93_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V93",
+      "path": "docs/r50/C666_VISION_V93_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V93_heldout",
+      "path": "docs/r50/C667_VISION_V93_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V92",
+      "path": "docs/r50/C660_VISION_V92_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V92_heldout",
+      "path": "docs/r50/C661_VISION_V92_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V92",
+      "path": "docs/r50/C660_VISION_V92_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V92_heldout",
+      "path": "docs/r50/C661_VISION_V92_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V91",
+      "path": "docs/r50/C654_VISION_V91_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V91_heldout",
+      "path": "docs/r50/C655_VISION_V91_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V91",
+      "path": "docs/r50/C654_VISION_V91_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V91_heldout",
+      "path": "docs/r50/C655_VISION_V91_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V90",
+      "path": "docs/r50/C648_VISION_V90_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V90_heldout",
+      "path": "docs/r50/C649_VISION_V90_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V90",
+      "path": "docs/r50/C648_VISION_V90_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V90_heldout",
+      "path": "docs/r50/C649_VISION_V90_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V89",
+      "path": "docs/r50/C642_VISION_V89_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V89_heldout",
+      "path": "docs/r50/C643_VISION_V89_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V89",
+      "path": "docs/r50/C642_VISION_V89_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V89_heldout",
+      "path": "docs/r50/C643_VISION_V89_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V88",
+      "path": "docs/r50/C636_VISION_V88_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V88_heldout",
+      "path": "docs/r50/C637_VISION_V88_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V88",
+      "path": "docs/r50/C636_VISION_V88_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V88_heldout",
+      "path": "docs/r50/C637_VISION_V88_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V87",
+      "path": "docs/r50/C630_VISION_V87_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V87_heldout",
+      "path": "docs/r50/C631_VISION_V87_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V87",
+      "path": "docs/r50/C630_VISION_V87_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V87_heldout",
+      "path": "docs/r50/C631_VISION_V87_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V86",
+      "path": "docs/r50/C624_VISION_V86_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V86_heldout",
+      "path": "docs/r50/C625_VISION_V86_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V86",
+      "path": "docs/r50/C624_VISION_V86_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V86_heldout",
+      "path": "docs/r50/C625_VISION_V86_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V85",
+      "path": "docs/r50/C618_VISION_V85_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V85_heldout",
+      "path": "docs/r50/C619_VISION_V85_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V85",
+      "path": "docs/r50/C618_VISION_V85_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V85_heldout",
+      "path": "docs/r50/C619_VISION_V85_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V84",
+      "path": "docs/r50/C612_VISION_V84_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V84_heldout",
+      "path": "docs/r50/C613_VISION_V84_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V84",
+      "path": "docs/r50/C612_VISION_V84_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V84_heldout",
+      "path": "docs/r50/C613_VISION_V84_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V83",
+      "path": "docs/r50/C606_VISION_V83_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V83_heldout",
+      "path": "docs/r50/C607_VISION_V83_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V83",
+      "path": "docs/r50/C606_VISION_V83_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V83_heldout",
+      "path": "docs/r50/C607_VISION_V83_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V82",
+      "path": "docs/r50/C600_VISION_V82_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V82_heldout",
+      "path": "docs/r50/C601_VISION_V82_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V82",
+      "path": "docs/r50/C600_VISION_V82_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V82_heldout",
+      "path": "docs/r50/C601_VISION_V82_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V81",
+      "path": "docs/r50/C594_VISION_V81_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V81_heldout",
+      "path": "docs/r50/C595_VISION_V81_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V81",
+      "path": "docs/r50/C594_VISION_V81_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V81_heldout",
+      "path": "docs/r50/C595_VISION_V81_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V80",
+      "path": "docs/r50/C588_VISION_V80_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V80_heldout",
+      "path": "docs/r50/C589_VISION_V80_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V80",
+      "path": "docs/r50/C588_VISION_V80_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V80_heldout",
+      "path": "docs/r50/C589_VISION_V80_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V79",
+      "path": "docs/r50/C582_VISION_V79_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V79_heldout",
+      "path": "docs/r50/C583_VISION_V79_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V79",
+      "path": "docs/r50/C582_VISION_V79_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V79_heldout",
+      "path": "docs/r50/C583_VISION_V79_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V78",
+      "path": "docs/r50/C576_VISION_V78_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V78_heldout",
+      "path": "docs/r50/C577_VISION_V78_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V78",
+      "path": "docs/r50/C576_VISION_V78_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V78_heldout",
+      "path": "docs/r50/C577_VISION_V78_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V77",
+      "path": "docs/r50/C570_VISION_V77_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V77_heldout",
+      "path": "docs/r50/C571_VISION_V77_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V77",
+      "path": "docs/r50/C570_VISION_V77_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V77_heldout",
+      "path": "docs/r50/C571_VISION_V77_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V76",
+      "path": "docs/r50/C564_VISION_V76_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V76_heldout",
+      "path": "docs/r50/C565_VISION_V76_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V76",
+      "path": "docs/r50/C564_VISION_V76_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V76_heldout",
+      "path": "docs/r50/C565_VISION_V76_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V75",
+      "path": "docs/r50/C558_VISION_V75_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V75_heldout",
+      "path": "docs/r50/C559_VISION_V75_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V75",
+      "path": "docs/r50/C558_VISION_V75_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V75_heldout",
+      "path": "docs/r50/C559_VISION_V75_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V74",
+      "path": "docs/r50/C552_VISION_V74_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V74_heldout",
+      "path": "docs/r50/C553_VISION_V74_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V74",
+      "path": "docs/r50/C552_VISION_V74_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V74_heldout",
+      "path": "docs/r50/C553_VISION_V74_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V73",
+      "path": "docs/r50/C546_VISION_V73_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V73_heldout",
+      "path": "docs/r50/C547_VISION_V73_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V73",
+      "path": "docs/r50/C546_VISION_V73_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V73_heldout",
+      "path": "docs/r50/C547_VISION_V73_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V72",
+      "path": "docs/r50/C540_VISION_V72_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V72_heldout",
+      "path": "docs/r50/C541_VISION_V72_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V72",
+      "path": "docs/r50/C540_VISION_V72_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V72_heldout",
+      "path": "docs/r50/C541_VISION_V72_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V71",
+      "path": "docs/r50/C534_VISION_V71_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V71_heldout",
+      "path": "docs/r50/C535_VISION_V71_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V71",
+      "path": "docs/r50/C534_VISION_V71_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V71_heldout",
+      "path": "docs/r50/C535_VISION_V71_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V70",
+      "path": "docs/r50/C528_VISION_V70_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V70_heldout",
+      "path": "docs/r50/C529_VISION_V70_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V70",
+      "path": "docs/r50/C528_VISION_V70_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V70_heldout",
+      "path": "docs/r50/C529_VISION_V70_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V69",
+      "path": "docs/r50/C522_VISION_V69_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V69_heldout",
+      "path": "docs/r50/C523_VISION_V69_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V69",
+      "path": "docs/r50/C522_VISION_V69_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V69_heldout",
+      "path": "docs/r50/C523_VISION_V69_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V68",
+      "path": "docs/r50/C516_VISION_V68_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V68_heldout",
+      "path": "docs/r50/C517_VISION_V68_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V68",
+      "path": "docs/r50/C516_VISION_V68_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V68_heldout",
+      "path": "docs/r50/C517_VISION_V68_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V67",
+      "path": "docs/r50/C510_VISION_V67_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V67_heldout",
+      "path": "docs/r50/C511_VISION_V67_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V67",
+      "path": "docs/r50/C510_VISION_V67_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V67_heldout",
+      "path": "docs/r50/C511_VISION_V67_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V66",
+      "path": "docs/r50/C504_VISION_V66_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V66_heldout",
+      "path": "docs/r50/C505_VISION_V66_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V66",
+      "path": "docs/r50/C504_VISION_V66_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V66_heldout",
+      "path": "docs/r50/C505_VISION_V66_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V65",
+      "path": "docs/r50/C498_VISION_V65_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V65_heldout",
+      "path": "docs/r50/C499_VISION_V65_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V65",
+      "path": "docs/r50/C498_VISION_V65_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V65_heldout",
+      "path": "docs/r50/C499_VISION_V65_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V64",
+      "path": "docs/r50/C492_VISION_V64_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V64_heldout",
+      "path": "docs/r50/C493_VISION_V64_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V64",
+      "path": "docs/r50/C492_VISION_V64_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V64_heldout",
+      "path": "docs/r50/C493_VISION_V64_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V63",
+      "path": "docs/r50/C486_VISION_V63_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V63_heldout",
+      "path": "docs/r50/C487_VISION_V63_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V63",
+      "path": "docs/r50/C486_VISION_V63_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V63_heldout",
+      "path": "docs/r50/C487_VISION_V63_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V62",
+      "path": "docs/r50/C480_VISION_V62_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V62_heldout",
+      "path": "docs/r50/C481_VISION_V62_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V62",
+      "path": "docs/r50/C480_VISION_V62_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V62_heldout",
+      "path": "docs/r50/C481_VISION_V62_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V61",
+      "path": "docs/r50/C474_VISION_V61_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V61_heldout",
+      "path": "docs/r50/C475_VISION_V61_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V61",
+      "path": "docs/r50/C474_VISION_V61_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V61_heldout",
+      "path": "docs/r50/C475_VISION_V61_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V60",
+      "path": "docs/r50/C468_VISION_V60_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V60_heldout",
+      "path": "docs/r50/C469_VISION_V60_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V60",
+      "path": "docs/r50/C468_VISION_V60_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V60_heldout",
+      "path": "docs/r50/C469_VISION_V60_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V59",
+      "path": "docs/r50/C462_VISION_V59_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V59_heldout",
+      "path": "docs/r50/C463_VISION_V59_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V59",
+      "path": "docs/r50/C462_VISION_V59_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V59_heldout",
+      "path": "docs/r50/C463_VISION_V59_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V58",
+      "path": "docs/r50/C456_VISION_V58_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V58_heldout",
+      "path": "docs/r50/C457_VISION_V58_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V58",
+      "path": "docs/r50/C456_VISION_V58_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V58_heldout",
+      "path": "docs/r50/C457_VISION_V58_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V57",
+      "path": "docs/r50/C450_VISION_V57_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V57_heldout",
+      "path": "docs/r50/C451_VISION_V57_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V57",
+      "path": "docs/r50/C450_VISION_V57_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V57_heldout",
+      "path": "docs/r50/C451_VISION_V57_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V56",
+      "path": "docs/r50/C444_VISION_V56_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V56_heldout",
+      "path": "docs/r50/C445_VISION_V56_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V56",
+      "path": "docs/r50/C444_VISION_V56_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V56_heldout",
+      "path": "docs/r50/C445_VISION_V56_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V55",
+      "path": "docs/r50/C438_VISION_V55_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V55_heldout",
+      "path": "docs/r50/C439_VISION_V55_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V55",
+      "path": "docs/r50/C438_VISION_V55_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V55_heldout",
+      "path": "docs/r50/C439_VISION_V55_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V54",
+      "path": "docs/r50/C432_VISION_V54_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V54_heldout",
+      "path": "docs/r50/C433_VISION_V54_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V53",
+      "path": "docs/r50/C426_VISION_V53_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V53_heldout",
+      "path": "docs/r50/C427_VISION_V53_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V52",
+      "path": "docs/r50/C420_VISION_V52_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V52_heldout",
+      "path": "docs/r50/C421_VISION_V52_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V51",
+      "path": "docs/r50/C414_VISION_V51_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V51_heldout",
+      "path": "docs/r50/C415_VISION_V51_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V50",
+      "path": "docs/r50/C408_VISION_V50_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V50_heldout",
+      "path": "docs/r50/C409_VISION_V50_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": null,
+      "name": "V4",
+      "path": "docs/r50/C101_VISION_V4_MULTIHOP.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": null,
+      "name": "V4_heldout",
+      "path": "docs/r50/C107_VISION_V4_HELDOUT.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": null,
+      "name": "V5",
+      "path": "docs/r50/C121_VISION_V5_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": null,
+      "name": "V5_heldout",
+      "path": "docs/r50/C126_VISION_V5_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": null,
+      "name": "V6",
+      "path": "docs/r50/C132_VISION_V6_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": null,
+      "name": "V6_heldout",
+      "path": "docs/r50/C138_VISION_V6_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 0.75,
+      "claim": true,
+      "fail_ids": null,
+      "name": "V7",
+      "path": "docs/r50/C144_VISION_V7_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V7_heldout",
+      "path": "docs/r50/C150_VISION_V7_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 0.7222,
+      "claim": true,
+      "fail_ids": [
+        "v8_03",
+        "v8_11",
+        "v8_15",
+        "v8_16",
+        "v8_17"
+      ],
+      "name": "V8",
+      "path": "docs/r50/C155_VISION_V8_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V8_heldout_refresh",
+      "path": "docs/r50/C162_V8H02_UNGLUE_REPARSE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V9",
+      "path": "docs/r50/C163_VISION_V9_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V9_heldout",
+      "path": "docs/r50/C164_VISION_V9_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V10",
+      "path": "docs/r50/C167_VISION_V10_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V10_heldout",
+      "path": "docs/r50/C171_VISION_V10_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V11",
+      "path": "docs/r50/C173_VISION_V11_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V11_heldout",
+      "path": "docs/r50/C175_VISION_V11_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V12",
+      "path": "docs/r50/C180_V12_FAIL_FIX_RETEST.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V12_heldout",
+      "path": "docs/r50/C181_VISION_V12_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V13",
+      "path": "docs/r50/C183_VISION_V13_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V13_heldout",
+      "path": "docs/r50/C186_VISION_V13_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V14",
+      "path": "docs/r50/C188_VISION_V14_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V14_heldout",
+      "path": "docs/r50/C191_VISION_V14_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V15",
+      "path": "docs/r50/C193_VISION_V15_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V15_heldout",
+      "path": "docs/r50/C196_VISION_V15_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V16",
+      "path": "docs/r50/C198_VISION_V16_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V16_heldout",
+      "path": "docs/r50/C201_VISION_V16_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V17",
+      "path": "docs/r50/C203_VISION_V17_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V17_heldout",
+      "path": "docs/r50/C207_VISION_V17_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 0.6667,
+      "claim": true,
+      "fail_ids": [
+        "v18_02",
+        "v18_06",
+        "v18_08",
+        "v18_09",
+        "v18_16",
+        "v18_17"
+      ],
+      "name": "V18",
+      "path": "docs/r50/C209_VISION_V18_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V18_refresh",
+      "path": "docs/r50/C213_V18_FAIL_FIX_RETEST.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V18_heldout",
+      "path": "docs/r50/C214_VISION_V18_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": false,
+      "rate": 0.0556,
+      "claim": false,
+      "fail_ids": [
+        "v19_01",
+        "v19_02",
+        "v19_04",
+        "v19_05",
+        "v19_06",
+        "v19_07",
+        "v19_08",
+        "v19_09",
+        "v19_10",
+        "v19_11",
+        "v19_12",
+        "v19_13",
+        "v19_14",
+        "v19_15",
+        "v19_16",
+        "v19_17",
+        "v19_18"
+      ],
+      "name": "V19_prior",
+      "path": "docs/r50/C218_VISION_V19_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V19_refresh",
+      "path": "docs/r50/C219_V19_FAIL_FIX_RETEST.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V19_heldout",
+      "path": "docs/r50/C220_VISION_V19_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V20",
+      "path": "docs/r50/C225_VISION_V20_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V20_heldout",
+      "path": "docs/r50/C226_VISION_V20_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 0.9444,
+      "claim": true,
+      "fail_ids": [
+        "v21_13"
+      ],
+      "name": "V21",
+      "path": "docs/r50/C231_VISION_V21_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V21_refresh",
+      "path": "docs/r50/C236_V21_FAIL_FIX_RETEST.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V21_heldout",
+      "path": "docs/r50/C232_VISION_V21_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V22",
+      "path": "docs/r50/C238_VISION_V22_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V22_heldout",
+      "path": "docs/r50/C239_VISION_V22_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V23",
+      "path": "docs/r50/C243_VISION_V23_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V23_heldout",
+      "path": "docs/r50/C244_VISION_V23_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V24",
+      "path": "docs/r50/C249_VISION_V24_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V24_heldout",
+      "path": "docs/r50/C250_VISION_V24_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": null,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C251_product_polish",
+      "path": "docs/r50/C251_PRODUCT_POLISH_V24.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C210_conf_gate",
+      "path": "docs/r50/C210_CONFIDENCE_GATE_CAPTURE_WIRE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C227_multi_metric_deepen",
+      "path": "docs/r50/C227_MULTI_METRIC_CAPTURE_DEEPEN.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C233_clarity_floor",
+      "path": "docs/r50/C233_CLARITY_FLOOR_PRODUCT.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": null,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C245_cost_ledger",
+      "path": "docs/r50/C245_COST_LEDGER_REFRESH.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V25",
+      "path": "docs/r50/C255_VISION_V25_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V25_heldout",
+      "path": "docs/r50/C256_VISION_V25_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": null,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C257_innovation",
+      "path": "docs/r50/C257_INNOVATION_U2C_CAPTURE_REPLACE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V26",
+      "path": "docs/r50/C261_VISION_V26_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V26_heldout",
+      "path": "docs/r50/C262_VISION_V26_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": null,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C263_dissolve_cost_shadow",
+      "path": "docs/r50/C263_DISSOLVE_COST_SHADOW.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V27",
+      "path": "docs/r50/C267_VISION_V27_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V27_heldout",
+      "path": "docs/r50/C268_VISION_V27_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V48",
+      "path": "docs/r50/C396_VISION_V48_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V48_heldout",
+      "path": "docs/r50/C397_VISION_V48_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V49",
+      "path": "docs/r50/C402_VISION_V49_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V49_heldout",
+      "path": "docs/r50/C403_VISION_V49_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C404_conf_gate",
+      "path": "docs/r50/C404_CONFIDENCE_GATE_STRETCH.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V28",
+      "path": "docs/r50/C273_VISION_V28_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V28_heldout",
+      "path": "docs/r50/C274_VISION_V28_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V29",
+      "path": "docs/r50/C279_VISION_V29_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V29_heldout",
+      "path": "docs/r50/C280_VISION_V29_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V30",
+      "path": "docs/r50/C285_VISION_V30_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V30_heldout",
+      "path": "docs/r50/C286_VISION_V30_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V31",
+      "path": "docs/r50/C291_VISION_V31_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V31_heldout",
+      "path": "docs/r50/C292_VISION_V31_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V32",
+      "path": "docs/r50/C297_VISION_V32_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V32_heldout",
+      "path": "docs/r50/C298_VISION_V32_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V33",
+      "path": "docs/r50/C303_VISION_V33_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V33_heldout",
+      "path": "docs/r50/C304_VISION_V33_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V34",
+      "path": "docs/r50/C309_VISION_V34_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V34_heldout",
+      "path": "docs/r50/C310_VISION_V34_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V35",
+      "path": "docs/r50/C315_VISION_V35_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V35_heldout",
+      "path": "docs/r50/C316_VISION_V35_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 0.8889,
+      "claim": true,
+      "fail_ids": [
+        "v36_07",
+        "v36_15"
+      ],
+      "name": "V36",
+      "path": "docs/r50/C321_VISION_V36_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V36_heldout",
+      "path": "docs/r50/C322_VISION_V36_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V37",
+      "path": "docs/r50/C327_VISION_V37_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V37_heldout",
+      "path": "docs/r50/C328_VISION_V37_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V38",
+      "path": "docs/r50/C333_VISION_V38_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V38_heldout",
+      "path": "docs/r50/C334_VISION_V38_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V39",
+      "path": "docs/r50/C340_VISION_V39_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V39_heldout",
+      "path": "docs/r50/C341_VISION_V39_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V40",
+      "path": "docs/r50/C347_VISION_V40_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V40_heldout",
+      "path": "docs/r50/C348_VISION_V40_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V41",
+      "path": "docs/r50/C353_VISION_V41_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V41_heldout",
+      "path": "docs/r50/C354_VISION_V41_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V42",
+      "path": "docs/r50/C360_VISION_V42_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V42_heldout",
+      "path": "docs/r50/C361_VISION_V42_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V43",
+      "path": "docs/r50/C366_VISION_V43_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V43_heldout",
+      "path": "docs/r50/C367_VISION_V43_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V44",
+      "path": "docs/r50/C372_VISION_V44_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V44_heldout",
+      "path": "docs/r50/C373_VISION_V44_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V45",
+      "path": "docs/r50/C378_VISION_V45_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V45_heldout",
+      "path": "docs/r50/C379_VISION_V45_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V46",
+      "path": "docs/r50/C384_VISION_V46_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V46_heldout",
+      "path": "docs/r50/C385_VISION_V46_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V47",
+      "path": "docs/r50/C390_VISION_V47_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V47_heldout",
+      "path": "docs/r50/C391_VISION_V47_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V48",
+      "path": "docs/r50/C396_VISION_V48_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": [],
+      "name": "V48_heldout",
+      "path": "docs/r50/C397_VISION_V48_HELDOUT_SMOKE.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C392_confidence_gate_stretch",
+      "path": "docs/r50/C392_CONFIDENCE_GATE_STRETCH.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C342_confidence_gate_stretch",
+      "path": "docs/r50/C342_CONFIDENCE_GATE_STRETCH.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": null,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C275_u2c_replace_stretch",
+      "path": "docs/r50/C275_U2C_REPLACE_STRETCH.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": null,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C281_product_u2c_cost",
+      "path": "docs/r50/C281_PRODUCT_U2C_COST.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C287_confidence_gate_stretch",
+      "path": "docs/r50/C287_CONFIDENCE_GATE_STRETCH.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": null,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C293_dissolve_cost_shadow",
+      "path": "docs/r50/C293_DISSOLVE_COST_SHADOW.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": null,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C299_product_u2c_cost",
+      "path": "docs/r50/C299_PRODUCT_U2C_COST.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C305_confidence_gate_stretch",
+      "path": "docs/r50/C305_CONFIDENCE_GATE_STRETCH.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": null,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C311_dissolve_cost_shadow",
+      "path": "docs/r50/C311_DISSOLVE_COST_SHADOW.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": null,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C317_product_u2c_cost",
+      "path": "docs/r50/C317_PRODUCT_U2C_COST.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": null,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C323_dissolve_cost_shadow",
+      "path": "docs/r50/C323_DISSOLVE_COST_SHADOW.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": 1.0,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C329_confidence_gate_stretch",
+      "path": "docs/r50/C329_CONFIDENCE_GATE_STRETCH.json"
+    },
+    {
+      "present": true,
+      "pass": true,
+      "rate": null,
+      "claim": true,
+      "fail_ids": null,
+      "name": "C335_product_u2c_cost",
+      "path": "docs/r50/C335_PRODUCT_U2C_COST.json"
+    }
+  ],
+  "required": [
+    "V25",
+    "V25_heldout",
+    "V26",
+    "V26_heldout",
+    "V27",
+    "V27_heldout",
+    "V28",
+    "V28_heldout",
+    "V29",
+    "V29_heldout",
+    "V30",
+    "V30_heldout",
+    "V31",
+    "V31_heldout",
+    "V32",
+    "V32_heldout",
+    "V33",
+    "V33_heldout",
+    "V34",
+    "V34_heldout",
+    "V35",
+    "V35_heldout",
+    "V36",
+    "V36_heldout",
+    "V37",
+    "V37_heldout",
+    "V38",
+    "V38_heldout",
+    "V39",
+    "V39_heldout",
+    "C233_clarity_floor",
+    "C342_confidence_gate_stretch",
+    "V40",
+    "V40_heldout",
+    "V141",
+    "V141_heldout"
+  ],
+  "required_ok": true,
+  "money_unit": {
+    "n": 4,
+    "n_ok": 4,
+    "rate": 1.0,
+    "rows": [
+      {
+        "text": "a paid 10.00 b paid 20.50 c open 5.00",
+        "got": 30.5,
+        "expected": 30.5,
+        "ok": true,
+        "parse_metric_ok": true
+      },
+      {
+        "text": "TOTAL PAID TARGET 56.25 rA paid 28.00 rB paid 28.25",
+        "got": 56.25,
+        "expected": 56.25,
+        "ok": true,
+        "parse_metric_ok": true
+      },
+      {
+        "text": "line paid 28.00 line paid 28.00 line paid 28.00 bait 88.88",
+        "got": 84.0,
+        "expected": 84.0,
+        "ok": true,
+        "parse_metric_ok": true
+      },
+      {
+        "text": "a paid 46.00 b paid 47.50 c open 12.00 TOTAL PAID TARGET 93.",
+        "got": 93.5,
+        "expected": 93.5,
+        "ok": true,
+        "parse_metric_ok": true
+      }
+    ],
+    "pass": true
+  },
+  "readme_ok": true,
+  "floor_doc_ok": true,
+  "cli_help_ok": true,
+  "pass": true,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD"
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "vision_gate_v2_claim",
+  "timestamp": "2026-10-18T22:56:08+08:00",
+  "vl_gate_v2_claim": true,
+  "rate": 1.0,
+  "n": 8,
+  "n_ok": 8,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v2_harder_readable_office_drawn_n>=8_softmatch_qwen35_2b",
+  "gate2_3_untouched": true,
+  "v1_untouched": true
+}

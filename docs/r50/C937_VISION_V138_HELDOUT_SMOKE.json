@@ -1,0 +1,237 @@
+{
+  "cycle": "C937",
+  "theme": "vision_v138_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T11:35:59+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7319.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v138h_01",
+      "kind": "ashcrest_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1396.75,
+      "expected": 1396.75,
+      "ocr_preview": "ashcrest ASHCREST GRAIN RECV V138H a paid 692.00 b paid 704.75 c open 585.00 TOTAL PAID TARGET 1396.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID REC COPY V138H CBST cavity floor preg_q02 photo2 metadata SCAN DESK V43H BAST 222.00 PAGE 01"
+    },
+    {
+      "id": "v138h_02",
+      "kind": "cedarcrest_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1400.0,
+      "expected": 1400.0,
+      "ocr_preview": "cedarcrest WH CEDARCREST BIN V138H SKU1 qty 680 ok SKU2 qty 580 hold SKU3 qty 720 ok qty_sum TARGET 1400 VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v138h_03",
+      "kind": "dawncrest_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1313.5,
+      "expected": 1313.5,
+      "ocr_preview": "dawncrest DAWNCREST PATCH REFUND V138H itemR1 650.00 done itemR2 663.50 done itemR3 573.00 open refund_done TARGET 1313.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE DONE VOID COPY bait 55.00 bait 55.00"
+    },
+    {
+      "id": "v138h_04",
+      "kind": "elmcrest_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1546.0,
+      "expected": 1546.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 elmcrest ELMCREST TAX SLIP V138H base 765.00 paid addon 781.00 paid skip 614.00 tax_base_paid TARGET 1546.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v138h_05",
+      "kind": "ferncrest_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1628.0,
+      "expected": 1628.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 ferncrest FERNCREST PAYROLL V138H empA 806.00 active empB 822.00 active empC 609.00 leave payroll_active TARGET 1628.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v138h_06",
+      "kind": "glencrest_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1214.0,
+      "expected": 1214.0,
+      "ocr_preview": "glencrest GLENCREST SHIP DOCK V138H box1 600 ok box2 614 ok box3 578 hold ship_ok TARGET 1214 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 V138H CBST cavity floor preg_qf2 photo2 metadata"
+    },
+    {
+      "id": "v138h_07",
+      "kind": "hazecrest_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 700.0,
+      "expected": 700.0,
+      "ocr_preview": "hazecrest HAZECREST SLA CARD V138H job1 330.00 hours ok job2 370.00 hours ok job3 270.00 hours late sla_ok_hours TARGET 700.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v138h_08",
+      "kind": "inkcrest_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1373.75,
+      "expected": 1373.75,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 inkcrest @#KCREST EXPENSE V138H e1 676.00 e2 697.75 e3 585.00 void exp_sum TARGET 1373.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE EXP VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88."
+    },
+    {
+      "id": "v138h_09",
+      "kind": "jadecrest_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1310.0,
+      "expected": 1310.0,
+      "ocr_preview": "jadecrest JADECREST PO SHEET V138H line1 720.00 open line2 590.00 open line3 582.00 closed po_open TARGET 1310.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE PO VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 V138H CBST cavity floor preg_qf2 photo2 helixout"
+    },
+    {
+      "id": "v138h_10",
+      "kind": "knotcrest_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1432.0,
+      "expected": 1432.0,
+      "ocr_preview": "knotcrest KNOTCREST ORDER V138H skuA 723.00 paid skuB 709.00 paid skuC 580.00 due order_paid TARGET 1432.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.0"
+    },
+    {
+      "id": "v138h_11",
+      "kind": "lakecrest_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "lakecrest LAKECREST DUP MARK V138H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v138h_12",
+      "kind": "mosscrest_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "mosscrest MOSSCREST AIR ZERO V138H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v138h_13",
+      "kind": "nethercrest_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1531.5,
+      "expected": 1531.5,
+      "ocr_preview": "nethercrest NETHERCREST LEDGER V138H dr 758.00 cr 773.50 adj 595.00 ledger_net TARGET 1531.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY V138H CBST cavity floor prog_012 photo2 netout"
+    },
+    {
+      "id": "v138h_14",
+      "kind": "oakcrest_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "oakcrest OAKCREST UI SCAN V138H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88"
+    },
+    {
+      "id": "v138h_15",
+      "kind": "pinecrest_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 889.0,
+      "expected": 889.0,
+      "ocr_preview": "pinecrest PINECREST STACK V138H p1 446 p2 443 p3 438 stack_count TARGET 889 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY V138H CBST cavity floor prog_0f2 phone2 network"
+    },
+    {
+      "id": "v138h_16",
+      "kind": "quillcrest_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 918.0,
+      "expected": 918.0,
+      "ocr_preview": "quillcrest. QUILLCREST FAX V138H pgA 462 pgB 456 pgC 444 drop fax_pages TARGET 918 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v138h_17",
+      "kind": "reedcrest_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "reedcrest REEDCREST GLARE V138H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR VOID COPY SCAN DESK V43H PART 222.00 PAGE 01 V138H CBT cavity floor preg_gl2 photo2 metadata"
+    },
+    {
+      "id": "v138h_18",
+      "kind": "stonecrest_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 938.0,
+      "expected": 938.0,
+      "ocr_preview": "stonecrest STONECREST TAB INDEX V138H tabA 472 tabB 466 tabC 445 tab_index TARGET 938 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE tab 55.00 VOID COPY tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v138_heldout_claim": true,
+  "claim_scope": "r50plus_v138_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

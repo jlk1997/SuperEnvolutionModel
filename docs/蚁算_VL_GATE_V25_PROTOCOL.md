@@ -1,0 +1,24 @@
+# Ant VL Gate V25 Protocol
+
+Updated: 2026-10-19T09:41:43+08:00 (Asia/Shanghai)
+
+## Purpose
+Harder than V24: fingerprint smudge, rain streak, staple shadow, QR bait,
+receipt curl, fluorescent flare, desk clutter, ink bleed stamp, torn margin,
+zigzag crease, tape+coffee combo, barcode edge, mild moire, water ring stack.
+Clarity floor from C218/V20-V24 (no jpeg crush).
+
+## Clarity floor (mandatory)
+- jpeg quality >= **58** (V25 uses 60)
+- photocopy downsample max **/2**
+- Gaussian blur radius <= **0.5**
+- Protect text band y=70..250
+- TARGET / amount lines high-contrast bold
+
+## Gate
+- rate >= **0.6**, n >= 16, real VL (C255)
+- Claim only after smoke
+
+## Honesty
+- V24 train/heldout retained
+- Gate2/3 untouched. gen11 HOLD. No fake VL scores in C254.

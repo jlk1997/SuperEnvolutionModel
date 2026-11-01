@@ -1,0 +1,10 @@
+{
+  "auto_ledger_present": true,
+  "rules": [
+    "log promote/demote",
+    "never write outside allowlist",
+    "weekly rollback for auto"
+  ],
+  "timestamp": "2026-10-18T22:31:06+08:00",
+  "innovation": "Auto-ledger binds promotion to audit"
+}

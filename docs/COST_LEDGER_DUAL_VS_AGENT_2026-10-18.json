@@ -1,0 +1,325 @@
+{
+  "kind": "dual_vs_agent_cost_ledger",
+  "product": "蚁算模型",
+  "version": "0.2.5",
+  "gate": "0.6",
+  "timestamp": "2026-10-18T22:41:15+08:00",
+  "method": "archival_summary_steps",
+  "gpu": false,
+  "vl": false,
+  "tokens_note": "Archival exam_items lack token counts; tokens_* are null stubs until model_turn_log aggregation.",
+  "summaries": [
+    "runs/office_gate2_full_slate_s0/20261017-201213/summary.json",
+    "runs/office_gate2_full_slate_s1/20261017-210105/summary.json",
+    "runs/office_gate2_mid_n_dual_s0/20261018-105958/summary.json",
+    "runs/office_gate2_mid_n_dual_s1/20261018-114219/summary.json"
+  ],
+  "missing": [],
+  "rows": [
+    {
+      "path": "runs/office_gate2_full_slate_s0/20261017-201213/summary.json",
+      "seed": 0,
+      "arms": {
+        "agent": {
+          "arm": "agent",
+          "n_exam": 4,
+          "ok": 1,
+          "fail": 3,
+          "fail_rate": 0.75,
+          "ok_rate": 0.25,
+          "steps_total": 24,
+          "steps_mean": 6.0,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        },
+        "oracle": {
+          "arm": "oracle",
+          "n_exam": 4,
+          "ok": 1,
+          "fail": 3,
+          "fail_rate": 0.75,
+          "ok_rate": 0.25,
+          "steps_total": 24,
+          "steps_mean": 6.0,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        },
+        "shift": {
+          "arm": "shift",
+          "n_exam": 4,
+          "ok": 0,
+          "fail": 4,
+          "fail_rate": 1.0,
+          "ok_rate": 0.0,
+          "steps_total": 26,
+          "steps_mean": 6.5,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        },
+        "continual": {
+          "arm": "continual",
+          "n_exam": 4,
+          "ok": 0,
+          "fail": 4,
+          "fail_rate": 1.0,
+          "ok_rate": 0.0,
+          "steps_total": 26,
+          "steps_mean": 6.5,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        },
+        "dual": {
+          "arm": "dual",
+          "n_exam": 4,
+          "ok": 3,
+          "fail": 1,
+          "fail_rate": 0.25,
+          "ok_rate": 0.75,
+          "steps_total": 34,
+          "steps_mean": 8.5,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        },
+        "dual_agent": {
+          "arm": "dual_agent",
+          "n_exam": 4,
+          "ok": 1,
+          "fail": 3,
+          "fail_rate": 0.75,
+          "ok_rate": 0.25,
+          "steps_total": 24,
+          "steps_mean": 6.0,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        },
+        "continual_sft": {
+          "arm": "continual_sft",
+          "n_exam": 4,
+          "ok": 0,
+          "fail": 4,
+          "fail_rate": 1.0,
+          "ok_rate": 0.0,
+          "steps_total": 26,
+          "steps_mean": 6.5,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        }
+      },
+      "dual_vs_agent": {
+        "dual_ok_rate": 0.75,
+        "agent_ok_rate": 0.25,
+        "dual_steps_mean": 8.5,
+        "agent_steps_mean": 6.0,
+        "dual_fail_rate": 0.25,
+        "agent_fail_rate": 0.75,
+        "step_advantage_agent_minus_dual": -2.5
+      }
+    },
+    {
+      "path": "runs/office_gate2_full_slate_s1/20261017-210105/summary.json",
+      "seed": 1,
+      "arms": {
+        "agent": {
+          "arm": "agent",
+          "n_exam": 4,
+          "ok": 0,
+          "fail": 4,
+          "fail_rate": 1.0,
+          "ok_rate": 0.0,
+          "steps_total": 21,
+          "steps_mean": 5.25,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        },
+        "oracle": {
+          "arm": "oracle",
+          "n_exam": 4,
+          "ok": 0,
+          "fail": 4,
+          "fail_rate": 1.0,
+          "ok_rate": 0.0,
+          "steps_total": 24,
+          "steps_mean": 6.0,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        },
+        "shift": {
+          "arm": "shift",
+          "n_exam": 4,
+          "ok": 0,
+          "fail": 4,
+          "fail_rate": 1.0,
+          "ok_rate": 0.0,
+          "steps_total": 25,
+          "steps_mean": 6.25,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        },
+        "continual": {
+          "arm": "continual",
+          "n_exam": 4,
+          "ok": 0,
+          "fail": 4,
+          "fail_rate": 1.0,
+          "ok_rate": 0.0,
+          "steps_total": 25,
+          "steps_mean": 6.25,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        },
+        "dual": {
+          "arm": "dual",
+          "n_exam": 4,
+          "ok": 2,
+          "fail": 2,
+          "fail_rate": 0.5,
+          "ok_rate": 0.5,
+          "steps_total": 34,
+          "steps_mean": 8.5,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        },
+        "dual_agent": {
+          "arm": "dual_agent",
+          "n_exam": 4,
+          "ok": 0,
+          "fail": 4,
+          "fail_rate": 1.0,
+          "ok_rate": 0.0,
+          "steps_total": 21,
+          "steps_mean": 5.25,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        },
+        "continual_sft": {
+          "arm": "continual_sft",
+          "n_exam": 4,
+          "ok": 0,
+          "fail": 4,
+          "fail_rate": 1.0,
+          "ok_rate": 0.0,
+          "steps_total": 25,
+          "steps_mean": 6.25,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        }
+      },
+      "dual_vs_agent": {
+        "dual_ok_rate": 0.5,
+        "agent_ok_rate": 0.0,
+        "dual_steps_mean": 8.5,
+        "agent_steps_mean": 5.25,
+        "dual_fail_rate": 0.5,
+        "agent_fail_rate": 1.0,
+        "step_advantage_agent_minus_dual": -3.25
+      }
+    },
+    {
+      "path": "runs/office_gate2_mid_n_dual_s0/20261018-105958/summary.json",
+      "seed": 0,
+      "arms": {
+        "dual": {
+          "arm": "dual",
+          "n_exam": 8,
+          "ok": 7,
+          "fail": 1,
+          "fail_rate": 0.125,
+          "ok_rate": 0.875,
+          "steps_total": 84,
+          "steps_mean": 10.5,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        },
+        "agent": {
+          "arm": "agent",
+          "n_exam": 8,
+          "ok": 2,
+          "fail": 6,
+          "fail_rate": 0.75,
+          "ok_rate": 0.25,
+          "steps_total": 45,
+          "steps_mean": 5.625,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        }
+      },
+      "dual_vs_agent": {
+        "dual_ok_rate": 0.875,
+        "agent_ok_rate": 0.25,
+        "dual_steps_mean": 10.5,
+        "agent_steps_mean": 5.625,
+        "dual_fail_rate": 0.125,
+        "agent_fail_rate": 0.75,
+        "step_advantage_agent_minus_dual": -4.875
+      }
+    },
+    {
+      "path": "runs/office_gate2_mid_n_dual_s1/20261018-114219/summary.json",
+      "seed": 1,
+      "arms": {
+        "dual": {
+          "arm": "dual",
+          "n_exam": 8,
+          "ok": 6,
+          "fail": 2,
+          "fail_rate": 0.25,
+          "ok_rate": 0.75,
+          "steps_total": 72,
+          "steps_mean": 9.0,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        },
+        "agent": {
+          "arm": "agent",
+          "n_exam": 8,
+          "ok": 0,
+          "fail": 8,
+          "fail_rate": 1.0,
+          "ok_rate": 0.0,
+          "steps_total": 45,
+          "steps_mean": 5.625,
+          "tokens_total": null,
+          "tokens_mean": null,
+          "tokens_available": false
+        }
+      },
+      "dual_vs_agent": {
+        "dual_ok_rate": 0.75,
+        "agent_ok_rate": 0.0,
+        "dual_steps_mean": 9.0,
+        "agent_steps_mean": 5.625,
+        "dual_fail_rate": 0.25,
+        "agent_fail_rate": 1.0,
+        "step_advantage_agent_minus_dual": -3.375
+      }
+    }
+  ],
+  "aggregate": {
+    "n_reports": 4,
+    "dual_steps_mean": 9.125,
+    "agent_steps_mean": 5.625,
+    "dual_fail_rate_mean": 0.28125,
+    "agent_fail_rate_mean": 0.875,
+    "step_delta_agent_minus_dual": -3.5
+  },
+  "gate2_claim_untouched": true,
+  "pass": true,
+  "notes": "Stub ledger for 蚁算 v0.2.5 product demo; not a new Gate claim."
+}

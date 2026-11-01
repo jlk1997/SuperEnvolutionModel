@@ -1,0 +1,237 @@
+{
+  "cycle": "C745",
+  "theme": "vision_v106_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T05:53:55+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7310.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v106h_01",
+      "kind": "cedarfall_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 822.75,
+      "expected": 822.75,
+      "ocr_preview": "cedarfall CEDARFALL GRAIN RECV V106H a paid 405.00 b paid 417.75 c open 298.00 TOTAL PAID TARGET 822.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 88.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID REC COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.0"
+    },
+    {
+      "id": "v106h_02",
+      "kind": "duskfall_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 760.0,
+      "expected": 760.0,
+      "ocr_preview": "duskfall WH DUSKFALL BIN V106H SKU1 qty 360 ok SKU2 qty 280 hold SKU3 qty 400 ok qty_sum TARGET 760 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00"
+    },
+    {
+      "id": "v106h_03",
+      "kind": "emberfall_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 739.5,
+      "expected": 739.5,
+      "ocr_preview": "emberfall EMBERFALL PATCH REFUND V106H itemR1 363.00 done itemR2 376.50 done itemR3 286.00 open refund_done TARGET 739.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID DONE COPY bait 55.00 bait 55.00"
+    },
+    {
+      "id": "v106h_04",
+      "kind": "frostfall_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 972.0,
+      "expected": 972.0,
+      "ocr_preview": "frostfall FROSTFALL TAX SLIP V106H base 478.00 paid addon 494.00 paid skip 327.00 tax_base_paid TARGET 972.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 98.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v106h_05",
+      "kind": "glenfall_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1054.0,
+      "expected": 1054.0,
+      "ocr_preview": "glenfall GLENFALL PAYROLL V106H empA 519.00 active empB 535.00 active empC 322.00 leave payroll_active TARGET 1054.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v106h_06",
+      "kind": "hazelfall_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 640.0,
+      "expected": 640.0,
+      "ocr_preview": "hazelfall HAZELFALL SHIP DOCK V106H box1 313 ok box2 327 ok box3 291 hold ship_ok TARGET 640 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY"
+    },
+    {
+      "id": "v106h_07",
+      "kind": "ironfall_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "ironfall IRONFALL SLA CARD V106H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 DRAFT DRAFT DRAFT DRAFT STICKY slat 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v106h_08",
+      "kind": "jadefall_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 799.75,
+      "expected": 799.75,
+      "ocr_preview": "jadefall JADEFALL EXPENSE V106H e1 389.00 e2 410.75 e3 298.00 void exp_sum TARGET 799.75 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v106h_09",
+      "kind": "knollfall_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 806.0,
+      "expected": 806.0,
+      "ocr_preview": "knolfall KNOLLFALL PO SHEET V106H line1 409.00 open line2 397.00 open line3 301.00 closed po_open TARGET 806.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT VOID PO COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v106h_10",
+      "kind": "lotusfall_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 858.0,
+      "expected": 858.0,
+      "ocr_preview": "lotusfall LOTUSFALL ORDER V106H skuA 436.00 paid skuB 422.00 paid skuC 293.00 due order_paid TARGET 858.00 VOID WIN IGNORE old total 888.00 do not parie bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v106h_11",
+      "kind": "meadowfall_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "meadowfall MEADOWFALL DUP MARK V106H markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT DRAFT DRAFT DRAFT VOID DUP COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v106h_12",
+      "kind": "northfall_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "northfall NORTHFALL AIR ZERO V106H 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 STICKY bait 00.00 IGNORE GRAFT DRAFT DRAFT DRAFT GRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v106h_13",
+      "kind": "opalfall_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 957.5,
+      "expected": 957.5,
+      "ocr_preview": "opalfall OPALFALL LEDGER V106H dr 471.00 cr 486.50 adj 308.00 ledger_net TARGET 957.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE LED bait 99.00 COPY bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99."
+    },
+    {
+      "id": "v106h_14",
+      "kind": "pearlfall_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "pearfall PEARLFALL UI SCAN V106H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY"
+    },
+    {
+      "id": "v106h_15",
+      "kind": "quartzfall_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 387.0,
+      "expected": 387.0,
+      "ocr_preview": "quartzfall QUARTZFALL STACK V106H p1 195 p2 192 p3 187 stack_count TARGET 387 OK bait 00.00 STICKY bait 00.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID STK COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v106h_16",
+      "kind": "ravenfall_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 416.0,
+      "expected": 416.0,
+      "ocr_preview": "ravenfall RAVENFALL FAX V106H pgA 211 pgB 205 pgC 193 drop fax_pages TARGET 416 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE FAX bait 88.00 COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88"
+    },
+    {
+      "id": "v106h_17",
+      "kind": "stonefall_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "stonefall STONEFALL GLARE V106H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY"
+    },
+    {
+      "id": "v106h_18",
+      "kind": "timberfall_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 436.0,
+      "expected": 436.0,
+      "ocr_preview": "timberfall TIMBERFALL TAB INDEX V106H tabA 221 tabB 215 tabC 194 tab_index TARGET 436 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE tab 88.00 VOID tab 88.00 COPY tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00 tab 88.00"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v106_heldout_claim": true,
+  "claim_scope": "r50plus_v106_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

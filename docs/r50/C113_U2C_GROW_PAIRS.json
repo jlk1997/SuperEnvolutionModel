@@ -1,0 +1,35 @@
+{
+  "cycle": "C113",
+  "theme": "u2c_grow_more_pairs_same_domain",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T02:16:07+08:00",
+  "gate2_3_untouched": true,
+  "n_pairs_total": 82,
+  "n_prior": 12,
+  "n_new": 70,
+  "pairs_path": "runs/u2c_grow_c113/sft_pairs.jsonl",
+  "heldout_idx": [
+    20,
+    21,
+    30,
+    31,
+    41,
+    51,
+    61,
+    71,
+    81
+  ],
+  "heldout_n": 9,
+  "metrics": [
+    "paid_total",
+    "refund_done",
+    "qty_sum",
+    "tax_base_paid",
+    "ship_ok_qty",
+    "payroll_active",
+    "open_pri_sum"
+  ],
+  "pass": true,
+  "claim": false,
+  "note": "Grown pairs for C114 absorb push. No training here. No Gate2/3."
+}

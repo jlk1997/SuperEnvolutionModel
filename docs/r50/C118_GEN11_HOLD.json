@@ -1,0 +1,20 @@
+{
+  "cycle": "C118",
+  "theme": "gen11_hold",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T02:38:31+08:00",
+  "gate2_3_untouched": true,
+  "decision": "HOLD",
+  "seal": false,
+  "open": false,
+  "reason": "fresh_score_threshold_not_met_or_policy_hold; user directive gen11 HOLD",
+  "fresh_required_hint": 0.99,
+  "prior": {
+    "cycle": "C111",
+    "decision": "HOLD",
+    "timestamp": "2026-10-19T02:07:11+08:00"
+  },
+  "pass": true,
+  "claim": false,
+  "note": "gen11 sealed package NOT opened. Gate2/3 untouched."
+}

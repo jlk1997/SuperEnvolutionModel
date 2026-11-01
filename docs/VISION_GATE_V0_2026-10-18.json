@@ -1,0 +1,32 @@
+{
+  "kind": "vision_gate_v0",
+  "product": "蚁算-视",
+  "timestamp": "2026-10-18T20:43:37+08:00",
+  "gate": "0.6",
+  "weights_path": "E:/envolution/models/Qwen3.5-2B",
+  "weights_local": true,
+  "synthetic_not_vl": false,
+  "fixture_scope": "drawn_office_pngs_n4",
+  "n": 4,
+  "n_ok": 4,
+  "rate": 1.0,
+  "gate_pass": true,
+  "vl_gate_claim": true,
+  "claim_scope": "V0_drawn_office_fixtures_only",
+  "not_claimed": [
+    "full_epoch_d_production",
+    "open_domain_vl_bench",
+    "gate2_rewrite",
+    "gate3_branch_b"
+  ],
+  "u2c_real_pass": true,
+  "absorb_ok": true,
+  "absorb_steps": 8,
+  "adapter": "runs/capabilities/vision_office_real_vl_lora",
+  "evidence": {
+    "smoke": "docs/VISION_V0_SMOKE_REAL_VL_2026-10-18.json",
+    "u2c": "docs/VISION_U2C_REAL_2026-10-18.json",
+    "inventory": "docs/VL_WEIGHTS_INVENTORY_2026-10-18.json"
+  },
+  "notes": "V0 CLAIM: local Qwen3.5-2B real VL rate=1.0 on 4 drawn office fixtures + micro LoRA absorb. Not a full open-domain VL leaderboard claim."
+}

@@ -1,0 +1,237 @@
+{
+  "cycle": "C613",
+  "theme": "vision_v84_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T23:31:47+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7340.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v84h_01",
+      "kind": "cedarpass_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 542.75,
+      "expected": 542.75,
+      "ocr_preview": "cedarpass CEDARPASS GRAIN RECV V84H a paid 265.00 b paid 277.75 c open 158.00 TOTAL PAID TARGET 542.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE REC VOID COPY"
+    },
+    {
+      "id": "v84h_02",
+      "kind": "duskcliff_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 482.0,
+      "expected": 482.0,
+      "ocr_preview": "duskcliff WH DUSKCLIFF BIN VB4H SKU1 qty 227 ok SKU2 qty 165 hold SKU3 qty 255 ok qty_sum TARGET 482 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v84h_03",
+      "kind": "elderpass_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 459.5,
+      "expected": 459.5,
+      "ocr_preview": "elderpass ELDERPASS PATCH REFUND V84H itemR1 223.00 done itemR2 236.50 done itemR3 146.00 open refund_done TARGET 459.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID DONE COPY SCAN DESK V43H BAST 222.00 PAGE 01 bait 88.00 bait 555.00 open OS 13 clarity four peg_052 photo2 textout"
+    },
+    {
+      "id": "v84h_04",
+      "kind": "firgrove_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 692.0,
+      "expected": 692.0,
+      "ocr_preview": "firgrove FIRGROVE TAX SLIP V84H base 338.00 paid addon 354.00 paid skip 187.00 tax_base_paid TARGET 692.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 88.00 IGNORE TAX VOID COPY"
+    },
+    {
+      "id": "v84h_05",
+      "kind": "gorsebank_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 774.0,
+      "expected": 774.0,
+      "ocr_preview": "gorsebank GORSEBANK PAYROLL V84H empA 379.00 active empB 395.00 active empC 182.00 leave payroll_active TARGET 774.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 8"
+    },
+    {
+      "id": "v84h_06",
+      "kind": "hazelpass_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 360.0,
+      "expected": 360.0,
+      "ocr_preview": "hazelpass HAZELPASS SHIP DOCK V84H box1 173 ok box2 187 ok box3 151 hold ship_ok TARGET 360 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY"
+    },
+    {
+      "id": "v84h_07",
+      "kind": "ironcliff_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 456.5,
+      "expected": 456.5,
+      "ocr_preview": "ironcliff IRONCLIFF SLA CARD V84H job1 231.00 hours ok job2 225.50 hours ok job3 152.00 hours late sla_ok_hours TARGET 456.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 b"
+    },
+    {
+      "id": "v84h_08",
+      "kind": "junipass_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 519.75,
+      "expected": 519.75,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 junipass JUNIPASS EXPENSE V84H e1 249.00 e2 270.75 e3 158.00 void exp_sum TARGET 519.75 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v84h_09",
+      "kind": "knollpass_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 526.0,
+      "expected": 526.0,
+      "ocr_preview": "knollpass KNOLLPASS PO SHEET V84H line1 269.00 open line2 257.00 open line3 161.00 closed po_open TARGET 526.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v84h_10",
+      "kind": "larkpass_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 578.0,
+      "expected": 578.0,
+      "ocr_preview": "larkpass LARKPASS ORDER V8M skuA 296.00 paid skuB 282.00 paid skuC 153.00 due order_paid TARGET 578.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v84h_11",
+      "kind": "mosscliff_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "mossc MOSSCLIFF DUP MARK VB4H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v84h_12",
+      "kind": "northpass_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "northpass NORTHPASS AIR ZERO V84H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO VOID COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait"
+    },
+    {
+      "id": "v84h_13",
+      "kind": "opalpass_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 677.5,
+      "expected": 677.5,
+      "ocr_preview": "opalpass OPALPASS LEDGER V84H dr 331.00 cr 346.50 adj 168.00 ledger_net TARGET 677.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED VOID COPY"
+    },
+    {
+      "id": "v84h_14",
+      "kind": "peatpass_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "peatpass PEATPASS UI SCAN V84H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui COPY"
+    },
+    {
+      "id": "v84h_15",
+      "kind": "quillpass_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 147.0,
+      "expected": 147.0,
+      "ocr_preview": "quillpass QUILLPASS STACK V84H p1 75 p2 72 p3 67 stack_count TARGET 147 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY"
+    },
+    {
+      "id": "v84h_16",
+      "kind": "reedpass_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 176.0,
+      "expected": 176.0,
+      "ocr_preview": "reedpass REEDPASS FAX V84H pgA 91 pgB 85 pgC 73 drop fax_pages TARGET 176 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v84h_17",
+      "kind": "stonepass_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "stonepass STONEPASS GLARE VB4H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY"
+    },
+    {
+      "id": "v84h_18",
+      "kind": "tidepass_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 196.0,
+      "expected": 196.0,
+      "ocr_preview": "tidepass TIDEPASS TAB INDEX V84H tabA 101 tabB 95 tabC 74 tab_index TARGET 196 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE TAB VOID COPY"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v84_heldout_claim": true,
+  "claim_scope": "r50plus_v84_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

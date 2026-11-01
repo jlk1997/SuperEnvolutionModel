@@ -1,0 +1,32 @@
+{
+  "R50_COMPLETE": true,
+  "timestamp": "2026-10-18T22:32:38+08:00",
+  "scorecard": {
+    "beat_agent": 0.88,
+    "dynamic": 0.97,
+    "multimodal": 0.8,
+    "compose": 1.0,
+    "replace_agent": 0.99,
+    "dissolve_ok": 1.0,
+    "composite": 0.9279999999999999
+  },
+  "baseline": {
+    "timestamp": "2026-10-18T22:30:14+08:00",
+    "dissolve_all_bare": true,
+    "dissolve_D": 0.0,
+    "compose_rate": 1.0,
+    "agent_replace_score": 0.0,
+    "dynamic_evolve_score": 0.0,
+    "multimodal_score": 0.3333333333333333,
+    "beat_agent_score": 0.625,
+    "vision_v0_rate": 1.0,
+    "vision_n": 4
+  },
+  "vision_v1": {
+    "status": "RAN",
+    "rate": 0.375,
+    "vl_gate_v1_claim": false,
+    "n": 8,
+    "claim_scope": null
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "cycle": "C140",
+  "theme": "confidence_gated_tool_use_model_vs_money_tool",
+  "gate": 0.6,
+  "timestamp": "2026-10-19T03:39:14+08:00",
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "module": "evo/office/money_tool.py",
+  "policy_path": "evo/office/product_money_policy.json",
+  "n": 6,
+  "n_ok": 6,
+  "rate": 1.0,
+  "rows": [
+    {
+      "id": "agree_simple",
+      "ok": true,
+      "result": {
+        "value": 30.0,
+        "source": "money_tool",
+        "confidence": "high",
+        "agree": true,
+        "tool_total": 30.0,
+        "model_guess": 30.0,
+        "reason": "model_tool_agree_prefer_tool",
+        "policy": "confidence_gated_money"
+      },
+      "expect_value": 30.0
+    },
+    {
+      "id": "disagree_model_wrong",
+      "ok": true,
+      "result": {
+        "value": 16.5,
+        "source": "money_tool",
+        "confidence": "low",
+        "agree": false,
+        "tool_total": 16.5,
+        "model_guess": 19.5,
+        "reason": "model_tool_disagree_use_tool",
+        "policy": "confidence_gated_money"
+      },
+      "expect_value": 16.5
+    },
+    {
+      "id": "no_model",
+      "ok": true,
+      "result": {
+        "value": 7.0,
+        "source": "money_tool",
+        "confidence": "low",
+        "agree": null,
+        "tool_total": 7.0,
+        "model_guess": null,
+        "reason": "no_model_guess",
+        "policy": "confidence_gated_money"
+      },
+      "expect_value": 7.0
+    },
+    {
+      "id": "open_only_zero",
+      "ok": true,
+      "result": {
+        "value": 0.0,
+        "source": "money_tool",
+        "confidence": "high",
+        "agree": true,
+        "tool_total": 0.0,
+        "model_guess": 0.0,
+        "reason": "model_tool_agree_prefer_tool",
+        "policy": "confidence_gated_money"
+      },
+      "expect_value": 0.0
+    },
+    {
+      "id": "noise_distract",
+      "ok": true,
+      "result": {
+        "value": 11.0,
+        "source": "money_tool",
+        "confidence": "low",
+        "agree": false,
+        "tool_total": 11.0,
+        "model_guess": 999.0,
+        "reason": "model_tool_disagree_use_tool",
+        "policy": "confidence_gated_money"
+      },
+      "expect_value": 11.0
+    },
+    {
+      "id": "auto_guess_agree",
+      "ok": true,
+      "result": {
+        "value": 11.0,
+        "source": "money_tool",
+        "confidence": "high",
+        "agree": true,
+        "tool_total": 11.0,
+        "model_guess": 11.0,
+        "reason": "model_tool_agree_prefer_tool",
+        "policy": "confidence_gated_money"
+      },
+      "expect_value": 11.0
+    }
+  ],
+  "integration_demo": {
+    "ok": true,
+    "gated": {
+      "value": 16.5,
+      "source": "money_tool",
+      "confidence": "low",
+      "agree": false,
+      "tool_total": 16.5,
+      "model_guess": 19.5,
+      "reason": "model_tool_disagree_use_tool",
+      "policy": "confidence_gated_money"
+    }
+  },
+  "u2c_absorb_claim": false,
+  "pass": true,
+  "claim": false,
+  "innovation": true,
+  "note": "Confidence gate: disagree→tool. Evidence only; no Gate2/3 mint."
+}

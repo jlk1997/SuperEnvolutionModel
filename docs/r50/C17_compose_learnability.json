@@ -1,0 +1,28 @@
+{
+  "kind": "r50_c17",
+  "rate": 1.0,
+  "rows": [
+    {
+      "kind": "table_file_report",
+      "n_atoms": 3,
+      "ok": true
+    },
+    {
+      "kind": "table_file",
+      "n_atoms": 2,
+      "ok": true
+    },
+    {
+      "kind": "report_shell",
+      "n_atoms": 2,
+      "ok": true
+    },
+    {
+      "kind": "file_report",
+      "n_atoms": 2,
+      "ok": true
+    }
+  ],
+  "timestamp": "2026-10-18T22:30:53+08:00",
+  "innovation": "Compose learnability"
+}

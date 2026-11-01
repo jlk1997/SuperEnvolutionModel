@@ -1,0 +1,546 @@
+{
+  "train": [
+    {
+      "id": "v39_01",
+      "kind": "spruce_recv",
+      "metric": "paid_total",
+      "expected": 131.5,
+      "lines": [
+        "SPRUCE GRAIN RECV V39",
+        "a paid 63.00",
+        "b paid 68.50",
+        "c open 20.00",
+        "TOTAL PAID TARGET 131.50"
+      ],
+      "cn": "云杉收款单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v39_02",
+      "kind": "carnelian_wh",
+      "metric": "qty_sum",
+      "expected": 97.0,
+      "lines": [
+        "WH CARNELIAN TILE V39",
+        "SKU1 qty 38 ok",
+        "SKU2 qty 33 hold",
+        "SKU3 qty 46 ok",
+        "qty_sum TARGET 97"
+      ],
+      "cn": "红玉髓仓位单",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v39_03",
+      "kind": "voile_refund",
+      "metric": "refund_done",
+      "expected": 74.25,
+      "lines": [
+        "VOILE PATCH REFUND V39",
+        "itemR1 36.00 done",
+        "itemR2 38.25 done",
+        "itemR3 15.00 open",
+        "refund_done TARGET 74.25"
+      ],
+      "cn": "薄纱补丁退款单",
+      "stamp": "DONE"
+    },
+    {
+      "id": "v39_04",
+      "kind": "azure_tax",
+      "metric": "tax_base_paid",
+      "expected": 193.0,
+      "lines": [
+        "AZURE TAX SLIP V39",
+        "base 94.00 paid",
+        "addon 99.00 paid",
+        "skip 43.00",
+        "tax_base_paid TARGET 193.00"
+      ],
+      "cn": "霁蓝税基单",
+      "stamp": "TAX"
+    },
+    {
+      "id": "v39_05",
+      "kind": "apatite_pay",
+      "metric": "payroll_active",
+      "expected": 262.0,
+      "lines": [
+        "APATITE PAYROLL V39",
+        "empA 129.00 active",
+        "empB 133.00 active",
+        "empC 36.00 leave",
+        "payroll_active TARGET 262.00"
+      ],
+      "cn": "磷灰石薪资单",
+      "stamp": "PAY"
+    },
+    {
+      "id": "v39_06",
+      "kind": "cleat_ship",
+      "metric": "ship_ok",
+      "expected": 66.0,
+      "lines": [
+        "CLEAT SHIP DOCK V39",
+        "box1 31 ok",
+        "box2 18 ok",
+        "box3 22 hold",
+        "ship_ok TARGET 66"
+      ],
+      "cn": "系缆出库单",
+      "stamp": "SHIP"
+    },
+    {
+      "id": "v39_07",
+      "kind": "peridot_sla",
+      "metric": "sla_ok_hours",
+      "expected": 84.5,
+      "lines": [
+        "PERIDOT SLA CARD V39",
+        "job1 45.00 hours ok",
+        "job2 39.50 hours ok",
+        "job3 21.00 hours late",
+        "sla_ok_hours TARGET 84.50"
+      ],
+      "cn": "橄榄石SLA卡",
+      "stamp": "SLA"
+    },
+    {
+      "id": "v39_08",
+      "kind": "gneiss_exp",
+      "metric": "exp_sum",
+      "expected": 111.75,
+      "lines": [
+        "GNEISS EXPENSE V39",
+        "e1 53.00",
+        "e2 58.75",
+        "e3 25.00 void",
+        "exp_sum TARGET 111.75"
+      ],
+      "cn": "片麻岩费用单",
+      "stamp": "EXP"
+    },
+    {
+      "id": "v39_09",
+      "kind": "zinc_po",
+      "metric": "po_open",
+      "expected": 125.0,
+      "lines": [
+        "ZINC PO SHEET V39",
+        "line1 67.00 open",
+        "line2 58.00 open",
+        "line3 29.00 closed",
+        "po_open TARGET 125.00"
+      ],
+      "cn": "锌片采购单",
+      "stamp": "PO"
+    },
+    {
+      "id": "v39_10",
+      "kind": "papyrus_order",
+      "metric": "order_paid",
+      "expected": 151.5,
+      "lines": [
+        "PAPYRUS ORDER V39",
+        "skuA 81.00 paid",
+        "skuB 70.50 paid",
+        "skuC 22.00 due",
+        "order_paid TARGET 151.50"
+      ],
+      "cn": "莎草纸订单",
+      "stamp": "ORD"
+    },
+    {
+      "id": "v39_11",
+      "kind": "houndstooth_dup",
+      "metric": "dup_mark",
+      "expected": 2.0,
+      "lines": [
+        "HOUNDSTOOTH DUP MARK V39",
+        "markA 1",
+        "markB 1",
+        "markC 0",
+        "dup_mark TARGET 2"
+      ],
+      "cn": "千鸟格重复标",
+      "stamp": "DUP"
+    },
+    {
+      "id": "v39_12",
+      "kind": "empty_zero",
+      "metric": "zero_check",
+      "expected": 0.0,
+      "lines": [
+        "EMPTY VOID ZERO V39",
+        "z1 0.00",
+        "z2 0.00",
+        "z3 0.00",
+        "zero_check TARGET 0.00"
+      ],
+      "cn": "空仓零检单",
+      "stamp": "ZERO"
+    },
+    {
+      "id": "v39_13",
+      "kind": "hessian_ledger",
+      "metric": "ledger_net",
+      "expected": 227.25,
+      "lines": [
+        "HESSIAN LEDGER V39",
+        "dr 111.00",
+        "cr 116.25",
+        "adj 37.00",
+        "ledger_net TARGET 227.25"
+      ],
+      "cn": "粗麻账本",
+      "stamp": "LED"
+    },
+    {
+      "id": "v39_14",
+      "kind": "shellac_ui",
+      "metric": "ui_ok",
+      "expected": 1.0,
+      "lines": [
+        "SHELLAC UI SCAN V39",
+        "btnOK 1",
+        "btnSkip 0",
+        "btnBad 0",
+        "ui_ok TARGET 1"
+      ],
+      "cn": "虫胶界面扫描",
+      "stamp": "UI"
+    },
+    {
+      "id": "v39_15",
+      "kind": "sisal_stack",
+      "metric": "stack_count",
+      "expected": 12.0,
+      "lines": [
+        "SISAL STACK V39",
+        "p1 5",
+        "p2 4",
+        "p3 3",
+        "stack_count TARGET 12"
+      ],
+      "cn": "剑麻堆叠单",
+      "stamp": "STK"
+    },
+    {
+      "id": "v39_16",
+      "kind": "fig_fax",
+      "metric": "fax_pages",
+      "expected": 17.0,
+      "lines": [
+        "FIG FAX V39",
+        "pgA 9",
+        "pgB 8",
+        "pgC 3 drop",
+        "fax_pages TARGET 17"
+      ],
+      "cn": "无花果传真单",
+      "stamp": "FAX"
+    },
+    {
+      "id": "v39_17",
+      "kind": "osmium_glare",
+      "metric": "glare_ok",
+      "expected": 1.0,
+      "lines": [
+        "OSMIUM GLARE V39",
+        "zone1 1 ok",
+        "zone2 0",
+        "zone3 0",
+        "glare_ok TARGET 1"
+      ],
+      "cn": "锇光眩光单",
+      "stamp": "GLR"
+    },
+    {
+      "id": "v39_18",
+      "kind": "quire_tab",
+      "metric": "tab_index",
+      "expected": 23.0,
+      "lines": [
+        "QUIRE TAB INDEX V39",
+        "tabA 13",
+        "tabB 10",
+        "tabC 2",
+        "tab_index TARGET 23"
+      ],
+      "cn": "印张页签索引",
+      "stamp": "TAB"
+    }
+  ],
+  "held": [
+    {
+      "id": "v39h_01",
+      "kind": "spruce_recv",
+      "metric": "paid_total",
+      "expected": 71.5,
+      "lines": [
+        "SPRUCE GRAIN RECV V39",
+        "a paid 34.00",
+        "b paid 37.50",
+        "c open 11.00",
+        "TOTAL PAID TARGET 71.50"
+      ],
+      "cn": "云杉收款单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v39h_02",
+      "kind": "carnelian_wh",
+      "metric": "qty_sum",
+      "expected": 52.0,
+      "lines": [
+        "WH CARNELIAN TILE V39",
+        "SKU1 qty 20 ok",
+        "SKU2 qty 17 hold",
+        "SKU3 qty 24 ok",
+        "qty_sum TARGET 52"
+      ],
+      "cn": "红玉髓仓位单H",
+      "stamp": "RECV"
+    },
+    {
+      "id": "v39h_03",
+      "kind": "voile_refund",
+      "metric": "refund_done",
+      "expected": 40.25,
+      "lines": [
+        "VOILE PATCH REFUND V39",
+        "itemR1 19.00 done",
+        "itemR2 21.25 done",
+        "itemR3 8.00 open",
+        "refund_done TARGET 40.25"
+      ],
+      "cn": "薄纱补丁退款单H",
+      "stamp": "DONE"
+    },
+    {
+      "id": "v39h_04",
+      "kind": "azure_tax",
+      "metric": "tax_base_paid",
+      "expected": 104.0,
+      "lines": [
+        "AZURE TAX SLIP V39",
+        "base 51.00 paid",
+        "addon 53.00 paid",
+        "skip 23.00",
+        "tax_base_paid TARGET 104.00"
+      ],
+      "cn": "霁蓝税基单H",
+      "stamp": "TAX"
+    },
+    {
+      "id": "v39h_05",
+      "kind": "apatite_pay",
+      "metric": "payroll_active",
+      "expected": 141.0,
+      "lines": [
+        "APATITE PAYROLL V39",
+        "empA 69.00 active",
+        "empB 72.00 active",
+        "empC 19.00 leave",
+        "payroll_active TARGET 141.00"
+      ],
+      "cn": "磷灰石薪资单H",
+      "stamp": "PAY"
+    },
+    {
+      "id": "v39h_06",
+      "kind": "cleat_ship",
+      "metric": "ship_ok",
+      "expected": 35.0,
+      "lines": [
+        "CLEAT SHIP DOCK V39",
+        "box1 16 ok",
+        "box2 10 ok",
+        "box3 12 hold",
+        "ship_ok TARGET 35"
+      ],
+      "cn": "系缆出库单H",
+      "stamp": "SHIP"
+    },
+    {
+      "id": "v39h_07",
+      "kind": "peridot_sla",
+      "metric": "sla_ok_hours",
+      "expected": 46.25,
+      "lines": [
+        "PERIDOT SLA CARD V39",
+        "job1 25.00 hours ok",
+        "job2 21.25 hours ok",
+        "job3 12.00 hours late",
+        "sla_ok_hours TARGET 46.25"
+      ],
+      "cn": "橄榄石SLA卡H",
+      "stamp": "SLA"
+    },
+    {
+      "id": "v39h_08",
+      "kind": "gneiss_exp",
+      "metric": "exp_sum",
+      "expected": 60.75,
+      "lines": [
+        "GNEISS EXPENSE V39",
+        "e1 29.00",
+        "e2 31.75",
+        "e3 14.00 void",
+        "exp_sum TARGET 60.75"
+      ],
+      "cn": "片麻岩费用单H",
+      "stamp": "EXP"
+    },
+    {
+      "id": "v39h_09",
+      "kind": "zinc_po",
+      "metric": "po_open",
+      "expected": 67.0,
+      "lines": [
+        "ZINC PO SHEET V39",
+        "line1 36.00 open",
+        "line2 31.00 open",
+        "line3 16.00 closed",
+        "po_open TARGET 67.00"
+      ],
+      "cn": "锌片采购单H",
+      "stamp": "PO"
+    },
+    {
+      "id": "v39h_10",
+      "kind": "papyrus_order",
+      "metric": "order_paid",
+      "expected": 81.5,
+      "lines": [
+        "PAPYRUS ORDER V39",
+        "skuA 43.00 paid",
+        "skuB 38.50 paid",
+        "skuC 12.00 due",
+        "order_paid TARGET 81.50"
+      ],
+      "cn": "莎草纸订单H",
+      "stamp": "ORD"
+    },
+    {
+      "id": "v39h_11",
+      "kind": "houndstooth_dup",
+      "metric": "dup_mark",
+      "expected": 2.0,
+      "lines": [
+        "HOUNDSTOOTH DUP MARK V39",
+        "markA 1",
+        "markB 1",
+        "markC 0",
+        "dup_mark TARGET 2"
+      ],
+      "cn": "千鸟格重复标H",
+      "stamp": "DUP"
+    },
+    {
+      "id": "v39h_12",
+      "kind": "empty_zero",
+      "metric": "zero_check",
+      "expected": 0.0,
+      "lines": [
+        "EMPTY VOID ZERO V39",
+        "z1 0.00",
+        "z2 0.00",
+        "z3 0.00",
+        "zero_check TARGET 0.00"
+      ],
+      "cn": "空仓零检单H",
+      "stamp": "ZERO"
+    },
+    {
+      "id": "v39h_13",
+      "kind": "hessian_ledger",
+      "metric": "ledger_net",
+      "expected": 122.25,
+      "lines": [
+        "HESSIAN LEDGER V39",
+        "dr 60.00",
+        "cr 62.25",
+        "adj 20.00",
+        "ledger_net TARGET 122.25"
+      ],
+      "cn": "粗麻账本H",
+      "stamp": "LED"
+    },
+    {
+      "id": "v39h_14",
+      "kind": "shellac_ui",
+      "metric": "ui_ok",
+      "expected": 1.0,
+      "lines": [
+        "SHELLAC UI SCAN V39",
+        "btnOK 1",
+        "btnSkip 0",
+        "btnBad 0",
+        "ui_ok TARGET 1"
+      ],
+      "cn": "虫胶界面扫描H",
+      "stamp": "UI"
+    },
+    {
+      "id": "v39h_15",
+      "kind": "sisal_stack",
+      "metric": "stack_count",
+      "expected": 7.0,
+      "lines": [
+        "SISAL STACK V39",
+        "p1 3",
+        "p2 2",
+        "p3 2",
+        "stack_count TARGET 7"
+      ],
+      "cn": "剑麻堆叠单H",
+      "stamp": "STK"
+    },
+    {
+      "id": "v39h_16",
+      "kind": "fig_fax",
+      "metric": "fax_pages",
+      "expected": 9.0,
+      "lines": [
+        "FIG FAX V39",
+        "pgA 5",
+        "pgB 4",
+        "pgC 2 drop",
+        "fax_pages TARGET 9"
+      ],
+      "cn": "无花果传真单H",
+      "stamp": "FAX"
+    },
+    {
+      "id": "v39h_17",
+      "kind": "osmium_glare",
+      "metric": "glare_ok",
+      "expected": 1.0,
+      "lines": [
+        "OSMIUM GLARE V39",
+        "zone1 1 ok",
+        "zone2 0",
+        "zone3 0",
+        "glare_ok TARGET 1"
+      ],
+      "cn": "锇光眩光单H",
+      "stamp": "GLR"
+    },
+    {
+      "id": "v39h_18",
+      "kind": "quire_tab",
+      "metric": "tab_index",
+      "expected": 12.0,
+      "lines": [
+        "QUIRE TAB INDEX V39",
+        "tabA 7",
+        "tabB 5",
+        "tabC 1",
+        "tab_index TARGET 12"
+      ],
+      "cn": "印张页签索引H",
+      "stamp": "TAB"
+    }
+  ]
+}

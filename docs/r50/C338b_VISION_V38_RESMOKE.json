@@ -1,0 +1,32 @@
+{
+  "cycle": "C338b",
+  "theme": "v38_resmoke_after_sla_atom_fix",
+  "timestamp": "2026-10-20T02:45:02+08:00",
+  "rate": 1.0,
+  "n_ok": 18,
+  "n": 18,
+  "fail_ids": [],
+  "claim": true,
+  "pass": true,
+  "v38_07_ok": true,
+  "live_ids": [
+    "v38_01",
+    "v38_02",
+    "v38_03",
+    "v38_04",
+    "v38_05",
+    "v38_06",
+    "v38_07",
+    "v38_08",
+    "v38_09",
+    "v38_10",
+    "v38_11",
+    "v38_12",
+    "v38_13",
+    "v38_14",
+    "v38_15",
+    "v38_16"
+  ],
+  "gate2_3_untouched": true,
+  "gen11": "HOLD"
+}

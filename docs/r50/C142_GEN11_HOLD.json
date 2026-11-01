@@ -1,0 +1,14 @@
+{
+  "cycle": "C142",
+  "theme": "gen11_hold",
+  "timestamp": "2026-10-19T03:44:18+08:00",
+  "gen11": "HOLD",
+  "seal_opened": false,
+  "open_criteria": "fresh>=0.99 AND explicit operator unlock",
+  "fresh_score": null,
+  "reason": "continuous evolution focus on V6 heldout + product; heritability seal stays closed",
+  "gate2_3_untouched": true,
+  "gate": 0.6,
+  "pass": true,
+  "claim": false
+}

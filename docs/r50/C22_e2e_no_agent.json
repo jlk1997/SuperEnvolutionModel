@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "steps": [
+    "file_collect",
+    "report",
+    "shell_deliver"
+  ],
+  "agent_graph": false,
+  "timestamp": "2026-10-18T22:31:06+08:00",
+  "innovation": "E2E office without agent planner"
+}

@@ -1,0 +1,232 @@
+{
+  "cycle": "C432",
+  "theme": "vision_v54_smoke",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T10:15:57+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7568.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v54_01",
+      "kind": "coral_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 351.25,
+      "expected": 351.25,
+      "ocr_preview": "coral CORAL GRAIN RECV V54 a paid 174.00 b paid 177.25 c open 81.00 TOTAL PAID TARGET 351.25 DRAFT WATERMARK COPY DRAFT WATERMARK COPY GR 1812.77 GR 1812.77 TAPE RE3 bait 12.12 TAPE RE3 bait 12.12 VOID VOID COPY OVEN MUG PEN OVERLAP LABEL bait 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PYROE SHADOW bait 503.00 FAX 1234567890"
+    },
+    {
+      "id": "v54_02",
+      "kind": "dune_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 284.0,
+      "expected": 284.0,
+      "ocr_preview": "dune WH DUNE BIN V54 SKU1 qty 128 ok SKU2 qty 97 hold SKU3 qty 156 ok qty_sum TARGET 284 DRAFT WATERMARK COPY TAPE R23 bait 12 12 RING 38 4 12 32 OR 18 12 77 VOID COPY OVEN DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v54_03",
+      "kind": "ember_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 251.5,
+      "expected": 251.5,
+      "ocr_preview": "ember EMBER PATCH REFUND V54 ItemR1 122.00 done ItemR2 129.50 done ItemR3 61.00 open refund_done TARGET 251.50 DRAFT DRAFT WATERMARK COPY GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT GRANT "
+    },
+    {
+      "id": "v54_04",
+      "kind": "frost_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 441.0,
+      "expected": 441.0,
+      "ocr_preview": "frost FROST TAX SLIP V54 base 216.00 paid addon 205.00 paid skip 112.00 tax_base_paid TARGET 441.00 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.3.35 GR 38.12.77 VOID COPY OVEN: DO NOT SCAN OVERLAY LABEL bait 32. MUG PEN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 505.00 FAX HEADER BAIT 88.88 FROM:SPOT SHIP LABEL bait 22"
+    },
+    {
+      "id": "v54_05",
+      "kind": "granite_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 558.0,
+      "expected": 558.0,
+      "ocr_preview": "granite GRANITE PAYROLL V54 empB 273.00 active empB 285.00 active empC 101.00 leave payroll_active TARGET 558.00 DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.4.12.30 GR Bait 12.77 VOID COPY OVEN DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 666.00 PHONE SHADOW bait 303.00 FAX HEADER BAIT 22.22 FROM: SPOTF SHOP LABEL BAIT 222-22 TRADE MAR"
+    },
+    {
+      "id": "v54_06",
+      "kind": "harbor_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 219.0,
+      "expected": 219.0,
+      "ocr_preview": "harbor HARBOR SHIP DOCK V54 box1 107 ok box2 118 ok box3 71 hole ship_ok TARGET 219 DRAFT WATERMARK COPY TAPE R23 bait 12 12 RING 38 43 35 GR 18 12 77 VOID COPY OVEN FAX HEADER BAIT 88 88 FROM: SPOOF SHIP LABEL BAIT 222-22 TRACK 1003 645 MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO WIN IGNORE old total 999.00 do not parse bait 646.00 PHONE SHADOW bait 303"
+    },
+    {
+      "id": "v54_07",
+      "kind": "ivory_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 259.75,
+      "expected": 259.75,
+      "ocr_preview": "IVORY IVORY SLA CARD V54 job1 136.00 hours ok job2 128.75 hours ok job3 69.00 hours late sla_ok_hours TARGET 259.75 DRAFT DRAFT WATERMARK COPY TAPE R23 bait 12.12 RING 38.43.32 OR 38.12.77 VOID COPY OVEN PHONE SHADOW BARCODE bait 123.40 FAX HEADER BAIT 88.88 FROM: SPOOF SHOP LABEL BAIT 222.22 TRADE MARK: EAGLE MUG PEN OVERLAP LABEL BAIT 327 DO NOT SCAN VCHO "
+    },
+    {
+      "id": "v54_08",
+      "kind": "jade_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 304.25,
+      "expected": 304.25,
+      "ocr_preview": "jade jade EXPENSE V54 e1 147.00 e2 157.25 e3 76.00 vda exp_sum TARGET 304.25 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v54_09",
+      "kind": "knoll_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 328.0,
+      "expected": 328.0,
+      "ocr_preview": "knoll KNOLL PO SHEET V54 line1 173.00 open line2 156.00 open line3 84.00 closed po_open TARGET 328.00 DRAFT DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v54_10",
+      "kind": "lotus_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 386.5,
+      "expected": 386.5,
+      "ocr_preview": "lotus LOTUS ORDER V54 skuB 202.00 paid skuB 184.50 paid skuC 73.00 due order_paid TARGET 386.50 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v54_11",
+      "kind": "maple_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "maple MAPLE DUP MARK V54 markA 1 markB 1 markC 0 dup_mark TARGET 2 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v54_12",
+      "kind": "nebula_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "nebula NEBULA AIR ZERO V54 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v54_13",
+      "kind": "olive_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 481.75,
+      "expected": 481.75,
+      "ocr_preview": "olive OLIVE LEDGER V54 dr 244.00 cr 247.76 adj 96.00 ledger_net TARGET 481.75 OLIVE scan DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COP"
+    },
+    {
+      "id": "v54_14",
+      "kind": "pearl_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "pearl PEARL UI SCAN V54 brack 1 brnSkip 0 brnBad 0 ui_ok TARGET-1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v54_15",
+      "kind": "quartz_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 46.0,
+      "expected": 46.0,
+      "ocr_preview": "quartz QUARTZ STACK V54 p1 26 p2 20 p3 9 stack_count TARGET 46 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v54_16",
+      "kind": "reef_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 63.0,
+      "expected": 63.0,
+      "ocr_preview": "reef BEEF FAX V54 pgB 85 pgB 26 pgC 21 drop fax_pages TARGET 63 DRAFT WATERMARK COPY TSPE R23 bait 12 12 RING 38 4 12 32 GR 18 12 77 VOID COPY OVEN DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DRAFT WATERMARK COPY DR"
+    },
+    {
+      "id": "v54_17",
+      "kind": "spruce_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "spruce SPRUCE GLARE V54 zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v54_18",
+      "kind": "terra_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 81.0,
+      "expected": 81.0,
+      "ocr_preview": "SCAR DESK V42 BAST 133.00 PAGE 01 terra TERRA TAB INDEX V54 tabC44 tabB 37 tabC 19 tab_index TARGET 81 DRAFT WATERMARK COPY DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    }
+  ],
+  "vl_gate_v54_claim": true,
+  "claim_scope": "r50plus_v54_coral_terra_clarity_floor_n>=16_qwen35_2b",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V54 keeps floor"
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

@@ -1,0 +1,64 @@
+{
+  "kind": "r50_c47",
+  "timestamp": "2026-10-18T22:31:31+08:00",
+  "gpu_free": true,
+  "weights_exist": true,
+  "vl_gate_v1_claim": false,
+  "status": "RAN",
+  "n": 8,
+  "n_ok": 3,
+  "rate": 0.375,
+  "gate_pass": false,
+  "items": [
+    {
+      "id": "office-caption-001",
+      "ok": true,
+      "heldout": false,
+      "pred_head": "A blue office desk with a laptop."
+    },
+    {
+      "id": "office-caption-002",
+      "ok": false,
+      "heldout": false,
+      "pred_head": "A blank white image."
+    },
+    {
+      "id": "office-caption-003",
+      "ok": false,
+      "heldout": false,
+      "pred_head": "A blank, off-white background."
+    },
+    {
+      "id": "office-hard-mixed-001",
+      "ok": true,
+      "heldout": true,
+      "pred_head": "assistant\n\n<think>\n\n</think>\n\n\nuser\nuser"
+    },
+    {
+      "id": "office-hard-ocr-001",
+      "ok": false,
+      "heldout": false,
+      "pred_head": "assistant\n\n<think>\n\n</think>\n\n\nuser\nuser"
+    },
+    {
+      "id": "office-hard-table-001",
+      "ok": false,
+      "heldout": false,
+      "pred_head": "```csv\nCharacteristic,Value\nName,\n```"
+    },
+    {
+      "id": "office-hard-ui-001",
+      "ok": false,
+      "heldout": false,
+      "pred_head": "A blank white image."
+    },
+    {
+      "id": "office-ocr-001",
+      "ok": true,
+      "heldout": false,
+      "pred_head": "INVOICE-7781\nTOTAL 128.50\nPaid"
+    }
+  ],
+  "claim_scope": null,
+  "innovation": "Real VL V1 smoke widened fixtures soft-match"
+}

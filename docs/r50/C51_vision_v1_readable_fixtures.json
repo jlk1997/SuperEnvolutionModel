@@ -1,0 +1,89 @@
+{
+  "kind": "vision_v1_readable_fixtures_regen",
+  "timestamp": "2026-10-18T22:37:35+08:00",
+  "n_png": 19,
+  "sizes": [
+    [
+      "office-caption-001.png",
+      7485
+    ],
+    [
+      "office-caption-002.png",
+      16554
+    ],
+    [
+      "office-caption-003.png",
+      18140
+    ],
+    [
+      "office-hard-mixed-001.png",
+      7824
+    ],
+    [
+      "office-hard-ocr-001.png",
+      12160
+    ],
+    [
+      "office-hard-table-001.png",
+      9327
+    ],
+    [
+      "office-hard-ui-001.png",
+      9033
+    ],
+    [
+      "office-ocr-001.png",
+      9699
+    ],
+    [
+      "office-ocr-002.png",
+      4855
+    ],
+    [
+      "office-ocr-003.png",
+      3700
+    ],
+    [
+      "office-pdfpage-001.png",
+      10755
+    ],
+    [
+      "office-pdfpage-002.png",
+      10134
+    ],
+    [
+      "office-pdfpage-003.png",
+      10384
+    ],
+    [
+      "office-table-001.png",
+      5613
+    ],
+    [
+      "office-table-002.png",
+      5897
+    ],
+    [
+      "office-table-003.png",
+      5675
+    ],
+    [
+      "office-ui-001.png",
+      10632
+    ],
+    [
+      "office-ui-002.png",
+      12521
+    ],
+    [
+      "office-ui-003.png",
+      6076
+    ]
+  ],
+  "tiny_under_800b": [],
+  "root_cause_fixed": "solid-color png()+tEXt -> high-contrast PIL text/table/UI",
+  "prior_c47_rate": 0.375,
+  "gate": 0.6,
+  "vl_gate_v1_claim": false,
+  "note": "Fixtures only; claim requires real VL smoke >=0.6"
+}

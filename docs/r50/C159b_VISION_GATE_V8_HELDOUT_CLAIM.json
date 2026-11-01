@@ -1,0 +1,14 @@
+{
+  "kind": "vision_gate_v8_heldout_claim",
+  "timestamp": "2026-10-19T04:44:45+08:00",
+  "vl_gate_v8_heldout_claim": true,
+  "rate": 0.9375,
+  "n": 16,
+  "n_ok": 15,
+  "gate": 0.6,
+  "claim_scope": "r50plus_v8_heldout_disjoint_n>=16_c158b_parse_qwen35_2b_c159",
+  "gate2_3_untouched": true,
+  "v0_v7_untouched": true,
+  "gen11": "HOLD",
+  "cycle": "C159"
+}

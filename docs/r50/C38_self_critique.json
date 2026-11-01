@@ -1,0 +1,14 @@
+{
+  "rows": [
+    {
+      "tag": "excellent",
+      "action": "promote_signal"
+    },
+    {
+      "tag": "fail",
+      "action": "crystal_fix_or_demote"
+    }
+  ],
+  "timestamp": "2026-10-18T22:31:19+08:00",
+  "innovation": "Self-critique use_log→U2C"
+}

@@ -1,0 +1,28 @@
+{
+  "cycle": "C1973",
+  "theme": "vision_v311_design_and_batch",
+  "gate": 0.6,
+  "timestamp": "2026-10-28T12:31:51+08:00",
+  "n": 18,
+  "fixture_dir": "evo/office/fixtures/vision_images_v311",
+  "protocol": "docs/蚁算_VL_GATE_V311_PROTOCOL.md",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ],
+    "lesson": "C218 crush + C236 soft_affine; V311 keeps floor"
+  },
+  "vl_gate_v311_claim": false,
+  "pass": true,
+  "claim": false,
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "note": "C1973 design+fixtures; no VL claim"
+}

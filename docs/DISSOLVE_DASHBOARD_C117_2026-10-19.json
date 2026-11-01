@@ -1,0 +1,43 @@
+{
+  "cycle": "C117",
+  "families": {
+    "table": {
+      "bare": 1.0,
+      "D": 0.0,
+      "internalized": true
+    },
+    "report": {
+      "bare": 1.0,
+      "D": 0.0,
+      "internalized": true
+    },
+    "file": {
+      "bare": 1.0,
+      "D": 0.0,
+      "internalized": true
+    },
+    "shell": {
+      "bare": 1.0,
+      "D": 0.0,
+      "internalized": true
+    }
+  },
+  "vision": {
+    "v4_heldout": {
+      "pass": true,
+      "claim": true,
+      "rate": 1.0,
+      "ocr_rate": 1.0,
+      "atom_rate": 1.0
+    },
+    "v5_design": {
+      "pass": true,
+      "claim": false,
+      "n_fixtures": 12,
+      "vl_gate_v5_claim": false,
+      "smoke_rate": null
+    }
+  },
+  "timestamp": "2026-10-19T02:38:31+08:00",
+  "note": "Pointer refresh after C113-C116."
+}

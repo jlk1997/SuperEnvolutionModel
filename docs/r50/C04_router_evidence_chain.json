@@ -1,0 +1,44 @@
+{
+  "kind": "r50_c04",
+  "timestamp": "2026-10-18T22:30:14+08:00",
+  "compose_chains": {
+    "table_file": {
+      "why": [
+        "compose_kind=table_file",
+        "families=table,file",
+        "select_atom=office_table_uselog because family=table in compose chain",
+        "select_atom=office_file_uselog because family=file in compose chain"
+      ],
+      "atoms": [
+        "office_table_uselog",
+        "office_file_uselog"
+      ]
+    },
+    "report_shell": {
+      "why": [
+        "compose_kind=report_shell",
+        "families=report,shell",
+        "select_atom=office_report_uselog because family=report in compose chain",
+        "select_atom=office_shell_uselog because family=shell in compose chain"
+      ],
+      "atoms": [
+        "office_report_uselog",
+        "office_shell_uselog"
+      ]
+    },
+    "file_report": {
+      "why": [
+        "compose_kind=file_report",
+        "families=file,report",
+        "select_atom=office_file_uselog because family=file in compose chain",
+        "select_atom=office_report_uselog because family=report in compose chain"
+      ],
+      "atoms": [
+        "office_file_uselog",
+        "office_report_uselog"
+      ]
+    }
+  },
+  "all_have_why": true,
+  "innovation": "Mandatory evidence-chain on every atom route"
+}

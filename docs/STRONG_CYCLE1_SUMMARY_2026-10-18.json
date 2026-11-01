@@ -1,0 +1,12 @@
+{
+  "cycle": 1,
+  "timestamp": "2026-10-18T20:24:37+08:00",
+  "vl_found": false,
+  "syn_pass": true,
+  "syn_rate": 1.0,
+  "compose_pass": true,
+  "compose_rate": 1.0,
+  "u2c_pass": true,
+  "dissolve_pass": true,
+  "evolution_strong": "CANDIDATE"
+}

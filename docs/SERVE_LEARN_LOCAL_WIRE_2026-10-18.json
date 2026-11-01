@@ -1,0 +1,39 @@
+{
+  "kind": "serve_learn_local_wire",
+  "gate": "0.6",
+  "timestamp": "2026-10-18T19:03:59+08:00",
+  "bench_id": "serve_learn",
+  "local_path": "E:\\envolution\\data\\external_fixtures\\serve_learn_local.json",
+  "load": {
+    "ok": true,
+    "bench_id": "serve_learn",
+    "path": "E:\\envolution\\data\\external_fixtures\\serve_learn_local.json",
+    "n": 8,
+    "n_train": 4,
+    "n_eval": 4,
+    "upstream_claim": false,
+    "kind": "service_toy"
+  },
+  "score_smoke": {
+    "ok": true,
+    "bench_id": "serve_learn",
+    "n": 4,
+    "hits": 4,
+    "rate": 1.0,
+    "gate": "0.6",
+    "pass_gate": true,
+    "upstream_claim": false,
+    "notes": "local service_toy score only; not upstream serve_learn"
+  },
+  "upstream_claim": false,
+  "pass": true,
+  "notes": "Wired serve_learn adapter to local toy. Not upstream ServeLearnBench.",
+  "train_enriched_format": true,
+  "eval_ids_unchanged": [
+    "sl5",
+    "sl6",
+    "sl7",
+    "sl8"
+  ],
+  "note_enrich": "train half got Bearer/date/JSON format twins; eval golds unchanged for SFT honesty"
+}

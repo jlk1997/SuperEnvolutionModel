@@ -1,0 +1,237 @@
+{
+  "cycle": "C703",
+  "theme": "vision_v99_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-21T04:37:45+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7290.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v99h_01",
+      "kind": "eaglehill_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 692.75,
+      "expected": 692.75,
+      "ocr_preview": "eaglehill EAGLEHILL GRAIN RECV V99H a paid 340.00 b paid 352.75 c open 233.00 TOTAL PAID TARGET 692.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 66.00 IGNORE REC VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 V99H C750 clarity from peg_c750 photo2 testout"
+    },
+    {
+      "id": "v99h_02",
+      "kind": "falconridge_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 630.0,
+      "expected": 630.0,
+      "ocr_preview": "falconridge WH FALCONRIDGE BIN V99H SKU1 qty 295 ok SKU2 qty 215 hold SKU3 qty 335 ok qty_sum TARGET 630 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRA"
+    },
+    {
+      "id": "v99h_03",
+      "kind": "glacierridge_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 609.5,
+      "expected": 609.5,
+      "ocr_preview": "glacierridge GLACIERRIDGE PATCH REFUND V99H itemR1 298.00 done itemR2 311.50 done itemR3 221.00 open refund_done TARGET 609.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE DONE VOID COPY V99H C750 clarity floor peg_052 photo2 testout."
+    },
+    {
+      "id": "v99h_04",
+      "kind": "havenridge_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 842.0,
+      "expected": 842.0,
+      "ocr_preview": "havenridge HAVENRIDGE TAX SLIP V99H base 413.00 paid addon 429.00 paid skip 262.00 tax_base_paid TARGET 842.00 VOID WIN IGNORE old total 888.00 do not parse balt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 88.00 IGNORE TAX VOID COPY V99H C753 clarity four peg_0502 photo2 testout"
+    },
+    {
+      "id": "v99h_05",
+      "kind": "islandgrove_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 924.0,
+      "expected": 924.0,
+      "ocr_preview": "SCAN DESK V43H bask 222.00 PAGE 01 islandgrove ISLANDGROVE PAYROLL V99H empA 454.00 active empB 470.00 active empC 257.00 leave payroll_active TARGET 924.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v99h_06",
+      "kind": "jetridge_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 510.0,
+      "expected": 510.0,
+      "ocr_preview": "jetridge JETRIDGE SHIP DOCK V99H box1 248 ok box2 262 ok box3 226 hold ship_ok TARGET 510 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE SHIP VOID COPY V99H C755 clarity four peg_peg2 photo2 testout"
+    },
+    {
+      "id": "v99h_07",
+      "kind": "kilnridge_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 520.0,
+      "expected": 520.0,
+      "ocr_preview": "kilnridge KILNRIDGE SLA CARD V99H job1 240.00 hours ok job2 280.00 hours ok job3 180.00 hours late sla_ok_hours TARGET 520.00 VOID WIN IGNORE old total 888.00 do not parse bailt 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bailt 55.00 IGNORE SLA VOID COPY V99H C753 clarity four peg_052 photo2 testout SCAN DESK V43H BASC 222.00 PAGE 01 bailt 55.00 OKP bailt 55.00"
+    },
+    {
+      "id": "v99h_08",
+      "kind": "lotusgrove_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 669.75,
+      "expected": 669.75,
+      "ocr_preview": "lotusgrove LOTUSGROVE EXPENSE V99H e1 324.00 e2 345.75 e3 233.00 void exp_sum TARGET 669.75 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID"
+    },
+    {
+      "id": "v99h_09",
+      "kind": "marigoldridge_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 676.0,
+      "expected": 676.0,
+      "ocr_preview": "SCAN DESK V43H BAS 222.00 PAGE 01 marigoldridge MARIGOLDRIDGE PO SHEET V99H line1 344.00 open line2 332.00 open line3 236.00 closed po_open TARGET 676.00 DRAFT DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID PO COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V99H C753 clarity four peg_c753 photod2 testout"
+    },
+    {
+      "id": "v99h_10",
+      "kind": "nectarridge_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 728.0,
+      "expected": 728.0,
+      "ocr_preview": "SCAN DESK V43H PART 222.00 PAGE 01 nectarridge NECTARRIDGE ORDER V99H skuA 371.00 paid skuB 357.00 paid skuC 228.00 due order_paid TARGET 728.00 VOID ORD STICKY bait 55.00 IGNORE DRAFT DRAFT DRAFT DRAFT VOID COPY VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v99h_11",
+      "kind": "oakridge_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "oakridge OAKRIDGE DUP MARK V99H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v99h_12",
+      "kind": "petalridge_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "petalridge PETALRIDGE AIR ZERO V99H 21 0.00 22 0.00 23 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 b"
+    },
+    {
+      "id": "v99h_13",
+      "kind": "ridgehill_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 827.5,
+      "expected": 827.5,
+      "ocr_preview": "ridgehill RIDGEHILL LEDGER V99H dr 406.00 cr 421.50 adj 243.00 ledger_net TARGET 827.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE LED VOID COPY V99H C750 clarity form peg_0502 photo2 testout SCAN DESK V43H BAS 222.00 PAGE 01"
+    },
+    {
+      "id": "v99h_14",
+      "kind": "sagegrove_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "sagegrove SAGEGROVE UI SCAN V99H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY V99H C750 clarity floor peg_0502 photo2 testout"
+    },
+    {
+      "id": "v99h_15",
+      "kind": "tulipridge_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 297.0,
+      "expected": 297.0,
+      "ocr_preview": "tulipridge TULIPRIDGE STACK V99H p1 150 p2 147 p3 142 stack_count TARGET 297 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V99H C703 clarity floor peg_peg2 testout"
+    },
+    {
+      "id": "v99h_16",
+      "kind": "umbrahill_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 326.0,
+      "expected": 326.0,
+      "ocr_preview": "umbrahill UMBRAHILL FAX V99H pgA 166 pgB 160 pgC 148 drop fax_pages TARGET 326 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT D"
+    },
+    {
+      "id": "v99h_17",
+      "kind": "violetridge_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "violetridge VIOLETRIDGE GLARE V99H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE GLR VOID COPY V99H C753 clarity floor peg_p502 photo2 testout SCAN DESK V43H part 222.00 PAGE 01"
+    },
+    {
+      "id": "v99h_18",
+      "kind": "walnutridge_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 346.0,
+      "expected": 346.0,
+      "ocr_preview": "walnutridge WALNUTRIDGE TAB INDEX V99H tabA 176 tabB 170 tabC 149 tab_index TARGET 346 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE TAB VOID COPY V99H C750 clarity four peg_c750 photocopied testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v99_heldout_claim": true,
+  "claim_scope": "r50plus_v99_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

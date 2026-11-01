@@ -1,0 +1,237 @@
+{
+  "cycle": "C523",
+  "theme": "vision_v69_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T19:45:39+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7657.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v69h_01",
+      "kind": "stormwatch_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 373.5,
+      "expected": 373.5,
+      "ocr_preview": "stormwatch STORMWATCH GRAIN RECV V69H a paid 179.00 b paid 194.50 c open 94.00 TOTAL PAID TARGET 373.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE REC VOID COPY"
+    },
+    {
+      "id": "v69h_02",
+      "kind": "timberline_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 310.0,
+      "expected": 310.0,
+      "ocr_preview": "timberline WH TIMBERLINE BIN V69H SKU1 qty 141 ok SKU2 qty 101 hold SKU3 qty 169 ok qty_sum TARGET 310 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT"
+    },
+    {
+      "id": "v69h_03",
+      "kind": "undertowbay_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 290.25,
+      "expected": 290.25,
+      "ocr_preview": "undertowbay UNDERTOWBAY PATCH REFUND V69H itemR1 137.00 done itemR2 153.25 done itemR3 82.00 open refund_done TARGET 290.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88"
+    },
+    {
+      "id": "v69h_04",
+      "kind": "valleyforge_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 476.0,
+      "expected": 476.0,
+      "ocr_preview": "valleyforge VALLEYFORGE TAX SLIP V69H base 230.00 paid addon 246.00 paid skip 123.00 tax_base_paid TARGET 476.00 DRAFT DRAFT DRAFT DRAFT STICKY tax 99.99 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v69h_05",
+      "kind": "waterfallglen_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 558.0,
+      "expected": 558.0,
+      "ocr_preview": "waterfallglen WATERFALLGLEN PAYROLL V69H empA 271.00 active empB 287.00 active empC 118.00 leave payroll_active TARGET 558.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT "
+    },
+    {
+      "id": "v69h_06",
+      "kind": "xylograph_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 232.0,
+      "expected": 232.0,
+      "ocr_preview": "xylograph XYLOGRAPH SHIP DOCK V69H box1 109 ok box2 123 ok box3 87 hold ship_ok TARGET 232 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP VOID COPY SCAN DESK V43H bask 222.00 PAGE 01 V69H CS22 clarity four peg_0102 photo2 testout"
+    },
+    {
+      "id": "v69h_07",
+      "kind": "yuccaplateau_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 287.25,
+      "expected": 287.25,
+      "ocr_preview": "yuccaplateau YUCCAPLATEAU SLA CARD V69H job1 145.00 hours ok job2 142.25 hours ok job3 88.00 hours late sla_ok_hours TARGET 287.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SLA COPY"
+    },
+    {
+      "id": "v69h_08",
+      "kind": "zephyrcliff_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 345.0,
+      "expected": 345.0,
+      "ocr_preview": "zephyrcliff ZEPHYRCLIFF EXPENSE V69H e1 163.00 e2 182.00 e3 94.00 void exp_sum TARGET 345.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE EXP VOID COPY bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.0"
+    },
+    {
+      "id": "v69h_09",
+      "kind": "alderbrook_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 354.0,
+      "expected": 354.0,
+      "ocr_preview": "alderbrook ALDERBROOK PO SHEET V69H line1 183.00 open line2 171.00 open line3 97.00 closed po_open TARGET 354.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.00 IGNORE PO COPY bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00 bait 99.00"
+    },
+    {
+      "id": "v69h_10",
+      "kind": "boulderpass_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 408.75,
+      "expected": 408.75,
+      "ocr_preview": "boulderpass BOULDERPASS ORDER V69H skuA 210.00 paid skuB 198.75 paid skuC 89.00 due order_paid TARGET 408.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ORD VOID COPY"
+    },
+    {
+      "id": "v69h_11",
+      "kind": "canyonrim_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "canyonrim CANYONRIM DUP MARK V69H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE DUP VOID COPY"
+    },
+    {
+      "id": "v69h_12",
+      "kind": "duskhorizon_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "duskhorizon DUSKHORIZON AIR ZERO V69H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00"
+    },
+    {
+      "id": "v69h_13",
+      "kind": "echochamber_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 508.25,
+      "expected": 508.25,
+      "ocr_preview": "echochamber ECHOCHAMBER LEDGER V69H dr 245.00 cr 263.25 adj 104.00 ledger_net TARGET 508.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE LED COPY"
+    },
+    {
+      "id": "v69h_14",
+      "kind": "foghorncliff_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "foghorncliff FOGHORNCLIFF UI SCAN V69H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE ui VOID COPY"
+    },
+    {
+      "id": "v69h_15",
+      "kind": "grovehaven_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 63.0,
+      "expected": 63.0,
+      "ocr_preview": "grovehaven GROVEHAVEN STACK V69H p1 33 p2 30 p3 25 stack_count TARGET 63 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE STK VOID COPY"
+    },
+    {
+      "id": "v69h_16",
+      "kind": "highlandmoor_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 92.0,
+      "expected": 92.0,
+      "ocr_preview": "highlandmoor HIGHLANDMOOR FAX V69H pgA 49 pgB 43 pgC 31 drop fax_pages TARGET 92 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 99.99 IGNORE FAX COPY bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99 bait 99.99"
+    },
+    {
+      "id": "v69h_17",
+      "kind": "ironwoodpass_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "ironwoodpass IRONWOODPASS GLARE V69H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR bait 88.00 COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 8"
+    },
+    {
+      "id": "v69h_18",
+      "kind": "juniperpass_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 112.0,
+      "expected": 112.0,
+      "ocr_preview": "juniperpass JUNIPERPASS TAB INDEX V69H tabA 59 tabB 53 tabC 32 tab_index TARGET 112 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE tab 55.00 VOID tab 55.00 COPY tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 55.00 tab 5"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v69_heldout_claim": true,
+  "claim_scope": "r50plus_v69_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

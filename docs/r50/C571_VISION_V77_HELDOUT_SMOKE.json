@@ -1,0 +1,237 @@
+{
+  "cycle": "C571",
+  "theme": "vision_v77_heldout",
+  "gate": 0.6,
+  "timestamp": "2026-10-20T21:29:37+08:00",
+  "attempted": true,
+  "gpu_free_mib_start": 7560.0,
+  "n": 18,
+  "n_ok": 18,
+  "rate": 1.0,
+  "gate_pass": true,
+  "fail_ids": [],
+  "rows": [
+    {
+      "id": "v77h_01",
+      "kind": "goldcliff_recv",
+      "metric": "paid_total",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 467.5,
+      "expected": 467.5,
+      "ocr_preview": "goldcliff GOLDCLIFF GRAIN RECV V77H a paid 227.00 b paid 240.50 c open 126.00 TOTAL PAID TARGET 467.50 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE REC VOID COPY SCAN DESK V43H BAST 222.00 PAGE 01 V77H CE71 clarity four pag_c502 testout"
+    },
+    {
+      "id": "v77h_02",
+      "kind": "hazelpass_wh",
+      "metric": "qty_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 406.0,
+      "expected": 406.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 hazelpass WH HAZELPASS BIN V77H SKU1 qty 189 ok SKU2 qty 133 hold SKU3 qty 217 ok qty_sum TARGET 406 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v77h_03",
+      "kind": "ironpass_refund",
+      "metric": "refund_done",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 384.25,
+      "expected": 384.25,
+      "ocr_preview": "ironpass IRONPASS PATCH REFUND V77H itemR1 185.00 done itemR2 199.25 done itemR3 114.00 open refund_done TARGET 384.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE bait 88.00 VOID DONE COPY SCAN DESK V43H BAST 222.00 PAGE 01 V77H CE71 clarity four peg_052 photo2 testout"
+    },
+    {
+      "id": "v77h_04",
+      "kind": "jadehaven_tax",
+      "metric": "tax_base_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 604.0,
+      "expected": 604.0,
+      "ocr_preview": "jadehaven JADEHAVEN TAX SLIP V77H base 294.00 paid addon 310.00 paid skip 155.00 tax_base_paid TARGET 604.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 60.00 IGNORE TAX VOID COPY V77H C571 clarity four page 2 photo2 reprint SCAN DESK V43H BAS 222.00 PAGE 01"
+    },
+    {
+      "id": "v77h_05",
+      "kind": "knollpass_pay",
+      "metric": "payroll_active",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 686.0,
+      "expected": 686.0,
+      "ocr_preview": "knollpass KNOLLPASS PAYROLL V77H empA 335.00 active empB 351.00 active empC 150.00 leave payroll_active TARGET 686.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v77h_06",
+      "kind": "larkpass_ship",
+      "metric": "ship_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 296.0,
+      "expected": 296.0,
+      "ocr_preview": "larkpass LARKPASS SHIP DOCK V77H box1 141 ok box2 155 ok box3 119 hold ship_ok TARGET 296 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE SHIP COPY"
+    },
+    {
+      "id": "v77h_07",
+      "kind": "mosspass_sla",
+      "metric": "sla_ok_hours",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 381.25,
+      "expected": 381.25,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 mosspass MOSSPASS SLA CARD V77H job1 193.00 hours ok job2 188.25 hours ok job3 120.00 hours late sla_ok_hours TARGET 381.25 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V77H CE71 clarity four peg_012 photo2 testout"
+    },
+    {
+      "id": "v77h_08",
+      "kind": "northpass_exp",
+      "metric": "exp_sum",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 443.0,
+      "expected": 443.0,
+      "ocr_preview": "northpass NORTHPASS EXPENSE V77H e1 211.00 e2 232.00 e3 126.00 void exp_sum TARGET 443.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00"
+    },
+    {
+      "id": "v77h_09",
+      "kind": "opalpass_po",
+      "metric": "po_open",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 450.0,
+      "expected": 450.0,
+      "ocr_preview": "opalpass OPALPASS PO SHEET V77H line1 231.00 open line2 219.00 open line3 129.00 closed po_open TARGET 450.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE PO COPY bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 bait 88.00 b"
+    },
+    {
+      "id": "v77h_10",
+      "kind": "pinehaven_order",
+      "metric": "order_paid",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 502.75,
+      "expected": 502.75,
+      "ocr_preview": "pinehaven PINEHAVEN ORDER V77H skuA 258.00 paid skuB 244.75 paid skuC 121.00 due order_paid TARGET 502.75 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ORD bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55.00 bait 55"
+    },
+    {
+      "id": "v77h_11",
+      "kind": "quartzpass_dup",
+      "metric": "dup_mark",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 2.0,
+      "expected": 2.0,
+      "ocr_preview": "quartzpass QUARTZPASS DUP MARK V77H markA 1 markB 1 markC 0 dup_mark TARGET 2 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DR"
+    },
+    {
+      "id": "v77h_12",
+      "kind": "reedpass_zero",
+      "metric": "zero_check",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 0.0,
+      "expected": 0.0,
+      "ocr_preview": "reedpass REEDPASS AIR ZERO V77H z1 0.00 z2 0.00 z3 0.00 zero_check TARGET 0.00 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE ZERO COPY bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00.00 bait 00"
+    },
+    {
+      "id": "v77h_13",
+      "kind": "stonepass_ledger",
+      "metric": "ledger_net",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 602.25,
+      "expected": 602.25,
+      "ocr_preview": "stonepass STONEPASS LEDGER V77H dr 293.00 cr 309.25 adj 136.00 ledger_net TARGET 602.25 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAF"
+    },
+    {
+      "id": "v77h_14",
+      "kind": "thunderhaven_ui",
+      "metric": "ui_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "thunderhaven THUNDERHAVEN UI SCAN V77H btnOK 1 btnSkip 0 btnBad 0 ui_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 55.00 IGNORE ui COPY"
+    },
+    {
+      "id": "v77h_15",
+      "kind": "umbraepass_stack",
+      "metric": "stack_count",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 95.0,
+      "expected": 95.0,
+      "ocr_preview": "umbraepass UMBRAEPASS STACK V77H p1 49 p2 46 p3 41 stack_count TARGET 95 OKP bait 00.00 DRAFT DRAFT DRAFT DRAFT STICKY bait 00.00 IGNORE VOID WIN IGNORE old total 888.00 do not parse bait 555.00 V77H C571 clarity four peg_c571 photol testout"
+    },
+    {
+      "id": "v77h_16",
+      "kind": "valepass_fax",
+      "metric": "fax_pages",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 124.0,
+      "expected": 124.0,
+      "ocr_preview": "SCAN DESK V43H BAST 222.00 PAGE 01 valepass VALEPASS FAX V77H pgA 65 pgB 59 pgC 47 drop fax_pages TARGET 124 OKP fax 00.00 DRAFT DRAFT DRAFT DRAFT STICKY fax 00.00 IGNORE FAX VOID COPY VOID WIN IGNORE old total 888.00 do not parse fax 555.00 V77H CE71 clarity four pag_0102 photol testout"
+    },
+    {
+      "id": "v77h_17",
+      "kind": "willowpass_glare",
+      "metric": "glare_ok",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 1.0,
+      "expected": 1.0,
+      "ocr_preview": "willowpass WILLOWPASS GLARE V77H zone1 1 ok zone2 0 zone3 0 glare_ok TARGET 1 VOID WIN IGNORE old total 888.00 do not parse bait 555.00 DRAFT DRAFT DRAFT STICKY bait 88.00 IGNORE GLR COPY"
+    },
+    {
+      "id": "v77h_18",
+      "kind": "xenonpass_tab",
+      "metric": "tab_index",
+      "ocr_ok": true,
+      "atom_ok": true,
+      "ok": true,
+      "got": 144.0,
+      "expected": 144.0,
+      "ocr_preview": "SCAN DESK V43H PART 222-00 PAGE 01 xenonpass XENONPASS TAB INDEX V77H tabA 75 tabB 69 tabC 48 tab_index TARGET 144 OKP tab 00 00 DRAFT DRAFT DRAFT DRAFT STICKY tab 00 00 IGNORE VOID WIN IGNORE old total 888.00 do not parse tab 555.00 V77H CES71 clarity four peg_0102 photol testout"
+    }
+  ],
+  "id_disjoint": true,
+  "amt_overlap": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "vl_gate_v77_heldout_claim": true,
+  "claim_scope": "r50plus_v77_heldout_flint_velvet_n>=16_qwen35_2b_clarity_floor",
+  "clarity_floor": {
+    "jpeg_q_min": 60,
+    "jpeg_q": 62,
+    "photocopy_div_max": 2,
+    "photocopy_div": 2,
+    "blur_max": 0.5,
+    "blur": 0.45,
+    "text_band_y": [
+      70,
+      250
+    ]
+  },
+  "gate2_3_untouched": true,
+  "gen11": "HOLD",
+  "pass": true,
+  "claim": true
+}

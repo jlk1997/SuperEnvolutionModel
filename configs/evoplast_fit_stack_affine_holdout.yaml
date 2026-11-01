@@ -1,0 +1,28 @@
+# Affine second skill with far-OOD holdout (post offset stack pass). Gate 0.6.
+run_name: evoplast_fit_stack_affine_holdout
+stage: m0
+actor: model
+seed: 0
+model_name: e:/envolution/models/Qwen2.5-1.5B-Instruct
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.0
+lora_preset: attn_mlp
+max_seq_len: 256
+max_new_code: 24
+skill: stack
+second_kind: affine
+second_phase: slot
+slot_name: skill2
+slot_epochs: 8
+second_select_x: [21, 23, 25, 27]
+second_report_x: [31, 33, 35, 37]
+teach: 8
+exam: 4
+rounds: 1
+fit_epochs: 2
+fit_sites:
+  - attn
+  - mlp
+adapter_dir: runs/evoplast_adapter_stack_affine_holdout
+write: true
